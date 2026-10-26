@@ -1,9 +1,9 @@
 {
   "resumo": {
-    "executado_em": "2026-10-26T21:32:24.343Z",
+    "executado_em": "2026-10-26T21:58:06.586Z",
     "acervo": {
       "modo": "previa",
-      "gerado_em": "2026-10-26T21:31:31+00:00",
+      "gerado_em": "2026-10-26T21:58:06+00:00",
       "documentos": 17,
       "unidades": 581
     },
@@ -12,8 +12,8 @@
     "pendentes_por_falta_de_documento": 2,
     "aprovadas": 110,
     "taxa_aprovacao": 0.917,
-    "recall_em_8_referencias": 0.872,
-    "mrr_primeira_referencia": 0.793,
+    "recall_em_8_referencias": 0.858,
+    "mrr_primeira_referencia": 0.785,
     "acuracia_situacao": 0.844,
     "por_comportamento": {
       "responder": {
@@ -83,9 +83,9 @@
         "Resolução n° 1.098/2025 | Art. 14",
         "Resolução nº 1.114/2025 | Art. 9º",
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
-        "Resolução nº 556/2009 | Art. 2º",
-        "Resolução nº 556/2009 | Art. 4º",
-        "Resolução nº 1.114/2025 | Art. 8º"
+        "Resolução nº 1.114/2025 | Art. 8º",
+        "Resolução n° 1.098/2025 | Art. 15",
+        "Resolução n° 1.098/2025 | Resolução n° 1.098/2025 — trecho (p. 1)"
       ],
       "ok": true
     },
@@ -146,12 +146,12 @@
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
         "Código de Ética do/a Assistente Social | Art. 17",
-        "Resolução nº 556/2009 | Art. 3º",
         "Código de Ética do/a Assistente Social | Art. 18",
         "Resolução n° 1.098/2025 | Art. 7º",
         "Resolução nº 1.114/2025 | Art. 6º, parágrafo único, inciso II",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
-        "Resolução nº 1.114/2025 | Art. 6º"
+        "Resolução nº 1.114/2025 | Art. 6º",
+        "Resolução nº 1.114/2025 | Art. 6º, parágrafo único, inciso I"
       ],
       "ok": true
     },
@@ -191,13 +191,13 @@
       "n_evidencias": 8,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 20, alínea a",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 5º",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
         "Código de Ética do/a Assistente Social | Art. 19, alínea b",
         "Código de Ética do/a Assistente Social | Art. 18",
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
-        "Resolução nº 556/2009 | Art. 2º"
+        "Resolução n° 1.098/2025 | Art. 2º, parágrafo único",
+        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 5º"
       ],
       "ok": true
     },
@@ -211,16 +211,14 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 8,
+      "n_evidencias": 6,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 20, alínea a",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 5º",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
         "Resolução nº 1.114/2025 | Art. 7º",
-        "Código de Ética do/a Assistente Social | Art. 18",
-        "Resolução nº 556/2009 | Art. 2º"
+        "Código de Ética do/a Assistente Social | Art. 18"
       ],
       "ok": true
     },
@@ -234,15 +232,14 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 7,
+      "n_evidencias": 6,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 19, alínea a",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 1º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 3º",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
-        "Código de Ética do/a Assistente Social | Art. 20, alínea b"
+        "Código de Ética do/a Assistente Social | Art. 20, alínea b",
+        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 1º",
+        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)"
       ],
       "ok": true
     },
@@ -256,16 +253,14 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 8,
+      "n_evidencias": 6,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 2º, alínea d",
         "Lei nº 8.662/1993 | Art. 5º-A",
         "Lei nº 12.317/2010 | Art. 1º",
         "Resolução n° 1.098/2025 | Art. 10",
         "Resolução nº 533/2008 | Art. 3º, parágrafo único",
-        "Resolução nº 493/2006 | Art. 2º, alínea d",
-        "Resolução nº 556/2009 | Art. 7º",
-        "Resolução nº 556/2009 | Art. 8º"
+        "Resolução nº 1.114/2025 | Art. 3º, inciso II"
       ],
       "ok": true
     },
@@ -277,7 +272,7 @@
       "situacao_obtida": "B",
       "referencias": 4,
       "referencias_no_acervo": 4,
-      "recuperadas": 3,
+      "recuperadas": 2,
       "primeira_posicao": 1,
       "n_evidencias": 8,
       "evidencias": [
@@ -287,8 +282,8 @@
         "Resolução n° 1.098/2025 | Art. 2º, inciso III",
         "Resolução n° 1.098/2025 | Art. 12",
         "Resolução n° 1.098/2025 | Art. 13",
-        "Resolução nº 556/2009 | Art. 2º",
-        "Código de Ética do/a Assistente Social | Art. 2º, alínea d"
+        "Código de Ética do/a Assistente Social | Art. 2º, alínea d",
+        "Resolução n° 1.098/2025 | Art. 9º"
       ],
       "ok": true
     },
@@ -326,13 +321,13 @@
       "n_evidencias": 8,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 5º, alínea f",
-        "Resolução nº 556/2009 | Art. 2º",
         "Lei nº 8.662/1993 | Art. 5º-A",
         "Lei nº 12.317/2010 | Art. 1º",
         "Resolução nº 512/2007 | Art. 11, inciso V",
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
         "Resolução nº 533/2008 | Art. 3º, parágrafo único",
-        "Código de Ética do/a Assistente Social | Art. 5º, alínea e"
+        "Código de Ética do/a Assistente Social | Art. 5º, alínea e",
+        "Resolução nº 1.114/2025 | Art. 4º, inciso IV"
       ],
       "ok": true
     },
@@ -344,18 +339,18 @@
       "situacao_obtida": "B",
       "referencias": 2,
       "referencias_no_acervo": 2,
-      "recuperadas": 2,
+      "recuperadas": 1,
       "primeira_posicao": 1,
       "n_evidencias": 8,
       "evidencias": [
-        "Resolução nº 556/2009 | Art. 1º",
-        "Resolução nº 556/2009 | Art. 4º",
         "Resolução n° 1.098/2025 | Art. 15",
-        "Resolução nº 556/2009 | Art. 2º",
-        "Resolução nº 556/2009 | Art. 7º",
-        "Resolução nº 556/2009 | Art. 5º",
         "Resolução n° 1.098/2025 | Art. 9º",
-        "Resolução nº 512/2007 | Art. 13, inciso XII"
+        "Resolução nº 512/2007 | Art. 13, inciso XII",
+        "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
+        "Resolução n° 1.098/2025 | Art. 12",
+        "Resolução nº 512/2007 | Art. 3º",
+        "Resolução n° 1.098/2025 | Resolução n° 1.098/2025 — trecho (p. 1)",
+        "Lei nº 8.662/1993 | Art. 5º, inciso IV"
       ],
       "ok": true
     },
@@ -373,12 +368,12 @@
       "evidencias": [
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
         "Resolução nº 557/2009 | Art. 1º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 2º",
         "Resolução nº 557/2009 | Art. 2º",
         "Resolução nº 557/2009 | Resolução nº 557/2009 — trecho (p. 1)",
         "Lei nº 8.662/1993 | Art. 5º",
         "Código de Ética do/a Assistente Social | Art. 20, alínea b",
-        "Lei nº 8.662/1993 | Art. 5º, inciso VIII"
+        "Lei nº 8.662/1993 | Art. 5º, inciso VIII",
+        "Lei nº 8.662/1993 | Art. 5º, inciso I"
       ],
       "ok": true
     },
@@ -392,13 +387,12 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 6,
+      "n_evidencias": 5,
       "evidencias": [
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
         "Resolução nº 557/2009 | Art. 1º",
         "Resolução nº 557/2009 | Resolução nº 557/2009 — trecho (p. 1)",
         "Resolução nº 557/2009 | Art. 2º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 2º",
         "Lei nº 8.662/1993 | Art. 5º, inciso I"
       ],
       "ok": true
@@ -458,12 +452,11 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 4,
+      "n_evidencias": 3,
       "evidencias": [
         "Lei nº 8.662/1993 | Art. 5º, inciso IX",
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
-        "Resolução nº 557/2009 | Art. 1º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 2º"
+        "Resolução nº 557/2009 | Art. 1º"
       ],
       "ok": true
     },
@@ -485,8 +478,8 @@
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
         "Resolução nº 557/2009 | Art. 1º",
         "Resolução nº 557/2009 | Art. 2º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 2º",
-        "Resolução nº 569/2010 | Resolução nº 569/2010 — trecho (p. 1)"
+        "Resolução nº 569/2010 | Resolução nº 569/2010 — trecho (p. 1)",
+        "Resolução nº 533/2008 | Resolução nº 533/2008 — trecho (p. 1)"
       ],
       "ok": true
     },
@@ -508,8 +501,8 @@
         "Lei nº 8.662/1993 | Art. 5º, inciso III",
         "Resolução n° 1.098/2025 | Art. 12",
         "Resolução nº 512/2007 | Art. 13, inciso VI",
-        "Resolução nº 556/2009 | Art. 9º",
-        "Lei nº 8.662/1993 | Art. 8º, inciso VIII"
+        "Lei nº 8.662/1993 | Art. 8º, inciso VIII",
+        "Código de Ética do/a Assistente Social | Art. 7º, alínea a"
       ],
       "ok": true
     },
@@ -567,17 +560,17 @@
       "referencias": 3,
       "referencias_no_acervo": 3,
       "recuperadas": 1,
-      "primeira_posicao": 8,
+      "primeira_posicao": 6,
       "n_evidencias": 8,
       "evidencias": [
-        "Resolução nº 556/2009 | Art. 7º",
         "Resolução n° 1.098/2025 | Art. 11",
         "Resolução nº 533/2008 | Art. 4º, inciso II",
         "Resolução nº 533/2008 | Art. 8º, inciso IV",
         "Resolução nº 533/2008 | Art. 8º, inciso II",
         "Resolução n° 1.098/2025 | Art. 9º",
-        "Resolução nº 556/2009 | Art. 8º",
-        "Lei nº 8.662/1993 | Art. 5º, inciso IV"
+        "Lei nº 8.662/1993 | Art. 5º, inciso IV",
+        "Lei nº 8.662/1993 | Art. 14, parágrafo único",
+        "Resolução nº 533/2008 | Art. 4º"
       ],
       "ok": true
     },
@@ -611,12 +604,12 @@
       "evidencias": [
         "Resolução nº 557/2009 | Art. 2º",
         "Resolução nº 557/2009 | Art. 1º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 2º",
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
         "Resolução nº 1.114/2025 | Art. 10",
         "Resolução nº 557/2009 | Resolução nº 557/2009 — trecho (p. 1)",
         "Resolução nº 569/2010 | Resolução nº 569/2010 — trecho (p. 1)",
-        "Lei nº 8.662/1993 | Art. 2º, inciso III"
+        "Lei nº 8.662/1993 | Art. 2º, inciso III",
+        "Resolução nº 569/2010 | Art. 3º"
       ],
       "ok": false
     },
@@ -745,10 +738,10 @@
         "Orientação Normativa 1/2018 | Orientação Normativa 1/2018 — trecho (p. 1)",
         "Lei nº 8.662/1993 | Art. 5º, inciso XIII",
         "Resolução nº 569/2010 | Resolução nº 569/2010 — trecho (p. 1)",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 2º",
         "Lei nº 8.662/1993 | Art. 5º, inciso V",
         "Resolução nº 557/2009 | Art. 1º",
-        "Lei nº 8.662/1993 | Art. 5º, inciso VI"
+        "Lei nº 8.662/1993 | Art. 5º, inciso VI",
+        "Lei nº 8.662/1993 | Art. 5º, inciso XI"
       ],
       "ok": true
     },
@@ -766,12 +759,12 @@
       "evidencias": [
         "Resolução nº 1.114/2025 | Art. 18",
         "Resolução nº 1.114/2025 | Art. 5º",
-        "Resolução nº 493/2006 | Art. 1º",
-        "Resolução nº 493/2006 | Art. 2º, alínea b",
-        "Resolução nº 493/2006 | Resolução nº 493/2006 — trecho (p. 1)",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Resolução nº 1.114/2025 | Art. 4º, inciso III",
-        "Resolução nº 556/2009 | Art. 2º"
+        "Resolução nº 1.114/2025 | Art. 3º, inciso II",
+        "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
+        "Resolução nº 557/2009 | Art. 2º",
+        "Resolução nº 1.114/2025 | Art. 4º, inciso IV"
       ],
       "ok": true
     },
@@ -829,18 +822,18 @@
       "situacao_obtida": "B",
       "referencias": 3,
       "referencias_no_acervo": 3,
-      "recuperadas": 2,
+      "recuperadas": 1,
       "primeira_posicao": 1,
       "n_evidencias": 8,
       "evidencias": [
         "Resolução n° 1.098/2025 | Art. 15",
-        "Resolução nº 556/2009 | Art. 7º",
-        "Resolução nº 556/2009 | Art. 5º",
-        "Resolução nº 556/2009 | Art. 9º",
-        "Resolução nº 493/2006 | Art. 2º, alínea d",
-        "Resolução nº 556/2009 | Art. 4º",
-        "Resolução nº 556/2009 | Art. 6º",
-        "Resolução nº 556/2009 | Art. 1º"
+        "Resolução nº 512/2007 | Art. 3º",
+        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
+        "Resolução n° 1.098/2025 | Art. 12",
+        "Resolução n° 1.098/2025 | Art. 13",
+        "Resolução nº 512/2007 | Art. 13, inciso XII",
+        "Resolução n° 1.098/2025 | Art. 11",
+        "Resolução n° 1.098/2025 | Art. 14"
       ],
       "ok": true
     },
@@ -1037,8 +1030,8 @@
         "Código de Ética do/a Assistente Social | Art. 8º, alínea b",
         "Resolução nº 533/2008 | Art. 8º, inciso II",
         "Código de Ética do/a Assistente Social | Art. 9º, alínea b",
-        "Resolução nº 556/2009 | Art. 4º",
-        "Resolução nº 533/2008 | Art. 3º, parágrafo único"
+        "Resolução nº 533/2008 | Art. 3º, parágrafo único",
+        "Código de Ética do/a Assistente Social | Art. 18, parágrafo único"
       ],
       "ok": false
     },
@@ -1149,11 +1142,11 @@
         "Código de Ética do/a Assistente Social | Art. 3º, alínea b",
         "Resolução nº 533/2008 | Art. 1º, inciso II",
         "Código de Ética do/a Assistente Social | Art. 2º, alínea h",
-        "Resolução nº 556/2009 | Art. 7º",
         "Resolução n° 1.098/2025 | Art. 11",
         "Resolução nº 512/2007 | Art. 11, inciso XIV, alínea c",
         "Resolução nº 1.114/2025 | Art. 18",
-        "Resolução nº 1.114/2025 | Art. 6º, parágrafo único, inciso I"
+        "Resolução nº 1.114/2025 | Art. 6º, parágrafo único, inciso I",
+        "Orientação Normativa 2/2018 | Orientação Normativa 2/2018 — trecho (p. 4)"
       ],
       "ok": true
     },
@@ -1222,17 +1215,17 @@
       "referencias": 1,
       "referencias_no_acervo": 1,
       "recuperadas": 1,
-      "primeira_posicao": 4,
+      "primeira_posicao": 3,
       "n_evidencias": 8,
       "evidencias": [
         "Resolução nº 1.114/2025 | Art. 7º",
         "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
-        "Resolução nº 493/2006 | Art. 2º, alínea b",
         "Código de Ética do/a Assistente Social | Art. 5º, alínea e",
         "Código de Ética do/a Assistente Social | Art. 5º, alínea f",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
-        "Resolução nº 556/2009 | Art. 2º",
-        "Resolução nº 512/2007 | Art. 11, inciso V"
+        "Resolução nº 512/2007 | Art. 11, inciso V",
+        "Resolução nº 1.114/2025 | Art. 4º, inciso IV",
+        "Código de Ética do/a Assistente Social | Art. 9º, alínea b"
       ],
       "ok": true
     },
@@ -1268,14 +1261,14 @@
       "primeira_posicao": null,
       "n_evidencias": 8,
       "evidencias": [
-        "Resolução nº 556/2009 | Art. 4º",
         "Resolução CFESS nº 273/1993 | Art. 2º",
         "Resolução n° 1.098/2025 | Art. 13",
         "Resolução nº 594/2011 | Art. 3º",
         "Resolução n° 1.098/2025 | Art. 9º",
         "Resolução nº 557/2009 | Art. 4º",
         "Código de Ética do/a Assistente Social | Art. 4º, alínea g",
-        "Lei nº 8.662/1993 | Art. 17"
+        "Lei nº 8.662/1993 | Art. 17",
+        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)"
       ],
       "ok": false
     },
@@ -1428,14 +1421,13 @@
       "referencias_no_acervo": 2,
       "recuperadas": 2,
       "primeira_posicao": 1,
-      "n_evidencias": 6,
+      "n_evidencias": 5,
       "evidencias": [
         "Lei nº 8.662/1993 | Art. 5º-A",
         "Lei nº 12.317/2010 | Art. 1º",
         "Resolução nº 533/2008 | Art. 3º, parágrafo único",
         "Lei nº 12.317/2010 | Art. 2º",
-        "Apresentação à edição de 2011 | Apresentação à edição de 2011 — trecho (p. 14)",
-        "Resolução nº 556/2009 | Art. 2º"
+        "Apresentação à edição de 2011 | Apresentação à edição de 2011 — trecho (p. 14)"
       ],
       "ok": true
     },
@@ -1566,12 +1558,12 @@
       "evidencias": [
         "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
-        "Resolução nº 556/2009 | Art. 2º",
-        "Resolução nº 556/2009 | Art. 7º",
         "Código de Ética do/a Assistente Social | Art. 8º, alínea b",
         "Código de Ética do/a Assistente Social | Art. 5º, alínea e",
         "Lei nº 8.662/1993 | Art. 4º, inciso XI",
-        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)"
+        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
+        "Resolução nº 557/2009 | Art. 2º",
+        "Código de Ética do/a Assistente Social | Art. 7º, alínea b"
       ],
       "ok": false
     },
@@ -1651,8 +1643,8 @@
         "Resolução nº 533/2008 | Art. 3º, parágrafo único",
         "Resolução n° 1.098/2025 | Art. 11",
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
-        "Resolução nº 556/2009 | Art. 7º",
-        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)"
+        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
+        "Lei nº 12.317/2010 | Art. 2º"
       ],
       "ok": true
     },
@@ -1699,17 +1691,17 @@
       "referencias": 1,
       "referencias_no_acervo": 1,
       "recuperadas": 1,
-      "primeira_posicao": 7,
+      "primeira_posicao": 6,
       "n_evidencias": 8,
       "evidencias": [
-        "Resolução nº 493/2006 | Art. 3º",
         "Resolução nº 1.114/2025 | Art. 8º",
         "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
         "Código de Ética do/a Assistente Social | Art. 33, § 2º",
         "Código de Ética do/a Assistente Social | Art. 1º, alínea b",
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
         "Código de Ética do/a Assistente Social | Art. 11, alínea a",
-        "Resolução nº 1.114/2025 | Art. 4º, inciso IV"
+        "Resolução nº 1.114/2025 | Art. 4º, inciso IV",
+        "Resolução nº 493/2006 | Art. 3º"
       ],
       "ok": true
     },
@@ -1782,11 +1774,11 @@
         "Resolução nº 569/2010 | Resolução nº 569/2010 — trecho (p. 1)",
         "Código de Ética do/a Assistente Social | Art. 6º, alínea c",
         "Resolução nº 569/2010 | Art. 3º",
-        "Resolução nº 554/2009 (Invalidada definitivamente por decisão da 1ª Vara Federal da Seção Judiciária do Ceará) | Art. 2º",
         "Lei nº 8.662/1993 | Art. 5º, inciso VIII",
         "Resolução nº 512/2007 | Art. 11, inciso XIV, alínea c",
         "Resolução nº 569/2010 | Art. 1º",
-        "Código de Ética do/a Assistente Social | Art. 20, alínea b"
+        "Código de Ética do/a Assistente Social | Art. 20, alínea b",
+        "Código de Ética do/a Assistente Social | Art. 19, alínea a"
       ],
       "ok": true
     },
@@ -1803,13 +1795,13 @@
       "n_evidencias": 8,
       "evidencias": [
         "Resolução nº 557/2009 | Art. 2º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 3º",
-        "Resolução nº 556/2009 | Art. 2º",
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
         "Resolução nº 557/2009 | Art. 4º",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
-        "Resolução nº 557/2009 | Art. 1º"
+        "Resolução nº 557/2009 | Art. 1º",
+        "Código de Ética do/a Assistente Social | Art. 20, alínea b",
+        "Resolução nº 557/2009 | Resolução nº 557/2009 — trecho (p. 1)"
       ],
       "ok": true
     },
@@ -1908,16 +1900,15 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 8,
+      "n_evidencias": 7,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 30",
         "Resolução nº 512/2007 | Art. 15, alínea b",
         "Código de Ética do/a Assistente Social | Art. 32",
         "Lei nº 8.662/1993 | Art. 10, inciso II",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 8º",
         "Resolução nº 512/2007 | Art. 12",
-        "Resolução nº 554/2009 (Invalidada definitivamente por decisão da 1ª Vara Federal da Seção Judiciária do Ceará) | Art. 5º",
-        "Resolução nº 554/2009 (Invalidada definitivamente por decisão da 1ª Vara Federal da Seção Judiciária do Ceará) | Art. 1º"
+        "Orientação Normativa 1/2018 | Orientação Normativa 1/2018 — trecho (p. 2)",
+        "Resolução nº 512/2007 | Art. 11, inciso I"
       ],
       "ok": true
     },
@@ -1931,7 +1922,7 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 8,
+      "n_evidencias": 7,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 29",
         "Código de Ética do/a Assistente Social | Art. 33",
@@ -1939,8 +1930,7 @@
         "Código de Ética do/a Assistente Social | Art. 33, § 1º",
         "Código de Ética do/a Assistente Social | Art. 24, alínea c",
         "Código de Ética do/a Assistente Social | Art. 33, § 2º",
-        "Resolução nº 1.114/2025 | Art. 3º, inciso III",
-        "Resolução nº 493/2006 | Art. 4º"
+        "Resolução nº 1.114/2025 | Art. 3º, inciso III"
       ],
       "ok": true
     },
@@ -1977,12 +1967,11 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 4,
+      "n_evidencias": 3,
       "evidencias": [
         "Lei nº 8.662/1993 | Art. 8º, inciso V",
         "Lei nº 8.662/1993 | Art. 10, inciso IV",
-        "Código de Ética do/a Assistente Social | Art. 1º, alínea c",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)"
+        "Código de Ética do/a Assistente Social | Art. 1º, alínea c"
       ],
       "ok": true
     },
@@ -2041,17 +2030,17 @@
       "referencias": 2,
       "referencias_no_acervo": 2,
       "recuperadas": 1,
-      "primeira_posicao": 6,
+      "primeira_posicao": 5,
       "n_evidencias": 8,
       "evidencias": [
-        "Resolução nº 556/2009 | Art. 2º",
         "Código de Ética do/a Assistente Social | Art. 5º, alínea f",
         "Resolução n° 1.098/2025 | Art. 2º, parágrafo único",
         "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
         "Código de Ética do/a Assistente Social | Art. 16, parágrafo único",
         "Resolução nº 1.114/2025 | Art. 8º",
-        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)"
+        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
+        "Resolução nº 556/2009 | Art. 2º"
       ],
       "ok": true
     },
@@ -2095,9 +2084,9 @@
         "Resolução nº 557/2009 | Art. 3º, parágrafo único",
         "Resolução nº 1.114/2025 | Art. 10",
         "Resolução nº 1.114/2025 | Art. 8º",
-        "Resolução nº 556/2009 | Art. 7º",
         "Código de Ética do/a Assistente Social | Art. 4º, alínea b",
-        "Resolução nº 1.114/2025 | Art. 13, parágrafo único"
+        "Resolução nº 1.114/2025 | Art. 13, parágrafo único",
+        "Resolução n° 1.098/2025 | Art. 9º"
       ],
       "ok": true
     },
@@ -2159,14 +2148,14 @@
       "primeira_posicao": 1,
       "n_evidencias": 8,
       "evidencias": [
-        "Resolução nº 493/2006 | Art. 5º",
         "Resolução nº 1.114/2025 | Resolução nº 1.114/2025 — trecho (p. 1)",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Resolução nº 533/2008 | Art. 2º, parágrafo único",
         "Resolução nº 512/2007 | Art. 13, inciso X",
-        "Resolução nº 493/2006 | Art. 2º, alínea d",
-        "Resolução nº 493/2006 | Resolução nº 493/2006 — trecho (p. 1)",
-        "Resolução nº 493/2006 | Art. 6º"
+        "Resolução n° 1.098/2025 | Resolução n° 1.098/2025 — trecho (p. 1)",
+        "Resolução nº 493/2006 | Art. 5º",
+        "Resolução nº 1.114/2025 | Art. 18",
+        "Resolução n° 1.098/2025 | Art. 12"
       ],
       "ok": true
     },
@@ -2200,17 +2189,17 @@
       "referencias": 1,
       "referencias_no_acervo": 1,
       "recuperadas": 1,
-      "primeira_posicao": 1,
+      "primeira_posicao": 5,
       "n_evidencias": 8,
       "evidencias": [
-        "Resolução nº 556/2009 | Art. 1º",
         "Resolução n° 1.098/2025 | Art. 15",
-        "Resolução nº 556/2009 | Art. 2º",
-        "Resolução nº 556/2009 | Art. 7º",
-        "Resolução nº 556/2009 | Art. 4º",
         "Resolução n° 1.098/2025 | Art. 9º",
         "Resolução nº 512/2007 | Art. 13, inciso XII",
-        "Resolução nº 556/2009 | Resolução nº 556/2009 — trecho (p. 1)"
+        "Resolução nº 512/2007 | Art. 3º",
+        "Resolução nº 556/2009 | Art. 1º",
+        "Resolução nº 557/2009 | Art. 2º",
+        "Resolução n° 1.098/2025 | Art. 1º",
+        "Resolução nº 1.114/2025 | Art. 12"
       ],
       "ok": true
     },
@@ -2222,18 +2211,18 @@
       "situacao_obtida": "C",
       "referencias": 2,
       "referencias_no_acervo": 2,
-      "recuperadas": 2,
-      "primeira_posicao": 1,
+      "recuperadas": 1,
+      "primeira_posicao": 5,
       "n_evidencias": 8,
       "evidencias": [
+        "Resolução nº 557/2009 | Art. 1º",
+        "Resolução nº 557/2009 | Art. 2º",
+        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
+        "Resolução nº 557/2009 | Resolução nº 557/2009 — trecho (p. 1)",
         "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 3º",
         "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)",
         "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 2º",
-        "Resolução nº 554/2009 (Invalidada definitivamente por decisão da 1ª Vara Federal da Seção Judiciária do Ceará) | Art. 1º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)",
-        "Resolução nº 557/2009 | Art. 1º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 1º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)"
+        "Resolução nº 557/2009 | Resolução nº 557/2009 — trecho (p. 1)"
       ],
       "ok": true
     },
@@ -2371,7 +2360,7 @@
         "Resolução nº 557/2009 | Art. 2º",
         "Orientação Normativa 1/2018 | Orientação Normativa 1/2018 — trecho (p. 2)",
         "Lei nº 8.662/1993 | Art. 18",
-        "Resolução nº 556/2009 | Art. 7º"
+        "Resolução nº 1.114/2025 | Art. 18"
       ],
       "ok": true
     },
@@ -2393,8 +2382,8 @@
         "Lei nº 8.662/1993 | Art. 1º",
         "Resolução nº 512/2007 | Art. 2º",
         "Código de Ética do/a Assistente Social | Art. 25",
-        "Resolução nº 556/2009 | Resolução nº 556/2009 — trecho (p. 1)",
-        "Resolução nº 556/2009 | Resolução nº 556/2009 — trecho (p. 1)"
+        "Resolução nº 512/2007 | Art. 17, inciso I",
+        "Resolução nº 1.114/2025 | Art. 14"
       ],
       "ok": false
     },
@@ -2455,11 +2444,11 @@
         "Lei nº 8.662/1993 | Art. 5º-A",
         "Lei nº 12.317/2010 | Art. 1º",
         "Resolução nº 533/2008 | Art. 3º, parágrafo único",
-        "Resolução nº 556/2009 | Art. 2º",
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)",
         "Resolução n° 1.098/2025 | Art. 3º",
-        "Resolução nº 1.114/2025 | Art. 3º, inciso III"
+        "Resolução nº 1.114/2025 | Art. 3º, inciso III",
+        "Resolução nº 557/2009 | Art. 2º",
+        "Código de Ética do/a Assistente Social | Art. 25"
       ],
       "ok": false
     },
@@ -2476,13 +2465,13 @@
       "n_evidencias": 8,
       "evidencias": [
         "Resolução nº 533/2008 | Art. 4º, inciso II",
-        "Resolução nº 556/2009 | Art. 2º",
         "Resolução nº 533/2008 | Art. 8º, inciso IV",
         "Resolução nº 533/2008 | Art. 8º, inciso II",
         "Resolução nº 512/2007 | Art. 13, inciso XIII",
         "Resolução n° 1.098/2025 | Art. 14",
         "Lei nº 8.662/1993 | Art. 14, parágrafo único",
-        "Resolução nº 556/2009 | Art. 4º"
+        "Resolução nº 533/2008 | Art. 3º, parágrafo único",
+        "Código de Ética do/a Assistente Social | Art. 5º, alínea d"
       ],
       "ok": true
     },
@@ -2499,13 +2488,13 @@
       "n_evidencias": 8,
       "evidencias": [
         "Resolução nº 1.114/2025 | Art. 6º, parágrafo único, inciso I",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 1º",
-        "Resolução nº 556/2009 | Art. 7º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 3º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 5º",
-        "Resolução nº 554/2009 (Invalidada definitivamente por decisão da 1ª Vara Federal da Seção Judiciária do Ceará) | Art. 1º",
-        "Resolução n° 1.098/2025 | Art. 11"
+        "Resolução n° 1.098/2025 | Art. 11",
+        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
+        "Orientação Normativa 1/2018 | Orientação Normativa 1/2018 — trecho (p. 2)",
+        "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
+        "Resolução nº 512/2007 | Art. 13, inciso III",
+        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
+        "Código de Ética do/a Assistente Social | Art. 16"
       ],
       "ok": true
     },
@@ -2518,17 +2507,17 @@
       "referencias": 2,
       "referencias_no_acervo": 2,
       "recuperadas": 2,
-      "primeira_posicao": 2,
+      "primeira_posicao": 1,
       "n_evidencias": 8,
       "evidencias": [
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 3º",
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
         "Código de Ética do/a Assistente Social | Art. 17",
-        "Resolução nº 556/2009 | Art. 2º",
         "Resolução n° 1.098/2025 | Art. 12",
-        "Resolução nº 556/2009 | Art. 3º",
-        "Resolução nº 556/2009 | Art. 4º",
-        "Resolução n° 1.098/2025 | Art. 14"
+        "Resolução n° 1.098/2025 | Art. 14",
+        "Resolução n° 1.098/2025 | Art. 15",
+        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 3º",
+        "Código de Ética do/a Assistente Social | Art. 18",
+        "Resolução n° 1.098/2025 | Art. 4º"
       ],
       "ok": true
     },
@@ -2545,13 +2534,13 @@
       "n_evidencias": 8,
       "evidencias": [
         "Lei nº 8.662/1993 | Art. 5º-A",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 5º",
         "Lei nº 12.317/2010 | Art. 1º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 3º",
         "Código de Ética do/a Assistente Social | Art. 19, alínea b",
         "Resolução nº 533/2008 | Art. 3º, parágrafo único",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 1º"
+        "Código de Ética do/a Assistente Social | Art. 25, parágrafo único",
+        "Código de Ética do/a Assistente Social | Art. 22, alínea e",
+        "Código de Ética do/a Assistente Social | Art. 32",
+        "Código de Ética do/a Assistente Social | Art. 4º, alínea i"
       ],
       "ok": null
     },

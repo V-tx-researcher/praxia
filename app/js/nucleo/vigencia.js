@@ -23,6 +23,10 @@ export function avaliarVigencia(doc, dataFatos = null) {
     default:
       avisos.push("Vigência deste documento ainda não foi verificada pela equipe responsável. Confirme na fonte oficial.");
   }
+  for (const indicacao of doc.indicacoes_portal || []) {
+    avisos.push(`O portal oficial indica: "${indicacao}". Essa informação ainda não foi conferida pela equipe; não utilize este documento como norma vigente sem verificar.`);
+    if (aplicavel === null) aplicavel = false;
+  }
   if (dataFatos) {
     const inicio = doc.inicio_vigencia || doc.data_publicacao;
     const fim = (doc.alteracoes?.revogado_por?.[0]?.data) || null;

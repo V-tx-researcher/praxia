@@ -35,5 +35,12 @@ def verificar_unidades(texto_doc: dict) -> list[str]:
 
 
 def citacao_presente(citacao: str, texto_fonte: str) -> bool:
-    c = normalizar_comparacao(citacao)
-    return bool(c) and c in normalizar_comparacao(texto_fonte)
+    """Mesma regra de app/js/nucleo/verificacao.js: literal, salvo a caixa da primeira letra."""
+    c = normalizar_comparacao(citacao).strip(".… ")
+    if not c:
+        return False
+    f = normalizar_comparacao(texto_fonte)
+    if c in f:
+        return True
+    resto = c[1:]
+    return bool(resto) and (c[0].lower() + resto in f or c[0].upper() + resto in f)

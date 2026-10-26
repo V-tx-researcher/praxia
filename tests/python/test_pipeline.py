@@ -154,7 +154,9 @@ class TestCitacoes(unittest.TestCase):
         fonte = "Art. 17 É vedado ao/à assistente social revelar sigilo profissional."
         self.assertTrue(citacoes.citacao_presente("revelar  sigilo\nprofissional", fonte))
         self.assertFalse(citacoes.citacao_presente("revelar o sigilo profissional", fonte))
-        self.assertFalse(citacoes.citacao_presente("é vedado ao/à assistente social", fonte))  # maiúscula difere
+        self.assertTrue(citacoes.citacao_presente("é vedado ao/à assistente social", fonte))  # só a 1ª letra difere
+        self.assertFalse(citacoes.citacao_presente("É VEDADO ao/à assistente social", fonte))
+        self.assertFalse(citacoes.citacao_presente("vedado à assistente social", fonte))
 
 
 @unittest.skipUnless(catalogo.DIR_CATALOGO.exists(), "sem catálogo local")

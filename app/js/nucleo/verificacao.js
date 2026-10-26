@@ -18,7 +18,11 @@ const JULGAMENTO = [
   /\b(é|e|foi|está|esta)\s+(culpad[oa]|infrator[a]?)\b/i,
   /\bdeve(rá|ra)?\s+ser\s+(punid[oa]|penalizad[oa]|cassad[oa]|advertid[oa])\b/i,
   /\bhouve\s+infra[çc][ãa]o\s+[ée]tica\b/i,
-  /\bviolou\s+o\s+c[óo]digo\b/i,
+  /\bviol(a|ou|am|aram)\s+(o|ao|os)\s+(c[óo]digo|dispositivo|artigo|art\.)/i,
+  /\b(configura|constitui|caracteriza|representa)(m|ram|ou)?\s+(uma\s+)?(clara\s+)?(infra[çc][ãa]o|viola[çc][ãa]o|falta\s+[ée]tica)/i,
+  /\b(é|e|foi)\s+(uma\s+)?(infra[çc][ãa]o|viola[çc][ãa]o)\s+(ética|do\s+c[óo]digo)/i,
+  // Juízo sobre a conduta narrada na pergunta ("a conduta descrita viola…", "o uso do cargo … viola")
+  /\b(conduta|atitude|comportamento|uso\s+do\s+cargo|divulga[çc][ãa]o)\b[^.]{0,80}\bviol(a|ou)\b/i,
 ];
 
 const RE_CITACAO = /\u00ab([^\u00bb]{4,})\u00bb|"([^"]{12,})"|\u201c([^\u201d]{12,})\u201d/g;
@@ -29,9 +33,15 @@ export function extrairCitacoes(texto) {
   return saida;
 }
 
+// Literal, exceto por espaços, aspas tipográficas, reticências nas pontas e pela
+// caixa da PRIMEIRA letra (convenção de citação: "[m]anter" ↔ "Manter").
 export function citacaoPresente(citacao, fonte) {
   const c = normalizarComparacao(citacao).replace(/^[.…\s]+|[.…\s]+$/g, "");
-  return c.length > 0 && normalizarComparacao(fonte).includes(c);
+  if (!c.length) return false;
+  const f = normalizarComparacao(fonte);
+  if (f.includes(c)) return true;
+  const resto = c.slice(1);
+  return resto.length > 0 && (f.includes(c[0].toLowerCase() + resto) || f.includes(c[0].toUpperCase() + resto));
 }
 
 function sobreposicao(afirmacao, textos) {
@@ -66,6 +76,12 @@ export function verificarAfirmacao(afirmacao, porId) {
     if (s < SOBREPOSICAO_MINIMA) motivos.push(`baixa correspondência com as evidências citadas (${Math.round(s * 100)}%)`);
   }
   if (contemJulgamento(afirmacao.texto)) motivos.push("atribui culpa ou antecipa julgamento");
+  // Apoiar-se em norma revogada/indicada como revogada exige dizê-lo expressamente.
+  const inaplicaveis = evidencias.filter((e) => e.vigencia?.aplicavel === false);
+  if (inaplicaveis.length && inaplicaveis.length === evidencias.length &&
+      !/revog|suspens|invalid|hist[óo]ric|anterior|vigência|vigencia/i.test(afirmacao.texto)) {
+    motivos.push("apoia-se apenas em norma revogada ou com indicação de revogação, sem sinalizar isso");
+  }
   return { aceita: motivos.length === 0, motivos, evidencias: evidencias.map((e) => e.id) };
 }
 

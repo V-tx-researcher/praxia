@@ -51,6 +51,8 @@ test("comparação literal só ignora espaços e aspas", () => {
   assert.ok(citacaoPresente("revelar   sigilo profissional", ACERVO.unidades[0].texto));
   assert.ok(!citacaoPresente("revelar o sigilo profissional", ACERVO.unidades[0].texto));
   assert.ok(!citacaoPresente("REVELAR SIGILO", ACERVO.unidades[0].texto));
+  assert.ok(citacaoPresente("Revelar sigilo profissional", ACERVO.unidades[0].texto)); // só a 1ª letra difere
+  assert.ok(!citacaoPresente("revelar sigilo Profissional", ACERVO.unidades[0].texto));
 });
 
 test("privacidade: detecta e mascara dados pessoais", () => {
@@ -139,11 +141,26 @@ test("verificação: bloqueia julgamento de conduta", () => {
   assert.ok(contemJulgamento("A profissional cometeu infração ética ao revelar o sigilo."));
   assert.ok(contemJulgamento("Ela deve ser punida pelo Conselho."));
   assert.ok(!contemJulgamento("A situação pode envolver o dispositivo que veda revelar sigilo; a apuração cabe ao CRESS."));
+  // Casos observados na avaliação do Qwen3-4B (26/10/2026):
+  assert.ok(contemJulgamento("O uso do cargo de chefia para perseguir uma subordinada viola o Código de Ética Profissional."));
+  assert.ok(contemJulgamento("Essa conduta configura infração ética."));
+  assert.ok(!contemJulgamento("O Código veda prevalecer-se de cargo de chefia para atos discriminatórios (Art. 11, alínea b)."));
   const ev = evidenciasDeTeste();
   const v = verificarAnalise({ sintese_questao: "", afirmacoes: [
     { texto: "A assistente social cometeu infração ao revelar sigilo profissional.", natureza: "interpretacao", evidencias: ["E1"] },
   ], aspectos_atencao: [], lacunas: [], fundamentacao_suficiente: true }, ev);
   assert.equal(v.afirmacoes.length, 0);
+});
+
+test("verificação: afirmação apoiada só em norma revogada precisa sinalizar a revogação", () => {
+  const ind = new IndiceLexical(ACERVO);
+  const ev = selecionarEvidencias(ind, ind.buscar("atendimento em sala com privacidade e arquivo trancado"));
+  const id = ev.find((e) => e.documento.id === "doc-r").id;
+  const base = { sintese_questao: "", aspectos_atencao: [], lacunas: [], fundamentacao_suficiente: true };
+  const sem = verificarAnalise({ ...base, afirmacoes: [{ texto: "O atendimento deve ocorrer em sala com privacidade e arquivo trancado.", natureza: "norma_expressa", evidencias: [id] }] }, ev);
+  assert.equal(sem.afirmacoes.length, 0);
+  const com = verificarAnalise({ ...base, afirmacoes: [{ texto: "A norma revogada previa que o atendimento deve ocorrer em sala com privacidade e arquivo trancado.", natureza: "norma_expressa", evidencias: [id] }] }, ev);
+  assert.equal(com.afirmacoes.length, 1);
 });
 
 test("prompt: conteúdo do documento não fecha a tag de evidência", () => {

@@ -236,6 +236,9 @@ function listarDocumentos() {
     el("h3", {}, d.titulo),
     el("p", { classe: "doc-meta" }, `${d.tipo_rotulo} · ${d.orgao}${d.ano ? ` · ${d.ano}` : ""}`),
     el("div", { classe: "selos" }, seloSituacao(d.situacao, d.situacao_rotulo), seloConferencia(d.conferido)),
+    (d.indicacoes_portal || []).length
+      ? el("p", { classe: "alerta" }, `O portal oficial indica: ${d.indicacoes_portal.join("; ")} (informação ainda não conferida).`)
+      : null,
     d.ementa ? el("p", {}, d.ementa.slice(0, 400)) : null,
     el("div", { classe: "links-fonte" },
       el("button", { classe: "botao", type: "button", onclick: () => lerDocumento(d.id) }, "Ler os dispositivos"),

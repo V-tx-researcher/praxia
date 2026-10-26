@@ -1,0 +1,58 @@
+# Próximos passos
+
+Leia antes: README.md, docs/DECISIONS.md (não reabrir decisões D01–D16 sem motivo
+novo) e docs/PROGRESS.md.
+
+## Para retomar o ambiente
+
+```bash
+cd pipeline && python -m pip install -r requirements.txt
+python -m gpecss validar                      # catálogo íntegro?
+python -m gpecss fila --estado aguardando_conferencia
+# PDFs e textos não são versionados: para reconstruir dados/brutos e dados/textos
+# dos documentos já processados, rode `baixar` e `processar` para cada ID da fila.
+cd .. && python -m unittest discover -s tests/python && node --test tests/js/*.test.mjs
+node tests/avaliacao/avaliar.mjs previa
+python -m http.server 8765 --bind 127.0.0.1 --directory app   # ?acervo=previa
+```
+
+Particularidades do ambiente de desenvolvimento (Windows): ao gerar arquivos por
+script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
+`python scripts/escapar_js.py <arquivos.js>` converte caracteres invisíveis em escapes Unicode do JavaScript.
+
+## Etapa seguinte (após as decisões do responsável)
+
+1. **Conferência dos primeiros documentos** (com a pessoa designada — D-P2):
+   Código de Ética (confirmar mapa de partes), Res. 1.114/2025, Res. 1.098/2025,
+   Res. 533/2008, Res. 557/2009, Res. 512/2007; registrar situação normativa e
+   relações de revogação (493/2006 → 1.114/2025; 556/2009 → 1.098/2025;
+   Código Art. 22, alínea c × Res. 954/2020). Depois: `publicar` e `indexar --modo publico`.
+2. **Relações de alteração na interface:** exibir, junto ao dispositivo, as normas
+   registradas em `alterado_por`/`revogado_por` (ex.: alínea c do Art. 22 do Código).
+3. **Orientação institucional fundamentada:** substituir o texto genérico sobre
+   COFI/SubCOFI por dispositivos da Política Nacional de Fiscalização conferida.
+4. **Busca semântica (D-P3):** embeddings com Transformers.js
+   (`Xenova/multilingual-e5-small` ou equivalente), pré-calculados em Node com a mesma
+   biblioteca; combinação com BM25 por fusão de postos (RRF); reavaliar com
+   `tests/avaliacao/avaliar.mjs`.
+5. **Pertinência das afirmações:** avaliar verificação por modelo de inferência
+   textual (NLI) leve no navegador, ou exigir que cada afirmação cite o dispositivo
+   cujo texto contenha os termos centrais da pergunta.
+6. **LLM (conforme D-P1):** rodar `app/dev/avaliar-llm.html` com modelos de 8–9B em
+   navegador sem o limite de 256 MiB; a página agora grava as evidências enviadas
+   (`evidenciasEnviadas`), permitindo reverificar com `tests/avaliacao/reverificar-llm.mjs`.
+7. **Ampliar o acervo:** triagem dos 623 registros `descoberto` (começar pelos que
+   não têm alerta administrativo); depois os portais dos CRESS.
+8. **OCR** para documentos digitalizados (avaliar Tesseract, gratuito; custo apenas
+   de processamento local).
+9. **Publicação (D-P4):** `python scripts/preparar_publicacao.py` gera `publicar/`
+   (sem prévia e sem páginas internas) para Cloudflare Pages; ativar a rotina
+   `.github/workflows/coleta.yml` após o repositório estar no GitHub.
+
+## Critérios mínimos antes de ligar a análise por IA para o público
+- ≥ 100 perguntas com gabarito **revisado por assistente social**.
+- Revisão profissional de uma amostra de respostas com 0 afirmações enganosas
+  aceitas em temas de infração ética e sigilo, e taxa de afirmações incorretas
+  aceitas abaixo de limite a definir com o grupo.
+- Funcionamento verificado em ao menos dois navegadores de desktop.
+- Acervo público com os documentos citados conferidos.

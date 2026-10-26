@@ -26,6 +26,7 @@ for (const q of perguntas) {
     id: q.id, comportamento: q.comportamento, pergunta: q.pergunta,
     segundos: +((performance.now() - t) / 1000).toFixed(1),
     evidencias: (fund?.evidencias || []).concat(fund?.outras || []).map((e) => `${e.id} ${e.parte} | ${e.rotulo}`),
+    evidenciasEnviadas: (fund?.evidencias || []).concat(fund?.outras || []),
     aceitas: analise?.afirmacoes || [],
     nota: analise?.notaVerificacao || null,
     paragrafos: analise?.paragrafos || null,

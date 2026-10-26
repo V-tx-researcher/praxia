@@ -83,6 +83,9 @@ def construir(modo: str = "publico", destino: Path | None = None, log=print) -> 
             "versao": texto["versao"],
             "data_coleta": next((a["data_coleta"] for a in reg["arquivos"] if a["sha256"] == texto["sha256"]), None),
             "conferido": conferido,
+            # Indicações de revogação/invalidade escritas no portal oficial, ainda não
+            # conferidas: exibidas como alerta e usadas para reduzir o peso na busca.
+            "indicacoes_portal": [a.split(":", 1)[1] for a in reg["alertas"] if a.startswith("portal_indica_situacao:")],
             "conferencia": {"data": reg["conferencia"].get("data"), "responsavel": reg["conferencia"].get("responsavel")}
             if conferido else None,
             "partes": [{"slug": p["slug"], "rotulo": p["rotulo"], "tipo": p["tipo"],

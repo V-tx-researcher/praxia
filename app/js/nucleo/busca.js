@@ -10,6 +10,8 @@ const PESO_EXPANSAO = 0.45;
 const PESO_HIERARQUIA = 0.6;
 const PESO_CONTEXTO = 0.5;
 const IDF_INFORMATIVO = 0.8;
+// Documento que o portal oficial indica como revogado/invalidado/suspenso (não conferido).
+const PESO_INDICACAO_PORTAL = 0.55;
 
 // Peso por natureza da unidade: texto normativo prevalece sobre apresentação.
 const PESO_TIPO = {
@@ -115,7 +117,8 @@ export class IndiceLexical {
       }
       const cobertura = cobertos / informativos.size;
       const doc = this.documentos.get(u.doc);
-      const fator = (PESO_TIPO[u.tipo] ?? 0.8) * (PESO_SITUACAO[doc?.situacao] ?? 0.9);
+      const fator = (PESO_TIPO[u.tipo] ?? 0.8) * (PESO_SITUACAO[doc?.situacao] ?? 0.9) *
+        (doc?.indicacoes_portal?.length ? PESO_INDICACAO_PORTAL : 1);
       const palavras = casados.filter((t) => informativos.has(t) && superficie.has(t)).map((t) => superficie.get(t));
       resultados.push({ unidade: u, pontuacao: s * fator * (0.6 + 0.4 * cobertura), casados: palavras,
         porSinonimo: casados.some((t) => termos.get(t) < 1), cobertura, informativosCasados });
