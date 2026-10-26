@@ -1,0 +1,420 @@
+"""Identificação de partes, títulos, artigos, parágrafos, incisos e alíneas.
+
+Cada unidade (dispositivo) guarda `segmentos`: a lista de intervalos
+[página, início, fim] no texto canônico das páginas. O texto exibido é
+reconstruído desses intervalos por `texto_exibicao`, e a verificação de
+citações refaz essa reconstrução para garantir correspondência literal.
+"""
+
+from __future__ import annotations
+
+import re
+import unicodedata
+from collections import Counter
+from dataclasses import dataclass, field
+
+ROMANOS = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
+
+
+def romano_para_int(s: str) -> int | None:
+    s = s.upper()
+    if not s or any(c not in ROMANOS for c in s):
+        return None
+    total, anterior = 0, 0
+    for c in reversed(s):
+        v = ROMANOS[c]
+        total = total - v if v < anterior else total + v
+        anterior = max(anterior, v)
+    return total
+
+
+def ordinal(n: int, sufixo: str = "") -> str:
+    return (f"{n}º" if n < 10 else str(n)) + (f"-{sufixo}" if sufixo else "")
+
+
+def _sem_acentos(s: str) -> str:
+    return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
+
+
+def slug(s: str, limite: int = 40) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", _sem_acentos(s).lower()).strip("-")[:limite].strip("-")
+
+
+# --- padrões ---------------------------------------------------------------
+
+RE_ARTIGO = re.compile(r"^Art(?:igo)?\.?\s*(\d+)\s*(?:[º°o]|\.)?\s*(?:-\s*([A-Z])\b)?\s*\.?\s*[-–—]?\s*")
+# "Parágrafo único" só com inicial maiúscula e sem continuar como remissão ("Parágrafo único do artigo 18").
+RE_PARAGRAFO = re.compile(r"^(?:§\s*(\d+)\s*[º°o]?\s*\.?\s*[-–—]?|PAR[ÁA]GRAFO\s+[ÚU]NICO|Par[áa]grafo\s+[úu]nico(?!\s+d[oa]s?\s))\s*\.?\s*[-–—:]?\s*")
+RE_INCISO = re.compile(r"^([IVXLC]{1,6})\s*[-–—.)]\s+")
+RE_ALINEA = re.compile(r"^([a-z])\s*[-–)]\s*(?=\S)")
+RE_TITULO = re.compile(r"^T[ÍI]TULO\s+([IVXLC]+|[ÚU]NICO)\b", re.I)
+RE_CAPITULO = re.compile(r"^CAP[ÍI]TULO\s+([IVXLC]+|[ÚU]NICO)\b", re.I)
+RE_SECAO = re.compile(r"^SE[ÇC][ÃA]O\s+([IVXLC]+|[ÚU]NICA)\b", re.I)
+RE_SUBTITULO = re.compile(r"^D[aoe]s?\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]")
+
+# Marcos de início de partes (textos normativos distintos dentro de um mesmo arquivo).
+PADROES_PARTE = [
+    (re.compile(r"^RESOLU[ÇC][ÃA]O\s+CFESS\s+N", re.I), "normativa"),
+    (re.compile(r"^Lei\s+n\s*[ºo°.]?\s*\.?\s*[\d.]+\s*,\s*de\s", re.I), "normativa"),
+    (re.compile(r"^Princ[íi]pios\s+Fundamentais$", re.I), "normativa"),
+    (re.compile(r"^Introdu[çc][ãa]o$", re.I), "apresentacao"),
+    (re.compile(r"^Apresenta[çc][ãa]o\b", re.I), "apresentacao"),
+    (re.compile(r"^Sum[áa]rio$", re.I), "pre_textual"),
+]
+
+
+@dataclass
+class Linha:
+    pagina: int
+    inicio: int
+    fim: int
+    texto: str
+
+
+@dataclass
+class Unidade:
+    id: str
+    tipo: str
+    rotulo: str
+    parte: str
+    hierarquia: list[str]
+    pai: str | None
+    linhas: list[Linha] = field(default_factory=list)
+
+    def segmentos(self) -> list[list[int]]:
+        segs: list[list[int]] = []
+        for ln in self.linhas:
+            if segs and segs[-1][0] == ln.pagina and segs[-1][2] + 1 == ln.inicio:
+                segs[-1][2] = ln.fim
+            else:
+                segs.append([ln.pagina, ln.inicio, ln.fim])
+        return segs
+
+
+def linhas_de(paginas: list[str]) -> list[list[Linha]]:
+    resultado = []
+    for n, texto in enumerate(paginas, start=1):
+        linhas, pos = [], 0
+        for bruto in texto.split("\n"):
+            if bruto.strip():
+                linhas.append(Linha(n, pos, pos + len(bruto), bruto))
+            pos += len(bruto) + 1
+        resultado.append(linhas)
+    return resultado
+
+
+def _chave_repeticao(s: str) -> str:
+    return re.sub(r"\d+", "#", s.lower()).strip()
+
+
+def linhas_repetitivas(por_pagina: list[list[Linha]]) -> set[tuple[int, int]]:
+    """Cabeçalhos/rodapés repetidos e números de página isolados."""
+    n = len(por_pagina)
+    candidatos = Counter()
+    for linhas in por_pagina:
+        bordas = {_chave_repeticao(l.texto) for l in linhas[:2] + linhas[-2:] if len(l.texto) <= 60}
+        candidatos.update(bordas)
+    limiar = max(3, int(0.2 * n))
+    repetidas = {k for k, c in candidatos.items() if c >= limiar}
+    excluir = set()
+    for linhas in por_pagina:
+        for l in linhas[:2] + linhas[-2:]:
+            if _chave_repeticao(l.texto) in repetidas or re.fullmatch(r"\d{1,4}", l.texto):
+                excluir.add((l.pagina, l.inicio))
+    return excluir
+
+
+def numero_impresso(linhas: list[Linha]) -> str | None:
+    for l in linhas[:1] + linhas[-1:]:
+        if re.fullmatch(r"\d{1,4}", l.texto):
+            return l.texto
+    return None
+
+
+def vocabulario(paginas: list[str]) -> set[str]:
+    return {w.lower() for w in re.findall(r"[^\W\d_]+", " ".join(paginas))}
+
+
+def juntar_linhas(textos: list[str], vocab: set[str]) -> str:
+    """Une linhas em texto corrido; repara hifenização de fim de linha.
+
+    A hifenização só é removida quando a palavra unida aparece sem hífen em
+    outro ponto do mesmo documento; caso contrário o hífen é mantido
+    (preserva compostos como "ético-político").
+    """
+    saida = ""
+    for t in textos:
+        t = re.sub(r"\s+", " ", t).strip()
+        if not saida:
+            saida = t
+            continue
+        m = re.search(r"([^\W\d_]+)-$", saida)
+        if m and t[:1].isalpha() and t[:1].islower():
+            prox = re.match(r"[^\W\d_]+", t)
+            unida = (m.group(1) + (prox.group(0) if prox else "")).lower()
+            if unida in vocab:
+                saida = saida[:-1] + t
+            else:
+                saida = saida + t
+        else:
+            saida = saida + " " + t
+    return saida.strip()
+
+
+def texto_exibicao(segmentos: list[list[int]], paginas: list[str], vocab: set[str]) -> str:
+    textos = []
+    for pag, ini, fim in segmentos:
+        textos.extend(paginas[pag - 1][ini:fim].split("\n"))
+    return juntar_linhas([t for t in textos if t.strip()], vocab)
+
+
+def _eh_continuacao_de_titulo(l: Linha) -> bool:
+    t = l.texto
+    return (len(t) <= 90 and not RE_ARTIGO.match(t) and not RE_PARAGRAFO.match(t)
+            and not t.endswith((";", ",")) and not RE_INCISO.match(t))
+
+
+class Segmentador:
+    def __init__(self, paginas: list[str], doc_id: str, partes_manuais: list[dict] | None = None):
+        self.paginas = paginas
+        self.doc_id = doc_id
+        self.por_pagina = linhas_de(paginas)
+        self.excluir = linhas_repetitivas(self.por_pagina)
+        self.partes_manuais = partes_manuais
+        self.unidades: list[Unidade] = []
+        self.partes: list[dict] = []
+        self._ids: set[str] = set()
+
+    # -- utilidades ------------------------------------------------------
+    def _novo_id(self, base: str) -> str:
+        id_, k = base, 2
+        while id_ in self._ids:
+            id_, k = f"{base}~{k}", k + 1
+        self._ids.add(id_)
+        return id_
+
+    def _linhas_validas(self):
+        for linhas in self.por_pagina:
+            for l in linhas:
+                if (l.pagina, l.inicio) not in self.excluir:
+                    yield l
+
+    def _parte_manual(self, pagina: int):
+        for p in self.partes_manuais or []:
+            if p["pagina_inicio"] <= pagina <= p["pagina_fim"]:
+                return p
+        return None
+
+    # -- algoritmo principal -------------------------------------------
+    def executar(self) -> list[Unidade]:
+        linhas = list(self._linhas_validas())
+        parte = {"rotulo": "Texto", "tipo": "normativa", "slug": "texto", "pagina_inicio": 1}
+        self.partes.append(parte)
+        hier: dict[str, str | None] = {"titulo": None, "capitulo": None, "secao": None, "subtitulo": None}
+        atual: Unidade | None = None
+        artigo: Unidade | None = None
+        paragrafo: Unidade | None = None
+        inciso: Unidade | None = None
+        ultimo_artigo = 0
+        seq = {"par": 0, "inc": 0, "ali": "", "pri": 0}
+        trecho_n = 0
+        i = 0
+
+        def hierarquia():
+            return [h for h in (hier["titulo"], hier["capitulo"], hier["secao"], hier["subtitulo"]) if h]
+
+        def abrir(tipo, rotulo, id_base, pai):
+            nonlocal atual
+            u = Unidade(self._novo_id(f"{parte['slug']}:{id_base}"), tipo, rotulo, parte["rotulo"],
+                        hierarquia(), pai)
+            self.unidades.append(u)
+            atual = u
+            return u
+
+        def nova_parte(rotulo, tipo, pagina, slug_fixo=None, extras=None):
+            nonlocal parte, artigo, paragrafo, inciso, atual, ultimo_artigo, trecho_n
+            parte["pagina_fim"] = pagina if atual is None else max(
+                ln.pagina for ln in (atual.linhas or [Linha(pagina, 0, 0, "")]))
+            base = slug_fixo or slug(rotulo, 24) or "parte"
+            s, k = base, 2
+            while any(p["slug"] == s for p in self.partes):
+                s, k = f"{base}-{k}", k + 1
+            parte = {"rotulo": rotulo, "tipo": tipo, "slug": s, "pagina_inicio": pagina, **(extras or {})}
+            self.partes.append(parte)
+            for h in hier:
+                hier[h] = None
+            artigo = paragrafo = inciso = atual = None
+            ultimo_artigo = 0
+            trecho_n = 0
+            seq.update(par=0, inc=0, ali="", pri=0)
+
+        while i < len(linhas):
+            l = linhas[i]
+            t = l.texto
+
+            # 1. Partes (manuais têm precedência sobre as detectadas)
+            pm = self._parte_manual(l.pagina)
+            if self.partes_manuais is not None:
+                if pm and pm["rotulo"] != parte["rotulo"]:
+                    nova_parte(pm["rotulo"], pm.get("tipo", "normativa"), l.pagina, pm.get("slug"),
+                               {k: v for k, v in pm.items() if k in {"documento_relacionado", "descricao"}})
+                elif not pm:
+                    i += 1
+                    continue  # páginas fora das partes declaradas não são indexadas
+            else:
+                tipo_parte = next((tp for rx, tp in PADROES_PARTE if rx.match(t)), None)
+                reinicio = (RE_ARTIGO.match(t) and int(RE_ARTIGO.match(t).group(1)) == 1
+                            and ultimo_artigo > 1)
+                if tipo_parte or reinicio:
+                    rotulo = t if tipo_parte else f"Texto normativo (p. {l.pagina})"
+                    if tipo_parte and i + 1 < len(linhas) and len(t) < 40 and tipo_parte == "normativa" \
+                            and not t.lower().startswith("princ"):
+                        rotulo = f"{t} {linhas[i + 1].texto}" if len(linhas[i + 1].texto) < 40 else t
+                    nova_parte(rotulo[:120], tipo_parte or "normativa", l.pagina)
+
+            # 2. Títulos, capítulos e seções (e a linha de denominação seguinte)
+            m_tit = RE_TITULO.match(t) or RE_CAPITULO.match(t) or RE_SECAO.match(t)
+            if m_tit:
+                nivel = "titulo" if RE_TITULO.match(t) else "capitulo" if RE_CAPITULO.match(t) else "secao"
+                partes_nome = [t]
+                while (i + 1 < len(linhas) and len(partes_nome) < 4
+                       and _eh_continuacao_de_titulo(linhas[i + 1])
+                       and not (RE_TITULO.match(linhas[i + 1].texto) or RE_CAPITULO.match(linhas[i + 1].texto)
+                                or RE_SECAO.match(linhas[i + 1].texto) or RE_ALINEA.match(linhas[i + 1].texto))):
+                    i += 1
+                    partes_nome.append(linhas[i].texto)
+                hier[nivel] = partes_nome[0] + (" — " + " ".join(partes_nome[1:]) if len(partes_nome) > 1 else "")
+                if nivel == "titulo":
+                    hier["capitulo"] = hier["secao"] = hier["subtitulo"] = None
+                elif nivel == "capitulo":
+                    hier["secao"] = hier["subtitulo"] = None
+                else:
+                    hier["subtitulo"] = None
+                atual = None
+                i += 1
+                continue
+
+            m_art = RE_ARTIGO.match(t)
+            if m_art and parte["tipo"] != "apresentacao":
+                n = int(m_art.group(1))
+                suf = m_art.group(2) or ""
+                if n >= ultimo_artigo or suf:
+                    ultimo_artigo = n
+                    artigo = abrir("artigo", f"Art. {ordinal(n, suf)}", f"art-{n}{suf.lower()}", None)
+                    paragrafo = inciso = None
+                    seq.update(par=0, inc=0, ali="")
+                    atual.linhas.append(l)
+                    i += 1
+                    continue
+
+            # Subtítulos internos ("Das Penalidades") entre dispositivos
+            if (atual is not None and RE_SUBTITULO.match(t) and len(t) <= 60
+                    and not t.endswith((".", ";", ",", ":")) and atual.linhas
+                    and atual.linhas[-1].texto.endswith((".", ";", ":"))):
+                hier["subtitulo"] = t
+                atual = None
+                i += 1
+                continue
+
+            if artigo is not None:
+                m_par = RE_PARAGRAFO.match(t)
+                if m_par:
+                    k = int(m_par.group(1)) if m_par.group(1) else 0
+                    if k == 0 or k == seq["par"] + 1:
+                        seq["par"] = k
+                        rot = f"{artigo.rotulo}, " + ("parágrafo único" if k == 0 else f"§ {ordinal(k)}")
+                        paragrafo = abrir("paragrafo", rot, artigo.id.split(":", 1)[1] + (":par-unico" if k == 0 else f":par-{k}"), artigo.id)
+                        inciso = None
+                        seq.update(inc=0, ali="")
+                        atual.linhas.append(l)
+                        i += 1
+                        continue
+                m_inc = RE_INCISO.match(t)
+                if m_inc:
+                    k = romano_para_int(m_inc.group(1))
+                    if k is not None and k == seq["inc"] + 1:
+                        seq["inc"] = k
+                        base = paragrafo or artigo
+                        inciso = abrir("inciso", f"{base.rotulo}, inciso {m_inc.group(1)}",
+                                       base.id.split(":", 1)[1] + f":inc-{k}", base.id)
+                        seq["ali"] = ""
+                        atual.linhas.append(l)
+                        i += 1
+                        continue
+                m_ali = RE_ALINEA.match(t)
+                if m_ali:
+                    letra = m_ali.group(1)
+                    esperado = "a" if not seq["ali"] else chr(ord(seq["ali"]) + 1)
+                    if letra == esperado:
+                        seq["ali"] = letra
+                        base = inciso or paragrafo or artigo
+                        abrir("alinea", f"{base.rotulo}, alínea {letra}",
+                              base.id.split(":", 1)[1] + f":ali-{letra}", base.id)
+                        atual.linhas.append(l)
+                        i += 1
+                        continue
+
+            # Princípios fundamentais (incisos romanos fora de artigos)
+            if artigo is None and parte["tipo"] == "normativa" and "princ" in parte["rotulo"].lower():
+                m_inc = RE_INCISO.match(t) or re.match(r"^([IVXLC]{1,6})\.\s*", t)
+                if m_inc:
+                    k = romano_para_int(m_inc.group(1))
+                    if k == seq["pri"] + 1:
+                        seq["pri"] = k
+                        abrir("principio", f"Princípio fundamental {m_inc.group(1)}", f"principio-{k}", None)
+                        atual.linhas.append(l)
+                        i += 1
+                        continue
+
+            # Continuação ou trecho livre
+            if atual is not None:
+                atual.linhas.append(l)
+            else:
+                trecho_n += 1
+                tipo = "trecho" if parte["tipo"] != "apresentacao" else "apresentacao"
+                if parte["tipo"] == "pre_textual":
+                    i += 1
+                    continue
+                abrir(tipo, f"{parte['rotulo']} — trecho (p. {l.pagina})", f"p{l.pagina}-t{trecho_n}", None)
+                atual.linhas.append(l)
+            # Trechos livres são quebrados em parágrafos de tamanho moderado
+            if atual is not None and atual.tipo in {"trecho", "apresentacao"}:
+                tam = sum(len(x.texto) for x in atual.linhas)
+                if tam > 700 and t.endswith((".", ":", ";")):
+                    atual = None
+            i += 1
+
+        if self.partes:
+            ultima = max((ln.pagina for u in self.unidades for ln in u.linhas), default=len(self.paginas))
+            self.partes[-1].setdefault("pagina_fim", ultima)
+        self.unidades = [u for u in self.unidades if u.linhas]
+        usadas = {u.parte for u in self.unidades}
+        self.partes = [p for p in self.partes if p["rotulo"] in usadas]
+        return self.unidades
+
+
+def segmentar(paginas: list[str], doc_id: str, partes_manuais: list[dict] | None = None) -> dict:
+    seg = Segmentador(paginas, doc_id, partes_manuais)
+    unidades = seg.executar()
+    vocab = vocabulario(paginas)
+    saida = []
+    for u in unidades:
+        segs = u.segmentos()
+        saida.append({
+            "id": u.id, "tipo": u.tipo, "rotulo": u.rotulo, "parte": u.parte,
+            "hierarquia": u.hierarquia, "pai": u.pai,
+            "pagina_inicio": segs[0][0], "pagina_fim": segs[-1][0],
+            "segmentos": segs, "texto": texto_exibicao(segs, paginas, vocab),
+        })
+    impressos = {i + 1: numero_impresso(ls) for i, ls in enumerate(seg.por_pagina)}
+    # Só mantém a numeração impressa coerente com o deslocamento predominante
+    # (evita confundir números do sumário com números de página).
+    desloc = Counter(i - int(v) for i, v in impressos.items() if v)
+    if desloc:
+        d = desloc.most_common(1)[0][0]
+        impressos = {str(i): v for i, v in impressos.items() if v and i - int(v) == d}
+    else:
+        impressos = {}
+    return {"partes": seg.partes, "unidades": saida,
+            "paginas_impressas": impressos,
+            "linhas_excluidas": len(seg.excluir)}

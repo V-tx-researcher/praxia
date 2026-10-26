@@ -1,0 +1,14 @@
+{
+  "name": "Consulta Ético-Normativa — GPECSS",
+  "short_name": "Consulta GPECSS",
+  "description": "Consulta ético-normativa do Serviço Social com citações verificáveis de documentos oficiais.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#173456",
+  "icons": [
+    { "src": "icones/icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

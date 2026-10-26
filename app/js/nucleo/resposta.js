@@ -1,0 +1,138 @@
+// Orquestração do pipeline de consulta e composição da resposta padronizada.
+//
+// Etapas: privacidade → interpretação/classificação → recuperação lexical →
+// seleção de evidências → vigência → (LLM opcional) → verificação → composição.
+// A recuperação semântica entra como etapa adicional quando habilitada
+// (ver docs/NEXT_STEPS.md); sem ela o pipeline continua íntegro.
+
+import { classificar } from "./classificacao.js";
+import { detectarDadosPessoais, mascarar } from "./privacidade.js";
+import { conferirEvidencias, selecionarEvidencias } from "./evidencias.js";
+import { orientacaoPara } from "./orientacao.js";
+import { verificarAnalise } from "./verificacao.js";
+import { ASSUNTOS_ROTULOS } from "./rotulos.js";
+
+export const LIMITES =
+  "Esta é uma análise informativa, produzida por uma ferramenta independente de pesquisa, " +
+  "com recuperação automática de documentos e, quando indicado, auxílio de inteligência artificial. " +
+  "Pode conter erros ou omissões, não constitui manifestação do CFESS ou de qualquer CRESS e não " +
+  "substitui pareceres, orientação, fiscalização ou deliberação dos órgãos competentes. " +
+  "Leia integralmente as fontes indicadas.";
+
+export async function consultar(indice, perguntaOriginal, { motorLLM = null, aoProgresso = () => {} } = {}) {
+  const etapas = [];
+  const marcar = (nome, detalhe) => { etapas.push({ nome, detalhe }); aoProgresso(nome, detalhe); };
+
+  const dados = detectarDadosPessoais(perguntaOriginal);
+  const pergunta = dados.length ? mascarar(perguntaOriginal, dados) : perguntaOriginal;
+  marcar("privacidade", dados.length ? `${dados.length} possível(is) dado(s) pessoal(is) mascarado(s)` : "nenhum dado pessoal detectado");
+
+  const classificacao = classificar(pergunta);
+  marcar("interpretação", `${classificacao.situacaoRotulo}; temas: ${classificacao.temas.join(", ") || "não identificados"}`);
+
+  const busca = indice.buscar(pergunta, { limite: 40 });
+  marcar("recuperação lexical", `${busca.resultados.length} dispositivos candidatos`);
+
+  let evidencias = selecionarEvidencias(indice, busca, { dataFatos: classificacao.dataFatos });
+  evidencias = conferirEvidencias(indice, evidencias);
+  marcar("evidências", `${evidencias.length} trechos selecionados e conferidos com o acervo`);
+
+  let analise = null;
+  if (motorLLM && evidencias.length) {
+    marcar("análise", "gerando análise com o modelo local");
+    try {
+      const bruta = await motorLLM.analisar({ pergunta, classificacao, evidencias });
+      analise = verificarAnalise(bruta, evidencias);
+      marcar("verificação", `${analise.afirmacoes.length} afirmações aceitas; ${analise.removidas.length} removidas`);
+    } catch (erro) {
+      marcar("análise", `falhou: ${erro.message}`);
+      analise = { erro: erro.message };
+    }
+  }
+
+  return compor({ perguntaOriginal, pergunta, dados, classificacao, busca, evidencias, analise, etapas, llmAtivo: !!motorLLM });
+}
+
+export function compor({ pergunta, dados, classificacao, busca, evidencias, analise, etapas, llmAtivo }) {
+  const r = { pergunta, etapas, classificacao, secoes: [] };
+  const docsUsados = new Map();
+  const temNaoConferido = evidencias.some((e) => !e.documento.conferido);
+
+  if (dados.length) {
+    r.alertaPrivacidade = `Removemos da consulta ${dados.length} trecho(s) que parece(m) conter dado(s) pessoal(is) ` +
+      `(${[...new Set(dados.map((d) => d.tipo))].join(", ")}). Para perguntas gerais, descreva a situação sem identificar pessoas.`;
+  }
+
+  // 1. Síntese da questão
+  const temas = classificacao.temas.map((t) => ASSUNTOS_ROTULOS[t] || t);
+  const sintese = analise?.sintese ||
+    `Pergunta classificada como: ${classificacao.situacaoRotulo.toLowerCase()}` +
+    (temas.length ? `. Temas identificados: ${temas.join("; ")}.` : ". Nenhum tema específico foi identificado automaticamente.");
+  r.secoes.push({ id: "sintese", titulo: "Síntese da questão", paragrafos: [sintese] });
+
+  if (!evidencias.length) {
+    r.insuficiente = true;
+    r.secoes.push({
+      id: "analise", titulo: "Análise ético-normativa",
+      paragrafos: [
+        "Não foram encontrados, no acervo atualmente disponível, dispositivos suficientemente relacionados à pergunta para fundamentar uma análise.",
+        "Isso não significa que a questão não tenha resposta normativa: o acervo ainda está em formação e pode não incluir o documento pertinente. Reformule a pergunta com termos das normas ou consulte o CRESS da sua região.",
+      ],
+    });
+  } else if (analise && !analise.erro && analise.afirmacoes.length) {
+    r.secoes.push({
+      id: "analise", titulo: "Análise ético-normativa",
+      afirmacoes: analise.afirmacoes,
+      notaVerificacao: analise.removidas.length
+        ? `${analise.removidas.length} afirmação(ões) gerada(s) pela IA foram removidas por não terem fundamentação verificável nas fontes.`
+        : null,
+    });
+  } else {
+    r.secoes.push({
+      id: "analise", titulo: "Análise ético-normativa",
+      paragrafos: [
+        llmAtivo && analise?.erro
+          ? "A análise por inteligência artificial não pôde ser concluída. Abaixo estão os dispositivos localizados, para leitura direta."
+          : llmAtivo
+            ? "A análise gerada pela inteligência artificial não passou na verificação de fundamentação e foi descartada. Abaixo estão os dispositivos localizados, para leitura direta."
+            : "Modo documental: esta versão apresenta os dispositivos localizados, com seus textos literais, sem análise interpretativa por inteligência artificial.",
+        "A seleção dos trechos é automática e baseada em correspondência de termos; a pertinência de cada um à sua situação concreta precisa ser avaliada na leitura.",
+      ],
+    });
+  }
+
+  // 3. Fundamentação documental
+  if (evidencias.length) {
+    const usadas = analise?.evidenciasUsadas?.length ? new Set(analise.evidenciasUsadas) : null;
+    const lista = usadas ? evidencias.filter((e) => usadas.has(e.id)) : evidencias;
+    for (const e of lista) docsUsados.set(e.documento.id, e);
+    r.secoes.push({ id: "fundamentacao", titulo: "Fundamentação documental", evidencias: lista,
+      outras: usadas ? evidencias.filter((e) => !usadas.has(e.id)) : [] });
+  }
+
+  // 4. Aspectos que exigem atenção
+  const atencao = [];
+  if (temNaoConferido) atencao.push("PRÉVIA INTERNA: há trechos de documentos que ainda não foram conferidos pela equipe responsável. Não utilize esta resposta como referência.");
+  const avisosVig = new Map();
+  for (const e of evidencias) for (const a of e.vigencia.avisos) avisosVig.set(`${e.documento.id}|${a}`, `${e.documento.titulo}: ${a}`);
+  atencao.push(...avisosVig.values());
+  if (classificacao.dataFatos) atencao.push(`A pergunta menciona uma data (${classificacao.dataFatos.slice(0, 4)}). A redação aplicável deve ser a vigente à época dos fatos.`);
+  if (classificacao.situacao !== "C") atencao.push("A aplicação das normas a um caso concreto depende de circunstâncias que esta ferramenta não conhece e não avalia.");
+  if (analise?.aspectosAtencao) atencao.push(...analise.aspectosAtencao);
+  if (analise?.lacunas?.length) atencao.push(...analise.lacunas.map((l) => `Informação não esclarecida: ${l}`));
+  if (atencao.length) r.secoes.push({ id: "atencao", titulo: "Aspectos que exigem atenção", itens: atencao });
+
+  // 5. Orientação institucional
+  const o = orientacaoPara(classificacao.situacao);
+  r.secoes.push({ id: "orientacao", titulo: "Orientação institucional cabível", paragrafos: o.paragrafos, diferencas: o.diferencas, canais: o.canais });
+
+  // 6. Limites
+  r.secoes.push({ id: "limites", titulo: "Limites da ferramenta", paragrafos: [LIMITES] });
+
+  // 7. Documentos para leitura integral
+  if (docsUsados.size) {
+    r.secoes.push({ id: "leitura", titulo: "Documentos para leitura integral",
+      documentos: [...docsUsados.values()].map((e) => ({ ...e.documento, link: e.link.split("#")[0] })) });
+  }
+  return r;
+}

@@ -1,0 +1,11 @@
+# Originais baixados (reobtidos pelo pipeline a partir das fontes oficiais; SHA-256 no catálogo)
+dados/brutos/
+# Texto integral extraído (regenerável; inclui partes editoriais com direitos reservados)
+dados/textos/
+# Índice de prévia: contém documentos NÃO conferidos — nunca publicar
+app/dados/acervo-previa.json
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+Thumbs.db

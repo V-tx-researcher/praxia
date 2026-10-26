@@ -1,55 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GPECSS | Consulta Ético-Normativa</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; connect-src 'self' https://cdn.jsdelivr.net https://huggingface.co https://*.huggingface.co https://*.hf.co https://raw.githubusercontent.com; img-src 'self' data:; style-src 'self'; worker-src 'self' blob:; base-uri 'self'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Consulta ético-normativa do Serviço Social com citações verificáveis de documentos oficiais do Conjunto CFESS-CRESS. Projeto independente do GPECSS.">
+  <meta name="theme-color" content="#173456">
+  <title>Consulta Ético-Normativa | GPECSS</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icones/icone.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Consulta Ético-Normativa</h1>
-        <p>Projeto GPECSS | Conjunto CFESS-CRESS</p>
-    </header>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 
-    <main>
-        <section class="aviso">
-            <strong>Importante:</strong>
-            Esta ferramenta é independente e não substitui
-            a orientação oficial do CFESS ou dos CRESS.
-            Consulte integralmente as fontes indicadas.
-        </section>
+  <header class="topo">
+    <div class="topo-interno">
+      <div class="marca">
+        <span class="sigla" aria-hidden="true">GPECSS</span>
+        <div>
+          <h1>Consulta Ético-Normativa</h1>
+          <p>Serviço Social · documentos oficiais do Conjunto CFESS-CRESS</p>
+        </div>
+      </div>
+      <nav aria-label="Seções">
+        <ul class="abas" role="tablist">
+          <li><button role="tab" id="aba-consulta" aria-controls="painel-consulta" aria-selected="true">Consulta</button></li>
+          <li><button role="tab" id="aba-biblioteca" aria-controls="painel-biblioteca" aria-selected="false" tabindex="-1">Biblioteca normativa</button></li>
+          <li><button role="tab" id="aba-sobre" aria-controls="painel-sobre" aria-selected="false" tabindex="-1">Sobre e transparência</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-        <section class="consulta">
-            <h2>Faça sua pergunta</h2>
-            <textarea id="pergunta"
-                placeholder="Digite sua dúvida sobre direitos, deveres, atribuições ou condições éticas e técnicas. Não inclua dados pessoais ou sigilosos."></textarea>
+  <div id="faixa-previa" class="faixa-previa" hidden role="alert">
+    <strong>Prévia interna.</strong> Este acervo inclui documentos que ainda <strong>não foram conferidos</strong>
+    pela equipe responsável. Não utilize os resultados como referência.
+  </div>
 
-            <button id="consultar">Consultar documentos</button>
+  <main id="conteudo" tabindex="-1">
+    <section id="painel-consulta" role="tabpanel" aria-labelledby="aba-consulta">
+      <p class="aviso">
+        Ferramenta <strong>independente</strong> de pesquisa documental. Não é manifestação do CFESS
+        ou de qualquer CRESS e não substitui orientação, fiscalização ou parecer dos órgãos competentes.
+      </p>
 
-            <div id="resultado" aria-live="polite"></div>
-        </section>
+      <form id="form-consulta" class="cartao consulta" novalidate>
+        <label for="pergunta" class="rotulo-campo">Sua dúvida sobre o exercício profissional</label>
+        <p id="ajuda-pergunta" class="ajuda">
+          Descreva a situação de forma geral. <strong>Não inclua nomes, documentos pessoais,
+          números de processos ou outros dados que identifiquem pessoas.</strong>
+          A pergunta é processada apenas neste dispositivo e não é armazenada.
+        </p>
+        <textarea id="pergunta" name="pergunta" rows="5" required aria-describedby="ajuda-pergunta"
+          placeholder="Ex.: Posso compartilhar informações do atendimento com a equipe multidisciplinar?"></textarea>
+        <div class="linha-acoes">
+          <button type="submit" id="consultar" class="botao-primario">Consultar</button>
+          <span id="estado-ia" class="estado-ia"></span>
+        </div>
+      </form>
 
-        <section>
-            <h2>Fontes documentais</h2>
-            <div id="fontes"></div>
-        </section>
+      <div id="progresso" class="progresso" aria-live="polite"></div>
+      <div id="resultado" class="resultado" aria-live="polite"></div>
+    </section>
 
-        <section class="aviso">
-            <h2>Orientação institucional</h2>
-            <p>
-                Para dúvidas sobre possíveis infrações éticas,
-                condições éticas e técnicas de trabalho ou
-                procedimentos institucionais, procure o CRESS
-                competente, sua COFI ou SubCOFI, quando existente.
-            </p>
-        </section>
-    </main>
+    <section id="painel-biblioteca" role="tabpanel" aria-labelledby="aba-biblioteca" hidden>
+      <h2>Biblioteca normativa</h2>
+      <p class="ajuda">Documentos do acervo, com situação normativa e estado de conferência.</p>
+      <form id="filtros" class="cartao filtros" role="search" aria-label="Filtrar documentos">
+        <div class="campo">
+          <label for="f-texto">Buscar no título</label>
+          <input id="f-texto" type="search" autocomplete="off">
+        </div>
+        <div class="campo">
+          <label for="f-tipo">Tipo documental</label>
+          <select id="f-tipo"><option value="">Todos</option></select>
+        </div>
+        <div class="campo">
+          <label for="f-orgao">Órgão</label>
+          <select id="f-orgao"><option value="">Todos</option></select>
+        </div>
+        <div class="campo">
+          <label for="f-situacao">Situação normativa</label>
+          <select id="f-situacao"><option value="">Todas</option></select>
+        </div>
+        <div class="campo">
+          <label for="f-ano">Ano</label>
+          <select id="f-ano"><option value="">Todos</option></select>
+        </div>
+      </form>
+      <div id="lista-documentos" aria-live="polite"></div>
+      <div id="leitura-documento"></div>
+    </section>
 
-    <footer>
-        <p>GPECSS — Plataforma independente de pesquisa documental.</p>
-    </footer>
+    <section id="painel-sobre" role="tabpanel" aria-labelledby="aba-sobre" hidden>
+      <h2>Sobre e transparência</h2>
+      <div id="transparencia"></div>
+    </section>
+  </main>
 
-    <script src="js/app.js"></script>
+  <footer class="rodape">
+    <p>GPECSS — plataforma independente de pesquisa documental, sem vínculo institucional com o CFESS ou os CRESS.</p>
+    <p><a href="https://gpecss2026.wixsite.com/gpecss" rel="noopener">Site do GPECSS</a></p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
