@@ -1,0 +1,89 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #243247;
+    background: #f4f6f9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 36px 20px;
+    background: #173456;
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: min(960px, 94%);
+    margin: 30px auto;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.consulta {
+    padding: 26px;
+    border-radius: 12px;
+    background: white;
+    border: 1px solid #dae0e8;
+}
+
+textarea {
+    width: 100%;
+    min-height: 140px;
+    padding: 15px;
+    border: 1px solid #b9c4d0;
+    border-radius: 8px;
+    resize: vertical;
+    font: inherit;
+}
+
+button {
+    margin-top: 14px;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #205b96;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #173f69;
+}
+
+.aviso {
+    padding: 20px;
+    border-left: 4px solid #205b96;
+    background: #e9f0f8;
+    border-radius: 6px;
+}
+
+.fonte {
+    padding: 18px;
+    background: white;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #dae0e8;
+}
+
+.fonte blockquote {
+    margin: 12px 0;
+    padding: 12px;
+    border-left: 3px solid #7187a0;
+    background: #f5f7fa;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #58677a;
+}

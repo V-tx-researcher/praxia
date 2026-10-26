@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GPECSS | Consulta Ético-Normativa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Consulta Ético-Normativa</h1>
+        <p>Projeto GPECSS | Conjunto CFESS-CRESS</p>
+    </header>
+
+    <main>
+        <section class="aviso">
+            <strong>Importante:</strong>
+            Esta ferramenta é independente e não substitui
+            a orientação oficial do CFESS ou dos CRESS.
+            Consulte integralmente as fontes indicadas.
+        </section>
+
+        <section class="consulta">
+            <h2>Faça sua pergunta</h2>
+            <textarea id="pergunta"
+                placeholder="Digite sua dúvida sobre direitos, deveres, atribuições ou condições éticas e técnicas. Não inclua dados pessoais ou sigilosos."></textarea>
+
+            <button id="consultar">Consultar documentos</button>
+
+            <div id="resultado" aria-live="polite"></div>
+        </section>
+
+        <section>
+            <h2>Fontes documentais</h2>
+            <div id="fontes"></div>
+        </section>
+
+        <section class="aviso">
+            <h2>Orientação institucional</h2>
+            <p>
+                Para dúvidas sobre possíveis infrações éticas,
+                condições éticas e técnicas de trabalho ou
+                procedimentos institucionais, procure o CRESS
+                competente, sua COFI ou SubCOFI, quando existente.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>GPECSS — Plataforma independente de pesquisa documental.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
