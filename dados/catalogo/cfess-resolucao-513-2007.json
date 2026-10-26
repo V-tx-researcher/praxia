@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-513-2007",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 513/2007 (Revogada pela Resolução nº 556/2009)",
+  "numero": "513",
+  "ano": 2007,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Procedimentos para efeito da Lacração do Material Técnico sigiloso do Serviço Social",
+  "data_publicacao": "2007-12-10",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/507/resolucao-n-5132007-revogada-pela-resolucao-n-5562009",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:Revogada pela Resolução nº 556/2009"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:20+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "507",
+    "assinatura_pagina": "5d34c3b301b4e22cef0bce9dbcc002ceba3532809b4fef9091b1a23eb744c381",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4613/resolucao_513_07.pdf",
+        "nome": "resolucao_513_07.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:20+00:00"
+  }
+}

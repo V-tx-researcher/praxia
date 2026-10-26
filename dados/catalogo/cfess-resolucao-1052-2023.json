@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1052-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1052/2023",
+  "numero": "1052",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o anexo B da Resolução CFESS no 1.035/2023, de 30 de maio de 2023, publicada no Diário Oficial da União no 105, de 2 de junho de 1993, Seção 1, que atualiza o Quadro de Valores das Referências Salariais e a Tabela de Remuneração dos Cargos em Comissão, constantes da Resolução CFESS nº 510, de 21 de setembro de 2007, que institui o Plano de Cargos, Carreiras e Remuneração dos Funcionários do Conselho Federal de Serviço Social, reformulados anualmente",
+  "data_publicacao": "2023-10-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/259/resolucao-10522023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:plano de cargos,remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:02+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "259",
+    "assinatura_pagina": "2d1e9d692ff36f4b7a599ba48ee1bfc18a684b3517e205c2c5884aab52229c41",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4316/1052.pdf",
+        "nome": "1052.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:02+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-26-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 26/2022",
+  "numero": "26",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição do Grupo de Trabalho para monitorar o Portal de Transparência do Conselho Federal de Serviço Social",
+  "data_publicacao": "2022-10-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/125/portaria-cfess-n-262022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "125",
+    "assinatura_pagina": "c7934e36ce26dcefc28196debcb3b3c0b98162b1c064063553c504190ba31469",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3265/Portariacfess26-22.pdf",
+        "nome": "Portariacfess26-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:52+00:00"
+  }
+}

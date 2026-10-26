@@ -1,0 +1,152 @@
+{
+  "id": "cfess-resolucao-493-2006",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 493/2006",
+  "numero": "493",
+  "ano": 2006,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Revogada integralmente pela Resolução CFESS nº 1.114/2025",
+  "data_publicacao": "2006-08-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-493-2006",
+        "texto": "RESOLUÇÃO CFESS nº 493/2006",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei n° 8.662, de 07 de junho de 1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/515/resolucao-n-4932006",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4624/Resolucao_493-06.pdf",
+      "papel": "principal",
+      "sha256": "b6cafe5a908d117c72282e7d9ee8af88ddd92b4217fdccd1274a88f8a215fa63",
+      "bytes": 19159,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:01+00:00",
+      "verificado_em": "2026-10-26T21:29:01+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-493-2006/b6cafe5a908d117c.pdf",
+      "versao": "b6cafe5a908d117c"
+    }
+  ],
+  "versao_atual": "b6cafe5a908d117c",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 18,
+    "unidades": 21,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 493/2006",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 6397,
+    "media_caracteres_pagina": 2132.3,
+    "proporcao_letras": 0.818,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "portal_indica_situacao:Revogada integralmente pela Resolução CFESS nº 1"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:01+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:12+00:00",
+      "por": "processador",
+      "motivo": "21 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:12+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "515",
+    "assinatura_pagina": "1659068fa3ce72382269d06e2cfe113c8f8d5b3d91850a1d57aeca091df95521",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4624/Resolucao_493-06.pdf",
+        "nome": "Resolucao_493-06.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:36+00:00"
+  }
+}

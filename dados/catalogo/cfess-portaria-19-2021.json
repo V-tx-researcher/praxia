@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-19-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 19/2021",
+  "numero": "19",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Instaura INQUÉRITO ADMINISTRATIVO nº 01/2021 para apuração de responsabilidades quanto à autoria de fatos irregulares colhidos através da Sindicância Administrativa CFESS nº 01/2021, que apurou supostas irregularidades no âmbito do CRESS da 5ª Região, com jurisdição no Estado da Bahia, e nomeia os membros para compor a Comissão de Inquérito",
+  "data_publicacao": "2021-11-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/151/portaria-cfess-n-192021",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "151",
+    "assinatura_pagina": "c3985adc4039424868baf0be9e16dd484054bc7dbfa5e0481c4d5b9bdcc624aa",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3291/Portariacfess19-21.pdf",
+        "nome": "Portariacfess19-21.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:42+00:00"
+  }
+}

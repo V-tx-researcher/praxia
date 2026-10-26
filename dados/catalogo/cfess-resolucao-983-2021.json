@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-983-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 983/2021",
+  "numero": "983",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento do cargo de conselheira do Conselho Fiscal, no âmbito do Conselho Federal de Serviço Social",
+  "data_publicacao": "2021-11-03",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/311/resolucao-9832021",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "311",
+    "assinatura_pagina": "efd1081f1e4f4540de30539d950a1df587b4308c2ada31be64209792b1e95482",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4374/Resolucaocfess9832021.pdf",
+        "nome": "Resolucaocfess9832021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:48+00:00"
+  }
+}

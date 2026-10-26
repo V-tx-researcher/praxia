@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-977-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 977/2021",
+  "numero": "977",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado final da eleição extraordinária da Seccionai de Campinas do Cress-SP (9a Região) especificado na presente norma, para Gestão 2020/2023, cujos mandatos se iniciam com as posses (2 a 6 de julho de 2021) e se expiram em 15 de maio de 2023",
+  "data_publicacao": "2021-07-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/317/resolucao-9772021",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleicao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "317",
+    "assinatura_pagina": "4071cfa9d15b88ec775e3d614cd5bc165a2545d438d3f54f57bb4d39c4665039",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4384/resolucaocfess9772021.pdf",
+        "nome": "resolucaocfess9772021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:00+00:00"
+  }
+}

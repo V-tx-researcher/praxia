@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-25-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 25/2009",
+  "numero": "25",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Determina a sustação da análise e decisão sobre os pedidos de inscrição profissional, apresentados ou protocolizados perante os CRESS, de alunos formados pela UNITINS em Serviço Social",
+  "data_publicacao": "2009-08-28",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/193/portaria-cfess-n-252009",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:36:18+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "193",
+    "assinatura_pagina": "6d5b0984921b951c757578c33cf8925bc64742931760797ef80d4556cfc0a207",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3331/Portaria_025.pdf",
+        "nome": "Portaria_025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:36:18+00:00"
+  }
+}

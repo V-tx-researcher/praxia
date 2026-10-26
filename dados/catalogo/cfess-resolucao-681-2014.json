@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-681-2014",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 681/2014",
+  "numero": "681",
+  "ano": 2014,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado final das eleições do CFESS, dos CRESS e Seccionais, especificados na presente norma, para a Gestão 2014/2017, cujos mandatos respectivos se iniciam em 15 de maio de 2014 e se expiram em 15 de maio de 2017",
+  "data_publicacao": "2014-05-08",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/439/resolucao-n-6812014",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:04+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "439",
+    "assinatura_pagina": "6561ac38a0dc158b9013af170b8f9b1fe4db4aaffdd23f892620879aae81406c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4536/resolucao-681-2014.pdf",
+        "nome": "resolucao-681-2014.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:04+00:00"
+  }
+}

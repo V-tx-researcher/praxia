@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-48-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 48/2025",
+  "numero": "48",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a designação da Comissão Técnica de Avaliação para Prova de Conceito do Pregão Eletrônico nº 90.010/2025.",
+  "data_publicacao": "2025-11-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/620/portaria-n-482025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:28:46+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "620",
+    "assinatura_pagina": "9f16622533252960de65c0aabcf7b32aa0820dd454e3c1977152d4962c486404",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5448/Portaria CFESS Nº 48.pdf",
+        "nome": "Portaria CFESS Nº 48.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:28:46+00:00"
+  }
+}

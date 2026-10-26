@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-36-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 36/2022",
+  "numero": "36",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição da Comissão Gestora do Fundo Nacional de Apoio aos Cress, Seccionais e Cfess, criada pela Portaria Cfess nº 01/2006",
+  "data_publicacao": "2022-12-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/116/portaria-cfess-n-362022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:34+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "116",
+    "assinatura_pagina": "2ec70fc997e8d77ef90851f424804656449216bb29f3fa62b5d03d22aa80b6e0",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3256/portaria36-22.pdf",
+        "nome": "portaria36-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:34+00:00"
+  }
+}

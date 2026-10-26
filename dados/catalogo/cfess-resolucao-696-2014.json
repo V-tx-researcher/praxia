@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-696-2014",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 696/2014",
+  "numero": "696",
+  "ano": 2014,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Normatiza o recadastramento nacional dos/as assistentes sociais, a substituição das atuais carteiras e cédulas de identidade profissional e pesquisa sobre o perfil do/a assistente social e realidade do exercício profissional no país",
+  "data_publicacao": "2014-12-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/437/resolucao-n-6962014",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "437",
+    "assinatura_pagina": "a21bc8e4373fddf2fd092f51126068d3bc9b01ef3f91906367e53709312ba56e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4533/resolucao-cfess-696-2014.pdf",
+        "nome": "resolucao-cfess-696-2014.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:00+00:00"
+  }
+}

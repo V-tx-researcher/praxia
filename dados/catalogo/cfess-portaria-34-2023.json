@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-34-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 34/2023",
+  "numero": "34",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa funcionários como fiscais e subfiscais dos contratos administrativos do Conselho Federal de Serviço Social nela relacionados",
+  "data_publicacao": "2023-09-18",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/84/portaria-cfess-n-342023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:28+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "84",
+    "assinatura_pagina": "420910974117880732a2d4a1ee158dcec3870992148f85a92177460fc47d5fdc",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3223/34-2023.pdf",
+        "nome": "34-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:28+00:00"
+  }
+}

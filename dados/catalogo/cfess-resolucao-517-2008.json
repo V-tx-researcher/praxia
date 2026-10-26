@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-517-2008",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 517/2008",
+  "numero": "517",
+  "ano": 2008,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologação do resultado final das eleições das Seccionais de Volta Redonda e Campos dos Goytacazes do CRESS da 7a. Região",
+  "data_publicacao": "2008-01-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/503/resolucao-n-5172008",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "503",
+    "assinatura_pagina": "c8b6c6ec755b63e81ca4770415c4c2a0144e234b1d6aa28214d400d24b202f1a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4609/resolucao_517_08.pdf",
+        "nome": "resolucao_517_08.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:12+00:00"
+  }
+}

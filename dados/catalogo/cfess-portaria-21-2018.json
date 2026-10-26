@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-21-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 21/2018",
+  "numero": "21",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa pregoeiros e apoio para operar o pregão nas formas eletrônica e presencial no âmbito do Conselho Federal de Serviço Social (CFESS)",
+  "data_publicacao": "2018-08-31",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/175/portaria-cfess-n-212018",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "175",
+    "assinatura_pagina": "69703ccb8e25b8e5b6ec1466985327978ba3c452f41d3703a6aa47b0fad8d414",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3314/PortariaCFESS21-2018.pdf",
+        "nome": "PortariaCFESS21-2018.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:32+00:00"
+  }
+}

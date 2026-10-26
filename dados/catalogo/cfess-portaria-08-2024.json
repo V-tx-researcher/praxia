@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-08-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 08/2024",
+  "numero": "08",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Portaria Cfess nº 41, de 21 de novembro de 2023, que designa a Comissão Gestora do Fundo Nacional de Apoio aos Cress e ao Cfess",
+  "data_publicacao": "2024-01-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/67/portaria-cfess-n-082024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:31:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "67",
+    "assinatura_pagina": "e930555a339b57e53096bac74f23697de1dbe430e375377ed5472fdc11fe09ac",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3205/08-2024.pdf",
+        "nome": "08-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:31:44+00:00"
+  }
+}

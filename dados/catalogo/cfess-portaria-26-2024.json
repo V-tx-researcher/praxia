@@ -1,0 +1,65 @@
+{
+  "id": "cfess-portaria-26-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n° 26/2024",
+  "numero": "26",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição da Comissão de Orientação e Fiscalização do Conselho Federal de Serviço Social – CFESS da Gestão 2023-2026 “QUE NOSSAS VOZES ECOEM VIDA-LIBERDADE”",
+  "data_publicacao": "2024-04-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/50/portaria-n-262024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:31:14+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "50",
+    "assinatura_pagina": "cb57a831c033638f1270b0140dccc7335e3869f94b54b0488c6cf766f95ec157",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3189/026-2024.pdf",
+        "nome": "026-2024.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3190/026-2024_com_retificacao.pdf",
+        "nome": "026-2024_com_retificacao.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:31:14+00:00"
+  }
+}

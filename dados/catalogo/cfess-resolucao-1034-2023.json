@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1034-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1034/2023",
+  "numero": "1034",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento de cargo de conselheira 1ª suplente licenciada, no âmbito do Conselho Federal de Serviço Social – Cfess",
+  "data_publicacao": "2023-05-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/273/resolucao-10342023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:30+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "273",
+    "assinatura_pagina": "59b2b75a7f08c36b8928a845749b3c06ada6a02649a237cd08a5ea40f09062fd",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4331/1034-2023.pdf",
+        "nome": "1034-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:30+00:00"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1027-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1027/2023",
+  "numero": "1027",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologação da nomeação da Diretoria Provisória do CRESS/AP",
+  "data_publicacao": "2023-04-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/280/resolucao-10272023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:nomeacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "280",
+    "assinatura_pagina": "bf9cac93cf8c461f990169795d795f69136f3f3831fc38559b1a32b30c3b8374",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4338/res1027-2023.pdf",
+        "nome": "res1027-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:42+00:00"
+  }
+}

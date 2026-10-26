@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-712-2015",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 712/2015",
+  "numero": "712",
+  "ano": 2015,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS 510/2007, incluindo atribuições ao cargo de Coordenador Financeiro no âmbito do Plano de Cargos, Carreiras e Remuneração dos funcionários do Conselho Federal de Serviço Social",
+  "data_publicacao": "2015-06-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/426/resolucao-n-7122015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo,plano de cargos,remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:40+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "426",
+    "assinatura_pagina": "b70b7ad2491cf75c9712248678d560073a64a3a1ff8204fe1e52cd7976ab292c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4522/resolucao-712-2015.pdf",
+        "nome": "resolucao-712-2015.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:40+00:00"
+  }
+}

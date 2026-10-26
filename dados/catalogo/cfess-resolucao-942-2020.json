@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-942-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 942/2020",
+  "numero": "942",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Autoriza, em caráter excepcional e para o exercício 2020, a extensão de prazos para o pagamento das anuidades de pessoa física e de pessoa jurídica",
+  "data_publicacao": "2020-03-30",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/341/resolucao-n-9422020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "341",
+    "assinatura_pagina": "42ea7fe89f28111077ff14c36c2f313c0c6704ff5202fb7ea2e40b6815098592",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4421/ResolucaoCfess9422020.pdf",
+        "nome": "ResolucaoCfess9422020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:48+00:00"
+  }
+}

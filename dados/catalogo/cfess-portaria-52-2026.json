@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-52-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 52/2026",
+  "numero": "52",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa trabalhador(a) como fiscal e subfiscal de contrato administrativo do Conselho Federal de Serviço Social nele relacionado",
+  "data_publicacao": "2026-07-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/703/portaria-n-522026",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:26:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "703",
+    "assinatura_pagina": "21d077f9dcbafa07478bd404c31435981643397f6456e4bd09407c9e93708717",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5966/52-2026 (1).pdf",
+        "nome": "52-2026 (1).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:26:58+00:00"
+  }
+}

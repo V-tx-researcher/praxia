@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-940-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 940/2020 - Revogada integralmente pela Resolução CFESS nº 988, de 21 de fevereiro de 2022",
+  "numero": "940",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a suspensão dos prazos processuais e da prescrição quinquenal e intercorrente no âmbito do Conselho Federal de Serviço Social (CFESS) e dos Conselhos Regionais de Serviço Social e a suspensão dos atos processuais que envolvam contato presencial",
+  "data_publicacao": "2020-03-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/343/resolucao-n-9402020-revogada-integralmente-pela-resolucao-cfess-n-988-de-21-de-fevereiro-de-2022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:Revogada integralmente pela Resolução CFESS nº 988, de 21 de fevereiro de 2022 Dispõe sobre a suspensão dos prazos pro"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:50+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "343",
+    "assinatura_pagina": "85cc88c268e409f64491188c2d0307cd27e85d08f05c480ed5962aa8c2936266",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4425/ResolucaoCfess940-2020.pdf",
+        "nome": "ResolucaoCfess940-2020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:50+00:00"
+  }
+}

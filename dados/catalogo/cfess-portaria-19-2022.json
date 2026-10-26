@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-19-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 19/2022",
+  "numero": "19",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa a Comissão Permanente de Licitação (CPL), no âmbito do Conselho Federal de Serviço Social",
+  "data_publicacao": "2022-09-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/131/portaria-cfess-n-192022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:licitacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:02+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "131",
+    "assinatura_pagina": "c5d784e7c6fac7131ac11326986ef65ef8736aecd83a350ca42d4f0bba0bd8dc",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3271/PortariaCfess19-22.pdf",
+        "nome": "PortariaCfess19-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:02+00:00"
+  }
+}

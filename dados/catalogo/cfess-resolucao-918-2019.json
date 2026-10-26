@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-918-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 918/2019",
+  "numero": "918",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado da eleição realizada em Assembleia Extraordinária, para preenchimento de cargos do mandato dos membros do Cress da 26ª Região (AC)",
+  "data_publicacao": "2019-10-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/354/resolucao-n-9182019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleicao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "354",
+    "assinatura_pagina": "028d639cfbf27edfcf52e15f870a8084f44308c785230dd1d63ba6644e97e6ef",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4441/Res918-2019.pdf",
+        "nome": "Res918-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:12+00:00"
+  }
+}

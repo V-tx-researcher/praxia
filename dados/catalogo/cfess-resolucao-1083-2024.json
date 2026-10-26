@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1083-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.083/2024",
+  "numero": "1083",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS no 510/2007, que institui o Plano de Cargos, Carreiras e Remuneração dos Funcionários do Conselho Federal de Serviço Social",
+  "data_publicacao": "2024-11-11",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/233/resolucao-10832024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:plano de cargos,remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:08+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "233",
+    "assinatura_pagina": "4cc576d2dce4d52b494c482b876fe33202e3dd91d8d5968512b38349358f49ff",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4270/1083-2024.pdf",
+        "nome": "1083-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:08+00:00"
+  }
+}

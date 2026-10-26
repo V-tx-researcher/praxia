@@ -1,0 +1,171 @@
+{
+  "id": "cfess-resolucao-557-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 557/2009",
+  "numero": "557",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a emissão de pareceres, laudos, opiniões técnicas conjuntos entre o assistente social e outros profissionais",
+  "data_publicacao": "2009-09-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-557-2009",
+        "texto": "RESOLUÇÃO CFESS Nº 557/2009",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-273-1993",
+        "texto": "Resolução CFESS nº 273/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8662",
+        "texto": "Lei 8662",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/481/resolucao-n-5572009",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4587/Resolucao_CFESS_557-2009.pdf",
+      "papel": "principal",
+      "sha256": "47ae50774eea8a3f193364daa5d2b7a0fab9b02dad1720865187576fb7cfb4b5",
+      "bytes": 17486,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:04+00:00",
+      "verificado_em": "2026-10-26T21:29:04+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-557-2009/47ae50774eea8a3f.pdf",
+      "versao": "47ae50774eea8a3f"
+    }
+  ],
+  "versao_atual": "47ae50774eea8a3f",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 9,
+    "unidades": 13,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 557/2009",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 6038,
+    "media_caracteres_pagina": 2012.7,
+    "proporcao_letras": 0.817,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:30+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:04+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:14+00:00",
+      "por": "processador",
+      "motivo": "13 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:14+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "481",
+    "assinatura_pagina": "f64a18209a9ffe67efece08ce9be1c941fab545efa708c7c798eb58cce7affab",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4587/Resolucao_CFESS_557-2009.pdf",
+        "nome": "Resolucao_CFESS_557-2009.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:30+00:00"
+  }
+}

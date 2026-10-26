@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-950-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 950/2020",
+  "numero": "950",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui MODELO DE CERTIDÃO DISCIPLINAR E/OU ÉTICA, conforme Anexos I, II, III e IV, acrescentando o parágrafo único ao artigo 9º da Resolução Cfess 934/2020 que regulamenta o fornecimento de certidões.",
+  "data_publicacao": "2020-07-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/625/resolucao-n-9502020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:34+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "625",
+    "assinatura_pagina": "7785ae9ce8fb3dbc0e9205de8d8711151a5eeafbd6d854906a8d03828f589acb",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5510/950 (1).pdf",
+        "nome": "950 (1).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:34+00:00"
+  }
+}

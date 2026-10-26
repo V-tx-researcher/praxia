@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-640-2012",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 640/2012",
+  "numero": "640",
+  "ano": 2012,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução nº 440/2003, que dispõe sobre as formas de ingresso nos Conselhos Federal e Regionais de Serviço Social, de forma que os cargos efetivos sejam providos mediante concurso público",
+  "data_publicacao": "2012-12-14",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/455/resolucao-n-6402012",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:concurso publico"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "455",
+    "assinatura_pagina": "3585150a1e4a18558adee30332f013e347774db1e1df701b89197c0e0ce66b72",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4556/Resolucao-640-2013.pdf",
+        "nome": "Resolucao-640-2013.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:36+00:00"
+  }
+}

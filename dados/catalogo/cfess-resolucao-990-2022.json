@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-990-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 990/2022",
+  "numero": "990",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Atualiza o Quadro de Valores das Referências Salariais e a Tabela de Remuneração dos Cargos em Comissão, constantes da Resolução CFESS nº 510, de 21 de setembro de 2007, que institui o Plano de Cargos, Carreiras e Remuneração dos Funcionários do Conselho Federal de Serviço Social, reformulados anualmente",
+  "data_publicacao": "2022-02-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/307/resolucao-9902022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:plano de cargos,remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "307",
+    "assinatura_pagina": "59d75e706feffbc7f0062e9293d0cf3779b8b4809966335bdf49df1d1e3b095d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4367/res9902022.pdf",
+        "nome": "res9902022.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:42+00:00"
+  }
+}

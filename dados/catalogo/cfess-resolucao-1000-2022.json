@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1000-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.000/2022",
+  "numero": "1000",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento do cargo de conselheira do Conselho Fiscal, no âmbito do Conselho Federal de Serviço Social – Cfess, na gestão 2020/2023",
+  "data_publicacao": "2022-06-03",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/300/resolucao-10002022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "300",
+    "assinatura_pagina": "623fdd2260278dd3550e618ed1f285a416f0bf927684538ae1cb2b337d2a14c0",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4358/Rescfess1000-22.pdf",
+        "nome": "Rescfess1000-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:24+00:00"
+  }
+}

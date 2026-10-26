@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-22-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n°22/2025",
+  "numero": "22",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa funcionários como fiscal e subfiscal do contrato administrativo do Conselho Federal de Serviço Social nela relacionado.",
+  "data_publicacao": "2025-03-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/575/portaria-n222025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:29:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "575",
+    "assinatura_pagina": "4e89b6545b8b6ad4349b1267cec66783be4fd7eedbb0aec0fe5f386e062112fd",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5093/PortariaCfess222025.pdf",
+        "nome": "PortariaCfess222025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:29:24+00:00"
+  }
+}

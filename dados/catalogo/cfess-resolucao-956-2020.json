@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-956-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 956/2020",
+  "numero": "956",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado final das eleições extraordinárias das Seccionais de Sorocaba, Santos, Ribeirão Preto, São José do Rio Preto e Presidente Prudente do Cress-SP (9ª Região) e, Secional de Campina Grande do Cress-PB (13ª Região), especificados na presente norma, para Gestão 2020/2023, cujos mandatos se iniciam com as posses (8 a 10 de setembro de 2020) e se expiram em 15 de maio de 2023",
+  "data_publicacao": "2020-09-03",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/329/resolucao-n-9562020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "329",
+    "assinatura_pagina": "6bb5ffa8ea3c537b3ce9f4b1389bb7a18e4416508c541a763d577a573d439a8e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4403/resolucaocfess956-2020.pdf",
+        "nome": "resolucaocfess956-2020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:22+00:00"
+  }
+}

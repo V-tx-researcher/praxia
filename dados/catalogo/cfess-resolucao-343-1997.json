@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-343-1997",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 343/1997",
+  "numero": "343",
+  "ano": 1997,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui procedimentos concessão de mala direta",
+  "data_publicacao": "1997-05-04",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/529/resolucao-n-3431997",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:26:08+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "529",
+    "assinatura_pagina": "056e827083deba7b274a9f89c273807a165824d10eb43d5a5de209042cb09258",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4641/ResCfess343-97.pdf",
+        "nome": "ResCfess343-97.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:26:08+00:00"
+  }
+}

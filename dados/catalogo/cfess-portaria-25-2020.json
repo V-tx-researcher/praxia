@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-25-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 25/2020",
+  "numero": "25",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Concede ponto facultativo aos/às trabalhadores/as do Conselho Federal de Serviço Social (Cfess) nos dias que especifica do exercício de 2021",
+  "data_publicacao": "2020-12-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/164/portaria-cfess-n-252020",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:08+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "164",
+    "assinatura_pagina": "47ba2f70a1897317d4922b20f4c4c03e5a7c331868af7fcfb1bcb5cd7e765d7e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3303/PortariaCfess25-20200site.pdf",
+        "nome": "PortariaCfess25-20200site.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:08+00:00"
+  }
+}

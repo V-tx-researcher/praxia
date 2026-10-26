@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-515-2007",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 515/2007",
+  "numero": "515",
+  "ano": 2007,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologação do resultado final das eleições do CFESS e dos CRESS e Seccionais",
+  "data_publicacao": "2007-12-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/505/resolucao-n-5152007",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:16+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "505",
+    "assinatura_pagina": "e17535855bd871602c0b48d0014de1262029fc34f7d682db2bde96ad454c7bc1",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4611/resolucao_515_07.pdf",
+        "nome": "resolucao_515_07.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:16+00:00"
+  }
+}

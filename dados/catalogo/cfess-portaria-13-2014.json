@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-13-2014",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 13/2014",
+  "numero": "13",
+  "ano": 2014,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a concessão de ponto facultativo aos/às funcionários/as do Conselho Federal de Serviço Social nos dias de jogos da Copo do Mundo FIFA 2014, quando da realização na cidade-sede, Brasília (DF) e dá outras providências.",
+  "data_publicacao": "2014-06-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/565/portaria-cfess-n-132014",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:36:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "565",
+    "assinatura_pagina": "e98ddefd2fe6aef93e5bd29ae9516402b8d115480e23f32d2d7df68421f1ddbd",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5014/13-2014.pdf",
+        "nome": "13-2014.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:36:00+00:00"
+  }
+}

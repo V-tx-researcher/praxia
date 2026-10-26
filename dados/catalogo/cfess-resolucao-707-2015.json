@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-707-2015",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 707/2015",
+  "numero": "707",
+  "ano": 2015,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS nº 582, de 01 de julho de 2010, para regulamentar o novo documento de identidade profissional e vedar a retenção de documento de identidade profissional pelos CRESS",
+  "data_publicacao": "2015-04-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/431/resolucao-n-7072015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "431",
+    "assinatura_pagina": "ea4f4e108a9ddc4ac00c5e219356425d8a350bb3f896be1e5e422601169d0bc2",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4527/Resolucao707-2015.pdf",
+        "nome": "Resolucao707-2015.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:52+00:00"
+  }
+}

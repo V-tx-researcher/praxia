@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-614-2011",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 614/2011",
+  "numero": "614",
+  "ano": 2011,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a prorrogação do prazo para o primeiro aporte do Fundo Nacional de Apoio do CRESS, Seccionais e CFESS, para o exercício de 2011, alterando o parágrafo 3º do artigo 4º da Resolução nº 564/2009",
+  "data_publicacao": "2011-08-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/464/resolucao-n-6142011",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "464",
+    "assinatura_pagina": "77dc9b7387878a65e11e16c3cb55939d52f5042ed09dad20c889886a7361b8b4",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4567/614-11.pdf",
+        "nome": "614-11.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:54+00:00"
+  }
+}

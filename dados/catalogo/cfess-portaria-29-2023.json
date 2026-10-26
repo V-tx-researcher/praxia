@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-29-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 29/2023",
+  "numero": "29",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição da Comissão de Comunicação do Conselho Federal de Serviço Social – CFESS da Gestão 2023-2026 “QUE NOSSAS VOZES ECOEM VIDA-LIBERDADE”",
+  "data_publicacao": "2023-07-26",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/89/portaria-cfess-n-292023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:40+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "89",
+    "assinatura_pagina": "72c31c1697d18ac404bfd126002b8caf10146f3a1376583446477ac2f37329bd",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3227/portaria29-2023.pdf",
+        "nome": "portaria29-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:40+00:00"
+  }
+}

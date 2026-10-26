@@ -1,0 +1,61 @@
+{
+  "id": "lei-12317-2010",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei nº 12.317, de 26 de agosto de 2010.",
+  "numero": "12317",
+  "ano": 2010,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Acrescenta dispositivo à Lei no 8.662, de 7 de junho de 1993, para dispor sobre a duração do trabalho do Assistente Social.",
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/206/lei-n-12317-de-26-de-agosto-de-2010",
+  "categoria_portal": "Regulamentação da profissão",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T20:55:29+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "206",
+    "assinatura_pagina": "b59c530b82eef47f837a37d2bdb23d521db2b263e9e83ec0ac6600e339c09c91",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "http://www.planalto.gov.br/ccivil_03/_Ato2007-2010/2010/Lei/L12317.htm",
+        "texto": "Lei nº 12.317, de 26 de agosto de 2010."
+      }
+    ],
+    "descoberto_em": "2026-10-26T20:55:29+00:00"
+  }
+}

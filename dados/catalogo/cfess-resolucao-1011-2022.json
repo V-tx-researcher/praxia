@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1011-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.011/2022",
+  "numero": "1011",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução Cfess 510/2007",
+  "data_publicacao": "2022-12-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/291/resolucao-10112022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:06+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "291",
+    "assinatura_pagina": "00d7c4e6a3aac900e282eae6669e77ad95f34c3772d311a945f3aa4883e27931",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4349/rescfess10112022.pdf",
+        "nome": "rescfess10112022.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:06+00:00"
+  }
+}

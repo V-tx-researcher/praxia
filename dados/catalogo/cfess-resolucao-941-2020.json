@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-941-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 941/2020",
+  "numero": "941",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento dos cargos de cinco Conselheiras desincompatibilizadas, no âmbito do Conselho Federal de Serviço Social (CFESS)",
+  "data_publicacao": "2020-03-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/342/resolucao-n-9412020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "342",
+    "assinatura_pagina": "3560b1ab2d64cc4c2e6277470b72dee31452604a1b83c1901c2030d57278a8dd",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4423/ResolucaoCFESS9412020.pdf",
+        "nome": "ResolucaoCFESS9412020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:52+00:00"
+  }
+}

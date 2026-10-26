@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-627-2012",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 627/2012",
+  "numero": "627",
+  "ano": 2012,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a VEDAÇÃO de utilização de SÍMBOLOS, IMAGENS E ESCRITOS RELIGIOSOS nas dependências do Conselho Federal, dos Conselhos Regionais e das Seccionais de Serviço Social",
+  "data_publicacao": "2012-04-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/460/resolucao-n-6272012",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:46+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "460",
+    "assinatura_pagina": "9df96e1dddfd36bd0740bd18e411ffa0b92048aa27b55a9ca3ed91b7da16d314",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4562/Res.Cfess.627-2012.pdf",
+        "nome": "Res.Cfess.627-2012.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:46+00:00"
+  }
+}

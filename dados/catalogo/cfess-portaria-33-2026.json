@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-33-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 33/2026",
+  "numero": "33",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Exonera a assistente social Clarisse Maria da Conceição do Cargo Comissionado de Assessora em Serviço Social do Conselho Federal de Serviço Social",
+  "data_publicacao": "2026-05-04",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/678/portaria-n-332026",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:27:28+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "678",
+    "assinatura_pagina": "1b94d8a0f728d8dc6bf1242484f3398f77a6bae310e2e23c6d7fb437d783700b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5791/33-2026 (INFO DOU).pdf",
+        "nome": "33-2026 (INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:27:28+00:00"
+  }
+}

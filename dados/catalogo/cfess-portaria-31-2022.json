@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-31-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 31/2022",
+  "numero": "31",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Exonera a trabalhadora Sandra Helena Sempé do Cargo Comissionado de Coordenadora Executiva do Conselho Federal de Serviço Social e nomeá-la para o Cargo Comissionado de Coordenadora de Normas e Procedimentos",
+  "data_publicacao": "2022-12-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/121/portaria-cfess-n-312022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "121",
+    "assinatura_pagina": "f8b25ef276bf994c1d18ee910e6a54fc7980444feec0c8172b149664069237e4",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3261/portariacfess-31-22.pdf",
+        "nome": "portariacfess-31-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:42+00:00"
+  }
+}

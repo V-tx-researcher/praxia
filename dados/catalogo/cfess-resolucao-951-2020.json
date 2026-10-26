@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-951-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 951/2020",
+  "numero": "951",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Autoriza, em caráter excepcional, pedidos de inscrição, de cancelamento e de transferência nos CRESS onde o atendimento estiver se realizando remotamente, enquanto perdurarem as restrições impostas pela pandemia do novo coronavírus (covid-19)-Revogada  tacitamente pela resolução Cfess nº Resolução 1.014/2022",
+  "data_publicacao": "2020-08-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/334/resolucao-n-9512020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:Revogada  tacitamente pela resolução Cfess nº Resolução 1"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "334",
+    "assinatura_pagina": "7b1bfbe2ddf5c880c6b50f56cb4ba020c118928a8a1e114a94243cd23df8deaa",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4411/Resolucaocfess1014-2022.pdf",
+        "nome": "Resolução 1.014/2022"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:32+00:00"
+  }
+}

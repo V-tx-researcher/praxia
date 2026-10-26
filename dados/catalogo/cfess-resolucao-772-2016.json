@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-772-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 772/2016",
+  "numero": "772",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera dispositivos da Resolução CFESS 582/2010, sobre a autenticação de documentos encaminhados pelos Correios",
+  "data_publicacao": "2016-08-30",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/412/resolucao-7722016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "412",
+    "assinatura_pagina": "313a1d9f36cc6efffa9b0aec32ca145b7c6e6d2857d5cb1b2eec287c42737d76",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4507/ResolucaoCfess772-2016.pdf",
+        "nome": "ResolucaoCfess772-2016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:12+00:00"
+  }
+}

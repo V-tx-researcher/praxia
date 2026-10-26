@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-52-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 52/2025",
+  "numero": "52",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa trabalhadoras/trabalhador como fiscais e subfiscais de contratos administrativos do Conselho Federal de Serviço Social neles relacionados(as).",
+  "data_publicacao": "2025-12-04",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/624/portaria-n-522025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:28:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "624",
+    "assinatura_pagina": "4b7e4284fbb6dc8c42829d0433a80e5d6d65ab1ff5bba30e2f4eebdf28cd1a20",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5473/52-2025.pdf",
+        "nome": "52-2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:28:36+00:00"
+  }
+}

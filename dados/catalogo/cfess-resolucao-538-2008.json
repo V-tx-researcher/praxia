@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-538-2008",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 538/2008",
+  "numero": "538",
+  "ano": 2008,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Aprova a Proposta Orçamentária do Conselho Federal e Conselhos Regionais de Serviço Social da 1a. a 24a. Regiões",
+  "data_publicacao": "2008-12-29",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/492/resolucao-n-5382008",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:50+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "492",
+    "assinatura_pagina": "6b11f89ead61ba0577cf8a0e911b9bcd6578f0740a2b14f3354d816202a985ed",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4598/538.pdf",
+        "nome": "538.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:50+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-24-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 24/2024",
+  "numero": "24",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição da Comissão AdministrativoFinanceira do Conselho Federal de Serviço Social – CFESS da Gestão 2023-2026 “QUE NOSSAS VOZES ECOEM VIDA-LIBERDADE”",
+  "data_publicacao": "2024-03-26",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/52/portaria-n-242024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:31:16+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "52",
+    "assinatura_pagina": "4d6cf8fe3ee656b7ee31f0247fdee350d1a3a84158c2e8dd9e844d5e40964b99",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3193/024-2024.pdf",
+        "nome": "024-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:31:16+00:00"
+  }
+}

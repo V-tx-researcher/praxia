@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-911-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 911/2019",
+  "numero": "911",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Atualiza o Quadro de Valores das Referências Salariais e a Tabela de Remuneração dos Cargos em Comissão, constantes da Resolução CFESS nº 510, de 21 de setembro de 2007, que institui o Plano de Cargos, Carreiras e Remuneração dos Funcionários do Conselho Federal de Serviço Social, reformulados anualmente",
+  "data_publicacao": "2019-07-30",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/359/resolucao-n-9112019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:plano de cargos,remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "359",
+    "assinatura_pagina": "9105a0953f8b790417d17e07a6a3ed5c81b32fed80163f5abcfb2a0cf809b94d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4448/ResCfess911-2019.pdf",
+        "nome": "ResCfess911-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:24+00:00"
+  }
+}

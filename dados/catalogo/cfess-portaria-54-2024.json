@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-54-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n°54/2024",
+  "numero": "54",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa a trabalhadora Sandra Helena Sempé na qualidade de Gestora Administrativa dos contratos administrativos do Conselho Federal de Serviço Social",
+  "data_publicacao": "2024-08-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/24/portaria-n542024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:30:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "24",
+    "assinatura_pagina": "e77bb71d8624ab81c94b93ef6954f00cab35ea93ac78bbddff4feef3309d396b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3153/0542024.pdf",
+        "nome": "0542024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:30:22+00:00"
+  }
+}

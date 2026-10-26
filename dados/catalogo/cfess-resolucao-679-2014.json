@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-679-2014",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 679/2014",
+  "numero": "679",
+  "ano": 2014,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre baixa de bens patrimoniais do Conselho Federal de Serviço Social.",
+  "data_publicacao": "2014-05-06",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/681/resolucao-n-6792014",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:08+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "681",
+    "assinatura_pagina": "156743b90c41a64cfa483e03b062272ed85a05c0d096a8c937d2a5c4971948b1",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5857/679-2014.pdf",
+        "nome": "679-2014.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:08+00:00"
+  }
+}

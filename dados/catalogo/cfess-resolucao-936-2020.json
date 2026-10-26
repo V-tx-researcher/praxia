@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-936-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 936/2020",
+  "numero": "936",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o prazo para pagamento da anuidade do exercício de 2020, somente no âmbito do Cress 7ª Região com jurisdição no Estado do Rio de Janeiro",
+  "data_publicacao": "2020-02-18",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/346/resolucao-n-9362020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:anuidade"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "346",
+    "assinatura_pagina": "099967e7f82ff3a334a66505dcc8b33cadf31f60637cb72d78332b5f335075e4",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4430/Res936-2020.pdf",
+        "nome": "Res936-2020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:58+00:00"
+  }
+}

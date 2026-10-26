@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1093-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n° 1.093/2025 (republicada)",
+  "numero": "1093",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o prazo para pagamento da anuidade com desconto de 15% do exercício de 2025, somente no âmbito do CRESS com jurisdição no Estado da Paraíba.",
+  "data_publicacao": "2025-02-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/564/resolucao-n-10932025-republicada",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:anuidade"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "564",
+    "assinatura_pagina": "2131b137e55a927590a044d880d4f958c035f4f7470c92ae3b3e6491d02dde4f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5006/10932025.pdf",
+        "nome": "10932025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:00+00:00"
+  }
+}

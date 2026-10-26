@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1009-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.009/2022",
+  "numero": "1009",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução Cfess nº 919/2019, que dispõe sobre o Código Eleitoral do Conjunto Cfess-Cress",
+  "data_publicacao": "2022-10-31",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/293/resolucao-10092022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:10+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "293",
+    "assinatura_pagina": "f664640ee5c353d3710bcfb0661fcecbca25c9815891be903a6d176133a0a637",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4351/rescfess1009.pdf",
+        "nome": "rescfess1009.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:10+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-37-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n° 37/2024",
+  "numero": "37",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Comissão Gestora do Plano Diretor da Tecnologia da Informação e da Comunicação (PDTI) e designa os(as) respectivos(as) integrantes, no âmbito do Conselho Federal de Serviço Social, para ser publicada no site e portal da transparência",
+  "data_publicacao": "2024-05-06",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/40/portaria-n-372024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:30:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "40",
+    "assinatura_pagina": "363c8e751f2e0ba706785aa7173241e263f6c7b9b65f021ae5037a6799570e8a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3179/37-2024.pdf",
+        "nome": "37-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:30:54+00:00"
+  }
+}

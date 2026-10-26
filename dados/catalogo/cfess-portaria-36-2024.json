@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-36-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n° 36/2024",
+  "numero": "36",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição do Grupo de Trabalho Nacional, para aprimorar as Resoluções Cfess nº 493/2006, que dispõe sobre as condições éticas e técnicas do exercício profissional e nº 556/2009, que dispõe sobre Procedimentos para efeito da Lacração do Material Técnico e Material Técnico-Sigiloso do Serviço Social, considerando as novas configurações do mundo do trabalho, os impactos das exigências de produtividade no trabalho profissional e a necessidade da garantia de acessibilidade",
+  "data_publicacao": "2024-05-06",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/41/portaria-n-362024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:30:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "41",
+    "assinatura_pagina": "f06151f20618d8e830cc493bb0a9092902df0bd3a58a4dc2aca685d8f34cef4d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3180/portaria36-2024.pdf",
+        "nome": "portaria36-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:30:58+00:00"
+  }
+}

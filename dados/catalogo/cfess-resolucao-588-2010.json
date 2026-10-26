@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-588-2010",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 588/2010",
+  "numero": "588",
+  "ano": 2010,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Revoga o inciso do artigo 28 da Consolidação das Resoluções CFESS nº 582/2010, reordenando tal disposição",
+  "data_publicacao": "2010-09-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/468/resolucao-n-5882010",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:02+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "468",
+    "assinatura_pagina": "886565027938d43c96efa5a72b243044833c1edccf047029c968de2807cbb7de",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4571/Res_CFESS_588-2010.pdf",
+        "nome": "Res_CFESS_588-2010.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:02+00:00"
+  }
+}

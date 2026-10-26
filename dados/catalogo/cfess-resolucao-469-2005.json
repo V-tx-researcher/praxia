@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-469-2005",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 469/2005",
+  "numero": "469",
+  "ano": 2005,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta o Estatuto do Conjunto CFESS/CRESS, introduzindo as alterações e modificações aprovadas pela Plenária Ampliada realizada em Brasília em março de 2005",
+  "data_publicacao": "2005-05-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/523/resolucao-n-4692005",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "523",
+    "assinatura_pagina": "9c14834a139e7a89bdd97213796fcc090f305a130728770d0963b13c435d53ef",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4632/resolucao_469_05.pdf",
+        "nome": "resolucao_469_05.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:52+00:00"
+  }
+}

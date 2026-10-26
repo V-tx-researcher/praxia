@@ -1,0 +1,139 @@
+{
+  "id": "cfess-resolucao-594-2011",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 594/2011",
+  "numero": "594",
+  "ano": 2011,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o Código de Ética do/a Assistente Social, introduzindo aperfeiçoamentos formais, gramaticais e conceituais em seu texto e garantindo a linguagem de gênero",
+  "data_publicacao": "2011-01-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-273-1993",
+        "texto": "Resolução CFESS nº 273/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/466/resolucao-n-5942011",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4569/Res594.pdf",
+      "papel": "principal",
+      "sha256": "9a319219c59c4eac873db4ea39aa05cd144b2bd14fcaf104cddc3aef09b445d2",
+      "bytes": 215444,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:06+00:00",
+      "verificado_em": "2026-10-26T21:29:06+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-594-2011/9a319219c59c4eac.pdf",
+      "versao": "9a319219c59c4eac"
+    }
+  ],
+  "versao_atual": "9a319219c59c4eac",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 2,
+    "paginas_indexadas": [
+      1,
+      2
+    ],
+    "dispositivos": 5,
+    "unidades": 8,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 594/2011",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 2,
+    "paginas_sem_texto": 0,
+    "caracteres": 3634,
+    "media_caracteres_pagina": 1817.0,
+    "proporcao_letras": 0.69,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:06+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:15+00:00",
+      "por": "processador",
+      "motivo": "10 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:15+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "466",
+    "assinatura_pagina": "5006ad3c2b42f651da49776d359aeb7a2aff3a1acf53c2e0b95bdc2e0725a7e3",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4569/Res594.pdf",
+        "nome": "Res594.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:58+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1095-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n°1.095/2025",
+  "numero": "1095",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Isenta a assistente social travesti e a/o assistente social transexual da nova via do DIP decorrente da alteração da situação civil e da nova via do DIP decorrente da inserção do nome social.",
+  "data_publicacao": "2025-03-19",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/578/resolucao-n10952025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:56+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "578",
+    "assinatura_pagina": "ecfb9cb87b59b1cffb68cc612c5c19246b3ad7176abcec72407160f481a2c557",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5107/1095-2025(INFO DOU).pdf",
+        "nome": "1095-2025(INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:56+00:00"
+  }
+}

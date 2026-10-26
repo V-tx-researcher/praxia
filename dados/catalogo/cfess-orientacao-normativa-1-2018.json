@@ -1,0 +1,177 @@
+{
+  "id": "cfess-orientacao-normativa-1-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Orientação Normativa 1/2018",
+  "numero": "1",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "orientacao_normativa",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-582-2010",
+        "texto": "Resolução Cfess n. 582/2010",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei nº 8.662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-469-2005",
+        "texto": "Resolução Cfess n. 469/2005",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11788-2008",
+        "texto": "lei n. 11.788/2008",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          4
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/560/orientacao-normativa-12018",
+  "categoria_portal": "Orientações Normativas",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4718/ON12018.pdf",
+      "papel": "principal",
+      "sha256": "9ae751e0edff5c2719f2751ab64e589b2450e5f8045a14609add40affec87274",
+      "bytes": 147103,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:09+00:00",
+      "verificado_em": "2026-10-26T21:29:09+00:00",
+      "caminho_local": "dados/brutos/cfess-orientacao-normativa-1-2018/9ae751e0edff5c27.pdf",
+      "versao": "9ae751e0edff5c27"
+    }
+  ],
+  "versao_atual": "9ae751e0edff5c27",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 5,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "dispositivos": 0,
+    "unidades": 15,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Orientação Normativa 1/2018",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 5,
+    "paginas_sem_texto": 0,
+    "caracteres": 14133,
+    "media_caracteres_pagina": 2826.6,
+    "proporcao_letras": 0.755,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T20:55:47+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:09+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:17+00:00",
+      "por": "processador",
+      "motivo": "15 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:17+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "560",
+    "assinatura_pagina": "54e634de012eb3932c9894e815a18222f89a47e2cff7d0f2d7c7ba8122d83102",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4718/ON12018.pdf",
+        "nome": "ON12018.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T20:55:47+00:00"
+  }
+}

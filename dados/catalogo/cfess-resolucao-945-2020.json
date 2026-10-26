@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-945-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº  945/2020",
+  "numero": "945",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui novos fatores de competência para Avaliação de Desempenho dos/as trabalhadores/as efetivos/as do Conselho Federal de Serviço Social",
+  "data_publicacao": "2020-04-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/339/resolucao-n-9452020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "339",
+    "assinatura_pagina": "3279380829753bdbce78aa294b9a8dd9c2fdf93021859926bf25c27fa9fddf4f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4419/resCfess-945.pdf",
+        "nome": "resCfess-945.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:44+00:00"
+  }
+}

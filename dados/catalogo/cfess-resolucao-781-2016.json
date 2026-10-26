@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-781-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 781/2016",
+  "numero": "781",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta a substituição de candidata/o após deferimento do registro da chapa pela Comissão Eleitoral",
+  "data_publicacao": "2016-11-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/403/resolucao-7812016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleitoral,comissao eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:56+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "403",
+    "assinatura_pagina": "e38cd4aaeab29b2c285ff89b0aee49fda0637b4f0067bfa2a4e0a53ab22c0f04",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4499/Res781-2016.pdf",
+        "nome": "Res781-2016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:56+00:00"
+  }
+}

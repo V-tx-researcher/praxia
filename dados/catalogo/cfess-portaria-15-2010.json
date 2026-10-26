@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-15-2010",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 15/2010",
+  "numero": "15",
+  "ano": 2010,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Determinar que o cargo de Presidente seja exercido pela Conselheira Rosa Helena Stein",
+  "data_publicacao": "2010-06-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/196/portaria-cfess-n-152010",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:36:10+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "196",
+    "assinatura_pagina": "346cca1ac181ff9953c20fa263ccd86511ce4f17b6fce8e88a45f4f79b3ba69a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3334/015.pdf",
+        "nome": "015.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:36:10+00:00"
+  }
+}

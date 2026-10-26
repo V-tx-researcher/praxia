@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1048-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1048/2023",
+  "numero": "1048",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a avaliação das carteiras de recebíveis e provisão para créditos de liquidação duvidosa",
+  "data_publicacao": "2023-10-11",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/261/resolucao-10482023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:08+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "261",
+    "assinatura_pagina": "f772e10d9a611a1d22b1a6d58a5336dd9359797a5076f1e21a9949c992982075",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4318/1048.pdf",
+        "nome": "1048.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:08+00:00"
+  }
+}

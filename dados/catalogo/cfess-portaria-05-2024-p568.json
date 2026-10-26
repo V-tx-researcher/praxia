@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-05-2024-p568",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 05/2024",
+  "numero": "05",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa Clarisse Maria da Conceição para ocupar o cargo comissionado de Assessora em Serviço Social do Conselho Federal de Serviço Social.",
+  "data_publicacao": "2024-01-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/568/portaria-cfess-n-052024-2",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "568",
+    "assinatura_pagina": "05f7f91a95a9a9df115bcff133ee789ac2ba7ec022a93321ca2c2839934b8352",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5023/05-2024.pdf",
+        "nome": "05-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:00+00:00"
+  }
+}

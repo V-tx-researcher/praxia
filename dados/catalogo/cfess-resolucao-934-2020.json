@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-934-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 934/2020",
+  "numero": "934",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a não caracterização de quebra de sigilo o fornecimento - pelos Conselhos Regionais e Federal de Serviço Social - de CERTIDÃO DISCIPLINAR E/OU ÉTICA de objeto e fase que se encontra a denúncia, processo ou recurso, quando solicitada pelo/a próprio/a denunciado/a ou por autoridade policial ou judicial e REGULAMENTA a sua expedição (edição compilada e atualizada)",
+  "data_publicacao": "2020-01-28",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/348/resolucao-n-9342020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:02+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "348",
+    "assinatura_pagina": "9bcfaf08c1d63b46967dcdb1a8b52eedde3f73dc4af2e0622f10daaa234ab193",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4433/res934compilada.pdf",
+        "nome": "res934compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:02+00:00"
+  }
+}

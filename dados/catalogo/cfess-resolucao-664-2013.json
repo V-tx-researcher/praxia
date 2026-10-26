@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-664-2013",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 664/2013",
+  "numero": "664",
+  "ano": 2013,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a recomposição do cargo de 2a Secretária no âmbito do Conselho Federal de Serviço Social – CFESS",
+  "data_publicacao": "2013-12-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/442/resolucao-n-6642013",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "442",
+    "assinatura_pagina": "bd9ac672672b4dc26122c5d3f45f14f9c659a1ac366743faccc90de034502ff9",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4539/664.pdf",
+        "nome": "664.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:12+00:00"
+  }
+}

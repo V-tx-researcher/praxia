@@ -1,0 +1,40 @@
+# Rotina semanal de descoberta de documentos no portal do CFESS.
+# Apenas DESCOBRE e registra alterações; não baixa em massa, não aprova e não publica.
+# O resultado é proposto como pull request para revisão humana.
+name: Coleta semanal (descoberta)
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"   # segundas, 06:17 (horário de Brasília)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  descobrir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r pipeline/requirements.txt
+      - name: Descobrir
+        working-directory: pipeline
+        run: python -m gpecss descobrir --categorias 3 9 4 1
+      - name: Validar catálogo
+        working-directory: pipeline
+        run: python -m gpecss validar
+      - name: Propor alterações
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: coleta/automatica
+          title: "Coleta automática: novos documentos ou alterações no portal do CFESS"
+          body: |
+            Resultado da descoberta semanal. Nada foi aprovado ou publicado.
+            Revise os novos registros e os alertas (`pagina_oficial_alterada`,
+            `portal_indica_situacao`, `possivel_ato_administrativo`) antes de mesclar.
+          commit-message: "Coleta automática (descoberta)"

@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-978-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 978/2021",
+  "numero": "978",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento do cargo de conselheira licenciada do Conselho Fiscal, no âmbito do Conselho Federal de Serviço Social",
+  "data_publicacao": "2021-08-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/316/resolucao-9782021",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "316",
+    "assinatura_pagina": "af4257b851223f540030abe5f8b5b145f4e114d337727413a89a3d32e6fe382d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4382/resolucaocfess9782021.pdf",
+        "nome": "resolucaocfess9782021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:58+00:00"
+  }
+}

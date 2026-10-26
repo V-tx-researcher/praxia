@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-15-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 15/2018",
+  "numero": "15",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Comissão Nacional Eleitoral para o Processo Eleitoral Extraordinário do Cress 27ª Região, com jurisdição no Estado de Roraima",
+  "data_publicacao": "2018-06-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/177/portaria-cfess-n-152018",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "177",
+    "assinatura_pagina": "a29caefcbdbdae722e9039c41b1e918d781d341526fe307daeff509dcfd6cd20",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3316/Portaria152018cne.pdf",
+        "nome": "Portaria152018cne.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:36+00:00"
+  }
+}

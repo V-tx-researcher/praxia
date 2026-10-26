@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-8-2017",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 8/2017",
+  "numero": "8",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a designação da Comissão Permanente da Transparência, gestão 2017-2020, que objetiva estabelecer parâmetros para o cumprimento da lei 12.527/2011, que regula o acesso a informações e do Decreto Federal nº 7.724/20123",
+  "data_publicacao": "2017-06-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/184/portaria-cfess-n-82017",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "184",
+    "assinatura_pagina": "5d97db8bea99635e2ad9769bb32f7d9c1fb32095e1bf5e9a4f7bae422b239229",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3322/Portaria-cfess-8-2017.pdf",
+        "nome": "Portaria-cfess-8-2017.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:48+00:00"
+  }
+}

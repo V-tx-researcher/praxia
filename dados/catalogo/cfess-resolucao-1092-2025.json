@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1092-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n° 1.092/2025",
+  "numero": "1092",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS no 1.005/2022, que dispõe sobre a concessão de diárias, auxílio de representação, ressarcimentos e transporte a conselheiras/os, assessoras/es, empregadas/os e convidadas/os, que receberem a incumbência ou missão do Conselho Federal de Serviço Social - CFESS, no País ou no estrangeiro.",
+  "data_publicacao": "2025-04-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/587/resolucao-n-10922025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:50+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "587",
+    "assinatura_pagina": "d4063c209c5a36f7fcaad21e373e6a3c0acb99f200a027436b9d7ed5137e6a0a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5202/1005-2022-maio-compilada.pdf",
+        "nome": "1005-2022-maio-compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:50+00:00"
+  }
+}

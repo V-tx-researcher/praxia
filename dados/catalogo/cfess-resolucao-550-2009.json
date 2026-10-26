@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-550-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 550/2009",
+  "numero": "550",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Atualiza o Quadro de Valores das Referências Salariais e a Tabela de Remuneração dos Cargos em Comissão, constantes da Resolução nº 510, de 21 de setembro de 2007",
+  "data_publicacao": "2009-06-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/485/resolucao-n-5502009",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "485",
+    "assinatura_pagina": "3234643789ef1c090298e76e5a4379798529b58059ca82162da871b2e8582123",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4591/550.pdf",
+        "nome": "550.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:36+00:00"
+  }
+}

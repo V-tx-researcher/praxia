@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-3-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 3/2023",
+  "numero": "3",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa a Comissão Gestora do Fundo Nacional de Apoio aos Cress e ao Cfess",
+  "data_publicacao": "2023-02-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/113/portaria-cfess-n-32023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:28+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "113",
+    "assinatura_pagina": "2103db2bcb0b8f70dd12ffc1c8277fa9203a71ea2f8682bcfd869fefcbdf3a5e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3253/portaria3-2023.pdf",
+        "nome": "portaria3-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:28+00:00"
+  }
+}

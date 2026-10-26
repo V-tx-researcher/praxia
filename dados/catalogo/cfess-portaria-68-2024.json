@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-68-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n°68/2024",
+  "numero": "68",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Concede ponto facultativo às(aos) trabalhadores/as do Conselho Federal de Serviço Social (CFESS) nos dias que especifica do exercício de 2025",
+  "data_publicacao": "2024-12-14",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/13/portaria-n682024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:30:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "13",
+    "assinatura_pagina": "0feaed229688aa80b6468e38efffcf40ba89e1aa99648ae111330a166f97094b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3142/68-2024_assinada.pdf",
+        "nome": "68-2024_assinada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:30:00+00:00"
+  }
+}

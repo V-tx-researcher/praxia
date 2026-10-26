@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1108-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n° 1.108/2025",
+  "numero": "1108",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Autoriza medidas excepcionais para os CRESS que vivenciaram o processo de migração de sistemas do Conjunto CFESS/CRESS.",
+  "data_publicacao": "2025-06-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/596/resolucao-n-11082025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "596",
+    "assinatura_pagina": "728c15dcac278069dcc3c35041b3cc15b5352bc71efcf553d25fde25df265b7c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5255/1108-2025 (INFO DOU).pdf",
+        "nome": "1108-2025 (INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:36+00:00"
+  }
+}

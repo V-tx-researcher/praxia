@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-615-2011",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 615/2011 (expressamente revogada pela Resolução CFESS nº 785/2016)",
+  "numero": "615",
+  "ano": 2011,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a inclusão e uso do nome social da assistente social travesti e do(a) assistente social transexual nos documentos de identidade profissional",
+  "data_publicacao": "2011-09-08",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/463/resolucao-n-6152011-expressamente-revogada-pela-resolucao-cfess-n-7852016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:revogada pela Resolução CFESS nº 785/2016"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "463",
+    "assinatura_pagina": "50182916e5b26b427075af65191105c728197b54c7e39165bf2952671019c8b4",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4566/615-11.pdf",
+        "nome": "615-11.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:52+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-38-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n° 38/2024",
+  "numero": "38",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa funcionários como fiscais e subfiscais dos contratos administrativos do Conselho Federal de Serviço Social nela relacionados",
+  "data_publicacao": "2024-05-08",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/39/portaria-n-382024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:30:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "39",
+    "assinatura_pagina": "919899af78d2628396b5849fd02c545f8c65b5401bcb91e3328299825210fc6b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3178/38-2024.pdf",
+        "nome": "38-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:30:52+00:00"
+  }
+}

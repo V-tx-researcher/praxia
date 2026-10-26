@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-929-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 929/2019",
+  "numero": "929",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS nº 696, de 15 de dezembro de 2014",
+  "data_publicacao": "2019-12-19",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/351/resolucao-n-9292019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:08+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "351",
+    "assinatura_pagina": "2a2605abb25b3e381afcddb611f83803f213f871a523919de5f5b33cfab8b3a5",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4438/ResCfess929-2019.pdf",
+        "nome": "ResCfess929-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:08+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "cfess-resolucao-1102-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.102/2025",
+  "numero": "1102",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "EMENTA: Fixa a proporção para custeio, pelo CFESS e pelos CRESS, dos serviços previstos no Contrato CFESS no C039/2025.",
+  "data_publicacao": "2025-06-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/591/resolucao-n-11022025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:40+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "591",
+    "assinatura_pagina": "083c838d25065f98d24068419a58024232f8b3516dc7deb5533f3a5d3324b5cd",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5230/Anexo I-.pdf",
+        "nome": "Anexo I-.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5231/Res 1.0102 de  2 de junho de 2025.pdf",
+        "nome": "Res 1.0102 de  2 de junho de 2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:40+00:00"
+  }
+}

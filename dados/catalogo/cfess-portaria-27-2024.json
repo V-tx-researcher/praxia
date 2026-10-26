@@ -1,0 +1,67 @@
+{
+  "id": "cfess-portaria-27-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n° 27/2024",
+  "numero": "27",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição do Grupo de Trabalho Nacional para avaliar coletivamente o processo eleitoral, com o objetivo de identificar as potencialidades e as dificuldades das eleições e definir estratégias para normatização das cotas na constituição das chapas, do Conjunto CFESS-CRESS",
+  "data_publicacao": "2024-04-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/49/portaria-n-272024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:31:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "49",
+    "assinatura_pagina": "90ffef5b4e528bd36b83ac6de005798d7aa7a75c6da4c469ec0170beba434d89",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3187/027-2024.pdf",
+        "nome": "027-2024.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3188/027-2024_com_retificacao.pdf",
+        "nome": "027-2024_com_retificacao.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:31:12+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-479-2005",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 479/2005",
+  "numero": "479",
+  "ano": 2005,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa os Regimentos Internos dos Conselhos Regionais de Serviço Social, indicados na presente Resolução",
+  "data_publicacao": "2005-11-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/519/resolucao-n-4792005",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "519",
+    "assinatura_pagina": "2257fc2f110721b45d0b43fb8340d4574f92678128eb6653dc3a68686c1429f6",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4628/479-2005.pdf",
+        "nome": "479-2005.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:44+00:00"
+  }
+}

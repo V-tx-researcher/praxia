@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-208",
+  "versao_esquema": 1,
+  "titulo_oficial": "Política Nacional de Fiscalização",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "politica_institucional",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Reformula as normas gerais para o exercício da Fiscalização Profissional e atualiza a Política Nacional de Fiscalização",
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/208/politica-nacional-de-fiscalizacao",
+  "categoria_portal": "Regulamentação da profissão",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T20:55:35+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "208",
+    "assinatura_pagina": "8d1f81ad5ce736ac3540965697342921ddf23da9003da2c2dd3cb254b15b8bba",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3794/Resolucaocfess5122007.pdf",
+        "nome": "Resolucaocfess5122007.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T20:55:35+00:00"
+  }
+}

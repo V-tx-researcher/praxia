@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-23-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 23/2026",
+  "numero": "23",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Instaura Processo de Responsabilização (Processo Sancionatório 02/2026) e Designa Comissão de Apuração.",
+  "data_publicacao": "2026-04-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/667/portaria-n-232026",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:27:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "667",
+    "assinatura_pagina": "908e20f2b97df9aa2f2891f70ad5aa6279d5bfb920345d2c328f08d97d48a84a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5775/023-2026.pdf",
+        "nome": "023-2026.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:27:44+00:00"
+  }
+}

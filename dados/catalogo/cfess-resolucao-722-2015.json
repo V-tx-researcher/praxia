@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-722-2015",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 722/2015",
+  "numero": "722",
+  "ano": 2015,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS nº 696, de 15 de dezembro de 2014, para prorrogar o início do prazo para recadastramento nacional dos/as assistentes sociais, a substituição das atuais carteiras e cédulas de identidade profissional e pesquisa sobre o perfil do/da assistente social e realidade do exercício profissional no país",
+  "data_publicacao": "2015-08-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/424/resolucao-n-7222015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "424",
+    "assinatura_pagina": "ae5f477b239189936aa5605653041212e90de09b17084016f844bd7063fa909c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4520/resolucao-cfess-722-2015.pdf",
+        "nome": "resolucao-cfess-722-2015.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:36+00:00"
+  }
+}

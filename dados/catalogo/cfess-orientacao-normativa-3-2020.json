@@ -1,0 +1,169 @@
+{
+  "id": "cfess-orientacao-normativa-3-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Orientação Normativa 3/2020",
+  "numero": "3",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "orientacao_normativa",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8.662/1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-469-2005",
+        "texto": "Resolução Cfess n. 469/2005",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-493-2006",
+        "texto": "Resolução Cfess n. 493/2006",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7783-1989",
+        "texto": "Lei nº 7.783, de 28 de junho de 1989",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/558/orientacao-normativa-32020",
+  "categoria_portal": "Orientações Normativas",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4716/OrientacaoNormat32020.pdf",
+      "papel": "principal",
+      "sha256": "3de4468b1dbe9119a762dfb21074846a51b9cad165fb7462610986c42e1dc8d5",
+      "bytes": 117208,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:11+00:00",
+      "verificado_em": "2026-10-26T21:29:11+00:00",
+      "caminho_local": "dados/brutos/cfess-orientacao-normativa-3-2020/3de4468b1dbe9119.pdf",
+      "versao": "3de4468b1dbe9119"
+    }
+  ],
+  "versao_atual": "3de4468b1dbe9119",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 2,
+    "paginas_indexadas": [
+      1,
+      2
+    ],
+    "dispositivos": 0,
+    "unidades": 6,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Orientação Normativa 3/2020",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 2,
+    "paginas_sem_texto": 0,
+    "caracteres": 4563,
+    "media_caracteres_pagina": 2281.5,
+    "proporcao_letras": 0.754,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T20:55:43+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:11+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:17+00:00",
+      "por": "processador",
+      "motivo": "6 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:17+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "558",
+    "assinatura_pagina": "bc1588c0d5e56f49279df36d440f30fbcc54496ffbc05bc54c69eb462378ddee",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4716/OrientacaoNormat32020.pdf",
+        "nome": "OrientacaoNormat32020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T20:55:43+00:00"
+  }
+}

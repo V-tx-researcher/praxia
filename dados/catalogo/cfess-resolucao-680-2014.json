@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-680-2014",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 680/2014",
+  "numero": "680",
+  "ano": 2014,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS 392/1999, que estabelece procedimentos para concessão e autorização de suprimento de fundos",
+  "data_publicacao": "2014-05-06",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/440/resolucao-n-6802014",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:06+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "440",
+    "assinatura_pagina": "dec78c7f7c182d6e4ef57ddc0773eea66ed42384e958df13150a3a2fbc74a79b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4537/ResolucaoCFESSn680-2014.pdf",
+        "nome": "ResolucaoCFESSn680-2014.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:06+00:00"
+  }
+}

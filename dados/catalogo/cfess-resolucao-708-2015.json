@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-708-2015",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 708/2015",
+  "numero": "708",
+  "ano": 2015,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Reorganiza o número dos profissionais assistentes sociais, que passam a estar jurisdicionados ao Conselho Regional de Serviço Social da 26ª Região, com sigla CRESS da 26ª Região, com jurisdição no Estado do ACRE",
+  "data_publicacao": "2015-04-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/430/resolucao-n-7082015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "430",
+    "assinatura_pagina": "564682cd475863911afd95b760c47a022c4500971d5b2bf76bc42f55f1d63335",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4526/Resolucao708-2015.pdf",
+        "nome": "Resolucao708-2015.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:48+00:00"
+  }
+}

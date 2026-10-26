@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-935-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 935/2020",
+  "numero": "935",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o prazo para pagamento da anuidade do exercício de 2020, somente no âmbito do Cress 15ª Região, com jurisdição no Estado do Amazonas",
+  "data_publicacao": "2020-02-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/347/resolucao-n-9352020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:anuidade"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "347",
+    "assinatura_pagina": "3148e0d56c5731d0fbff90649efa9c60df2bf9dfc890257e0eb5528242a936e4",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4431/Res935-2020.pdf",
+        "nome": "Res935-2020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:00+00:00"
+  }
+}

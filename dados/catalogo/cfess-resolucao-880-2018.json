@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-880-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 880/2018",
+  "numero": "880",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Atualiza do anexo I da Resolução CFESS no 829/2017 para o exercício 2019",
+  "data_publicacao": "2018-09-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/371/resolucao-n-8802018",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "371",
+    "assinatura_pagina": "0c20722e57e24f7d107b9f6053b8bdd3adef7d699457ae538c0e8a34487f9146",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4466/ResCFESS880-2018.pdf",
+        "nome": "ResCFESS880-2018.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:48+00:00"
+  }
+}

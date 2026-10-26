@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1115-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.115/2025",
+  "numero": "1115",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o anexo I da Resolução CFESS no 1.043/2023 para fixar os valores de anuidades e taxas para o exercício 2026",
+  "data_publicacao": "2025-09-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/609/resolucao-n-11152025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "609",
+    "assinatura_pagina": "603f2a4ba048061f35ecf720dffe6d7d8c092d9acd2e863d4221547deaee3dae",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5357/1115-2025(INFO DOU).pdf",
+        "nome": "1115-2025(INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:24+00:00"
+  }
+}

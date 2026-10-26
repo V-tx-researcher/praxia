@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-443-2003",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 443/2003 (expressamente revogada pela Resolução CFESS nº 1.073/2024)",
+  "numero": "443",
+  "ano": 2003,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui procedimentos para a realização de desagravo público, e regulamenta a alínea “e” do artigo 2º do Código de Ética do Assistente Social / Altera e revoga a Resolução CFESS N º 294/94, de 04 de junho de 1994",
+  "data_publicacao": "2003-05-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/524/resolucao-n-4432003-expressamente-revogada-pela-resolucao-cfess-n-10732024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:revogada pela Resolução CFESS nº 1"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:56+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "524",
+    "assinatura_pagina": "101fe332ab9d3eb8884b823b9289fd9174836c55db327aac400d4c1005770a44",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4633/resolucao44303.pdf",
+        "nome": "resolucao44303.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:56+00:00"
+  }
+}

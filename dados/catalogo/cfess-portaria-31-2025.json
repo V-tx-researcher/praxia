@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-31-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 31/2025",
+  "numero": "31",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Portaria Cfess nº 33, de 31 de agosto de 2023, que designa os Agentes de Contratação, equipe de apoio e Comissão Permanente de Licitação (CPL), no âmbito do Conselho Federal de Serviço Social.",
+  "data_publicacao": "2025-05-30",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/590/portaria-n-312025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:licitacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:29:14+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "590",
+    "assinatura_pagina": "010a46140dce7e777040d7f1bda9066905f2b92b6ca571545fb6efc41ad3d96c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5217/31-2025(assinada).pdf",
+        "nome": "31-2025(assinada).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:29:14+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-483-2006",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 483/2006",
+  "numero": "483",
+  "ano": 2006,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Prorroga o prazo para acesso ao Fundo Nacional de Apoio aos CRESS, SECCIONAIS e CFESS, alterando a disposição do parágrafo 4º do artigo 5° da Resolução nº 476, de 16 de novembro de 2005",
+  "data_publicacao": "2006-01-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/517/resolucao-n-4832006",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:40+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "517",
+    "assinatura_pagina": "905e220f738fd0d94fe0bf615f1c055902cf09a04b728db381891f1537cd26ca",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4626/resolucao_483_06.pdf",
+        "nome": "resolucao_483_06.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:40+00:00"
+  }
+}

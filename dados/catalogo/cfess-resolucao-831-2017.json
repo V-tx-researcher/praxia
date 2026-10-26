@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-831-2017",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 831/2017",
+  "numero": "831",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado final das eleições extraordinárias do CRESS 12ª Região (SC), da Seccional de base estadual de Roraima do CRESS 15ª Região (AM/RR), e da Seccional de Uberlândia do CRESS 6ª Região (MG), especificados na presente norma, para Gestão 2017/2020, cujos mandatos se iniciam com as posses (23 a 25 de outubro de 2017) e se expiram em 15 de maio de 2020",
+  "data_publicacao": "2017-10-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/385/resolucao-n-8312017",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:16+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "385",
+    "assinatura_pagina": "508a363799892d28d72c42b93a3ca577938c76fc184deafc7624ffff4b35cd68",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4480/ResolucaoCfess8312017.pdf",
+        "nome": "ResolucaoCfess8312017.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:16+00:00"
+  }
+}

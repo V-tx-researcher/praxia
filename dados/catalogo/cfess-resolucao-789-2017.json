@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-789-2017",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 789/2017 - Revogada pela Resolução nº 884/2018",
+  "numero": "789",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece procedimentos para indeferimento de inscrição em relação aos pedidos de interessados ou de anulação de registro de inscrições que foram deferidas antes do conhecimento das irregularidades, concernente a disciplinas do curso de Serviço Social que foram ofertadas - integralmente ou parcialmente - em cursos livres de extensão",
+  "data_publicacao": "2017-01-11",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/396/resolucao-7892017-revogada-pela-resolucao-n-8842018",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:Revogada pela Resolução nº 884/2018 Estabelece procedimentos para indeferimento de inscrição em relação aos pedidos de i"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:40+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "396",
+    "assinatura_pagina": "2ac13a2353556008a082bad9bcd7d1c4486a664f961c8c805f71539a596f32e8",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4491/Res789-2017.pdf",
+        "nome": "Res789-2017.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:40+00:00"
+  }
+}

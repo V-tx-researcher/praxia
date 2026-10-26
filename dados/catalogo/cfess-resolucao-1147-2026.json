@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1147-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.147/2026",
+  "numero": "1147",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS no 1.014/2022, que regulamenta a inscrição (principal e secundária), transferência, cancelamento e reinscrição de pessoa física no âmbito dos CRESS e dá outras providências.",
+  "data_publicacao": "2026-05-04",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/677/resolucao-n-11472026",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:14:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "677",
+    "assinatura_pagina": "71ed2e734ffbd9996fbb4ffd4228825235d96a7c56e0002094499a6aaba60dbe",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5790/1147-2026 (INFO DOU).pdf",
+        "nome": "1147-2026 (INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:14:58+00:00"
+  }
+}

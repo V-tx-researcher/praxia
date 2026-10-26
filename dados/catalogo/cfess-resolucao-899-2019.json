@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-899-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 899/2019",
+  "numero": "899",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento dos cargos de suplentes do Conselho Federal de Serviço Social (CFESS), Gestão 2017/2020",
+  "data_publicacao": "2019-02-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/365/resolucao-n-8992019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "365",
+    "assinatura_pagina": "174d07a7899697305d75838ae8df2dca6ec1e0d3f005134977998dab609d4624",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4457/899-2019.pdf",
+        "nome": "899-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:36+00:00"
+  }
+}

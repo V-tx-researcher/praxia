@@ -1,0 +1,61 @@
+{
+  "id": "lei-8662-1993",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei nº 8.662, de 7 de junho de 1993.",
+  "numero": "8662",
+  "ano": 1993,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a profissão de assistente social, já com a alteração trazida pela Lei nº 12.317, de 26 de agosto de 2010.",
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/205/lei-n-8662-de-7-de-junho-de-1993",
+  "categoria_portal": "Regulamentação da profissão",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T20:55:33+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "205",
+    "assinatura_pagina": "65c74e89393db6196803adf1cb37319d3be21be075aac75c142cd06f07551a09",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "http://www.planalto.gov.br/ccivil_03/leis/L8662.htm",
+        "texto": "Lei nº 8.662, de 7 de junho de 1993."
+      }
+    ],
+    "descoberto_em": "2026-10-26T20:55:33+00:00"
+  }
+}

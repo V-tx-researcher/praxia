@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-40-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n° 40/2024",
+  "numero": "40",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição do Grupo de Trabalho Nacional para avaliar coletivamente o processo eleitoral, com o objetivo de identificar as potencialidades e as dificuldades das eleições e definir estratégias para normatização das cotas na constituição das chapas, do Conjunto CFESS-CRESS",
+  "data_publicacao": "2024-05-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/37/portaria-n-402024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:30:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "37",
+    "assinatura_pagina": "72b99ec66d80bb22fa580f458c79729118d4fc55cabe924149a7edcc2b3bf451",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3176/40-2024.pdf",
+        "nome": "40-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:30:48+00:00"
+  }
+}

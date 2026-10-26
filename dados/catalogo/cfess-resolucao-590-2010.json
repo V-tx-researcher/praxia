@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-590-2010",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 590/2010",
+  "numero": "590",
+  "ano": 2010,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta o procedimento de aplicação de multas pelos CRESS, por descumprimento da lei 8662/93 e em especial por exercício da profissão de assistente social sem o registro no CRESS competente",
+  "data_publicacao": "2010-11-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/467/resolucao-n-5902010",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "467",
+    "assinatura_pagina": "7a2d5c79798bdd2bd274a32104eb978a37ffa6414a0bc942ed3d7773d3185c5b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4570/resol590-2010.pdf",
+        "nome": "resol590-2010.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:00+00:00"
+  }
+}

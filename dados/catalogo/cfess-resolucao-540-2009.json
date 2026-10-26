@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-540-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 540/2009",
+  "numero": "540",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o prazo para pagamento da anuidade em cota única, e /ou da primeira parcela, com desconto no mês de janeiro de 2009, no âmbito dos CRESS da 20ª Região",
+  "data_publicacao": "2009-01-28",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/490/resolucao-n-5402009",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:anuidade"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:46+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "490",
+    "assinatura_pagina": "6c3a3887438e30c177a459a4142b1405e20f3a9a738fe799c338a37f284884d7",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4596/540.pdf",
+        "nome": "540.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:46+00:00"
+  }
+}

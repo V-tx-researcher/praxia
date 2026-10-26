@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-919-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 919/2019",
+  "numero": "919",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o Código Eleitoral do Conjunto CFESS-CRESS",
+  "data_publicacao": "2019-10-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/353/resolucao-n-9192019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:14+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "353",
+    "assinatura_pagina": "d518741ad9e1a25ada8d26e3739a610b0c54fa0e4c20398f260efd4e5a334ddb",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4440/ResCfess919-2019.pdf",
+        "nome": "ResCfess919-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:14+00:00"
+  }
+}

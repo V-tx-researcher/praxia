@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-5-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 5/2021",
+  "numero": "5",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Exonerar Wescley Lagares de Andrade dos Santos do cargo em comissão de assessor de tecnologia da informação do Conselho Federal de Serviço Social",
+  "data_publicacao": "2021-03-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/161/portaria-cfess-n-52021",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:02+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "161",
+    "assinatura_pagina": "caef7e265c4389bccd57afd94dfe6a2e62478e4a8459ee0b8b655a5ed3620416",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3300/PortariaCfess52021.pdf",
+        "nome": "PortariaCfess52021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:02+00:00"
+  }
+}

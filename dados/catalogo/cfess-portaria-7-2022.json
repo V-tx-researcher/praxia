@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-7-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 7/2022",
+  "numero": "7",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição do Grupo de Trabalho para monitorar o Portal de Transparência do Conselho Federal de Serviço Social",
+  "data_publicacao": "2022-03-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/139/portaria-cfess-n-72022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:20+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "139",
+    "assinatura_pagina": "8ec615589f04f45632f5c912577d344c388231ad7ee8edf4190db4d95d042a40",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3279/PortariaCfess7-2022.pdf",
+        "nome": "PortariaCfess7-2022.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:20+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-541-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 541/2009",
+  "numero": "541",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o prazo para pagamento das anuidades do exercício de 2009 somente no âmbito do CRESS da 13ª. Região, com jurisdição no Estado da Paraíba",
+  "data_publicacao": "2009-02-10",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/489/resolucao-n-5412009",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "489",
+    "assinatura_pagina": "d312049ab4359c514929cbdcb8b47a92f6a2e742f8c798432ecfa6842f086c58",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4595/541.pdf",
+        "nome": "541.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:44+00:00"
+  }
+}

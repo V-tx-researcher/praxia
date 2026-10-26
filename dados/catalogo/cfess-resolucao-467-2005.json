@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-467-2005",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 467/2005",
+  "numero": "467",
+  "ano": 2005,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o parágrafo 1º e inclui o parágrafo 2º no artigo 1º da Resolução CFESS 418/2001.",
+  "data_publicacao": "2005-03-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/653/resolucao-n-4672005",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "653",
+    "assinatura_pagina": "1bb4ba35b28b2e9794d9bdff47fabcd28012360d94ce495c04fb861dcac4687c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5694/467- 2005.pdf",
+        "nome": "467- 2005.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:54+00:00"
+  }
+}

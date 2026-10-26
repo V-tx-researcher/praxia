@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1033-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1033/2023",
+  "numero": "1033",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologação da nomeação da Diretoria Provisória da Seccional de Araçatuba do CRESS da 9ª Região",
+  "data_publicacao": "2023-05-12",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/274/resolucao-10332023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:nomeacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "274",
+    "assinatura_pagina": "7fc125f3c03db482ca8622a27ff9b2334576dceaf5cb87398d2a4907aa4eae9d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4332/1033.pdf",
+        "nome": "1033.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:32+00:00"
+  }
+}

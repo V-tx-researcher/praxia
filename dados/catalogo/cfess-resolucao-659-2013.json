@@ -1,0 +1,64 @@
+{
+  "id": "cfess-resolucao-659-2013",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 659/2013 - (Revogada pela Resolução nº 919/2019)",
+  "numero": "659",
+  "ano": 2013,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre as normas que regulamentam o CÓDIGO ELEITORAL do Conjunto CFESS-CRESS, alterando e revogando a RESOLUÇÃO CFESS nº 586, de 30 de agosto de 2010",
+  "data_publicacao": "2013-10-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/446/resolucao-n-6592013-revogada-pela-resolucao-n-9192019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleitoral",
+    "portal_indica_situacao:Revogada pela Resolução nº 919/2019"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:18+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "446",
+    "assinatura_pagina": "cafaec80d2c1e07855da7b6b16e866a4ad8f962b86dda68f27bbbaadec609922",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4543/resolucao-cfess-659-2013.pdf",
+        "nome": "resolucao-cfess-659-2013.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:18+00:00"
+  }
+}

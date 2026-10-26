@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-2-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n°2/2025",
+  "numero": "2",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa funcionários(as) como fiscais e subfiscais de contratos administrativos do Conselho Federal de Serviço Social neles relacionados(as)",
+  "data_publicacao": "2025-01-07",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/3/portaria-n22025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:29:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "3",
+    "assinatura_pagina": "00095c8d4c9dbded1306fc5a4ee6802f4377ba98dee8f0670956351b18425a33",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3132/02-2025.pdf",
+        "nome": "02-2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:29:42+00:00"
+  }
+}

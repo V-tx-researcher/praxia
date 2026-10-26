@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-470-2005",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 470/2005",
+  "numero": "470",
+  "ano": 2005,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta a Minuta Básica do Regimento Interno dos CRESS",
+  "data_publicacao": "2005-05-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/522/resolucao-n-4702005",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:50+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "522",
+    "assinatura_pagina": "700d7b047674fbe311735e3d291158597f7b10feb14357ba51a191ccc6e621aa",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4631/resolucao_470_05.pdf",
+        "nome": "resolucao_470_05.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:50+00:00"
+  }
+}

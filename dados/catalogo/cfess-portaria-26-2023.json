@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-26-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 26/2023",
+  "numero": "26",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a designação da Comissão Organizadora do 50º Encontro Nacional CFESS-CRESS",
+  "data_publicacao": "2023-07-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/92/portaria-cfess-n-262023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "92",
+    "assinatura_pagina": "8542963933e8f6172c0d40dd96552da12719e53a0931f1ae0ddd98c2154027cd",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3230/26-2023.pdf",
+        "nome": "26-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:54+00:00"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-518-2008",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 518/2008",
+  "numero": "518",
+  "ano": 2008,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologação da nomeação da Diretoria Provisória do CRESS da 25a. Região",
+  "data_publicacao": "2008-01-14",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/502/resolucao-n-5182008",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:nomeacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:10+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "502",
+    "assinatura_pagina": "26fb5f8c232efacd131e59a1170fb7ad709537d9aafe458480bfcd9e1b808a0f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4608/resolucao_518_08.pdf",
+        "nome": "resolucao_518_08.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:10+00:00"
+  }
+}

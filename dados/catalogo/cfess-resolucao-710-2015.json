@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-710-2015",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 710/2015",
+  "numero": "710",
+  "ano": 2015,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS 704, de 23 de março de 2015, para prorrogar os prazos para criação dos relacionamentos (aplicação do DE-PARA) no SISCAF pelos CRESS e avaliação do processo de padronização",
+  "data_publicacao": "2015-06-11",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/428/resolucao-n-7102015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "428",
+    "assinatura_pagina": "bf6fa617e3d1dada5e3213b5c3a3a20673d8124dd8618389129c60ff67055831",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4524/resolucao-cfess-710-2015.pdf",
+        "nome": "resolucao-cfess-710-2015.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:44+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-383-1999",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 383/1999",
+  "numero": "383",
+  "ano": 1999,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Caracteriza o/a assistente social como profissional da saúde",
+  "data_publicacao": "1999-03-29",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/528/resolucao-n-3831999",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:26:06+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "528",
+    "assinatura_pagina": "31692e2f3e954b04aaef1c71eca2baf4f1510a7f1eb9fa9a1b8faf5f06180aa0",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4640/Resolucao38399.pdf",
+        "nome": "Resolucao38399.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:26:06+00:00"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-776-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 776/2016",
+  "numero": "776",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologação da nomeação da Diretoria Provisória da Seccional de Pelotas do CRESS da 10a Região",
+  "data_publicacao": "2016-11-04",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/408/resolucao-7762016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:nomeacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:04+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "408",
+    "assinatura_pagina": "fc7bacacacc991590b77e923a962a586ac35062c923557d17cabe048fe9d5e9d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4503/resolucaocfess776-2016.pdf",
+        "nome": "resolucaocfess776-2016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:04+00:00"
+  }
+}

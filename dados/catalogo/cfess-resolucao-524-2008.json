@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-524-2008",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 524/2008",
+  "numero": "524",
+  "ano": 2008,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologação do resultado final das eleições realizadas, em segunda convocação, para preenchimento de cargos da Diretoria do CRESS da 7ª. Região",
+  "data_publicacao": "2008-05-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/498/resolucao-n-5242008",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:convocacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:02+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "498",
+    "assinatura_pagina": "f88a283af7c873c8cd31554beb9fd2596ce89370f10d829e11ad82fa1bda7c66",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4604/resolucao_524_08.pdf",
+        "nome": "resolucao_524_08.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:02+00:00"
+  }
+}

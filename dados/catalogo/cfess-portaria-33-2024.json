@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-33-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n° 33/2024",
+  "numero": "33",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a designação da Comissão Organizadora do 51º Encontro Nacional CFESS-CRESS",
+  "data_publicacao": "2024-04-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/44/portaria-n-332024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:31:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "44",
+    "assinatura_pagina": "8bd46147c7857bfb06f60bd4f7e3c11fd35f54999c2c72c64c2a8f9f99446a61",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3183/033-2024.pdf",
+        "nome": "033-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:31:00+00:00"
+  }
+}

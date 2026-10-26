@@ -1,0 +1,320 @@
+{
+  "id": "cfess-codigo-etica-1993",
+  "versao_esquema": 1,
+  "titulo_oficial": "Código de Ética Profissional do/a Assistente Social (10ª edição)",
+  "numero": null,
+  "ano": 1993,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "codigo_etica",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Texto aprovado em 13/3/1993, com as alterações introduzidas pelas Resoluções CFESS nº290/1994, 293/1994, 333/1996 e 594/2011. Presentes nos anexos outras edições: - Edição de 29 de setembro de 1947 - Edição de 8 de maio de 1965 - Edição de 30 de janeiro de 1975 - Edição de 9 de maio de 1986",
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8662/93",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1,
+          2,
+          4,
+          5,
+          12,
+          14,
+          16,
+          58
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-273-1993",
+        "texto": "Resolução CFESS nº273/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          12,
+          19
+        ]
+      },
+      {
+        "referencia": "lei-12317-2010",
+        "texto": "Lei 12.317/10",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          12,
+          14,
+          58
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-195-1986",
+        "texto": "Resolução CFESS nº 195/86",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          19
+        ]
+      },
+      {
+        "referencia": "lei-1889-1953",
+        "texto": "Lei nº 1.889, de 13 de junho de 1953",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          45
+        ]
+      },
+      {
+        "referencia": "lei-12317",
+        "texto": "Lei nº 12.317",
+        "relacoes": [
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          48
+        ]
+      },
+      {
+        "referencia": "lei-3252-1957",
+        "texto": "Lei nº 3.252, de 27 de agosto de 1957",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          56
+        ]
+      },
+      {
+        "referencia": "lei-8663-1993",
+        "texto": "Lei 8663/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          61
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/207/codigo-de-etica-profissional-doa-assistente-social-10-edicao",
+  "categoria_portal": "Regulamentação da profissão",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/3781/CEP_CFESS-SITE.pdf",
+      "papel": "principal",
+      "sha256": "86ff45dd39adda156411d08dca8c377f1faea581928ce9324f8ad2dff21b6832",
+      "bytes": 1012155,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:03:23+00:00",
+      "verificado_em": "2026-10-26T21:03:23+00:00",
+      "caminho_local": "dados/brutos/cfess-codigo-etica-1993/86ff45dd39adda15.pdf",
+      "versao": "86ff45dd39adda15"
+    }
+  ],
+  "versao_atual": "86ff45dd39adda15",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 62,
+    "paginas_indexadas": [
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      58
+    ],
+    "dispositivos": 221,
+    "unidades": 236,
+    "partes": [
+      {
+        "slug": "apresentacao-2011",
+        "rotulo": "Apresentação à edição de 2011",
+        "tipo": "apresentacao"
+      },
+      {
+        "slug": "apresentacao-1996",
+        "rotulo": "Apresentação à edição de 1996",
+        "tipo": "apresentacao"
+      },
+      {
+        "slug": "res-273-1993",
+        "rotulo": "Resolução CFESS nº 273/1993",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "introducao",
+        "rotulo": "Introdução ao Código de Ética",
+        "tipo": "apresentacao"
+      },
+      {
+        "slug": "cep-principios",
+        "rotulo": "Código de Ética — Princípios Fundamentais",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "cep",
+        "rotulo": "Código de Ética do/a Assistente Social",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "lei-8662-1993",
+        "rotulo": "Lei nº 8.662/1993",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "lei-12317-2010",
+        "rotulo": "Lei nº 12.317/2010",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 62,
+    "paginas_sem_texto": 8,
+    "caracteres": 51136,
+    "media_caracteres_pagina": 824.8,
+    "proporcao_letras": 0.802,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T20:55:31+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:03:23+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:03:24+00:00",
+      "por": "processador",
+      "motivo": "236 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:03:24+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:04+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:04+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "207",
+    "assinatura_pagina": "57a16ad2c4607f02b09752ae315d8a513201d66bcbb3efb1af0cb76d748af82a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3781/CEP_CFESS-SITE.pdf",
+        "nome": "CEP_CFESS-SITE.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3785/CEP_1947.pdf",
+        "nome": "CEP_1947.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3786/CEP_1965.pdf",
+        "nome": "CEP_1965.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3787/CEP_1975.pdf",
+        "nome": "CEP_1975.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3788/CEP_1986.pdf",
+        "nome": "CEP_1986.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3796/Audio_Livro_Parte_1.zip",
+        "nome": "Audio_Livro_Parte_1.zip"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3797/Audio_Livro_Parte_2.zip",
+        "nome": "Audio_Livro_Parte_2.zip"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T20:55:31+00:00"
+  }
+}

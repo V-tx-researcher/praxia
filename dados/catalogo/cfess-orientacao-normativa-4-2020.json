@@ -1,0 +1,169 @@
+{
+  "id": "cfess-orientacao-normativa-4-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Orientacão Normativa 4/2020",
+  "numero": "4",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "orientacao_normativa",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8.662/1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-469-2005",
+        "texto": "Resolução Cfess n. 469/2005",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-559-2009",
+        "texto": "Resolução Cfess nº 559/2009",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-493-2006",
+        "texto": "Resolução Cfess n° 493/2006",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/557/orientacao-normativa-42020",
+  "categoria_portal": "Orientações Normativas",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4715/on42020.pdf",
+      "papel": "principal",
+      "sha256": "3639769085c57f8e1b30322a9f06295d9deba45ceb2e109c7b5edb6d2eeb2950",
+      "bytes": 111664,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:12+00:00",
+      "verificado_em": "2026-10-26T21:29:12+00:00",
+      "caminho_local": "dados/brutos/cfess-orientacao-normativa-4-2020/3639769085c57f8e.pdf",
+      "versao": "3639769085c57f8e"
+    }
+  ],
+  "versao_atual": "3639769085c57f8e",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 2,
+    "paginas_indexadas": [
+      1,
+      2
+    ],
+    "dispositivos": 0,
+    "unidades": 7,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Orientacão Normativa 4/2020",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 2,
+    "paginas_sem_texto": 0,
+    "caracteres": 5236,
+    "media_caracteres_pagina": 2618.0,
+    "proporcao_letras": 0.767,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T20:55:41+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:12+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:18+00:00",
+      "por": "processador",
+      "motivo": "7 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:18+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "557",
+    "assinatura_pagina": "5284a9600891e5053eee42eeba0106125e8de69d73d95aefb61cc4451080d195",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4715/on42020.pdf",
+        "nome": "on42020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T20:55:41+00:00"
+  }
+}

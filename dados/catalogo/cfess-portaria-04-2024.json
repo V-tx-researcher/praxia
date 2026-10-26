@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-04-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 04/2024",
+  "numero": "04",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa trabalhadores(a) como fiscais e subfiscais dos contratos administrativos do Conselho Federal de Serviço Social nela relacionados(a)",
+  "data_publicacao": "2024-01-12",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/71/portaria-cfess-n-042024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:02+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "71",
+    "assinatura_pagina": "0f4bb19b0980c25d2bdae099322be68aab102d07012f983bc0f17e12fb6c9869",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3209/04-2024.pdf",
+        "nome": "04-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:02+00:00"
+  }
+}

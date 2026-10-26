@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-915-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 915/2019",
+  "numero": "915",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a substituição de cargos da diretoria do Conselho Federal de Serviço Social (CFESS)",
+  "data_publicacao": "2019-09-03",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/357/resolucao-n-9152019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:20+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "357",
+    "assinatura_pagina": "ff61dd686adb5f7c94828323759090fa1d41417b3a40d4cb2b10e7c391f62234",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4445/ResCfess9152019.pdf",
+        "nome": "ResCfess9152019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:20+00:00"
+  }
+}

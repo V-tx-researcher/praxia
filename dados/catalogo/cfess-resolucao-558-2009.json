@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-558-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 558/2009",
+  "numero": "558",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece os patamares mínimo e máximo para fixação da anuidade para o exercício de 2010 de pessoa física e o patamar da anuidade de pessoa jurídica, no âmbito dos CRESS",
+  "data_publicacao": "2009-09-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/480/resolucao-n-5582009",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:anuidade"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "480",
+    "assinatura_pagina": "3da275cb7397d56907d063ad4787af4001357a62d3852eee676338cfd1805c49",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4586/Resolucao_CFESS_558_-_2009.pdf",
+        "nome": "Resolucao_CFESS_558_-_2009.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:24+00:00"
+  }
+}

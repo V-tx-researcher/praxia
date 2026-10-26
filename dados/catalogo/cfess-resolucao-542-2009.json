@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-542-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 542/2009",
+  "numero": "542",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o prazo para pagamento da segunda parcela da anuidade de 2009, no âmbito do CRESS da 7ª. Região",
+  "data_publicacao": "2009-02-19",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/488/resolucao-n-5422009",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:anuidade"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "488",
+    "assinatura_pagina": "2609d296dd0200731eef790a04c6df6fab50d05e8b471ea9ab5f8e7546474438",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4594/542.pdf",
+        "nome": "542.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:42+00:00"
+  }
+}

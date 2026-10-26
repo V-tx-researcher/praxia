@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-489-2006",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 489/2006",
+  "numero": "489",
+  "ano": 2006,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece normas vedando condutas discriminatórias ou preconceituosas, por orientação e expressão sexual por pessoas do mesmo sexo, no exercício profissional do assistente social",
+  "data_publicacao": "2006-06-03",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/516/resolucao-n-4892006",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:38+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "516",
+    "assinatura_pagina": "0dfcc7f9fb8b9bebdc1125489ed6cff299d58040c138c03f17c4b118530a1ac5",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4625/resolucao_489_06.pdf",
+        "nome": "resolucao_489_06.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:38+00:00"
+  }
+}

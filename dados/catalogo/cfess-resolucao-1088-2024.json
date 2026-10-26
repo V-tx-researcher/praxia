@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1088-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.088/2024",
+  "numero": "1088",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Aprovação das Propostas Orçamentárias do Conselho Federal de Serviço Social e dos Conselhos Regionais de Serviço Social: 1ª; 2ª; 3ª; 4ª; 5ª; 6ª; 7ª; 8ª; 9ª; 10ª; 11ª; 12ª; 13ª; 14ª; 15ª; 16ª; 17ª; 18ª; 19ª; 20ª; 21ª; 22ª; 23ª; 24ª; 25ª; 26ª e 27ª Regiões",
+  "data_publicacao": "2024-12-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/231/resolucao-10882024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:04+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "231",
+    "assinatura_pagina": "3f3d6192214faaa7c290ba5d5d97758e68d8032d6c63374a1b32102c77dfe2e8",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4266/110882024INFODOU.pdf",
+        "nome": "110882024INFODOU.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:04+00:00"
+  }
+}

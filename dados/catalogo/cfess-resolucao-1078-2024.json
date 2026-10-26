@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1078-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.078/2024",
+  "numero": "1078",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o anexo I da Resolução CFESS no 1.043/2023 para fixar os valores de anuidades e taxas para o exercício 2025",
+  "data_publicacao": "2024-10-04",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/237/resolucao-10782024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:16+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "237",
+    "assinatura_pagina": "1d44b27bac940a5ba601d5ed8f0c4c2477d6c43a47cef5c3c96fd99f41a5efa1",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4276/1078-2024.pdf",
+        "nome": "1078-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:16+00:00"
+  }
+}

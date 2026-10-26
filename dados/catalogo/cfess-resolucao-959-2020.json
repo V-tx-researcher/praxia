@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-959-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 959/2020",
+  "numero": "959",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre regras e procedimentos referentes à gestão documental no âmbito do Conselho Federal de Serviço Social",
+  "data_publicacao": "2020-10-08",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/326/resolucao-n-9592020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:16+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "326",
+    "assinatura_pagina": "0ac44a54c4de08e8ab7cb7f7b547d562b2e87551479f3a88222f1ba9d181e77b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4398/ResolucaoCfess959-2020.pdf",
+        "nome": "ResolucaoCfess959-2020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:16+00:00"
+  }
+}

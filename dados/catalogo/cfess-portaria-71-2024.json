@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-71-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n°71/2024",
+  "numero": "71",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição da Comissão de Seguridade Social do Conselho Federal de Serviço Social – CFESS da Gestão 2023- 2026 “QUE NOSSAS VOZES ECOEM VIDA-LIBERDADE”",
+  "data_publicacao": "2024-12-18",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/10/portaria-n712024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:29:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "10",
+    "assinatura_pagina": "87c239c6514e4f467e6335a38cf0a9a53a0d9ec69c3c2438ff994733f2f3d37b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3139/71-2024.pdf",
+        "nome": "71-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:29:58+00:00"
+  }
+}

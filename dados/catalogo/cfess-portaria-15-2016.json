@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-15-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 15/2016",
+  "numero": "15",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa a Comissão Permanente de Licitação (CPL)",
+  "data_publicacao": "2016-09-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/186/portaria-cfess-n-152016",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:licitacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "186",
+    "assinatura_pagina": "180c594f17b5c266234ae7f9140130a57e87b5ffbcfcddef3fa054b5f4ab2992",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3324/portaria152016.pdf",
+        "nome": "portaria152016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:52+00:00"
+  }
+}

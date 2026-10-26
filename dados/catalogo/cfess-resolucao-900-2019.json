@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-900-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 900/2019",
+  "numero": "900",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera ementa e dispositivo da Resolução Cfess nº 884, de 23 de outubro de 2018",
+  "data_publicacao": "2019-04-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/364/resolucao-n-9002019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:34+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "364",
+    "assinatura_pagina": "abdad94b94ab659b1f8a4ab6d393893504109afde0a8da3c3db6a9d56ae28179",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4455/Res900-compilada-2019.pdf",
+        "nome": "Res900-compilada-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:34+00:00"
+  }
+}

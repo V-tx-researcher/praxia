@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1151-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.151/2026",
+  "numero": "1151",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Atualiza o Quadro de Valores das Referências Salariais e a Tabela de Remuneração dos Cargos em Comissão, constantes da Resolução CFESS nº 510, de 21 de setembro de 2007, que institui o Plano de Cargos, Carreiras e Remuneração dos Funcionários do Conselho Federal de Serviço Social, reformulados anualmente.",
+  "data_publicacao": "2026-06-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/699/resolucao-n-11512026",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:plano de cargos,remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:14:50+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "699",
+    "assinatura_pagina": "1754946fa1cfbc146fabc549b3e68ceaca547ff88a3cb3101dcd5b06bbd2477f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5929/1151-2026.pdf",
+        "nome": "1151-2026.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:14:50+00:00"
+  }
+}

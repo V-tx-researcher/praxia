@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-788-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 788/2016",
+  "numero": "788",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Aprovação das Propostas Orçamentárias do Conselho Federal de Serviço Social e dos Conselhos Regionais de Serviço Social da 2ª. 3ª. 4ª. 7ª. 8ª.9ª. 11ª. 12ª. 13ª.16ª,17ª. 20ª. 21ª.23ª. 24ª e 25ª Regiões",
+  "data_publicacao": "2016-12-28",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/397/resolucao-7882016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "397",
+    "assinatura_pagina": "41a3415739cd97e013601013f0ea6f389e27c20ac29c4704fb4e6778a23dae5b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4492/788-2016.pdf",
+        "nome": "788-2016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:42+00:00"
+  }
+}

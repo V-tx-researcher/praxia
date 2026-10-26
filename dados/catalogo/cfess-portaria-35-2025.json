@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-35-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n° 35/2025",
+  "numero": "35",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa representantes do CFESS para compor o Grupo de Trabalho Gestor (GT Gestor) do Curso de Especialização “Trabalho Profissional: Questão Social e Fundamentos Teórico-Históricos e Ético-Políticos do Serviço Social”, nos termos do Acordo de Cooperação nº 01/2025.",
+  "data_publicacao": "2025-06-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/595/portaria-n-352025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:29:08+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "595",
+    "assinatura_pagina": "95456d4d24f68d8ca83fe988fcf32118f15d7905c67bb325330ac0eadfe9a3bb",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5254/35-2025.pdf",
+        "nome": "35-2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:29:08+00:00"
+  }
+}

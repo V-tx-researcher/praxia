@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-711-2015",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 711/2015",
+  "numero": "711",
+  "ano": 2015,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS 582/2010, para regulamentar a inutilização, pelos CRESS, do documento de identidade profissional, quando tornado sem efeito",
+  "data_publicacao": "2015-06-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/427/resolucao-n-7112015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:sem efeito"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "427",
+    "assinatura_pagina": "cdb061a491e36ff0922994d6f647558dde4982c8b15b344fa62db5049e841328",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4523/Resolucao-711-2015.pdf",
+        "nome": "Resolucao-711-2015.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:42+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1057-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1057/2023",
+  "numero": "1057",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Aprovação das Propostas Orçamentárias do Conselho Federal e dos Conselhos Regionais de Serviço Social, para o exercício de 2024, das seguintes Regiões: 1ª; 2ª; 3ª; 4ª; 5ª; 6ª; 7ª; 8ª; 9ª; 10ª; 11ª; 12ª; 13ª; 14ª, 15ª; 16ª, 17ª; 18ª; 19ª; 20ª; 22ª; 23ª; 24ª; 25ª; 26ª e 27ª",
+  "data_publicacao": "2023-12-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/254/resolucao-10572023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:50+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "254",
+    "assinatura_pagina": "2c49c8185bcb666fe06b2a6fddbc52c6319b6920d19707a31c4c6dfef34f6e6c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4309/ResolucaoCfess1057-2023.pdf",
+        "nome": "ResolucaoCfess1057-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:50+00:00"
+  }
+}

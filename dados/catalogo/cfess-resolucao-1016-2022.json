@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1016-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.016/2022",
+  "numero": "1016",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Aprovação das Propostas Orçamentárias do Conselho Federal e dos Conselhos Regionais de Serviço Social, das seguintes Regiões: 1ª; 2ª; 3ª; 4ª; 5ª; 6ª; 7ª; 8ª; 9ª; 10ª; 11ª; 12ª; 13ª; 15ª; 17ª; 18ª; 19ª; 20ª; 21ª; 23ª; 24ª; 25ª; 26ª; e 27ª",
+  "data_publicacao": "2022-12-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/287/resolucao-10162022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "287",
+    "assinatura_pagina": "8fc0837308b46d7885cb1e95b2c17bd88a56e607abd00574caf2ebac44cc2a3e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4345/Rescfess1016-2022.pdf",
+        "nome": "Rescfess1016-2022.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:58+00:00"
+  }
+}

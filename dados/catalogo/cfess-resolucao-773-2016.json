@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-773-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 773/2016",
+  "numero": "773",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Determina a prorrogação do prazo de sobrestamento, estabelecido pela Resolução Cfess nº 755/2016, já prorrogado pela Resolução Cfess nº 765/2016, para efeito da análise e da decisão dos pedidos de inscrição profissional, já protocolizados ou que vierem a ser apresentados perante os Conselhos Regionais de Serviço Social (Cress), onde existam elementos, indícios ou evidências que disciplinas do curso de Serviço Social foram ofertadas em cursos livres de extensão e os diplomas expedidos por instituições de ensino",
+  "data_publicacao": "2016-09-02",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/411/resolucao-7732016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:10+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "411",
+    "assinatura_pagina": "78d3b6c517c0670e34924a2213d96c058449711da725f057c605212654954b71",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4506/ResCfess7732016.pdf",
+        "nome": "ResCfess7732016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:10+00:00"
+  }
+}

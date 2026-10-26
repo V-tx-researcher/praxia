@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-982-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 982/2021",
+  "numero": "982",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera disposições da RESOLUÇÃO CFESS nº 968/2021 e determina a PRORROGAÇÃO do início de sua vigência, bem como a manutenção da SUSPENSÂO dos prazos processuais, por prazo indeterminado",
+  "data_publicacao": "2021-10-14",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/312/resolucao-9822021",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:50+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "312",
+    "assinatura_pagina": "a4aed3a10af8a2d726b679f868556a4e47c9a05db62789da8592d01c6acdfd39",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4376/Rescfess9822021.pdf",
+        "nome": "Rescfess9822021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:50+00:00"
+  }
+}

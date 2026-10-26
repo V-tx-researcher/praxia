@@ -1,0 +1,161 @@
+{
+  "id": "cfess-resolucao-569-2010",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 569/2010",
+  "numero": "569",
+  "ano": 2010,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a VEDAÇÃO da realização de terapias associadas ao título e/ou ao exercício profissional do assistente social",
+  "data_publicacao": "2010-03-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8.662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-273-1993",
+        "texto": "Resolução CFESS nº 273/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          3
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-428-2002",
+        "texto": "Resolução CFESS nº 428/2002",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          3
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/474/resolucao-n-5692010",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4580/RES.CFESS_569-2010.pdf",
+      "papel": "principal",
+      "sha256": "46a7f0713be2d69f428e4087070fa5f36a08dc7ae73633a86fe882c019239b4a",
+      "bytes": 60883,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:05+00:00",
+      "verificado_em": "2026-10-26T21:29:05+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-569-2010/46a7f0713be2d69f.pdf",
+      "versao": "46a7f0713be2d69f"
+    }
+  ],
+  "versao_atual": "46a7f0713be2d69f",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 10,
+    "unidades": 16,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 569/2010",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 8077,
+    "media_caracteres_pagina": 2692.3,
+    "proporcao_letras": 0.753,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:14+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:05+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:14+00:00",
+      "por": "processador",
+      "motivo": "17 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:14+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "474",
+    "assinatura_pagina": "9be4800c09445609d3b880cdbcf3b209ca76061d824fb3e6be052a5b150dc86a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4580/RES.CFESS_569-2010.pdf",
+        "nome": "RES.CFESS_569-2010.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:14+00:00"
+  }
+}

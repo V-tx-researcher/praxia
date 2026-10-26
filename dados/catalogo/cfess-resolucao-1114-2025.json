@@ -1,0 +1,195 @@
+{
+  "id": "cfess-resolucao-1114-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.114/2025",
+  "numero": "1114",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre as condições éticas e técnicas para o exercício profissional da(o) Assistente Social",
+  "data_publicacao": "2025-09-04",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei nº 8.662, de 07 de junho de 1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          4
+        ]
+      },
+      {
+        "referencia": "lei-13709-2018",
+        "texto": "Lei nº 13.709, de 14 de agosto de 2018",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13146-2015",
+        "texto": "Lei nº 13.146, de 6 de julho de 2015",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-1098-2025",
+        "texto": "Resolução CFESS nº 1098/2025",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          4
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-512-2007",
+        "texto": "Resolução CFESS nº 512/2007",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          5
+        ]
+      },
+      {
+        "referencia": "lei-14063-2020",
+        "texto": "Lei nº 14.063, de 23 de setembro de 2020",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          6
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/607/resolucao-n-11142025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5343/1114-2025(INFO DOU).pdf",
+      "papel": "principal",
+      "sha256": "edf23a529a85eb0d112a6e02c2bff90c4fdc76b390be6a5ebf6b5365cdfcb6b1",
+      "bytes": 255620,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:01+00:00",
+      "verificado_em": "2026-10-26T21:29:01+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-1114-2025/edf23a529a85eb0d.pdf",
+      "versao": "edf23a529a85eb0d"
+    }
+  ],
+  "versao_atual": "edf23a529a85eb0d",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 7,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "dispositivos": 37,
+    "unidades": 41,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 1.114/2025",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 7,
+    "paginas_sem_texto": 0,
+    "caracteres": 15547,
+    "media_caracteres_pagina": 2221.0,
+    "proporcao_letras": 0.797,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:26+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:01+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:12+00:00",
+      "por": "processador",
+      "motivo": "42 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:12+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "607",
+    "assinatura_pagina": "5f99e128bbff3c6073eea13a8cfdede573185d3d8de5a33b44f2f4d0e04d861c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5343/1114-2025(INFO DOU).pdf",
+        "nome": "1114-2025(INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:26+00:00"
+  }
+}

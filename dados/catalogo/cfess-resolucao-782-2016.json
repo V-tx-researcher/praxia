@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-782-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 782/2016",
+  "numero": "782",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui os novos instrumentais das Comissões de Orientação e Fiscalização dos CRESS, a serem utilizados e aplicados nas visitas realizadas pelo Regional, em caráter experimental",
+  "data_publicacao": "2016-11-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/402/resolucao-7822016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "402",
+    "assinatura_pagina": "72132c46ce3a8da802fc0720661762b5dbf8ad83944c64b9be3808a3aebd5822",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4497/ResolucaoCFESS7822016.pdf",
+        "nome": "ResolucaoCFESS7822016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:52+00:00"
+  }
+}

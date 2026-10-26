@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-45-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n° 45/2024 - Retificada",
+  "numero": "45",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa funcionários(as) como fiscais e subfiscais dos contratos administrativos do Conselho Federal de Serviço Social nela relacionados",
+  "data_publicacao": "2024-06-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/32/portaria-n-452024-retificada",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:30:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "32",
+    "assinatura_pagina": "caefd9b11270f549c09d9232833e341a99f6032be4f9a72ed0a423e471105683",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3171/45-2024.pdf",
+        "nome": "45-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:30:36+00:00"
+  }
+}

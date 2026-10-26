@@ -1,0 +1,152 @@
+{
+  "id": "cfess-resolucao-559-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 559/2009 (efeitos suspensos por decisão judicial)",
+  "numero": "559",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a atuação do Assistente Social, inclusive na qualidade de perito judicial ou assistente técnico, quando convocado a prestar depoimento como testemunha, pela autoridade competente",
+  "data_publicacao": "2009-09-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8455-1992",
+        "texto": "Lei 8.455/92",
+        "relacoes": [
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8.662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/479/resolucao-n-5592009-efeitos-suspensos-por-decisao-judicial",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4584/resolucaoCFESS559-2009.pdf",
+      "papel": "principal",
+      "sha256": "16b0766655771039ad14236fa3bb76c1e73d48228e0007d22b9019d937dc689a",
+      "bytes": 108994,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:08+00:00",
+      "verificado_em": "2026-10-26T21:29:08+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-559-2009/16b0766655771039.pdf",
+      "versao": "16b0766655771039"
+    }
+  ],
+  "versao_atual": "16b0766655771039",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 10,
+    "unidades": 16,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 559/2009 (efeitos suspensos por decisão judicial)",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 7319,
+    "media_caracteres_pagina": 2439.7,
+    "proporcao_letras": 0.769,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "portal_indica_situacao:efeitos suspensos por decisão judicial"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:26+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:08+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:16+00:00",
+      "por": "processador",
+      "motivo": "16 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:16+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "479",
+    "assinatura_pagina": "2c583207dcdfb79f1482c22a1cd9256bad2ca1e67c37c4d6515b8627835b5a38",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4584/resolucaoCFESS559-2009.pdf",
+        "nome": "resolucaoCFESS559-2009.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:26+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1103-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n° 1.103/2025",
+  "numero": "1103",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a alteração do parágrafo primeiro do artigo 5º da Resolução Cfess nº 548 de 23 de março de 2009, que institui procedimentos para o processamento de denúncias disciplinares e/ou éticas DESAFORADAS.",
+  "data_publicacao": "2025-06-12",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/592/resolucao-n-11032025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:38+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "592",
+    "assinatura_pagina": "0a86cfcf174885994ead6bee21dde9c1449f65b984feac5f924b58a75a417a61",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5245/Resolução CFESS 548 -2009 Compilada (jun 2025).pdf",
+        "nome": "Resolução CFESS 548 -2009 Compilada (jun 2025).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:38+00:00"
+  }
+}

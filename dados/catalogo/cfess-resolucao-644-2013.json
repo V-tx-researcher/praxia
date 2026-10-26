@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-644-2013",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 644/2013",
+  "numero": "644",
+  "ano": 2013,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta a utilização de Chancela Mecânica, Assinatura Digital e Chancela Eletrônica no âmbito do Conjunto CFESS-CRESS",
+  "data_publicacao": "2013-03-19",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/453/resolucao-n-6442013",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "453",
+    "assinatura_pagina": "71307994245b08911df754e5221d68944b75a4e7a7645d23b997d7e2907e5352",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4553/CFESS644-2013.pdf",
+        "nome": "CFESS644-2013.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:32+00:00"
+  }
+}

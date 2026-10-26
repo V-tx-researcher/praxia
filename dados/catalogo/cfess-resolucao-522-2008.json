@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-522-2008",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 522/2008",
+  "numero": "522",
+  "ano": 2008,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologação da nomeação da Diretoria Provisória do CRESS da 7a. Região",
+  "data_publicacao": "2008-01-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/499/resolucao-n-5222008",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:nomeacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:04+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "499",
+    "assinatura_pagina": "9ee773a144580d18e209bda894548b27240ae6a6838427d40d2bfeee474ab7b2",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4605/resolucao_522_08.pdf",
+        "nome": "resolucao_522_08.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:04+00:00"
+  }
+}

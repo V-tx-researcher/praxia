@@ -1,0 +1,59 @@
+{
+  "id": "cfess-portaria-33-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 33/2023",
+  "numero": "33",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa os Agentes de Contratação e equipe de apoio à licitação e contratos no âmbito do Conselho Federal de Serviço Social",
+  "data_publicacao": "2023-08-31",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/85/portaria-cfess-n-332023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:licitacao",
+    "sem_arquivo_vinculado"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:30+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "85",
+    "assinatura_pagina": "653d87adad89d549289a14a332e224e33905085f03df578ded984b5f4f340a22",
+    "anexos": [],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:30+00:00"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "cfess-resolucao-1010-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.010/2022",
+  "numero": "1010",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Revogada pela Resolução CFESS nº 1.120/2025",
+  "data_publicacao": "2022-10-31",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/292/resolucao-10102022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:Revogada pela Resolução CFESS nº 1"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:08+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "292",
+    "assinatura_pagina": "cb992564b23303a894fdf5462fddd86aa08a625d9397591f3d7c11fb8a7ca7d3",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5392/1120-2025 (INFO DOU).pdf",
+        "nome": "1120-2025 (INFO DOU).pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4350/rescfess1010.pdf",
+        "nome": "rescfess1010.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:08+00:00"
+  }
+}

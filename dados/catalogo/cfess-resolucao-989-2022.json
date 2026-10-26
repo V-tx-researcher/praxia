@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-989-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 989/2022",
+  "numero": "989",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento do cargo da conselheira licenciada 1ª Tesoureira, no âmbito do Conselho Federal de Serviço Social",
+  "data_publicacao": "2022-02-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/308/resolucao-9892022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:40+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "308",
+    "assinatura_pagina": "506289ed406d7a1834478aaec0ee818ea4e20ce37780f7c6b0d555cb3d592f37",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4369/res9892022.pdf",
+        "nome": "res9892022.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:40+00:00"
+  }
+}

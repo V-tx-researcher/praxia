@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-650-2013",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 650/2013 (expressamente revogada pela Resolução CFESS nº 910/2019)",
+  "numero": "650",
+  "ano": 2013,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece os parâmetros para o cumprimento da Lei n.º 12.527/2011 – Lei de Acesso à Informação",
+  "data_publicacao": "2013-06-26",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/449/resolucao-n-6502013-expressamente-revogada-pela-resolucao-cfess-n-9102019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:revogada pela Resolução CFESS nº 910/2019"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "449",
+    "assinatura_pagina": "35c261dad44f915cc3a61223d76c586c11e71ce97e0b896f73dff7aa46b1bb0d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4547/650-2013.pdf",
+        "nome": "650-2013.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:24+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-74-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n°74/2025",
+  "numero": "74",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição da Comissão Permanente do Trabalho no âmbito do Conselho Federal de Serviço Social (Cfess), Gestão 2023-2026",
+  "data_publicacao": "2024-12-18",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/7/portaria-n742025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:29:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "7",
+    "assinatura_pagina": "71cde7c7b89121f4e407a9d5b9f299246e582072a202a43ea26a15a2c9ec069f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3136/74-2024.pdf",
+        "nome": "74-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:29:54+00:00"
+  }
+}

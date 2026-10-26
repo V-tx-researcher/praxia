@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-6-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 6/2022",
+  "numero": "6",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Concede progressão salarial a trabalhador do Conselho Federal de Serviço Social mediante processo de Avaliação de Desempenho",
+  "data_publicacao": "2022-03-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/140/portaria-cfess-n-62022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:18+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "140",
+    "assinatura_pagina": "f5c8ef9b712b55f054217ee7d659a0bb9cedbd186e21514f2e780ff2873ada3f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3280/PortariaCfess6-2022.pdf",
+        "nome": "PortariaCfess6-2022.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:18+00:00"
+  }
+}

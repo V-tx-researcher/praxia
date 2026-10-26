@@ -1,0 +1,68 @@
+{
+  "id": "cfess-resolucao-792-2017",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 792/2017 (REVOGADA)",
+  "numero": "792",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Revogada integralmente pela Resolução CFESS nº 1031/2023 - Institui a Anotação da Responsabilidade Técnica no âmbito do Serviço Social, os parâmetros para a atuação do/a assistente social nesta modalidade bem como regula os procedimentos para expedição da Certidão respectiva.",
+  "data_publicacao": "2017-02-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/706/resolucao-n-7922017-revogada",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:REVOGADA",
+    "portal_indica_situacao:Revogada integralmente pela Resolução CFESS nº 1031/2023 - Institui a Anotação da Responsabilidade Técnica no âmbito do "
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:38+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "706",
+    "assinatura_pagina": "910591cb7ce06402937b2fcd0c0328ba784d0b9d6febd4140bca1b8ad6634720",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5992/1031-2023compilada.pdf",
+        "nome": "1031-2023compilada.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5991/792_2017.pdf",
+        "nome": "792_2017.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:38+00:00"
+  }
+}

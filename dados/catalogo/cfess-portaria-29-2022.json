@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-29-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 29/2022",
+  "numero": "29",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Exonera o trabalhador Lucas Machado de Figueiredo do Cargo Comissionado de Coordenador Financeiro, Orçamentário e Contábil do Conselho Federal de Serviço Social para nomeá-lo para o Cargo Comissionado de Coordenador Administrativo-Financeiro",
+  "data_publicacao": "2022-12-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/123/portaria-cfess-n-292022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "123",
+    "assinatura_pagina": "1a751b52904064fa5cdc06a960f3c5967cd9a62b6d9b184566a8e77ec4a72de2",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3263/portariacfess29-22.pdf",
+        "nome": "portariacfess29-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:44+00:00"
+  }
+}

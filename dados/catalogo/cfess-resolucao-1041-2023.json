@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1041-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1041/2023 - inserida na Resolução 1005/2022 compilada",
+  "numero": "1041",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS no 1.005/2022, que dispõe sobre a concessão de diárias, auxílio de representação, ressarcimentos e transporte a conselheiras/os, assessoras/es, empregadas/os e convidadas/os, que receberem a incumbência ou missão do Conselho Federal de Serviço Social - CFESS, no País ou no estrangeiro",
+  "data_publicacao": "2023-09-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/266/resolucao-10412023-inserida-na-resolucao-10052022-compilada",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:16+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "266",
+    "assinatura_pagina": "bdeed7f88c34717b07e379e67acd3a7b359d073f0d4cb75d2ce9e8d8f6b6b4db",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4323/1041-2023.pdf",
+        "nome": "1041-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:16+00:00"
+  }
+}

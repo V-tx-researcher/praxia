@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1014-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.014/2022",
+  "numero": "1014",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta a inscrição (principal e secundária), transferência, cancelamento e reinscrição de pessoa física no âmbito dos CRESS e dá outras providências",
+  "data_publicacao": "2022-12-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/289/resolucao-10142022-2",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "289",
+    "assinatura_pagina": "416a41dadb59ab4977af392db30b12872d7f1fe792be804a11ef7c0a86fbda07",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5789/Resolução 1014-2022 COMPILADA(06.05.2026).pdf",
+        "nome": "Resolução 1014-2022 COMPILADA(06.05.2026).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:00+00:00"
+  }
+}

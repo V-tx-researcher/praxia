@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-39-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 39/2025",
+  "numero": "39",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição do Grupo de Trabalho Nacional para avaliar coletivamente o processo eleitoral, com o objetivo de identificar as potencialidades e as dificuldades das eleições e definir estratégias para normatização das cotas na constituição das chapas, do Conjunto CFESS-CRESS.",
+  "data_publicacao": "2025-08-28",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/605/portaria-n-392025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:28:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "605",
+    "assinatura_pagina": "b5701110eeb693f82ff4b70fcd39b81efef9e19df6769216f8cce9b4e86ca51d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5338/39-2025.pdf",
+        "nome": "39-2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:28:58+00:00"
+  }
+}

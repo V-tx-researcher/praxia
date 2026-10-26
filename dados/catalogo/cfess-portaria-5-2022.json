@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-5-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 5/2022",
+  "numero": "5",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Exonera, a pedido, Antônio Horácio da Silva do Cargo Comissionado de Coordenador Financeiro do Conselho Federal de Serviço Social - publicação no Diário Oficial da União (DOU)",
+  "data_publicacao": "2022-02-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/141/portaria-cfess-n-52022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "141",
+    "assinatura_pagina": "66f7f7b4ffca06a9ba422a61bde3ea2231fc0264e53001bd762a28d0a43667cb",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3281/Portaria5-2022cfess.pdf",
+        "nome": "Portaria5-2022cfess.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:24+00:00"
+  }
+}

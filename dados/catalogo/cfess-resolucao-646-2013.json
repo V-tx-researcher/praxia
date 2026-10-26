@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-646-2013",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 646/2013",
+  "numero": "646",
+  "ano": 2013,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a concessão de diárias e meias-diárias para pagamento de hospedagem, translado e alimentação, e ressarcimento de despesas a conselheiros, assessores, funcionários e convidados",
+  "data_publicacao": "2013-04-29",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/451/resolucao-n-6462013",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:28+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "451",
+    "assinatura_pagina": "65cb0c9b1360af4f0a19f12ad4b94f3f0317f38d68479b4fe8cbd35a808288d7",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4549/resolucao-646-2013.pdf",
+        "nome": "resolucao-646-2013.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:28+00:00"
+  }
+}

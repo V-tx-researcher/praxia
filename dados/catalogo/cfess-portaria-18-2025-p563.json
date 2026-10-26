@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-18-2025-p563",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 18/2025",
+  "numero": "18",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Instaura INQUÉRITO ADMINISTRATIVO nº 01/2025 para apuração de indícios de irregularidades no âmbito do CRESS 25ª Região, com jurisdição no Estado de Tocantins, e nomeia os membros para compor a Comissão de Inquérito.",
+  "data_publicacao": "2025-02-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/563/portaria-n-182025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:29:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "563",
+    "assinatura_pagina": "025215f06d29be294376dfc821e9d796b3a4b298d70ed1970d60ba3d0e20928a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5005/182025.pdf",
+        "nome": "182025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:29:32+00:00"
+  }
+}

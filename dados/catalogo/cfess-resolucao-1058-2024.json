@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1058-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1058/2024",
+  "numero": "1058",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento da gestão 2023-2026 no âmbito do Conselho Federal de Serviço Social – CFESS",
+  "data_publicacao": "2024-01-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/253/resolucao-10582024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:46+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "253",
+    "assinatura_pagina": "4c664e672fb8584a6b8dec8d15e204bb2a4cca0da5e004d46c1968accf0a929d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4307/1058-2024-reordena.pdf",
+        "nome": "1058-2024-reordena.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:46+00:00"
+  }
+}

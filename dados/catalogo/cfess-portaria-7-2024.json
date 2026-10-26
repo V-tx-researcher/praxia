@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-7-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 7/2024",
+  "numero": "7",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Concede progressão salarial aos trabalhadores do Conselho Federal de Serviço Social mediante processo de Avaliação de Desempenho.",
+  "data_publicacao": "2024-01-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/570/portaria-cfess-n-72024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:31:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "570",
+    "assinatura_pagina": "00595124400f8c3caa9ec7e2f0e566bf43e5a6bf50df7d5378f2c80ed6f378fc",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5027/07-2024.pdf",
+        "nome": "07-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:31:52+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-5-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 5/2023",
+  "numero": "5",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa funcionários como fiscais e sub-fiscais dos seguintes contratos administrativos do CFESS: 014/2023, 015/2023 e 016/2023",
+  "data_publicacao": "2023-04-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/111/portaria-cfess-n-52023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "111",
+    "assinatura_pagina": "918a19eff211b9f8719b352f3bf1902e0d5c9bb0a240bb1c3dd22fb634a6a965",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3251/portariacfess52023.pdf",
+        "nome": "portariacfess52023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:24+00:00"
+  }
+}

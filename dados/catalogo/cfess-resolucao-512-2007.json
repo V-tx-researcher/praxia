@@ -1,0 +1,183 @@
+{
+  "id": "cfess-resolucao-512-2007",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 512/2007",
+  "numero": "512",
+  "ano": 2007,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Reformulação das normas gerais para o exercício da Fiscalização Profissional e atualização da Política Nacional de Fiscalização",
+  "data_publicacao": "2007-09-29",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-512-2007",
+        "texto": "RESOLUÇÃO CFESS Nº. 512/2007",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-382-1999",
+        "texto": "Resolução CFESS Nº.382/99",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "referencia": "lei-8662",
+        "texto": "Lei 8662",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          6,
+          9
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/508/resolucao-n-5122007",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4614/Resolucaocfess5122007.pdf",
+      "papel": "principal",
+      "sha256": "42e30f7b15e066110f397c3121dfd841120b98a86249e47d641ec13f5dd99c75",
+      "bytes": 200808,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:07+00:00",
+      "verificado_em": "2026-10-26T21:29:07+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-512-2007/42e30f7b15e06611.pdf",
+      "versao": "42e30f7b15e06611"
+    }
+  ],
+  "versao_atual": "42e30f7b15e06611",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 10,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dispositivos": 85,
+    "unidades": 88,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 512/2007",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 10,
+    "paginas_sem_texto": 0,
+    "caracteres": 29201,
+    "media_caracteres_pagina": 2920.1,
+    "proporcao_letras": 0.825,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:07+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:15+00:00",
+      "por": "processador",
+      "motivo": "93 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:15+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "508",
+    "assinatura_pagina": "85a17724bd5e191977cdf1901f9a057beedd37d671337db6ae5f27341e536e01",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4614/Resolucaocfess5122007.pdf",
+        "nome": "Resolucaocfess5122007.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:24+00:00"
+  }
+}

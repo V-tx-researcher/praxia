@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-481-2005",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 481/2005",
+  "numero": "481",
+  "ano": 2005,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Aprovação da Proposta Orçamentária do Conselho Federal e Conselhos Regionais de Serviço Social da 1a. a 24a. Regiões",
+  "data_publicacao": "2005-12-29",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/518/resolucao-n-4812005",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "518",
+    "assinatura_pagina": "4f2ef0b337e80feb3c63c2cfe19358c971bc455d1c1e4211927656008c39401f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4627/resolucao_481_05.pdf",
+        "nome": "resolucao_481_05.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:42+00:00"
+  }
+}

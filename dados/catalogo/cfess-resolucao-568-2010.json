@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-568-2010",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 568/2010",
+  "numero": "568",
+  "ano": 2010,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta o procedimento de aplicação de multa prevista pelo parágrafo 4º do artigo 1º, pelo descumprimento das normas estabelecidas na Resolução nº 533/08, sobre Supervisão de Estágio",
+  "data_publicacao": "2010-03-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/475/resolucao-n-5682010",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:multa"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:16+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "475",
+    "assinatura_pagina": "9e898e5b2b240065f20f89f7badc3dcf43401f8740d91eff607dab6f8164b614",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4581/resolucaocfess568.pdf",
+        "nome": "resolucaocfess568.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:16+00:00"
+  }
+}

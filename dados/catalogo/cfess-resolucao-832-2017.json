@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-832-2017",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 832/2017",
+  "numero": "832",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera dispositivo na Resolução CFESS 582, de 01 de julho de 2010",
+  "data_publicacao": "2017-10-26",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/384/resolucao-n-8322017",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:14+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "384",
+    "assinatura_pagina": "c2272283cc757567baf9a4f6b0776357fe01b5122ff0cfe94e82977e8ef89da2",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4479/Resolucaocfess8322017.pdf",
+        "nome": "Resolucaocfess8322017.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:14+00:00"
+  }
+}

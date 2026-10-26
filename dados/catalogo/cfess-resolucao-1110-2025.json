@@ -1,0 +1,67 @@
+{
+  "id": "cfess-resolucao-1110-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n° 1.110/2025",
+  "numero": "1110",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Atualiza o Quadro de Valores das Referências Salariais e a Tabela de Remuneração dos Cargos em Comissão, constantes da Resolução CFESS nº 510, de 21 de setembro de 2007, que institui o Plano de Cargos, Carreiras e Remuneração dos Funcionários do Conselho Federal de Serviço Social, reformulados anualmente.",
+  "data_publicacao": "2025-07-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/598/resolucao-n-11102025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:plano de cargos,remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:34+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "598",
+    "assinatura_pagina": "06d4bb21296a6c7de537cd844e1054b5d54ccc79a1ea207eada2304116cee649",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5282/Retificação da Res.1100.2025 (INFO DOU).pdf",
+        "nome": "Retificação da Res.1100.2025 (INFO DOU).pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5281/1110-2025 (INFO DOU).pdf",
+        "nome": "1110-2025 (INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:34+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-53-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n°53/2024",
+  "numero": "53",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição da Comissão Permanente da Transparência, que regula o acesso a informações e do Decreto Federal nº 7.724/2013, designada por meio da Portaria CFESS nº 8, de 5 de junho de 2017",
+  "data_publicacao": "2024-08-14",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/25/portaria-n532024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:30:26+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "25",
+    "assinatura_pagina": "d74bb8b67416b3e4d93bb147f0a2c5ef5ab13aca5c304ae7d0512b0a9874e99e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3154/532024.pdf",
+        "nome": "532024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:30:26+00:00"
+  }
+}

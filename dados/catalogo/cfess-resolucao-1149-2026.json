@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1149-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução Nº 1.149/2026",
+  "numero": "1149",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a concessão de diárias, auxílio de representação, ressarcimentos e transporte a conselheiras/os, empregadas/os e colaboradoras/es eventuais, que receberem a incumbência ou missão do Conselho Federal de Serviço Social - CFESS, no País ou no estrangeiro.",
+  "data_publicacao": "2026-06-08",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/682/resolucao-n-11492026",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:14:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "682",
+    "assinatura_pagina": "0ae170bc7228124bf9790f2e00abd3bbe4083ff6d923509dbdb814d9825c6d31",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5875/ResolucaoCfess1149-2026.pdf",
+        "nome": "ResolucaoCfess1149-2026.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:14:54+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-713-2015",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 713/2015",
+  "numero": "713",
+  "ano": 2015,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS no 704, de 23 de março de 2015, para prorrogar os prazos para criação dos relacionamentos (aplicação do DE-PARA) no SISCAF pelos CRESS e avaliação do processo de padronização, bem como incluir situações e detalhes da situação",
+  "data_publicacao": "2015-06-30",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/425/resolucao-n-7132015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:38+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "425",
+    "assinatura_pagina": "0639718c57050855fa25c42cfe0fafc4ec0dcf40cdec375e0c95bf9bd783a0dc",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4521/ResolucaoCfess713-2015.pdf",
+        "nome": "ResolucaoCfess713-2015.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:38+00:00"
+  }
+}

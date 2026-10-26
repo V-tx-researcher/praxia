@@ -1,0 +1,65 @@
+{
+  "id": "cfess-resolucao-1084-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.084/2024",
+  "numero": "1084",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a LAICIDADE na profissão e no Exercício Profissional da/o assistente social, em face da laicidade de Estado",
+  "data_publicacao": "2024-11-11",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/232/resolucao-10842024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:06+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "232",
+    "assinatura_pagina": "acf9dc331003b431491abc71414940af53d928d431f2aa9084ec74b08eed85ea",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4268/1084-2024.pdf",
+        "nome": "1084-2024.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4269/1084-2024.pdf",
+        "nome": "1084-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:06+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-24-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 24/2023",
+  "numero": "24",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição da Comissão Permanente da Transparência, que objetiva estabelecer parâmetros para o cumprimento da lei 12.527/2011, que regula o acesso a informações e do Decreto Federal nº 7.724/2013, designada por meio da Portaria CFESS nº 8, de 5 de junho de 2017",
+  "data_publicacao": "2023-07-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/94/portaria-cfess-n-242023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "94",
+    "assinatura_pagina": "4f66fa552fa1f952c17bf684d6a9cbf55919e405cdbcd6b8215a50096c7bf5e6",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3232/24-2023.pdf",
+        "nome": "24-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:44+00:00"
+  }
+}

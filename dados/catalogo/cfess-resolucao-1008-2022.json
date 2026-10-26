@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1008-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.008/2022",
+  "numero": "1008",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece procedimentos e normas para utilização do Fundo Nacional de Apoio aos Cress e ao Cfess",
+  "data_publicacao": "2022-10-26",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/294/resolucao-10082022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "294",
+    "assinatura_pagina": "82c47121fa1f85ba91cf2109fde2b40c9799c97785ada25a341c0d26f7d59c6a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4352/Rescfess1008-22.pdf",
+        "nome": "Rescfess1008-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:12+00:00"
+  }
+}

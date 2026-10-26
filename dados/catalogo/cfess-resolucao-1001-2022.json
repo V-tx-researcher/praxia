@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1001-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.001/2022",
+  "numero": "1001",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado da eleição realizada em Assembleia Extraordinária para preenchimento de cargos no CRESS da 13ª Região (PB)",
+  "data_publicacao": "2022-06-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/299/resolucao-10012022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleicao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "299",
+    "assinatura_pagina": "1d9099ee98371c37de8cdecec35beb9c4058a90ac7f7259f66718e35871484e2",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4357/ResCfess1001-22.pdf",
+        "nome": "ResCfess1001-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:22+00:00"
+  }
+}

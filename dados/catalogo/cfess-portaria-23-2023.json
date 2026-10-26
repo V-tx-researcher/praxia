@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-23-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 23/2023",
+  "numero": "23",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa a nova composição da Comissão Permanente de Patrimônio do Conselho Federal de Serviço Social",
+  "data_publicacao": "2023-07-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/95/portaria-cfess-n-232023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:04+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "95",
+    "assinatura_pagina": "6b9300ac2a86bcf00c1adb6a35e9befc90c90c28df81046b014c524251753a8f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3233/portaria23-2023.pdf",
+        "nome": "23-2023"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:04+00:00"
+  }
+}

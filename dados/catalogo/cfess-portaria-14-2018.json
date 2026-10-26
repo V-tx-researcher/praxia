@@ -1,0 +1,58 @@
+{
+  "id": "cfess-portaria-14-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 14/2018",
+  "numero": "14",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Concessão de progressão salarial aos trabalhadores/as do Conselho Federal de Serviço Social mediante processo de Avaliação de Desempenho",
+  "data_publicacao": "2018-06-14",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/178/portaria-cfess-n-142018",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "sem_arquivo_vinculado"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:38+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "178",
+    "assinatura_pagina": "25d54240b8fa97806614a9417aa599f2615673fd2f70072b6181888b420b3b82",
+    "anexos": [],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:38+00:00"
+  }
+}

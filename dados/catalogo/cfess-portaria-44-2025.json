@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-44-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 44/2025",
+  "numero": "44",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Concede progressão salarial à trabalhadora do Conselho Federal de Serviço Social mediante processo de Avaliação de Desempenho",
+  "data_publicacao": "2025-10-06",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/612/portaria-n-442025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:28:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "612",
+    "assinatura_pagina": "16251a56327b4888fb197d5963f566742212ed6962b2dba718afa61d08ffc11e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5370/44-2025.pdf",
+        "nome": "44-2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:28:52+00:00"
+  }
+}

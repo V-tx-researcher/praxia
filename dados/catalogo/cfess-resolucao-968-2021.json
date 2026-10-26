@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-968-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 968/2021 - Revogada integralmente pela Resolução CFESS nº 988, de 21 de fevereiro de 2022",
+  "numero": "968",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Determina que os prazos processuais voltam a fluir para todos os efeitos de direito e disciplina a realização dos atos processuais por meio remoto – REVOGA a Resolução Cfess nº 940 de 23 de março de 2020, que trata da suspensão dos prazos processuais",
+  "data_publicacao": "2021-04-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/323/resolucao-9682021-revogada-integralmente-pela-resolucao-cfess-n-988-de-21-de-fevereiro-de-2022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:Revogada integralmente pela Resolução CFESS nº 988, de 21 de fevereiro de 2022 Determina que os prazos processuais volta"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:10+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "323",
+    "assinatura_pagina": "3b1de0d1c5554afa6905e88dc4c24678006bd90cebead29fc2260c176aa75e3f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4394/ResCfess9682021.pdf",
+        "nome": "ResCfess9682021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:10+00:00"
+  }
+}

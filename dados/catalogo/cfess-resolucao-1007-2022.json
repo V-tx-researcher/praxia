@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1007-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.007/2022",
+  "numero": "1007",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução Cfess no 723/2015, que regulamenta a porcentagem da cota-parte que deve ser repassada pelos Cress ao Cfess",
+  "data_publicacao": "2022-10-26",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/295/resolucao-10072022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:14+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "295",
+    "assinatura_pagina": "ff03f3c99a346d213bee7515f50d822900872cbb3049a708ec2b1073187c5ba5",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4353/rESCFESS1007-22.pdf",
+        "nome": "rESCFESS1007-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:14+00:00"
+  }
+}

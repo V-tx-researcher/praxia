@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-21-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 21/2022",
+  "numero": "21",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Prorroga, por 180 dias, o prazo previsto no artigo 9º da Portaria Cfess nº 19, de 22 de novembro de 2021",
+  "data_publicacao": "2022-09-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/129/portaria-cfess-n-212022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "129",
+    "assinatura_pagina": "a7a30a889e52b4a0781100b4f24c0f2cf617b1d9a5d4c9d782d0840e75f9e759",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3269/PortariaCfess21-22.pdf",
+        "nome": "PortariaCfess21-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:00+00:00"
+  }
+}

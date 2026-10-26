@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1126-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.126/2026",
+  "numero": "1126",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a convocação para apresentação de documentos, nomeação e posse, de candidato aprovado no Concurso Público EDITAL nº 001/2024, devidamente homologado por meio do Edital, publicado no Diário Oficial da União nº 91, de 16 de maio de 2025, Seção 3.",
+  "data_publicacao": "2026-02-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/649/resolucao-n-11262026",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:concurso publico,nomeacao,posse,convocacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:04+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "649",
+    "assinatura_pagina": "48feb0435858c4c26826114087c24b2036bf76e741e796971707e5692cee76bc",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5657/1126-2026(INFO DOU).pdf",
+        "nome": "1126-2026(INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:04+00:00"
+  }
+}

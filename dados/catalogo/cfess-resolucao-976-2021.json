@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-976-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 976/2021",
+  "numero": "976",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento dos cargos de 2ª Secretária e cargo de conselheira suplente licenciadas, no âmbito do Conselho Federal de Serviço Social",
+  "data_publicacao": "2021-06-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/318/resolucao-9762021",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:02+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "318",
+    "assinatura_pagina": "3f2f8b748a3113a045b4e64cbb65328f46735f77575d43977be96f27bab91e01",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4386/ResolucaoCfess976-2021.pdf",
+        "nome": "ResolucaoCfess976-2021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:02+00:00"
+  }
+}

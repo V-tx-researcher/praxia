@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-46-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 46/2025",
+  "numero": "46",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Comissão Nacional Eleitoral (CNE), para coordenar o processo eleitoral do Conjunto CFESS-CRESS",
+  "data_publicacao": "2025-10-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/618/portaria-n-462025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:28:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "618",
+    "assinatura_pagina": "33dd851aa47c8c83846ba751583b41d46b6bdd0b77871bdd1d22347eef5bb5c4",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5399/46-2025.pdf",
+        "nome": "46-2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:28:48+00:00"
+  }
+}

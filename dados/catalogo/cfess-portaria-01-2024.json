@@ -1,0 +1,67 @@
+{
+  "id": "cfess-portaria-01-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 01/2024",
+  "numero": "01",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Exonera, a pedido, Lucas Machado de Figueiredo dos cargos de provimento efetivo de Analista e do cargo em comissão de Coordenador Administrativo-Financeiro do Conselho Federal de Serviço Social",
+  "data_publicacao": "2024-01-02",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/74/portaria-cfess-n-012024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:10+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "74",
+    "assinatura_pagina": "919772480b9ae3917ca8fe3e61e8c5e9d3d632bfb80fea33f26f53945d0b455f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3212/port01-2024.pdf",
+        "nome": "port01-2024.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3213/retifportaria12024.pdf",
+        "nome": "retifportaria12024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:10+00:00"
+  }
+}

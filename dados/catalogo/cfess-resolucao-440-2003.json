@@ -1,0 +1,59 @@
+{
+  "id": "cfess-resolucao-440-2003",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 440/2003",
+  "numero": "440",
+  "ano": 2003,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "(Não há Arquivos) A Resolução CFESS nº 440, de 28 de março de 2003, foi revogada tacitamente pela Resolução CFESS nº 640, de 14 de dezembro de 2012",
+  "data_publicacao": "2003-01-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/525/resolucao-n-4402003",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:revogada tacitamente pela Resolução CFESS nº 640, de 14 de dezembro de 2012",
+    "sem_arquivo_vinculado"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "525",
+    "assinatura_pagina": "1fc11ef0beb59cf2c33dea9bc94e242e9f8ec5ba5ae6103cdc7729ccfe7f0489",
+    "anexos": [],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:58+00:00"
+  }
+}

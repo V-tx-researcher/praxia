@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-981-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 981/2021",
+  "numero": "981",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a reordenamento dos cargos da conselheira 2ª Secretária, do 4º conselheiro suplente e da 5ª conselheira suplente, no âmbito do Conselho Federal de Serviço Social",
+  "data_publicacao": "2021-10-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/313/resolucao-9812021",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "313",
+    "assinatura_pagina": "46dad308b08bba2f1d7c2a8df67545b19ce3beeab8dbad5dce77061a379d4b6c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4377/ResCfess9812021.pdf",
+        "nome": "ResCfess9812021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:52+00:00"
+  }
+}

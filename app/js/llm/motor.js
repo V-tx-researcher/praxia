@@ -22,7 +22,8 @@ export function webgpuDisponivel() {
 }
 
 export class MotorWebLLM {
-  constructor(modelo, { aoProgresso = () => {}, temperatura = 0 } = {}) {
+  constructor(modelo, { aoProgresso = () => {}, temperatura = 0, usarIndexedDB = null } = {}) {
+    this.usarIndexedDB = usarIndexedDB;
     if (!MODELOS[modelo]) throw new Error(`modelo não avaliado: ${modelo}`);
     this.modelo = modelo;
     this.aoProgresso = aoProgresso;
@@ -34,9 +35,20 @@ export class MotorWebLLM {
     if (this.motor) return this.motor;
     if (!webgpuDisponivel()) throw new Error("este navegador não oferece WebGPU");
     const webllm = await import(/* @vite-ignore */ WEBLLM_URL);
-    this.motor = await webllm.CreateMLCEngine(this.modelo, {
+    const criar = (indexedDB) => webllm.CreateMLCEngine(this.modelo, {
+      appConfig: { ...webllm.prebuiltAppConfig, cacheBackend: indexedDB ? "indexeddb" : "cache" },
       initProgressCallback: (p) => this.aoProgresso(p.text, p.progress),
     });
+    try {
+      this.motor = await criar(this.usarIndexedDB ?? false);
+    } catch (erro) {
+      // Alguns navegadores falham ao gravar fragmentos grandes no Cache Storage
+      // ("Failed to execute 'add' on 'Cache'"). O IndexedDB é a alternativa do WebLLM.
+      if (this.usarIndexedDB || !/cache/i.test(String(erro?.message || erro))) throw erro;
+      this.aoProgresso("armazenamento alternativo (IndexedDB)", 0);
+      this.usarIndexedDB = true;
+      this.motor = await criar(true);
+    }
     return this.motor;
   }
 

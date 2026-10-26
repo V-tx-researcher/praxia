@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1018-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.018/2023",
+  "numero": "1018",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera as Resoluções Cfess 1.014/2022 e 1.015/2022",
+  "data_publicacao": "2023-01-30",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/285/resolucao-10182023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "285",
+    "assinatura_pagina": "a99a44af1fbb755c1bd11222345f4d40f25e51566a5dd3c48bee13adbaec7e9f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4343/res1018-2023.pdf",
+        "nome": "res1018-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:54+00:00"
+  }
+}

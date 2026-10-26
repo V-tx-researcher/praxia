@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-28-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 28/2009",
+  "numero": "28",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Determinar que o cargo de Presidente seja exercido pela Conselheira Neile d’Oran Pinheiro",
+  "data_publicacao": "2009-10-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/191/portaria-cfess-n-282009",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:36:14+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "191",
+    "assinatura_pagina": "7cc06dfae7a68e191ef56942be88ad81e44b16a1953c2f6fe4dd2fc946300d2c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3329/Portaria_028.pdf",
+        "nome": "Portaria_028.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:36:14+00:00"
+  }
+}

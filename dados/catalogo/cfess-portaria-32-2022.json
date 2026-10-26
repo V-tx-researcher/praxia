@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-32-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 32/2022",
+  "numero": "32",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa as trabalhadoras Bianca Cristina Piassava Bonassi Barros, Ericka Rossana Costa de Oliveira e Natália de Assis Faraj para ocuparem, respectivamente, os cargos comissionados de Assessora de Gestão do Trabalho, Assessora de Planejamento e Finanças e Assessora Jurídica do Conselho Federal de Serviço Social",
+  "data_publicacao": "2022-12-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/120/portaria-cfess-n-322022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "120",
+    "assinatura_pagina": "e926c250c5e4d7e3712187289f7b95c89781d1c4743a1c197fb9cc282014ee1f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3260/portaria-cfess-32-22.pdf",
+        "nome": "portaria-cfess-32-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:48+00:00"
+  }
+}

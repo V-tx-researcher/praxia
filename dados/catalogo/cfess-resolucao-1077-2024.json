@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1077-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.077/2024",
+  "numero": "1077",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa a nomeação da Diretoria Provisória da Seccional Sul Fluminense do CRESS da 7ª Região/RJ",
+  "data_publicacao": "2024-08-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/238/resolucao-10772024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:nomeacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:18+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "238",
+    "assinatura_pagina": "c6002f709525d5c0c4828e7ed04eee57bc0aca00f5931758b820842f5f0bfc3e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4277/1077-2024.pdf",
+        "nome": "1077-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:18+00:00"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "cfess-resolucao-998-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 998/2022",
+  "numero": "998",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução Cfess nº 510/2007",
+  "data_publicacao": "2022-05-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/302/resolucao-9982022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "sem_arquivo_vinculado"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:30+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "302",
+    "assinatura_pagina": "b38ccae3fe1f49c4cea8b2a8aac90514a7b8002419035c103898760f743d99f4",
+    "anexos": [],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:30+00:00"
+  }
+}

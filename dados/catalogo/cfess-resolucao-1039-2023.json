@@ -1,0 +1,65 @@
+{
+  "id": "cfess-resolucao-1039-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1039/2023 e Retificação da Resolução 1039/2023",
+  "numero": "1039",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa a nova versão do Regimento Interno do Conselho Regional de Serviço Social da 16a Região, com jurisdição do estado de Alagoas",
+  "data_publicacao": "2023-07-18",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/268/resolucao-10392023-e-retificacao-da-resolucao-10392023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:20+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "268",
+    "assinatura_pagina": "696695902c9cf6dde2e49f6b56a1873227640a949c678cfd767a4dcd38da7e00",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4325/res1039-2023.pdf",
+        "nome": "Resolução 1039/2023"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4326/1039-2023-retificacao.pdf",
+        "nome": "Retificação da Resolução 1039/2023"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:20+00:00"
+  }
+}

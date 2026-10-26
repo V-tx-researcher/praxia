@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-37-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 37/2026",
+  "numero": "37",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa a composição da Comissão de Ética e Direitos Humanos do Conselho Federal de Serviço Social – CFESS da Gestão 2026-2029 “Estrada de Fazer o Sonho Acontecer”.",
+  "data_publicacao": "2026-06-08",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/685/portaria-n-372026",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:27:06+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "685",
+    "assinatura_pagina": "aeedf0dbea9986afc831c0f08b04d67a468c8962ca9bbd55bf91d93be8902353",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5895/037-2026_assinado.pdf",
+        "nome": "037-2026_assinado.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:27:06+00:00"
+  }
+}

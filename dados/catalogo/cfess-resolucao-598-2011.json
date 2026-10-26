@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-598-2011",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 598/2011",
+  "numero": "598",
+  "ano": 2011,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado final das eleições do CFESS, dos CRESS e Seccionais, especificados na presente norma, para Gestão 2011/2014",
+  "data_publicacao": "2011-05-02",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/465/resolucao-n-5982011",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:56+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "465",
+    "assinatura_pagina": "9ed597f9eebcc21e6b4361d0fdc4be0ec1f0a9da6b8e55a4ad72b504d4964d32",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4568/resolucao-598-2011.pdf",
+        "nome": "resolucao-598-2011.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:56+00:00"
+  }
+}

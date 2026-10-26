@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-967-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 967/2021",
+  "numero": "967",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a suspensão de prazos para a comunicação pelas Unidades de Ensino aos Conselhos Regionais de Serviço Social sobre as informações referentes aos campos credenciados de estágio, aos/às supervisores/as acadêmico e de campo e aos/às estagiários/às",
+  "data_publicacao": "2021-03-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/324/resolucao-9672021",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "324",
+    "assinatura_pagina": "8c4ad3c3c409b67448b0c5f4330720a9809e152faf5cd2beb3384d96f6544d8a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4395/ResolucaoCfess967-2021.pdf",
+        "nome": "ResolucaoCfess967-2021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:12+00:00"
+  }
+}

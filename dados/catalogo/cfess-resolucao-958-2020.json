@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-958-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 958/2020",
+  "numero": "958",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Inclui dispositivo na Resolução Cfess n o 949, de 1º de julho de 2020, sobre o cancelamento da reunião da Comissão Especial em 2020 em decorrência da pandemia do Novo Coronavírus – COVID-19",
+  "data_publicacao": "2020-10-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/327/resolucao-n-9582020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:18+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "327",
+    "assinatura_pagina": "70ca370b2a39b6f4374bb174fc711f7a2a66c002d72476a748ebd75c823f9f53",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4400/ResolucaoCfess958-2020.pdf",
+        "nome": "ResolucaoCfess958-2020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:18+00:00"
+  }
+}

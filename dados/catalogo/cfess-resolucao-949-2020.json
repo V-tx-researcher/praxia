@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-949-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 949/2020",
+  "numero": "949",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre medidas regimentais excepcionais em decorrência da pandemia do novo coronavírus (covid-19) no âmbito do Conjunto CFESS-CRESS",
+  "data_publicacao": "2020-07-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/335/resolucao-n-9492020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "335",
+    "assinatura_pagina": "d1879e82bdd602cf464b465b8ec14aa07bc7014a0db5c2c0c78085b4c3c29097",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4413/rescfess94920.pdf",
+        "nome": "rescfess94920.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:36+00:00"
+  }
+}

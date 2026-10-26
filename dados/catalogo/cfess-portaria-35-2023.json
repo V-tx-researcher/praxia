@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-35-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 35/2023",
+  "numero": "35",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designar Tomás Teixeira da Costa para ocupar o cargo comissionado de Assessor de Tecnologia da Informação do Conselho Federal de Serviço Social",
+  "data_publicacao": "2023-09-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/83/portaria-cfess-n-352023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:26+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "83",
+    "assinatura_pagina": "01e063888a6d98dc2785008b8bb6cf6d06bd343d03a6824e301c50b0e10ad778",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3222/35-2023.pdf",
+        "nome": "35-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:26+00:00"
+  }
+}

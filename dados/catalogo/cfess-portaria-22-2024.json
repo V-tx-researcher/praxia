@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-22-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 22/2024",
+  "numero": "22",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa trabalhadoras como fiscal e subfiscal do contrato C024/2020 celebrado com a empresa DTS Conservação e Limpeza Ltda – ME",
+  "data_publicacao": "2024-03-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/54/portaria-n-222024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:31:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "54",
+    "assinatura_pagina": "7af1f3d7eea8c585a0c687ba64ddce79a597f7801e9b8ba942a3dd5f1755504e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3195/022-2024.pdf",
+        "nome": "022-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:31:24+00:00"
+  }
+}

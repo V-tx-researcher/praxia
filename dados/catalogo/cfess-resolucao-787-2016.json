@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-787-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 787/2016",
+  "numero": "787",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Sobresta a vigência do inciso III do artigo 4o da Resolução CFESS nº 775, de 21 de outubro de 2016, e prorroga a vigência do inciso III do artigo 4o da Resolução CFESS nº 724, de 2 de outubro de 2015, ambos até 31 de março de 2017",
+  "data_publicacao": "2016-12-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/398/resolucao-7872016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "398",
+    "assinatura_pagina": "ae78dd74504d825810e118273ce3193d34ec2f16a3f9326058aafd4b2c231fe8",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4493/787-2016-retificada.pdf",
+        "nome": "787-2016-retificada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:44+00:00"
+  }
+}

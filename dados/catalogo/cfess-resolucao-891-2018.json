@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-891-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 891/2018",
+  "numero": "891",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado final das eleições extraordinárias do Conselho Regional de Serviço Social da 27ª Região (Cress 27ª Região), com jurisdição no Estado de Roraima, especificado na presente norma, para Gestão 2017/2020, cujo mandato se inicia com a posse em 28 de novembro de 2018 e se expira em 15 de maio de 2020",
+  "data_publicacao": "2018-11-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/367/resolucao-n-8912018",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:posse"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:40+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "367",
+    "assinatura_pagina": "74240c4b01b556cd31d96d92f1d29449a9889238c328a98069a8ab70a0620e89",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4460/ResolucaoCfess8912018.pdf",
+        "nome": "ResolucaoCfess8912018.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:40+00:00"
+  }
+}

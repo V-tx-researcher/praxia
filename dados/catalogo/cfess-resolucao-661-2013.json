@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-661-2013",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 661/2013",
+  "numero": "661",
+  "ano": 2013,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece gratuidade para novas vias de cédulas de identidade profissional para profissionais que apresentarem boletim de ocorrência em situações de furto ou roubo do documento, alterando as Resoluções CFESS 582/2010 e 658/2013",
+  "data_publicacao": "2013-12-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/444/resolucao-n-6612013",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:16+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "444",
+    "assinatura_pagina": "ed84874bad966841eb022a08408d99501d2614c1f2c6dd8c1dc56c6492ef9bd7",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4541/ResCfess661-2013.pdf",
+        "nome": "ResCfess661-2013.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:16+00:00"
+  }
+}

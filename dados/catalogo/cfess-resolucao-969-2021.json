@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-969-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 969/2021",
+  "numero": "969",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Autoriza, em caráter excepcional e para o exercício 2021, a extensão de prazos para o pagamento das anuidades de pessoa física e de pessoa jurídica",
+  "data_publicacao": "2021-04-30",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/322/resolucao-9692021",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:08+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "322",
+    "assinatura_pagina": "9a86a6157fe43645131ed323319a52c8612c2b9d529b305940b813403db6d718",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4392/ResolucaoCfess969-2021.pdf",
+        "nome": "ResolucaoCfess969-2021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:08+00:00"
+  }
+}

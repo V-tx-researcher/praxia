@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-51-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n°51/2024",
+  "numero": "51",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa funcionárias como fiscais e subfiscais dos contratos administrativos do Conselho Federal de Serviço Social",
+  "data_publicacao": "2024-08-14",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/27/portaria-n512024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:30:28+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "27",
+    "assinatura_pagina": "23a321838fe92c5397ff67981ee0bfa3b54f0022682fa8293af6ea88899df7cf",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3156/512024.pdf",
+        "nome": "512024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:30:28+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-30-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 30/2023",
+  "numero": "30",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Portaria Cfess nº 02 de 15 de fevereiro de 2023, que concede ponto facultativo aos/às trabalhadores/as do Conselho Federal de Serviço Social (Cfess) nos dias que especifica do exercício de 2023",
+  "data_publicacao": "2023-08-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/88/portaria-cfess-n-302023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "88",
+    "assinatura_pagina": "a18b92d42ecff84480b9b436521a09f1ff2ce37962858d76c3c575c1f064c48a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3226/portariacfess30-2023.pdf",
+        "nome": "portariacfess30-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:36+00:00"
+  }
+}

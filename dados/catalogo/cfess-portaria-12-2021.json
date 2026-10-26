@@ -1,0 +1,58 @@
+{
+  "id": "cfess-portaria-12-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 12/2021",
+  "numero": "12",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição da Comissão Permanente da Transparência, gestão 2020-2023, que objetiva estabelecer parâmetros para o cumprimento da lei 12.527/2011, que regula o acesso a informações e do Decreto Federal nº 7.724/2013, designada por meio da Portaria Cfess nº 8, de 5 de junho de 2017",
+  "data_publicacao": "2021-08-30",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/155/portaria-cfess-n-122021",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "sem_arquivo_vinculado"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "155",
+    "assinatura_pagina": "fa41cc755a5152c08e89f2b64aa9463b692ead19960acbce129739376b3fc6c4",
+    "anexos": [],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:48+00:00"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "id": "cfess-orientacao-normativa-2-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Orientação Normativa 2/2018",
+  "numero": "2",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "orientacao_normativa",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-792-2017",
+        "texto": "Resolução Cfess n. 792/2017",
+        "relacoes": [
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-886-2018",
+        "texto": "Resolução Cfess n. 886/2018",
+        "relacoes": [
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei nº 8.662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-469-2005",
+        "texto": "Resolução Cfess n. 469/2005",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-582-2010",
+        "texto": "Resolução Cfess n. 582/2010",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/559/orientacao-normativa-22018",
+  "categoria_portal": "Orientações Normativas",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4717/ON22018.pdf",
+      "papel": "principal",
+      "sha256": "f1aa36abebde69bcec5d994ce04d175e4c4749f824ad88b29ecc855577f68c85",
+      "bytes": 268621,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:10+00:00",
+      "verificado_em": "2026-10-26T21:29:10+00:00",
+      "caminho_local": "dados/brutos/cfess-orientacao-normativa-2-2018/f1aa36abebde69bc.pdf",
+      "versao": "f1aa36abebde69bc"
+    }
+  ],
+  "versao_atual": "f1aa36abebde69bc",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 4,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "dispositivos": 0,
+    "unidades": 12,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Orientação Normativa 2/2018",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 4,
+    "paginas_sem_texto": 0,
+    "caracteres": 11030,
+    "media_caracteres_pagina": 2757.5,
+    "proporcao_letras": 0.756,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T20:55:45+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:10+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:17+00:00",
+      "por": "processador",
+      "motivo": "13 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:17+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "559",
+    "assinatura_pagina": "0a1fef276c151740cb06360d3c39c35178ff67c96c68c5c286bb155ecd381723",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4717/ON22018.pdf",
+        "nome": "ON22018.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T20:55:45+00:00"
+  }
+}

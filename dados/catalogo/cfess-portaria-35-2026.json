@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-35-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 35/2026",
+  "numero": "35",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a designação da Comissão Organizadora do 53º Encontro Nacional CFESS-CRESS",
+  "data_publicacao": "2026-06-02",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/683/portaria-n-352026",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:27:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "683",
+    "assinatura_pagina": "94f02b556f7dd6420dade45f8d2949df40ab90bf53f23835ccff7d033f14ad2f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5893/35-2026_assinada.pdf",
+        "nome": "35-2026_assinada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:27:24+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-910-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 910/2019",
+  "numero": "910",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece parâmetros para o acesso a informações no âmbito do Conselho Federal de Serviço Social",
+  "data_publicacao": "2019-06-12",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/360/resolucao-n-9102019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:26+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "360",
+    "assinatura_pagina": "06e67ef4679ca2afe0137785c3ca1369286192af2fed5e996418790e8b2d7d88",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4450/Res9210-2019.pdf",
+        "nome": "Res9210-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:26+00:00"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-697-2014",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 697/2014",
+  "numero": "697",
+  "ano": 2014,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS nº 510, de 21 de setembro de 2007, criando gratificação para os integrantes da Comissão Permanente de Licitação no âmbito do Plano de Cargos, Carreiras e Remuneração dos Funcionários do Conselho Federal de Serviço Social",
+  "data_publicacao": "2014-12-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/436/resolucao-n-6972014",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:licitacao,plano de cargos,remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "436",
+    "assinatura_pagina": "7763f4776d50b7dc43a1fcc58a1e9a850b7ecfaad26ba2b34af32eac87dc8ce7",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4532/Res697-2014.pdf",
+        "nome": "Res697-2014.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:58+00:00"
+  }
+}

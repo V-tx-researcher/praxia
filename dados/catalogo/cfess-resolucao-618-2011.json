@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-618-2011",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 618/2011",
+  "numero": "618",
+  "ano": 2011,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado final das ELEIÇÕES EXTRAORDINÁRIAS em segunda convocação dos CRESS da 2ª. Região; 5ª. Região; 15ª. Região; 17ª. Região e para a Seccional de Bauru do CRESS da 9ª. Região, para cumprimento de mandato da Gestão 2011/2014",
+  "data_publicacao": "2011-10-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/461/resolucao-n-6182011",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:convocacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "461",
+    "assinatura_pagina": "466afbfd9e126d5d1265341f7700b5d528c3cba46e532275f83b60ff78a7cc34",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4564/Resolucao-CFESS-618-2011.pdf",
+        "nome": "Resolucao-CFESS-618-2011.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:48+00:00"
+  }
+}

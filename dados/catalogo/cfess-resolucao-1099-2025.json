@@ -1,0 +1,65 @@
+{
+  "id": "cfess-resolucao-1099-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.099/2025",
+  "numero": "1099",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "A normativa se encontra na Resolução CFESS nº 1.005/2022, versão compilada.",
+  "data_publicacao": "2025-04-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/603/resolucao-n-10992025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "603",
+    "assinatura_pagina": "8363b30dd3622ce3b93407039af7dad8ccaf0c592ac38614407c07d26dad2712",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5332/TermoResponsabilidadeRes 1099-2025.pdf",
+        "nome": "TermoResponsabilidadeRes 1099-2025.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5331/Res1005compilada.pdf",
+        "nome": "Res1005compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:44+00:00"
+  }
+}

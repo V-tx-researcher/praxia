@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-27-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 27/2021",
+  "numero": "27",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Concede progressão salarial a trabalhadora do Conselho Federal de Serviço Social mediante processo de Avaliação de Desempenho e estabelece outras providências",
+  "data_publicacao": "2021-12-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/146/portaria-cfess-n-272021",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:30+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "146",
+    "assinatura_pagina": "b13cf2e130eb6aff18abfd46e3e54b22d7b89cb9fa48419ce48fccc87f89faa6",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3286/PortariaCfess27-2021.pdf",
+        "nome": "PortariaCfess27-2021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:30+00:00"
+  }
+}

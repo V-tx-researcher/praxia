@@ -1,0 +1,65 @@
+{
+  "id": "cfess-resolucao-995-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 995/2022",
+  "numero": "995",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Política de Diretrizes da Gestão Documental do Conjunto CFESS/CRESS A PDGD CFESS-CRESS é anexo da respectiva Resolução e pode ser acessada aqui",
+  "data_publicacao": "2022-04-14",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/304/resolucao-9952022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:34+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "304",
+    "assinatura_pagina": "bcd1907cd55d95bd67c2010b252f2c8952b29380af765231cbb27bcc206a03e7",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4361/995-2022.pdf",
+        "nome": "995-2022.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4362/PDGD-CFESS-CRESS-2021.pdf",
+        "nome": "PDGD-CFESS-CRESS-2021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:34+00:00"
+  }
+}

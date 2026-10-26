@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-28-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 28/2021",
+  "numero": "28",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa a Comissão Gestora do Fundo Nacional de Apoio aos Cress, Seccionais e Cfess, criada pela Portaria Cfess nº 01/2006",
+  "data_publicacao": "2021-12-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/145/portaria-cfess-n-282021",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "145",
+    "assinatura_pagina": "72ff123f9c70b2c4b7543947f236a708b2029546109bd2515aa1d4b905cf7e56",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3285/PortariaCfess28-2021.pdf",
+        "nome": "PortariaCfess28-2021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:32+00:00"
+  }
+}

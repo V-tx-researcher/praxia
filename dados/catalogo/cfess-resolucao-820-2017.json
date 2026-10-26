@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-820-2017",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 820/2017",
+  "numero": "820",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS n º 696, de 15 de dezembro de 2014, para suspender temporariamente o recadastramento nacional dos/as assistentes sociais, a substituição das atuais carteiras e cédulas de identidade profissional e a pesquisa sobre o perfil do/da assistente social e realidade do exercício profissional no país",
+  "data_publicacao": "2017-07-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/389/resolucao-n-8202017",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "389",
+    "assinatura_pagina": "3a5f34434f36c8b4155d39eb2221f12b6763468db037524a902096fee8d25907",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4484/ResCFESS820-2017.pdf",
+        "nome": "ResCFESS820-2017.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:24+00:00"
+  }
+}

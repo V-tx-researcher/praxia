@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-46-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n° 46/2024",
+  "numero": "46",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição do Grupo de Trabalho Nacional, considerando as novas configurações do mundo do trabalho, os impactos das exigências de produtividade no trabalho profissional e a necessidade da garantia de acessibilidade",
+  "data_publicacao": "2024-06-18",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/31/portaria-n-462024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:30:38+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "31",
+    "assinatura_pagina": "7f4f2500221a2baf7411f0a26941a0afdda2c66bac39a1a4d069fe59845c7a81",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3170/46-2024.pdf",
+        "nome": "46-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:30:38+00:00"
+  }
+}

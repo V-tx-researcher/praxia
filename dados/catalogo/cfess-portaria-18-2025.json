@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-18-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n°18/2025",
+  "numero": "18",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a designação da Comissão Organizadora do 52º Encontro Nacional CFESS-CRESS.",
+  "data_publicacao": "2025-03-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/576/portaria-n182025",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:29:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "576",
+    "assinatura_pagina": "9ba5add4903e8c751a517d2201da13984f39e919c405832852c2056cb6d1dfda",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5095/15-2025.pdf",
+        "nome": "15-2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:29:22+00:00"
+  }
+}

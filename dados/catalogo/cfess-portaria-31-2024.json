@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-31-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria n°31/2024",
+  "numero": "31",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a composição do Grupo de Trabalho Nacional para realizar estudos sobre a implementação da Política de Enfrentamento à Inadimplência do Conjunto CFESS-CRESS",
+  "data_publicacao": "2024-04-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/46/portaria-n312024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:31:06+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "46",
+    "assinatura_pagina": "5695eb86d51e87b7b403bfe549b11257ea87bbbe9b5da6233277afbdc8b53d7e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5596/31-2024.pdf",
+        "nome": "31-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:31:06+00:00"
+  }
+}

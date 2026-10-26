@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-392-1999",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 392/1999 (expressamente revogada pela Resolução CFESS nº 1.036/2023)",
+  "numero": "392",
+  "ano": 1999,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Portaria 05/91 que estabelece procedimentos para concessão e autorização de suprimento de fundos",
+  "data_publicacao": "1999-07-11",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/527/resolucao-n-3921999-expressamente-revogada-pela-resolucao-cfess-n-10362023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:revogada pela Resolução CFESS nº 1"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:26:04+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "527",
+    "assinatura_pagina": "0117a806b6242bc9171940184ffd7ea6137b838d083866759a37cd9d8038e562",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4635/ResolucaoCFESSn392-1999.pdf",
+        "nome": "ResolucaoCFESSn392-1999.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:26:04+00:00"
+  }
+}

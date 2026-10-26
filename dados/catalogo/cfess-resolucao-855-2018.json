@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-855-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 855/2018",
+  "numero": "855",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a convocação para apresentação de documentos, nomeação e posse, de candidato aprovado no Concurso Público CFESS nº 001/2016, devidamente homologado por meio do Edital de 3 de julho de 2017, publicação no Diário Oficial da União nº 128, de 6 de julho de 2017, Seção 3, bem como informa o pedido de desistência expressa da 3ª classificada para o cargo de analista",
+  "data_publicacao": "2018-06-07",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/378/resolucao-n-8552018",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:concurso publico,nomeacao,posse,convocacao,cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:02+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "378",
+    "assinatura_pagina": "ece623dfdca7349e182e7db1e440ab57691555b2df8e235762d8acc37b5f0a37",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4473/ResCfess855.pdf",
+        "nome": "ResCfess855.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:02+00:00"
+  }
+}

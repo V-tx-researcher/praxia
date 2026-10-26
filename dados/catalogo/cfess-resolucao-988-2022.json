@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-988-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 988/2022",
+  "numero": "988",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a realização de forma eletrônica dos atos e ritos dos processos previstos nas Resoluções nº 657/2013 e 660/2013 do Conselho Federal de Serviço Social e dá outras providências",
+  "data_publicacao": "2022-02-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/309/resolucao-9882022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "309",
+    "assinatura_pagina": "2e57875dddb2ec308d00cf67ec4f307b859a2f6e9391a35ccee1a5ed7d1f15ca",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4370/ResolucaoCfess988-2022.pdf",
+        "nome": "ResolucaoCfess988-2022.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:44+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-560-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 560/2009",
+  "numero": "560",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Complementa o artigo 2º da Resolução nº 555/2009, de forma a prever a possibilidade de deferimento de registro profissional de assistente social nos CRESS",
+  "data_publicacao": "2009-10-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/478/resolucao-n-5602009",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "478",
+    "assinatura_pagina": "6838c088ea8ef7dd74336730af213c9848684c79de745ed73ed787ac91d0da3f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4585/resolucao_560.pdf",
+        "nome": "resolucao_560.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:22+00:00"
+  }
+}

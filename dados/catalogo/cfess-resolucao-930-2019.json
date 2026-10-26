@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-930-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 930/2019",
+  "numero": "930",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado da eleição realizada em Assembleia Extraordinária, para preenchimento de cargos do mandato dos membros do Cress da 25ª Região (TO)",
+  "data_publicacao": "2019-12-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/350/resolucao-n-9302019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleicao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:06+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "350",
+    "assinatura_pagina": "766dc10695f07a6e15b1ad7551d3d0cce44b6f2eb5e62c124527517704194640",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4436/ResCfess930-2019.pdf",
+        "nome": "ResCfess930-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:06+00:00"
+  }
+}

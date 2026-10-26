@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-07-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 07/2019",
+  "numero": "07",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Substitui membro suplente da Comissão de Inquérito nº 02/2018",
+  "data_publicacao": "2019-03-14",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/171/portaria-cfess-n-072019",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "171",
+    "assinatura_pagina": "8941c745ad462a65485b313c79f60a58fdd95f7140ad3911ead8dd015c702c6a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3310/2019-PortariaCfess07.pdf",
+        "nome": "2019-PortariaCfess07.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:22+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-38-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 38/2023",
+  "numero": "38",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa o Encarregado de Proteção de Dados no âmbito do Conselho Federal de Serviço Social – CFESS",
+  "data_publicacao": "2023-10-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/80/portaria-cfess-n-382023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:32:20+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "80",
+    "assinatura_pagina": "61137da45bd75355b337fc5209d16e8b459d3ea0114f6556eb9f4e189a0e121b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3219/38-2023.pdf",
+        "nome": "38-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:32:20+00:00"
+  }
+}

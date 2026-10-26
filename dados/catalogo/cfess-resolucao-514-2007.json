@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-514-2007",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 514/2007",
+  "numero": "514",
+  "ano": 2007,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologação e criação do Conselho Regional de Serviço Social da 25ª Região, com jurisdição no Estado de Tocantins e sede em Palmas e alteração da jurisdição do CRESS da 19ª Região",
+  "data_publicacao": "2007-12-10",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/506/resolucao-n-5142007",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:18+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "506",
+    "assinatura_pagina": "94eef8d673ebe4023c09de8d4456f0e2e94bbaa890265c873e6ec8e5c605cae3",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4612/resolucao_514_07.pdf",
+        "nome": "resolucao_514_07.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:18+00:00"
+  }
+}

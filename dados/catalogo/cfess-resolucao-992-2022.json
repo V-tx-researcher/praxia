@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-992-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 992/2022",
+  "numero": "992",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece normas vedando atos e condutas discriminatórias e/ou preconceituosas contra pessoas com deficiência no exercício profissional do/a assistente social, regulamentando os princípios II, VI e XI inscritos no Código de Ética Profissional",
+  "data_publicacao": "2022-03-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/306/resolucao-9922022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:38+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "306",
+    "assinatura_pagina": "11257328e4f84849f00384cbfb1442b1ea3bfd0ce43ebeb9684122ad99f80857",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4366/rescfess992.pdf",
+        "nome": "rescfess992.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:38+00:00"
+  }
+}

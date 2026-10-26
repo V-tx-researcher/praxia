@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1021-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1021/2023",
+  "numero": "1021",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução Cfess 829/2017",
+  "data_publicacao": "2023-02-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/284/resolucao-10212023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "284",
+    "assinatura_pagina": "fc740a41c20f1259d0b01e2894ea36dcbd6709422a493415d902c485352a9278",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4342/resolucao1021-2023.pdf",
+        "nome": "resolucao1021-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:52+00:00"
+  }
+}

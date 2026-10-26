@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-830-2017",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 830/2017",
+  "numero": "830",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a substituição de cargos da diretoria do Conselho Federal de Serviço Social (CFESS)",
+  "data_publicacao": "2017-10-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/386/resolucao-n-8302017",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:18+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "386",
+    "assinatura_pagina": "512824a9c489f749d1937e6614bbfa94aa66bb6b0ba4610ab2e9f005514c94f5",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4481/ResolucaoCfess830-2017.pdf",
+        "nome": "ResolucaoCfess830-2017.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:18+00:00"
+  }
+}

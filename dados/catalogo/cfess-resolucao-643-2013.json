@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-643-2013",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 643/2013",
+  "numero": "643",
+  "ano": 2013,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Campanha Nacional do Conjunto CFESS-CRESS para o ano de 2013: \"A luta por um serviço social forte também depende de você - Regularize seus débitos junto ao CRESS\"",
+  "data_publicacao": "2013-03-04",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/454/resolucao-n-6432013",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:34+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "454",
+    "assinatura_pagina": "5f6e3e60b0cdcc91679bf7dde3889cf84c2971e42f4055b9a6da48b18c8ed6e3",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4554/resolucao-643-13-cfess-2.pdf",
+        "nome": "resolucao-643-13-cfess-2.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:34+00:00"
+  }
+}

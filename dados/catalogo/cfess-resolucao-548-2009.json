@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-548-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 548/2009",
+  "numero": "548",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui procedimentos que deverão ser adotados no processamento das denúncias éticas que forem objeto de DESAFORAMENTO, conforme previsão do artigo 9º do Código Processual de Ética",
+  "data_publicacao": "2009-03-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/487/resolucao-n-5482009",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:40+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "487",
+    "assinatura_pagina": "41832d765bafa3731d8523fa81e380e9af1001bfd00e66eea8a4772c6b06700d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5244/Resolução CFESS 548 -2009 Compilada (jun 2025).pdf",
+        "nome": "Resolução CFESS 548 -2009 Compilada (jun 2025).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:40+00:00"
+  }
+}

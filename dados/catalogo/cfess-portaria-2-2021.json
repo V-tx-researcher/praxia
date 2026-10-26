@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-2-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 2/2021",
+  "numero": "2",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Instaura SINDICÂNCIA ADMINISTRATIVA nº 01/2021 para apuração de supostas irregularidades no âmbito do Cress da 5ª Região, com jurisdição no Estado da Bahia, e nomeia os membros que irão compor a Comissão respectiva, para apuração dos fatos e efetivação dos procedimentos cabíveis",
+  "data_publicacao": "2021-02-26",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/162/portaria-cfess-n-22021",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:04+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "162",
+    "assinatura_pagina": "9e383b3bc17b8559c53b3dc53038172aa722daa5f0b0c9f788dc14eb51808079",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3301/portariacfess2-2021.pdf",
+        "nome": "portariacfess2-2021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:04+00:00"
+  }
+}

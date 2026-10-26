@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-762-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 762/2016",
+  "numero": "762",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS nº 446/2003, de 8 julho de 2003",
+  "data_publicacao": "2016-05-31",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/415/resolucao-7622016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:18+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "415",
+    "assinatura_pagina": "c076c5e9fdc445b7ca8662bb7b74c24cae8eb6b3012fd70b510f760addc3cee4",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4510/762-2016.pdf",
+        "nome": "762-2016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:18+00:00"
+  }
+}

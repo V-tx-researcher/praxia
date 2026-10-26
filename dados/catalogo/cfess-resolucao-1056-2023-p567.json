@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1056-2023-p567",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.056/2023",
+  "numero": "1056",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Inclui dispositivos na Resolução CFESS no 1.043/2023, que regulamenta as anuidades de pessoa física e de pessoa jurídica e as taxas no âmbito dos CRESS, e determina outras providências.",
+  "data_publicacao": "2023-11-29",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/567/resolucao-n-10562023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "567",
+    "assinatura_pagina": "bea187a8019284013a1e4b40eb38ab9cb2a0d1a700aaebf33fde4fc1f1563b3b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5020/1056-2023.pdf",
+        "nome": "1056-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:54+00:00"
+  }
+}

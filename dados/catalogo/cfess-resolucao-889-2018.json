@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-889-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 889/2018",
+  "numero": "889",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado da eleição realizada em Assembleia Extraordinária, para preenchimento de cargos do mandato dos membros do CRESS da 8ª Região (DF)",
+  "data_publicacao": "2018-11-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/368/resolucao-n-8892018",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleicao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "368",
+    "assinatura_pagina": "7bbd2eba4bfc704cb7c57b0941a273ab0d32b90214642d07fc43233e62ad2859",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4462/ResolucaoCfess8892018.pdf",
+        "nome": "ResolucaoCfess8892018.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:42+00:00"
+  }
+}

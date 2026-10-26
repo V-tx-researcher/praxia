@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1071-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.071/2024",
+  "numero": "1071",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Autoriza, em caráter excepcional e para o exercício 2024, a extensão de prazos para o pagamento das anuidades de pessoa física e de pessoa jurídica e a isenção do pagamento da taxa da 2a via do Documento de Identidade Profissional - DIP e/ou do Certificado de Registro de Pessoa Jurídica no âmbito do CRESS 10ª Região, com jurisdição no estado do Rio Grande do Sul",
+  "data_publicacao": "2024-05-28",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/244/resolucao-10712024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:taxa"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:30+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "244",
+    "assinatura_pagina": "5999a4088c05f5b2fa293390ab040d493500b4ad5e57eab33739e4f3e8b2bd7b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4285/11071-2024.pdf",
+        "nome": "11071-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:30+00:00"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-1-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 1/2021",
+  "numero": "1",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Comissão Nacional Eleitoral para o Processo Eleitoral Extraordinário da Seccional de Campinas do Cress 9ª Região – SP",
+  "data_publicacao": "2021-01-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/163/portaria-cfess-n-12021",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:06+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "163",
+    "assinatura_pagina": "893817afc7454914e968d8ad2af657ea83ddc2db7258813948238b95f6d4846f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3302/portariaCfess121CNE.pdf",
+        "nome": "portariaCfess121CNE.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:06+00:00"
+  }
+}

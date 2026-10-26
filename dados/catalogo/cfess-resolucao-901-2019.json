@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-901-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 901/2019",
+  "numero": "901",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera dispositivos da Resolução Cfess nº 792, de 9 de fevereiro de 2017",
+  "data_publicacao": "2019-04-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/363/resolucao-n-9012019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "363",
+    "assinatura_pagina": "f86d8b340f6470cbe777d125b11aac3441b54d583924bd09f6a6f1e97e2a5015",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4454/Res901-compilada-2019.pdf",
+        "nome": "Res901-compilada-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:32+00:00"
+  }
+}

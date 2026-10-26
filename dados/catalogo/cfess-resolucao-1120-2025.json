@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1120-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.120/2025",
+  "numero": "1120",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta a propaganda e o debate nas eleições do Conjunto CFESS-CRESS.",
+  "data_publicacao": "2025-10-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/616/resolucao-n-11202025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:14+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "616",
+    "assinatura_pagina": "0cd72f8cd81f243358cfe29790beba20be76a562e4541f22dad7fc487218c678",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5389/1120-2025 (INFO DOU).pdf",
+        "nome": "1120-2025 (INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:14+00:00"
+  }
+}

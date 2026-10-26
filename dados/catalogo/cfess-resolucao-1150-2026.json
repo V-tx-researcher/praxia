@@ -1,0 +1,65 @@
+{
+  "id": "cfess-resolucao-1150-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.150/2026",
+  "numero": "1150",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Atualiza o Anexo I da Resolução CFESS nº 1.102/2025, para fixar a proporção para custeio, pelo CFESS e pelos CRESS, dos serviços previstos no Contrato CFESS nº C039/2025.",
+  "data_publicacao": "2026-06-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/700/resolucao-n-11502026",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:14:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "700",
+    "assinatura_pagina": "7d68d5072c76698f23aafc4d25e8938dc95a176486654bb26be2a5f5127db153",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5933/1150-2026.pdf",
+        "nome": "1150-2026.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5932/Tabela_Valores_CRESS_Ajustada.pdf",
+        "nome": "Tabela_Valores_CRESS_Ajustada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:14:52+00:00"
+  }
+}

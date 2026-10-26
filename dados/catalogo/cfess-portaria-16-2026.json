@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-16-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 16/2026",
+  "numero": "16",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a designação e nomeação da Comissão Especial, órgão de fiscalização contábil, financeira e administrativa do Conselho Federal de Serviço Social (CFESS).",
+  "data_publicacao": "2026-03-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/651/portaria-n-162026",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:nomeacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:27:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "651",
+    "assinatura_pagina": "4f554d345f7bd637dfe4121d5f1ee50beac5d8f15457537fb89a9387b58d1827",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5665/016-2026.pdf",
+        "nome": "016-2026.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:27:58+00:00"
+  }
+}

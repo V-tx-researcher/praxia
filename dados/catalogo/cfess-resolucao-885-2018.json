@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-885-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 885/2018",
+  "numero": "885",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS nº 696, de 15 de dezembro de 2014",
+  "data_publicacao": "2018-10-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/370/resolucao-n-8852018",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:46+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "370",
+    "assinatura_pagina": "2e1dbf54879720505fb061418596156daeacc8ab3c39dcd9282ce110089a7173",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4465/ResCFESS885-2018.pdf",
+        "nome": "ResCFESS885-2018.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:46+00:00"
+  }
+}

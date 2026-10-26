@@ -1,0 +1,162 @@
+{
+  "id": "cfess-resolucao-554-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 554/2009 (Invalidada definitivamente por decisão da 1ª Vara Federal da Seção Judiciária do Ceará)",
+  "numero": "554",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o não reconhecimento da inquirição das vítimas crianças e adolescentes no processo judicial, sob a Metodologia do Depoimento Sem Dano/DSD",
+  "data_publicacao": "2009-09-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-554-2009",
+        "texto": "RESOLUÇÃO CFESS Nº 554/2009",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-273-1993",
+        "texto": "Resolução CFESS nº 273/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/484/resolucao-n-5542009-invalidada-definitivamente-por-decisao-da-1-vara-federal-da-secao-judiciaria-do-ceara",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4590/resCfess554invalidada.pdf",
+      "papel": "principal",
+      "sha256": "38adfd1e28fabbafa4f7caad4f5b2a9c457c1823ea9b1dd156a42bcc9669e730",
+      "bytes": 175854,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:09+00:00",
+      "verificado_em": "2026-10-26T21:29:09+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-554-2009/38adfd1e28fabbaf.pdf",
+      "versao": "38adfd1e28fabbaf"
+    }
+  ],
+  "versao_atual": "38adfd1e28fabbaf",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 2,
+    "paginas_indexadas": [
+      1,
+      2
+    ],
+    "dispositivos": 8,
+    "unidades": 12,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 554/2009 (Invalidada definitivamente por decisão da 1ª Vara Federal da Seção Judiciária do Ceará)",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 2,
+    "paginas_sem_texto": 0,
+    "caracteres": 5032,
+    "media_caracteres_pagina": 2516.0,
+    "proporcao_letras": 0.751,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "portal_indica_situacao:Invalidada definitivamente por decisão da 1ª Vara Federal da Seção Judiciária do Ceará"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:28+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:09+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:16+00:00",
+      "por": "processador",
+      "motivo": "13 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:16+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "484",
+    "assinatura_pagina": "2609253ea488c7842dd395e47bdc94b8de5d04e1f7251b9b7316424775fbf6c7",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4590/resCfess554invalidada.pdf",
+        "nome": "resCfess554invalidada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:28+00:00"
+  }
+}

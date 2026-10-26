@@ -1,0 +1,65 @@
+{
+  "id": "cfess-legislacao-665",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução CFESS 1.146/2026",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa o resultado final das eleições do CFESS, de CRESS e Seccionais, especificados na presente norma, para Gestão 2026/2029, cujos mandatos, respectivos, se iniciam em 15 de maio de 2026 e se expiram em 15 de maio de 2029 e Retificação do Anexo da Resolução CFESS nº 1.146/2026.",
+  "data_publicacao": "2026-04-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/665/resolucao-cfess-11462026",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "665",
+    "assinatura_pagina": "1abb77e9df35a13fba4839d94cb372282babde21d6c389d1c77ba69e93d72373",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5944/Retificação Resolução Cfess 1146-2026 (Eleições 2026-2029).pdf",
+        "nome": "Retificação Resolução Cfess 1146-2026 (Eleições 2026-2... pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5767/1146-2026_INFO-DOU.pdf",
+        "nome": "1146-2026_INFO-DOU.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:00+00:00"
+  }
+}

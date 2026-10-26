@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-727-2015",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 727/2015",
+  "numero": "727",
+  "ano": 2015,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS 696, de 15 de dezembro de 2014, para prorrogar o início do prazo para recadastramento nacional de assistentes sociais, a substituição das atuais carteiras e cédulas de identidade profissional e pesquisa sobre o perfil do/a assistente social e realidade do exercício profissional no país",
+  "data_publicacao": "2015-11-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/420/resolucao-n-7272015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:28+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "420",
+    "assinatura_pagina": "0a34d1e9e937514ea8174d287d20ec0f2a5c137dad6d4e7134379206bff5a0bf",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4516/resolucao-727-2015.pdf",
+        "nome": "resolucao-727-2015.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:28+00:00"
+  }
+}

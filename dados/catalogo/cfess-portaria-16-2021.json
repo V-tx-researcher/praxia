@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-16-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 16/2021",
+  "numero": "16",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Concede ponto facultativo no dia 6 de setembro de 2021 aos(às) trabalhadores(as) Conselho Federal de Serviço Social",
+  "data_publicacao": "2021-09-02",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/152/portaria-cfess-n-162021",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "152",
+    "assinatura_pagina": "2fb6e2b2464e9a4f22e3907597c5dc3ae4d736fbcf509db64a90b75f52e382e6",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3292/portariacfess16-2021.pdf",
+        "nome": "portariacfess16-2021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:44+00:00"
+  }
+}

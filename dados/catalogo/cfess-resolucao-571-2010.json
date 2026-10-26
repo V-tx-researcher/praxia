@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-571-2010",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 571/2010",
+  "numero": "571",
+  "ano": 2010,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a convocação para apresentação de documentos, nomeação e posse de candidatos aprovados no Concurso Público CFESS nº 01/2009, devidamente homologado, conforme publicação no DOU de 12/11/09",
+  "data_publicacao": "2010-05-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/473/resolucao-n-5712010",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:concurso publico,nomeacao,posse,convocacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "473",
+    "assinatura_pagina": "1a2011941d1275f23474365d9ee8e5abaca08c734d4859e208bcd83648f5bbcd",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4579/resecfess571-2010.pdf",
+        "nome": "resecfess571-2010.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:12+00:00"
+  }
+}

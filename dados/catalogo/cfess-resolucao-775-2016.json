@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-775-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 775/2016",
+  "numero": "775",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece os patamares mínimo e máximo para fixação da anuidade para o exercício de 2017 de pessoa física e o patamar da anuidade de pessoa jurídica, no âmbito dos CRESS e determina outras providências",
+  "data_publicacao": "2016-10-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/409/resolucao-7752016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:anuidade"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:06+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "409",
+    "assinatura_pagina": "2cf6ba81f54fe51aa43dbeafb08838d3d458390742f7ebdf58e60d3b3f228029",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4504/ResCfess775-2016.pdf",
+        "nome": "ResCfess775-2016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:06+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1116-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.116/2025",
+  "numero": "1116",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS nº1.031/2023 para incluir a comprovação de vínculo de sócia/o de pessoa jurídica para fins de Anotação de Responsabilidade Técnica.",
+  "data_publicacao": "2025-09-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/611/resolucao-n-11162025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "611",
+    "assinatura_pagina": "944885ef3b2a70b9fd898f81983f54bd471b9570f4f7e963de1b6005a4f004b0",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5360/1116-2025 (INFO DOU).pdf",
+        "nome": "1116-2025 (INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:22+00:00"
+  }
+}

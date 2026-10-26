@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-938-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 938/2020",
+  "numero": "938",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera e complementa disposições da Resolução Cfess no. 660, de 13 de outubro de 2013, quanto: a interrupção da prescrição; prescrição intercorrente e contagem de prazos para a prática de atos processuais",
+  "data_publicacao": "2020-03-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/345/resolucao-n-9382020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "345",
+    "assinatura_pagina": "8439a754e4239ee84f9a63cf1a1d282ce4b38c1af28ede9504550d254cfa5ef9",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4428/ResolucaoCfess938-2020.pdf",
+        "nome": "ResolucaoCfess938-2020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:54+00:00"
+  }
+}

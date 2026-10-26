@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-931-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 931/2019",
+  "numero": "931",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a reordenamento dos cargos de seis Conselheiras desincompatibilizadas, no âmbito do Conselho Federal de Serviço Social – Cfess",
+  "data_publicacao": "2019-12-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/349/resolucao-n-9312019",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:20:04+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "349",
+    "assinatura_pagina": "5e82e86b8577fc9e19bcba37aec8ddddf6c0114431cc57ac0f3d9f6d4bf44344",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4434/ResCfess931-Retificada-2019.pdf",
+        "nome": "ResCfess931-Retificada-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:20:04+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "cfess-resolucao-1062-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.062/2024 e Retificação da Resolução 1.062/2024",
+  "numero": "1062",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento da gestão 2023-2026 no âmbito do Conselho Federal de Serviço Social – CFESS",
+  "data_publicacao": "2024-03-19",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/251/resolucao-10622024-e-retificacao-da-resolucao-10622024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:44+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "251",
+    "assinatura_pagina": "3f3d2976a6c3b9c8a4a936dd02ff701338184851fc8956403b73516ac286c01d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4297/1062-2024_INFO_DOU.pdf",
+        "nome": "Resolução 1.062/2024"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4298/Retificacao_ResolucaoCFess1_062-2024.pdf",
+        "nome": "Retificação da Resolução 1.062/2024"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:44+00:00"
+  }
+}

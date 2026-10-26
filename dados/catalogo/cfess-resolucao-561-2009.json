@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-561-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 561/2009 (expressamente revogada pela Resolução CFESS nº 723/2015)",
+  "numero": "561",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta a porcentagem da cota - parte que deve ser repassada ao pelos CRESS ao CFESS, revogando, integralmente, a Resolução nº 421/2001",
+  "data_publicacao": "2009-11-19",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/477/resolucao-n-5612009-expressamente-revogada-pela-resolucao-cfess-n-7232015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:revogada pela Resolução CFESS nº 723/2015"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:20+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "477",
+    "assinatura_pagina": "9c9d9bc05824a8ecf524a62f265c5743585551608caa04ac34a89dc54baad388",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4583/Resolucao_CFESS_561-09.pdf",
+        "nome": "Resolucao_CFESS_561-09.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:20+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-27-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 27/2018",
+  "numero": "27",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Instaura INQUÉRITO ADMINISTRATIVO CFESS nº 02/2018 de Apuração de irregularidades, constatadas mediante o procedimento de “Sindicância Administrativa nº 01/2018” (Portaria Cfess nº 23, de 10 de setembro de 2018), realizado pelo CFESS no âmbito do CRESS da 21ª. Região, com jurisdição no Estado de Mato Grosso do Sul e nomeia os membros que irão compor a respectiva Comissão, para apuração dos fatos e efetivação dos procedimentos cabíveis",
+  "data_publicacao": "2018-12-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/173/portaria-cfess-n-272018",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:26+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "173",
+    "assinatura_pagina": "52098cab9bbdcbec8258fd3405d9cfb4e33c7aee9a813aab86bac69f6a1292ee",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3312/2018-PortariaCfess27.pdf",
+        "nome": "2018-PortariaCfess27.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:26+00:00"
+  }
+}

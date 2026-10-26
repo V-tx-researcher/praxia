@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-33-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 33/2009",
+  "numero": "33",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Revoga a Portaria CFESS nº. 25 , sujeitando os alunos formados pela UNITINS do Curso de Bacharelado em Serviço Social, aos mesmos critérios e condições estabelecidos pela Resolução CFESS nº 560/2009",
+  "data_publicacao": "2009-12-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/189/portaria-cfess-n-332009",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:36:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "189",
+    "assinatura_pagina": "497c07f4df01e15fd1b9a435c4feee6cf12159a1f42e796e09d49eb206c25d97",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3327/033.pdf",
+        "nome": "033.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:36:12+00:00"
+  }
+}

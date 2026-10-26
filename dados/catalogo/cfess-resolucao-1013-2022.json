@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1013-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.013/2022",
+  "numero": "1013",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Complementa a Resolução CFESS nº. 660, de 13 de outubro de 2013 que regulamenta o Código Processual de Ética, quanto ao falecimento do/a denunciado/a no curso do Processo Disciplinar Ético",
+  "data_publicacao": "2022-12-08",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/290/resolucao-10132022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:04+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "290",
+    "assinatura_pagina": "431944151e63f9b5ff86e13aea24e95d625ef87e76649c7edb6c53d363d0745f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4348/rescfess1013-2022.pdf",
+        "nome": "rescfess1013-2022.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:04+00:00"
+  }
+}

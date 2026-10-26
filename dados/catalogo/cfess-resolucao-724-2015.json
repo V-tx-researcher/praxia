@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-724-2015",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 724/2015",
+  "numero": "724",
+  "ano": 2015,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece os patamares mínimo e máximo para fixação da anuidade para o exercício de 2016 de pessoa física e o patamar da anuidade de pessoa jurídica, no âmbito dos CRESS, e determina outras providências",
+  "data_publicacao": "2015-10-02",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/422/resolucao-n-7242015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:anuidade"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "422",
+    "assinatura_pagina": "26b3819b9ed4b21216efeb21ccda90c8e3e39407c696413d0d1eb8c03a6afc5b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4518/ResolucaoCFESS724-2015.pdf",
+        "nome": "ResolucaoCFESS724-2015.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:32+00:00"
+  }
+}

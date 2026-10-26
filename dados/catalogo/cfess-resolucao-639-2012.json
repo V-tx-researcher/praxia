@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-639-2012",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 639/2012",
+  "numero": "639",
+  "ano": 2012,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Complementa a Resolução nº 564/2009, prorrogando por prazo indefinido o Fundo Nacional de Apoio aos CRESS, Seccionais de base estadual e CFESS, criado pela Resolução CFESS N° 476, de 16 de novembro de 2005 e incluindo um novo critério, para acesso ao Fundo",
+  "data_publicacao": "2012-10-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/456/resolucao-n-6392012",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:38+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "456",
+    "assinatura_pagina": "89c52eb3faaa13a1738cbb7874d428e46cae13e606d67f303cbb678518a690ab",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4557/639-2012.pdf",
+        "nome": "639-2012.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:38+00:00"
+  }
+}

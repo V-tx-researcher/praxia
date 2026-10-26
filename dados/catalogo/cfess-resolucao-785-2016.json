@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-785-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 785/2016",
+  "numero": "785",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a inclusão e uso do nome social da assistente social travesti e da/do assistente social transexual no Documento de Identidade Profissional",
+  "data_publicacao": "2016-12-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/400/resolucao-7852016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:50+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "400",
+    "assinatura_pagina": "e203a82e11091474c06635b01960de0b99709fbbe32546a78c2253b7bd8e8eb3",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4495/ResCfess7852016.pdf",
+        "nome": "ResCfess7852016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:50+00:00"
+  }
+}

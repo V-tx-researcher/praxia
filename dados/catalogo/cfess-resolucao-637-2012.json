@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-637-2012",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 637/2012 (expressamente revogada pela Resolução CFESS nº 723/2015)",
+  "numero": "637",
+  "ano": 2012,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o artigo 2º da Resolução nº 561, de 19 de novembro de 2009, que regulamenta a porcentagem da cota – parte que deve ser repassada pelos CRESS ao CFESS, revogando, integralmente, a Resolução nº 421/2001",
+  "data_publicacao": "2012-09-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/458/resolucao-n-6372012-expressamente-revogada-pela-resolucao-cfess-n-7232015",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:revogada pela Resolução CFESS nº 723/2015"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "458",
+    "assinatura_pagina": "a3d678d46db9923efd6fdb8a72c15f17b151575d266e7987204ae4799defa94c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4560/637-2012.pdf",
+        "nome": "637-2012.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:42+00:00"
+  }
+}

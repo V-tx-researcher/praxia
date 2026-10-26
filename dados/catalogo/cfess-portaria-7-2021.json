@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-7-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 7/2021",
+  "numero": "7",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Instaura procedimento administrativo de SINDICÂNCIA no âmbito do CRESS da 21a. Região, com jurisdição no Estado de Mato Grosso do Sul e nomeia as conselheiras do CFESS, que irão compor a respectiva Comissão, para efetivação dos procedimentos cabíveis",
+  "data_publicacao": "2021-05-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/159/portaria-cfess-n-72021",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "159",
+    "assinatura_pagina": "fc979420f558128348ff3e7a19dc5ae836d836967eba79dee2d86c8d0500879d",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3298/Portaria72021.pdf",
+        "nome": "Portaria72021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:58+00:00"
+  }
+}

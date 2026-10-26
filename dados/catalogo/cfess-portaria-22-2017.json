@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-22-2017",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 22/2017",
+  "numero": "22",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Comissão de Permanente de Avaliação de Documentos, no âmbito do Conselho Federal de Serviço Social",
+  "data_publicacao": "2017-12-29",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/180/portaria-cfess-n-222017",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "180",
+    "assinatura_pagina": "1d4a8804b082a2d7f6b572248e86a12a718645cd16a00a8e1cd5b820d842b423",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3318/PORTARIA222017.pdf",
+        "nome": "PORTARIA222017.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:42+00:00"
+  }
+}

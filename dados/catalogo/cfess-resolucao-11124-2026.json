@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-11124-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.1124/2026",
+  "numero": "11124",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Homologa a recomposição da Seccional de São José dos Campos do CRESS/SP.",
+  "data_publicacao": "2026-01-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/635/resolucao-n-111242026",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:08+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "635",
+    "assinatura_pagina": "ddd09079338698a8fca4bb1f590b45c0578defede2d65368e65ee32960a3755c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5561/1124-2026 (INFO DOU).pdf",
+        "nome": "1124-2026 (INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:08+00:00"
+  }
+}

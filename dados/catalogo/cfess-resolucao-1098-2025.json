@@ -1,0 +1,188 @@
+{
+  "id": "cfess-resolucao-1098-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n° 1.098/2025",
+  "numero": "1098",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre os procedimentos para salvaguarda de documentos técnicos e de documentos técnicos sigilosos do Serviço Social.",
+  "data_publicacao": "2025-04-08",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei nº 8.662, de 07 de junho de 1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12527-2011",
+        "texto": "Lei nº 12.527, de 18 de novembro de 2011",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12965-2014",
+        "texto": "Lei nº 12.965, de 23 de abril de 2014",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13709-2018",
+        "texto": "Lei nº 13.709, de 14 de agosto de 2018",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14063-2020",
+        "texto": "Lei nº 14.063, de 23 de setembro de 2020",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          6
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/583/resolucao-n-10982025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5138/1098-2025.pdf",
+      "papel": "principal",
+      "sha256": "1abbda962e3620426e3aa4ab269d96d0f93ae2b6b25e7a459d3afccc41e25884",
+      "bytes": 278884,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:02+00:00",
+      "verificado_em": "2026-10-26T21:29:02+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-1098-2025/1abbda962e362042.pdf",
+      "versao": "1abbda962e362042"
+    }
+  ],
+  "versao_atual": "1abbda962e362042",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 7,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "dispositivos": 29,
+    "unidades": 32,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução n° 1.098/2025",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 7,
+    "paginas_sem_texto": 0,
+    "caracteres": 15986,
+    "media_caracteres_pagina": 2283.7,
+    "proporcao_letras": 0.793,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:52+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:02+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:13+00:00",
+      "por": "processador",
+      "motivo": "33 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:13+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "583",
+    "assinatura_pagina": "3e6ec0c82ba18f0237606f25d40a83b60ad30f7257143414e70950d66cdd5179",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5138/1098-2025.pdf",
+        "nome": "1098-2025.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5139/MODELOS - Resolução CFESS nº 1.098-2025.pdf",
+        "nome": "MODELOS - Resolução CFESS nº 1.098-2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:52+00:00"
+  }
+}

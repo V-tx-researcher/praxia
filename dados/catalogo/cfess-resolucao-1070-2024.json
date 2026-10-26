@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1070-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.070/2024 - Revogada pela Resolução CFESS nº 1.082/2024",
+  "numero": "1070",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a suspensão dos prazos processuais e da prescrição quinquenal e intercorrente no âmbito do Conselho Regional de Serviço Social da 10ª Região, com jurisdição no Rio Grande do Sul",
+  "data_publicacao": "2024-05-28",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/245/resolucao-10702024-revogada-pela-resolucao-cfess-n-10822024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:Revogada pela Resolução CFESS nº 1"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "245",
+    "assinatura_pagina": "e6844dbc2fe88aea2c0a6b23f52063eae0b90f1efac8a08951539add90e525b4",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4287/11070-2024.pdf",
+        "nome": "11070-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:32+00:00"
+  }
+}

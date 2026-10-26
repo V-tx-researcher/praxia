@@ -42,7 +42,9 @@ def slug(s: str, limite: int = 40) -> str:
 
 # --- padrões ---------------------------------------------------------------
 
-RE_ARTIGO = re.compile(r"^Art(?:igo)?\.?\s*(\d+)\s*(?:[º°o]|\.)?\s*(?:-\s*([A-Z])\b)?\s*\.?\s*[-–—]?\s*")
+# Sufixo de artigo acrescido ("Art. 5º-A") exige hífen colado à letra; "Art. 1º - O serviço"
+# é artigo 1 seguido de travessão, não "Art. 1º-O".
+RE_ARTIGO = re.compile(r"^Art(?:igo)?\.?\s*(\d+)\s*(?:[º°o]|\.)?(?:-([A-Z])(?=[\s.:]))?\s*\.?\s*[-–—]?\s*")
 # "Parágrafo único" só com inicial maiúscula e sem continuar como remissão ("Parágrafo único do artigo 18").
 RE_PARAGRAFO = re.compile(r"^(?:§\s*(\d+)\s*[º°o]?\s*\.?\s*[-–—]?|PAR[ÁA]GRAFO\s+[ÚU]NICO|Par[áa]grafo\s+[úu]nico(?!\s+d[oa]s?\s))\s*\.?\s*[-–—:]?\s*")
 RE_INCISO = re.compile(r"^([IVXLC]{1,6})\s*[-–—.)]\s+")
@@ -262,15 +264,14 @@ class Segmentador:
                     i += 1
                     continue  # páginas fora das partes declaradas não são indexadas
             else:
-                tipo_parte = next((tp for rx, tp in PADROES_PARTE if rx.match(t)), None)
-                reinicio = (RE_ARTIGO.match(t) and int(RE_ARTIGO.match(t).group(1)) == 1
-                            and ultimo_artigo > 1)
-                if tipo_parte or reinicio:
-                    rotulo = t if tipo_parte else f"Texto normativo (p. {l.pagina})"
-                    if tipo_parte and i + 1 < len(linhas) and len(t) < 40 and tipo_parte == "normativa" \
-                            and not t.lower().startswith("princ"):
-                        rotulo = f"{t} {linhas[i + 1].texto}" if len(linhas[i + 1].texto) < 40 else t
-                    nova_parte(rotulo[:120], tipo_parte or "normativa", l.pagina)
+                # Sem mapa manual, o documento é tratado como texto único. Só o
+                # recomeço da numeração de artigos (anexo, regulamento anexo, texto
+                # republicado) abre nova parte — e o processamento gera alerta para
+                # que a conferência humana declare o mapa de partes correto.
+                m_rein = RE_ARTIGO.match(t)
+                if m_rein and int(m_rein.group(1)) == 1 and not m_rein.group(2) and ultimo_artigo > 1:
+                    nova_parte(f"Anexo ou texto subsequente (a partir da p. {l.pagina})", "normativa",
+                               l.pagina, f"anexo-p{l.pagina}")
 
             # 2. Títulos, capítulos e seções (e a linha de denominação seguinte)
             m_tit = RE_TITULO.match(t) or RE_CAPITULO.match(t) or RE_SECAO.match(t)

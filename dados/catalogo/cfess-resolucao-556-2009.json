@@ -1,0 +1,162 @@
+{
+  "id": "cfess-resolucao-556-2009",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 556/2009",
+  "numero": "556",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Procedimentos para efeito da Lacração do Material Técnico e Material Técnico-Sigiloso do Serviço Social *Revogada integralmente pela a Resolução CFESS nº 1.098, de 3 de abril de 2025.",
+  "data_publicacao": "2009-09-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-556-2009",
+        "texto": "RESOLUÇÃO CFESS Nº 556/2009",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-382-1999",
+        "texto": "Resolução CFESS nº 382/99",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-513-2007",
+        "texto": "Resolução CFESS nº 513/2007",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/482/resolucao-n-5562009",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4588/Resolucao_CFESS_556-2009.pdf",
+      "papel": "principal",
+      "sha256": "4b245e2ec9538902f6d163e9a7d9a64a80cc5d798f2188cab02e8768aeec5458",
+      "bytes": 27164,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:03+00:00",
+      "verificado_em": "2026-10-26T21:29:03+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-556-2009/4b245e2ec9538902.pdf",
+      "versao": "4b245e2ec9538902"
+    }
+  ],
+  "versao_atual": "4b245e2ec9538902",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 12,
+    "unidades": 15,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 556/2009",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 6272,
+    "media_caracteres_pagina": 2090.7,
+    "proporcao_letras": 0.805,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "portal_indica_situacao:Revogada integralmente pela a Resolução CFESS nº 1"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:03+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:13+00:00",
+      "por": "processador",
+      "motivo": "17 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:13+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "482",
+    "assinatura_pagina": "4be8597f1a45c68cf5075945ce5965ee08e0f1da424fff2c06007bf9a3389ca9",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4588/Resolucao_CFESS_556-2009.pdf",
+        "nome": "Resolucao_CFESS_556-2009.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:32+00:00"
+  }
+}

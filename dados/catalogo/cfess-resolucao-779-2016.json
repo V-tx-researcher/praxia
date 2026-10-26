@@ -1,0 +1,58 @@
+{
+  "id": "cfess-resolucao-779-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 779/2016",
+  "numero": "779",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "(Não há Arquivos) Altera a Resolução CFESS nº 696, de 15 de dezembro de 2014, para alterar o início do prazo para recadastramento nacional dos/as assistentes sociais, a substituição das atuais carteiras e cédulas de identidade profissional e pesquisa sobre o perfil do/da assistente social e realidade do exercício profissional no país",
+  "data_publicacao": "2016-11-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/405/resolucao-7792016",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "sem_arquivo_vinculado"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:22:00+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "405",
+    "assinatura_pagina": "751f13698e4690ec52b2f2fe43bf770b53b7c358ed573fb01126017fb8e7cbcc",
+    "anexos": [],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:22:00+00:00"
+  }
+}

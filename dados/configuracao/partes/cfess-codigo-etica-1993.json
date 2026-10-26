@@ -1,0 +1,66 @@
+{
+ "documento_id": "cfess-codigo-etica-1993",
+ "sha256": "86ff45dd39adda156411d08dca8c377f1faea581928ce9324f8ad2dff21b6832",
+ "autor": "mapa inicial proposto pelo desenvolvimento (Claude) a partir da leitura do PDF; requer confirmação na conferência humana",
+ "registrado_em": "2026-10-26T21:03:24+00:00",
+ "partes": [
+  {
+   "rotulo": "Apresentação à edição de 2011",
+   "tipo": "apresentacao",
+   "pagina_inicio": 14,
+   "pagina_fim": 15,
+   "slug": "apresentacao-2011"
+  },
+  {
+   "rotulo": "Apresentação à edição de 1996",
+   "tipo": "apresentacao",
+   "pagina_inicio": 16,
+   "pagina_fim": 16,
+   "slug": "apresentacao-1996"
+  },
+  {
+   "rotulo": "Resolução CFESS nº 273/1993",
+   "tipo": "normativa",
+   "pagina_inicio": 18,
+   "pagina_fim": 19,
+   "slug": "res-273-1993"
+  },
+  {
+   "rotulo": "Introdução ao Código de Ética",
+   "tipo": "apresentacao",
+   "pagina_inicio": 20,
+   "pagina_fim": 23,
+   "slug": "introducao"
+  },
+  {
+   "rotulo": "Código de Ética — Princípios Fundamentais",
+   "tipo": "normativa",
+   "pagina_inicio": 24,
+   "pagina_fim": 25,
+   "slug": "cep-principios"
+  },
+  {
+   "rotulo": "Código de Ética do/a Assistente Social",
+   "tipo": "normativa",
+   "pagina_inicio": 26,
+   "pagina_fim": 43,
+   "slug": "cep"
+  },
+  {
+   "rotulo": "Lei nº 8.662/1993",
+   "tipo": "normativa",
+   "pagina_inicio": 44,
+   "pagina_fim": 56,
+   "slug": "lei-8662-1993",
+   "documento_relacionado": "lei-8662-1993"
+  },
+  {
+   "rotulo": "Lei nº 12.317/2010",
+   "tipo": "normativa",
+   "pagina_inicio": 58,
+   "pagina_fim": 59,
+   "slug": "lei-12317-2010",
+   "documento_relacionado": "lei-12317-2010"
+  }
+ ]
+}

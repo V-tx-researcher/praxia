@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1122-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.122/2025",
+  "numero": "1122",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Aprovação das Propostas Orçamentárias do Conselho Federal de Serviço Social e dos Conselhos Regionais de Serviço Social.",
+  "data_publicacao": "2025-12-26",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/630/resolucao-n-11222025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "630",
+    "assinatura_pagina": "2e3d061a20b28c89d0497f88800df63e60864295baf4d172dcc8db4a9ffb8a04",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5542/1122-2025.pdf",
+        "nome": "1122-2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:12+00:00"
+  }
+}

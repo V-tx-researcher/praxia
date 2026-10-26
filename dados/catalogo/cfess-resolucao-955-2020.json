@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-955-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 955/2020 - Revogada integralmente pela Resolução CFESS nº 988, de 21 de fevereiro de 2022",
+  "numero": "955",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a realização de sessões de julgamento de processos e recursos disciplinares e/ou éticos, com o uso de videoconferência, em caráter excepcional, no âmbito do Conselho Federal de Serviço Social (CFESS) e dos Conselhos Regionais de Serviço Social (CRESS)",
+  "data_publicacao": "2020-08-31",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/330/resolucao-n-9552020-revogada-integralmente-pela-resolucao-cfess-n-988-de-21-de-fevereiro-de-2022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:Revogada integralmente pela Resolução CFESS nº 988, de 21 de fevereiro de 2022 Dispõe sobre a realização de sessões de j"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:24+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "330",
+    "assinatura_pagina": "3189a768d87a25cf795b56cf932a884a17b5fa1b0a6aec1b0d79414b00cf65e8",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4404/rescfess9552020.pdf",
+        "nome": "rescfess9552020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:24+00:00"
+  }
+}

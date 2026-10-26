@@ -93,7 +93,7 @@ def processar(doc_id: str, log=print) -> dict:
         extrator = "beautifulsoup4 (HTML do Planalto; trechos riscados removidos)"
     qualidade = extracao.avaliar_qualidade(paginas)
     reg["qualidade_extracao"] = qualidade
-    alertas = [a for a in reg["alertas"] if not a.startswith(("possivel_instrucao_embutida", "mapa_de_partes"))]
+    alertas = [a for a in reg["alertas"] if not a.startswith(("possivel_instrucao_embutida", "mapa_de_partes", "partes_detectadas", "anexo_ou_compilacao"))]
     if qualidade["classificacao"] in {"requer_ocr", "falhou"}:
         if reg["estado_fluxo"] != "erro_extracao":
             transitar(reg, "erro_extracao", "processador", qualidade.get("motivo", "extração insuficiente"))
@@ -106,6 +106,16 @@ def processar(doc_id: str, log=print) -> dict:
     if alerta_partes:
         alertas.append(alerta_partes)
     seg = estrutura.segmentar(paginas, doc_id, partes_manuais)
+    if not partes_manuais:
+        # A parte principal recebe o título oficial do documento.
+        for p in seg["partes"]:
+            if p["rotulo"] == "Texto":
+                p["rotulo"] = reg["titulo_oficial"]
+        for u in seg["unidades"]:
+            if u["parte"] == "Texto":
+                u["parte"] = reg["titulo_oficial"]
+                if u["tipo"] in {"trecho", "apresentacao"}:
+                    u["rotulo"] = u["rotulo"].replace("Texto — ", f"{reg['titulo_oficial']} — ", 1)
     texto_doc = {
         "documento_id": doc_id,
         "sha256": principal["sha256"],
@@ -131,7 +141,7 @@ def processar(doc_id: str, log=print) -> dict:
         alertas.append(f"possivel_instrucao_embutida:{len(injecao)}")
         reg["injecao_detectada"] = injecao[:20]
     if not partes_manuais and len(seg["partes"]) > 1:
-        alertas.append("partes_detectadas_automaticamente")
+        alertas.append("anexo_ou_compilacao_detectado")
     reg["alertas"] = sorted(set(alertas))
     reg["alteracoes"]["mencoes_detectadas"] = detectar_mencoes(paginas)
     reg["versao_atual"] = principal["versao"]

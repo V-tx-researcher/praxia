@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1024-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1024/2023",
+  "numero": "1024",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento dos cargos de três Conselheiras(o) desincompatibilizadas(o), no âmbito do Conselho Federal de Serviço Social – Cfess",
+  "data_publicacao": "2023-03-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/283/resolucao-10242023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:50+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "283",
+    "assinatura_pagina": "c646689e1972cbb7bb5218a5934519d89b52c002034efc22d723b168514ac5a3",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4341/resolucaocfess10242023.pdf",
+        "nome": "resolucaocfess10242023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:50+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1038-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1038/2023",
+  "numero": "1038",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento da gestão 2023-2026 no âmbito do Conselho Federal de Serviço Social – CFESS",
+  "data_publicacao": "2023-07-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/269/resolucao-10382023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:17:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "269",
+    "assinatura_pagina": "e6b0302fd1d051b30f06c181855fd283daf8564183fbd8a732c6ec939be139d0",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4327/1038.pdf",
+        "nome": "1038.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:17:22+00:00"
+  }
+}

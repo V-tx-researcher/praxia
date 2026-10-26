@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-02-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 02/2020",
+  "numero": "02",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Comissão de Acessibilidade em Libras do CFESS",
+  "data_publicacao": "2020-01-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/166/portaria-cfess-n-022020",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "166",
+    "assinatura_pagina": "b0cd81cec9c9d4f786b94b78aa031605d3432e6eb4df4bdee877c57f302cc184",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3305/PortariaCfess02-2020.pdf",
+        "nome": "PortariaCfess02-2020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:12+00:00"
+  }
+}

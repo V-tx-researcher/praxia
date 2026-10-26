@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1112-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.112/2025",
+  "numero": "1112",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Revoga a Resolução CFESS nº 343, de 04 de maio de 1997, que institui procedimentos concessão de mala direta.",
+  "data_publicacao": "2025-08-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/602/resolucao-n-11122025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:30+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "602",
+    "assinatura_pagina": "bb031941e9d55aea50c4ce77fcdd045554e559aeed8d239ec2fc6182f4681ee9",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5323/1112-2025 (INFO DOU).pdf",
+        "nome": "1112-2025 (INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:30+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-799-2017",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 799/2017",
+  "numero": "799",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Sobresta a vigência do inciso III do artigo 4º da Resolução CFESS nº 775, de 21 de outubro de 2016, e prorroga a vigência do inciso III do artigo 4º da Resolução CFESS nº 724, de 2 de outubro de 2015, ambos até 30 de junho de 2017",
+  "data_publicacao": "2017-03-31",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/393/resolucao-7992017",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "393",
+    "assinatura_pagina": "12ed2edfdd10e92b7a6056f924625ad7166e58472e957cec2faeb2bee7931d9c",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4488/Res-799-2017.pdf",
+        "nome": "Res-799-2017.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:32+00:00"
+  }
+}

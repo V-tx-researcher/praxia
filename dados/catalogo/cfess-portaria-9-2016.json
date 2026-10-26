@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-9-2016",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 9/2016",
+  "numero": "9",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Determina que o cargo de presidente do Conselho Federal de Serviço Social seja exercido, interinamente, pela conselheira primeira-secretária, Tânia Maria Ramos de Godoi Diniz, entre 8 e 14 de agosto de 2016",
+  "data_publicacao": "2016-08-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/187/portaria-cfess-n-92016",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "187",
+    "assinatura_pagina": "cd137de83330b4b5bd98f71fe62a0ea4855111dc48cb6fe60449f7731b957e55",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3325/portaria92016.pdf",
+        "nome": "portaria92016.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:54+00:00"
+  }
+}

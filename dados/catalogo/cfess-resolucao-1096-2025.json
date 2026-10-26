@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-1096-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n° 1.096/2025",
+  "numero": "1096",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o prazo para pagamento da anuidade do exercício de 2025, somente no âmbito do CRESS com jurisdição no Estado do Tocantins.",
+  "data_publicacao": "2025-03-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/579/resolucao-n-10962025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:anuidade"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "579",
+    "assinatura_pagina": "ae107538699fe26141ba123dbdbed702f9c00a23794e0ff8ed8dbed31076a4b3",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5102/1096-2025 (INFO DOU).pdf",
+        "nome": "1096-2025 (INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:54+00:00"
+  }
+}

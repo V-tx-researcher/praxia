@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-828-2017",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 828/2017",
+  "numero": "828",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera dispositivos na Resolução CFESS 512, de 29 de setembro de 2007",
+  "data_publicacao": "2017-09-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/388/resolucao-n-8282017",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:21:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "388",
+    "assinatura_pagina": "ce00a0f77b7070923f3ef7cc410e12147a0018e3c1c617d9422270397741cd67",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4483/resol828-2017.pdf",
+        "nome": "resol828-2017.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:21:22+00:00"
+  }
+}

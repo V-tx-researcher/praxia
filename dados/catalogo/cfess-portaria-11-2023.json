@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-11-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 11/2023",
+  "numero": "11",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Concede progressão salarial aos trabalhadores do Conselho Federal de Serviço Social mediante processo de Avaliação de Desempenho",
+  "data_publicacao": "2023-04-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/105/portaria-cfess-n-112023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:12+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "105",
+    "assinatura_pagina": "63b7701843d06122510eaf7b05a1a654c3d70f52038f43bfa7219dc412acaef8",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3245/portaria11-2023.pdf",
+        "nome": "portaria11-2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:12+00:00"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-4-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 4/2022",
+  "numero": "4",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Reenquadra o trabalhador Andrey Moab Bacry de Oliveira no Plano de Cargos, Carreiras e Remuneração (PCCR) dos Funcionários do Conselho Federal de Serviço Social",
+  "data_publicacao": "2022-02-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/142/portaria-cfess-n-42022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:plano de cargos,remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "142",
+    "assinatura_pagina": "0fb2b993c9f274dfb7602e4a7a64f6e79def3a810923e914b8a3b4f3f7b4de49",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3282/portaria4-2022.pdf",
+        "nome": "portaria4-2022.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:22+00:00"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-05-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 05/2020",
+  "numero": "05",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Comissão Nacional Eleitoral para o Processo Eleitoral Extraordinário, em Segunda Convocação, das Seccionais que especifica",
+  "data_publicacao": "2020-04-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/165/portaria-cfess-n-052020",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:convocacao,eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:10+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "165",
+    "assinatura_pagina": "124391a95c0511370c9d33c0c4705c0b21270d02d786b1172c90acbb7a1214c9",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3304/PortariaCfess52020.pdf",
+        "nome": "PortariaCfess52020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:10+00:00"
+  }
+}

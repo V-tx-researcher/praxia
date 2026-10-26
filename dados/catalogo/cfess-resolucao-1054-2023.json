@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1054-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1054/2023",
+  "numero": "1054",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece normas vedando condutas de DISCRIMINAÇÃO E/OU PRECONCEITO ÉTNICO-RACIAL no exercício profissional do/a assistente social, referenciadas nos princípios II, VI, XI inscritos na Resolução CFESS nº 273 de 13 de março de 1993, que institui o Código de Ética Profissional do/a assistente social",
+  "data_publicacao": "2023-11-14",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/257/resolucao-10542023",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "257",
+    "assinatura_pagina": "e49f254849376123b3bcf4c7c0defd3d11ca426ab813cb9acf5d7532f845fba3",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4314/1054-2023-1.pdf",
+        "nome": "1054-2023-1.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:58+00:00"
+  }
+}

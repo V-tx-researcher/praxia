@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1073-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.073/2024",
+  "numero": "1073",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui procedimentos para a realização de DESAGRAVO PÚBLICO, e regulamenta a alínea “e” do artigo 2º do Código de Ética do Assistente Social /Altera e revoga a Resolução CFESS nº 443, 23 de maio de 2003",
+  "data_publicacao": "2024-06-10",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/242/resolucao-10732024",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:16:26+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "242",
+    "assinatura_pagina": "b30ee4768df8b5eaa526af549fb559c7076324db120140debb8f9de519dc1535",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4283/1073-2024.pdf",
+        "nome": "1073-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:16:26+00:00"
+  }
+}

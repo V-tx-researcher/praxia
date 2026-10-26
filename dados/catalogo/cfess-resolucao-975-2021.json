@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-975-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 975/2021",
+  "numero": "975",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre medidas regimentais excepcionais em decorrência da pandemia do Novo Coronavírus – COVID-19 no âmbito do Conjunto CFESS-CRESS",
+  "data_publicacao": "2022-06-02",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/319/resolucao-9752021",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:26+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "319",
+    "assinatura_pagina": "87ad613fd77f40750e9cc4125eaf013eae24e7727a1872fca910954467586b03",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4387/Res9752021.pdf",
+        "nome": "Res9752021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:26+00:00"
+  }
+}

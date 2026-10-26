@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-23-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 23/2021",
+  "numero": "23",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Instaura SINDICÂNCIA ADMINISTRATIVA nº 03/2021 para elucidação de supostos fatos irregulares no âmbito do Conselho Federal de Serviço Social (CFESS), com o objetivo da verificação de indícios de autoria, e nomeia os membros que irão compor a Comissão respectiva para apuração dos fatos e efetivação dos procedimentos cabíveis",
+  "data_publicacao": "2021-12-10",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/149/portaria-cfess-n-232021",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:34:38+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "149",
+    "assinatura_pagina": "c54b79f6c65bed1aeb678b18abc8502543c42d7c48d1f57d09b85733501b1306",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3289/Portariacfess23-2021.pdf",
+        "nome": "Portariacfess23-2021.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:34:38+00:00"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-667-2014",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 667/2014",
+  "numero": "667",
+  "ano": 2014,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera a Resolução CFESS 510/2007, criando o cargo de coordenador financeiro no âmbito do Plano de Cargos, Carreiras e Remuneração dos Funcionários do Conselho Federal de Serviço Social",
+  "data_publicacao": "2014-02-10",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/441/resolucao-n-6672014",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo,plano de cargos,remuneracao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:10+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "441",
+    "assinatura_pagina": "ac46946a33320e770f2ba8eb19c83b51454d1fc28521399013273ee4d6cbf795",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4538/Res667-2014.pdf",
+        "nome": "Res667-2014.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:10+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "cfess-resolucao-657-2013",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n.º 657/2013",
+  "numero": "657",
+  "ano": 2013,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui o Código Processual Disciplinar, no âmbito do Conselho Federal e Conselhos Regionais de Serviço Social. Em anexo, também consta a Errata ao parágrafo único do art. 30.",
+  "data_publicacao": "2013-09-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/448/resolucao-n-6572013",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:23:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "448",
+    "assinatura_pagina": "c9d73aa087424aface9280516ac5dd6caac9cab4095b4067404140483e07be29",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5844/RetificacaoResolucao657-2013.pdf",
+        "nome": "RetificacaoResolucao657-2013.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4546/657-2013.pdf",
+        "nome": "657-2013.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:23:22+00:00"
+  }
+}

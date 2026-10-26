@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-35-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 35/2022",
+  "numero": "35",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Prorroga, por 90 dias, o prazo previsto no artigo 9º da PORTARIA CFESS nº 19, de 22 de novembro de 2021",
+  "data_publicacao": "2022-12-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/117/portaria-cfess-n-352022",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "117",
+    "assinatura_pagina": "fcb49bcd54ee00b7c00ec2d6b148e5a49587dc122eb5b0ada4761b496cb68620",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3257/portaria35-22.pdf",
+        "nome": "portaria35-22.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:36+00:00"
+  }
+}

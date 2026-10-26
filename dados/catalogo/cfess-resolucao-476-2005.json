@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-476-2005",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 476/2005 (expressamente revogada pela Resolução CFESS nº 1008/2022)",
+  "numero": "476",
+  "ano": 2005,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece procedimentos e normas de regulamentação para utilização do Fundo Nacional de Apoio aos CRESS, SECCIONAIS e CFESS",
+  "data_publicacao": "2005-11-16",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/520/resolucao-n-4762005-expressamente-revogada-pela-resolucao-cfess-n-10082022",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:revogada pela Resolução CFESS nº 1008/2022"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:46+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "520",
+    "assinatura_pagina": "d2093aaf2bc2f34459c5192ff2c4c1766d5c417002b9c54161e575e443bc6833",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4629/resolucao_476_05.pdf",
+        "nome": "resolucao_476_05.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:46+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-1091-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n° 1.091/2025",
+  "numero": "1091",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre o reordenamento da gestão 2023-2026 no âmbito do Conselho Federal de Serviço Social – CFESS.",
+  "data_publicacao": "2025-04-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/586/resolucao-n-10912025",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:15:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "586",
+    "assinatura_pagina": "5800a6a73d3c1f000ce038eff86fd0de5820838822b62033cadc67a9e1620165",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5149/1091-2025 (INFO DOU).pdf",
+        "nome": "1091-2025 (INFO DOU).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:15:48+00:00"
+  }
+}

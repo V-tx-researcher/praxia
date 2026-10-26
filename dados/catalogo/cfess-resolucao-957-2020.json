@@ -1,0 +1,63 @@
+{
+  "id": "cfess-resolucao-957-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 957/2020",
+  "numero": "957",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Altera o artigo 12-A da Resolução Cfess 510/2007, que trata da gratificação para os integrantes da Comissão Permanente de Licitação",
+  "data_publicacao": "2020-10-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/328/resolucao-n-9572020",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:licitacao"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:19:20+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "328",
+    "assinatura_pagina": "95768a6058c6d9611f3a21557691e84e2d622c81bc94d87e4a7eb8cb84d974f8",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4401/ResolucaoCfess957-2020.pdf",
+        "nome": "ResolucaoCfess957-2020.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:19:20+00:00"
+  }
+}

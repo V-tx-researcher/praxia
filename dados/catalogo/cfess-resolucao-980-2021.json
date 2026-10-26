@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-980-2021",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 980/2021",
+  "numero": "980",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Mantém os valores do anexo I da Resolução Cfess n o 829/2017 praticados nos exercícios 2020 e 2021 para o exercício 2022",
+  "data_publicacao": "2021-09-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/314/resolucao-9802021",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:18:54+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "314",
+    "assinatura_pagina": "1e71797564c4bbc5f1b4c05c2da690bb20c6ee6d0a36d13abbaaf1d5eb939095",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4379/ResCFESS980-21.pdf",
+        "nome": "ResCFESS980-21.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:18:54+00:00"
+  }
+}

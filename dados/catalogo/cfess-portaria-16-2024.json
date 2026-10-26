@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-16-2024",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 16/2024",
+  "numero": "16",
+  "ano": 2024,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Designa funcionários como fiscal e subfiscal do contrato C021/2020 com a empresa EVENTOS GOV, PRODUÇÕES E TECNOLOGIA LTDA",
+  "data_publicacao": "2024-02-29",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/60/portaria-n-162024",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:31:34+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "60",
+    "assinatura_pagina": "0e7943463782f599a63fae2c4a32e32535cff9cdeceec443c83535c11936951b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3198/16-2024.pdf",
+        "nome": "16-2024.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:31:34+00:00"
+  }
+}

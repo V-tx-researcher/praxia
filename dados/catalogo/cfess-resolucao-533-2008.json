@@ -1,0 +1,166 @@
+{
+  "id": "cfess-resolucao-533-2008",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 533/2008",
+  "numero": "533",
+  "ano": 2008,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "REGULAMENTAÇÃO DA SUPERVISÃO DIRETA DE ESTÁGIO",
+  "data_publicacao": "2008-09-29",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "referencia": "lei-11788-2008",
+        "texto": "lei 11.788, de 25 de setembro de 2008",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-493-2006",
+        "texto": "Resolução CFESS nº 493/2006",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          3
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/495/resolucao-n-5332008",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4601/Resolucao533.pdf",
+      "papel": "principal",
+      "sha256": "1d126e3c87b584cbf15c2ae823dea99496f16c4c22879ead3374d8f5da640bde",
+      "bytes": 26041,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-26T21:29:04+00:00",
+      "verificado_em": "2026-10-26T21:29:04+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-533-2008/1d126e3c87b584cb.pdf",
+      "versao": "1d126e3c87b584cb"
+    }
+  ],
+  "versao_atual": "1d126e3c87b584cb",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 5,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "dispositivos": 24,
+    "unidades": 30,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 533/2008",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 5,
+    "paginas_sem_texto": 0,
+    "caracteres": 13305,
+    "media_caracteres_pagina": 2661.0,
+    "proporcao_letras": 0.813,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:24:56+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-26T21:29:04+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-26T21:29:14+00:00",
+      "por": "processador",
+      "motivo": "30 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:29:14+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento após ajuste da segmentação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-26T21:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "495",
+    "assinatura_pagina": "9a669b36617ed199d2137b33e3a54867c7d026d237614e9a601efcdb617b72bb",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4601/Resolucao533.pdf",
+        "nome": "Resolucao533.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:24:56+00:00"
+  }
+}

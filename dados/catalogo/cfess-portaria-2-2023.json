@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-2-2023",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 2/2023",
+  "numero": "2",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Concede ponto facultativo aos/às trabalhadores/as do Conselho Federal de Serviço Social (Cfess) nos dias que especifica do exercício de 2023",
+  "data_publicacao": "2023-02-15",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/114/portaria-cfess-n-22023",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:33:30+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "114",
+    "assinatura_pagina": "588ca0491468c27a7633540d9c573f2921ef3a2c7cc4a2aa0bc5cb26b8e31f5a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/3254/portariacfess22023.pdf",
+        "nome": "portariacfess22023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:33:30+00:00"
+  }
+}

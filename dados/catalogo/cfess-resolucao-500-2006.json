@@ -1,0 +1,61 @@
+{
+  "id": "cfess-resolucao-500-2006",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 500/2006",
+  "numero": "500",
+  "ano": 2006,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Aprovação da Proposta Orçamentária do Conselho Federal e Conselhos Regionais de Serviço Social da 1a. a 24a. Regiões",
+  "data_publicacao": "2006-12-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/512/resolucao-n-5002006",
+  "categoria_portal": "Resoluções do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:25:30+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "512",
+    "assinatura_pagina": "5b106cff41c1e76a88ec4b2eb89f0e54a7ef098e37dd2f8ebf06d7d590be5f1f",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4618/resolucao_500_06.pdf",
+        "nome": "resolucao_500_06.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:25:30+00:00"
+  }
+}

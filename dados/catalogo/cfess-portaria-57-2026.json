@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-57-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 57/2026",
+  "numero": "57",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Exonera, a pedido, Daniel Soares de Assis, do cargo de provimento efetivo de Assistente Técnico Administrativo do Conselho Federal de Serviço Social.",
+  "data_publicacao": "2026-09-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/708/portaria-n-572026",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:cargo"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:26:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "708",
+    "assinatura_pagina": "c8eb688192bbcff004c40ccb065bf0e0dd57053aa3fdd2209ace0d0ce160f6e2",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/6005/57-2026.pdf",
+        "nome": "57-2026.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:26:48+00:00"
+  }
+}

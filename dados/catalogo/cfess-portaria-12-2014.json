@@ -1,0 +1,63 @@
+{
+  "id": "cfess-portaria-12-2014",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria CFESS nº 12/2014",
+  "numero": "12",
+  "ano": 2014,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Comissão Nacional Eleitoral para o Processo Eleitoral Extraordinário em Segunda Convocação.",
+  "data_publicacao": "2014-06-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/571/portaria-cfess-n-122014",
+  "categoria_portal": "Portarias do CFESS",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "possivel_ato_administrativo:convocacao,eleitoral"
+  ],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-26T21:35:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "571",
+    "assinatura_pagina": "49156de267f6e1d6ff222e5d2e5e9bfc0c8ec303d7c8a0f7b6b778899d4096e8",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5038/12-2014.pdf",
+        "nome": "12-2014.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-26T21:35:58+00:00"
+  }
+}
