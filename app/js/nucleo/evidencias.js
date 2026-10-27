@@ -54,7 +54,7 @@ export function montarEvidencia(indice, resultado, n, dataFatos) {
   const u = resultado.unidade;
   const doc = indice.documentos.get(u.doc);
   const contexto = indice.cadeiaDeContexto(u.id).map((c) => ({ id: c.id, rotulo: c.rotulo, texto: c.texto }));
-  const vig = avaliarVigencia(doc, dataFatos);
+  const vig = avaliarVigencia(doc, dataFatos, u);
   return {
     id: `E${n}`,
     unidadeId: u.id,
@@ -71,6 +71,8 @@ export function montarEvidencia(indice, resultado, n, dataFatos) {
     localizacao: rotuloLocalizacao(doc, u),
     pagina: u.pagina,
     texto: u.texto, // literal do acervo
+    situacaoDispositivo: u.situacao_dispositivo || null,
+    notaDispositivo: u.nota_vigencia || null,
     contexto,       // caput e níveis superiores, também literais
     link: linkPdf(doc, u),
     termosCasados: resultado.casados,

@@ -103,6 +103,14 @@ TRANSICOES_HUMANAS = {"aprovado", "publicado", "rejeitado", "fora_do_escopo"}
 
 PAPEIS_ARQUIVO = {"principal", "anexo", "edicao_historica", "html_oficial"}
 
+# Situação de um dispositivo específico (registrada na conferência humana, com
+# fonte oficial verificada) — campo opcional `dispositivos_afetados`.
+SITUACOES_DISPOSITIVO = {
+    "revogado": "Dispositivo revogado",
+    "alterado": "Dispositivo com redação alterada",
+    "vigente_com_ressalva": "Dispositivo vigente, com ressalva",
+}
+
 CAMPOS_OBRIGATORIOS = [
     "id", "versao_esquema", "titulo_oficial", "orgao_emissor", "tipo_documental",
     "abrangencia", "situacao_normativa", "fonte_oficial_url", "estado_fluxo",
@@ -231,6 +239,11 @@ def validar_registro(r: dict) -> list[str]:
             erros.append("documento aprovado sem versão de texto processada")
         if (r.get("qualidade_extracao") or {}).get("classificacao") in {"requer_ocr", "falhou"}:
             erros.append("documento aprovado com extração insuficiente")
+    for d in r.get("dispositivos_afetados") or []:
+        if d.get("situacao") not in SITUACOES_DISPOSITIVO:
+            erros.append(f"situação de dispositivo inválida: {d.get('situacao')!r}")
+        if not d.get("unidade") or not d.get("nota") or not d.get("fontes"):
+            erros.append("dispositivo afetado sem unidade, nota ou fontes oficiais")
     # Sequência do histórico deve ser coerente com as transições permitidas.
     hist = r["historico_estados"]
     for anterior, seguinte in zip(hist, hist[1:]):

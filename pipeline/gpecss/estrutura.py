@@ -46,6 +46,8 @@ def slug(s: str, limite: int = 40) -> str:
 # é artigo 1 seguido de travessão, não "Art. 1º-O".
 RE_ARTIGO = re.compile(r"^Art(?:igo)?\.?\s*(\d+)\s*(?:[º°o]|\.)?(?:-([A-Z])(?=[\s.:]))?\s*\.?\s*[-–—]?\s*")
 # "Parágrafo único" só com inicial maiúscula e sem continuar como remissão ("Parágrafo único do artigo 18").
+RE_NOVA_REDACAO = re.compile(r"(seguinte|nova)\s+reda[çc][ãa]o\s*:?\s*$|(passa|passam)\s+a\s+(vigorar|ter)\b.*(reda[çc][ãa]o|acrescid[oa]).*:\s*$",
+                              re.I)
 RE_PARAGRAFO = re.compile(r"^(?:§\s*(\d+)\s*[º°o]?\s*\.?\s*[-–—]?|PAR[ÁA]GRAFO\s+[ÚU]NICO|Par[áa]grafo\s+[úu]nico(?!\s+d[oa]s?\s))\s*\.?\s*[-–—:]?\s*")
 RE_INCISO = re.compile(r"^([IVXLC]{1,6})\s*[-–—.)]\s+")
 RE_ALINEA = re.compile(r"^([a-z])\s*[-–)]\s*(?=\S)")
@@ -250,9 +252,23 @@ class Segmentador:
             trecho_n = 0
             seq.update(par=0, inc=0, ali="", pri=0)
 
+        # Texto citado em nova redação ("passa a vigorar com a seguinte redação:
+        # Art. 1º …"): artigos citados com número não superior ao do artigo que os
+        # introduz pertencem a esse artigo, e não à norma que está sendo lida.
+        redacao_ativa = False
         while i < len(linhas):
             l = linhas[i]
             t = l.texto
+            m_cit = RE_ARTIGO.match(t)
+            if redacao_ativa and atual is not None:
+                if m_cit and (int(m_cit.group(1)) > ultimo_artigo and not m_cit.group(2)):
+                    redacao_ativa = False  # retomou a numeração própria da norma
+                else:
+                    atual.linhas.append(l)
+                    i += 1
+                    continue
+            if artigo is not None and RE_NOVA_REDACAO.search(t):
+                redacao_ativa = True
 
             # 1. Partes (manuais têm precedência sobre as detectadas)
             pm = self._parte_manual(l.pagina)

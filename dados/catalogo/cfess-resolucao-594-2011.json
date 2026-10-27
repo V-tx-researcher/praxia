@@ -136,6 +136,20 @@
       "data": "2026-10-27T02:27:28+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:13:38+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: texto citado em nova redação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:13:38+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

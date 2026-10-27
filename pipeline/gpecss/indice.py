@@ -68,6 +68,8 @@ def construir(modo: str = "publico", destino: Path | None = None, log=print) -> 
             "abrangencia": reg["abrangencia"],
             "numero": reg.get("numero"),
             "ano": reg.get("ano"),
+            "edicao": reg.get("edicao"),
+            "nota_vigencia": reg.get("nota_vigencia"),
             "ementa": reg.get("ementa"),
             "data_publicacao": reg.get("data_publicacao"),
             "inicio_vigencia": reg.get("inicio_vigencia"),
@@ -94,6 +96,12 @@ def construir(modo: str = "publico", destino: Path | None = None, log=print) -> 
             "arquivo_local": estado_arquivo,
         })
         partes = {p["rotulo"]: p for p in texto["partes"]}
+        # Situação por dispositivo registrada na conferência (ex.: alínea revogada).
+        afetados = {d["unidade"]: d for d in reg.get("dispositivos_afetados") or []}
+        ids_texto = {u["id"] for u in texto["unidades"]}
+        faltantes = set(afetados) - ids_texto
+        if faltantes:
+            raise ErroIntegridade(f"{reg['id']}: dispositivos afetados inexistentes no texto: {sorted(faltantes)}")
         for u in texto["unidades"]:
             parte = partes.get(u["parte"], {})
             # Textos editoriais (apresentações, introduções) não são atos oficiais e podem ter
@@ -114,6 +122,8 @@ def construir(modo: str = "publico", destino: Path | None = None, log=print) -> 
                 "pagina_fim": u["pagina_fim"],
                 "pagina_impressa": impressas.get(u["pagina_inicio"]),
                 "texto": u["texto"],
+                **({"situacao_dispositivo": afetados[u["id"]]["situacao"],
+                    "nota_vigencia": afetados[u["id"]]["nota"]} if u["id"] in afetados else {}),
             })
     conteudo = {"documentos": documentos, "unidades": unidades}
     hash_conteudo = hashlib.sha256(json.dumps(conteudo, ensure_ascii=False, sort_keys=True).encode()).hexdigest()

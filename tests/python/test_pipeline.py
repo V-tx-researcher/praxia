@@ -143,6 +143,17 @@ class TestEstrutura(unittest.TestCase):
         ids = [u["id"] for u in r["unidades"]]
         self.assertEqual(ids.count("texto:art-9:par-unico"), 1)
 
+    def test_texto_citado_em_nova_redacao(self):
+        paginas = ["Art. 1º Anular a revogação.\nArt. 2º O art. 1º da Resolução X passa a vigorar com a seguinte redação:\n"
+                   "Art. 1º Extinguir a penalidade.\nArt. 3º O art. 3º da Resolução X passa a ter a seguinte redação:\n"
+                   "Art. 3º Ficam revogadas:\nI. a Resolução Y;\nII. a Resolução Z.\nArt. 4º Ficam suspensos os processos."]
+        r = estrutura.segmentar(paginas, "x")
+        ids = [u["id"] for u in r["unidades"]]
+        self.assertEqual(ids, ["texto:art-1", "texto:art-2", "texto:art-3", "texto:art-4"])
+        self.assertIn("Art. 1º Extinguir a penalidade.", r["unidades"][1]["texto"])
+        self.assertIn("II. a Resolução Z.", r["unidades"][2]["texto"])
+        self.assertEqual(len(r["partes"]), 1)
+
     def test_segmentos_reconstroem_texto(self):
         doc = {"paginas": [{"texto": p} for p in PAGINAS_SINTETICAS], "unidades": self.r["unidades"]}
         self.assertEqual(citacoes.verificar_unidades(doc), [])

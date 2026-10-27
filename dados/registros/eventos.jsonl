@@ -1199,3 +1199,25 @@
 {"data": "2026-10-27T02:27:28+00:00", "tipo": "processado", "id": "cfess-resolucao-569-2010", "unidades": 16, "qualidade": "boa"}
 {"data": "2026-10-27T02:27:28+00:00", "tipo": "processado", "id": "cfess-resolucao-594-2011", "unidades": 8, "qualidade": "boa"}
 {"data": "2026-10-27T02:27:28+00:00", "tipo": "processado", "id": "cfess-resolucao-954-2020", "unidades": 13, "qualidade": "boa"}
+{"data": "2026-10-27T03:11:05+00:00", "tipo": "baixado", "id": "cfess-resolucao-970-2021", "baixados": 1, "inalterados": 0, "alterados": 0}
+{"data": "2026-10-27T03:11:06+00:00", "tipo": "processado", "id": "cfess-resolucao-970-2021", "unidades": 15, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-codigo-etica-1993", "unidades": 236, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-orientacao-normativa-1-2018", "unidades": 15, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-orientacao-normativa-2-2018", "unidades": 12, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-orientacao-normativa-3-2020", "unidades": 6, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-orientacao-normativa-4-2020", "unidades": 7, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-1098-2025", "unidades": 32, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-1114-2025", "unidades": 41, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-493-2006", "unidades": 21, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-512-2007", "unidades": 88, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-533-2008", "unidades": 30, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-554-2009", "unidades": 12, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-556-2009", "unidades": 15, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-557-2009", "unidades": 13, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-559-2009", "unidades": 16, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-569-2010", "unidades": 16, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-594-2011", "unidades": 8, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-954-2020", "unidades": 13, "qualidade": "boa"}
+{"data": "2026-10-27T03:13:38+00:00", "tipo": "processado", "id": "cfess-resolucao-970-2021", "unidades": 10, "qualidade": "boa"}
+{"data": "2026-10-27T03:14:10+00:00", "tipo": "aprovado", "id": "cfess-codigo-etica-1993", "por": "revisao-profissional"}
+{"data": "2026-10-27T03:14:10+00:00", "tipo": "publicado", "id": "cfess-codigo-etica-1993", "por": "revisao-profissional"}

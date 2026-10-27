@@ -1,16 +1,24 @@
 // Avaliação de vigência de um documento, inclusive para a época dos fatos.
 // Nunca presume vigência: ausência de verificação é sempre sinalizada.
 
-export function avaliarVigencia(doc, dataFatos = null) {
+export function avaliarVigencia(doc, dataFatos = null, unidade = null) {
   const avisos = [];
   let aplicavel = null; // true | false | null (não determinável)
+  // Situação do próprio dispositivo (registrada na conferência) vem primeiro: é a
+  // informação mais específica para o trecho citado.
+  if (unidade?.situacao_dispositivo) {
+    avisos.push(`Este dispositivo: ${unidade.nota_vigencia}`);
+    if (unidade.situacao_dispositivo === "revogado") {
+      return { aplicavel: false, avisos, dispositivo: "revogado" };
+    }
+  }
   switch (doc.situacao) {
     case "vigente_confirmada":
       aplicavel = true;
       break;
     case "alterada":
       aplicavel = true;
-      avisos.push("Documento com alterações posteriores: confira a redação vigente de cada dispositivo.");
+      avisos.push(doc.nota_vigencia || "Documento com alterações posteriores: confira a redação vigente de cada dispositivo.");
       break;
     case "revogada":
       aplicavel = false;

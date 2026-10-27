@@ -22,6 +22,11 @@ script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
 
 ## Etapa seguinte (após as decisões do responsável)
 
+0. **Acervo completo (D21):** baixar e processar todos os registros normativos
+   descobertos (352; começar pelos sem alerta administrativo), em lotes, com
+   atividades de conferência em Word agrupando vários documentos por lote
+   (gerador em `scripts/revisao/atividade1.js`; registro como em
+   `scripts/revisao/registrar_atividade1.py`).
 1. **Conferência dos primeiros documentos** (pelo idealizador, assistente social — D19;
    registrar com `--responsavel revisao-profissional`):
    Código de Ética (confirmar mapa de partes), Res. 1.114/2025, Res. 1.098/2025,

@@ -3,6 +3,7 @@
 Atualizado em 26/10/2026 (marco 1: primeira base confiável).
 
 ## Concluído e testado com sucesso
+- **Primeiro documento conferido e publicado (27/10/2026):** Código de Ética (10ª ed.), situação "vigente com alterações"; Art. 22 c com ressalva (Res. 970/2021) e Art. 25 p.ú. revogado. Acervo público: 1 documento, 225 dispositivos. Ver docs/revisao/REGISTRO.md.
 - Auditoria do protótipo (ver DECISIONS.md, D01).
 - Esquema de metadados com vocabulários controlados e máquina de estados com aprovação exclusivamente humana.
 - Coletor do portal do CFESS: 640 registros descobertos (categorias 3, 9, 4, 1), sem erros; respeito a robots.txt e limite de taxa.
@@ -27,7 +28,8 @@ Atualizado em 26/10/2026 (marco 1: primeira base confiável).
 - Avaliação de modelos maiores (requer navegador com limite de armazenamento maior).
 
 ## Pendente
-- Conferência humana dos 17 documentos processados (nenhum aprovado) — a ser feita pelo idealizador (D19), identificador `revisao-profissional`.
+- Conferência humana dos demais 17 documentos processados (inclui a Res. 970/2021) — pelo revisor (D19), identificador `revisao-profissional`.
+- Ampliar para todas as normas do CFESS (D21): 352 registros normativos, dos quais 98 com alerta de possível ato administrativo e 6 sem arquivo.
 - Mapa de partes do Código de Ética: confirmar (D14).
 - Fundamentar o texto sobre COFI/SubCOFI na Res. CFESS 512/2007 após conferência.
 - Busca semântica; OCR; coleta dos CRESS; demais resoluções pertinentes.

@@ -97,6 +97,16 @@ o identificador de função `revisao-profissional` (o pipeline exige um identifi
 humano para impedir aprovação automática), e o índice público mostra apenas a data
 da conferência. Substitui a pendência D-P2.
 
+**D20 — 27/10/2026 — Vigência por dispositivo.** A conferência registra, quando
+houver, a situação de dispositivos específicos (`revogado`, `alterado`,
+`vigente_com_ressalva`), sempre com fonte oficial vinculada. Relações indicadas pelo
+revisor que não puderam ser conferidas em texto oficial ficam como pendência interna
+e não são exibidas ao público como fato.
+
+**D21 — 27/10/2026 — Acervo completo (pedido do revisor).** O objetivo passa a ser
+incluir todas as resoluções e documentos normativos do Conjunto CFESS-CRESS, não só
+uma seleção; atos administrativos continuam fora, mediante conferência.
+
 ## Pendentes (dependem do responsável)
 
 **D-P3 — Busca semântica:** modelo de embeddings (ex.: multilingual-e5-small,

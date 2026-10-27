@@ -18,12 +18,45 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-954-2020",
+        "texto": "Resolução CFESS nº 954/2020",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/321/resolucao-9702021",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4390/ResolucaoCfess9702021.pdf",
+      "papel": "principal",
+      "sha256": "c54abae50c20a01b145884ed6ec6a01adfd118ce0aa68013cec606c548311bd5",
+      "bytes": 188864,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:11:05+00:00",
+      "verificado_em": "2026-10-27T03:11:05+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-970-2021/c54abae50c20a01b.pdf",
+      "versao": "c54abae50c20a01b"
+    }
+  ],
+  "versao_atual": "c54abae50c20a01b",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +64,32 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 2,
+    "paginas_indexadas": [
+      1,
+      2
+    ],
+    "dispositivos": 6,
+    "unidades": 10,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução 970/2021",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 2,
+    "paginas_sem_texto": 0,
+    "caracteres": 5365,
+    "media_caracteres_pagina": 2682.5,
+    "proporcao_letras": 0.719,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +97,41 @@
       "data": "2026-10-26T21:19:06+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:11:05+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:11:06+00:00",
+      "por": "processador",
+      "motivo": "15 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:11:06+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:13:38+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: texto citado em nova redação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:13:38+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

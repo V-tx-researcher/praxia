@@ -306,9 +306,17 @@ function cartaoEvidencia(e, afirmacoesQueCitam) {
     cab,
     el("p", { classe: "evidencia-local" }, `${d.tipo} · ${d.orgao}${d.ano ? ` · ${d.ano}` : ""} — ${e.localizacao}`),
     contexto,
+    e.situacaoDispositivo
+      ? el("p", { classe: "alerta" }, el("strong", {},
+        { revogado: "Dispositivo revogado. ", alterado: "Redação alterada. ", vigente_com_ressalva: "Atenção à vigência. " }[e.situacaoDispositivo]),
+      e.notaDispositivo)
+      : null,
     el("blockquote", { classe: "trecho", cite: e.link }, e.texto),
     relacao,
-    e.vigencia.avisos.length ? el("p", { classe: "relacao" }, el("strong", {}, "Vigência: "), e.vigencia.avisos.join(" ")) : null,
+    (() => {
+      const avisos = e.vigencia.avisos.filter((a) => !a.startsWith("Este dispositivo:"));
+      return avisos.length ? el("p", { classe: "relacao" }, el("strong", {}, "Vigência: "), avisos.join(" ")) : null;
+    })(),
     el("div", { classe: "links-fonte" },
       linkExterno(e.link, `Abrir o PDF original na p. ${e.pagina}`),
       linkExterno(d.fonteOficial, "Página oficial do documento")));

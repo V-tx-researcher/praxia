@@ -47,7 +47,9 @@ export function montarMensagens({ pergunta, classificacao, evidencias }) {
   const blocos = evidencias.map((e) => {
     const contexto = e.contexto.map((c) => `${c.rotulo}: ${c.texto}`).join("\n");
     return `<evidencia id="${e.id}">\nDocumento: ${escaparTag(e.documento.titulo)}\nSituação normativa: ${e.documento.situacaoRotulo}\n` +
-      `Localização: ${escaparTag(e.localizacao)}\n` + (contexto ? `Contexto (dispositivo superior): ${escaparTag(contexto)}\n` : "") +
+      `Localização: ${escaparTag(e.localizacao)}\n` +
+      (e.notaDispositivo ? `Situação deste dispositivo (obrigatório mencionar ao usá-lo): ${escaparTag(e.notaDispositivo)}\n` : "") +
+      (contexto ? `Contexto (dispositivo superior): ${escaparTag(contexto)}\n` : "") +
       `Texto: ${escaparTag(e.texto)}\n</evidencia>`;
   }).join("\n\n");
   const usuario = `Natureza da pergunta (classificação automática): ${classificacao.situacaoRotulo}.\n\n` +

@@ -118,6 +118,7 @@ export class IndiceLexical {
       const cobertura = cobertos / informativos.size;
       const doc = this.documentos.get(u.doc);
       const fator = (PESO_TIPO[u.tipo] ?? 0.8) * (PESO_SITUACAO[doc?.situacao] ?? 0.9) *
+        (u.situacao_dispositivo === "revogado" ? PESO_SITUACAO.revogada : 1) *
         (doc?.indicacoes_portal?.length ? PESO_INDICACAO_PORTAL : 1);
       const palavras = casados.filter((t) => informativos.has(t) && superficie.has(t)).map((t) => superficie.get(t));
       resultados.push({ unidade: u, pontuacao: s * fator * (0.6 + 0.4 * cobertura), casados: palavras,

@@ -7,16 +7,55 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "codigo_etica",
   "abrangencia": "nacional",
-  "assunto_principal": null,
-  "assuntos_secundarios": [],
+  "assunto_principal": "exercicio_profissional",
+  "assuntos_secundarios": [
+    "direitos_profissionais",
+    "deveres_profissionais",
+    "vedacoes",
+    "sigilo_profissional",
+    "processo_etico",
+    "relacao_usuarios",
+    "relacoes_profissionais"
+  ],
   "ementa": "Texto aprovado em 13/3/1993, com as alterações introduzidas pelas Resoluções CFESS nº290/1994, 293/1994, 333/1996 e 594/2011. Presentes nos anexos outras edições: - Edição de 29 de setembro de 1947 - Edição de 8 de maio de 1965 - Edição de 30 de janeiro de 1975 - Edição de 9 de maio de 1986",
   "data_publicacao": null,
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "alterada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
-    "alterado_por": [],
+    "alterado_por": [
+      {
+        "id": "cfess-resolucao-594-2011",
+        "verificado": true,
+        "descricao": "Numeração romana dos princípios, correções ortográficas, 'orientação sexual' e 'identidade de gênero', linguagem de gênero (Arts. 1º a 4º)."
+      },
+      {
+        "id": "cfess-resolucao-954-2020",
+        "verificado": true,
+        "descricao": "Revogou a alínea c do Art. 22 e o parágrafo único do Art. 25 (Art. 3º, I); a revogação da alínea c foi anulada pela Res. 970/2021."
+      },
+      {
+        "id": "cfess-resolucao-970-2021",
+        "verificado": true,
+        "descricao": "Anulou a revogação da alínea c do Art. 22 (Art. 1º), manteve extinta a suspensão por débito revogando o parágrafo único do Art. 25 (Art. 2º) e suspendeu os processos da alínea c do Art. 22 (Art. 4º)."
+      },
+      {
+        "referencia": "Resolução CFESS nº 290/1994",
+        "verificado": false,
+        "descricao": "Citada no próprio Código (p. 43 do PDF) e na Res. 594/2011, Art. 5º; texto não localizado no portal."
+      },
+      {
+        "referencia": "Resolução CFESS nº 293/1994",
+        "verificado": false,
+        "descricao": "Citada na Res. 594/2011, Art. 5º; texto não localizado no portal."
+      },
+      {
+        "referencia": "Resolução CFESS nº 333/1996",
+        "verificado": false,
+        "descricao": "Citada na Res. 594/2011, Art. 5º; texto não localizado no portal."
+      }
+    ],
     "revogado_por": [],
     "mencoes_detectadas": [
       {
@@ -130,9 +169,11 @@
   "versao_atual": "86ff45dd39adda15",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-27",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS.",
+    "versao_conferida": "86ff45dd39adda15",
+    "registrado_em": "2026-10-27T03:14:10+00:00"
   },
   "indexacao": {
     "paginas": 62,
@@ -236,7 +277,7 @@
     "classificacao": "boa"
   },
   "alertas": [],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -293,6 +334,34 @@
       "data": "2026-10-27T02:27:28+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:13:38+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: texto citado em nova redação"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:13:38+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-27T03:14:10+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-27T03:14:10+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -330,5 +399,33 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T20:55:31+00:00"
-  }
+  },
+  "edicao": "10ª edição revista e atualizada (publicação do CFESS de 2012)",
+  "nota_vigencia": "Código de Ética vigente, instituído pela Resolução CFESS nº 273/1993, com alterações posteriores (Resoluções CFESS nº 290/1994, 293/1994, 333/1996, 594/2011, 954/2020 e 970/2021). A alínea c do Art. 22 teve a revogação anulada pela Res. 970/2021, com processos e penalidades suspensos; o parágrafo único do Art. 25 foi revogado.",
+  "dispositivos_afetados": [
+    {
+      "unidade": "cep:art-22:ali-c",
+      "situacao": "vigente_com_ressalva",
+      "nota": "a Resolução CFESS nº 954/2020 revogou esta alínea, mas a Resolução CFESS nº 970/2021 (Art. 1º) anulou a revogação e restabeleceu sua vigência. Os processos que apuram esta infração e a aplicação de penalidades estão suspensos até deliberação no fórum nacional da categoria (Res. CFESS nº 970/2021, Art. 4º).",
+      "fontes": [
+        "cfess-resolucao-970-2021#texto:art-1",
+        "cfess-resolucao-970-2021#texto:art-4",
+        "cfess-resolucao-954-2020#texto:art-3:inc-1"
+      ]
+    },
+    {
+      "unidade": "cep:art-25:par-unico",
+      "situacao": "revogado",
+      "nota": "revogado pela Resolução CFESS nº 954/2020 (Art. 3º, inciso I), mantido revogado pela Resolução CFESS nº 970/2021 (Art. 2º), que extinguiu a penalidade de suspensão do exercício profissional por débito.",
+      "fontes": [
+        "cfess-resolucao-954-2020#texto:art-3:inc-1",
+        "cfess-resolucao-970-2021#texto:art-2"
+      ]
+    }
+  ],
+  "pendencias_conferencia": [
+    "Art. 25, caput — o revisor indicou possível alteração pelas Res. 290/1994 e 333/1996; textos não localizados no portal.",
+    "Art. 20, alínea a — o revisor indicou possível alteração pela Res. 290/1994; texto não localizado no portal.",
+    "Res. 293/1994 — dispositivos alterados a identificar."
+  ]
 }
