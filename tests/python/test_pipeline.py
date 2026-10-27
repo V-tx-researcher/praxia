@@ -187,6 +187,18 @@ class TestEstrutura(unittest.TestCase):
         self.assertEqual(anexo[0]["hierarquia"], ["CAPÍTULO I — DAS DISPOSIÇÕES PRELIMINARES"])
         self.assertNotIn("CÓDIGO", r["unidades"][1]["texto"])
 
+    def test_timbre_institucional_excluido(self):
+        rodape = ("Autentique pelo link https://cfess-br.implanta.net.br/x, fornecendo\n"
+                  "fornecendo o código a seguir: cb084f0a-1981-45ec-afc8-55f610a4d442.\n"
+                  "______________________________________________________________\n"
+                  "SHS - Quadra 6 – Complexo Brasil 21 – Bloco E – Sala 2001 - Brasília/DF.")
+        paginas = ["Art. 1º É vedado ao/a assistente social praticar ou ser conivente com condutas\n" + rodape,
+                   "discriminatórias em razão de raça.\nArt. 2º Esta Resolução entra em vigor.\n" + rodape]
+        r = estrutura.segmentar(paginas, "x")
+        art1 = next(u for u in r["unidades"] if u["id"] == "texto:art-1")
+        self.assertEqual(art1["texto"], "Art. 1º É vedado ao/a assistente social praticar ou ser conivente com condutas "
+                                        "discriminatórias em razão de raça.")
+
     def test_segmentos_reconstroem_texto(self):
         doc = {"paginas": [{"texto": p} for p in PAGINAS_SINTETICAS], "unidades": self.r["unidades"]}
         self.assertEqual(citacoes.verificar_unidades(doc), [])

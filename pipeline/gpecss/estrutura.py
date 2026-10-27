@@ -118,19 +118,40 @@ def _chave_repeticao(s: str) -> str:
     return re.sub(r"\d+", "#", s.lower()).strip()
 
 
+# Linhas do timbre institucional dos Conselhos (endereço, contato, autenticação
+# eletrônica, slogans de gestão). Não são texto normativo onde quer que apareçam.
+RE_TIMBRE = re.compile(
+    r"^_{10,}\s*$"
+    r"|^(SHS|SCS|SRTVS|SEPN)\s*[-–]\s*Quadra"
+    r"|(Fone|Tel\.?)\s*:.*\(61\)"
+    r"|E-?mail:\s*\S*@cfess"
+    r"|Home Page:\s*http"
+    r"|^Autentique pelo link"
+    r"|^fornecendo o código a seguir"
+    r"|^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\.?$"
+    r"|^Gestão \d{4}\s*[/-]\s*\d{4}\s*[–-]"
+    r"|^Endereço:\s*S[CH]S",
+    re.I)
+JANELA_BORDA = 5
+
+
 def linhas_repetitivas(por_pagina: list[list[Linha]]) -> set[tuple[int, int]]:
-    """Cabeçalhos/rodapés repetidos e números de página isolados."""
+    """Cabeçalhos/rodapés repetidos, linhas de timbre e números de página isolados."""
     n = len(por_pagina)
     candidatos = Counter()
     for linhas in por_pagina:
-        bordas = {_chave_repeticao(l.texto) for l in linhas[:2] + linhas[-2:] if len(l.texto) <= 60}
+        bordas = {_chave_repeticao(l.texto) for l in linhas[:JANELA_BORDA] + linhas[-JANELA_BORDA:] if len(l.texto) <= 120}
         candidatos.update(bordas)
-    limiar = max(3, int(0.2 * n))
+    # Em documentos curtos basta repetir em 2 páginas; nos longos, em 20% delas (mín. 3).
+    limiar = 2 if n <= 4 else max(3, int(0.2 * n))
     repetidas = {k for k, c in candidatos.items() if c >= limiar}
     excluir = set()
     for linhas in por_pagina:
-        for l in linhas[:2] + linhas[-2:]:
+        for l in linhas[:JANELA_BORDA] + linhas[-JANELA_BORDA:]:
             if _chave_repeticao(l.texto) in repetidas or re.fullmatch(r"\d{1,4}", l.texto):
+                excluir.add((l.pagina, l.inicio))
+        for l in linhas:
+            if RE_TIMBRE.search(l.texto):
                 excluir.add((l.pagina, l.inicio))
     return excluir
 

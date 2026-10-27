@@ -114,7 +114,7 @@
       13
     ],
     "dispositivos": 81,
-    "unidades": 86,
+    "unidades": 83,
     "partes": [
       {
         "slug": "texto",
@@ -260,6 +260,20 @@
       "de": "processado",
       "para": "aguardando_conferencia",
       "data": "2026-10-27T13:35:07+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T14:16:30+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: retirada do timbre institucional"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T14:16:30+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
     }

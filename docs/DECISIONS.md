@@ -133,6 +133,18 @@ nacional`) e as da região escolhida (`regional:UF`). A escolha fica só no nave
 como preferência. O campo `abrangencia` já existe no esquema; falta o seletor na
 interface e o filtro na busca, a implementar junto com a coleta dos CRESS.
 
+**D26 — 27/10/2026 — Timbre institucional e reprocessamento técnico.** Linhas de
+timbre (endereço, telefone, autenticação eletrônica, sublinhados) são excluídas do
+texto onde aparecerem; a detecção de cabeçalho/rodapé repetido usa janela de 5 linhas
+e, em documentos de até 4 páginas, repetição em 2 páginas. Melhorias de
+processamento que alterem o texto de documentos publicados, sem mudança do arquivo
+oficial, são aplicadas por reprocessamento técnico que mantém a conferência original
+(registrada em `conferencia_original`).
+
+**D27 — 27/10/2026 — Conferência só vale se for humana.** Respostas de atividades
+geradas por ferramentas de IA não são registradas como conferência, ainda que
+informativas; achados técnicos nelas apontados são verificados e aproveitados.
+
 ## Pendentes (dependem do responsável)
 
 **D-P3 — Busca semântica:** modelo de embeddings (ex.: multilingual-e5-small,

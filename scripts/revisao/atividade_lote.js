@@ -45,14 +45,14 @@ const corpo = [
   new Paragraph({ spacing: { after: 60 }, children: [t("PLATAFORMA DE CONSULTA ÉTICO-NORMATIVA — GPECSS", { bold: true, size: 20, color: "4F5D70" })] }),
   new Paragraph({ spacing: { after: 80 }, children: [new TextRun({ text: `Atividade de conferência nº ${numAtividade}`, font: "Calibri", size: 40, bold: true, color: AZUL })] }),
   new Paragraph({ spacing: { after: 240 }, border: { bottom: { style: BorderStyle.SINGLE, size: 8, color: AZUL, space: 6 } },
-    children: [t(`Lote ${lote.lote}: ${lote.documentos.length} resoluções`, { size: 26 })] }),
+    children: [t(`Lote ${lote.lote}: ${lote.documentos.filter((d) => !d.somente_pedido).length} normas`, { size: 26 })] }),
   titulo("Orientações"),
   p(t("Para cada documento: abra o PDF pelo link, compare os trechos de amostra e indique a situação da norma hoje. É a mesma lógica da Atividade nº 1, mais curta.")),
   new Paragraph({ numbering: { reference: "etapas", level: 0 }, children: [t("Marque ☒ ou X nas opções. Escreva nas caixas azuladas só o que precisar.")] }),
   new Paragraph({ numbering: { reference: "etapas", level: 0 }, children: [t("As “relações já conhecidas” são informações do portal ou conferidas antes; servem de apoio, não de resposta.")] }),
   new Paragraph({ numbering: { reference: "etapas", level: 0 }, children: [t("Os números de página são os do PDF.")] }),
   new Paragraph({ numbering: { reference: "etapas", level: 0 }, spacing: { after: 160 }, children: [t("Ao terminar, salve e me avise no chat. Pode fazer em partes.")] }),
-  tabela([800, 6838, 2000], ["Nº", "Documento", "Páginas do PDF"], lote.documentos.map((d, i) => [String(i + 1), d.titulo, String(d.paginas_pdf)])),
+  tabela([800, 6838, 2000], ["Nº", "Documento", "Páginas do PDF"], lote.documentos.map((d, i) => [String(i + 1), d.titulo, d.paginas_pdf ? String(d.paginas_pdf) : "—"])),
 ];
 
 lote.documentos.forEach((d, i) => {

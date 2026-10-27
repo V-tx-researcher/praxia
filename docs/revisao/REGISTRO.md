@@ -4,6 +4,21 @@ Conferências feitas pelo revisor do projeto (assistente social), registradas se
 identificação pessoal (D19). As respostas originais ficam nos arquivos `.docx` desta
 pasta; o registro no catálogo é feito por scripts em `scripts/revisao/`.
 
+## Atividade nº 4 — Lote 2 (27/10/2026) — devolvida preenchida por ferramenta de IA
+
+**Não registrada como conferência.** O arquivo devolvido não tinha nenhuma opção
+marcada; as respostas vinham prefixadas com "RESPOSTA:" e, em 6 das 11 normas, a
+ferramenta declarou não ter conseguido abrir o PDF. Pela regra do projeto (aprovação
+depende de revisão humana profissional), nada foi aprovado a partir dele. O arquivo
+foi guardado como `Atividade_04_Lote_02_preenchida_por_IA_nao_registrada.docx` e uma
+versão limpa do lote 2 foi gerada.
+
+Achado técnico aproveitado: o timbre institucional (endereço, contato, autenticação
+eletrônica) estava misturado ao texto em 41 documentos, inclusive 4 publicados.
+Corrigido na segmentação; os 8 publicados foram reprocessados e republicados com a
+conferência original mantida (mesmo arquivo oficial, mesmo SHA-256)
+(`scripts/revisao/reprocessar_publicados.py`).
+
 ## Atividade nº 3 — Lote 1, 8 resoluções (27/10/2026)
 
 **Resultado:** 7 aprovadas e publicadas; Res. 954/2020 com conferência parcial (não publicada).

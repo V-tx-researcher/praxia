@@ -59,9 +59,9 @@
   "conferencia": {
     "data": "2026-10-27",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. O Art. 5º inclui a assinatura da presidente (texto literal do PDF).",
+    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. O Art. 5º inclui a assinatura da presidente (texto literal do PDF). | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "9a319219c59c4eac",
-    "registrado_em": "2026-10-27T13:30:59+00:00"
+    "registrado_em": "2026-10-27T14:16:34+00:00"
   },
   "indexacao": {
     "paginas": 2,
@@ -216,6 +216,34 @@
       "data": "2026-10-27T13:30:59+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-27T14:16:34+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T14:16:34+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-27T14:16:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. O Art. 5º inclui a assinatura da presidente (texto literal do PDF). | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-27T14:16:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -229,5 +257,12 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:23:58+00:00"
+  },
+  "conferencia_original": {
+    "data": "2026-10-27",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. O Art. 5º inclui a assinatura da presidente (texto literal do PDF).",
+    "versao_conferida": "9a319219c59c4eac",
+    "registrado_em": "2026-10-27T13:30:59+00:00"
   }
 }
