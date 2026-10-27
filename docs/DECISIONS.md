@@ -126,6 +126,13 @@ categoria (ex.: Res. 660/2013, Código Processual de Ética); a descoberta passa
 percorrer também a listagem geral (`--categorias 0 --apenas-novos`). Total no portal:
 682 páginas de legislação.
 
+**D25 — 27/10/2026 — Normas regionais filtradas pela região da pessoa usuária
+(diretriz do responsável).** Quando os CRESS forem incluídos, a pessoa poderá marcar
+sua região (UF) na interface; a busca usará as normas nacionais (`abrangencia =
+nacional`) e as da região escolhida (`regional:UF`). A escolha fica só no navegador,
+como preferência. O campo `abrangencia` já existe no esquema; falta o seletor na
+interface e o filtro na busca, a implementar junto com a coleta dos CRESS.
+
 ## Pendentes (dependem do responsável)
 
 **D-P3 — Busca semântica:** modelo de embeddings (ex.: multilingual-e5-small,
