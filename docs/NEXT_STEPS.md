@@ -22,13 +22,15 @@ script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
 
 ## Etapa seguinte (após as decisões do responsável)
 
-00. **Conferências em lote:** lotes 1 e 2 registrados. Próximos: lotes 3 a 5 (cerca de
-   10 normas cada) e um lote curto das 7 normas históricas, com
-   `scripts/revisao/preparar_lote.py` e `atividade_lote.js` (NODE_PATH apontando para
-   um `node_modules` com `docx`); registro como em `registrar_atividade4.py`.
-   Res. 383/1999 (imagem): transcrição registrada (D28) ou OCR. O OCR nativo do
-   Windows existe no computador (pt-BR), mas rodá-lo por script exige liberar a
-   execução de scripts do PowerShell, decisão do responsável.
+00. **Conferências em lote:** lotes 1 e 2 registrados; Atividades nº 5 a 8 (lotes 3 a 6)
+   enviadas ao revisor (`scripts/revisao/preparar_lotes_restantes.py` e
+   `atividade_lote.js`, com NODE_PATH apontando para um `node_modules` com `docx`).
+   Ao voltarem: registrar como em `registrar_atividade4.py`; só valem as marcações ☒
+   do revisor (D27). Normas do lote 6 entram como `historica`/`revogada`, com aviso.
+   Fora dos lotes, por não precisarem de conferência própria: originais cujo texto
+   está numa compilada (657/2013, 418/2001, 1.103/2025), a duplicata 792/2017 e a
+   compilada ilegível da 954/2020. A transcrição da Res. 383/1999 (D28) não tem
+   texto extraído para comparação: só aprovar se o revisor conferir os trechos.
 0. **Acervo completo (D21):** baixar e processar todos os registros normativos
    descobertos (352; começar pelos sem alerta administrativo), em lotes, com
    atividades de conferência em Word agrupando vários documentos por lote

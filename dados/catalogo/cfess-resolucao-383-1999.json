@@ -35,7 +35,7 @@
       "versao": "8cc3037bbda02d2b"
     }
   ],
-  "versao_atual": null,
+  "versao_atual": "8cc3037bbda02d2b",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -43,23 +43,32 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 2,
+    "paginas_indexadas": [
+      1,
+      2
+    ],
+    "dispositivos": 3,
+    "unidades": 8,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 383/1999",
+        "tipo": "normativa"
+      }
+    ]
   },
   "qualidade_extracao": {
     "paginas": 2,
-    "paginas_sem_texto": 2,
-    "caracteres": 0,
-    "media_caracteres_pagina": 0.0,
-    "proporcao_letras": 0.0,
+    "paginas_sem_texto": 0,
+    "caracteres": 3377,
+    "media_caracteres_pagina": 1688.5,
+    "proporcao_letras": 0.81,
     "caracteres_substituicao": 0,
-    "classificacao": "requer_ocr",
-    "motivo": "pouco texto extraível: provável documento digitalizado"
+    "classificacao": "boa"
   },
-  "alertas": [
-    "requer_ocr"
-  ],
-  "estado_fluxo": "erro_extracao",
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -81,6 +90,34 @@
       "data": "2026-10-27T03:28:23+00:00",
       "por": "processador",
       "motivo": "pouco texto extraível: provável documento digitalizado"
+    },
+    {
+      "de": "erro_extracao",
+      "para": "processado",
+      "data": "2026-10-27T15:30:51+00:00",
+      "por": "processador",
+      "motivo": "8 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T15:30:51+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T15:31:00+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: transcrição registrada"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T15:31:00+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {
@@ -94,5 +131,25 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:26:06+00:00"
+  },
+  "transcricao_aplicada": {
+    "autor": "desenvolvimento (pesquisa delegada pelo revisor em 27/10/2026)",
+    "metodo": "Transcrição da imagem das páginas do PDF oficial, renderizadas em alta resolução (pypdfium2, escala 3), um parágrafo por linha. Logotipo e rodapé de endereço omitidos. Sem texto extraído para comparação: a transcrição deve ser conferida pelo revisor (Atividade de conferência).",
+    "registrado_em": "2026-10-27",
+    "corroboracao": [],
+    "paginas": [
+      {
+        "pagina": 1,
+        "acrescimos": [
+          "RESOLUÇÃO CFESS N.º 383/99 de 29/03/1999 EMENTA: Caracteriza o assistente social como profissional da saúde. O Conselho Federal de Serviço Social, no uso de suas atribuições legais e regimentais; Considerando que a Constituição Federal vigente estabelece a saúde como um direito de todos e dever do Estado, devendo ser garantido mediante políticas sociais e econômicas que visem a redução do risco de doenças e de outros agravos e ao acesso universal e igualitário às ações e serviços para a promoção, proteção e recuperação da saúde; Considerando que, a partir da 8ª Conferência Nacional de Saúde, um novo conceito de saúde foi construído, ampliando a compreensão da relação saúde-doença, como decorrência das condições de vida e de trabalho; Considerando que a 10ª Conferência Nacional de Saúde reafirmou a necessidade de consolidar o Sistema Único de Saúde, com todos os seus princípios e objetivos; Considerando que as ações de saúde devem se dar na perspectiva interdisciplinar a fim de garantir a atenção a todas as necessidades da população usuária na mediação entre seus interesses e a prestação de serviços; Considerando que atribui-se ao assistente social, enquanto profissional de saúde, a intervenção junto aos fenômenos sócio-culturais e econômicos que reduzam a eficácia dos programas de prestação de serviços nos níveis de promoção, proteção e/ou recuperação da saúde; Considerando que o Assistente Social, em sua prática profissional contribui para o atendimento das demandas imediatas da população, além de facilitar o seu acesso às informações e ações educativas para que a saúde possa ser percebida como produto das condições gerais de vida e da dinâmica das relações sociais, econômicas e políticas do País; Considerando que, para a consolidação dos princípios e objetivos do Sistema Único de Saúde, é imprescindível a efetivação do Controle Social e o Assistente Social, com"
+        ]
+      },
+      {
+        "pagina": 2,
+        "acrescimos": [
+          "base no seu compromisso ético-político, tem focalizado suas atividades para uma ação técnico-política que contribua para viabilizar a participação popular, a democratização das instituições, o fortalecimento dos Conselhos de Saúde e a ampliação dos direitos sociais; Considerando que o Conselho Nacional de Saúde, através da Resolução de nº 218 de 06 de março de 1997, reafirmou o Assistente Social, entre outras categorias de nível superior, como profissional de saúde; Considerando, ainda, que a antedita Resolução, em seu ítem II, delega aos Conselhos de Classe a caracterização como profissional de saúde, dentre outros, do assistente social; Considerando que o Serviço Social não é exclusivo da saúde, mas qualifica o profissional a atuar com competência nas diferentes dimensões da questão social no âmbito das políticas sociais, inclusive a saúde; Considerando a aprovação da presente Resolução pelo Plenário do Conselho Federal de Serviço Social, em reunião ordinária realizada em 27 e 28 de março de 1999; Resolve: Art. 1º - Caracterizar o assistente social como profissional de saúde. Art. 2º - O assistente social atua no âmbito das políticas sociais e, nesta medida, não é um profissional exclusivamente da área da saúde, podendo estar inserido em outras áreas, dependendo do local onde atua e da natureza de suas funções. Art. 3º - Esta Resolução entra em vigor na data de sua publicação. Brasília (DF), 29 de março de 1999 VALDETE DE BARROS MARTINS PRESIDENTE DO CFESS"
+        ]
+      }
+    ]
   }
 }

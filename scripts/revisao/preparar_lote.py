@@ -43,7 +43,7 @@ def main():
             "paginas_pdf": len(t["paginas"]),
             "dispositivos": sum(1 for u in t["unidades"] if u["tipo"] in DISPOSITIVOS),
             "indicacoes_portal": indicacoes,
-            "mencoes": [f"{m['texto']} ({', '.join(x.replace('possivel_', 'possível ') for x in m['relacoes'] if x != 'mencao')})" for m in mencoes],
+            "mencoes": [f"{m['texto']} ({', '.join({'possivel_alteracao': 'possível alteração', 'possivel_revogacao': 'possível revogação'}[x] for x in m['relacoes'] if x != 'mencao')})" for m in mencoes],
             "alertas": outros_alertas,
             "lacunas": r.get("lacunas_detectadas", []),
             "transcricoes": r.get("transcricoes_conferidas", []),

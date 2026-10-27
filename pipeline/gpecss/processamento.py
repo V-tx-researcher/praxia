@@ -164,7 +164,7 @@ def processar(doc_id: str, log=print) -> dict:
         extrator = "beautifulsoup4 (HTML do Planalto; trechos riscados removidos)"
     qualidade = extracao.avaliar_qualidade(paginas)
     reg["qualidade_extracao"] = qualidade
-    alertas = [a for a in reg["alertas"] if not a.startswith(("possivel_instrucao_embutida", "mapa_de_partes", "partes_detectadas", "anexo_ou_compilacao", "lacunas_na_extracao", "texto_riscado_removido", "transcricao_"))]
+    alertas = [a for a in reg["alertas"] if not a.startswith(("possivel_instrucao_embutida", "mapa_de_partes", "partes_detectadas", "anexo_ou_compilacao", "lacunas_na_extracao", "texto_riscado_removido", "transcricao_", "requer_ocr"))]
     if alerta_transcricao:
         alertas.append(alerta_transcricao)
     if qualidade["classificacao"] in {"requer_ocr", "falhou"}:
