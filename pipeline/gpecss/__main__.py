@@ -32,6 +32,7 @@ def main(argv=None) -> int:
     d.add_argument("--categorias", nargs="*", type=int)
     d.add_argument("--max-paginas", type=int, default=60)
     d.add_argument("--atualizar-metadados", action="store_true")
+    d.add_argument("--apenas-novos", action="store_true", help="não reabre páginas já catalogadas")
 
     b = sub.add_parser("baixar", help="baixa os arquivos oficiais de documentos descobertos")
     b.add_argument("ids", nargs="+")
@@ -75,7 +76,7 @@ def main(argv=None) -> int:
 
     if args.cmd == "descobrir":
         print(coleta.descobrir(categorias=args.categorias, limite_paginas=args.max_paginas,
-                               atualizar_metadados=args.atualizar_metadados))
+                               atualizar_metadados=args.atualizar_metadados, apenas_novos=args.apenas_novos))
     elif args.cmd == "baixar":
         for id_ in args.ids:
             print(id_, coleta.baixar(id_, incluir_historicos=args.historicos, urls_extras=args.url_extra))

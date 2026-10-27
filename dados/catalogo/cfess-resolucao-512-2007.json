@@ -56,12 +56,11 @@
       },
       {
         "referencia": "lei-8662-1993",
-        "texto": "Lei 8662/93",
+        "texto": "Lei nº. 8662/93",
         "relacoes": [
           "mencao"
         ],
         "paginas": [
-          6,
           9
         ]
       }
@@ -103,8 +102,8 @@
       9,
       10
     ],
-    "dispositivos": 87,
-    "unidades": 90,
+    "dispositivos": 83,
+    "unidades": 86,
     "partes": [
       {
         "slug": "texto",
@@ -116,13 +115,15 @@
   "qualidade_extracao": {
     "paginas": 10,
     "paginas_sem_texto": 0,
-    "caracteres": 29201,
-    "media_caracteres_pagina": 2920.1,
-    "proporcao_letras": 0.825,
+    "caracteres": 28123,
+    "media_caracteres_pagina": 2812.3,
+    "proporcao_letras": 0.824,
     "caracteres_substituicao": 0,
     "classificacao": "boa"
   },
-  "alertas": [],
+  "alertas": [
+    "texto_riscado_removido:1068"
+  ],
   "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
@@ -208,6 +209,48 @@
       "data": "2026-10-27T03:32:03+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: remoção de texto tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:44+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:44+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: pontuação no tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {
@@ -221,5 +264,15 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:25:24+00:00"
-  }
+  },
+  "texto_riscado_removido": [
+    {
+      "pagina": 5,
+      "texto": "Descrever no relatório de visita de fiscalização todo fato constatado, relatando qualquerirregularidade que comprometa a qualidade dos serviços profissionais prestados, anotando nomeendereço e número de RG das pessoas envolvidas e testemunhas se houver;"
+    },
+    {
+      "pagina": 6,
+      "texto": "Art. 17Ficam instituídos os instrumentais básicos a serem utilizados no exercício da ação fiscalizadoraque constarão como anexo da Política Nacional de Fiscalização, a saber:I- Relatório de Visita de Fiscalizaçãoa ser utilizado pelo agente fiscal ou representante doCRESS/ Seccional, nas situações de visitas, sejam de caráter preventivo ou rotineiro;II- Relatório de Averiguação de Irregularidadesinstrumental utilizado pelo Agente Fiscal pararegistro de ocorrências que infrinjam a Lei 8662/93 e o Código de Ética;III- Termo de Visitaa ser preenchido e entregue à instituição, cientificando-a do trabalhorealizado, identificando irregularidades, se houverParágrafo ÚnicoOs instrumentais da fiscalização profissional poderão ser revistos ou acrescidosquando necessário desde que aprovados pelo Conjunto CFESS-CRESS"
+    }
+  ]
 }

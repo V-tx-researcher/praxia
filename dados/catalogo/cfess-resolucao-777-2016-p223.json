@@ -1,0 +1,68 @@
+{
+  "id": "cfess-resolucao-777-2016-p223",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 777/2016",
+  "numero": "777",
+  "ano": 2016,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui Política Nacional de Enfrentamento à Inadimplência no âmbito do Conjunto CFESS-CRESS",
+  "data_publicacao": "2016-11-21",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/223/resolucao-7772016",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:36+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): fora do escopo (legislação social, MEC/EAD, ato administrativo ou portaria)"
+    }
+  ],
+  "portal": {
+    "id": "223",
+    "assinatura_pagina": "1ad72ecec60e19cd522210d676291bfa6c9a81125f12aa66e4b3d8e1c6e2f36a",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4249/777-2016compilada.pdf",
+        "nome": "777-2016compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:36+00:00"
+  }
+}

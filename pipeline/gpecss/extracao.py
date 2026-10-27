@@ -42,7 +42,59 @@ def normalizar_pagina(texto: str) -> str:
     return "\n".join(linha.strip() for linha in t.split("\n")).strip("\n")
 
 
-def extrair_pdf(caminho: Path) -> list[str]:
+def _linhas_horizontais(pagina) -> list[tuple[float, float, float]]:
+    """Traços finos e horizontais desenhados na página: (x0, x1, y)."""
+    import pypdfium2.raw as raw
+
+    linhas = []
+    for obj in pagina.get_objects(max_depth=5):
+        if obj.type == raw.FPDF_PAGEOBJ_PATH:
+            x0, y0, x1, y1 = obj.get_bounds()
+            if (y1 - y0) < 2.5 and (x1 - x0) > 3:
+                linhas.append((x0, x1, (y0 + y1) / 2))
+    return linhas
+
+
+def _indices_riscados(tp, linhas, n: int) -> set[int]:
+    """Caracteres atravessados por um traço na faixa central da altura (tachado).
+
+    Traços na base da letra (sublinhado de links) não contam.
+    """
+    riscados = set()
+    if not linhas:
+        return riscados
+    for i in range(n):
+        x0, y0, x1, y1 = tp.get_charbox(i)
+        altura = y1 - y0
+        if altura <= 0.5 or (x1 - x0) <= 0:
+            continue
+        cx = (x0 + x1) / 2
+        for lx0, lx1, ly in linhas:
+            if lx0 <= cx <= lx1 and y0 + 0.25 * altura <= ly <= y0 + 0.8 * altura:
+                riscados.add(i)
+                break
+    return riscados
+
+
+def _sequencias(indices: list[int]):
+    """Agrupa índices consecutivos em intervalos (início, fim)."""
+    ini = ant = None
+    for i in indices:
+        if ini is None:
+            ini = ant = i
+        elif i == ant + 1:
+            ant = i
+        else:
+            yield ini, ant
+            ini = ant = i
+    if ini is not None:
+        yield ini, ant
+
+
+def extrair_pdf(caminho: Path, riscados_saida: list | None = None) -> list[str]:
+    """Texto por página. Texto tachado (redação revogada em versões compiladas)
+    é retirado do texto canônico; se `riscados_saida` for uma lista, recebe o
+    texto removido de cada página, para registro e conferência."""
     import pypdfium2 as pdfium
 
     doc = pdfium.PdfDocument(str(caminho))
@@ -51,7 +103,29 @@ def extrair_pdf(caminho: Path) -> list[str]:
         for i in range(len(doc)):
             pagina = doc[i]
             tp = pagina.get_textpage()
-            paginas.append(normalizar_pagina(tp.get_text_range()))
+            bruto = tp.get_text_range()
+            n = tp.count_chars()
+            removido = ""
+            if n == len(bruto):
+                riscados = _indices_riscados(tp, _linhas_horizontais(pagina), n)
+                # Espaços entre caracteres riscados também pertencem ao trecho riscado.
+                # Espaços e pontuação baixa (vírgula, ponto), que o traço não cruza, entre
+                # caracteres riscados pertencem ao mesmo trecho.
+                for _ in range(2):
+                    riscados |= {j for j in range(1, n - 1)
+                                 if bruto[j] in " ,.;:" and j not in riscados
+                                 and (j - 1 in riscados) and (j + 1 in riscados or (j + 2 < n and j + 2 in riscados))}
+                # Sequências muito curtas (ex.: um ":" cortado por borda de tabela) não são tachado.
+                for ini, fim in _sequencias(sorted(riscados)):
+                    if sum(1 for j in range(ini, fim + 1) if not bruto[j].isspace()) < 3:
+                        riscados -= set(range(ini, fim + 1))
+                if riscados:
+                    # Mantém quebras de linha para não colar parágrafos vizinhos.
+                    removido = "".join(c for j, c in enumerate(bruto) if j in riscados and c not in "\r\n")
+                    bruto = "".join(c for j, c in enumerate(bruto) if j not in riscados or c in "\r\n")
+            if riscados_saida is not None:
+                riscados_saida.append(re.sub(r"\s+", " ", removido).strip())
+            paginas.append(normalizar_pagina(bruto))
             tp.close()
             pagina.close()
         return paginas

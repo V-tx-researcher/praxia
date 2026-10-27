@@ -1,0 +1,74 @@
+{
+  "id": "cfess-resolucao-792-2017-p222",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 792/2017 - Expressamente revogada pela Resolução CFESS nº 1031/2023",
+  "numero": "792",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui a Anotação da Responsabilidade Técnica no âmbito do Serviço Social, os parâmetros para a atuação do/a assistente social nesta modalidade bem como regula os procedimentos para expedição da Certidão respectiva",
+  "data_publicacao": "2017-02-09",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/222/resolucao-7922017-expressamente-revogada-pela-resolucao-cfess-n-10312023",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:revogada pela Resolução CFESS nº 1031/2023 Institui a Anotação da Responsabilidade Técnica no âmbito do Serviço Social, "
+  ],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:32+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): fora do escopo (legislação social, MEC/EAD, ato administrativo ou portaria)"
+    }
+  ],
+  "portal": {
+    "id": "222",
+    "assinatura_pagina": "057e0302b8a30705097b2a83aba5d2c1f5d7b4ea23a94c31c865b215a81e7732",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5361/1031-2023compilada.pdf",
+        "nome": "1031-2023compilada.pdf"
+      },
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4247/ResCfess7922017-compilada.pdf",
+        "nome": "ResCfess7922017-compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:32+00:00"
+  }
+}

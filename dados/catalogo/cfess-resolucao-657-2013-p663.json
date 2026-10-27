@@ -1,0 +1,178 @@
+{
+  "id": "cfess-resolucao-657-2013-p663",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 657/2013",
+  "numero": "657",
+  "ano": 2013,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui o CÓDIGO PROCESSUAL DISCIPLINAR no âmbito do Conselho Federal e dos Conselhos Regionais de Serviço Social.",
+  "data_publicacao": "2013-09-24",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/663/resolucao-n-6572013-2",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5739/657-2013 (compilada).pdf",
+      "papel": "principal",
+      "sha256": "ce603f13a5cdfa271bbf3b0030240fa4dcd3bc7961da995c5e00614b60bf9f60",
+      "bytes": 45281,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:36:15+00:00",
+      "verificado_em": "2026-10-27T03:36:15+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-657-2013-p663/ce603f13a5cdfa27.pdf",
+      "versao": "ce603f13a5cdfa27"
+    }
+  ],
+  "versao_atual": "ce603f13a5cdfa27",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 10,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dispositivos": 88,
+    "unidades": 91,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 657/2013",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "anexo-p3",
+        "rotulo": "Anexo ou texto subsequente (a partir da p. 3)",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 10,
+    "paginas_sem_texto": 0,
+    "caracteres": 18224,
+    "media_caracteres_pagina": 1822.4,
+    "proporcao_letras": 0.808,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "anexo_ou_compilacao_detectado",
+    "texto_riscado_removido:160"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:40+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:36:15+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:36:36+00:00",
+      "por": "processador",
+      "motivo": "92 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:36:36+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: remoção de texto tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:45+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:45+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: pontuação no tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "663",
+    "assinatura_pagina": "f126ba77125a82fa9fcfae12dfab6d755fe5b1209602146b753278d8e3834aa3",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5739/657-2013 (compilada).pdf",
+        "nome": "657-2013 (compilada).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:40+00:00"
+  },
+  "texto_riscado_removido": [
+    {
+      "pagina": 9,
+      "texto": "Parágrafo único Para efeitos de fixação da pena serão consideradas especialmente graves asinfrações tipificadas nos incisos I, IV e V do artigo 2desta Resolução"
+    }
+  ]
+}

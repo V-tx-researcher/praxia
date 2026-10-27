@@ -1,0 +1,68 @@
+{
+  "id": "cfess-resolucao-1030-2023-p615",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 1.030/2023",
+  "numero": "1030",
+  "ano": 2023,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a jurisdição e sede dos CRESS, Seccionais, Diretorias Provisórias, recomposição, reordenamento e outras providências.",
+  "data_publicacao": "2023-04-27",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/615/resolucao-n-10302023",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:06+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): fora do escopo (legislação social, MEC/EAD, ato administrativo ou portaria)"
+    }
+  ],
+  "portal": {
+    "id": "615",
+    "assinatura_pagina": "3e30f86f3246464d1953a38b9f03669c9167c22e7fd67aac1e07be03e3b3dcec",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5383/1030-2023-compilada.pdf",
+        "nome": "1030-2023-compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:06+00:00"
+  }
+}

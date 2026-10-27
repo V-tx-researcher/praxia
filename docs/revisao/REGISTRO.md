@@ -4,6 +4,24 @@ Conferências feitas pelo revisor do projeto (assistente social), registradas se
 identificação pessoal (D19). As respostas originais ficam nos arquivos `.docx` desta
 pasta; o registro no catálogo é feito por scripts em `scripts/revisao/`.
 
+## Atividade nº 2 — Triagem do acervo (27/10/2026)
+
+**Resultado:** o revisor aprovou a proposta e delegou ao desenvolvimento a decisão
+sobre o grupo "dúvida". Incluídas 58 normas (43 + 8 históricas + 7 do grupo dúvida);
+577 registros marcados `fora_do_escopo` (282 resoluções administrativas, 7 do grupo
+dúvida e 288 portarias). Decisão completa em `dados/configuracao/triagem.json`.
+Incluídas do grupo dúvida: Res. 418/2001, 467/2005, 560/2009, 707/2015, 950/2020,
+988/2022 e 1.015/2022.
+
+Aplicação posterior do mesmo critério (27/10/2026) aos 50 documentos sem categoria
+encontrados na listagem geral do portal: incluídas Res. 660/2013, 884/2018 e as
+versões compiladas de 657/2013, 418/2001 e 954/2020; 45 fora do escopo.
+
+Achados do processamento: Res. 383/1999 é imagem (requer OCR); as páginas das
+Res. 1.103/2025 e 792/2017 anexam versões compiladas de outras normas (548/2009 e
+1.031/2023) — não indexadas em duplicidade; Res. 657/2013 tinha a errata como
+primeiro anexo (corrigido); Res. 660/2013 existe no portal sem categoria.
+
 ## Atividade nº 1 — Código de Ética do/a Assistente Social (27/10/2026)
 
 **Resultado:** aprovado e publicado (`situacao_normativa = alterada`).

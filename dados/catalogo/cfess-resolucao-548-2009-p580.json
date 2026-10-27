@@ -1,0 +1,89 @@
+{
+  "id": "cfess-resolucao-548-2009-p580",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n°548/2009",
+  "numero": "548",
+  "ano": 2009,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui procedimentos que deverão ser adotados no processamento das denúncias éticas que forem objeto de DESAFORAMENTO, conforme previsão do artigo 9º do Código Processual de Ética disciplinado pela Resolução CFESS Nº. 428/2002.",
+  "data_publicacao": "2025-03-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/580/resolucao-n5482009",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5741/548-compilada-jun2025.pdf",
+      "papel": "principal",
+      "sha256": "77db957876dc455d8bb5547ccad8827a3e06efd3630fca872d1bfd4668167a45",
+      "bytes": 147419,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:36:16+00:00",
+      "verificado_em": "2026-10-27T03:36:16+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-548-2009-p580/77db957876dc455d.pdf",
+      "versao": "77db957876dc455d"
+    }
+  ],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "duplicata_de:cfess-resolucao-1103-2025"
+  ],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:34:58+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:36:16+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "cópia idêntica de documento já incluído"
+    }
+  ],
+  "portal": {
+    "id": "580",
+    "assinatura_pagina": "f6a1c14af91b694a38eeabb4fee69cb23920f300454c1d5cc6bb83d7e0619370",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5741/548-compilada-jun2025.pdf",
+        "nome": "548-compilada-jun2025.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:34:58+00:00"
+  }
+}

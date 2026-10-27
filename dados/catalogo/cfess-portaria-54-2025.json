@@ -1,0 +1,68 @@
+{
+  "id": "cfess-portaria-54-2025",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 54/2025",
+  "numero": "54",
+  "ano": 2025,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a alteração da Portaria CFESS nº 52, de 4 de dezembro de 2025, que Designa trabalhadoras/trabalhador como fiscais e subfiscais de contratos administrativos do Conselho Federal de Serviço Social neles relacionados(as).",
+  "data_publicacao": "2025-12-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/627/portaria-n-542025",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:33:09+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): fora do escopo (legislação social, MEC/EAD, ato administrativo ou portaria)"
+    }
+  ],
+  "portal": {
+    "id": "627",
+    "assinatura_pagina": "ea04369ab46fd4f34116893a54bb4faf105a7d89699020ffa39106b4e90c5e17",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5512/53-2025 (1).pdf",
+        "nome": "53-2025 (1).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:33:09+00:00"
+  }
+}

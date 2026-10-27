@@ -1,0 +1,89 @@
+{
+  "id": "cfess-resolucao-1014-2022-p212",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 1.014/2022",
+  "numero": "1014",
+  "ano": 2022,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta a inscrição (principal e secundária), transferência, cancelamento e reinscrição de pessoa física no âmbito dos CRESS e dá outras providências",
+  "data_publicacao": "2022-12-13",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/212/resolucao-10142022",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5788/Resolução 1014-2022 COMPILADA(06.05.2026).pdf",
+      "papel": "principal",
+      "sha256": "33b0c2ca3a7412633616bc4c91d35ee508bc39a58caa195701af2e37cc5ee813",
+      "bytes": 84679,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:36:18+00:00",
+      "verificado_em": "2026-10-27T03:36:18+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-1014-2022-p212/33b0c2ca3a741263.pdf",
+      "versao": "33b0c2ca3a741263"
+    }
+  ],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "duplicata_de:cfess-resolucao-1014-2022"
+  ],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:10+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:36:18+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "cópia idêntica de documento já incluído"
+    }
+  ],
+  "portal": {
+    "id": "212",
+    "assinatura_pagina": "9110fed1d1006da7ceafa5467c5544e503afc3e5bf7afe4b31b9288a3a0294de",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5788/Resolução 1014-2022 COMPILADA(06.05.2026).pdf",
+        "nome": "Resolução 1014-2022 COMPILADA(06.05.2026).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:10+00:00"
+  }
+}

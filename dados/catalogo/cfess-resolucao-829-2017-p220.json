@@ -1,0 +1,68 @@
+{
+  "id": "cfess-resolucao-829-2017-p220",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 829/2017",
+  "numero": "829",
+  "ano": 2017,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta as anuidades de pessoa física e de pessoa jurídica e as taxas no âmbito dos CRESS, e determina outras providências",
+  "data_publicacao": "2017-09-22",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/220/resolucao-8292017",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:30+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): fora do escopo (legislação social, MEC/EAD, ato administrativo ou portaria)"
+    }
+  ],
+  "portal": {
+    "id": "220",
+    "assinatura_pagina": "b8e6731e2fac4dce958e2013e1dd5cb0188e97cc11e490f71dd5b7d0670e3a7b",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4245/resolucaocfess829-compilada2023.pdf",
+        "nome": "resolucaocfess829-compilada2023.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:30+00:00"
+  }
+}

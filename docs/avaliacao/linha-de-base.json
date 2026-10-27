@@ -1,11 +1,11 @@
 {
   "resumo": {
-    "executado_em": "2026-10-27T03:32:37.890Z",
+    "executado_em": "2026-10-27T03:40:47.532Z",
     "acervo": {
       "modo": "previa",
-      "gerado_em": "2026-10-27T03:32:07+00:00",
-      "documentos": 56,
-      "unidades": 1460
+      "gerado_em": "2026-10-27T03:40:27+00:00",
+      "documentos": 58,
+      "unidades": 1574
     },
     "perguntas": 122,
     "avaliaveis": 120,
@@ -13,7 +13,7 @@
     "aprovadas": 105,
     "taxa_aprovacao": 0.875,
     "recall_em_8_referencias": 0.809,
-    "mrr_primeira_referencia": 0.726,
+    "mrr_primeira_referencia": 0.727,
     "acuracia_situacao": 0.852,
     "por_comportamento": {
       "responder": {
@@ -108,8 +108,8 @@
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 16",
         "Código de Ética do/a Assistente Social | Art. 16, parágrafo único",
-        "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
+        "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
         "Código de Ética do/a Assistente Social | Art. 17",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Resolução nº 1.114/2025 | Art. 8º",
@@ -127,14 +127,15 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 6,
+      "n_evidencias": 7,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 18",
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
+        "Resolução nº 934/2020 | Art. 1º",
         "Código de Ética do/a Assistente Social | Art. 17",
-        "Resolução nº 934/2020 | Art. 1º"
+        "Código de Ética do/a Assistente Social | Art. 20, alínea a"
       ],
       "ok": true
     },
@@ -155,9 +156,9 @@
         "Código de Ética do/a Assistente Social | Art. 18",
         "Resolução nº 934/2020 | Art. 1º",
         "Resolução n° 1.098/2025 | Art. 7º",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 46",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
-        "Resolução nº 1.114/2025 | Art. 6º, parágrafo único, inciso II",
-        "Resolução nº 1.114/2025 | Art. 6º"
+        "Resolução nº 1.114/2025 | Art. 6º, parágrafo único, inciso II"
       ],
       "ok": true
     },
@@ -199,11 +200,11 @@
         "Código de Ética do/a Assistente Social | Art. 20, alínea a",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 23",
         "Código de Ética do/a Assistente Social | Art. 18",
-        "Código de Ética do/a Assistente Social | Art. 19, alínea b",
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
-        "Código de Ética do/a Assistente Social | Art. 19, alínea a",
-        "Código de Ética do/a Assistente Social | Art. 5º, alínea f"
+        "Código de Ética do/a Assistente Social | Art. 19, alínea b",
+        "Código de Ética do/a Assistente Social | Art. 19, alínea a"
       ],
       "ok": true
     },
@@ -217,13 +218,14 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 6,
+      "n_evidencias": 7,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 20, alínea a",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
         "Código de Ética do/a Assistente Social | Art. 18",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 23",
         "Resolução nº 1.114/2025 | Art. 7º"
       ],
       "ok": true
@@ -307,10 +309,10 @@
       "n_evidencias": 8,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 28",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 30, parágrafo único",
         "Código de Ética do/a Assistente Social | Art. 28, parágrafo único",
-        "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 30, parágrafo único",
         "Resolução nº 861/2018 | Resolução nº 861/2018 — trecho (p. 1)",
+        "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
         "Código de Ética do/a Assistente Social | Art. 17",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Código de Ética do/a Assistente Social | Art. 26"
@@ -330,10 +332,10 @@
       "n_evidencias": 8,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 5º, alínea f",
-        "Lei nº 8.662/1993 | Art. 5º-A",
         "Resolução nº 512/2007 | Art. 11, inciso V",
         "Resolução 782/2016 | Art. 5º, inciso III",
         "Código de Ética do/a Assistente Social | Art. 5º, alínea e",
+        "Lei nº 8.662/1993 | Art. 5º-A",
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
         "Lei nº 12.317/2010 | Art. 1º",
         "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)"
@@ -493,7 +495,7 @@
         "Resolução nº 557/2009 | Art. 2º",
         "Resolução nº 557/2009 | Resolução nº 557/2009 — trecho (p. 1)",
         "Resolução nº 569/2010 | Resolução nº 569/2010 — trecho (p. 1)",
-        "Resolução nº 934/2020 | Art. 6º"
+        "Código de Ética do/a Assistente Social | Art. 20, alínea b"
       ],
       "ok": true
     },
@@ -620,8 +622,8 @@
         "Resolução nº 557/2009 | Art. 1º",
         "Resolução nº 557/2009 | Art. 2º",
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
-        "Resolução nº 557/2009 | Resolução nº 557/2009 — trecho (p. 1)",
         "Resolução nº 569/2010 | Resolução nº 569/2010 — trecho (p. 1)",
+        "Resolução nº 557/2009 | Resolução nº 557/2009 — trecho (p. 1)",
         "Resolução nº 1.114/2025 | Art. 10, § 1º",
         "Resolução nº 569/2010 | Art. 3º, § 1º",
         "Resolução 1031/2023 | Art. 1º"
@@ -645,8 +647,8 @@
         "Resolução nº 533/2008 | Art. 4º, inciso II",
         "Resolução 782/2016 | Art. 5º, inciso V",
         "Orientação Normativa 2/2018 | Orientação Normativa 2/2018 — trecho (p. 3)",
-        "Lei nº 8.662/1993 | Art. 5º, inciso IV",
         "Lei nº 8.662/1993 | Art. 14, parágrafo único",
+        "Lei nº 8.662/1993 | Art. 5º, inciso IV",
         "Resolução nº 557/2009 | Art. 1º"
       ],
       "ok": true
@@ -684,7 +686,7 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 8,
+      "n_evidencias": 7,
       "evidencias": [
         "Lei nº 8.662/1993 | Art. 4º, inciso V",
         "Resolução nº 569/2010 | Art. 3º, § 1º",
@@ -692,8 +694,7 @@
         "Lei nº 8.662/1993 | Art. 4º, inciso III",
         "Resolução nº 845/2018 | Resolução nº 845/2018 — trecho (p. 1)",
         "Resolução 1054/2023 | Resolução 1054/2023 — trecho (p. 2)",
-        "Código de Ética do/a Assistente Social | Art. 2º, alínea i",
-        "Resolução nº 418/2001 | Art. 10"
+        "Código de Ética do/a Assistente Social | Art. 2º, alínea i"
       ],
       "ok": true
     },
@@ -714,8 +715,8 @@
         "Lei nº 8.662/1993 | Art. 5º, inciso I",
         "Resolução 782/2016 | Art. 5º, inciso V",
         "Lei nº 8.662/1993 | Art. 4º, inciso II",
-        "Orientação Normativa 2/2018 | Orientação Normativa 2/2018 — trecho (p. 2)",
         "Orientação Normativa 2/2018 | Orientação Normativa 2/2018 — trecho (p. 3)",
+        "Orientação Normativa 2/2018 | Orientação Normativa 2/2018 — trecho (p. 2)",
         "Resolução nº 418/2001 | Art. 10"
       ],
       "ok": true
@@ -782,8 +783,8 @@
         "Resolução nº 1.114/2025 | Art. 5º",
         "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
         "Resolução 782/2016 | Art. 5º, inciso V",
-        "Resolução nº 1.114/2025 | Art. 10, § 2º",
         "Resolução nº 1.114/2025 | Art. 4º, inciso III",
+        "Resolução nº 1.114/2025 | Art. 10, § 2º",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)"
       ],
       "ok": true
@@ -826,8 +827,8 @@
         "Código de Ética do/a Assistente Social | Art. 13, alínea a",
         "Resolução 782/2016 | Art. 5º, inciso III",
         "Código de Ética do/a Assistente Social | Art. 7º, alínea a",
-        "Lei nº 8.662/1993 | Art. 5º-A",
         "Resolução nº 1.114/2025 | Art. 3º, inciso II",
+        "Lei nº 8.662/1993 | Art. 5º-A",
         "Resolução nº 1.114/2025 | Art. 15",
         "Lei nº 12.317/2010 | Art. 1º",
         "Código de Ética do/a Assistente Social | Art. 8º, alínea b"
@@ -919,10 +920,10 @@
         "Resolução nº 557/2009 | Art. 3º",
         "Resolução nº 512/2007 | Art. 18",
         "Lei nº 8.662/1993 | Art. 5º-A",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 18",
         "Lei nº 12.317/2010 | Art. 1º",
         "Resolução nº 557/2009 | Art. 3º, parágrafo único",
-        "Resolução 782/2016 | Art. 5º, inciso III",
-        "Resolução nº 569/2010 | Art. 3º, § 1º"
+        "Resolução 782/2016 | Art. 5º, inciso III"
       ],
       "ok": true
     },
@@ -940,12 +941,12 @@
       "evidencias": [
         "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
         "Resolução nº 590/2010 | Art. 8º",
-        "Resolução nº 512/2007 | Art. 13, inciso XIII",
         "Código de Ética do/a Assistente Social | Art. 6º, alínea c",
+        "Resolução nº 512/2007 | Art. 13, inciso XIII",
         "Resolução nº 533/2008 | Art. 1º",
-        "Resolução nº 512/2007 | Art. 11, inciso XV, alínea b",
+        "Resolução nº 1.114/2025 | Art. 11",
         "Resolução n° 1.098/2025 | Art. 2º, parágrafo único",
-        "Resolução nº 1.114/2025 | Art. 11"
+        "Resolução nº 512/2007 | Art. 11, inciso XV, alínea b"
       ],
       "ok": false
     },
@@ -1027,8 +1028,8 @@
         "Resolução nº 533/2008 | Art. 4º, inciso II",
         "Resolução nº 533/2008 | Art. 4º, inciso I",
         "Lei nº 8.662/1993 | Art. 14, parágrafo único",
-        "Resolução nº 512/2007 | Art. 11, inciso IV",
         "Resolução nº 533/2008 | Art. 1º, inciso I",
+        "Resolução nº 512/2007 | Art. 11, inciso IV",
         "Resolução nº 512/2007 | Art. 19, inciso IV",
         "Resolução nº 533/2008 | Resolução nº 533/2008 — trecho (p. 1)"
       ],
@@ -1048,9 +1049,9 @@
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 4º, alínea e",
         "Resolução nº 533/2008 | Art. 4º, inciso II",
-        "Código de Ética do/a Assistente Social | Art. 8º, alínea b",
         "Resolução nº 533/2008 | Art. 8º, inciso IV",
         "Resolução nº 533/2008 | Art. 8º, inciso II",
+        "Código de Ética do/a Assistente Social | Art. 8º, alínea b",
         "Resolução nº 533/2008 | Art. 3º, parágrafo único",
         "Resolução 782/2016 | Art. 5º, inciso V",
         "Código de Ética do/a Assistente Social | Art. 9º, alínea b"
@@ -1158,17 +1159,17 @@
       "referencias": 1,
       "referencias_no_acervo": 1,
       "recuperadas": 1,
-      "primeira_posicao": 3,
+      "primeira_posicao": 2,
       "n_evidencias": 8,
       "evidencias": [
         "Resolução 1.014/2022 | Art. 39",
-        "Resolução 1.014/2022 | Art. 37",
         "Código de Ética do/a Assistente Social | Art. 3º, alínea b",
         "Resolução 1.068/2024 | Art. 37",
         "Resolução 1.014/2022 | Art. 37",
         "Código de Ética do/a Assistente Social | Art. 2º, alínea h",
         "Resolução n.º 707/2015 | Art. 69",
-        "Resolução 782/2016 | Art. 5º, inciso VIII"
+        "Resolução 782/2016 | Art. 5º, inciso VIII",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 14"
       ],
       "ok": true
     },
@@ -1261,12 +1262,13 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 5,
+      "n_evidencias": 6,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 5º, alínea h",
         "Lei nº 8.662/1993 | Art. 5º-A",
         "Lei nº 12.317/2010 | Art. 1º",
         "Resolução 782/2016 | Art. 5º, inciso III",
+        "Código de Ética do/a Assistente Social | Art. 5º, alínea f",
         "Resolução nº 512/2007 | Art. 11, inciso V"
       ],
       "ok": true
@@ -1284,13 +1286,13 @@
       "n_evidencias": 8,
       "evidencias": [
         "Resolução nº 569/2010 | Art. 3º, § 1º",
-        "Resolução n° 1.098/2025 | Art. 13",
         "Resolução CFESS nº 273/1993 | Art. 2º",
+        "Resolução n° 1.098/2025 | Art. 13",
         "Código de Ética do/a Assistente Social | Art. 4º, alínea g",
         "Resolução n° 1.098/2025 | Art. 9º",
         "Resolução n.º 707/2015 | Art. 69",
-        "Resolução n° 1.098/2025 | Art. 13, § 2º",
-        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)"
+        "Lei nº 8.662/1993 | Art. 17",
+        "Resolução n° 1.098/2025 | Art. 13, § 2º"
       ],
       "ok": false
     },
@@ -1329,8 +1331,8 @@
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 10, alínea f",
         "Código de Ética do/a Assistente Social | Art. 4º, alínea h",
-        "Código de Ética do/a Assistente Social | Art. 23",
         "Resolução 992/2022 | Art. 5º",
+        "Código de Ética do/a Assistente Social | Art. 23",
         "Resolução 970/2021 | Art. 1º",
         "Código de Ética do/a Assistente Social | Art. 13, alínea b",
         "Resolução 1.084/2024 | Art. 3º, inciso X",
@@ -1365,17 +1367,17 @@
       "referencias": 1,
       "referencias_no_acervo": 1,
       "recuperadas": 1,
-      "primeira_posicao": 5,
+      "primeira_posicao": 6,
       "n_evidencias": 8,
       "evidencias": [
         "Resolução 1.073/2024 | Art. 2º",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 60",
         "Resolução nº 557/2009 | Art. 2º",
         "Resolução nº 489/2006 | Art. 7º",
         "Resolução nº 1.114/2025 | Art. 9º",
         "Código de Ética do/a Assistente Social | Art. 2º, alínea i",
         "Resolução nº 861/2018 | Art. 2º",
-        "Resolução 992/2022 | Art. 7º",
-        "Lei nº 8.662/1993 | Art. 10, inciso V"
+        "Resolução 992/2022 | Art. 7º"
       ],
       "ok": true
     },
@@ -1526,10 +1528,10 @@
         "Código de Ética — Princípios Fundamentais | Princípio fundamental VIII",
         "Código de Ética do/a Assistente Social | Art. 4º, alínea c",
         "Código de Ética do/a Assistente Social | Art. 22, alínea b",
-        "Resolução nº 594/2011 | Art. 1º",
         "Código de Ética do/a Assistente Social | Art. 11, alínea b",
-        "Lei nº 8.662/1993 | Art. 16, inciso II",
-        "Código de Ética do/a Assistente Social | Art. 21, alínea a"
+        "Resolução nº 594/2011 | Art. 1º",
+        "Código de Ética do/a Assistente Social | Art. 21, alínea a",
+        "Lei nº 8.662/1993 | Art. 16, inciso II"
       ],
       "ok": true
     },
@@ -1551,8 +1553,8 @@
         "Lei nº 8.662/1993 | Art. 14, parágrafo único",
         "Resolução nº 533/2008 | Resolução nº 533/2008 — trecho (p. 1)",
         "Resolução 782/2016 | Art. 5º, inciso V",
-        "Resolução nº 533/2008 | Art. 8º, inciso II",
-        "Resolução nº 533/2008 | Art. 8º, inciso IV"
+        "Resolução nº 533/2008 | Art. 8º, inciso IV",
+        "Resolução nº 533/2008 | Art. 8º, inciso II"
       ],
       "ok": true
     },
@@ -1595,9 +1597,9 @@
         "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
         "Resolução 1031/2023 | Art. 2º, inciso VI",
         "Resolução 782/2016 | Art. 5º, inciso V",
-        "Código de Ética do/a Assistente Social | Art. 8º, alínea b",
-        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Lei nº 8.662/1993 | Art. 4º, inciso XI",
+        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
+        "Código de Ética do/a Assistente Social | Art. 7º, alínea b",
         "Resolução 1.084/2024 | Art. 3º, inciso XIV"
       ],
       "ok": false
@@ -1619,9 +1621,9 @@
         "Código de Ética do/a Assistente Social | Art. 11, alínea c",
         "Código de Ética do/a Assistente Social | Art. 4º",
         "Código de Ética do/a Assistente Social | Art. 19, alínea a",
-        "Resolução 1031/2023 | Art. 2º, inciso VI",
         "Código de Ética do/a Assistente Social | Art. 6º",
-        "Código de Ética do/a Assistente Social | Art. 11"
+        "Código de Ética do/a Assistente Social | Art. 11",
+        "Código de Ética do/a Assistente Social | Art. 20"
       ],
       "ok": true
     },
@@ -1680,7 +1682,7 @@
         "Resolução nº 533/2008 | Art. 3º, parágrafo único",
         "Anexo ou texto subsequente (a partir da p. 3) | Art. 18, § 3º",
         "Resolução 785/2016 | Art. 4º",
-        "Resolução 988/2022 | Art. 28"
+        "Resolução 1.015/2022 (atualizada com modificação inserida pela Resolução 1.018/2023) | Art. 14"
       ],
       "ok": true
     },
@@ -1830,12 +1832,12 @@
       "evidencias": [
         "Resolução nº 557/2009 | Art. 2º",
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
-        "Resolução nº 590/2010 | Art. 9º",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 2)",
         "Código de Ética do/a Assistente Social | Art. 20, alínea b",
-        "Resolução 1.073/2024 | Art. 8º",
-        "Resolução 782/2016 | Art. 5º, inciso V"
+        "Resolução nº 590/2010 | Art. 9º",
+        "Resolução 782/2016 | Art. 5º, inciso V",
+        "Resolução 1.073/2024 | Art. 8º"
       ],
       "ok": true
     },
@@ -1851,14 +1853,14 @@
       "primeira_posicao": null,
       "n_evidencias": 8,
       "evidencias": [
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 60",
         "Código de Ética do/a Assistente Social | Art. 28, parágrafo único",
         "Lei nº 8.662/1993 | Art. 10, inciso V",
         "Resolução nº 861/2018 | Art. 1º",
         "Código de Ética do/a Assistente Social | Art. 32",
         "Resolução 970/2021 | Art. 4º",
         "Código de Ética do/a Assistente Social | Art. 23",
-        "Resolução n.º 657/2013 | Art. 1º, parágrafo único",
-        "Resolução n.º 657/2013 | Art. 1º"
+        "Resolução nº 657/2013 | Art. 1º, parágrafo único"
       ],
       "ok": false
     },
@@ -1879,8 +1881,8 @@
         "Anexo ou texto subsequente (a partir da p. 3) | Art. 33",
         "Resolução nº 954/2020 | Art. 1º, parágrafo único",
         "Resolução nº 861/2018 | Art. 1º",
-        "Resolução nº 569/2010 | Art. 3º, § 1º",
         "Anexo ou texto subsequente (a partir da p. 3) | Art. 29, inciso IV",
+        "Resolução nº 569/2010 | Art. 3º, § 1º",
         "Anexo ou texto subsequente (a partir da p. 3) | Art. 37, inciso III"
       ],
       "ok": false
@@ -1895,9 +1897,10 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 2,
+      "n_evidencias": 3,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 32",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 73",
         "Resolução 1.013/2022 | Resolução 1.013/2022 — trecho (p. 1)"
       ],
       "ok": true
@@ -1917,11 +1920,11 @@
         "Código de Ética do/a Assistente Social | Art. 31",
         "Resolução nº 548/2009 | Art. 14",
         "Lei nº 8.662/1993 | Art. 8º, inciso VI",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 60",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 48",
         "Resolução 1.014/2022 | Art. 4º",
         "Resolução 1.015/2022 (atualizada com modificação inserida pela Resolução 1.018/2023) | Art. 25",
-        "Resolução nº 548/2009 | Art. 9º",
-        "Resolução 1.014/2022 | Art. 20",
-        "Resolução 1.015/2022 (atualizada com modificação inserida pela Resolução 1.018/2023) | Art. 20"
+        "Resolução nº 548/2009 | Art. 9º"
       ],
       "ok": true
     },
@@ -1940,11 +1943,11 @@
         "Código de Ética do/a Assistente Social | Art. 30",
         "Anexo ou texto subsequente (a partir da p. 3) | Art. 34",
         "Resolução 1.014/2022 | Art. 25, inciso II",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 14",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 61",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 48",
         "Anexo ou texto subsequente (a partir da p. 3) | Art. 34, § 2º",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 6º, parágrafo único",
-        "Resolução nº 934/2020 | Art. 4º, inciso I",
-        "Resolução nº 934/2020 | Art. 4º, inciso III",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 34, § 1º"
+        "Resolução nº 934/2020 | Art. 4º, inciso I"
       ],
       "ok": true
     },
@@ -2025,12 +2028,12 @@
       "n_evidencias": 8,
       "evidencias": [
         "Lei nº 8.662/1993 | Art. 10, inciso II",
-        "Resolução nº 1.114/2025 | Art. 18",
         "Resolução nº 512/2007 | Art. 11, inciso VIII",
+        "Resolução nº 1.114/2025 | Art. 18",
         "Lei nº 8.662/1993 | Art. 8º, inciso I",
         "Resolução 782/2016 | Art. 5º, inciso VIII",
-        "Resolução nº 512/2007 | Art. 11, inciso VI",
         "Resolução nº 572/2010 | Art. 4º, § 1º",
+        "Resolução nº 512/2007 | Art. 11, inciso VI",
         "Resolução nº 512/2007 | Art. 21, inciso V"
       ],
       "ok": true
@@ -2047,14 +2050,14 @@
       "primeira_posicao": null,
       "n_evidencias": 8,
       "evidencias": [
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 4º",
         "Resolução nº 548/2009 | Art. 1º",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 1º",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 10",
         "Resolução nº 489/2006 | Art. 6º",
-        "Resolução 1031/2023 | Art. 4º",
         "Resolução 1054/2023 | Resolução 1054/2023 — trecho (p. 2)",
-        "Código de Ética — Princípios Fundamentais | Princípio fundamental XI",
-        "Resolução 1.015/2022 (atualizada com modificação inserida pela Resolução 1.018/2023) | Art. 7º",
-        "Código de Ética — Princípios Fundamentais | Princípio fundamental VI",
-        "Orientação Normativa 2/2018 | Orientação Normativa 2/2018 — trecho (p. 3)"
+        "Resolução 1031/2023 | Art. 4º",
+        "Código de Ética — Princípios Fundamentais | Princípio fundamental XI"
       ],
       "ok": false
     },
@@ -2094,13 +2097,13 @@
       "n_evidencias": 8,
       "evidencias": [
         "Resolução nº 533/2008 | Art. 4º, inciso II",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 5º, § 2º",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 5º",
         "Resolução nº 533/2008 | Art. 8º, inciso IV",
         "Resolução nº 533/2008 | Art. 8º, inciso II",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 5º, § 2º",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 5º",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 2º",
         "Resolução 782/2016 | Art. 5º, inciso VI",
-        "Resolução nº 533/2008 | Art. 3º, parágrafo único",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 5º, § 1º"
+        "Resolução nº 533/2008 | Art. 3º, parágrafo único"
       ],
       "ok": false
     },
@@ -2166,10 +2169,10 @@
         "Orientação Normativa 1/2018 | Orientação Normativa 1/2018 — trecho (p. 4)",
         "Código de Ética do/a Assistente Social | Art. 3º, alínea c",
         "Resolução nº 572/2010 | Art. 4º, § 1º",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 5º",
         "Resolução nº 512/2007 | Art. 11, inciso XII",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 5º, § 2º",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 5º, § 1º"
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 5º",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 2º",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 5º, § 2º"
       ],
       "ok": true
     },
@@ -2189,8 +2192,8 @@
         "Resolução 1.084/2024 | Art. 5º",
         "Resolução nº 533/2008 | Art. 2º, parágrafo único",
         "Resolução nº 1.114/2025 | Resolução nº 1.114/2025 — trecho (p. 1)",
-        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Resolução nº 512/2007 | Art. 13, inciso X",
+        "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Resolução 782/2016 | Art. 5º, inciso VIII",
         "Resolução nº 828/2017 | Art. 17, inciso II"
       ],
@@ -2213,9 +2216,9 @@
         "Resolução nº 954/2020 | Art. 1º, parágrafo único",
         "Resolução 970/2021 | Resolução 970/2021 — trecho (p. 1)",
         "Resolução nº 954/2020 | Resolução nº 954/2020 — trecho (p. 1)",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 27",
         "Código de Ética do/a Assistente Social | Art. 22",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 13, parágrafo único",
-        "Anexo ou texto subsequente (a partir da p. 3) | Art. 29"
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 13, parágrafo único"
       ],
       "ok": true
     },
@@ -2236,8 +2239,8 @@
         "Resolução 782/2016 | Art. 5º, inciso IV",
         "Resolução n° 1.098/2025 | Art. 15, § 3º",
         "Resolução nº 512/2007 | Art. 3º",
-        "Resolução nº 557/2009 | Art. 2º",
         "Resolução n° 1.098/2025 | Art. 15, § 2º",
+        "Resolução nº 557/2009 | Art. 2º",
         "Resolução nº 556/2009 | Art. 1º"
       ],
       "ok": true
@@ -2259,9 +2262,9 @@
         "Resolução nº 557/2009 | Art. 2º",
         "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 3º",
         "Resolução nº 557/2009 | Resolução nº 557/2009 — trecho (p. 1)",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)",
         "Resolução nº 557/2009 | Art. 4º, § 2º",
-        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Art. 2º"
+        "Resolução nº 559/2009 (efeitos suspensos por decisão judicial) | Resolução nº 559/2009 (efeitos suspensos por decisão judicial) — trecho (p. 1)",
+        "Resolução nº 557/2009 | Art. 4º"
       ],
       "ok": true
     },
@@ -2280,9 +2283,9 @@
         "Resolução nº 1.147/2026 | Art. 2º, alínea a",
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
         "Resolução nº 557/2009 | Art. 2º",
-        "Lei nº 8.662/1993 | Art. 16, inciso II",
         "Resolução nº 557/2009 | Art. 1º",
         "Lei nº 8.662/1993 | Art. 10, inciso V",
+        "Lei nº 8.662/1993 | Art. 16, inciso II",
         "Código de Ética do/a Assistente Social | Art. 19, alínea a",
         "Resolução CFESS nº 273/1993 | Art. 3º"
       ],
@@ -2329,8 +2332,8 @@
         "Código de Ética do/a Assistente Social | Art. 18",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Código de Ética do/a Assistente Social | Art. 20, alínea a",
-        "Resolução n° 1.098/2025 | Art. 7º",
-        "Resolução nº 1.114/2025 | Art. 8º"
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 46",
+        "Resolução n° 1.098/2025 | Art. 7º"
       ],
       "ok": true
     },
@@ -2369,14 +2372,14 @@
       "primeira_posicao": null,
       "n_evidencias": 8,
       "evidencias": [
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 10",
         "Resolução nº 934/2020 | Art. 4º, inciso III",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 11",
         "Resolução nº 548/2009 | Art. 5º, § 2º",
-        "Resolução nº 548/2009 | Art. 7º, parágrafo único",
-        "Resolução nº 934/2020 | Art. 4º, inciso II",
-        "Resolução nº 548/2009 | Art. 7º, parágrafo único",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 4º",
         "Resolução nº 548/2009 | Art. 5º, § 1º",
-        "Resolução nº 548/2009 | Art. 5º",
-        "Resolução nº 548/2009 | Art. 1º"
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 76, inciso IV",
+        "Resolução nº 934/2020 | Art. 4º, inciso II"
       ],
       "ok": false
     },
@@ -2416,8 +2419,8 @@
       "n_evidencias": 8,
       "evidencias": [
         "Apresentação à edição de 2011 | Apresentação à edição de 2011 — trecho (p. 14)",
-        "Orientação Normativa 2/2018 | Orientação Normativa 2/2018 — trecho (p. 1)",
         "Resolução 970/2021 | Art. 4º",
+        "Orientação Normativa 2/2018 | Orientação Normativa 2/2018 — trecho (p. 1)",
         "Lei nº 8.662/1993 | Art. 1º",
         "Código de Ética do/a Assistente Social | Art. 25",
         "Resolução nº 1.114/2025 | Art. 14, parágrafo único",
@@ -2486,8 +2489,8 @@
         "Resolução 1031/2023 | Art. 5º",
         "Resolução nº 533/2008 | Art. 3º, parágrafo único",
         "Lei nº 8.662/1993 | Art. 5º, inciso IV",
-        "Resolução nº 557/2009 | Art. 2º",
-        "Resolução nº 1.114/2025 | Art. 3º, inciso III"
+        "Resolução nº 1.114/2025 | Art. 3º, inciso III",
+        "Resolução n° 1.098/2025 | Art. 3º"
       ],
       "ok": false
     },
@@ -2506,11 +2509,11 @@
         "Resolução nº 533/2008 | Art. 4º, inciso II",
         "Resolução 1.068/2024 | Art. 37",
         "Resolução 1.014/2022 | Art. 37",
-        "Resolução 1.014/2022 | Art. 37",
-        "Resolução nº 533/2008 | Art. 8º, inciso II",
         "Resolução nº 533/2008 | Art. 8º, inciso IV",
+        "Resolução nº 533/2008 | Art. 8º, inciso II",
         "Resolução nº 418/2001 | Art. 10",
-        "Lei nº 8.662/1993 | Art. 14, parágrafo único"
+        "Lei nº 8.662/1993 | Art. 14, parágrafo único",
+        "Resolução 1.068/2024 | Art. 37, inciso I"
       ],
       "ok": true
     },
@@ -2527,13 +2530,13 @@
       "n_evidencias": 8,
       "evidencias": [
         "Resolução nº 1.114/2025 | Art. 6º, parágrafo único, inciso I",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 14",
         "Anexo ou texto subsequente (a partir da p. 3) | Art. 6º, parágrafo único",
         "Resolução 1.014/2022 | Art. 27",
-        "Resolução 1.014/2022 | Art. 22",
         "Resolução n° 1.098/2025 | Art. 11, § 1º",
-        "Resolução 1031/2023 | Art. 3º, inciso II",
-        "Resolução 1.014/2022 | Art. 31, inciso III",
-        "Resolução 1.015/2022 (atualizada com modificação inserida pela Resolução 1.018/2023) | Art. 14"
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 3º",
+        "Resolução 1.014/2022 | Art. 22",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 24"
       ],
       "ok": true
     },
@@ -2551,12 +2554,12 @@
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 18, parágrafo único",
         "Código de Ética do/a Assistente Social | Art. 17",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 34",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 17",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 46",
         "Resolução n° 1.098/2025 | Art. 14",
-        "Resolução n° 1.098/2025 | Art. 12, § 1º",
-        "Resolução n° 1.098/2025 | Art. 15, § 3º",
-        "Código de Ética do/a Assistente Social | Art. 18",
-        "Resolução nº 923/2019 | Art. 2º, inciso IX",
-        "Resolução nº 952/2020 | Art. 5º, § 2º"
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 21",
+        "Resolução n° 1.098/2025 | Art. 12, § 1º"
       ],
       "ok": true
     },
@@ -2574,12 +2577,12 @@
       "evidencias": [
         "Lei nº 8.662/1993 | Art. 5º-A",
         "Lei nº 12.317/2010 | Art. 1º",
-        "Código de Ética do/a Assistente Social | Art. 19, alínea b",
         "Resolução 782/2016 | Art. 5º, inciso III",
+        "Código de Ética do/a Assistente Social | Art. 19, alínea b",
         "Resolução nº 533/2008 | Art. 3º, parágrafo único",
+        "Anexo ou texto subsequente (a partir da p. 3) | Art. 27",
         "Anexo ou texto subsequente (a partir da p. 3) | Art. 30, inciso I",
-        "Código de Ética do/a Assistente Social | Art. 22, alínea e",
-        "Código de Ética do/a Assistente Social | Art. 4º, alínea i"
+        "Código de Ética do/a Assistente Social | Art. 22, alínea e"
       ],
       "ok": null
     },
@@ -2609,15 +2612,14 @@
       "referencias_no_acervo": 1,
       "recuperadas": 1,
       "primeira_posicao": 1,
-      "n_evidencias": 7,
+      "n_evidencias": 6,
       "evidencias": [
         "Código de Ética do/a Assistente Social | Art. 5º, alínea b",
         "Orientacão Normativa 4/2020 | Orientacão Normativa 4/2020 — trecho (p. 1)",
         "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
         "Código de Ética do/a Assistente Social | Art. 20, alínea a",
         "Orientação Normativa 3/2020 | Orientação Normativa 3/2020 — trecho (p. 2)",
-        "Resolução nº 1.114/2025 | Art. 4º, inciso IV",
-        "Resolução nº 548/2009 | Art. 5º, § 1º"
+        "Resolução nº 1.114/2025 | Art. 4º, inciso IV"
       ],
       "ok": true
     },
@@ -2638,8 +2640,8 @@
         "Resolução nº 594/2011 | Art. 3º",
         "Resolução nº 489/2006 | Art. 3º",
         "Resolução nº 594/2011 | Resolução nº 594/2011 — trecho (p. 1)",
-        "Resolução 1054/2023 | Resolução 1054/2023 — trecho (p. 2)",
         "Resolução nº 489/2006 | Art. 4º",
+        "Resolução 1054/2023 | Resolução 1054/2023 — trecho (p. 2)",
         "Resolução nº 489/2006 | Art. 5º"
       ],
       "ok": true
@@ -2677,12 +2679,12 @@
       "evidencias": [
         "Resolução 1.014/2022 | Art. 38, inciso II",
         "Lei nº 8.662/1993 | Art. 17",
-        "Resolução 1.014/2022 | Art. 37",
         "Resolução n.º 707/2015 | Art. 69",
         "Resolução n.º 707/2015 | Resolução n.º 707/2015 — trecho (p. 1)",
         "Resolução 988/2022 | Art. 24, inciso III",
         "Resolução 785/2016 | Resolução 785/2016 — trecho (p. 1)",
-        "Resolução 1.014/2022 | Art. 5º"
+        "Resolução 1.014/2022 | Art. 5º",
+        "Resolução CFESS nº 273/1993 | Art. 2º"
       ],
       "ok": true
     },
@@ -2698,11 +2700,11 @@
       "primeira_posicao": 3,
       "n_evidencias": 8,
       "evidencias": [
-        "Lei nº 8.662/1993 | Art. 18",
         "Código de Ética do/a Assistente Social | Art. 9º, alínea a",
+        "Lei nº 8.662/1993 | Art. 18",
         "Lei nº 8.662/1993 | Art. 10, inciso I",
-        "Resolução 1.014/2022 | Art. 8º",
         "Resolução nº 557/2009 | Art. 6º",
+        "Resolução 1.014/2022 | Art. 8º",
         "Resolução n° 1.098/2025 | Art. 15, § 2º",
         "Resolução nº 512/2007 | Art. 13, inciso III",
         "Resolução 782/2016 | Art. 5º, inciso V"
@@ -2728,7 +2730,7 @@
         "Resolução nº 828/2017 | Art. 17, inciso II",
         "Resolução nº 557/2009 | Art. 1º",
         "Resolução nº 1.114/2025 | Art. 15, § 3º",
-        "Resolução 1.014/2022 | Art. 37"
+        "Resolução n° 1.098/2025 | Art. 15, § 3º"
       ],
       "ok": true
     }

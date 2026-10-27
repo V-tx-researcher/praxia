@@ -1,0 +1,68 @@
+{
+  "id": "cfess-resolucao-968-2021-p214",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 968/2021",
+  "numero": "968",
+  "ano": 2021,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Determina que os prazos processuais voltam a fluir para todos os efeitos de direito e disciplina a realização dos atos processuais por meio remoto – REVOGA a Resolução Cfess nº 940 de 23 de março de 2020, que trata da suspensão dos prazos processuais",
+  "data_publicacao": "2021-04-17",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/214/resolucao-9682021",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:16+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): fora do escopo (legislação social, MEC/EAD, ato administrativo ou portaria)"
+    }
+  ],
+  "portal": {
+    "id": "214",
+    "assinatura_pagina": "325864719174e683d2e95e80ffff8eaa0c524bc9796dde72ac0119e3f780c49e",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4232/RsCfess96821compilada.pdf",
+        "nome": "RsCfess96821compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:16+00:00"
+  }
+}

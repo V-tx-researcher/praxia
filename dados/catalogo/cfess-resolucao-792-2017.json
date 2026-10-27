@@ -106,8 +106,8 @@
   "qualidade_extracao": {
     "paginas": 5,
     "paginas_sem_texto": 0,
-    "caracteres": 11497,
-    "media_caracteres_pagina": 2299.4,
+    "caracteres": 11452,
+    "media_caracteres_pagina": 2290.4,
     "proporcao_letras": 0.767,
     "caracteres_substituicao": 0,
     "classificacao": "boa"
@@ -115,7 +115,8 @@
   "alertas": [
     "duplicata_de:cfess-resolucao-1031-2023",
     "portal_indica_situacao:REVOGADA",
-    "portal_indica_situacao:Revogada integralmente pela Resolução CFESS nº 1031/2023 - Institui a Anotação da Responsabilidade Técnica no âmbito do "
+    "portal_indica_situacao:Revogada integralmente pela Resolução CFESS nº 1031/2023 - Institui a Anotação da Responsabilidade Técnica no âmbito do ",
+    "texto_riscado_removido:45"
   ],
   "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
@@ -160,6 +161,48 @@
       "data": "2026-10-27T03:32:04+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:04+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: remoção de texto tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:04+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:45+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:45+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: pontuação no tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {
@@ -178,5 +221,11 @@
     "externos": [],
     "descoberto_em": "2026-10-26T21:21:38+00:00"
   },
-  "observacao_portal": "A página oficial anexa a versão compilada da Res. 1.031/2023, que a revogou; o texto original da 792/2017 não está disponível."
+  "observacao_portal": "A página oficial anexa a versão compilada da Res. 1.031/2023, que a revogou; o texto original da 792/2017 não está disponível.",
+  "texto_riscado_removido": [
+    {
+      "pagina": 2,
+      "texto": "comprovante de vínculo de trabalho remunerado"
+    }
+  ]
 }

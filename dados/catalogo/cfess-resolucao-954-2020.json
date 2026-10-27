@@ -197,6 +197,34 @@
       "data": "2026-10-27T03:32:05+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: remoção de texto tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:46+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:46+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {
@@ -232,5 +260,6 @@
       "texto": "I - a alínea “c” do artigo 22 e o parágrafo único do artigo 25 da Resolução CFESS nº 273/1993.",
       "origem": "transcrição do revisor a partir do PDF oficial (Atividade nº 1, 27/10/2026)"
     }
-  ]
+  ],
+  "observacao_portal": "O portal publica também uma versão compilada (cfess-resolucao-954-2020-p215), cuja leitura automática saiu ilegível; até haver OCR, este texto original é a referência."
 }

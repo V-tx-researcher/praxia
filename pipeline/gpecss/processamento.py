@@ -86,14 +86,21 @@ def processar(doc_id: str, log=print) -> dict:
         raise RuntimeError(f"{doc_id}: arquivo local não corresponde ao SHA-256 registrado")
 
     if principal["tipo_mime"] == "application/pdf":
-        paginas = extracao.extrair_pdf(caminho)
+        riscados: list[str] = []
+        paginas = extracao.extrair_pdf(caminho, riscados)
+        # Texto tachado (redação revogada em versões compiladas) não entra no texto
+        # canônico; fica registrado para a conferência humana.
+        if any(riscados):
+            reg["texto_riscado_removido"] = [{"pagina": i, "texto": r[:2000]} for i, r in enumerate(riscados, 1) if r]
+        else:
+            reg.pop("texto_riscado_removido", None)
         extrator = _versao_extrator()
     else:
         paginas = extracao.extrair_html_planalto(conteudo)
         extrator = "beautifulsoup4 (HTML do Planalto; trechos riscados removidos)"
     qualidade = extracao.avaliar_qualidade(paginas)
     reg["qualidade_extracao"] = qualidade
-    alertas = [a for a in reg["alertas"] if not a.startswith(("possivel_instrucao_embutida", "mapa_de_partes", "partes_detectadas", "anexo_ou_compilacao", "lacunas_na_extracao"))]
+    alertas = [a for a in reg["alertas"] if not a.startswith(("possivel_instrucao_embutida", "mapa_de_partes", "partes_detectadas", "anexo_ou_compilacao", "lacunas_na_extracao", "texto_riscado_removido"))]
     if qualidade["classificacao"] in {"requer_ocr", "falhou"}:
         if reg["estado_fluxo"] != "erro_extracao":
             transitar(reg, "erro_extracao", "processador", qualidade.get("motivo", "extração insuficiente"))
@@ -148,6 +155,9 @@ def processar(doc_id: str, log=print) -> dict:
     if injecao:
         alertas.append(f"possivel_instrucao_embutida:{len(injecao)}")
         reg["injecao_detectada"] = injecao[:20]
+    if reg.get("texto_riscado_removido"):
+        total = sum(len(x["texto"]) for x in reg["texto_riscado_removido"])
+        alertas.append(f"texto_riscado_removido:{total}")
     if not partes_manuais and len(seg["partes"]) > 1:
         alertas.append("anexo_ou_compilacao_detectado")
     reg["alertas"] = sorted(set(alertas))

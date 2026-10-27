@@ -93,6 +93,23 @@ class TestExtracao(unittest.TestCase):
         t = extracao.normalizar_pagina("  Art. 1º  Compete\r\nao  CFESS" + chr(0xA0) + "zelar  ")
         self.assertEqual(t, "Art. 1º  Compete\nao  CFESS zelar")
 
+    def test_tachado_no_pdf_compilado_real(self):
+        """A versão compilada da Res. 1.014/2022 traz redação revogada riscada; o Código de Ética não."""
+        ids = {"cfess-resolucao-1014-2022": True, "cfess-codigo-etica-1993": False}
+        for id_, espera_riscado in ids.items():
+            if not catalogo.existe(id_):
+                self.skipTest("acervo local ausente")
+            r = catalogo.carregar(id_)
+            arq = RAIZ / next(a for a in r["arquivos"] if a["papel"] == "principal")["caminho_local"]
+            if not arq.exists():
+                self.skipTest("PDF local ausente")
+            riscados = []
+            extracao.extrair_pdf(arq, riscados)
+            self.assertEqual(any(riscados), espera_riscado, id_)
+
+    def test_sequencias(self):
+        self.assertEqual(list(extracao._sequencias([1, 2, 3, 7, 9, 10])), [(1, 3), (7, 7), (9, 10)])
+
     def test_qualidade_ocr(self):
         self.assertEqual(extracao.avaliar_qualidade(["", " ", "12"])["classificacao"], "requer_ocr")
 

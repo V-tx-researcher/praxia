@@ -83,7 +83,15 @@ lote.documentos.forEach((d, i) => {
     corpo.push(p(t(d.pedido_extra)));
     corpo.push(caixa("Transcrição:", 3));
   }
-  corpo.push(subtitulo(d.pedido_extra ? "e) Observações" : "d) Observações"));
+  let letra = d.pedido_extra ? "e" : "d";
+  if (d.riscados && d.riscados.length) {
+    corpo.push(subtitulo(`${letra}) Trechos riscados retirados pelo sistema`));
+    corpo.push(p(t("O PDF traz trechos riscados (redação revogada). O sistema os retirou do texto pesquisável. Confirme que estão mesmo riscados no PDF:")));
+    corpo.push(tabela([700, 7438, 1500], ["Pág.", "Texto retirado (início)", "Riscado?"],
+      d.riscados.map((r) => [String(r.pagina), r.texto, "SIMNAO"]), [2]));
+    letra = String.fromCharCode(letra.charCodeAt(0) + 1);
+  }
+  corpo.push(subtitulo(`${letra}) Observações`));
   corpo.push(caixa("Algo a corrigir ou registrar sobre este documento:", 1));
 });
 

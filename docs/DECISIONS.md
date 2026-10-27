@@ -107,6 +107,25 @@ e não são exibidas ao público como fato.
 incluir todas as resoluções e documentos normativos do Conjunto CFESS-CRESS, não só
 uma seleção; atos administrativos continuam fora, mediante conferência.
 
+**D22 — 27/10/2026 — Texto tachado em versões compiladas.** O CFESS publica versões
+compiladas em que a redação revogada aparece riscada; a extração de texto não
+distingue o risco. A extração passa a detectar traços que cruzam a faixa central dos
+caracteres (o sublinhado, na base, não conta; sequências com menos de 3 caracteres
+são ignoradas) e retira esse texto do texto canônico, guardando-o em
+`texto_riscado_removido` para conferência. Afetou 13 documentos (ex.: 2.668
+caracteres na Res. 1.014/2022). Documentos normais não foram alterados (teste).
+
+**D23 — 27/10/2026 — Versões compiladas como referência.** Quando o portal publica
+o texto original e uma versão compilada, a compilada (com o tachado retirado) é a
+referência indexada e a original fica fora do índice (`texto_incorporado:`), salvo
+se a compilada for ilegível (`nao_indexar:`), como na Res. 954/2020. Páginas com
+arquivo idêntico a outro (`duplicata_de:`) não são indexadas.
+
+**D24 — 27/10/2026 — Coleta pela listagem geral.** O portal tem documentos sem
+categoria (ex.: Res. 660/2013, Código Processual de Ética); a descoberta passa a
+percorrer também a listagem geral (`--categorias 0 --apenas-novos`). Total no portal:
+682 páginas de legislação.
+
 ## Pendentes (dependem do responsável)
 
 **D-P3 — Busca semântica:** modelo de embeddings (ex.: multilingual-e5-small,

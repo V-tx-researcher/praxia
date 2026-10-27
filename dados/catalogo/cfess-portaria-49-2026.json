@@ -36,7 +36,7 @@
   },
   "qualidade_extracao": null,
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "fora_do_escopo",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +44,13 @@
       "data": "2026-10-27T03:31:25+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): fora do escopo (legislação social, MEC/EAD, ato administrativo ou portaria)"
     }
   ],
   "portal": {

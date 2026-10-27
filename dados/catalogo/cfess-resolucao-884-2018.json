@@ -1,0 +1,192 @@
+{
+  "id": "cfess-resolucao-884-2018",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 884/2018",
+  "numero": "884",
+  "ano": 2018,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta procedimento para cancelamento de inscrições que foram deferidas antes do conhecimento das irregularidades, nos casos previstos no parágrafo segundo do artigo 29, parágrafos únicos dos artigos 35 e 41, e artigo 54 da Resolução CFESS nº 582/2010 (Redação dada pela Resolução CFESS nº 900, de 1º de abril de 2019)",
+  "data_publicacao": "2018-10-23",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-582-2010",
+        "texto": "Resolução CFESS nº 582/2010",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei no 8662, de 07 de junho de 1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/219/resolucao-8842018",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4243/Res884-compilada-2019.pdf",
+      "papel": "principal",
+      "sha256": "d7d9e2249189715d27e7748a3e2b6f3bbc6de63471de73bb811a2976902d15a0",
+      "bytes": 200584,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:36:14+00:00",
+      "verificado_em": "2026-10-27T03:36:14+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-884-2018/d7d9e2249189715d.pdf",
+      "versao": "d7d9e2249189715d"
+    }
+  ],
+  "versao_atual": "d7d9e2249189715d",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 17,
+    "unidades": 21,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução 884/2018",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 7556,
+    "media_caracteres_pagina": 2518.7,
+    "proporcao_letras": 0.746,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "texto_riscado_removido:492"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:28+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:36:14+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:36:36+00:00",
+      "por": "processador",
+      "motivo": "22 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:36:36+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:04+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: remoção de texto tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:46+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:46+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: pontuação no tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "219",
+    "assinatura_pagina": "d44ca1b1925d5e8c447b207a93426a71506499f658cf13da0773f5f36216b574",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4243/Res884-compilada-2019.pdf",
+        "nome": "Res884-compilada-2019.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:28+00:00"
+  },
+  "texto_riscado_removido": [
+    {
+      "pagina": 1,
+      "texto": "EMENTA: Regulamenta procedimento para cancelamento deinscrições que foram deferidas antes do conhecimento dasirregularidades, nos casos previstos no parágrafo segundo doartigo 29, parágrafo único do artigo 41 da e artigo 54 daResolução CFESS no582/2010"
+    },
+    {
+      "pagina": 2,
+      "texto": "Art. 1Fica instituído procedimento, com fulcro no parágrafo segundo do artigo 29 e parágrafoúnico do artigo 41 da Resolução CFESS no582/2010, quando constatado(s) indícios deirregularidade(s) na documentação da/o interessada/o, em especial:"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "cfess-resolucao-660-2013",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução n°660/2013",
+  "numero": "660",
+  "ano": 2013,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre as normas que regulam o CÓDIGO PROCESSUAL DE ÉTICA, incluindo alterações que foram apresentadas pelo CFESS e pelos CRESS, revogando integralmente a Resolução CFESS nº 428 de 14 de maio de 2002.",
+  "data_publicacao": "2025-03-25",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-428-2002",
+        "texto": "Resolução CFESS nº 428/2002",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          2
+        ]
+      },
+      {
+        "referencia": "lei-8666-1993",
+        "texto": "Lei 8.666/1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          8
+        ]
+      },
+      {
+        "referencia": "lei-9873-1999",
+        "texto": "Lei 9873/1999",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          18
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/581/resolucao-n6602013",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5109/Resolução CFESS 660-2013 Compilada.pdf",
+      "papel": "principal",
+      "sha256": "b00db0c6fad6599c224f1dc7ff1b96e3c6bcb6d2fb45bf7f77b7dc1c2cacc31c",
+      "bytes": 163201,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:36:13+00:00",
+      "verificado_em": "2026-10-27T03:36:13+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-660-2013/b00db0c6fad6599c.pdf",
+      "versao": "b00db0c6fad6599c"
+    }
+  ],
+  "versao_atual": "b00db0c6fad6599c",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 19,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "dispositivos": 100,
+    "unidades": 104,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução n°660/2013",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "anexo-p3",
+        "rotulo": "Anexo ou texto subsequente (a partir da p. 3)",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 19,
+    "paginas_sem_texto": 0,
+    "caracteres": 44181,
+    "media_caracteres_pagina": 2325.3,
+    "proporcao_letras": 0.806,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "anexo_ou_compilacao_detectado",
+    "texto_riscado_removido:481"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:34:56+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:36:13+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:36:35+00:00",
+      "por": "processador",
+      "motivo": "105 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:36:35+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: remoção de texto tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:04+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:45+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:45+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: pontuação no tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "581",
+    "assinatura_pagina": "a6eeae73466acb91f339643a79bb3f81eebb90b1a86bab43a29359aba92a9bf6",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5109/Resolução CFESS 660-2013 Compilada.pdf",
+        "nome": "Resolução CFESS 660-2013 Compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:34:56+00:00"
+  },
+  "texto_riscado_removido": [
+    {
+      "pagina": 6,
+      "texto": "Parágrafo Segundo Os prazos são contínuos, não se interrompendo nos finais de semana, nemnos feriados"
+    },
+    {
+      "pagina": 18,
+      "texto": "Parágrafo Único A citação e/ou o conhecimento expresso, de que trata este artigo, ensejará adefesa escrita ou a termo, conforme o caso, a partir do qual recomeçará a fluir novo prazoprescricionalArt. 75 Todo processo disciplinar paralisado há mais de 2 (dois) anos, pendente de ato processualdespacho ou julgamento, será arquivado ex-ofício, ou a requerimento da parte interessada"
+    }
+  ]
+}

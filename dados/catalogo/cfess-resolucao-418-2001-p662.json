@@ -1,0 +1,193 @@
+{
+  "id": "cfess-resolucao-418-2001-p662",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução nº 418/2001",
+  "numero": "418",
+  "ano": 2001,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Tabela Referencial de Honorários do Serviço Social.",
+  "data_publicacao": "2001-09-05",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "referencia": "lei-8078",
+        "texto": "Lei 8078",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/662/resolucao-n-4182001-2",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5738/418-2001(Compilada).pdf",
+      "papel": "principal",
+      "sha256": "e42f30fdfb12f9f59f3d10254d5da40f4f91e4d62b1b8d4cf1a445d8e340eb1b",
+      "bytes": 40866,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:36:19+00:00",
+      "verificado_em": "2026-10-27T03:36:19+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-418-2001-p662/e42f30fdfb12f9f5.pdf",
+      "versao": "e42f30fdfb12f9f5"
+    }
+  ],
+  "versao_atual": "e42f30fdfb12f9f5",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 4,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "dispositivos": 23,
+    "unidades": 25,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 418/2001",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 4,
+    "paginas_sem_texto": 0,
+    "caracteres": 8557,
+    "media_caracteres_pagina": 2139.2,
+    "proporcao_letras": 0.729,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "texto_riscado_removido:855"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:48+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:36:19+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:36:37+00:00",
+      "por": "processador",
+      "motivo": "26 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:36:37+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: remoção de texto tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:44+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:44+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:40:25+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: pontuação no tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:40:25+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "662",
+    "assinatura_pagina": "8bcb7c12569e3c0c9aa9212606a53b387939354c2b00c4bdda5af646146adebe",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5738/418-2001(Compilada).pdf",
+        "nome": "418-2001(Compilada).pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:48+00:00"
+  },
+  "texto_riscado_removido": [
+    {
+      "pagina": 1,
+      "texto": "- Fixa-se à Hora Técnica em, no mínimo, R$ 45,00 reais- O valor da Hora Técnica será corrigido anualmente com base no ICV/DIEESE- O Profissional poderá adotar a Hora Técnica multiplicada pelo total de horas trabalhadas paracalcular o valor do procedimento"
+    },
+    {
+      "pagina": 2,
+      "texto": "Art. 4- A(O) Assistente Social deve contratar, por escrito, a prestação dos seus serviçosprofissionais, observando as disposições constantes da Lei 8662, de 11 de setembro de 1993, queregulamenta a profissão da (do) Assistente Social; o Código de Ética Profissional da (do) AssistenteSocial, instituído pela Resolução o CFESS n273/93; O Código de Defesa do Consumidor, instituídopela Lei 8078 de 11 de setembro de 1990; fixando, para tanto, o valor dos honorários, reajuste econdições de pagamento, recomendando-se que seja observado, a título de parâmetro, o valormínimo constante da presente Tabela"
+    }
+  ]
+}

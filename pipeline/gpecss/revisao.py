@@ -62,6 +62,8 @@ def resumo_documento(doc_id: str, amostras: int = 6) -> str:
                       f"{q.get('paginas_sem_texto')} sem texto")
     if r["alertas"]:
         linhas.append("ALERTAS: " + "; ".join(r["alertas"]))
+    for rr in r.get("texto_riscado_removido", [])[:5]:
+        linhas.append(f"  texto riscado retirado (p. {rr['pagina']}): {rr['texto'][:200]}")
     for lac in r.get("lacunas_detectadas", [])[:8]:
         linhas.append(f"  possível texto perdido na extração (p. {lac['pagina']}): {lac['linha']}")
     for inj in r.get("injecao_detectada", [])[:5]:

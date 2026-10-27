@@ -1,0 +1,224 @@
+{
+  "id": "cfess-resolucao-954-2020-p215",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 954/2020",
+  "numero": "954",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Extingue, no âmbito do Conjunto CFESS/CRESS, a infração disciplinar que consiste em deixar de pagar, regularmente, as anuidades e contribuições devidas ao CRESS, com a consequente extinção da penalidade de suspensão do exercício profissional por débito",
+  "data_publicacao": "2020-08-18",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei no 8.662, de 7 de junho de 1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12514-2011",
+        "texto": "Lei nº 12.514, de 28 de outubro de 2011",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-354-1997",
+        "texto": "Resolução CFESS no 354/1997",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/215/resolucao-9542020",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4234/rescfess954compilada.pdf",
+      "papel": "principal",
+      "sha256": "4cc2777c31d395e341c4ba9324594fab153e24f2bf6fd077991900976e348824",
+      "bytes": 274538,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:36:17+00:00",
+      "verificado_em": "2026-10-27T03:36:17+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-954-2020-p215/4cc2777c31d395e3.pdf",
+      "versao": "4cc2777c31d395e3"
+    }
+  ],
+  "versao_atual": "4cc2777c31d395e3",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 9,
+    "unidades": 13,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução 954/2020",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 5466,
+    "media_caracteres_pagina": 1822.0,
+    "proporcao_letras": 0.675,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "lacunas_na_extracao:6",
+    "nao_indexar:versão compilada com texto ilegível na extração; requer OCR",
+    "texto_riscado_removido:468"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:18+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:36:17+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:36:37+00:00",
+      "por": "processador",
+      "motivo": "18 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:36:37+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: remoção de texto tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:46+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:46+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: pontuação no tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "portal": {
+    "id": "215",
+    "assinatura_pagina": "ae6e186ad578617cbc9014894aca2e505980e6993ceeb3174b8f2d7405edfb76",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4234/rescfess954compilada.pdf",
+        "nome": "rescfess954compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:18+00:00"
+  },
+  "lacunas_detectadas": [
+    {
+      "pagina": 2,
+      "linha": ", “ ”,"
+    },
+    {
+      "pagina": 2,
+      "linha": "I - “ ”"
+    },
+    {
+      "pagina": 2,
+      "linha": "“ ”"
+    },
+    {
+      "pagina": 2,
+      "linha": "II - “ ” g 54 g e quinto do artigo 78 da Resolução CFESS 582"
+    },
+    {
+      "pagina": 3,
+      "linha": "“ ” g 22 ó g É o/a Assistente Social e, consequentemente, a"
+    },
+    {
+      "pagina": 3,
+      "linha": ", ó x g , “ ”,"
+    }
+  ],
+  "texto_riscado_removido": [
+    {
+      "pagina": 2,
+      "texto": "Art. 1Extinguir, no âmbito do Conjunto CFESS/CRESS, a infração disciplinar que consiste emdeixar de pagar, regularmente, as anuidades e contribuições devidas ao CRESS (tipificada no g 22da Resolução CFESS no 273/1993), com a consequente extinção da penalidade desuspensão do exercício profissional por débitoArt. 3Ficam revogados/as:g 22 g ú g 25 no 273/1993II - a Resolução CFESS no354/1997III - g 54 g , x g 78CFESS no582/2010IV - o inciso IV do artigo 5da o777/2016"
+    }
+  ]
+}

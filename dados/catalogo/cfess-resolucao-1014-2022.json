@@ -36,7 +36,6 @@
         "referencia": "lei-14063-2020",
         "texto": "Lei nº 14.063/2020",
         "relacoes": [
-          "mencao",
           "possivel_alteracao"
         ],
         "paginas": [
@@ -114,8 +113,8 @@
       12,
       13
     ],
-    "dispositivos": 86,
-    "unidades": 90,
+    "dispositivos": 81,
+    "unidades": 86,
     "partes": [
       {
         "slug": "texto",
@@ -127,13 +126,15 @@
   "qualidade_extracao": {
     "paginas": 13,
     "paginas_sem_texto": 0,
-    "caracteres": 35454,
-    "media_caracteres_pagina": 2727.2,
-    "proporcao_letras": 0.762,
+    "caracteres": 32710,
+    "media_caracteres_pagina": 2516.2,
+    "proporcao_letras": 0.756,
     "caracteres_substituicao": 0,
     "classificacao": "boa"
   },
-  "alertas": [],
+  "alertas": [
+    "texto_riscado_removido:2738"
+  ],
   "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
@@ -177,6 +178,62 @@
       "data": "2026-10-27T03:32:03+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:02+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: remoção de texto tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:02+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:30+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:30+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:43+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:43+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:40:25+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: pontuação no tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:40:25+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {
@@ -190,5 +247,35 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:18:00+00:00"
-  }
+  },
+  "texto_riscado_removido": [
+    {
+      "pagina": 2,
+      "texto": "Documento de identificação com foto, naturalidade, número de RG e respectivo órgãoexpedidor;Parágrafo Segundo - A assinatura eletrônica utilizada na plataforma eletrônica obedecerá aosparâmetros legais previstos no inciso II do artigo 4da Lei n14.063/2020"
+    },
+    {
+      "pagina": 3,
+      "texto": "Art. 3O processo de inscrição será encaminhado a Comissão de Inscrição/Registro, que decidirápelo deferimento ou indeferimento da inscrição, submetendo sua decisão a homologação do"
+    },
+    {
+      "pagina": 4,
+      "texto": "Conselho Pleno, não podendo o processo de inscrição ultrapassar o prazo de 45 dias corridoscontados a partir da confirmação, pelo setor administrativo, de que todos os requisitos normativosforam cumpridos"
+    },
+    {
+      "pagina": 7,
+      "texto": "Art. 20 Constatada a existência de representação com procedimento ético-disciplinar instauradocontra a/o requerente no CRESS de origem, o pedido de transferência será deferido de formaprovisória, ficando a efetivação da transferência condicionada ao resultado da decisão transitadaem julgadoParágrafo Primeiro - Neste período, a/o profissional continuará inscrita/o no CRESS de origemsendo facultado acompanhar os atos processuais para apuração de responsabilidade ético￾disciplinar até sua conclusãoParágrafo Segundo - Enquanto a/o profissional continuar vinculada/o ao CRESS para responderprocesso ético, estará isenta/o do pagamento de anuidade no CRESS de origemParágrafo Terceiro - Após o trânsito em julgado, o CRESS de origem comunicará o CRESS dedestino, que concluirá o processo de transferência, exceto no caso de aplicação da penalidade decassação do registro profissional"
+    },
+    {
+      "pagina": 9,
+      "texto": "Art. 31 Será concedida isenção de anuidade/s a/ao profissional que fizer requerimento eletrônicono ambiente de serviços online com fundamento em uma das hipóteses previstas na Resolução deAnuidades vigente"
+    },
+    {
+      "pagina": 11,
+      "texto": "Art. 37 O Documento de Identidade Profissional fornecido pelo CRESS terá as seguintescaracterísticas: fotografia da/o inscrita/o, nome por extenso, nome social, filiaçãonacionalidade, naturalidade, número de registro no CRESS, número do Registro Geral (RG) daCarteira de Identidade, órgão emissor, estado de emissão do RG, número de inscrição no Cadastrode Pessoa Física (CPF), data do nascimento, data da primeira inscrição, sede do exercícioprofissional, local e data da expedição, assinaturas da/o Presidente e do portadorParágrafo ÚnicoA mudança será solicitada por meio de requerimento eletrônico no ambiente deserviços online instruído com documento comprobatório da alteração da situação civilParágrafo Único - Ficará isenta/o do valor estabelecido no caput a/o assistente social queapresentar boletim de ocorrência em situações de furto ou roubo do documento"
+    },
+    {
+      "pagina": 13,
+      "texto": "Art. 49 Esta Resolução entra em vigor na data de sua publicação no Diário Oficial da Uniãosurtindo seus efeitos a partir de 1de fevereiro de 2023"
+    }
+  ]
 }

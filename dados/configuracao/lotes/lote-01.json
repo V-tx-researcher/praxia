@@ -14,6 +14,7 @@
    "alertas": [],
    "lacunas": [],
    "transcricoes": [],
+   "riscados": [],
    "amostras": [
     {
      "rotulo": "Art. 1º",
@@ -48,6 +49,7 @@
    "alertas": [],
    "lacunas": [],
    "transcricoes": [],
+   "riscados": [],
    "amostras": [
     {
      "rotulo": "Art. 1º",
@@ -82,6 +84,7 @@
    "alertas": [],
    "lacunas": [],
    "transcricoes": [],
+   "riscados": [],
    "amostras": [
     {
      "rotulo": "Art. 1º",
@@ -114,6 +117,7 @@
    "alertas": [],
    "lacunas": [],
    "transcricoes": [],
+   "riscados": [],
    "amostras": [
     {
      "rotulo": "Art. 1º",
@@ -140,14 +144,26 @@
    "pagina_oficial": "https://www.cfess.org.br/legislacao/view/508/resolucao-n-5122007",
    "pdf": "https://www.cfess.org.br/uploads/legislacao/4614/Resolucaocfess5122007.pdf",
    "paginas_pdf": 10,
-   "dispositivos": 87,
+   "dispositivos": 83,
    "indicacoes_portal": [],
    "mencoes": [
     "Resolução CFESS Nº.382/99 (possível revogacao)"
    ],
-   "alertas": [],
+   "alertas": [
+    "texto_riscado_removido:1068"
+   ],
    "lacunas": [],
    "transcricoes": [],
+   "riscados": [
+    {
+     "pagina": 5,
+     "texto": "Descrever no relatório de visita de fiscalização todo fato constatado, relatando qualquerirregularidade que comprometa a qualidade dos serviços profissionais prestados, anotando nomeendereço e número de RG das pessoas envolvidas e testemunhas se houver;"
+    },
+    {
+     "pagina": 6,
+     "texto": "Art. 17Ficam instituídos os instrumentais básicos a serem utilizados no exercício da ação fiscalizadoraque constarão como anexo da Política Nacional de Fiscalização, a saber:I- Relatório de Visita de Fiscalizaçãoa ser utilizado pelo agente fiscal ou representante doCRESS/ Seccional, nas situações de…"
+    }
+   ],
    "amostras": [
     {
      "rotulo": "Art. 1º",
@@ -155,18 +171,18 @@
      "texto": "Art. 1º - O serviço de orientação e fiscalização do exercício profissional do Assistente Social será desenvolvido seguindo as normas estabelecidas pela presente Resolução."
     },
     {
-     "rotulo": "Art. 13, inciso IV",
+     "rotulo": "Art. 13, inciso II",
      "pagina": 4,
-     "texto": "IV- Dar encaminhamentos às rotinas da comissão, propondo providências, esclarecendo e orientando o Assistente Social, instituições, usuários e outros, sobre procedimentos e dúvidas suscitadas;"
+     "texto": "II- Propor e realizar atividades preventivas de orientação e discussão junto aos profissionais e instituições, em consonância com as diretrizes da PNF e plano de ação da COFI;"
     },
     {
-     "rotulo": "Art. 19, inciso II",
+     "rotulo": "Art. 19, inciso III",
      "pagina": 6,
-     "texto": "II- Capacitação de profissionais para operacionalização do Código de Ética Profissional e do Código Processual de Ética, através de grupos de estudo, treinamentos, cursos, palestras, etc;"
+     "texto": "III- Instrumentalização dos conselheiros do CRESS e membros das Seccionais para atuarem como agentes multiplicadores dos preceitos éticos da profissão;"
     }
    ],
    "relacoes_conhecidas": [
-    "A Res. 828/2017 altera dispositivos desta resolução (ementa do portal)."
+    "A Res. 828/2017 altera dispositivos desta resolução (ementa do portal). O PDF é uma versão com trechos riscados."
    ]
   },
   {
@@ -206,6 +222,7 @@
      "origem": "transcrição do revisor a partir do PDF oficial (Atividade nº 1, 27/10/2026)"
     }
    ],
+   "riscados": [],
    "amostras": [
     {
      "rotulo": "Art. 1º",
@@ -224,7 +241,8 @@
     }
    ],
    "relacoes_conhecidas": [
-    "A Res. 970/2021 anulou o Art. 1º desta resolução quanto à alínea c do Art. 22 do Código e deu nova redação aos Arts. 1º e 3º (conferido no texto oficial)."
+    "A Res. 970/2021 anulou o Art. 1º desta resolução quanto à alínea c do Art. 22 do Código e deu nova redação aos Arts. 1º e 3º (conferido no texto oficial).",
+    "O portal publica também uma versão compilada desta resolução, mas a leitura automática dela saiu ilegível; por isso a conferência é feita no texto original."
    ],
    "pedido_extra": "O Art. 3º (p. 2 do PDF) perdeu partes do texto na leitura automática. Copie abaixo os incisos III e IV como estão no PDF (o inciso I você já transcreveu na Atividade nº 1)."
   },
@@ -241,6 +259,7 @@
    "alertas": [],
    "lacunas": [],
    "transcricoes": [],
+   "riscados": [],
    "amostras": [
     {
      "rotulo": "Art. 1º",
@@ -275,6 +294,7 @@
    "alertas": [],
    "lacunas": [],
    "transcricoes": [],
+   "riscados": [],
    "amostras": [
     {
      "rotulo": "Art. 1º",

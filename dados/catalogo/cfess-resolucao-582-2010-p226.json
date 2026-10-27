@@ -1,0 +1,70 @@
+{
+  "id": "cfess-resolucao-582-2010-p226",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 582/2010 - Expressamente revogada pelas Resoluções CFESS nº 1.014/2022, 1.015/2022 e 1.030/2023",
+  "numero": "582",
+  "ano": 2010,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Regulamenta a Consolidação das Resoluções do Conjunto CFESS/CRESS",
+  "data_publicacao": "2010-07-01",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/226/resolucao-5822010-expressamente-revogada-pelas-resolucoes-cfess-n-10142022-10152022-e-10302023",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "portal_indica_situacao:revogada pelas Resoluções CFESS nº 1"
+  ],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:42+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): fora do escopo (legislação social, MEC/EAD, ato administrativo ou portaria)"
+    }
+  ],
+  "portal": {
+    "id": "226",
+    "assinatura_pagina": "5d83c9b79f0727cb651a5c950a14090cd211da30374728ab4a4f46a0e41ba7dc",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4253/Res582-compilada-nova.pdf",
+        "nome": "Res582-compilada-nova.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:42+00:00"
+  }
+}

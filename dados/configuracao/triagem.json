@@ -739,6 +739,7 @@
    "cfess-resolucao-1147-2026",
    "cfess-resolucao-383-1999",
    "cfess-resolucao-418-2001",
+   "cfess-resolucao-418-2001-p662",
    "cfess-resolucao-443-2003",
    "cfess-resolucao-467-2005",
    "cfess-resolucao-489-2006",
@@ -759,6 +760,8 @@
    "cfess-resolucao-594-2011",
    "cfess-resolucao-615-2011",
    "cfess-resolucao-657-2013",
+   "cfess-resolucao-657-2013-p663",
+   "cfess-resolucao-660-2013",
    "cfess-resolucao-707-2015",
    "cfess-resolucao-726-2015",
    "cfess-resolucao-782-2016",
@@ -767,6 +770,7 @@
    "cfess-resolucao-828-2017",
    "cfess-resolucao-845-2018",
    "cfess-resolucao-861-2018",
+   "cfess-resolucao-884-2018",
    "cfess-resolucao-923-2019",
    "cfess-resolucao-934-2020",
    "cfess-resolucao-938-2020",
@@ -774,6 +778,7 @@
    "cfess-resolucao-950-2020",
    "cfess-resolucao-952-2020",
    "cfess-resolucao-954-2020",
+   "cfess-resolucao-954-2020-p215",
    "cfess-resolucao-970-2021",
    "cfess-resolucao-988-2022",
    "cfess-resolucao-992-2022"
@@ -1077,6 +1082,18 @@
    "cfess-resolucao-707-2015",
    "cfess-resolucao-950-2020",
    "cfess-resolucao-988-2022"
-  ]
+  ],
+  "listagem_geral": {
+   "data": "2026-10-27",
+   "incluidas": [
+    "cfess-resolucao-418-2001-p662",
+    "cfess-resolucao-657-2013-p663",
+    "cfess-resolucao-660-2013",
+    "cfess-resolucao-884-2018",
+    "cfess-resolucao-954-2020-p215"
+   ],
+   "fora_do_escopo": 45,
+   "observacao": "50 documentos sem categoria no portal; mesmo critério da triagem aprovada."
+  }
  }
 }

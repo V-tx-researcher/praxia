@@ -201,6 +201,7 @@ def listar_categoria(cliente: Cliente, cat: int, max_paginas: int = 60) -> list[
 
 
 def descobrir(cliente: Cliente | None = None, categorias=None, limite_paginas: int = 60, atualizar_metadados: bool = False,
+              apenas_novos: bool = False,
               log=print) -> dict:
     cliente = cliente or Cliente()
     existentes = catalogo.por_url_fonte()
@@ -211,6 +212,9 @@ def descobrir(cliente: Cliente | None = None, categorias=None, limite_paginas: i
         log(f"[{nome_cat}] {len(urls)} páginas de documentos")
         for url in urls:
             portal_id = url.rstrip("/").split("/legislacao/view/")[1].split("/")[0]
+            if apenas_novos and url in existentes:
+                resumo["ja_existentes"] += 1  # sem reabrir a página (não detecta alterações)
+                continue
             try:
                 info = ler_pagina_documento(cliente.obter(url).content, url)
             except Exception as e:  # registra e segue: uma página ruim não interrompe a coleta

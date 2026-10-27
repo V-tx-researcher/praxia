@@ -53,7 +53,7 @@ def construir(modo: str = "publico", destino: Path | None = None, log=print) -> 
             continue
         # Arquivo idêntico ao de outro documento (o portal às vezes anexa a versão
         # compilada em várias páginas): indexa-se apenas o documento de referência.
-        if any(a.startswith(("duplicata_de:", "texto_incorporado:")) for a in reg["alertas"]):
+        if any(a.startswith(("duplicata_de:", "texto_incorporado:", "nao_indexar:")) for a in reg["alertas"]):
             problemas.append(f"{reg['id']}: arquivo duplicado de outro documento — não indexado")
             continue
         texto = catalogo.carregar_texto(reg["id"], reg["versao_atual"])
@@ -66,7 +66,7 @@ def construir(modo: str = "publico", destino: Path | None = None, log=print) -> 
         impressas = {p["numero"]: p.get("pagina_impressa") for p in texto["paginas"]}
         documentos.append({
             "id": reg["id"],
-            "titulo": reg["titulo_oficial"],
+            "titulo": reg["titulo_oficial"] + (" (versão compilada)" if "compilad" in (_url_arquivo(reg) or "").lower() else ""),
             "tipo": reg["tipo_documental"],
             "tipo_rotulo": TIPOS_DOCUMENTAIS[reg["tipo_documental"]],
             "orgao": reg["orgao_emissor"],

@@ -84,8 +84,8 @@
       5,
       6
     ],
-    "dispositivos": 24,
-    "unidades": 27,
+    "dispositivos": 22,
+    "unidades": 25,
     "partes": [
       {
         "slug": "texto",
@@ -97,13 +97,14 @@
   "qualidade_extracao": {
     "paginas": 6,
     "paginas_sem_texto": 1,
-    "caracteres": 10500,
-    "media_caracteres_pagina": 1750.0,
-    "proporcao_letras": 0.802,
+    "caracteres": 9305,
+    "media_caracteres_pagina": 1550.8,
+    "proporcao_letras": 0.798,
     "caracteres_substituicao": 0,
     "classificacao": "boa"
   },
   "alertas": [
+    "texto_riscado_removido:1194",
     "versao_compilada:inclui alteracoes ate jun/2025 (Res. 1.103/2025)"
   ],
   "estado_fluxo": "aguardando_conferencia",
@@ -149,6 +150,48 @@
       "data": "2026-10-27T03:32:04+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: remoção de texto tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:38:44+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: limiar do tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:38:44+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: pontuação no tachado"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:40:26+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {
@@ -162,5 +205,15 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:24:40+00:00"
-  }
+  },
+  "texto_riscado_removido": [
+    {
+      "pagina": 3,
+      "texto": "Parágrafo único. O expediente denúncia será desaforado para CRESS da mesma regiãogeográfica, preferindo-se a mais próxima, de forma a garantir o direito de defesa das partesenvolvidas, salvo em situações excepcionais que deverão ser devidamente fundamentadas peloConselho Pleno do CFESSParágrafo primeiro: O expediente denúncia será desaforado para CRESS da mesma regiãogeográfica, preferindo-se a mais próxima, de forma a garantir o direito de defesa das partesenvolvidas, salvo em situações excepcionais que deverão ser devidamente fundamentadas peloConselho Pleno do CFESS. (Renumerado pela Resolução CFESS n726, de 16 de novembro de2015)Parágrafo primeiro: O expediente contendo a denúncia disciplinar e/ou ética será desaforadopara o CRESS que tenha proximidade geográfica com o CRESS de origem, de forma a garantir odireito de defesa e do contraditório das partes envolvidas, salvo em situações excepcionais quedeverão ser fundamentadas pelo Conselho Pleno do Cfess. (Alterado pela Resolução CFESS n943, de 7 de abril de 2020)"
+    },
+    {
+      "pagina": 4,
+      "texto": "Parágrafo único. O expediente desaforado terá preferência na sua análise, processamento econforme o caso, julgamento em primeira instância e na instância recursal"
+    }
+  ]
 }

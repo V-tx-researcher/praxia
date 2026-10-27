@@ -1,0 +1,68 @@
+{
+  "id": "cfess-resolucao-945-2020-p652",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 945/2020",
+  "numero": "945",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Institui novos fatores de competência para Avaliação de Desempenho dos/as trabalhadores/as efetivos/as do Conselho Federal de Serviço Social",
+  "data_publicacao": "2020-04-20",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/652/resolucao-9452020",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:20+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): fora do escopo (legislação social, MEC/EAD, ato administrativo ou portaria)"
+    }
+  ],
+  "portal": {
+    "id": "652",
+    "assinatura_pagina": "ae53e479c8bf467a170f64f5e462f7d267f2029df4cd5a7c3aad48c20e5c44f6",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5684/res945-2020-compilada.pdf",
+        "nome": "res945-2020-compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:20+00:00"
+  }
+}

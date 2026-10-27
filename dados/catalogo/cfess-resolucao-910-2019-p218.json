@@ -1,0 +1,68 @@
+{
+  "id": "cfess-resolucao-910-2019-p218",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 910/2019",
+  "numero": "910",
+  "ano": 2019,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Estabelece parâmetros para o acesso a informações e documentos no âmbito do Conselho Federal de Serviço Social. (Alterada pela Resolução CFESS no 979, de 26 de agosto de 2021)",
+  "data_publicacao": "2019-06-19",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/218/resolucao-9102019",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:26+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): fora do escopo (legislação social, MEC/EAD, ato administrativo ou portaria)"
+    }
+  ],
+  "portal": {
+    "id": "218",
+    "assinatura_pagina": "81bfc61a9f1dcd8e925c32680f95e2c2009dd3a58533e840a05134d9fdc3c5ed",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4242/Rescfess910compilada.pdf",
+        "nome": "Rescfess910compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:26+00:00"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "cfess-resolucao-934-2020-p216",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução 934/2020",
+  "numero": "934",
+  "ano": 2020,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a não caracterização de quebra de sigilo o fornecimento - pelos Conselhos Regionais e Federal de Serviço Social - de CERTIDÃO DISCIPLINAR E/OU ÉTICA de objeto e fase que se encontra a denúncia, processo ou recurso, quando solicitada pelo/a próprio/a denunciado/a ou por autoridade policial ou judicial e REGULAMENTA a sua expedição",
+  "data_publicacao": "2020-01-28",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/216/resolucao-9342020",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4237/res934compilada.pdf",
+      "papel": "principal",
+      "sha256": "3a7e211c30edd6059886fcbace241ae168de802fd912220b46830b8d93f47be1",
+      "bytes": 223401,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:36:16+00:00",
+      "verificado_em": "2026-10-27T03:36:16+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-934-2020-p216/3a7e211c30edd605.pdf",
+      "versao": "3a7e211c30edd605"
+    }
+  ],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [
+    "duplicata_de:cfess-resolucao-934-2020"
+  ],
+  "estado_fluxo": "fora_do_escopo",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:35:22+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:36:16+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:41:01+00:00",
+      "por": "revisao-profissional",
+      "motivo": "cópia idêntica de documento já incluído"
+    }
+  ],
+  "portal": {
+    "id": "216",
+    "assinatura_pagina": "aaeda25165360c0e585fdec063cfa850d6e30ec70c81bd4d4002c11ea7dc4d57",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4237/res934compilada.pdf",
+        "nome": "res934compilada.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:35:22+00:00"
+  }
+}

@@ -88,7 +88,7 @@ ESTADOS = {
 # aprovado/rejeitado/fora_do_escopo; a automação nunca aprova.
 TRANSICOES = {
     "descoberto": {"baixado", "erro_download", "fora_do_escopo", "rejeitado"},
-    "baixado": {"processado", "erro_extracao", "baixado"},
+    "baixado": {"processado", "erro_extracao", "baixado", "rejeitado", "fora_do_escopo"},
     "processado": {"aguardando_conferencia", "processado", "erro_extracao", "baixado"},
     "aguardando_conferencia": {"aprovado", "rejeitado", "fora_do_escopo", "processado", "baixado"},
     "aprovado": {"publicado", "aguardando_conferencia", "processado", "baixado"},

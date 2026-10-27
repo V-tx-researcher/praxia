@@ -47,6 +47,8 @@ def main():
             "alertas": outros_alertas,
             "lacunas": r.get("lacunas_detectadas", []),
             "transcricoes": r.get("transcricoes_conferidas", []),
+            "riscados": [{"pagina": x["pagina"], "texto": x["texto"][:300] + ("…" if len(x["texto"]) > 300 else "")}
+                         for x in r.get("texto_riscado_removido", [])],
             "amostras": amostras(t),
         })
     destino = RAIZ / "dados" / "configuracao" / "lotes" / f"lote-{numero:02d}.json"

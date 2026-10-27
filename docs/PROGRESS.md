@@ -29,7 +29,11 @@ Atualizado em 26/10/2026 (marco 1: primeira base confiável).
 
 ## Pendente
 - Conferência humana dos demais 17 documentos processados (inclui a Res. 970/2021) — pelo revisor (D19), identificador `revisao-profissional`.
-- Ampliar para todas as normas do CFESS (D21): 352 registros normativos, dos quais 98 com alerta de possível ato administrativo e 6 sem arquivo.
+- Triagem do acervo aprovada (Atividade nº 2): 58 normas incluídas; 56 processadas na prévia (1.460 unidades). Conferência em lotes: Atividade nº 3 (lote 1, 8 resoluções) enviada.
+- Res. 383/1999 (assistente social como profissional da saúde): requer OCR. Res. 954/2020 compilada: ilegível na extração (requer OCR); usa-se a original.
+- Listagem geral do portal: 50 documentos sem categoria; incluídos Res. 660/2013 (Código Processual de Ética), 884/2018 e as versões compiladas de 657/2013 e 418/2001 (D24).
+- Texto tachado retirado de 13 documentos compilados (D22). Prévia: 58 documentos, 1.574 unidades; 62 na fila de conferência.
+- Recuperação com o acervo ampliado: recall@8 caiu de 0,858 para 0,809 (mais concorrência entre trechos); reforça a prioridade da busca semântica.
 - Mapa de partes do Código de Ética: confirmar (D14).
 - Fundamentar o texto sobre COFI/SubCOFI na Res. CFESS 512/2007 após conferência.
 - Busca semântica; OCR; coleta dos CRESS; demais resoluções pertinentes.
