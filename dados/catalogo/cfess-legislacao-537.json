@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-537",
+  "versao_esquema": 1,
+  "titulo_oficial": "Estatuto do Idoso",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "outro",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/537/estatuto-do-idoso",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:37+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "537",
+    "assinatura_pagina": "d4e5d4541cb49d5b7a115659551c9b1df3bee605ae093cc358e2e3750346c160",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "http://www.planalto.gov.br/ccivil_03/Leis/2003/L10.741.htm",
+        "texto": "Lei no 10.741, de 1º de outubro de 2003"
+      }
+    ],
+    "descoberto_em": "2026-10-27T03:30:37+00:00"
+  }
+}

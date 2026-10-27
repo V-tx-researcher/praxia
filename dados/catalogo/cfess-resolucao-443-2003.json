@@ -18,12 +18,67 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-443-2003",
+        "texto": "RESOLUÇÃO CFESS Nº 443/2003",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-273-1993",
+        "texto": "Resolução CFESS nº 273/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-294-1994",
+        "texto": "Resolução CFESS nº 294/94",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1,
+          4
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8.662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/524/resolucao-n-4432003-expressamente-revogada-pela-resolucao-cfess-n-10732024",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4633/resolucao44303.pdf",
+      "papel": "principal",
+      "sha256": "012825e0dd08bbaf3c69946f434bfdb887666181a0aa33e09e6d24ab9e34bad7",
+      "bytes": 22447,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:27:57+00:00",
+      "verificado_em": "2026-10-27T03:27:57+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-443-2003/012825e0dd08bbaf.pdf",
+      "versao": "012825e0dd08bbaf"
+    }
+  ],
+  "versao_atual": "012825e0dd08bbaf",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,14 +86,36 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 4,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "dispositivos": 11,
+    "unidades": 13,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 443/2003 (expressamente revogada pela Resolução CFESS nº 1.073/2024)",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 4,
+    "paginas_sem_texto": 0,
+    "caracteres": 7103,
+    "media_caracteres_pagina": 1775.8,
+    "proporcao_letras": 0.797,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [
     "portal_indica_situacao:revogada pela Resolução CFESS nº 1"
   ],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -46,6 +123,41 @@
       "data": "2026-10-26T21:25:56+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:27:57+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:23+00:00",
+      "por": "processador",
+      "motivo": "13 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:23+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

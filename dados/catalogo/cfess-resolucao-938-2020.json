@@ -18,12 +18,75 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13105-2015",
+        "texto": "Lei nº 13.105, de 16 de março de 2015",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-2823-2019",
+        "texto": "Lei 2823/19",
+        "relacoes": [
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9784",
+        "texto": "Lei nº 9.784",
+        "relacoes": [
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9873-1999",
+        "texto": "Lei 9873/1999",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/345/resolucao-n-9382020",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4428/ResolucaoCfess938-2020.pdf",
+      "papel": "principal",
+      "sha256": "a19bc21650366989f59ef584b3dcf968f6e7a04ffb33abfac80b7a7eff0a4398",
+      "bytes": 182017,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:13+00:00",
+      "verificado_em": "2026-10-27T03:28:13+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-938-2020/a19bc21650366989.pdf",
+      "versao": "a19bc21650366989"
+    }
+  ],
+  "versao_atual": "a19bc21650366989",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +94,33 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 4,
+    "unidades": 8,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 938/2020",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 5560,
+    "media_caracteres_pagina": 1853.3,
+    "proporcao_letras": 0.719,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +128,41 @@
       "data": "2026-10-26T21:19:54+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:13+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:32+00:00",
+      "por": "processador",
+      "motivo": "8 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:32+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

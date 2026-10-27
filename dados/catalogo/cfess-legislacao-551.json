@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-551",
+  "versao_esquema": 1,
+  "titulo_oficial": "Secretaria de Educação a Distância do Ministério da Educação (SEED/MEC) Veja como fazer pesquisas no site da SEED/MEC",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "outro",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/551/secretaria-de-educacao-a-distancia-do-ministerio-da-educacao-seedmec-veja-como-fazer-pesquisas-no-site-da-seedmec",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:09+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "551",
+    "assinatura_pagina": "1490e14a379570d7d90591fcab429f27a7939ec45d3e329e4904ad8c4852d2bc",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4704/SEED-MEC.pdf",
+        "nome": "SEED-MEC.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:30:09+00:00"
+  }
+}

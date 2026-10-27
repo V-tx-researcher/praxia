@@ -18,12 +18,66 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei no 8662/1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-886-2018",
+        "texto": "Resolução CFESS no 886/2018",
+        "relacoes": [
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-657-2013",
+        "texto": "Resolução CFESS nº 657/2013",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          4
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-792-2017",
+        "texto": "Resolução CFESS no 792/2017",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          5
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/276/resolucao-10312023",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5359/1031-2023compilada.pdf",
+      "papel": "principal",
+      "sha256": "9ce7893fdba215858a78589e2a2d27f03070d3adb59f842da1c2aa3781ae637c",
+      "bytes": 238699,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:27:50+00:00",
+      "verificado_em": "2026-10-27T03:27:50+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-1031-2023/9ce7893fdba21585.pdf",
+      "versao": "9ce7893fdba21585"
+    }
+  ],
+  "versao_atual": "9ce7893fdba21585",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +85,35 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 5,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "dispositivos": 24,
+    "unidades": 27,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução 1031/2023",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 5,
+    "paginas_sem_texto": 0,
+    "caracteres": 11497,
+    "media_caracteres_pagina": 2299.4,
+    "proporcao_letras": 0.767,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +121,41 @@
       "data": "2026-10-26T21:17:36+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:27:50+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:19+00:00",
+      "por": "processador",
+      "motivo": "27 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:19+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

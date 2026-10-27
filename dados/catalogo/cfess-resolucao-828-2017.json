@@ -18,12 +18,126 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei no 8662, de 07 de junho de 1993",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1,
+          4,
+          6,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-533-2008",
+        "texto": "Resolução CFESS n. 533/2008",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          7,
+          10
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-493-2006",
+        "texto": "Resolução CFESS n. 493/2006",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          7,
+          10
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-556-2009",
+        "texto": "Resolução CFESS n.556/2009",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          8,
+          10
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-512-2007",
+        "texto": "Resolução CFESS n. 512/2007",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          9,
+          11
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-582-2010",
+        "texto": "Resolução CFESS n. 582/2010",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          9,
+          10
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-569-2010",
+        "texto": "Resolução CFESS n. 569/2010",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          10
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-557-2009",
+        "texto": "Resolução CFESS n. 557/2009",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          10
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-590-2010",
+        "texto": "Resolução CFESS n. 590/2010",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          10
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/388/resolucao-n-8282017",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4483/resol828-2017.pdf",
+      "papel": "principal",
+      "sha256": "ece67a8501855cb46b2c614bf9486363c66b9f688f3bbec62b5911a3993a6f2c",
+      "bytes": 245856,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:09+00:00",
+      "verificado_em": "2026-10-27T03:28:09+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-828-2017/ece67a8501855cb4.pdf",
+      "versao": "ece67a8501855cb4"
+    }
+  ],
+  "versao_atual": "ece67a8501855cb4",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +145,41 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 11,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dispositivos": 4,
+    "unidades": 10,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 828/2017",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 11,
+    "paginas_sem_texto": 0,
+    "caracteres": 21102,
+    "media_caracteres_pagina": 1918.4,
+    "proporcao_letras": 0.683,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +187,41 @@
       "data": "2026-10-26T21:21:22+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:09+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:30+00:00",
+      "por": "processador",
+      "motivo": "10 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:30+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

@@ -18,12 +18,45 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei no 8.662, de 07 de junho de 1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14063-2020",
+        "texto": "Lei nº 14.063, de 23 de setembro de 2020",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          3
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/677/resolucao-n-11472026",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5790/1147-2026 (INFO DOU).pdf",
+      "papel": "principal",
+      "sha256": "621aadf42f9ebb279d20dd60cc732e9f73b7c3671ecd2063fd3f61b75a7caf72",
+      "bytes": 195756,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:27:55+00:00",
+      "verificado_em": "2026-10-27T03:27:55+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-1147-2026/621aadf42f9ebb27.pdf",
+      "versao": "621aadf42f9ebb27"
+    }
+  ],
+  "versao_atual": "621aadf42f9ebb27",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +64,34 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 4,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "dispositivos": 16,
+    "unidades": 18,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 1.147/2026",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 4,
+    "paginas_sem_texto": 0,
+    "caracteres": 6211,
+    "media_caracteres_pagina": 1552.8,
+    "proporcao_letras": 0.741,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +99,41 @@
       "data": "2026-10-26T21:14:58+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:27:55+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:22+00:00",
+      "por": "processador",
+      "motivo": "18 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:22+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

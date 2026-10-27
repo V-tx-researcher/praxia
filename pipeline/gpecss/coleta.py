@@ -34,6 +34,9 @@ CATEGORIAS_CFESS = {
     1: "Portarias do CFESS",
     9: "Orientações Normativas",
 }
+# Listagem geral sem filtro de categoria: alcança documentos que o portal não
+# classificou em nenhuma categoria (ex.: Res. 660/2013, encontrada em 27/10/2026).
+SEM_CATEGORIA = 0
 
 # Termos que costumam indicar atos administrativos internos (concursos, eleições,
 # nomeações etc.). Geram apenas um alerta para a conferência humana.
@@ -180,8 +183,8 @@ def ler_pagina_documento(html: bytes, url: str) -> dict:
 def listar_categoria(cliente: Cliente, cat: int, max_paginas: int = 60) -> list[str]:
     vistos: list[str] = []
     for pagina in range(1, max_paginas + 1):
-        url = (f"{BASE_CFESS}/legislacao/index?LegislacaoSearch%5Bid_legislacao_categoria%5D={cat}"
-               f"&page={pagina}")
+        url = (f"{BASE_CFESS}/legislacao/index?page={pagina}" if cat == SEM_CATEGORIA else
+               f"{BASE_CFESS}/legislacao/index?LegislacaoSearch%5Bid_legislacao_categoria%5D={cat}&page={pagina}")
         r = cliente.obter(url)
         s = BeautifulSoup(r.content, "lxml")
         novos = []
@@ -203,7 +206,7 @@ def descobrir(cliente: Cliente | None = None, categorias=None, limite_paginas: i
     existentes = catalogo.por_url_fonte()
     resumo = {"novos": 0, "ja_existentes": 0, "alterados": 0, "erros": 0}
     for cat in categorias or CATEGORIAS_CFESS:
-        nome_cat = CATEGORIAS_CFESS.get(cat, str(cat))
+        nome_cat = "Listagem geral" if cat == SEM_CATEGORIA else CATEGORIAS_CFESS.get(cat, str(cat))
         urls = listar_categoria(cliente, cat, limite_paginas)
         log(f"[{nome_cat}] {len(urls)} páginas de documentos")
         for url in urls:
@@ -283,6 +286,10 @@ def baixar(id_: str, cliente: Cliente | None = None, incluir_historicos: bool = 
     hashes = catalogo.por_hash()
     alvos = []
     anexos = [a for a in reg.get("portal", {}).get("anexos", []) if a["url"].lower().endswith(".pdf")]
+    # Retificações, erratas e anexos avulsos não são o texto principal (ex.: na página da
+    # Res. 657/2013 o primeiro anexo é a errata de 1 página).
+    secundario = re.compile(r"retifica|errata|anexo", re.I)
+    anexos.sort(key=lambda a: bool(secundario.search(a["nome"] + " " + a["url"].rsplit("/", 1)[-1])))
     for i, a in enumerate(anexos):
         if i == 0:
             alvos.append((a["url"], "principal"))

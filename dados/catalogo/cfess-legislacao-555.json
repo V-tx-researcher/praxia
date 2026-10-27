@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-555",
+  "versao_esquema": 1,
+  "titulo_oficial": "Decreto 5.622 de 19 de Dezembro de 2005",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "Presidência da República",
+  "tipo_documental": "decreto",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/555/decreto-5622-de-19-de-dezembro-de-2005",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:23+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "555",
+    "assinatura_pagina": "57ba9c778a889a84c17b152302dc281ae2e0e1448d8e7c3b7f57413497eb8657",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4711/legislacao_graduacao_decreto.pdf",
+        "nome": "legislacao_graduacao_decreto.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:30:23+00:00"
+  }
+}

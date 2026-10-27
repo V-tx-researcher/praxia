@@ -18,12 +18,65 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei no 8662, de 07 de junho de 1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9474-1997",
+        "texto": "Lei no 9.474, de 22 de julho de 1997",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13445-2017",
+        "texto": "Lei no 13.445, de 24 de maio de 2017",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14534-2023",
+        "texto": "Lei no 14.534, de 11 de janeiro de 2023",
+        "relacoes": [
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/247/resolucao-10682024",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4290/11068-2024.pdf",
+      "papel": "principal",
+      "sha256": "51db94d4daf1831719b1ce96168c891cedb7812ca849363d62f2ea06c9e7061d",
+      "bytes": 140913,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:27:51+00:00",
+      "verificado_em": "2026-10-27T03:27:51+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-1068-2024/51db94d4daf18317.pdf",
+      "versao": "51db94d4daf18317"
+    }
+  ],
+  "versao_atual": "51db94d4daf18317",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +84,33 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 7,
+    "unidades": 11,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução 1.068/2024",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 4840,
+    "media_caracteres_pagina": 1613.3,
+    "proporcao_letras": 0.738,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +118,41 @@
       "data": "2026-10-26T21:16:36+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:27:51+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:20+00:00",
+      "por": "processador",
+      "motivo": "11 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:20+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

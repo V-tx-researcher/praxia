@@ -18,12 +18,108 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-12317-2010",
+        "texto": "lei 12.317/2010",
+        "relacoes": [
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          3
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8.662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          5,
+          9,
+          11
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-512-2007",
+        "texto": "Resolução CFESS n. 512/2007",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          9
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-582-2010",
+        "texto": "Resolução CFESS 582/2010",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          10
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-533-2008",
+        "texto": "Resolução CFESS 533/2008",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          10
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-493-2006",
+        "texto": "Resolução CFESS 493/2006",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          10,
+          11
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-557-2009",
+        "texto": "Resolução CFESS 557/2009",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          10
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-590-2010",
+        "texto": "Resolução CFESS 590/2010",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          11
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/402/resolucao-7822016",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4497/ResolucaoCFESS7822016.pdf",
+      "papel": "principal",
+      "sha256": "9bd59a75053a9c9fec4713485ae296320c51f82802a8b8919b75f92c0f723af0",
+      "bytes": 285965,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:07+00:00",
+      "verificado_em": "2026-10-27T03:28:07+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-782-2016/9bd59a75053a9c9f.pdf",
+      "versao": "9bd59a75053a9c9f"
+    }
+  ],
+  "versao_atual": "9bd59a75053a9c9f",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +127,41 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 11,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dispositivos": 15,
+    "unidades": 19,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução 782/2016",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 11,
+    "paginas_sem_texto": 0,
+    "caracteres": 21795,
+    "media_caracteres_pagina": 1981.4,
+    "proporcao_letras": 0.553,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +169,41 @@
       "data": "2026-10-26T21:21:52+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:07+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:29+00:00",
+      "por": "processador",
+      "motivo": "19 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:29+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

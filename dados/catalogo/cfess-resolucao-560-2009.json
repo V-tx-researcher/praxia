@@ -18,12 +18,59 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-555-2009",
+        "texto": "Resolução CFESS nº 555/09",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-378-1998",
+        "texto": "Resolução CFESS nº 378/98",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/478/resolucao-n-5602009",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4585/resolucao_560.pdf",
+      "papel": "principal",
+      "sha256": "bdfade8d03f485173d53467a783a960b68f1758f735e19fd938475a2b17cb3ac",
+      "bytes": 77343,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:02+00:00",
+      "verificado_em": "2026-10-27T03:28:02+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-560-2009/bdfade8d03f48517.pdf",
+      "versao": "bdfade8d03f48517"
+    }
+  ],
+  "versao_atual": "bdfade8d03f48517",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +78,32 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 2,
+    "paginas_indexadas": [
+      1,
+      2
+    ],
+    "dispositivos": 6,
+    "unidades": 8,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 560/2009",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 2,
+    "paginas_sem_texto": 0,
+    "caracteres": 4815,
+    "media_caracteres_pagina": 2407.5,
+    "proporcao_letras": 0.726,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +111,41 @@
       "data": "2026-10-26T21:24:22+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:02+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:26+00:00",
+      "por": "processador",
+      "motivo": "8 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:26+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

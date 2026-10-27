@@ -18,12 +18,45 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-513-2007",
+        "texto": "RESOLUÇÃO CFESS Nº 513/2007",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-382-1999",
+        "texto": "Resolução CFESS nº 382/99",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/507/resolucao-n-5132007-revogada-pela-resolucao-n-5562009",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4613/resolucao_513_07.pdf",
+      "papel": "principal",
+      "sha256": "3e307ca67c7de7d6e00e937b2a52805a18e171a7c649b7cf1962047b08a8d483",
+      "bytes": 15491,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:00+00:00",
+      "verificado_em": "2026-10-27T03:28:00+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-513-2007/3e307ca67c7de7d6.pdf",
+      "versao": "3e307ca67c7de7d6"
+    }
+  ],
+  "versao_atual": "3e307ca67c7de7d6",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,14 +64,34 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 2,
+    "paginas_indexadas": [
+      1,
+      2
+    ],
+    "dispositivos": 8,
+    "unidades": 11,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 513/2007 (Revogada pela Resolução nº 556/2009)",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 2,
+    "paginas_sem_texto": 0,
+    "caracteres": 4567,
+    "media_caracteres_pagina": 2283.5,
+    "proporcao_letras": 0.798,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [
     "portal_indica_situacao:Revogada pela Resolução nº 556/2009"
   ],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -46,6 +99,41 @@
       "data": "2026-10-26T21:25:20+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:00+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:25+00:00",
+      "por": "processador",
+      "motivo": "11 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:25+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

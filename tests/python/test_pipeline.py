@@ -154,6 +154,13 @@ class TestEstrutura(unittest.TestCase):
         self.assertIn("II. a Resolução Z.", r["unidades"][2]["texto"])
         self.assertEqual(len(r["partes"]), 1)
 
+    def test_paragrafo_por_extenso(self):
+        r = estrutura.segmentar(["Art. 1º É condição essencial.\nParágrafo primeiro - Entende-se por condições éticas.\n"
+                                 "Parágrafo segundo - Entende-se por condições técnicas.\n"
+                                 "Art. 2º Altera o parágrafo primeiro do artigo 5º da Resolução X."], "x")
+        ids = [u["id"] for u in r["unidades"]]
+        self.assertEqual(ids, ["texto:art-1", "texto:art-1:par-1", "texto:art-1:par-2", "texto:art-2"])
+
     def test_segmentos_reconstroem_texto(self):
         doc = {"paginas": [{"texto": p} for p in PAGINAS_SINTETICAS], "unidades": self.r["unidades"]}
         self.assertEqual(citacoes.verificar_unidades(doc), [])

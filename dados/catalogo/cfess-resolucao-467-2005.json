@@ -18,12 +18,47 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-467-2005",
+        "texto": "RESOLUÇÃO CFESS Nº 467/2005",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-418-2001",
+        "texto": "Resolução CFESS 418/2001",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/653/resolucao-n-4672005",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5694/467- 2005.pdf",
+      "papel": "principal",
+      "sha256": "234d96f82e611239b4671985f5d3a8cd4377a6f2af1ed5c394e5dc7146e5705b",
+      "bytes": 24899,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:27:58+00:00",
+      "verificado_em": "2026-10-27T03:27:58+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-467-2005/234d96f82e611239.pdf",
+      "versao": "234d96f82e611239"
+    }
+  ],
+  "versao_atual": "234d96f82e611239",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +66,32 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 2,
+    "paginas_indexadas": [
+      1,
+      2
+    ],
+    "dispositivos": 3,
+    "unidades": 5,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 467/2005",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 2,
+    "paginas_sem_texto": 0,
+    "caracteres": 2105,
+    "media_caracteres_pagina": 1052.5,
+    "proporcao_letras": 0.765,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +99,41 @@
       "data": "2026-10-26T21:25:54+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:27:58+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:24+00:00",
+      "por": "processador",
+      "motivo": "5 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:24+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

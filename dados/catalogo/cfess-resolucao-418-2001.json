@@ -18,12 +18,47 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "referencia": "lei-8078",
+        "texto": "Lei 8078",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/654/resolucao-n-4182001",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5695/418-2001 (retificada).pdf",
+      "papel": "principal",
+      "sha256": "8c90db475bfe20b834a54de4e5b5f43c61298d75714f1606940c8e54e471c5a3",
+      "bytes": 38722,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:27:57+00:00",
+      "verificado_em": "2026-10-27T03:27:57+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-418-2001/8c90db475bfe20b8.pdf",
+      "versao": "8c90db475bfe20b8"
+    }
+  ],
+  "versao_atual": "8c90db475bfe20b8",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +66,34 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 4,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "dispositivos": 24,
+    "unidades": 26,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 418/2001",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 4,
+    "paginas_sem_texto": 0,
+    "caracteres": 8578,
+    "media_caracteres_pagina": 2144.5,
+    "proporcao_letras": 0.735,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +101,55 @@
       "data": "2026-10-26T21:26:02+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:27:57+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:23+00:00",
+      "por": "processador",
+      "motivo": "26 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:23+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:30:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: detector de lacunas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:30:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

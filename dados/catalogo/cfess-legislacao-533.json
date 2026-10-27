@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-533",
+  "versao_esquema": 1,
+  "titulo_oficial": "Política Nacional para Integração da Pessoa Portadora de Deficiência",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "outro",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/533/politica-nacional-para-integracao-da-pessoa-portadora-de-deficiencia",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:17+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "533",
+    "assinatura_pagina": "922c5333e7c1ae05ef6d61a758bf983f94fd2027965c264ae15d19da6bd28aed",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "http://www.planalto.gov.br/ccivil_03/decreto/d0914.htm",
+        "texto": "Decreto n.º 914, de 6 de setembro de 1993"
+      }
+    ],
+    "descoberto_em": "2026-10-27T03:30:17+00:00"
+  }
+}

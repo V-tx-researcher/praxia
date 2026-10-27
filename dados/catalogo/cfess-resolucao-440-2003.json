@@ -39,7 +39,7 @@
     "portal_indica_situacao:revogada tacitamente pela Resolução CFESS nº 640, de 14 de dezembro de 2012",
     "sem_arquivo_vinculado"
   ],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "fora_do_escopo",
   "historico_estados": [
     {
       "de": null,
@@ -47,6 +47,13 @@
       "data": "2026-10-26T21:25:58+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "fora_do_escopo",
+      "data": "2026-10-27T03:27:35+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Triagem do acervo (Atividade nº 2): sem impacto no exercício profissional"
     }
   ],
   "portal": {

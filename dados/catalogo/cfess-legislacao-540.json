@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-540",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei Orgânica da Saúde",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/540/lei-organica-da-saude",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:39+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "540",
+    "assinatura_pagina": "f60e0a6eba365f7eed8dc443b50adfd84947670e19d46742abb0cfe96b8d1997",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "http://www.planalto.gov.br/ccivil_03/LEIS/L8080.htm",
+        "texto": "Lei nº 8.080, de 19 de Setembro de 1990"
+      }
+    ],
+    "descoberto_em": "2026-10-27T03:30:39+00:00"
+  }
+}

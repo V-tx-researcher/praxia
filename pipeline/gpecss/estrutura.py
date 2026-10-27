@@ -48,7 +48,12 @@ RE_ARTIGO = re.compile(r"^Art(?:igo)?\.?\s*(\d+)\s*(?:[º°o]|\.)?(?:-([A-Z])(?=
 # "Parágrafo único" só com inicial maiúscula e sem continuar como remissão ("Parágrafo único do artigo 18").
 RE_NOVA_REDACAO = re.compile(r"(seguinte|nova)\s+reda[çc][ãa]o\s*:?\s*$|(passa|passam)\s+a\s+(vigorar|ter)\b.*(reda[çc][ãa]o|acrescid[oa]).*:\s*$",
                               re.I)
-RE_PARAGRAFO = re.compile(r"^(?:§\s*(\d+)\s*[º°o]?\s*\.?\s*[-–—]?|PAR[ÁA]GRAFO\s+[ÚU]NICO|Par[áa]grafo\s+[úu]nico(?!\s+d[oa]s?\s))\s*\.?\s*[-–—:]?\s*")
+RE_PARAGRAFO = re.compile(r"^(?:§\s*(\d+)\s*[º°o]?\s*\.?\s*[-–—]?|PAR[ÁA]GRAFO\s+[ÚU]NICO|Par[áa]grafo\s+[úu]nico(?!\s+d[oa]s?\s)"
+                          r"|Par[áa]grafo\s+(primeiro|segundo|terceiro|quarto|quinto|sexto|s[ée]timo|oitavo|nono|d[ée]cimo)\b"
+                          r"(?!\s+d[oa]s?\s))"
+                          r"\s*\.?\s*[-–—:]?\s*")
+ORDINAIS_EXTENSO = {"primeiro": 1, "segundo": 2, "terceiro": 3, "quarto": 4, "quinto": 5, "sexto": 6,
+                    "setimo": 7, "sétimo": 7, "oitavo": 8, "nono": 9, "decimo": 10, "décimo": 10}
 RE_INCISO = re.compile(r"^([IVXLC]{1,6})\s*[-–—.)]\s+")
 RE_ALINEA = re.compile(r"^([a-z])\s*[-–)]\s*(?=\S)")
 RE_TITULO = re.compile(r"^T[ÍI]TULO\s+([IVXLC]+|[ÚU]NICO)\b", re.I)
@@ -336,7 +341,8 @@ class Segmentador:
             if artigo is not None:
                 m_par = RE_PARAGRAFO.match(t)
                 if m_par:
-                    k = int(m_par.group(1)) if m_par.group(1) else 0
+                    k = (int(m_par.group(1)) if m_par.group(1)
+                         else ORDINAIS_EXTENSO[m_par.group(2).lower()] if m_par.group(2) else 0)
                     if k == 0 or k == seq["par"] + 1:
                         seq["par"] = k
                         rot = f"{artigo.rotulo}, " + ("parágrafo único" if k == 0 else f"§ {ordinal(k)}")

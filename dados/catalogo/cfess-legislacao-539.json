@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-539",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei de Diretrizes e Bases da Educação Nacional",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/539/lei-de-diretrizes-e-bases-da-educacao-nacional",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:41+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "539",
+    "assinatura_pagina": "33e2e2f14ed09e1db891544bc5e44528de104eb6ffb5843d6fdc8ece6008c098",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "http://www81.dataprev.gov.br/sislex/paginas/42/1996/9394.htm",
+        "texto": "Lei n. 9.394, de 20 de dezembro de 1996"
+      }
+    ],
+    "descoberto_em": "2026-10-27T03:30:41+00:00"
+  }
+}

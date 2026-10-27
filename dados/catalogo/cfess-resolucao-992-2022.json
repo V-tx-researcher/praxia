@@ -18,12 +18,36 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/306/resolucao-9922022",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4366/rescfess992.pdf",
+      "papel": "principal",
+      "sha256": "d0fa9dffa1f9bef4fd02d368f53ba7ac0b238382af8873aa85907cbe71a487b9",
+      "bytes": 175811,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:17+00:00",
+      "verificado_em": "2026-10-27T03:28:17+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-992-2022/d0fa9dffa1f9bef4.pdf",
+      "versao": "d0fa9dffa1f9bef4"
+    }
+  ],
+  "versao_atual": "d0fa9dffa1f9bef4",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +55,33 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 11,
+    "unidades": 17,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução 992/2022",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 8488,
+    "media_caracteres_pagina": 2829.3,
+    "proporcao_letras": 0.769,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +89,41 @@
       "data": "2026-10-26T21:18:38+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:17+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:35+00:00",
+      "por": "processador",
+      "motivo": "17 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:35+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

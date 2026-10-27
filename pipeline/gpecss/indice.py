@@ -51,6 +51,11 @@ def construir(modo: str = "publico", destino: Path | None = None, log=print) -> 
     for reg in catalogo.todos():
         if reg["estado_fluxo"] not in ESTADOS_POR_MODO[modo] or not reg.get("versao_atual"):
             continue
+        # Arquivo idêntico ao de outro documento (o portal às vezes anexa a versão
+        # compilada em várias páginas): indexa-se apenas o documento de referência.
+        if any(a.startswith(("duplicata_de:", "texto_incorporado:")) for a in reg["alertas"]):
+            problemas.append(f"{reg['id']}: arquivo duplicado de outro documento — não indexado")
+            continue
         texto = catalogo.carregar_texto(reg["id"], reg["versao_atual"])
         erros = citacoes.verificar_unidades(texto)
         if erros:

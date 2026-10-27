@@ -22,8 +22,31 @@
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/448/resolucao-n-6572013",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4546/657-2013.pdf",
+      "papel": "principal",
+      "sha256": "930940cc1e61c952633f70cefca9186dd8d29d69793913b1da70f7751979a375",
+      "bytes": 134893,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:29:28+00:00",
+      "verificado_em": "2026-10-27T03:29:28+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-657-2013/930940cc1e61c952.pdf",
+      "versao": "930940cc1e61c952"
+    },
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5844/RetificacaoResolucao657-2013.pdf",
+      "papel": "anexo",
+      "sha256": "ac7e830a2de37a7380ff33a220b1aeda4c930ed4ede119c4de7104e67121358d",
+      "bytes": 139734,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:05+00:00",
+      "verificado_em": "2026-10-27T03:28:05+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-657-2013/ac7e830a2de37a73.pdf",
+      "versao": "ac7e830a2de37a73"
+    }
+  ],
+  "versao_atual": "930940cc1e61c952",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +54,47 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 10,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dispositivos": 88,
+    "unidades": 91,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução n.º 657/2013",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "anexo-p3",
+        "rotulo": "Anexo ou texto subsequente (a partir da p. 3)",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
-  "alertas": [],
-  "estado_fluxo": "descoberto",
+  "qualidade_extracao": {
+    "paginas": 10,
+    "paginas_sem_texto": 0,
+    "caracteres": 18170,
+    "media_caracteres_pagina": 1817.0,
+    "proporcao_letras": 0.809,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "anexo_ou_compilacao_detectado"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +102,62 @@
       "data": "2026-10-26T21:23:22+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:05+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:27+00:00",
+      "por": "processador",
+      "motivo": "8 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:27+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "baixado",
+      "data": "2026-10-27T03:29:27+00:00",
+      "por": "coletor",
+      "motivo": "texto principal estava trocado pela errata; baixar o anexo correto"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:29:28+00:00",
+      "por": "processador",
+      "motivo": "74 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:29:28+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

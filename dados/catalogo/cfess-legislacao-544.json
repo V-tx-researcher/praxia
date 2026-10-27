@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-544",
+  "versao_esquema": 1,
+  "titulo_oficial": "Política Nacional de Estágio em Serviço Social da ABEPSS - Maio de 2010",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "outro",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Elaborado coletivamente, documento traz os princípios norteadores para a realização do estágio em Serviço Social para a formação profissional.",
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/544/politica-nacional-de-estagio-em-servico-social-da-abepss-maio-de-2010",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:49+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "544",
+    "assinatura_pagina": "7680b4268d8894f5cef1b44a4285c9ea45711b18628157075bf57b7b7c347621",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/4694/pneabepss_maio2010_corrigida.pdf",
+        "nome": "pneabepss_maio2010_corrigida.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:30:49+00:00"
+  }
+}

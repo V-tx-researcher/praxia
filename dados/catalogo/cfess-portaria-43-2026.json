@@ -1,0 +1,61 @@
+{
+  "id": "cfess-portaria-43-2026",
+  "versao_esquema": 1,
+  "titulo_oficial": "Portaria nº 43/2026",
+  "numero": "43",
+  "ano": 2026,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "portaria",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": "Dispõe sobre a designação do Comitê Anticapacitista no âmbito do Conselho Federal de Serviço Social da Gestão 2026-2029 – “Estrada de Fazer o Sonho acontecer”",
+  "data_publicacao": "2026-06-08",
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/691/portaria-n-432026",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:31:23+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "691",
+    "assinatura_pagina": "a53ed089e71582e2cb9af4c7dff85831fbddd1af7a977eb35360bfc438e0ce74",
+    "anexos": [
+      {
+        "url": "https://www.cfess.org.br/uploads/legislacao/5901/043-202629_assinado.pdf",
+        "nome": "043-202629_assinado.pdf"
+      }
+    ],
+    "externos": [],
+    "descoberto_em": "2026-10-27T03:31:23+00:00"
+  }
+}

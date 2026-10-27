@@ -18,12 +18,35 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8662/1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/463/resolucao-n-6152011-expressamente-revogada-pela-resolucao-cfess-n-7852016",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4566/615-11.pdf",
+      "papel": "principal",
+      "sha256": "a2df1839d389083e327b2e411f71255fd1a64b47892446a40fc2e8671df79e7d",
+      "bytes": 161408,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:04+00:00",
+      "verificado_em": "2026-10-27T03:28:04+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-615-2011/a2df1839d389083e.pdf",
+      "versao": "a2df1839d389083e"
+    }
+  ],
+  "versao_atual": "a2df1839d389083e",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,14 +54,34 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 2,
+    "paginas_indexadas": [
+      1,
+      2
+    ],
+    "dispositivos": 9,
+    "unidades": 13,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 615/2011 (expressamente revogada pela Resolução CFESS nº 785/2016)",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 2,
+    "paginas_sem_texto": 0,
+    "caracteres": 5460,
+    "media_caracteres_pagina": 2730.0,
+    "proporcao_letras": 0.761,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [
     "portal_indica_situacao:revogada pela Resolução CFESS nº 785/2016"
   ],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -46,6 +89,41 @@
       "data": "2026-10-26T21:23:52+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:04+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:27+00:00",
+      "por": "processador",
+      "motivo": "13 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:27+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

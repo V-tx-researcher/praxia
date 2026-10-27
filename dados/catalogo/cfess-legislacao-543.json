@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-543",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei Orgânica da Segurança Alimentar e Nutricional",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/543/lei-organica-da-seguranca-alimentar-e-nutricional",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:45+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "543",
+    "assinatura_pagina": "156af5cae65be241cb66439421c9593ba8f4f22178bbc957f2270227ea5a725a",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11346.htm",
+        "texto": "Lei nº 11.346, de 15 de setembro de 2006"
+      }
+    ],
+    "descoberto_em": "2026-10-27T03:30:45+00:00"
+  }
+}

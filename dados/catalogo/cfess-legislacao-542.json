@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-542",
+  "versao_esquema": 1,
+  "titulo_oficial": "Estatuto da Juventude",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "outro",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/542/estatuto-da-juventude",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:43+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "542",
+    "assinatura_pagina": "7cc622385f1c9df376866bc999893291a569c7662d45f293ba349698d9d24612",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "http://www.planalto.gov.br/CCIVIL_03/_Ato2011-2014/2013/Lei/L12852.htm",
+        "texto": "Lei nº 12.852, de 5 de agosto de 2013"
+      }
+    ],
+    "descoberto_em": "2026-10-27T03:30:43+00:00"
+  }
+}

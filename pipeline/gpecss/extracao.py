@@ -120,6 +120,7 @@ def detectar_lacunas(paginas: list[str]) -> list[dict]:
     for n, texto in enumerate(paginas, start=1):
         for linha in texto.split("\n"):
             limpa = re.sub(r"/[ao]s?\b", "", linha)          # marcas de gênero: o/a, os/as
+            limpa = re.sub(r"(?:\b[^\W\d_] ){3,}[^\W\d_]\b", "", limpa)  # títulos espaçados: "R E S O L U Ç Ã O"
             isoladas = [p for p in re.findall(r"(?<![\w/.])[^\W\d_](?![\w/.])", limpa)
                         if p.lower() not in _LETRAS_PALAVRA]
             if _RE_ASPAS_VAZIAS.search(linha) or len(isoladas) >= 2:

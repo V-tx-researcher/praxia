@@ -18,12 +18,56 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      },
+      {
+        "referencia": "lei-8112-1990",
+        "texto": "Lei nº 8112, de 11 de dezembro de 1990",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-273-1993",
+        "texto": "Resolução CFESS nº 273/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/472/resolucao-n-5722010",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4578/RESCFESS572.pdf",
+      "papel": "principal",
+      "sha256": "60adfc5de1f5dcc0b5992a03a372079fb7d3061b6f42efe2c2020b3f03e7ade6",
+      "bytes": 192785,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:02+00:00",
+      "verificado_em": "2026-10-27T03:28:02+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-572-2010/60adfc5de1f5dcc0.pdf",
+      "versao": "60adfc5de1f5dcc0"
+    }
+  ],
+  "versao_atual": "60adfc5de1f5dcc0",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +75,33 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 12,
+    "unidades": 17,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº 572/2010",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 6732,
+    "media_caracteres_pagina": 2244.0,
+    "proporcao_letras": 0.747,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +109,41 @@
       "data": "2026-10-26T21:24:10+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:02+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:26+00:00",
+      "por": "processador",
+      "motivo": "15 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:26+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

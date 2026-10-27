@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-538",
+  "versao_esquema": 1,
+  "titulo_oficial": "Política Nacional de Saúde Mental",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "outro",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/538/politica-nacional-de-saude-mental",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:05+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "538",
+    "assinatura_pagina": "8d8c2a03b7ccd3afa4f555590a663db9c8b6b67d4a206e93ee7a7eae703a6014",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "http://www.planalto.gov.br/ccivil_03/Leis/LEIS_2001/L10216.htm",
+        "texto": "Lei nº 10.216, de 6 de abril de 2001"
+      }
+    ],
+    "descoberto_em": "2026-10-27T03:30:05+00:00"
+  }
+}

@@ -18,12 +18,45 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei no 8662, de 07 de junho de 1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14063-2020",
+        "texto": "Lei nº 14.063/2020",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/288/resolucao-10152022-atualizada-com-modificacao-inserida-pela-resolucao-10182023",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4346/Resolucaocfess1015-2022.pdf",
+      "papel": "principal",
+      "sha256": "40b1505d5fba74964dbe2a1cd0ba39980496f39f2f0ee40f2981129e86814966",
+      "bytes": 144763,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:27:49+00:00",
+      "verificado_em": "2026-10-27T03:27:49+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-1015-2022/40b1505d5fba7496.pdf",
+      "versao": "40b1505d5fba7496"
+    }
+  ],
+  "versao_atual": "40b1505d5fba7496",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +64,36 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 6,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "dispositivos": 43,
+    "unidades": 45,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução 1.015/2022 (atualizada com modificação inserida pela Resolução 1.018/2023)",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 6,
+    "paginas_sem_texto": 0,
+    "caracteres": 13922,
+    "media_caracteres_pagina": 2320.3,
+    "proporcao_letras": 0.76,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +101,41 @@
       "data": "2026-10-26T21:18:02+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:27:49+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:18+00:00",
+      "por": "processador",
+      "motivo": "45 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:18+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

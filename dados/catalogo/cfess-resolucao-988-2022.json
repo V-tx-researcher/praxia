@@ -18,12 +18,67 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-940-2020",
+        "texto": "Resolução Cfess nº 940/2020",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-660-2013",
+        "texto": "Resolução Cfess nº 660/2013",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          3,
+          9
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-657-2013",
+        "texto": "Resolução Cfess nº 657/2013",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          3,
+          9
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/309/resolucao-9882022",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4370/ResolucaoCfess988-2022.pdf",
+      "papel": "principal",
+      "sha256": "d7f7b4be8ee2a5b8cfcbc0ab21a88c1b4acb0673cb63d2cd22e7c99d2c5ff025",
+      "bytes": 234247,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:16+00:00",
+      "verificado_em": "2026-10-27T03:28:16+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-988-2022/d7f7b4be8ee2a5b8.pdf",
+      "versao": "d7f7b4be8ee2a5b8"
+    }
+  ],
+  "versao_atual": "d7f7b4be8ee2a5b8",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +86,40 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 10,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dispositivos": 57,
+    "unidades": 63,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução 988/2022",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 10,
+    "paginas_sem_texto": 0,
+    "caracteres": 27688,
+    "media_caracteres_pagina": 2768.8,
+    "proporcao_letras": 0.769,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +127,41 @@
       "data": "2026-10-26T21:18:44+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:16+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:34+00:00",
+      "por": "processador",
+      "motivo": "63 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:34+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

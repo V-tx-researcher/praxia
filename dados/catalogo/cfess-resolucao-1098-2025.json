@@ -104,8 +104,8 @@
       6,
       7
     ],
-    "dispositivos": 29,
-    "unidades": 32,
+    "dispositivos": 41,
+    "unidades": 44,
     "partes": [
       {
         "slug": "texto",
@@ -193,6 +193,20 @@
       "de": "processado",
       "para": "aguardando_conferencia",
       "data": "2026-10-27T03:13:38+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:03+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
     }

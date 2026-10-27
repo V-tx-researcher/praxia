@@ -18,12 +18,35 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8662/1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/340/resolucao-n-9432020",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4420/ResolucaoCfess943-2020.pdf",
+      "papel": "principal",
+      "sha256": "cd21e24f067b6b3c2c25f920529d4ce00ee9eb462a381678b6310656b1ee1d8c",
+      "bytes": 110539,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:14+00:00",
+      "verificado_em": "2026-10-27T03:28:14+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-943-2020/cd21e24f067b6b3c.pdf",
+      "versao": "cd21e24f067b6b3c"
+    }
+  ],
+  "versao_atual": "cd21e24f067b6b3c",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +54,31 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 1,
+    "paginas_indexadas": [
+      1
+    ],
+    "dispositivos": 2,
+    "unidades": 5,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução nº  943/2020",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 1,
+    "paginas_sem_texto": 0,
+    "caracteres": 2688,
+    "media_caracteres_pagina": 2688.0,
+    "proporcao_letras": 0.739,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +86,41 @@
       "data": "2026-10-26T21:19:46+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:14+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:33+00:00",
+      "por": "processador",
+      "motivo": "5 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:33+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:05+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

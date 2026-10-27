@@ -18,12 +18,56 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-428-2002",
+        "texto": "Resolução CFESS Nº. 428/2002",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          4
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-273-1993",
+        "texto": "Resolução CFESS nº. 273/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          4
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/592/resolucao-n-11032025",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/5245/Resolução CFESS 548 -2009 Compilada (jun 2025).pdf",
+      "papel": "principal",
+      "sha256": "77db957876dc455d8bb5547ccad8827a3e06efd3630fca872d1bfd4668167a45",
+      "bytes": 147419,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:27:54+00:00",
+      "verificado_em": "2026-10-27T03:27:54+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-1103-2025/77db957876dc455d.pdf",
+      "versao": "77db957876dc455d"
+    }
+  ],
+  "versao_atual": "77db957876dc455d",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +75,38 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 6,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "dispositivos": 24,
+    "unidades": 27,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução n° 1.103/2025",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
-  "alertas": [],
-  "estado_fluxo": "descoberto",
+  "qualidade_extracao": {
+    "paginas": 6,
+    "paginas_sem_texto": 1,
+    "caracteres": 10500,
+    "media_caracteres_pagina": 1750.0,
+    "proporcao_letras": 0.802,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "texto_incorporado:cfess-resolucao-548-2009"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +114,41 @@
       "data": "2026-10-26T21:15:38+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:27:54+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:21+00:00",
+      "por": "processador",
+      "motivo": "25 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:21+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:03+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {
@@ -57,5 +162,6 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:15:38+00:00"
-  }
+  },
+  "observacao_portal": "A página oficial anexa a versão compilada da Res. 548/2009 (jun/2025), e não o texto próprio desta resolução."
 }

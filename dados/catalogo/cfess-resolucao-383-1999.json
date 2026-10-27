@@ -22,7 +22,19 @@
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/528/resolucao-n-3831999",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4640/Resolucao38399.pdf",
+      "papel": "principal",
+      "sha256": "8cc3037bbda02d2b687195c594e043d8bcc3f5222b35039130d7c515d220251a",
+      "bytes": 1344070,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:27:56+00:00",
+      "verificado_em": "2026-10-27T03:27:56+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-383-1999/8cc3037bbda02d2b.pdf",
+      "versao": "8cc3037bbda02d2b"
+    }
+  ],
   "versao_atual": null,
   "redistribuicao": "link_e_excertos",
   "conferencia": {
@@ -34,9 +46,20 @@
     "paginas": 0,
     "dispositivos": 0
   },
-  "qualidade_extracao": null,
-  "alertas": [],
-  "estado_fluxo": "descoberto",
+  "qualidade_extracao": {
+    "paginas": 2,
+    "paginas_sem_texto": 2,
+    "caracteres": 0,
+    "media_caracteres_pagina": 0.0,
+    "proporcao_letras": 0.0,
+    "caracteres_substituicao": 0,
+    "classificacao": "requer_ocr",
+    "motivo": "pouco texto extraível: provável documento digitalizado"
+  },
+  "alertas": [
+    "requer_ocr"
+  ],
+  "estado_fluxo": "erro_extracao",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +67,20 @@
       "data": "2026-10-26T21:26:06+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:27:56+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "erro_extracao",
+      "data": "2026-10-27T03:28:23+00:00",
+      "por": "processador",
+      "motivo": "pouco texto extraível: provável documento digitalizado"
     }
   ],
   "portal": {

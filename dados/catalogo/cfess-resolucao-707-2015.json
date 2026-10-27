@@ -18,12 +18,35 @@
     "revoga": [],
     "alterado_por": [],
     "revogado_por": [],
-    "mencoes_detectadas": []
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "lei 8662, de 07 de junho de 1993",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
   },
   "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/431/resolucao-n-7072015",
   "categoria_portal": "Resoluções do CFESS",
-  "arquivos": [],
-  "versao_atual": null,
+  "arquivos": [
+    {
+      "url": "https://www.cfess.org.br/uploads/legislacao/4527/Resolucao707-2015.pdf",
+      "papel": "principal",
+      "sha256": "9c2d6bcb3f193e6246507a0bf31784ad6c6462c268857d15fa5bba10415df2e1",
+      "bytes": 142707,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-10-27T03:28:05+00:00",
+      "verificado_em": "2026-10-27T03:28:05+00:00",
+      "caminho_local": "dados/brutos/cfess-resolucao-707-2015/9c2d6bcb3f193e62.pdf",
+      "versao": "9c2d6bcb3f193e62"
+    }
+  ],
+  "versao_atual": "9c2d6bcb3f193e62",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
     "data": null,
@@ -31,12 +54,34 @@
     "observacoes": null
   },
   "indexacao": {
-    "paginas": 0,
-    "dispositivos": 0
+    "paginas": 4,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "dispositivos": 9,
+    "unidades": 12,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução n.º 707/2015",
+        "tipo": "normativa"
+      }
+    ]
   },
-  "qualidade_extracao": null,
+  "qualidade_extracao": {
+    "paginas": 4,
+    "paginas_sem_texto": 0,
+    "caracteres": 9042,
+    "media_caracteres_pagina": 2260.5,
+    "proporcao_letras": 0.716,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
   "alertas": [],
-  "estado_fluxo": "descoberto",
+  "estado_fluxo": "aguardando_conferencia",
   "historico_estados": [
     {
       "de": null,
@@ -44,6 +89,41 @@
       "data": "2026-10-26T21:22:52+00:00",
       "por": "coletor",
       "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-10-27T03:28:05+00:00",
+      "por": "coletor",
+      "motivo": "arquivos obtidos da fonte oficial"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-10-27T03:28:28+00:00",
+      "por": "processador",
+      "motivo": "12 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:28:28+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: parágrafos por extenso"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T03:32:04+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
     }
   ],
   "portal": {

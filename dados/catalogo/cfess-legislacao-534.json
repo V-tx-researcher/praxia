@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-534",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei Orgânica da Assistência Social - LOAS",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/534/lei-organica-da-assistencia-social-loas",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:03+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "534",
+    "assinatura_pagina": "319b1a1c31173a43692f9af8be71980be6ecf170cdc973b733d3ec1ce750d1c5",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "http://www.planalto.gov.br/ccivil_03/Leis/L8742.htm",
+        "texto": "Lei n.º 8.742, de 7 de dezembro de 1993"
+      }
+    ],
+    "descoberto_em": "2026-10-27T03:30:03+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cfess-legislacao-531",
+  "versao_esquema": 1,
+  "titulo_oficial": "Constituição da República Federativa do Brasil de 1988",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "CFESS",
+  "tipo_documental": "outro",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.cfess.org.br/legislacao/view/531/constituicao-da-republica-federativa-do-brasil-de-1988",
+  "categoria_portal": "Listagem geral",
+  "arquivos": [],
+  "versao_atual": null,
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 0,
+    "dispositivos": 0
+  },
+  "qualidade_extracao": null,
+  "alertas": [],
+  "estado_fluxo": "descoberto",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-10-27T03:30:07+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    }
+  ],
+  "portal": {
+    "id": "531",
+    "assinatura_pagina": "1f7bf90579085226a70b521504e82dfa46ab1dc1708d3f6763f782589d60a3b9",
+    "anexos": [],
+    "externos": [
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm",
+        "texto": "Título VIII - Da Ordem Social"
+      }
+    ],
+    "descoberto_em": "2026-10-27T03:30:07+00:00"
+  }
+}
