@@ -171,9 +171,9 @@
   "conferencia": {
     "data": "2026-10-27",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida.",
+    "observacoes": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "86ff45dd39adda15",
-    "registrado_em": "2026-10-27T14:16:33+00:00"
+    "registrado_em": "2026-10-27T15:10:51+00:00"
   },
   "indexacao": {
     "paginas": 62,
@@ -223,7 +223,7 @@
       58
     ],
     "dispositivos": 221,
-    "unidades": 236,
+    "unidades": 238,
     "partes": [
       {
         "slug": "apresentacao-2011",
@@ -390,6 +390,34 @@
       "data": "2026-10-27T14:16:33+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-27T15:10:51+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: assinatura e nota de publicação separadas do último artigo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T15:10:51+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-27T15:10:51+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-27T15:10:51+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -459,8 +487,8 @@
   "conferencia_original": {
     "data": "2026-10-27",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS.",
+    "observacoes": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "86ff45dd39adda15",
-    "registrado_em": "2026-10-27T03:14:10+00:00"
+    "registrado_em": "2026-10-27T14:16:33+00:00"
   }
 }

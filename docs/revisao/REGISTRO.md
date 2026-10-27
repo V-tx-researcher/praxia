@@ -4,14 +4,60 @@ Conferências feitas pelo revisor do projeto (assistente social), registradas se
 identificação pessoal (D19). As respostas originais ficam nos arquivos `.docx` desta
 pasta; o registro no catálogo é feito por scripts em `scripts/revisao/`.
 
-## Atividade nº 4 — Lote 2 (27/10/2026) — devolvida preenchida por ferramenta de IA
+## Atividade nº 4 — Lote 2, 11 normas + pendência da 954/2020 (27/10/2026, segunda devolução)
+
+**Resultado:** 12 normas aprovadas e publicadas (índice público: 20 documentos).
+O revisor respondeu com apoio de outra ferramenta de IA, mas **marcou ele mesmo
+as opções** em todas as normas; por isso a conferência foi registrada (diferente
+da primeira devolução, abaixo). O revisor pediu que as pendências restantes fossem
+resolvidas por pesquisa do desenvolvimento; elas estão identificadas na tabela e
+na observação de cada conferência.
+
+| Norma | Situação registrada | Observações |
+|---|---|---|
+| Res. 660/2013 (compilada) | vigente com alterações | 938/2020 (Art. 15, § 2º; Arts. 74 e 75) e 1.013/2022 (Art. 76); revoga a 428/2002; riscados confirmados (págs. 6 e 18); 988/2022 em nota |
+| Res. 657/2013 (compilada) | vigente | retificação do Art. 30 (26/05/2015) — riscado confirmado; 988/2022 em nota |
+| Res. 1.073/2024 | vigente | revoga a 443/2003 (Art. 13) |
+| Res. 952/2020 | vigente | revisor marcou "Não sei" → **pesquisa do desenvolvimento** (abaixo) |
+| Res. 934/2020 (compilada) | vigente com alterações | parágrafo único do Art. 9º incluído pela 950/2020 |
+| Res. 950/2020 | vigente | assinatura separada do Art. 4º (pedido do revisor); divergência 23/28 de janeiro mantida como no original, com nota |
+| Res. 569/2010 | vigente | Art. 4º, parágrafo único: remete à 428/2002, revogada pela 660/2013 (aviso no trecho) |
+| Res. 489/2006 | vigente | — |
+| Res. 992/2022 | vigente | — |
+| Res. 1.054/2023 | vigente | — |
+| Res. 1.084/2024 | vigente | ementa retificada (DOU 13/12/2024), em nota |
+| Res. 954/2020 | vigente com alterações | Art. 1º e Art. 3º, I com aviso de redação alterada pela 970/2021; texto completado por **transcrição do desenvolvimento** (abaixo) |
+
+Pontos do formulário que não exigiram correção: os trechos que terminavam em "…"
+estavam abreviados só na atividade; o texto guardado está completo (conferido nos
+Arts. 1º e 5º da 952, 7º da 489 e da 992 e inciso XIV do Art. 3º da 1.084). O
+rodapé e a autenticação nos Arts. 1º e 7º da 1.054 já tinham sido retirados pela
+correção do timbre (D26).
+
+### Pendências resolvidas por pesquisa do desenvolvimento (delegação do revisor)
+
+- **Res. 952/2020 — vigência.** Não há norma que a altere ou revogue nas ementas das
+  682 páginas de legislação do portal do CFESS nem nos textos já processados. O
+  material do CFESS "Outras publicações para processamento ético" (arquivo
+  `DocsCPE2026.pdf`, modificado em junho de 2026) a lista entre as normas de
+  referência. Registrada como vigente.
+- **Res. 954/2020 — texto do Art. 1º.** A extração automática perde palavras de uma
+  das fontes do PDF. As duas páginas foram transcritas da imagem do PDF oficial
+  (`dados/configuracao/transcricoes/cfess-resolucao-954-2020.json`). Uma verificação
+  automática confirma que **tudo o que a extração leu está na transcrição, na mesma
+  ordem**, ou seja, a transcrição só acrescenta o que faltava. No Art. 1º, os
+  acréscimos foram "artigo" e "“c”,". Os incisos I, III e IV do Art. 3º coincidem
+  com as transcrições do próprio revisor (Atividades nº 1 e 3).
+
+## Atividade nº 4 — Lote 2 (27/10/2026) — primeira devolução, preenchida por ferramenta de IA
 
 **Não registrada como conferência.** O arquivo devolvido não tinha nenhuma opção
 marcada; as respostas vinham prefixadas com "RESPOSTA:" e, em 6 das 11 normas, a
 ferramenta declarou não ter conseguido abrir o PDF. Pela regra do projeto (aprovação
 depende de revisão humana profissional), nada foi aprovado a partir dele. O arquivo
-foi guardado como `Atividade_04_Lote_02_preenchida_por_IA_nao_registrada.docx` e uma
-versão limpa do lote 2 foi gerada.
+foi guardado como `Atividade_04_Lote_02_preenchida_por_IA_nao_registrada.docx`
+(retirado da pasta pelo revisor; permanece no histórico do Git, commit ddd1835) e
+uma versão limpa do lote 2 foi gerada.
 
 Achado técnico aproveitado: o timbre institucional (endereço, contato, autenticação
 eletrônica) estava misturado ao texto em 41 documentos, inclusive 4 publicados.

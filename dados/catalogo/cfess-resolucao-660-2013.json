@@ -7,16 +7,33 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
+  "assunto_principal": "processo_etico",
   "assuntos_secundarios": [],
   "ementa": "Dispõe sobre as normas que regulam o CÓDIGO PROCESSUAL DE ÉTICA, incluindo alterações que foram apresentadas pelo CFESS e pelos CRESS, revogando integralmente a Resolução CFESS nº 428 de 14 de maio de 2002.",
   "data_publicacao": "2025-03-25",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "alterada",
   "alteracoes": {
     "altera": [],
-    "revoga": [],
-    "alterado_por": [],
+    "revoga": [
+      {
+        "referencia": "Resolução CFESS nº 428/2002",
+        "verificado": true,
+        "descricao": "Revogação integral (Art. 2º)."
+      }
+    ],
+    "alterado_por": [
+      {
+        "id": "cfess-resolucao-938-2020",
+        "verificado": true,
+        "descricao": "Nova redação do Art. 15, § 2º (prazos em dias úteis) e dos Arts. 74 e 75 (prescrição)."
+      },
+      {
+        "id": "cfess-resolucao-1013-2022",
+        "verificado": true,
+        "descricao": "Inclui o Art. 76 (falecimento da pessoa denunciada) e renumera os seguintes."
+      }
+    ],
     "revogado_por": [],
     "mencoes_detectadas": [
       {
@@ -69,9 +86,11 @@
   "versao_atual": "b00db0c6fad6599c",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-27",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Trechos riscados retirados confirmados pelo revisor (págs. 6 e 18).",
+    "versao_conferida": "b00db0c6fad6599c",
+    "registrado_em": "2026-10-27T15:10:37+00:00"
   },
   "indexacao": {
     "paginas": 19,
@@ -97,7 +116,7 @@
       19
     ],
     "dispositivos": 100,
-    "unidades": 104,
+    "unidades": 105,
     "partes": [
       {
         "slug": "texto",
@@ -124,7 +143,7 @@
     "anexo_ou_compilacao_detectado",
     "texto_riscado_removido:481"
   ],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -237,6 +256,34 @@
       "data": "2026-10-27T14:16:31+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T15:10:36+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: assinatura separada do último artigo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T15:10:36+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-27T15:10:37+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Trechos riscados retirados confirmados pelo revisor (págs. 6 e 18)."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-27T15:10:37+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -260,5 +307,6 @@
       "pagina": 18,
       "texto": "Parágrafo Único A citação e/ou o conhecimento expresso, de que trata este artigo, ensejará adefesa escrita ou a termo, conforme o caso, a partir do qual recomeçará a fluir novo prazoprescricionalArt. 75 Todo processo disciplinar paralisado há mais de 2 (dois) anos, pendente de ato processualdespacho ou julgamento, será arquivado ex-ofício, ou a requerimento da parte interessada"
     }
-  ]
+  ],
+  "nota_vigencia": "Vigente com alterações das Res. CFESS nº 938/2020 e 1.013/2022 (versão compilada; texto riscado retirado). A Res. CFESS nº 988/2022 disciplina a realização eletrônica dos atos e ritos deste Código."
 }

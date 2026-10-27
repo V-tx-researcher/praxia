@@ -5,7 +5,8 @@ arquivo oficial (mesmo SHA-256) — ex.: retirada do timbre institucional
 (27/10/2026). A conferência humana original é mantida e registrada; nada é
 aprovado se o arquivo tiver mudado.
 
-Uso (na raiz): python scripts/revisao/reprocessar_publicados.py "<motivo>"
+Uso (na raiz): python scripts/revisao/reprocessar_publicados.py "<motivo>" [id ...]
+(sem ids, reprocessa todos os publicados)
 """
 
 import sys
@@ -16,9 +17,10 @@ from gpecss import catalogo, processamento, revisao  # noqa: E402
 from gpecss.esquema import transitar  # noqa: E402
 
 motivo = sys.argv[1] if len(sys.argv) > 1 else "reprocessamento técnico"
+somente = set(sys.argv[2:])
 
 for r in catalogo.todos():
-    if r["estado_fluxo"] != "publicado":
+    if r["estado_fluxo"] != "publicado" or (somente and r["id"] not in somente):
         continue
     conf = dict(r["conferencia"])
     versao = r["versao_atual"]

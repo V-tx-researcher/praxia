@@ -61,7 +61,7 @@
       3
     ],
     "dispositivos": 13,
-    "unidades": 17,
+    "unidades": 18,
     "partes": [
       {
         "slug": "texto",
@@ -191,6 +191,20 @@
       "de": "processado",
       "para": "aguardando_conferencia",
       "data": "2026-10-27T14:16:32+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T15:11:01+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: assinatura separada do último artigo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T15:11:01+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
     }

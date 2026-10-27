@@ -14,7 +14,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(RAIZ / "pipeline"))
 
-from gpecss import catalogo, citacoes, estrutura, extracao  # noqa: E402
+from gpecss import catalogo, citacoes, estrutura, extracao, processamento  # noqa: E402
 from gpecss.coleta import alerta_situacao_portal, inferir_identificacao  # noqa: E402
 from gpecss.esquema import (TransicaoInvalida, registro_vazio, transitar,  # noqa: E402
                             validar_registro)
@@ -241,6 +241,8 @@ class TestAcervoReal(unittest.TestCase):
                 # Reextração independente: as páginas gravadas devem coincidir com o arquivo.
                 if principal["tipo_mime"] == "application/pdf":
                     paginas = extracao.extrair_pdf(caminho)
+                    paginas, _, alerta = processamento.aplicar_transcricao(r["id"], principal["sha256"], paginas)
+                    self.assertIsNone(alerta, r["id"])
                     self.assertEqual(paginas, [p["texto"] for p in texto["paginas"]], r["id"])
 
     def test_indice_publico_so_tem_publicados(self):
@@ -252,6 +254,28 @@ class TestAcervoReal(unittest.TestCase):
         for d in indice["documentos"]:
             self.assertEqual(estados.get(d["id"]), "publicado", d["id"])
             self.assertTrue(d["conferido"])
+
+
+class TestTranscricaoEAssinatura(unittest.TestCase):
+    def test_transcricao_so_acrescenta(self):
+        extraido = "(tipificada no\n22, “ ”, da Resolução CFESS no 273/1993)"
+        transcrito = "(tipificada no\nartigo 22, “c”, da Resolução CFESS nº 273/1993)"
+        self.assertEqual(processamento.acrescimos_transcricao(extraido, transcrito), ["artigo", "“c”,"])
+
+    def test_transcricao_que_troca_texto_e_recusada(self):
+        self.assertIsNone(processamento.acrescimos_transcricao("Art. 1º É vedado", "Art. 1º É permitido"))
+        self.assertIsNone(processamento.acrescimos_transcricao("Art. 1º É vedado ao", "Art. 1º É vedado"))
+
+    def test_assinatura_fica_fora_do_ultimo_artigo(self):
+        pag = ("Art. 1º Fica instituído o modelo.\n"
+               "Art. 2º Esta Resolução entra em vigor na data de sua publicação.\n"
+               "MARIA ELIZABETH SANTANA BORGES\nConselheira Presidente do Cfess\n"
+               "(publicada no Diário Oficial da União nº 136, de 17 de julho de 2020)")
+        seg = estrutura.segmentar([pag], "teste")
+        un = {u["id"].split(":", 1)[1]: u["texto"] for u in seg["unidades"]}
+        self.assertTrue(un["art-2"].endswith("publicação."))
+        self.assertIn("Conselheira Presidente", un["fecho"])
+        self.assertIn("publicada", un["fecho"])
 
 
 if __name__ == "__main__":

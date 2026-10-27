@@ -1768,3 +1768,108 @@
 {"data": "2026-10-27T14:16:34+00:00", "tipo": "processado", "id": "cfess-resolucao-970-2021", "unidades": 10, "qualidade": "boa"}
 {"data": "2026-10-27T14:16:34+00:00", "tipo": "aprovado", "id": "cfess-resolucao-970-2021", "por": "revisao-profissional"}
 {"data": "2026-10-27T14:16:34+00:00", "tipo": "publicado", "id": "cfess-resolucao-970-2021", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:07:45+00:00", "tipo": "processado", "id": "cfess-resolucao-954-2020", "unidades": 13, "qualidade": "boa"}
+{"data": "2026-10-27T15:07:58+00:00", "tipo": "processado", "id": "cfess-resolucao-954-2020", "unidades": 13, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-660-2013", "unidades": 105, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-657-2013-p663", "unidades": 93, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-1073-2024", "unidades": 39, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-952-2020", "unidades": 20, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-934-2020", "unidades": 32, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-950-2020", "unidades": 14, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-569-2010", "unidades": 19, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-489-2006", "unidades": 13, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-992-2022", "unidades": 17, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-1054-2023", "unidades": 18, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-1084-2024", "unidades": 34, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:36+00:00", "tipo": "processado", "id": "cfess-resolucao-954-2020", "unidades": 14, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-660-2013", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-660-2013", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-657-2013-p663", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-657-2013-p663", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-1073-2024", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-1073-2024", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-952-2020", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-952-2020", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-934-2020", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-934-2020", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-950-2020", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-950-2020", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-569-2010", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-569-2010", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-489-2006", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-489-2006", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-992-2022", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-992-2022", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-1054-2023", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-1054-2023", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-1084-2024", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-1084-2024", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "aprovado", "id": "cfess-resolucao-954-2020", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:37+00:00", "tipo": "publicado", "id": "cfess-resolucao-954-2020", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "processado", "id": "cfess-codigo-etica-1993", "unidades": 238, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "aprovado", "id": "cfess-codigo-etica-1993", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "publicado", "id": "cfess-codigo-etica-1993", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "processado", "id": "cfess-resolucao-1098-2025", "unidades": 44, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "aprovado", "id": "cfess-resolucao-1098-2025", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "publicado", "id": "cfess-resolucao-1098-2025", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "processado", "id": "cfess-resolucao-1114-2025", "unidades": 49, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "aprovado", "id": "cfess-resolucao-1114-2025", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "publicado", "id": "cfess-resolucao-1114-2025", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "processado", "id": "cfess-resolucao-512-2007", "unidades": 91, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "aprovado", "id": "cfess-resolucao-512-2007", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "publicado", "id": "cfess-resolucao-512-2007", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "processado", "id": "cfess-resolucao-533-2008", "unidades": 31, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "aprovado", "id": "cfess-resolucao-533-2008", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:51+00:00", "tipo": "publicado", "id": "cfess-resolucao-533-2008", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:52+00:00", "tipo": "processado", "id": "cfess-resolucao-557-2009", "unidades": 17, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:52+00:00", "tipo": "aprovado", "id": "cfess-resolucao-557-2009", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:52+00:00", "tipo": "publicado", "id": "cfess-resolucao-557-2009", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:52+00:00", "tipo": "processado", "id": "cfess-resolucao-594-2011", "unidades": 9, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:52+00:00", "tipo": "aprovado", "id": "cfess-resolucao-594-2011", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:52+00:00", "tipo": "publicado", "id": "cfess-resolucao-594-2011", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:52+00:00", "tipo": "processado", "id": "cfess-resolucao-970-2021", "unidades": 11, "qualidade": "boa"}
+{"data": "2026-10-27T15:10:52+00:00", "tipo": "aprovado", "id": "cfess-resolucao-970-2021", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:52+00:00", "tipo": "publicado", "id": "cfess-resolucao-970-2021", "por": "revisao-profissional"}
+{"data": "2026-10-27T15:10:59+00:00", "tipo": "processado", "id": "cfess-orientacao-normativa-1-2018", "unidades": 15, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-orientacao-normativa-2-2018", "unidades": 12, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-orientacao-normativa-3-2020", "unidades": 5, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-orientacao-normativa-4-2020", "unidades": 6, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-1013-2022", "unidades": 8, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-1014-2022", "unidades": 83, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-1015-2022", "unidades": 46, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-1018-2023", "unidades": 7, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-1031-2023", "unidades": 26, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-1068-2024", "unidades": 11, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-1103-2025", "unidades": 26, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-1116-2025", "unidades": 5, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-1147-2026", "unidades": 18, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-418-2001-p662", "unidades": 26, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-418-2001", "unidades": 26, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-443-2003", "unidades": 14, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-467-2005", "unidades": 6, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-493-2006", "unidades": 22, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-513-2007", "unidades": 12, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-548-2009", "unidades": 26, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-554-2009", "unidades": 12, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-555-2009", "unidades": 13, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:00+00:00", "tipo": "processado", "id": "cfess-resolucao-556-2009", "unidades": 16, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-559-2009", "unidades": 16, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-560-2009", "unidades": 9, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-572-2010", "unidades": 17, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-590-2010", "unidades": 27, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-615-2011", "unidades": 13, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-657-2013", "unidades": 93, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-707-2015", "unidades": 13, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-726-2015", "unidades": 9, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-782-2016", "unidades": 26, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-785-2016", "unidades": 20, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-792-2017", "unidades": 26, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-828-2017", "unidades": 9, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-845-2018", "unidades": 18, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:01+00:00", "tipo": "processado", "id": "cfess-resolucao-861-2018", "unidades": 13, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:02+00:00", "tipo": "processado", "id": "cfess-resolucao-884-2018", "unidades": 21, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:02+00:00", "tipo": "processado", "id": "cfess-resolucao-923-2019", "unidades": 24, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:02+00:00", "tipo": "processado", "id": "cfess-resolucao-938-2020", "unidades": 8, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:02+00:00", "tipo": "processado", "id": "cfess-resolucao-943-2020", "unidades": 6, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:02+00:00", "tipo": "processado", "id": "cfess-resolucao-954-2020-p215", "unidades": 14, "qualidade": "boa"}
+{"data": "2026-10-27T15:11:02+00:00", "tipo": "processado", "id": "cfess-resolucao-988-2022", "unidades": 64, "qualidade": "boa"}

@@ -7,12 +7,14 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
-  "assuntos_secundarios": [],
+  "assunto_principal": "vedacoes",
+  "assuntos_secundarios": [
+    "relacao_usuarios"
+  ],
   "ementa": "Estabelece normas vedando atos e condutas discriminatórias e/ou preconceituosas contra pessoas com deficiência no exercício profissional do/a assistente social, regulamentando os princípios II, VI e XI inscritos no Código de Ética Profissional",
   "data_publicacao": "2022-03-22",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "vigente_confirmada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
@@ -50,9 +52,11 @@
   "versao_atual": "d0fa9dffa1f9bef4",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-27",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "d0fa9dffa1f9bef4",
+    "registrado_em": "2026-10-27T15:10:37+00:00"
   },
   "indexacao": {
     "paginas": 3,
@@ -62,7 +66,7 @@
       3
     ],
     "dispositivos": 11,
-    "unidades": 16,
+    "unidades": 17,
     "partes": [
       {
         "slug": "texto",
@@ -81,7 +85,7 @@
     "classificacao": "boa"
   },
   "alertas": [],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -194,6 +198,34 @@
       "data": "2026-10-27T14:16:33+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T15:10:36+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: assinatura separada do último artigo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T15:10:36+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-27T15:10:37+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-27T15:10:37+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {

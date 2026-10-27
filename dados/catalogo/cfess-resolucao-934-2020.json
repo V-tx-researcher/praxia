@@ -7,16 +7,24 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
-  "assuntos_secundarios": [],
+  "assunto_principal": "processo_etico",
+  "assuntos_secundarios": [
+    "sigilo_profissional"
+  ],
   "ementa": "Dispõe sobre a não caracterização de quebra de sigilo o fornecimento - pelos Conselhos Regionais e Federal de Serviço Social - de CERTIDÃO DISCIPLINAR E/OU ÉTICA de objeto e fase que se encontra a denúncia, processo ou recurso, quando solicitada pelo/a próprio/a denunciado/a ou por autoridade policial ou judicial e REGULAMENTA a sua expedição (edição compilada e atualizada)",
   "data_publicacao": "2020-01-28",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "alterada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
-    "alterado_por": [],
+    "alterado_por": [
+      {
+        "id": "cfess-resolucao-950-2020",
+        "verificado": true,
+        "descricao": "Acrescenta parágrafo único ao Art. 9º e institui os modelos de certidão (Anexos I a IV)."
+      }
+    ],
     "revogado_por": [],
     "mencoes_detectadas": [
       {
@@ -62,9 +70,11 @@
   "versao_atual": "3a7e211c30edd605",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-27",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "3a7e211c30edd605",
+    "registrado_em": "2026-10-27T15:10:37+00:00"
   },
   "indexacao": {
     "paginas": 8,
@@ -79,7 +89,7 @@
       8
     ],
     "dispositivos": 21,
-    "unidades": 31,
+    "unidades": 32,
     "partes": [
       {
         "slug": "texto",
@@ -120,7 +130,7 @@
   "alertas": [
     "anexo_ou_compilacao_detectado"
   ],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -233,6 +243,34 @@
       "data": "2026-10-27T14:16:32+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T15:10:36+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: assinatura separada do último artigo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T15:10:36+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-27T15:10:37+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-27T15:10:37+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -246,5 +284,6 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:20:02+00:00"
-  }
+  },
+  "nota_vigencia": "Vigente com o parágrafo único do Art. 9º acrescentado pela Res. CFESS nº 950/2020 (versão compilada)."
 }

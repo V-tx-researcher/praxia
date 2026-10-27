@@ -145,6 +145,29 @@ oficial, são aplicadas por reprocessamento técnico que mantém a conferência 
 geradas por ferramentas de IA não são registradas como conferência, ainda que
 informativas; achados técnicos nelas apontados são verificados e aproveitados.
 
+**D28 — 27/10/2026 — Transcrição registrada quando a extração perde texto.**
+Quando o PDF oficial tem texto que a extração não entrega (fonte sem mapa de
+caracteres, como na Res. 954/2020), as páginas afetadas podem ser transcritas da
+imagem do próprio PDF em `dados/configuracao/transcricoes/<id>.json`, vinculadas ao
+SHA-256 do arquivo. O processamento só aceita a transcrição se todo o texto extraído
+aparecer nela, na mesma ordem (ela pode acrescentar, nunca trocar ou apagar); os
+acréscimos ficam registrados em `transcricao_aplicada` e o documento informa ao
+público que o texto foi completado por transcrição. Se o arquivo oficial mudar, a
+transcrição deixa de valer e bloqueia a aprovação. Serve também de caminho para
+documentos digitalizados (OCR) como a Res. 383/1999.
+
+**D29 — 27/10/2026 — Assinatura e nota de publicação fora do último artigo.**
+Linhas de assinatura ("NOME" seguido de "Presidente do CFESS") e a nota de
+publicação no DOU passam a formar um trecho próprio ("assinatura e publicação"), a
+pedido do revisor (Res. 950/2020). Efeito colateral positivo: na Res. 782/2016, os
+blocos do formulário anexo deixaram de ser lidos como incisos do Art. 5º. Os
+documentos publicados foram reprocessados (D26), mantendo a conferência original.
+
+**D30 — 27/10/2026 — Pendências delegadas pelo revisor.** Quando o revisor delega
+expressamente uma pendência, o desenvolvimento pesquisa em fonte oficial e a
+aprovação registra essa origem na observação da conferência e em
+`docs/revisao/REGISTRO.md`. O revisor pode revê-la a qualquer momento.
+
 ## Pendentes (dependem do responsável)
 
 **D-P3 — Busca semântica:** modelo de embeddings (ex.: multilingual-e5-small,

@@ -98,7 +98,7 @@ def aprovar(doc_id: str, responsavel: str, situacao: str, assunto_principal: str
         if a is not None and a not in ASSUNTOS:
             raise TransicaoInvalida(f"assunto inválido: {a}")
     r = catalogo.carregar(doc_id)
-    bloqueantes = [a for a in r["alertas"] if a.startswith(("requer_ocr", "mapa_de_partes_desatualizado", "lacunas_na_extracao"))]
+    bloqueantes = [a for a in r["alertas"] if a.startswith(("requer_ocr", "mapa_de_partes_desatualizado", "lacunas_na_extracao", "transcricao_"))]
     if bloqueantes:
         raise TransicaoInvalida(f"resolva antes os alertas: {', '.join(bloqueantes)}")
     r["situacao_normativa"] = situacao

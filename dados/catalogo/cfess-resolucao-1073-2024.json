@@ -7,15 +7,23 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
-  "assuntos_secundarios": [],
+  "assunto_principal": "direitos_profissionais",
+  "assuntos_secundarios": [
+    "processo_etico"
+  ],
   "ementa": "Institui procedimentos para a realização de DESAGRAVO PÚBLICO, e regulamenta a alínea “e” do artigo 2º do Código de Ética do Assistente Social /Altera e revoga a Resolução CFESS nº 443, 23 de maio de 2003",
   "data_publicacao": "2024-06-10",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "vigente_confirmada",
   "alteracoes": {
     "altera": [],
-    "revoga": [],
+    "revoga": [
+      {
+        "referencia": "Resolução CFESS nº 443/2003",
+        "verificado": true,
+        "descricao": "Revogação integral (Art. 13)."
+      }
+    ],
     "alterado_por": [],
     "revogado_por": [],
     "mencoes_detectadas": [
@@ -79,9 +87,11 @@
   "versao_atual": "6e4902d261d3a71b",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-27",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "6e4902d261d3a71b",
+    "registrado_em": "2026-10-27T15:10:37+00:00"
   },
   "indexacao": {
     "paginas": 6,
@@ -113,7 +123,7 @@
     "classificacao": "boa"
   },
   "alertas": [],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -226,6 +236,34 @@
       "data": "2026-10-27T14:16:30+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T15:10:36+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: assinatura separada do último artigo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T15:10:36+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-27T15:10:37+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-27T15:10:37+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {

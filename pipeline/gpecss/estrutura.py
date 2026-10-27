@@ -61,6 +61,7 @@ RE_ALINEA = re.compile(r"^([a-z])\s*[-–)]\s*(?=\S)")
 RE_TITULO = re.compile(r"^T[ÍI]TULO\s+([IVXLC]+|[ÚU]NICO)\b", re.I)
 RE_CAPITULO = re.compile(r"^CAP[ÍI]TULO\s+([IVXLC]+|[ÚU]NICO)\b", re.I)
 RE_SECAO = re.compile(r"^SE[ÇC][ÃA]O\s+([IVXLC]+|[ÚU]NICA)\b", re.I)
+RE_ASSINATURA = re.compile(r"^(Conselheir[oa]\s+)?Presidente\s+(do|da)\s+(CFESS|Cfess|Conselho)\b", re.I)
 RE_SUBTITULO = re.compile(r"^D[aoe]s?\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]")
 
 # Marcos de início de partes (textos normativos distintos dentro de um mesmo arquivo).
@@ -422,6 +423,16 @@ class Segmentador:
                         atual.linhas.append(l)
                         i += 1
                         continue
+
+            # Assinatura ("NOME" + "Conselheira Presidente do Cfess") e nota de
+            # publicação não fazem parte do último artigo: viram trecho próprio.
+            if (artigo is not None and i + 1 < len(linhas) and RE_ASSINATURA.match(linhas[i + 1].texto)
+                    and len(t) <= 80 and not t.endswith((".", ";", ",", ":"))):
+                artigo = paragrafo = inciso = None
+                abrir("trecho", f"{parte['rotulo']} — assinatura e publicação", "fecho", None)
+                atual.linhas.append(l)
+                i += 1
+                continue
 
             # Continuação ou trecho livre
             if atual is not None:

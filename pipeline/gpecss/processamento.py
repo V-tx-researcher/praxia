@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import difflib
 import hashlib
 import json
 import re
@@ -64,6 +65,62 @@ def carregar_partes_manuais(doc_id: str, sha256: str) -> tuple[list[dict] | None
     return cfg["partes"], None
 
 
+DIR_TRANSCRICOES = catalogo.DADOS / "configuracao" / "transcricoes"
+
+
+def _so_letras(texto: str) -> str:
+    # "nº" e "no" (o sobrescrito lido como letra) são a mesma coisa no PDF.
+    return re.sub(r"\s+", "", texto.replace("º", "o").replace("°", "o"))
+
+
+def acrescimos_transcricao(extraido: str, transcrito: str) -> list[str] | None:
+    """Trechos que a transcrição acrescenta ao texto extraído.
+
+    Devolve None se o texto extraído não for subsequência (em caracteres, sem
+    espaços) do transcrito: a transcrição só pode suprir o que faltou, nunca
+    trocar ou apagar o que a extração leu.
+    """
+    a, b = _so_letras(extraido), _so_letras(transcrito)
+    i = 0
+    for c in b:
+        if i < len(a) and a[i] == c:
+            i += 1
+    if i != len(a):
+        return None
+    # Para a conferência, os acréscimos são mostrados por palavras.
+    pa = re.sub(r"[º°]", "o", extraido).split()
+    pb_orig = transcrito.split()
+    pb = re.sub(r"[º°]", "o", transcrito).split()
+    sm = difflib.SequenceMatcher(None, pa, pb, autojunk=False)
+    return [" ".join(pb_orig[j1:j2]) for op, _, _, j1, j2 in sm.get_opcodes() if op in {"insert", "replace"}]
+
+
+def aplicar_transcricao(doc_id: str, sha256: str, paginas: list[str]) -> tuple[list[str], dict | None, str | None]:
+    """Substitui páginas cujo texto a extração entrega incompleto por transcrição registrada.
+
+    A transcrição fica em dados/configuracao/transcricoes/<id>.json, vinculada ao
+    SHA-256 do arquivo oficial; se o arquivo mudar, deixa de valer (alerta).
+    """
+    caminho = DIR_TRANSCRICOES / f"{doc_id}.json"
+    if not caminho.exists():
+        return paginas, None, None
+    cfg = json.loads(caminho.read_text(encoding="utf-8"))
+    if cfg.get("sha256") != sha256:
+        return paginas, None, "transcricao_desatualizada"
+    novas = list(paginas)
+    registro = {"autor": cfg["autor"], "metodo": cfg["metodo"], "registrado_em": cfg["registrado_em"],
+                "corroboracao": cfg.get("corroboracao", []), "paginas": []}
+    for num, linhas in sorted(cfg["paginas"].items(), key=lambda x: int(x[0])):
+        n = int(num)
+        texto = "\n".join(linhas)
+        acrescimos = acrescimos_transcricao(paginas[n - 1], texto)
+        if acrescimos is None:
+            return paginas, None, f"transcricao_diverge_da_extracao:p{n}"
+        novas[n - 1] = texto
+        registro["paginas"].append({"pagina": n, "acrescimos": acrescimos})
+    return novas, registro, None
+
+
 def _versao_extrator() -> str:
     try:
         import pypdfium2
@@ -95,12 +152,21 @@ def processar(doc_id: str, log=print) -> dict:
         else:
             reg.pop("texto_riscado_removido", None)
         extrator = _versao_extrator()
+        paginas, transcricao, alerta_transcricao = aplicar_transcricao(doc_id, principal["sha256"], paginas)
+        if transcricao:
+            reg["transcricao_aplicada"] = transcricao
+            extrator += " + transcrição registrada (págs. " + ", ".join(str(p["pagina"]) for p in transcricao["paginas"]) + ")"
+        else:
+            reg.pop("transcricao_aplicada", None)
     else:
+        alerta_transcricao = None
         paginas = extracao.extrair_html_planalto(conteudo)
         extrator = "beautifulsoup4 (HTML do Planalto; trechos riscados removidos)"
     qualidade = extracao.avaliar_qualidade(paginas)
     reg["qualidade_extracao"] = qualidade
-    alertas = [a for a in reg["alertas"] if not a.startswith(("possivel_instrucao_embutida", "mapa_de_partes", "partes_detectadas", "anexo_ou_compilacao", "lacunas_na_extracao", "texto_riscado_removido"))]
+    alertas = [a for a in reg["alertas"] if not a.startswith(("possivel_instrucao_embutida", "mapa_de_partes", "partes_detectadas", "anexo_ou_compilacao", "lacunas_na_extracao", "texto_riscado_removido", "transcricao_"))]
+    if alerta_transcricao:
+        alertas.append(alerta_transcricao)
     if qualidade["classificacao"] in {"requer_ocr", "falhou"}:
         if reg["estado_fluxo"] != "erro_extracao":
             transitar(reg, "erro_extracao", "processador", qualidade.get("motivo", "extração insuficiente"))

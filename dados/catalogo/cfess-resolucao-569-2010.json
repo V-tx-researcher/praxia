@@ -7,12 +7,14 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
-  "assuntos_secundarios": [],
+  "assunto_principal": "vedacoes",
+  "assuntos_secundarios": [
+    "atribuicoes_privativas"
+  ],
   "ementa": "Dispõe sobre a VEDAÇÃO da realização de terapias associadas ao título e/ou ao exercício profissional do assistente social",
   "data_publicacao": "2010-03-25",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "vigente_confirmada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
@@ -70,9 +72,11 @@
   "versao_atual": "46a7f0713be2d69f",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-27",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. O link do arquivo indicado não abriu para o revisor; ele conferiu exemplar do mesmo portal.",
+    "versao_conferida": "46a7f0713be2d69f",
+    "registrado_em": "2026-10-27T15:10:37+00:00"
   },
   "indexacao": {
     "paginas": 3,
@@ -82,7 +86,7 @@
       3
     ],
     "dispositivos": 12,
-    "unidades": 18,
+    "unidades": 19,
     "partes": [
       {
         "slug": "texto",
@@ -101,7 +105,7 @@
     "classificacao": "boa"
   },
   "alertas": [],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -256,6 +260,34 @@
       "data": "2026-10-27T14:16:31+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-27T15:10:36+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento: assinatura separada do último artigo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-27T15:10:36+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-27T15:10:37+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. O link do arquivo indicado não abriu para o revisor; ele conferiu exemplar do mesmo portal."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-27T15:10:37+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -269,5 +301,16 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:24:14+00:00"
-  }
+  },
+  "nota_vigencia": "Vigente. O parágrafo único do Art. 4º remete à Res. CFESS nº 428/2002, revogada pela Res. CFESS nº 660/2013 (Código Processual de Ética em vigor).",
+  "dispositivos_afetados": [
+    {
+      "unidade": "texto:art-4:par-unico",
+      "situacao": "vigente_com_ressalva",
+      "nota": "a Resolução CFESS nº 428/2002, aqui citada, foi revogada pela Resolução CFESS nº 660/2013 (Art. 2º), que regulamenta o Código Processual de Ética em vigor.",
+      "fontes": [
+        "cfess-resolucao-660-2013#texto:art-2"
+      ]
+    }
+  ]
 }

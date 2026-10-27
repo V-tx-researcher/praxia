@@ -22,10 +22,13 @@ script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
 
 ## Etapa seguinte (após as decisões do responsável)
 
-00. **Conferências em lote:** registrar as respostas da Atividade nº 3 (lote 1) quando
-   o revisor devolver; preparar lote 2 com `scripts/revisao/preparar_lote.py` e
-   `atividade_lote.js` (NODE_PATH apontando para um `node_modules` com `docx`).
-   OCR da Res. 383/1999 (imagem): avaliar o OCR nativo do Windows ou Tesseract.
+00. **Conferências em lote:** lotes 1 e 2 registrados. Próximos: lotes 3 a 5 (cerca de
+   10 normas cada) e um lote curto das 7 normas históricas, com
+   `scripts/revisao/preparar_lote.py` e `atividade_lote.js` (NODE_PATH apontando para
+   um `node_modules` com `docx`); registro como em `registrar_atividade4.py`.
+   Res. 383/1999 (imagem): transcrição registrada (D28) ou OCR. O OCR nativo do
+   Windows existe no computador (pt-BR), mas rodá-lo por script exige liberar a
+   execução de scripts do PowerShell, decisão do responsável.
 0. **Acervo completo (D21):** baixar e processar todos os registros normativos
    descobertos (352; começar pelos sem alerta administrativo), em lotes, com
    atividades de conferência em Word agrupando vários documentos por lote
