@@ -4,6 +4,8 @@ Plataforma independente, gratuita e de código aberto para consulta às normas d
 exercício profissional do Serviço Social brasileiro, com **citações literais
 verificáveis** de documentos oficiais do Conjunto CFESS-CRESS.
 
+**Idealização:** Vinícius Araújo Pereira, assistente social.
+
 > Ferramenta de pesquisa e apoio informativo. Não é manifestação do CFESS ou de
 > qualquer CRESS e não substitui orientação, fiscalização, pareceres ou
 > deliberações dos órgãos competentes.

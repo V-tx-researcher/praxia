@@ -89,10 +89,15 @@ para teste. A preferência (ligado/desligado e modelo) fica só no navegador da 
 **D18 — Tolerância de caixa na primeira letra das citações** («Manter» ↔ "manter"),
 convenção editorial usual; o restante permanece estritamente literal.
 
-## Pendentes (dependem do responsável)
+**D19 — 26/10/2026 — Créditos e identificação da conferência (decisão do responsável).**
+Idealização creditada a Vinícius Araújo Pereira, assistente social (README, rodapé
+e página de transparência). A conferência dos documentos e a avaliação das respostas
+da IA são feitas pelo idealizador, sem registro de nome pessoal: as aprovações usam
+o identificador de função `revisao-profissional` (o pipeline exige um identificador
+humano para impedir aprovação automática), e o índice público mostra apenas a data
+da conferência. Substitui a pendência D-P2.
 
-**D-P2 — Responsáveis pela conferência humana** (nomes/identificadores e critério
-mínimo de formação), necessários para aprovar e publicar o primeiro documento.
+## Pendentes (dependem do responsável)
 
 **D-P3 — Busca semântica:** modelo de embeddings (ex.: multilingual-e5-small,
 ~120 MB no navegador) × manter apenas busca lexical em celulares.

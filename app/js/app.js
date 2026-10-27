@@ -406,7 +406,7 @@ function lerDocumento(id) {
     el("h3", { id: "t-leitura", tabindex: "-1" }, d.titulo),
     el("p", { classe: "doc-meta" },
       `SHA-256 do arquivo: ${d.sha256.slice(0, 16)}… · coletado em ${String(d.data_coleta || "").slice(0, 10)}` +
-      (d.conferencia ? ` · conferido em ${d.conferencia.data} por ${d.conferencia.responsavel}` : " · não conferido")));
+      (d.conferencia ? ` · texto conferido em ${d.conferencia.data}` : " · não conferido")));
   let parteAtual = null;
   for (const u of unidades) {
     if (u.parte !== parteAtual) {
@@ -431,6 +431,7 @@ function renderizarTransparencia() {
       el("h3", {}, "Natureza do projeto"),
       el("p", {}, "Plataforma independente, gratuita e de código aberto, desenvolvida no âmbito do GPECSS para facilitar a localização e a leitura de normas e orientações do exercício profissional do Serviço Social. Não é um canal oficial do CFESS ou dos CRESS e não fala em nome desses órgãos."),
       el("p", {}, "As respostas apresentam trechos literais de documentos oficiais, com indicação do documento, do dispositivo e da página, para que você possa conferir a fonte original."),
+      el("p", {}, el("strong", {}, "Idealização: "), "Vinícius Araújo Pereira, assistente social."),
       el("h3", {}, "Acervo"),
       el("p", {}, `${a.documentos.length} documento(s) neste índice, dos quais ${conferidos} conferido(s) por pessoa responsável; ${a.unidades.length} dispositivos e trechos indexados. ` +
         (a.gerado_em ? `Índice gerado em ${a.gerado_em.slice(0, 10)}.` : "Índice indisponível.")),

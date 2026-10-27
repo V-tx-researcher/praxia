@@ -27,7 +27,7 @@ Atualizado em 26/10/2026 (marco 1: primeira base confiável).
 - Avaliação de modelos maiores (requer navegador com limite de armazenamento maior).
 
 ## Pendente
-- Conferência humana dos 17 documentos processados (nenhum aprovado).
+- Conferência humana dos 17 documentos processados (nenhum aprovado) — a ser feita pelo idealizador (D19), identificador `revisao-profissional`.
 - Mapa de partes do Código de Ética: confirmar (D14).
 - Fundamentar o texto sobre COFI/SubCOFI na Res. CFESS 512/2007 após conferência.
 - Busca semântica; OCR; coleta dos CRESS; demais resoluções pertinentes.
@@ -35,7 +35,6 @@ Atualizado em 26/10/2026 (marco 1: primeira base confiável).
 - Publicação (Cloudflare Pages ou GitHub Pages) e ligação com o site Wix.
 
 ## Bloqueado (aguarda decisão ou recurso)
-- D-P2: pessoas responsáveis pela conferência (sem elas o acervo público fica vazio).
 - D-P4: contas e publicação (exigem autorização).
 
 ## Não testado

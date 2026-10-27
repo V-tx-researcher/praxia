@@ -22,7 +22,8 @@ script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
 
 ## Etapa seguinte (após as decisões do responsável)
 
-1. **Conferência dos primeiros documentos** (com a pessoa designada — D-P2):
+1. **Conferência dos primeiros documentos** (pelo idealizador, assistente social — D19;
+   registrar com `--responsavel revisao-profissional`):
    Código de Ética (confirmar mapa de partes), Res. 1.114/2025, Res. 1.098/2025,
    Res. 533/2008, Res. 557/2009, Res. 512/2007; registrar situação normativa e
    relações de revogação (493/2006 → 1.114/2025; 556/2009 → 1.098/2025;
