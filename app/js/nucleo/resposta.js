@@ -50,10 +50,10 @@ export async function consultar(indice, perguntaOriginal, { motorLLM = null, aoP
     }
   }
 
-  return compor({ perguntaOriginal, pergunta, dados, classificacao, busca, evidencias, analise, etapas, llmAtivo: !!motorLLM });
+  return compor({ perguntaOriginal, pergunta, dados, classificacao, busca, evidencias, analise, etapas, llmAtivo: !!motorLLM, indice });
 }
 
-export function compor({ pergunta, dados, classificacao, busca, evidencias, analise, etapas, llmAtivo }) {
+export function compor({ pergunta, dados, classificacao, busca, evidencias, analise, etapas, llmAtivo, indice = null }) {
   const r = { pergunta, etapas, classificacao, secoes: [] };
   const docsUsados = new Map();
   const temNaoConferido = evidencias.some((e) => !e.documento.conferido);
@@ -123,8 +123,8 @@ export function compor({ pergunta, dados, classificacao, busca, evidencias, anal
   if (atencao.length) r.secoes.push({ id: "atencao", titulo: "Aspectos que exigem atenção", itens: atencao });
 
   // 5. Orientação institucional
-  const o = orientacaoPara(classificacao.situacao);
-  r.secoes.push({ id: "orientacao", titulo: "Orientação institucional cabível", paragrafos: o.paragrafos, diferencas: o.diferencas, canais: o.canais });
+  const o = orientacaoPara(classificacao.situacao, indice);
+  r.secoes.push({ id: "orientacao", titulo: "Orientação institucional cabível", paragrafos: o.paragrafos, diferencas: o.diferencas, canais: o.canais, fundamentos: o.fundamentos });
 
   // 6. Limites
   r.secoes.push({ id: "limites", titulo: "Limites da ferramenta", paragrafos: [LIMITES] });

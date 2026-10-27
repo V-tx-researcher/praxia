@@ -3,6 +3,7 @@
 Atualizado em 26/10/2026 (marco 1: primeira base confiável).
 
 ## Concluído e testado com sucesso
+- **Lote 1 conferido (27/10/2026):** Res. 1.114/2025, 1.098/2025, 533/2008, 557/2009, 512/2007, 970/2021 e 594/2011 publicadas; acervo público com 8 documentos e 472 dispositivos. Res. 954/2020 aguarda texto do Art. 1º.
 - **Primeiro documento conferido e publicado (27/10/2026):** Código de Ética (10ª ed.), situação "vigente com alterações"; Art. 22 c com ressalva (Res. 970/2021) e Art. 25 p.ú. revogado. Acervo público: 1 documento, 225 dispositivos. Ver docs/revisao/REGISTRO.md.
 - Auditoria do protótipo (ver DECISIONS.md, D01).
 - Esquema de metadados com vocabulários controlados e máquina de estados com aprovação exclusivamente humana.
@@ -35,7 +36,6 @@ Atualizado em 26/10/2026 (marco 1: primeira base confiável).
 - Texto tachado retirado de 13 documentos compilados (D22). Prévia: 58 documentos, 1.574 unidades; 62 na fila de conferência.
 - Recuperação com o acervo ampliado: recall@8 caiu de 0,858 para 0,809 (mais concorrência entre trechos); reforça a prioridade da busca semântica.
 - Mapa de partes do Código de Ética: confirmar (D14).
-- Fundamentar o texto sobre COFI/SubCOFI na Res. CFESS 512/2007 após conferência.
 - Busca semântica; OCR; coleta dos CRESS; demais resoluções pertinentes.
 - Revisão profissional do gabarito das 122 perguntas e das respostas da LLM.
 - Publicação (Cloudflare Pages ou GitHub Pages) e ligação com o site Wix.

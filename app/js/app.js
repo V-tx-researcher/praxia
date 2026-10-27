@@ -284,6 +284,12 @@ function destacar(id) {
   document.getElementById(`ev-${id}`)?.classList.add("destacada");
 }
 
+// "Resolução nº 1.114/2025 · CFESS" (ou "Código de Ética · CFESS · 1993" quando não há número).
+function identificacao(d) {
+  if (d.numero && d.ano) return `${d.tipo} nº ${Number(d.numero).toLocaleString("pt-BR")}/${d.ano} · ${d.orgao}`;
+  return `${d.tipo} · ${d.orgao}${d.ano ? ` · ${d.ano}` : ""}`;
+}
+
 function cartaoEvidencia(e, afirmacoesQueCitam) {
   const d = e.documento;
   const cab = el("div", { classe: "evidencia-cabecalho" },
@@ -304,7 +310,7 @@ function cartaoEvidencia(e, afirmacoesQueCitam) {
   }
   return el("article", { classe: "evidencia", id: `ev-${e.id}` },
     cab,
-    el("p", { classe: "evidencia-local" }, `${d.tipo} · ${d.orgao}${d.ano ? ` · ${d.ano}` : ""} — ${e.localizacao}`),
+    el("p", { classe: "evidencia-local" }, `${identificacao(d)} — ${e.localizacao}`),
     contexto,
     e.situacaoDispositivo
       ? el("p", { classe: "alerta" }, el("strong", {},
@@ -352,6 +358,16 @@ function renderizarResposta(r) {
       }
     }
     if (s.itens) sec.append(el("ul", { classe: "lista-simples" }, s.itens.map((t) => el("li", {}, t))));
+    if (s.fundamentos?.length) {
+      sec.append(el("p", { classe: "ajuda" }, "Fundamento oficial (texto literal):"));
+      for (const f of s.fundamentos) {
+        sec.append(el("div", { classe: "evidencia" },
+          el("p", { classe: "evidencia-local" }, f.rotulo, " ", f.conferido ? null : el("span", { classe: "selo nao-conferido" }, "não conferido")),
+          f.contexto ? el("p", { classe: "contexto" }, f.contexto) : null,
+          el("blockquote", { classe: "trecho" }, f.texto),
+          el("div", { classe: "links-fonte" }, linkExterno(f.link, "Abrir o PDF original"))));
+      }
+    }
     if (s.diferencas) sec.append(el("p", { classe: "ajuda" }, s.diferencas));
     if (s.canais) sec.append(el("p", {}, s.canais.map((c) => linkExterno(c.url, c.rotulo))));
     if (s.documentos) {

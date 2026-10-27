@@ -4,6 +4,24 @@ Conferências feitas pelo revisor do projeto (assistente social), registradas se
 identificação pessoal (D19). As respostas originais ficam nos arquivos `.docx` desta
 pasta; o registro no catálogo é feito por scripts em `scripts/revisao/`.
 
+## Atividade nº 3 — Lote 1, 8 resoluções (27/10/2026)
+
+**Resultado:** 7 aprovadas e publicadas; Res. 954/2020 com conferência parcial (não publicada).
+
+| Norma | Situação registrada | Observações |
+|---|---|---|
+| Res. 1.114/2025 | vigente (confirmada) | revoga integralmente a Res. 493/2006 (Art. 21 — conferido) |
+| Res. 1.098/2025 | vigente (confirmada) | revoga integralmente a Res. 556/2009 (Art. 18 — conferido) |
+| Res. 533/2008 | vigente (confirmada) | — |
+| Res. 557/2009 | vigente (confirmada) | as justificativas escritas no formulário referiam-se à 533/2008 (provável troca de campo); valeram as marcações |
+| Res. 512/2007 | vigente com alterações | Res. 828/2017 deu nova redação aos Arts. 13, XIII, e 17 (conferido); Art. 20 revoga disposições em contrário da Res. 382/1999 (conferido); trechos riscados confirmados; anexo (PNF) separado como parte própria |
+| Res. 970/2021 | vigente (confirmada) | erro material no texto oficial ("954 de 2021" nos Arts. 2º e 3º) registrado em nota |
+| Res. 594/2011 | vigente (confirmada) | Art. 5º traz a assinatura da presidente (texto literal) |
+| Res. 954/2020 | **não aprovada** | revisor indica "vigente com alterações" (Res. 970/2021); amostras divergentes por falha de extração; transcrições dos incisos III e IV do Art. 3º registradas; falta o Art. 1º (OCR ou transcrição) |
+
+Uso da conferência: a orientação institucional passou a citar literalmente a
+Res. 512/2007 (Art. 6º; Art. 11, VI, VII e XVI) em vez de texto genérico.
+
 ## Atividade nº 2 — Triagem do acervo (27/10/2026)
 
 **Resultado:** o revisor aprovou a proposta e delegou ao desenvolvimento a decisão

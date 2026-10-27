@@ -23,7 +23,7 @@ const TEXTOS = {
   ],
   B: [
     "Situações que envolvem condições éticas e técnicas de trabalho podem envolver exigências institucionais, condições materiais e responsabilidades profissionais distintas — nem toda condição inadequada corresponde a infração ética de um/a assistente social.",
-    "O CRESS da sua região pode orientar sobre a situação; a Comissão de Orientação e Fiscalização (COFI) ou, onde houver, a SubCOFI/seccional são as instâncias usualmente responsáveis pela orientação e fiscalização do exercício profissional. Confirme no CRESS a organização local.",
+    "O CRESS da sua região pode orientar sobre a situação por meio da sua Comissão de Orientação e Fiscalização (COFI), conforme os dispositivos abaixo. Confirme no CRESS a organização local (seccionais e outras estruturas regionais).",
   ],
   C: [
     "Para dúvidas sobre o exercício profissional em sua região, o CRESS competente pode oferecer orientação.",
@@ -36,10 +36,29 @@ export const DIFERENCAS_CANAIS =
   "Denúncia: comunicação formal de possível irregularidade, que pode dar início a procedimento de apuração conforme as normas do Conjunto CFESS-CRESS. " +
   "Os requisitos e meios de cada um devem ser confirmados junto ao CRESS.";
 
-export function orientacaoPara(situacao) {
+// Dispositivos oficiais que fundamentam a orientação (Res. CFESS 512/2007, conferida
+// em 27/10/2026). Só são exibidos se estiverem no acervo carregado, com texto literal.
+const RES_512 = "cfess-resolucao-512-2007#texto-2";
+const FUNDAMENTOS = {
+  A: [`${RES_512}:art-11:inc-16`, `${RES_512}:art-11:inc-7`],
+  B: [`${RES_512}:art-6`, `${RES_512}:art-11:inc-6`, `${RES_512}:art-11:inc-7`],
+  C: [`${RES_512}:art-11:inc-6`],
+};
+
+export function orientacaoPara(situacao, indice = null) {
+  const fundamentos = (FUNDAMENTOS[situacao] || FUNDAMENTOS.C)
+    .map((id) => indice?.porId.get(id))
+    .filter(Boolean)
+    .map((u) => {
+      const doc = indice.documentos.get(u.doc);
+      const pai = u.pai ? indice.porId.get(u.pai) : null;
+      return { rotulo: `Res. CFESS nº 512/2007, ${u.rotulo}`, contexto: pai?.texto || null, texto: u.texto,
+        link: doc?.arquivo_url ? `${doc.arquivo_url}#page=${u.pagina}` : doc?.fonte_oficial_url, conferido: !!doc?.conferido };
+    });
   return {
     paragrafos: TEXTOS[situacao] || TEXTOS.C,
     diferencas: situacao === "C" ? null : DIFERENCAS_CANAIS,
     canais: [CANAIS_VERIFICADOS.enderecosCress],
+    fundamentos,
   };
 }

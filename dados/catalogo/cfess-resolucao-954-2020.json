@@ -16,7 +16,13 @@
   "alteracoes": {
     "altera": [],
     "revoga": [],
-    "alterado_por": [],
+    "alterado_por": [
+      {
+        "id": "cfess-resolucao-970-2021",
+        "verificado": true,
+        "descricao": "Arts. 1º e 3º com nova redação; revogação da alínea c do Art. 22 do Código anulada."
+      }
+    ],
     "revogado_por": [],
     "mencoes_detectadas": [
       {
@@ -258,8 +264,25 @@
       "pagina": 2,
       "dispositivo": "Art. 3º, inciso I",
       "texto": "I - a alínea “c” do artigo 22 e o parágrafo único do artigo 25 da Resolução CFESS nº 273/1993.",
-      "origem": "transcrição do revisor a partir do PDF oficial (Atividade nº 1, 27/10/2026)"
+      "origem": "transcrição do revisor (Atividade nº 1)"
+    },
+    {
+      "pagina": 2,
+      "dispositivo": "Art. 3º, inciso III",
+      "texto": "III - a alínea “e” do artigo 54 e os parágrafos quarto, quinto e sexto do artigo 78 da Resolução CFESS nº 582/2010.",
+      "origem": "transcrição do revisor (Atividade nº 3)"
+    },
+    {
+      "pagina": 2,
+      "dispositivo": "Art. 3º, inciso IV",
+      "texto": "IV - o inciso IV do artigo 5º da Resolução CFESS nº 777/2016.",
+      "origem": "transcrição do revisor (Atividade nº 3)"
     }
   ],
-  "observacao_portal": "O portal publica também uma versão compilada (cfess-resolucao-954-2020-p215), cuja leitura automática saiu ilegível; até haver OCR, este texto original é a referência."
+  "observacao_portal": "O portal publica também uma versão compilada (cfess-resolucao-954-2020-p215), cuja leitura automática saiu ilegível; até haver OCR, este texto original é a referência.",
+  "conferencia_parcial": {
+    "data": "2026-10-27",
+    "situacao_indicada": "alterada",
+    "pendencia": "Amostras divergentes do PDF por falha de extração (Arts. 1º e 3º). Para aprovar: texto do Art. 1º (trecho entre parênteses) transcrito ou OCR do PDF."
+  }
 }

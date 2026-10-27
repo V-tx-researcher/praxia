@@ -1,0 +1,22 @@
+{
+ "documento_id": "cfess-resolucao-512-2007",
+ "sha256": "42e30f7b15e066110f397c3121dfd841120b98a86249e47d641ec13f5dd99c75",
+ "autor": "desenvolvimento, após conferência do lote 1 (anexo começa na p. 8 do PDF)",
+ "registrado_em": "2026-10-27T13:30:58+00:00",
+ "partes": [
+  {
+   "rotulo": "Resolução CFESS nº 512/2007",
+   "tipo": "normativa",
+   "slug": "texto",
+   "pagina_inicio": 1,
+   "pagina_fim": 7
+  },
+  {
+   "rotulo": "Anexo — Política Nacional de Fiscalização",
+   "tipo": "normativa",
+   "slug": "anexo-pnf",
+   "pagina_inicio": 8,
+   "pagina_fim": 10
+  }
+ ]
+}
