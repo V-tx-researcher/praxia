@@ -16,6 +16,7 @@ Atualizado em 26/10/2026 (marco 1: primeira base confiável).
 - Busca lexical com Snowball-pt, tesauro e suficiência mínima.
 - Verificação de respostas da LLM (citação literal, evidência obrigatória, correspondência, julgamento, norma revogada).
 - Integração WebLLM testada de ponta a ponta com Qwen3-4B (18 perguntas).
+- Painel "Análise por IA no meu dispositivo" (D17): diagnóstico do aparelho, ativar/desativar, troca de modelo e remoção dos arquivos baixados — testado no navegador (ativação a partir do cache, consulta com 3 afirmações aceitas, desativação, remoção).
 
 ## Testado com falhas
 - Qwen3.5-4B: não carrega no navegador integrado (fragmento de 303 MiB acima do limite de armazenamento).
@@ -34,9 +35,9 @@ Atualizado em 26/10/2026 (marco 1: primeira base confiável).
 - Publicação (Cloudflare Pages ou GitHub Pages) e ligação com o site Wix.
 
 ## Bloqueado (aguarda decisão ou recurso)
-- D-P1: estratégia para a IA local (modelo e dispositivos sem WebGPU).
 - D-P2: pessoas responsáveis pela conferência (sem elas o acervo público fica vazio).
 - D-P4: contas e publicação (exigem autorização).
 
 ## Não testado
+- Painel de IA: download completo a partir do zero e comportamento em aparelhos sem placa de vídeo dedicada.
 - Leitor de tela, celulares reais, PWA instalado, navegadores Firefox/Safari.

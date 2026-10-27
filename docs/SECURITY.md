@@ -10,6 +10,7 @@
 | Envio a terceiros | a pergunta não é enviada; o navegador baixa apenas a interface, o índice e (se habilitada) a biblioteca WebLLM e os pesos do modelo | CSP `connect-src` restrita |
 | Rastreamento | sem cookies, analytics ou pixels | revisão de código |
 | Histórico | não implementado (decisão: privacidade por padrão) | — |
+| Preferência de IA | apenas "ligada/desligada" e o modelo escolhido, em `localStorage` do próprio navegador (chave `gpecss-preferencia-ia`); nenhuma pergunta é gravada | revisão de código (`app.js`) |
 
 **Limitação:** a detecção de nomes é heurística. Nomes sem termo indicativo
 ("Maria pediu…") não são detectados. A interface orienta a não incluir dados

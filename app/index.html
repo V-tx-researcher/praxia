@@ -57,9 +57,14 @@
           placeholder="Ex.: Posso compartilhar informações do atendimento com a equipe multidisciplinar?"></textarea>
         <div class="linha-acoes">
           <button type="submit" id="consultar" class="botao-primario">Consultar</button>
-          <span id="estado-ia" class="estado-ia"></span>
+          <span id="estado-ia" class="estado-ia" aria-live="polite"></span>
         </div>
       </form>
+
+      <details id="painel-ia" class="cartao painel-ia">
+        <summary>Análise por IA no meu dispositivo (opcional)</summary>
+        <div id="conteudo-ia"></div>
+      </details>
 
       <div id="progresso" class="progresso" aria-live="polite"></div>
       <div id="resultado" class="resultado" aria-live="polite"></div>

@@ -5,7 +5,8 @@ import { IndiceLexical } from "./nucleo/busca.js";
 import { consultar } from "./nucleo/resposta.js";
 import { CANAIS_VERIFICADOS } from "./nucleo/orientacao.js";
 import { linkPdf } from "./nucleo/evidencias.js";
-import { MODELOS, MotorWebLLM, WEBLLM_URL, webgpuDisponivel } from "./llm/motor.js";
+import { MODELOS, MotorWebLLM, WEBLLM_URL, carregarBiblioteca, webgpuDisponivel } from "./llm/motor.js";
+import { avaliarModelo, coletarDispositivo, gb, modeloBaixado, removerModelo } from "./llm/capacidade.js";
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -42,7 +43,7 @@ function seloConferencia(conferido) {
 }
 
 // ---------------------------------------------------------------- estado
-const estado = { acervo: null, indice: null, modo: null, motor: null, llmTeste: false };
+const estado = { acervo: null, indice: null, modo: null, motor: null };
 
 function ambienteLocal() {
   return ["localhost", "127.0.0.1", "[::1]"].includes(location.hostname) || location.hostname.endsWith(".localhost");
@@ -64,31 +65,183 @@ async function carregarAcervo() {
   estado.indice = new IndiceLexical(estado.acervo);
   $("#faixa-previa").hidden = modo !== "previa";
 
-  // Motor de LLM: habilitado por configuração, ou em teste local explícito (?llm=MODELO).
-  const modeloTeste = params.get("llm");
-  if (CONFIG.llm.habilitado && CONFIG.llm.modelo) {
-    estado.motor = new MotorWebLLM(CONFIG.llm.modelo, { aoProgresso: progressoModelo });
-  } else if (modeloTeste && MODELOS[modeloTeste] && ambienteLocal()) {
-    estado.motor = new MotorWebLLM(modeloTeste, { aoProgresso: progressoModelo });
-    estado.llmTeste = true;
+  // A análise por IA só é usada se a própria pessoa a tiver ativado (D17).
+  const pref = lerPreferenciaIA();
+  if (pref.ativo && iaPermitida() && modelosDisponiveis().includes(pref.modelo) && webgpuDisponivel()) {
+    estado.motor = new MotorWebLLM(pref.modelo, { aoProgresso: progressoModelo });
   }
   atualizarEstadoIA();
+}
+
+// ---------------------------------------------------------------- IA opcional (D17)
+const CHAVE_PREFERENCIA = "gpecss-preferencia-ia";
+
+function iaPermitida() {
+  return CONFIG.llm.permitirAtivacao || ambienteLocal();
+}
+
+function modelosDisponiveis() {
+  return CONFIG.llm.permitirAtivacao ? CONFIG.llm.modelos : CONFIG.llm.modelosTesteLocal;
+}
+
+// Guarda apenas "ligado/desligado" e o modelo escolhido — nunca perguntas.
+function lerPreferenciaIA() {
+  try {
+    return { ativo: false, modelo: modelosDisponiveis()[0], ...JSON.parse(localStorage.getItem(CHAVE_PREFERENCIA) || "{}") };
+  } catch {
+    return { ativo: false, modelo: modelosDisponiveis()[0] };
+  }
+}
+
+function gravarPreferenciaIA(pref) {
+  try {
+    localStorage.setItem(CHAVE_PREFERENCIA, JSON.stringify({ ativo: !!pref.ativo, modelo: pref.modelo }));
+  } catch {
+    // armazenamento indisponível: a escolha vale só nesta visita
+  }
 }
 
 function atualizarEstadoIA() {
   const alvo = $("#estado-ia");
   if (!estado.motor) {
-    alvo.textContent = "Modo documental (análise por IA desabilitada nesta versão)";
-  } else if (!webgpuDisponivel()) {
-    alvo.textContent = "IA local indisponível neste navegador (sem WebGPU) — modo documental";
-    estado.motor = null;
+    alvo.textContent = "Modo documental: trechos literais, sem análise por IA";
   } else {
-    alvo.textContent = `IA local: ${MODELOS[estado.motor.modelo].rotulo}${estado.llmTeste ? " — TESTE INTERNO" : ""}`;
+    alvo.textContent = `Análise por IA ativada neste dispositivo (${MODELOS[estado.motor.modelo].rotulo})` +
+      (CONFIG.llm.permitirAtivacao ? "" : " — TESTE LOCAL");
   }
 }
 
-function progressoModelo(texto) {
-  $("#progresso").textContent = `Preparando o modelo local: ${texto}`;
+function progressoModelo(texto, fracao) {
+  const alvo = $("#progresso-ia") || $("#progresso");
+  alvo.textContent = `Preparando o modelo neste dispositivo: ${texto}`;
+  const barra = $("#barra-ia");
+  if (barra && typeof fracao === "number") barra.value = fracao;
+}
+
+function marcador(ok) {
+  if (ok === true) return el("span", { classe: "marca ok", "aria-label": "atende" }, "✓");
+  if (ok === false) return el("span", { classe: "marca falha", "aria-label": "não atende" }, "✗");
+  return el("span", { classe: "marca duvida", "aria-label": "não foi possível confirmar" }, "?");
+}
+
+async function renderizarPainelIA() {
+  const alvo = $("#conteudo-ia");
+  const pref = lerPreferenciaIA();
+  const intro = [
+    el("p", {}, "O modo documental — que apresenta os trechos comprobatórios na íntegra, com o texto literal dos documentos — está sempre ativo e funciona em qualquer aparelho."),
+    el("p", {}, "Opcionalmente, você pode ativar uma análise interpretativa gerada por inteligência artificial que roda ",
+      el("strong", {}, "inteiramente neste dispositivo"),
+      ": sua pergunta não é enviada a servidores. Em troca, o modelo precisa ser baixado (alguns gigabytes), ocupa espaço no navegador e exige computador com placa de vídeo compatível. Verifique abaixo se o seu aparelho atende."),
+  ];
+  if (!iaPermitida()) {
+    alvo.replaceChildren(...intro, el("p", { classe: "alerta" },
+      "A análise por IA ainda está em avaliação e será liberada somente após revisão por profissionais. Por enquanto, use o modo documental."));
+    return;
+  }
+  const opcoes = modelosDisponiveis();
+  const seletor = el("select", { id: "modelo-ia", "aria-describedby": "aval-modelo" },
+    opcoes.map((id) => el("option", { value: id, selected: id === pref.modelo || null }, `${MODELOS[id].rotulo} — ${gb(MODELOS[id].downloadMB)}`)));
+  const avalModelo = el("p", { id: "aval-modelo", classe: "ajuda" });
+  const diagnostico = el("ul", { classe: "lista-diagnostico", "aria-live": "polite" });
+  const interruptor = el("input", { type: "checkbox", id: "ativar-ia", role: "switch", checked: !!estado.motor || null });
+  const remover = el("button", { type: "button", classe: "botao", hidden: true }, "Remover modelo deste navegador");
+  const progresso = el("p", { id: "progresso-ia", classe: "ajuda", "aria-live": "polite" });
+  const barra = el("progress", { id: "barra-ia", max: "1", value: "0", hidden: true });
+
+  async function diagnosticar() {
+    const id = seletor.value;
+    avalModelo.textContent = `Licença ${MODELOS[id].licenca}. Situação na avaliação do projeto: ${MODELOS[id].avaliacao}.`;
+    diagnostico.replaceChildren(el("li", {}, "Verificando o dispositivo…"));
+    const [disp, webllm] = await Promise.all([coletarDispositivo(), carregarBiblioteca().catch(() => null)]);
+    const baixado = webllm ? await modeloBaixado(id, webllm) : false;
+    const a = avaliarModelo(id, disp, { jaBaixado: baixado });
+    const titulo = { apto: "Seu dispositivo parece atender aos requisitos.",
+      incerto: "Seu dispositivo pode funcionar, mas há pontos que não foi possível confirmar.",
+      inapto: "Seu dispositivo provavelmente não consegue executar este modelo." }[a.situacao];
+    diagnostico.replaceChildren(el("li", {}, el("strong", {}, titulo)),
+      ...a.itens.map((i) => el("li", {}, marcador(i.ok), " ", i.texto)));
+    remover.hidden = !baixado;
+    remover.textContent = `Remover modelo deste navegador (libera cerca de ${gb(MODELOS[id].downloadMB)})`;
+    interruptor.disabled = a.situacao === "inapto" && !baixado;
+    return { baixado, avaliacao: a };
+  }
+
+  async function aoAlternar() {
+    const id = seletor.value;
+    if (!interruptor.checked) {
+      await estado.motor?.descarregar();
+      estado.motor = null;
+      gravarPreferenciaIA({ ativo: false, modelo: id });
+      progresso.textContent = "Análise por IA desativada. Os arquivos baixados continuam no navegador até você removê-los.";
+      atualizarEstadoIA();
+      return;
+    }
+    const { baixado } = await diagnosticar();
+    if (!baixado) {
+      const ok = window.confirm(`Ativar a análise por IA vai baixar cerca de ${gb(MODELOS[id].downloadMB)} para este navegador ` +
+        "(uma única vez). Use uma conexão sem limite de dados. Deseja continuar?");
+      if (!ok) { interruptor.checked = false; return; }
+    }
+    interruptor.disabled = true;
+    seletor.disabled = true;
+    barra.hidden = false;
+    const motor = new MotorWebLLM(id, { aoProgresso: progressoModelo });
+    try {
+      await motor.carregar();
+      estado.motor = motor;
+      gravarPreferenciaIA({ ativo: true, modelo: id });
+      progresso.textContent = "Modelo pronto. As próximas consultas incluirão a análise por IA, verificada contra os trechos citados.";
+    } catch (erro) {
+      interruptor.checked = false;
+      estado.motor = null;
+      gravarPreferenciaIA({ ativo: false, modelo: id });
+      progresso.textContent = `Não foi possível preparar o modelo neste dispositivo (${erro.message}). O modo documental continua disponível.`;
+    } finally {
+      interruptor.disabled = false;
+      seletor.disabled = false;
+      barra.hidden = true;
+      atualizarEstadoIA();
+      diagnosticar();
+    }
+  }
+
+  seletor.addEventListener("change", async () => {
+    if (estado.motor && estado.motor.modelo !== seletor.value) {
+      await estado.motor.descarregar();
+      estado.motor = null;
+      interruptor.checked = false;
+      gravarPreferenciaIA({ ativo: false, modelo: seletor.value });
+      atualizarEstadoIA();
+    }
+    diagnosticar();
+  });
+  interruptor.addEventListener("change", aoAlternar);
+  remover.addEventListener("click", async () => {
+    const id = seletor.value;
+    if (!window.confirm(`Remover os arquivos do modelo ${MODELOS[id].rotulo} deste navegador?`)) return;
+    if (estado.motor?.modelo === id) {
+      await estado.motor.descarregar();
+      estado.motor = null;
+      interruptor.checked = false;
+      gravarPreferenciaIA({ ativo: false, modelo: id });
+      atualizarEstadoIA();
+    }
+    await removerModelo(id, await carregarBiblioteca());
+    progresso.textContent = "Arquivos do modelo removidos deste navegador.";
+    diagnosticar();
+  });
+
+  alvo.replaceChildren(...intro,
+    CONFIG.llm.permitirAtivacao ? null : el("p", { classe: "alerta" },
+      "Teste local: a análise por IA ainda não foi liberada na versão pública (aguarda revisão profissional)."),
+    el("div", { classe: "campo" }, el("label", { for: "modelo-ia" }, "Modelo"), seletor, avalModelo),
+    el("h3", {}, "Diagnóstico deste dispositivo"), diagnostico,
+    el("div", { classe: "linha-acoes" },
+      el("label", { classe: "interruptor", for: "ativar-ia" }, interruptor, " Usar análise por IA nas minhas consultas"),
+      remover),
+    barra, progresso,
+    el("p", { classe: "ajuda" }, "Você pode desativar a qualquer momento. Desativar libera a memória de vídeo; remover o modelo libera o espaço em disco."));
+  diagnosticar();
 }
 
 // ---------------------------------------------------------------- consulta
@@ -283,9 +436,12 @@ function renderizarTransparencia() {
         (a.gerado_em ? `Índice gerado em ${a.gerado_em.slice(0, 10)}.` : "Índice indisponível.")),
       el("p", {}, "Documentos novos passam por coleta automática nos portais oficiais e só são publicados após conferência humana de texto, metadados e vigência."),
       el("h3", {}, "Inteligência artificial"),
+      el("p", {}, "O modo documental (trechos comprobatórios literais) não usa inteligência artificial. A análise interpretativa por IA é opcional e só funciona se você a ativar no painel \"Análise por IA no meu dispositivo\", que mostra antes as exigências do modelo e o que o seu aparelho oferece. O modelo roda no seu navegador; a pergunta não é enviada a servidores. Você pode desativá-la e remover os arquivos baixados a qualquer momento."),
       modelo
-        ? el("p", {}, `Análise interpretativa gerada no próprio dispositivo pelo modelo ${modelo.rotulo} (licença ${modelo.licenca}), executado com WebLLM. O modelo é baixado uma vez (cerca de ${Math.round(modelo.memoriaMB / 100) / 10} GB) e fica no cache do navegador. A pergunta não é enviada a servidores.`)
-        : el("p", {}, "Nesta versão, a análise interpretativa por IA está desabilitada: a plataforma apresenta os dispositivos localizados, com texto literal. A IA local será habilitada somente após avaliação documentada de qualidade e segurança."),
+        ? el("p", {}, `Ativa neste dispositivo: ${modelo.rotulo} (licença ${modelo.licenca}), executado com WebLLM.`)
+        : el("p", {}, CONFIG.llm.permitirAtivacao
+          ? "A análise por IA não está ativada neste dispositivo."
+          : "A análise por IA ainda está em avaliação e só será liberada após revisão por profissionais."),
       el("p", {}, `Biblioteca de execução prevista: WebLLM (${WEBLLM_URL.split("/npm/")[1].replace("/+esm", "")}).`),
       el("h3", {}, "Privacidade"),
       el("ul", { classe: "lista-simples" },
@@ -330,6 +486,22 @@ await carregarAcervo();
 preencherFiltros();
 listarDocumentos();
 renderizarTransparencia();
+
+// O painel de IA (e a biblioteca WebLLM) só é carregado quando a pessoa o abre.
+// Se ela o abriu antes do fim do carregamento da página, monta agora.
+let painelIARenderizado = false;
+const abrirPainelIA = () => {
+  if ($("#painel-ia").open && !painelIARenderizado) {
+    painelIARenderizado = true;
+    renderizarPainelIA().catch((erro) => {
+      console.error(erro);
+      $("#conteudo-ia").replaceChildren(el("p", { classe: "alerta" },
+        `Não foi possível montar o painel de IA (${erro.message}). O modo documental continua disponível.`));
+    });
+  }
+};
+$("#painel-ia").addEventListener("toggle", abrirPainelIA);
+abrirPainelIA();
 
 if ("serviceWorker" in navigator && location.protocol === "https:") {
   navigator.serviceWorker.register("sw.js").catch(() => {});

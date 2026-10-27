@@ -1,6 +1,6 @@
 {
   "resumo": {
-    "executado_em": "2026-10-26T21:58:06.586Z",
+    "executado_em": "2026-10-27T01:28:44.223Z",
     "acervo": {
       "modo": "previa",
       "gerado_em": "2026-10-26T21:58:06+00:00",
@@ -14,7 +14,7 @@
     "taxa_aprovacao": 0.917,
     "recall_em_8_referencias": 0.858,
     "mrr_primeira_referencia": 0.785,
-    "acuracia_situacao": 0.844,
+    "acuracia_situacao": 0.852,
     "por_comportamento": {
       "responder": {
         "total": 99,
@@ -1480,7 +1480,7 @@
       "tema": "autonomia_profissional",
       "comportamento": "responder",
       "situacao_esperada": "B",
-      "situacao_obtida": "C",
+      "situacao_obtida": "B",
       "referencias": 1,
       "referencias_no_acervo": 1,
       "recuperadas": 1,

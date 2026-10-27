@@ -76,10 +76,20 @@ alertas `portal_indica_situacao:*` para a pessoa que confere.
 Storage do navegador falhou repetidamente ao gravar um fragmento do modelo
 ("Failed to execute 'add' on 'Cache'"); o motor tenta IndexedDB como alternativa.
 
-## Pendentes (dependem do responsável)
+**D17 — 26/10/2026 — Decisão do responsável sobre a IA (antiga D-P1): opção A com adendo.**
+Publicar primeiro o modo documental; continuar avaliando modelos maiores; a análise
+por IA, quando liberada, será **ativada ou desativada pela própria pessoa usuária**,
+que verá antes um diagnóstico do seu dispositivo (WebGPU, espaço disponível, tamanho
+do download, memória de vídeo estimada) e poderá remover o modelo baixado.
+Implementação: `app/js/llm/capacidade.js` e painel "Análise por IA no meu
+dispositivo". Na configuração pública, `CONFIG.llm.permitirAtivacao = false` até
+cumprir os critérios mínimos de NEXT_STEPS.md; em ambiente local o painel funciona
+para teste. A preferência (ligado/desligado e modelo) fica só no navegador da pessoa.
 
-**D-P1 — Modelo de IA local e estratégia para dispositivos sem WebGPU.**
-Apresentada na resposta de 26/10/2026 (ver PROGRESS.md, "Bloqueado").
+**D18 — Tolerância de caixa na primeira letra das citações** («Manter» ↔ "manter"),
+convenção editorial usual; o restante permanece estritamente literal.
+
+## Pendentes (dependem do responsável)
 
 **D-P2 — Responsáveis pela conferência humana** (nomes/identificadores e critério
 mínimo de formação), necessários para aprovar e publicar o primeiro documento.

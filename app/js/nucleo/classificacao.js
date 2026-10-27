@@ -39,6 +39,7 @@ const INDICIOS_B = [
   "instituicao exige", "instituicao determina", "chefia exige", "chefe exige", "gestor exige", "coordenacao exige",
   "me obrigam", "obrigam", "imposicao", "determinacao institucional", "arquivo", "material tecnico",
   "desvio de funcao", "fora das atribuicoes", "pressao", "meta",
+  "me deu uma ordem", "deu uma ordem", "chefia mandou", "chefe mandou", "chefia determinou", "direcao exige", "direcao quer",
 ];
 
 export function classificar(pergunta) {

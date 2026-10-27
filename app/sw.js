@@ -1,14 +1,14 @@
 // Service worker: guarda a interface e o índice para uso com conexão instável.
 // Não guarda perguntas nem respostas. O modelo de IA (quando habilitado) é
 // armazenado pelo próprio WebLLM no Cache Storage do navegador, à parte.
-const VERSAO = "gpecss-v0.1.0";
+const VERSAO = "gpecss-v0.2.0";
 const ESSENCIAIS = [
   "./", "index.html", "css/style.css", "manifest.webmanifest", "icones/icone.svg",
   "js/app.js", "js/config.js",
   "js/nucleo/texto.js", "js/nucleo/sinonimos.js", "js/nucleo/busca.js", "js/nucleo/classificacao.js",
   "js/nucleo/privacidade.js", "js/nucleo/vigencia.js", "js/nucleo/orientacao.js", "js/nucleo/evidencias.js",
   "js/nucleo/verificacao.js", "js/nucleo/resposta.js", "js/nucleo/rotulos.js",
-  "js/llm/prompt.js", "js/llm/motor.js",
+  "js/llm/prompt.js", "js/llm/motor.js", "js/llm/capacidade.js",
 ];
 
 self.addEventListener("install", (e) => {

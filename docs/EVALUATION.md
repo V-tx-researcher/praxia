@@ -103,7 +103,17 @@ inventadas, juízos e apoio em norma revogada), mas o Qwen3-4B não atinge um n�
 de pertinência aceitável para análises ético-normativas públicas. A análise por IA
 permanece desligada (D10). Ver decisão pendente D-P1.
 
-## 4. O que ainda não foi testado
+## 4. Painel de ativação pela pessoa usuária (D17)
+
+Testado no navegador integrado em 26/10/2026: diagnóstico (WebGPU ✓, modelo já
+baixado ✓, memória de vídeo e tempo de resposta marcados como "não confirmável");
+ativação do Qwen3-4B a partir do cache; consulta "A chefia me deu uma ordem que fere
+os princípios do Código de Ética. Devo cumprir?" com 3 afirmações aceitas e 0
+removidas (Art. 8º b, Art. 4º c e Art. 21 a do Código); desativação (libera a GPU,
+grava a preferência); remoção dos arquivos (o diagnóstico volta a indicar download
+de 2,1 GB). Testes unitários do diagnóstico: `tests/js/capacidade.test.mjs` (6).
+
+## 5. O que ainda não foi testado
 
 - Revisão profissional das respostas (nenhuma).
 - Modelos de 8–9B (no Chrome), desempenho em notebooks sem GPU dedicada e celulares.

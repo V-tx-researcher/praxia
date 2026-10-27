@@ -17,7 +17,7 @@ verificáveis** de documentos oficiais do Conjunto CFESS-CRESS.
 | Fila de conferência humana (aprovar / rejeitar / publicar) | funcionando via linha de comando |
 | Busca lexical (BM25 + Snowball-pt + tesauro do domínio) | funcionando; recall@8 de 0,907 no conjunto de avaliação (gabarito não revisado) |
 | Busca semântica | **pendente** |
-| Análise por LLM local (WebLLM) | integrada e **desligada** até decisão e avaliação |
+| Análise por LLM local (WebLLM) | integrada; **opcional, ativada pela própria pessoa** após diagnóstico do aparelho; bloqueada na versão pública até a revisão profissional (D17) |
 | Acervo público | **vazio**: nenhum documento foi conferido por pessoa responsável ainda |
 
 Detalhes em [docs/PROGRESS.md](docs/PROGRESS.md) e próximos passos em [docs/NEXT_STEPS.md](docs/NEXT_STEPS.md).
@@ -70,8 +70,8 @@ python -m http.server 8765 --bind 127.0.0.1 --directory app
 
 Acesse `http://localhost:8765/`. Para a prévia interna (documentos não
 conferidos, com aviso em destaque): `http://localhost:8765/?acervo=previa`.
-Para testar a IA local (somente em `localhost`): acrescente
-`&llm=Qwen3.5-4B-q4f16_1-MLC`.
+Para testar a IA local (somente em `localhost`): abra o painel "Análise por IA no
+meu dispositivo", confira o diagnóstico e ative.
 
 ## Testes
 

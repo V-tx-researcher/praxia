@@ -49,7 +49,11 @@ script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
    (sem prévia e sem páginas internas) para Cloudflare Pages; ativar a rotina
    `.github/workflows/coleta.yml` após o repositório estar no GitHub.
 
-## Critérios mínimos antes de ligar a análise por IA para o público
+## Critérios mínimos antes de liberar a ativação da IA na versão pública
+
+(`CONFIG.llm.permitirAtivacao = true` em `app/js/config.js`; ajustar também
+`CONFIG.llm.modelos` para os modelos aprovados.)
+
 - ≥ 100 perguntas com gabarito **revisado por assistente social**.
 - Revisão profissional de uma amostra de respostas com 0 afirmações enganosas
   aceitas em temas de infração ética e sigilo, e taxa de afirmações incorretas
