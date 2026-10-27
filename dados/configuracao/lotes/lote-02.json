@@ -1,0 +1,425 @@
+{
+ "lote": 2,
+ "documentos": [
+  {
+   "id": "cfess-resolucao-660-2013",
+   "titulo": "Resolução n°660/2013",
+   "ementa": "Dispõe sobre as normas que regulam o CÓDIGO PROCESSUAL DE ÉTICA, incluindo alterações que foram apresentadas pelo CFESS e pelos CRESS, revogando integralmente a Resolução CFESS nº 428 de 14 de maio de 2002.",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/581/resolucao-n6602013",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/5109/Resolução CFESS 660-2013 Compilada.pdf",
+   "paginas_pdf": 19,
+   "dispositivos": 100,
+   "indicacoes_portal": [],
+   "mencoes": [
+    "Resolução CFESS nº 428/2002 (possível revogacao)"
+   ],
+   "alertas": [
+    "anexo_ou_compilacao_detectado",
+    "texto_riscado_removido:481"
+   ],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [
+    {
+     "pagina": 6,
+     "texto": "Parágrafo Segundo Os prazos são contínuos, não se interrompendo nos finais de semana, nemnos feriados"
+    },
+    {
+     "pagina": 18,
+     "texto": "Parágrafo Único A citação e/ou o conhecimento expresso, de que trata este artigo, ensejará adefesa escrita ou a termo, conforme o caso, a partir do qual recomeçará a fluir novo prazoprescricionalArt. 75 Todo processo disciplinar paralisado há mais de 2 (dois) anos, pendente de ato processualdespacho…"
+    }
+   ],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 2,
+     "texto": "Art. 1º INSTITUIR o CÓDIGO PROCESSUAL DE ÉTICA, disponível no endereço eletrônico www.cfess.org.br."
+    },
+    {
+     "rotulo": "Art. 44",
+     "pagina": 13,
+     "texto": "Art. 44 Estando as partes presentes ao julgamento considerar-se-ão intimados/as da decisão, dando-se-lhes ciência do início da contagem do prazo de recurso."
+    },
+    {
+     "rotulo": "Art. 71",
+     "pagina": 17,
+     "texto": "Art. 71 Competirá ao Conselho Pleno do CRESS, na primeira reunião que se realizar, após o encaminhamento da informação e relatório do/a responsável pela capacitação, julgar o pedido de reabilitação profissional."
+    }
+   ],
+   "relacoes_conhecidas": [
+    "Revoga integralmente a Res. 428/2002 (Art. 2º — conferido).",
+    "Segundo as ementas do portal, foi alterada ou complementada pelas Res. 938/2020 (prescrição e prazos) e 1.013/2022 (falecimento da pessoa denunciada); a Res. 988/2022 trata dos atos eletrônicos dos processos.",
+    "O PDF tem trechos riscados (redação revogada), retirados pelo sistema."
+   ]
+  },
+  {
+   "id": "cfess-resolucao-657-2013-p663",
+   "titulo": "Resolução nº 657/2013",
+   "ementa": "Institui o CÓDIGO PROCESSUAL DISCIPLINAR no âmbito do Conselho Federal e dos Conselhos Regionais de Serviço Social.",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/663/resolucao-n-6572013-2",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/5739/657-2013 (compilada).pdf",
+   "paginas_pdf": 10,
+   "dispositivos": 88,
+   "indicacoes_portal": [],
+   "mencoes": [],
+   "alertas": [
+    "anexo_ou_compilacao_detectado",
+    "texto_riscado_removido:160"
+   ],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [
+    {
+     "pagina": 9,
+     "texto": "Parágrafo único Para efeitos de fixação da pena serão consideradas especialmente graves asinfrações tipificadas nos incisos I, IV e V do artigo 2desta Resolução"
+    }
+   ],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 1,
+     "texto": "Art. 1º Fica instituído o Código Processual Disciplinar, para apuração e responsabilização das violações previstas no artigo 22 do Código de Ética, exceto alínea “c” da Resolução CFESS de nº 273\\93."
+    },
+    {
+     "rotulo": "Art. 18, § 4º",
+     "pagina": 7,
+     "texto": "Parágrafo quarto O/A Presidente, nesta fase, perguntará aos/às Conselheiros/as se existe outra pena a ser proposta, diversa daquela sugerida pelo/a Conselheiro/a Relator/a. Havendo manifestação de outra penalidade, o/a Presidente colocará em votação, apresentando primeiramente a manifestação do/a Conselheiro/a Relator/a e após, a do/a outro/a Conselheiro/a."
+    },
+    {
+     "rotulo": "Art. 32",
+     "pagina": 9,
+     "texto": "Art. 32 A penalidade de advertência reservada consubstancia-se em anotação em controle específico e sigiloso do CRESS e na presença do/a penalizado/a perante o/a Relator/a ou outro/a conselheiro/a designado pelo Conselho Pleno do CRESS, para que sejam expostas as razões da penalidade, constituindo-se um momento educativo, para a discussão da função jurídico-política dos Conselhos de Serviço Social."
+    }
+   ],
+   "relacoes_conhecidas": [
+    "Versão compilada publicada pelo CFESS (o texto original e a errata também estão no portal).",
+    "A Res. 988/2022 trata dos atos eletrônicos dos processos (ementa do portal)."
+   ]
+  },
+  {
+   "id": "cfess-resolucao-1073-2024",
+   "titulo": "Resolução 1.073/2024",
+   "ementa": "Institui procedimentos para a realização de DESAGRAVO PÚBLICO, e regulamenta a alínea “e” do artigo 2º do Código de Ética do Assistente Social /Altera e revoga a Resolução CFESS nº 443, 23 de maio de 2003",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/242/resolucao-10732024",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/4283/1073-2024.pdf",
+   "paginas_pdf": 6,
+   "dispositivos": 36,
+   "indicacoes_portal": [],
+   "mencoes": [
+    "Resolução CFESS nº 443/2003 (possível revogacao)"
+   ],
+   "alertas": [],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 2,
+     "texto": "Art. 1º Para efeitos desta Resolução, consideram-se as seguintes definições:"
+    },
+    {
+     "rotulo": "Art. 7º",
+     "pagina": 4,
+     "texto": "Art. 7º Caso seja inquestionável a prova documental juntada ao pedido de desagravo e demonstre, inequivocamente, a caracterização da ofensa às prerrogativas e direitos do/a profissional, o Conselheiro/a Relator/a, ficará dispensado, nesta hipótese, da produção de provas, fundamentando por escrito sua decisão."
+    },
+    {
+     "rotulo": "Art. 11",
+     "pagina": 5,
+     "texto": "Art. 11 A renúncia de exercer o direito de desagravo implica na desistência do procedimento e no seu, consequente, arquivamento, sendo possível desde que expressamente requerida pelo/a agravado/a que deverá assinar declaração, arcando com todas as eventuais consequências decorrentes de tal ato, no prazo máximo de 60 dias úteis, a contar do protocolo do pedido inicial."
+    }
+   ],
+   "relacoes_conhecidas": [
+    "Revoga integralmente a Res. 443/2003, incorporando seu texto com alterações (Art. 13 — conferido)."
+   ]
+  },
+  {
+   "id": "cfess-resolucao-952-2020",
+   "titulo": "Resolução nº 952/2020",
+   "ementa": "Dispõe sobre a regulamentação da disposição do artigo 26 do Código de Ética do Assistente Social, que trata dos ANTECEDENTES profissionais do infrator, para efeito da dosimetria da pena, no âmbito do Conjunto CFESS-CRESS",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/333/resolucao-n-9522020",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/4409/ResolucaoCfess952-2020.pdf",
+   "paginas_pdf": 4,
+   "dispositivos": 16,
+   "indicacoes_portal": [],
+   "mencoes": [],
+   "alertas": [],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 1,
+     "texto": "Art. 1º O Conselho Regional de Serviço Social expedirá informação, contendo a situação dos antecedentes profissionais do/a denunciado/a, submetido/a a processo ético, para conhecimento da COMISSÃO DE INSTRUÇÃO na fase processual concernente à elaboração de seu Parecer Conclusivo, prevista pelo artigo 31 e seguintes, do Código Processual de Ética, regulamentado pela Resolução Cfess nº 660/2013, publicada no Diário Ofi…"
+    },
+    {
+     "rotulo": "Art. 5º",
+     "pagina": 3,
+     "texto": "Art. 5º No caso de julgada procedente ação ética, em que o/a denunciado/a possua antecedentes profissionais, consistente em uma anterior condenação transitada em julgado, adotar-se-á o seguinte critério: a. Aplicação da “pena base”, a partir, especialmente, dos critérios previstos no artigo 24, 27 e 28 do Código de Ética do Assistente Social b. Aplicação da “pena definitiva”, que será o resultado da pena básica com o…"
+    },
+    {
+     "rotulo": "Art. 7º",
+     "pagina": 3,
+     "texto": "Art. 7º - O Cfess e os Cress deverão se incumbir de dar plena e total publicidade a presente norma."
+    }
+   ],
+   "relacoes_conhecidas": [
+    "Regulamenta o Art. 26 do Código de Ética (antecedentes profissionais)."
+   ]
+  },
+  {
+   "id": "cfess-resolucao-934-2020",
+   "titulo": "Resolução nº 934/2020",
+   "ementa": "Dispõe sobre a não caracterização de quebra de sigilo o fornecimento - pelos Conselhos Regionais e Federal de Serviço Social - de CERTIDÃO DISCIPLINAR E/OU ÉTICA de objeto e fase que se encontra a denúncia, processo ou recurso, quando solicitada pelo/a próprio/a denunciado/a ou por autoridade policial ou judicial e REGULAMENTA a sua expedição (edição compilada e atualizada)",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/348/resolucao-n-9342020",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/4433/res934compilada.pdf",
+   "paginas_pdf": 8,
+   "dispositivos": 21,
+   "indicacoes_portal": [],
+   "mencoes": [],
+   "alertas": [
+    "anexo_ou_compilacao_detectado"
+   ],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 1,
+     "texto": "Art. 1º Não caracteriza quebra de sigilo o fornecimento de certidão de “objeto” e “fase em que se encontra a denúncia, o processo disciplinar e/ou ético ou o recurso”, quando solicitada pelo/a próprio/a denunciado/a ou por autoridade policial ou judicial, assinalando-se o caráter sigiloso do documento."
+    },
+    {
+     "rotulo": "Art. 5º",
+     "pagina": 2,
+     "texto": "Art. 5º Da certidão relativa a expediente/denúncia; processo ou recurso em trâmite, deverá constar a fase em que se encontra e um resumo dos atos já praticados."
+    },
+    {
+     "rotulo": "Art. 10",
+     "pagina": 3,
+     "texto": "Art. 10 As certidões serão fornecidas com validade de 90 (noventa) dias de sua expedição e sem qualquer custo para o/a interessada."
+    }
+   ],
+   "relacoes_conhecidas": [
+    "A Res. 950/2020 acrescentou parágrafo único ao Art. 9º desta resolução (ementa do portal)."
+   ]
+  },
+  {
+   "id": "cfess-resolucao-950-2020",
+   "titulo": "Resolução nº 950/2020",
+   "ementa": "Institui MODELO DE CERTIDÃO DISCIPLINAR E/OU ÉTICA, conforme Anexos I, II, III e IV, acrescentando o parágrafo único ao artigo 9º da Resolução Cfess 934/2020 que regulamenta o fornecimento de certidões.",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/625/resolucao-n-9502020",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/5510/950 (1).pdf",
+   "paginas_pdf": 7,
+   "dispositivos": 4,
+   "indicacoes_portal": [],
+   "mencoes": [
+    "Resolução Cfess 934/2020 (possível alteracao)"
+   ],
+   "alertas": [
+    "anexo_ou_compilacao_detectado"
+   ],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 1,
+     "texto": "Art. 1º Ficam instituídos os modelos anexos de certidão disciplinar e/ou ética profissional, como parte integrante da Resolução Cfess 934, de 28 de janeiro de 2020."
+    },
+    {
+     "rotulo": "Art. 3º",
+     "pagina": 1,
+     "texto": "Art. 3º Os casos omissos serão resolvidos pelo Conselho Pleno do Cfess."
+    },
+    {
+     "rotulo": "Art. 4º",
+     "pagina": 1,
+     "texto": "Art. 4º Esta Resolução entra em vigor na data de sua publicação, devendo ser amplamente divulgada pelos Conselhos Regionais e Federal de Serviço Social e Seccionais. MARIA ELIZABETH SANTANA BORGES Conselheira Presidente do Cfess ______________________________________________________________________________ SHS - Quadra 6 – Complexo Brasil 21 – Bloco E – Sala 2001 - CEP- 70322-915 – Brasília/DF. Fone: (61) 3223-1652 -…"
+    }
+   ],
+   "relacoes_conhecidas": [
+    "Acrescenta parágrafo único ao Art. 9º da Res. 934/2020 (ementa do portal)."
+   ]
+  },
+  {
+   "id": "cfess-resolucao-569-2010",
+   "titulo": "Resolução nº 569/2010",
+   "ementa": "Dispõe sobre a VEDAÇÃO da realização de terapias associadas ao título e/ou ao exercício profissional do assistente social",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/474/resolucao-n-5692010",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/4580/RES.CFESS_569-2010.pdf",
+   "paginas_pdf": 3,
+   "dispositivos": 12,
+   "indicacoes_portal": [],
+   "mencoes": [],
+   "alertas": [],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 2,
+     "texto": "Art. 1º. A realização de terapias não constitui atribuição e competência do assistente social."
+    },
+    {
+     "rotulo": "Art. 4º, parágrafo único",
+     "pagina": 3,
+     "texto": "Parágrafo único – A apuração da responsabilidade disciplinar e/ou ética, de que trata o “caput” do presente artigo, dar-se-á por meio dos procedimentos previstos pelo Código Processual de Ética, regulamentado pela Resolução CFESS nº 428/2002."
+    },
+    {
+     "rotulo": "Art. 7º",
+     "pagina": 3,
+     "texto": "Art. 7º. Os casos omissos serão resolvidos pelo Conselho Pleno do Conselho Federal de Serviço Social."
+    }
+   ],
+   "relacoes_conhecidas": []
+  },
+  {
+   "id": "cfess-resolucao-489-2006",
+   "titulo": "Resolução nº 489/2006",
+   "ementa": "Estabelece normas vedando condutas discriminatórias ou preconceituosas, por orientação e expressão sexual por pessoas do mesmo sexo, no exercício profissional do assistente social",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/516/resolucao-n-4892006",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/4625/resolucao_489_06.pdf",
+   "paginas_pdf": 3,
+   "dispositivos": 8,
+   "indicacoes_portal": [],
+   "mencoes": [],
+   "alertas": [],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 2,
+     "texto": "Art. 1º - O assistente social no exercício de sua atividade profissional deverá abster-se de práticas e condutas que caracterizem o policiamento de comportamentos, que sejam discriminatórias ou preconceituosas por questões, dentre outras, de orientação sexual;"
+    },
+    {
+     "rotulo": "Art. 5º",
+     "pagina": 2,
+     "texto": "Art. 5º- É dever do assistente social denunciar ao Conselho Regional de Serviço Social, de sua área de ação, as pessoas jurídicas privadas ou públicas ou pessoas físicas, sejam assistentes sociais ou não, que sejam coniventes ou praticarem atos, ou que manifestarem qualquer conduta relativa a preconceito e discriminação por orientação sexual entre pessoas do mesmo sexo."
+    },
+    {
+     "rotulo": "Art. 7º",
+     "pagina": 3,
+     "texto": "Art. 7º - Os Conselhos Regionais de Serviço Social, deverão aplicar as penalidades previstas pelos artigos 23 e 24 do Código de Ética Profissional, ao assistente social, que descumprir as normas previstas na presente Resolução, desde que comprovada a prática de atos discriminatórios ou preconceituosos que atentem contra a livre orientação e expressão sexual, após o devido processo legal e apuração pelos meios compete…"
+    }
+   ],
+   "relacoes_conhecidas": []
+  },
+  {
+   "id": "cfess-resolucao-992-2022",
+   "titulo": "Resolução 992/2022",
+   "ementa": "Estabelece normas vedando atos e condutas discriminatórias e/ou preconceituosas contra pessoas com deficiência no exercício profissional do/a assistente social, regulamentando os princípios II, VI e XI inscritos no Código de Ética Profissional",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/306/resolucao-9922022",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/4366/rescfess992.pdf",
+   "paginas_pdf": 3,
+   "dispositivos": 11,
+   "indicacoes_portal": [],
+   "mencoes": [],
+   "alertas": [],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 2,
+     "texto": "Art. 1º. O/A assistente social no exercício de sua atividade profissional deverá abster-se de praticar ou ser conivente com condutas discriminatórias e/ou preconceituosas em relação a pessoas com deficiência, na relação com os/as usuários/as, com outros/as assistentes sociais e com outros/as profissionais e trabalhadores/as."
+    },
+    {
+     "rotulo": "Art. 3º",
+     "pagina": 3,
+     "texto": "Art. 3º O/A assistente social deverá contribuir, inclusive, no âmbito de seu espaço de trabalho, para a reflexão ética sobre o sentido da necessidade do respeito e promoção de oportunidades equitativas às pessoas com deficiência; prevenção e combate ao preconceito e discriminação."
+    },
+    {
+     "rotulo": "Art. 7º",
+     "pagina": 3,
+     "texto": "Art. 7º Os Conselhos Regionais de Serviço Social deverão aplicar as penalidades previstas pelos artigos 23 e 24 do Código de Ética Profissional, regulamentado pela Resolução Cfess nº 273 de 13 de março de 1993, publicada no Diário Oficial da União nº 60, de 30 de março de 1993, Seção 1, ao/a assistente social que descumprir as normas previstas na presente Resolução, após o devido processo e apuração pelos meios compe…"
+    }
+   ],
+   "relacoes_conhecidas": [
+    "Regulamenta os princípios II, VI e XI do Código de Ética (ementa do portal)."
+   ]
+  },
+  {
+   "id": "cfess-resolucao-1054-2023",
+   "titulo": "Resolução 1054/2023",
+   "ementa": "Estabelece normas vedando condutas de DISCRIMINAÇÃO E/OU PRECONCEITO ÉTNICO-RACIAL no exercício profissional do/a assistente social, referenciadas nos princípios II, VI, XI inscritos na Resolução CFESS nº 273 de 13 de março de 1993, que institui o Código de Ética Profissional do/a assistente social",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/257/resolucao-10542023",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/4314/1054-2023-1.pdf",
+   "paginas_pdf": 5,
+   "dispositivos": 10,
+   "indicacoes_portal": [],
+   "mencoes": [],
+   "alertas": [],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 3,
+     "texto": "Art. 1º. É vedado ao/a assistente social no exercício de sua atividade profissional, incluindo cargos de gestão e cargos genéricos, praticar ou ser conivente com condutas Autentique pelo link https://cfess-br.implanta.net.br/servicosonline/Publico/ValidarDocumentos/, fornecendo o código a seguir: cb084f0a-1981-45ec-afc8-55f610a4d442. ______________________________________________________________________________ SHS -…"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "pagina": 4,
+     "texto": "Art. 4º. É dever do/a assistente social denunciar ao Conselho Regional de Serviço Social/CRESS, de sua atuação, o/a assistente social que - no exercício profissional - seja conivente ou que pratique ato ou conduta discriminatória e/ou preconceituosa, em razão de aspectos relacionados à raça, cor e etnia, nos termos dos artigos 13 alínea “b” e alínea 21 “b”, do Código de Ética do/a Assistente Social."
+    },
+    {
+     "rotulo": "Art. 7º",
+     "pagina": 4,
+     "texto": "Art. 7º. Os Conselhos Federal e Regionais de Serviço Social, ao tomarem conhecimento de fatos ou de denúncias contra pessoas jurídicas ou contra indivíduos que não sejam assistentes sociais, Autentique pelo link https://cfess-br.implanta.net.br/servicosonline/Publico/ValidarDocumentos/, fornecendo o código a seguir: cb084f0a-1981-45ec-afc8-55f610a4d442. ________________________________________________________________…"
+    }
+   ],
+   "relacoes_conhecidas": [
+    "Regulamenta os princípios II, VI e XI do Código de Ética (ementa do portal)."
+   ]
+  },
+  {
+   "id": "cfess-resolucao-1084-2024",
+   "titulo": "Resolução 1.084/2024",
+   "ementa": "Dispõe sobre a LAICIDADE na profissão e no Exercício Profissional da/o assistente social, em face da laicidade de Estado",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/232/resolucao-10842024",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/4268/1084-2024.pdf",
+   "paginas_pdf": 4,
+   "dispositivos": 28,
+   "indicacoes_portal": [],
+   "mencoes": [],
+   "alertas": [],
+   "lacunas": [],
+   "transcricoes": [],
+   "riscados": [],
+   "amostras": [
+    {
+     "rotulo": "Art. 1º",
+     "pagina": 2,
+     "texto": "Art. 1º O(a) assistente social deve exercer sua profissão segundo os princípios e normas éticas previstas no Código de Ética do(da) Assistente Social, regulamentado pela Resolução CFESS n° 273, de 13 de março de 1993, pautando sua atuação profissional com base no respeito à singularidade e à diversidade, de forma a considerar o caráter laico do Estado e do Serviço Social, enquanto profissão e área do conhecimento."
+    },
+    {
+     "rotulo": "Art. 3º, inciso V",
+     "pagina": 3,
+     "texto": "V. Utilizar, no trabalho profissional, de instrumentos, técnicas, manifestações ou opiniões para criar, manter ou reforçar preconceitos, estigmas, estereótipos e discriminações em relação à liberdade de consciência e de crença religiosa;"
+    },
+    {
+     "rotulo": "Art. 3º, inciso XIV",
+     "pagina": 3,
+     "texto": "XIV. atuar ou ser conivente com ações que, orientadas por convicções morais-religiosas, limitem ou impeçam o acesso da população usuária a direitos e benefícios previstos em lei, nas políticas públicas e demais instituições, como, por exemplo, o planejamento reprodutivo, o aborto legal, a entrega voluntária de recém-nascidos(as) para adoção, o acesso ou a desobrigação à assistência religiosa, independentemente de sua…"
+    }
+   ],
+   "relacoes_conhecidas": []
+  },
+  {
+   "id": "cfess-resolucao-954-2020",
+   "titulo": "Resolução nº 954/2020 (pendência do lote 1)",
+   "pdf": "https://www.cfess.org.br/uploads/legislacao/4406/ResolucaoCfess954-2020.pdf",
+   "pagina_oficial": "https://www.cfess.org.br/legislacao/view/331/resolucao-n-9542020",
+   "somente_pedido": true,
+   "pedido_extra": "Para publicar esta resolução falta o Art. 1º (p. 2 do PDF), que a leitura automática estragou no trecho entre parênteses. Copie abaixo o Art. 1º inteiro, exatamente como está no PDF."
+  }
+ ]
+}

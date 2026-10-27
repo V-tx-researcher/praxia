@@ -56,9 +56,15 @@ const corpo = [
 ];
 
 lote.documentos.forEach((d, i) => {
-  corpo.push(titulo(`Documento ${i + 1} — ${d.titulo}`, true));
-  if (d.ementa) corpo.push(p(t(d.ementa, { italics: true, color: "4F5D70" })));
+  corpo.push(titulo(`${d.somente_pedido ? "Pendência" : "Documento"} ${i + 1} — ${d.titulo}`, true));
+  if (d.ementa && !d.somente_pedido) corpo.push(p(t(d.ementa, { italics: true, color: "4F5D70" })));
   corpo.push(p([t("PDF oficial: "), link(d.pdf.split("/").pop(), d.pdf), t("   ·   "), link("página oficial", d.pagina_oficial)]));
+  if (d.somente_pedido) {
+    // Documento já conferido em lote anterior: só falta a transcrição pedida.
+    corpo.push(p(t(d.pedido_extra)));
+    corpo.push(caixa("Transcrição:", 3));
+    return;
+  }
 
   corpo.push(subtitulo("a) O PDF é o documento oficial e está completo?"));
   corpo.push(p(t("☐  Sim     ☐  Não     ☐  Não consegui verificar")));

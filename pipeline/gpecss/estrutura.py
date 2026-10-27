@@ -46,6 +46,8 @@ def slug(s: str, limite: int = 40) -> str:
 # é artigo 1 seguido de travessão, não "Art. 1º-O".
 RE_ARTIGO = re.compile(r"^Art(?:igo)?\.?\s*(\d+)\s*(?:[º°o]|\.)?(?:-([A-Z])(?=[\s.:]))?\s*\.?\s*[-–—]?\s*")
 # "Parágrafo único" só com inicial maiúscula e sem continuar como remissão ("Parágrafo único do artigo 18").
+RE_ANEXO_NUMERADO = re.compile(r"^ANEXO\s+([IVXLC]+|\d+)\s*$")
+RE_TITULO_ANEXO = re.compile(r"^(C[ÓO]DIGO|REGULAMENTO|REGIMENTO|ANEXO|POL[ÍI]TICA|NORMAS|TABELA|ESTATUTO|INSTRUMENTA)\S*\s+\S{2,}")
 RE_NOVA_REDACAO = re.compile(r"(seguinte|nova)\s+reda[çc][ãa]o\s*:?\s*$|(passa|passam)\s+a\s+(vigorar|ter)\b.*(reda[çc][ãa]o|acrescid[oa]).*:\s*$",
                               re.I)
 RE_PARAGRAFO = re.compile(r"^(?:§\s*(\d+)\s*[º°o]?\s*\.?\s*[-–—]?|PAR[ÁA]GRAFO\s+[ÚU]NICO|Par[áa]grafo\s+[úu]nico(?!\s+d[oa]s?\s)"
@@ -290,6 +292,17 @@ class Segmentador:
                 # republicado) abre nova parte — e o processamento gera alerta para
                 # que a conferência humana declare o mapa de partes correto.
                 m_rein = RE_ARTIGO.match(t)
+                # Título em maiúsculas de um texto anexo ("CÓDIGO PROCESSUAL DE ÉTICA",
+                # "REGULAMENTO …") depois dos artigos da resolução abre a parte do anexo.
+                m_anx = RE_ANEXO_NUMERADO.match(t)
+                if m_anx and self.unidades:
+                    nova_parte(f"Anexo {m_anx.group(1)}", "normativa", l.pagina, f"anexo-{m_anx.group(1).lower()}")
+                    i += 1
+                    continue
+                if ultimo_artigo > 1 and RE_TITULO_ANEXO.match(t) and t.upper() == t:
+                    nova_parte(f"Anexo — {t.strip().rstrip('.:')}", "normativa", l.pagina, slug(t, 24) or "anexo")
+                    i += 1
+                    continue
                 if m_rein and int(m_rein.group(1)) == 1 and not m_rein.group(2) and ultimo_artigo > 1:
                     nova_parte(f"Anexo ou texto subsequente (a partir da p. {l.pagina})", "normativa",
                                l.pagina, f"anexo-p{l.pagina}")

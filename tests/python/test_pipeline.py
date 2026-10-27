@@ -178,6 +178,15 @@ class TestEstrutura(unittest.TestCase):
         ids = [u["id"] for u in r["unidades"]]
         self.assertEqual(ids, ["texto:art-1", "texto:art-1:par-1", "texto:art-1:par-2", "texto:art-2"])
 
+    def test_anexo_com_titulo(self):
+        r = estrutura.segmentar(["Art. 1º Aprovar o Código anexo.\nArt. 2º Esta Resolução entra em vigor.\n"
+                                 "CÓDIGO PROCESSUAL DE ÉTICA\nCAPÍTULO I\nDAS DISPOSIÇÕES PRELIMINARES\n"
+                                 "Art. 1º O CRESS apura a denúncia.\nArt. 2º A denúncia será escrita."], "x")
+        self.assertEqual([p["rotulo"] for p in r["partes"]], ["Texto", "Anexo — CÓDIGO PROCESSUAL DE ÉTICA"])
+        anexo = [u for u in r["unidades"] if u["parte"].startswith("Anexo")]
+        self.assertEqual(anexo[0]["hierarquia"], ["CAPÍTULO I — DAS DISPOSIÇÕES PRELIMINARES"])
+        self.assertNotIn("CÓDIGO", r["unidades"][1]["texto"])
+
     def test_segmentos_reconstroem_texto(self):
         doc = {"paginas": [{"texto": p} for p in PAGINAS_SINTETICAS], "unidades": self.r["unidades"]}
         self.assertEqual(citacoes.verificar_unidades(doc), [])
