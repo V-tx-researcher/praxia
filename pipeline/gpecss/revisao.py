@@ -62,6 +62,8 @@ def resumo_documento(doc_id: str, amostras: int = 6) -> str:
                       f"{q.get('paginas_sem_texto')} sem texto")
     if r["alertas"]:
         linhas.append("ALERTAS: " + "; ".join(r["alertas"]))
+    for lac in r.get("lacunas_detectadas", [])[:8]:
+        linhas.append(f"  possível texto perdido na extração (p. {lac['pagina']}): {lac['linha']}")
     for inj in r.get("injecao_detectada", [])[:5]:
         linhas.append(f"  possível instrução embutida (p. {inj['pagina']}): …{inj['trecho']}…")
     mencoes = r["alteracoes"].get("mencoes_detectadas") or []
@@ -94,7 +96,7 @@ def aprovar(doc_id: str, responsavel: str, situacao: str, assunto_principal: str
         if a is not None and a not in ASSUNTOS:
             raise TransicaoInvalida(f"assunto inválido: {a}")
     r = catalogo.carregar(doc_id)
-    bloqueantes = [a for a in r["alertas"] if a.startswith(("requer_ocr", "mapa_de_partes_desatualizado"))]
+    bloqueantes = [a for a in r["alertas"] if a.startswith(("requer_ocr", "mapa_de_partes_desatualizado", "lacunas_na_extracao"))]
     if bloqueantes:
         raise TransicaoInvalida(f"resolva antes os alertas: {', '.join(bloqueantes)}")
     r["situacao_normativa"] = situacao

@@ -106,6 +106,32 @@ def avaliar_qualidade(paginas: list[str]) -> dict:
     return info
 
 
+_RE_ASPAS_VAZIAS = re.compile("[“\"]\\s*[”\"]")
+
+
+def detectar_lacunas(paginas: list[str]) -> list[dict]:
+    """Linhas com indício de texto perdido na extração (fontes sem mapa de caracteres).
+
+    Sinais: aspas vazias (“ ”) ou letras isoladas que não são palavras do português
+    (ex.: "I - “ ” 22 ú 25 o 273/1993."). Não corrige nada: gera alerta para a
+    conferência e indica necessidade de OCR ou leitura direta do PDF.
+    """
+    achados = []
+    for n, texto in enumerate(paginas, start=1):
+        for linha in texto.split("\n"):
+            limpa = re.sub(r"/[ao]s?\b", "", linha)          # marcas de gênero: o/a, os/as
+            isoladas = [p for p in re.findall(r"(?<![\w/.])[^\W\d_](?![\w/.])", limpa)
+                        if p.lower() not in _LETRAS_PALAVRA]
+            if _RE_ASPAS_VAZIAS.search(linha) or len(isoladas) >= 2:
+                achados.append({"pagina": n, "linha": linha[:160]})
+    return achados
+
+
+# Letras que são palavras em português (artigos, conjunções, preposição craseada)
+# ou rótulos usuais de alíneas e incisos.
+_LETRAS_PALAVRA = set("aeoéàóôêºª") | set("bcdfghijklmnpqrstuvwxyz")
+
+
 def detectar_injecao(paginas: list[str]) -> list[dict]:
     achados = []
     for i, p in enumerate(paginas, start=1):

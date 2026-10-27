@@ -93,7 +93,7 @@ def processar(doc_id: str, log=print) -> dict:
         extrator = "beautifulsoup4 (HTML do Planalto; trechos riscados removidos)"
     qualidade = extracao.avaliar_qualidade(paginas)
     reg["qualidade_extracao"] = qualidade
-    alertas = [a for a in reg["alertas"] if not a.startswith(("possivel_instrucao_embutida", "mapa_de_partes", "partes_detectadas", "anexo_ou_compilacao"))]
+    alertas = [a for a in reg["alertas"] if not a.startswith(("possivel_instrucao_embutida", "mapa_de_partes", "partes_detectadas", "anexo_ou_compilacao", "lacunas_na_extracao"))]
     if qualidade["classificacao"] in {"requer_ocr", "falhou"}:
         if reg["estado_fluxo"] != "erro_extracao":
             transitar(reg, "erro_extracao", "processador", qualidade.get("motivo", "extração insuficiente"))
@@ -136,6 +136,14 @@ def processar(doc_id: str, log=print) -> dict:
         raise RuntimeError(f"{doc_id}: {len(erros)} unidades não conferem com as páginas")
     catalogo.salvar_texto(doc_id, principal["versao"], texto_doc)
 
+    lacunas = extracao.detectar_lacunas(paginas)
+    if lacunas:
+        # Texto possivelmente perdido na extração: bloqueia a aprovação até a conferência
+        # comparar com o PDF (ou até haver OCR).
+        alertas.append(f"lacunas_na_extracao:{len(lacunas)}")
+        reg["lacunas_detectadas"] = lacunas[:30]
+    else:
+        reg.pop("lacunas_detectadas", None)
     injecao = extracao.detectar_injecao(paginas)
     if injecao:
         alertas.append(f"possivel_instrucao_embutida:{len(injecao)}")
