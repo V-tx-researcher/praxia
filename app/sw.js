@@ -5,7 +5,7 @@
 // Estratégia única: rede primeiro, com limite de espera; sem resposta, cópia local.
 // (Guardar o código e buscar a página na rede deixaria versões desencontradas.)
 // Versão nova não assume sozinha: a página mostra "Atualizar agora" (mensagem PULAR_ESPERA).
-const VERSAO = "gpecss-v0.6.0";
+const VERSAO = "gpecss-v0.7.0";
 const ESPERA_REDE_MS = 4000;
 const ESSENCIAIS = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",

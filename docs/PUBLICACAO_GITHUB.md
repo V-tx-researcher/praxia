@@ -8,12 +8,12 @@ computador e funciona sem internet. A análise por IA roda no computador da pess
 ## Etapas (feitas por você, com a sua conta)
 
 1. **Criar o repositório.** Em https://github.com/new: nome, por exemplo,
-   `consulta-etico-normativa`; **Public** (o Pages gratuito exige repositório público);
+   `praxia`; **Public** (o Pages gratuito exige repositório público);
    não marque README, .gitignore nem licença.
 2. **Enviar o projeto.** No terminal, dentro de `C:\Users\Usuario\Desktop\GPECSS-Consulta-CFESS-CRESS`:
 
    ```bash
-   git remote add origin https://github.com/SEU-USUARIO/consulta-etico-normativa.git
+   git remote add origin https://github.com/SEU-USUARIO/praxia.git
    ```
 
    ```bash
@@ -24,7 +24,7 @@ computador e funciona sem internet. A análise por IA roda no computador da pess
 3. **Ligar o Pages.** No repositório: Settings > Pages > Build and deployment > Source:
    **GitHub Actions**. Depois, em Actions, abra "Publicar no GitHub Pages" e clique em
    **Run workflow** (as próximas publicações são automáticas a cada `git push`).
-4. **Endereço do site:** `https://SEU-USUARIO.github.io/consulta-etico-normativa/`
+4. **Endereço do site:** `https://SEU-USUARIO.github.io/praxia/`
    (aparece em Settings > Pages ao fim da publicação).
 5. **Coleta semanal.** O repositório traz também `.github/workflows/coleta.yml`, que roda
    às segundas e abre um pull request com novidades do portal do CFESS (nunca publica
@@ -32,7 +32,7 @@ computador e funciona sem internet. A análise por IA roda no computador da pess
 
 ## No Wix
 
-Adicione um botão (ou item de menu) com o texto **"Consulta ético-normativa — acessar e
+Adicione um botão (ou item de menu) com o texto **"PraxIA — acessar e
 instalar o app"** e o link do endereço do item 4, abrindo na mesma janela ou em nova aba.
 Texto sugerido ao lado do botão:
 

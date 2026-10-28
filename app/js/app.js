@@ -650,7 +650,7 @@ function renderizarResposta(r) {
   const saida = $("#resultado");
   // Na impressão, a pergunta (já sem dados pessoais) acompanha a resposta.
   const blocos = [el("p", { classe: "so-impressao" }, `Pergunta: ${r.pergunta}`,
-    el("br"), `Consulta em ${new Date().toLocaleDateString("pt-BR")} — Consulta Ético-Normativa (GPECSS)`)];
+    el("br"), `Consulta em ${new Date().toLocaleDateString("pt-BR")} — PraxIA, consulta ético-normativa (GPECSS)`)];
   if (r.alertaPrivacidade) blocos.push(el("section", {}, el("p", { classe: "alerta" }, r.alertaPrivacidade)));
   const analise = r.secoes.find((s) => s.id === "analise");
   const citacoesPorEvidencia = new Map();

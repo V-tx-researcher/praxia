@@ -1,4 +1,4 @@
-# GPECSS — Consulta Ético-Normativa CFESS-CRESS
+# PraxIA — Consulta ético-normativa do Serviço Social (CFESS-CRESS) · GPECSS
 
 Plataforma independente, gratuita e de código aberto para consulta às normas do
 exercício profissional do Serviço Social brasileiro, com **citações literais

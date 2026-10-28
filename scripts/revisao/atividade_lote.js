@@ -104,7 +104,7 @@ lote.documentos.forEach((d, i) => {
 });
 
 const doc = new Document({
-  creator: "Plataforma de Consulta Ético-Normativa — GPECSS",
+  creator: "PraxIA — consulta ético-normativa (GPECSS)",
   title: `Atividade de conferência nº ${numAtividade} — lote ${lote.lote}`,
   styles: { default: { document: { run: { font: "Calibri", size: 22 } } } },
   numbering: { config: [
@@ -114,7 +114,7 @@ const doc = new Document({
   sections: [{
     properties: { page: { margin: { top: 1134, bottom: 1134, left: 1134, right: 1134 } } },
     footers: { default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [
-      t(`GPECSS · Consulta Ético-Normativa · Atividade nº ${numAtividade} (lote ${lote.lote}) · página `, { size: 18, color: "6B7785" }),
+      t(`PraxIA (GPECSS) · Atividade nº ${numAtividade} (lote ${lote.lote}) · página `, { size: 18, color: "6B7785" }),
       new TextRun({ children: [PageNumber.CURRENT], font: "Calibri", size: 18, color: "6B7785" })] })] }) },
     children: corpo,
   }],

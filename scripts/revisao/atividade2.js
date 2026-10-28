@@ -70,7 +70,7 @@ const larg = [600, 2300, 5438, 1300];
 const excluir = Object.entries(triagem.excluir);
 
 const doc = new Document({
-  creator: "Plataforma de Consulta Ético-Normativa — GPECSS",
+  creator: "PraxIA — consulta ético-normativa (GPECSS)",
   title: "Atividade de conferência nº 2 — Triagem do acervo",
   styles: { default: { document: { run: { font: "Calibri", size: 22 } } } },
   numbering: { config: [{ reference: "etapas", levels: [{ level: 0, format: LevelFormat.DECIMAL, text: "%1.", alignment: AlignmentType.LEFT,
@@ -78,7 +78,7 @@ const doc = new Document({
   sections: [{
     properties: { page: { margin: { top: 1134, bottom: 1134, left: 1134, right: 1134 } } },
     footers: { default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [
-      t("GPECSS · Consulta Ético-Normativa · Atividade de conferência nº 2 · página ", { size: 18, color: "6B7785" }),
+      t("PraxIA (GPECSS) · Atividade de conferência nº 2 · página ", { size: 18, color: "6B7785" }),
       new TextRun({ children: [PageNumber.CURRENT], font: "Calibri", size: 18, color: "6B7785" })] })] }) },
     children: [
       new Paragraph({ spacing: { after: 60 }, children: [t("PLATAFORMA DE CONSULTA ÉTICO-NORMATIVA — GPECSS", { bold: true, size: 20, color: "4F5D70" })] }),
