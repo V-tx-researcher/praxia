@@ -20,6 +20,15 @@ Particularidades do ambiente de desenvolvimento (Windows): ao gerar arquivos por
 script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
 `python scripts/escapar_js.py <arquivos.js>` converte caracteres invisíveis em escapes Unicode do JavaScript.
 
+## Liberar a análise por IA (depois da Atividade nº 10)
+
+Se o revisor aprovar: em `app/js/config.js`, `permitirAtivacao: true` (modelo já é o
+Qwen3 8B); registrar as marcações (ler com `scripts/revisao/ler_atividade.py`) em
+docs/revisao/REGISTRO.md; corrigir nas instruções (`app/js/llm/prompt.js`) os erros
+apontados e, se mudar algo, rodar de novo `scripts/avaliar_llm.mjs` e
+`comparar-llm.mjs`. Se aprovar "só depois de corrigir", fazer as correções e gerar
+nova atividade curta com as perguntas afetadas.
+
 ## Verificação antes de publicar
 
 ```bash

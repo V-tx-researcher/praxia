@@ -9,9 +9,11 @@ export const CONFIG = {
     // para teste.
     permitirAtivacao: false,
     // Modelos oferecidos no painel, em ordem de preferência.
-    modelos: ["Qwen3-4B-q4f16_1-MLC"],
+    // Qwen3 8B escolhido na avaliação de 28/10/2026 (docs/EVALUATION.md); só fica
+    // disponível ao público quando permitirAtivacao = true (após a Atividade nº 10).
+    modelos: ["Qwen3-8B-q4f16_1-MLC"],
     // Em teste local, todos os modelos em avaliação aparecem no painel.
-    modelosTesteLocal: ["Qwen3-4B-q4f16_1-MLC", "Qwen3-8B-q4f16_1-MLC", "Qwen3.5-4B-q4f16_1-MLC",
+    modelosTesteLocal: ["Qwen3-8B-q4f16_1-MLC", "Qwen3-4B-q4f16_1-MLC", "Qwen3.5-4B-q4f16_1-MLC",
       "Qwen3.5-9B-q4f16_1-MLC", "Qwen2.5-7B-Instruct-q4f16_1-MLC"],
   },
 };

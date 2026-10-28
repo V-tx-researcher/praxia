@@ -106,6 +106,28 @@ inventadas, juízos e apoio em norma revogada), mas o Qwen3-4B não atinge um n�
 de pertinência aceitável para análises ético-normativas públicas. A análise por IA
 permanece desligada (D10). Ver decisão pendente D-P1.
 
+## 3b. LLM local — modelos maiores (28/10/2026, D38)
+
+Execução real no Chrome sem janela com WebGPU (AMD Radeon RX 6800 XT, 16 GB),
+`scripts/avaliar_llm.mjs`; 20 perguntas (as 18 da rodada exploratória + Q097 e Q105),
+acervo público completo; reverificação com `tests/avaliacao/reverificar-llm.mjs` e
+comparação com `tests/avaliacao/comparar-llm.mjs`. Pertinência = perguntas em que
+alguma frase aceita se apoia num dispositivo esperado pelo gabarito (não revisado).
+
+| Modelo | Instruções | Com análise | Frases aceitas | Descartadas | Pertinência | Tempo/resposta | Download (1ª vez) |
+|---|---|---|---|---|---|---|---|
+| Qwen3 4B (26/10, acervo de prévia, 18 perguntas) | v1 | 16/18 | 37 | 21% | 13/17 | 23 s | 2,2 GB |
+| Qwen3 8B | v1 | 18/20 | 50 | 22% | 14/19 | 28 s | 4,4 GB (~10 min) |
+| **Qwen3 8B** | **v2** | **19/20** | **57** | **12%** | **16/19** | **29 s** | 4,4 GB |
+| Qwen3.5 9B | v2 | 19/20 | 82 | 22% | 16/19 | 38 s | 4,8 GB |
+| Qwen2.5 7B Instruct | v2 | 16/20 | 38 | 12% | 13/19 | 21 s | 4,1 GB |
+
+Nenhum modelo respondeu às perguntas fora do domínio; nenhuma falha de formato.
+Observação qualitativa: o Qwen3 8B corrigiu as três premissas erradas testadas
+(jornada de 40 h, sigilo absoluto, CFESS como 1ª instância); o Qwen3.5 9B afirmou
+que a Lei 12.317/2010 "alterou o Código de Ética" (alterou a Lei 8.662/1993).
+Escolhido: **Qwen3 8B com instruções v2**. Avaliação humana: Atividade nº 10.
+
 ## 4. Painel de ativação pela pessoa usuária (D17)
 
 Testado no navegador integrado em 26/10/2026: diagnóstico (WebGPU ✓, modelo já

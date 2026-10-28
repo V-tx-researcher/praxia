@@ -111,3 +111,37 @@ PISTAS JÁ CONHECIDAS (confirme no texto oficial; não as trate como provadas)
   alguma foi substituída, revogada ou atualizada.
 
 =====================================================================
+
+---
+
+# Prompt para a Atividade nº 10 (avaliação das respostas da IA)
+
+Use o mesmo procedimento: anexe `Atividade_10_Avaliacao_da_IA.docx`, cole o texto
+entre as linhas `=====` e, ao final, **marque você mesmo as caixas**.
+
+=====================================================================
+
+O arquivo anexo traz 20 perguntas sobre o exercício profissional do Serviço Social.
+Para cada uma, há os trechos de normas oficiais (E1, E2…) e as frases que uma IA
+escreveu com base neles. Ajude-me a avaliar cada frase.
+
+REGRAS
+1. NÃO marque nenhuma caixa ☐. Escreva "SUGESTÃO: Correta / Parcial / Incorreta"
+   logo abaixo de cada frase, com uma linha de justificativa.
+2. Correta = diz exatamente o que os trechos indicados dizem, sem exagero.
+   Parcial = certa em parte, incompleta, imprecisa ou com ressalva faltando.
+   Incorreta = errada, enganosa, mistura normas, atribui a uma norma o que ela
+   não diz ou afirma algo que os trechos não sustentam.
+3. Compare cada frase com o trecho citado entre parênteses (E1, E2…). Se precisar,
+   confira o texto oficial no portal do CFESS (https://www.cfess.org.br/legislacao)
+   e informe o link. Diga "não verificado" quando não conseguir conferir.
+4. Preste atenção especial a: norma revogada apresentada como vigente; nome de
+   lei ou resolução trocado; regra apresentada como absoluta quando há exceções;
+   julgamento de conduta de pessoas (a IA não deve fazer isso).
+5. No fim de cada pergunta, sugira se a resposta "ajudaria um/a profissional,
+   docente ou estudante" (Sim / Em parte / Não) e por quê.
+6. Ao final, faça uma lista dos erros mais graves que encontrou.
+
+Devolva o mesmo arquivo .docx com as sugestões e todas as caixas ☐ intactas.
+
+=====================================================================

@@ -15,13 +15,16 @@ export const MODELOS = {
   "Qwen3-4B-q4f16_1-MLC": { rotulo: "Qwen3 4B", memoriaMB: 3432, downloadMB: 2155, maiorFragmentoMiB: 185,
     licenca: "Apache-2.0", segundosResposta: 23, avaliacao: "avaliado em 26/10/2026: citações fiéis, pertinência insuficiente" },
   "Qwen3-8B-q4f16_1-MLC": { rotulo: "Qwen3 8B", memoriaMB: 5696, downloadMB: 4396, maiorFragmentoMiB: 297,
-    licenca: "Apache-2.0", segundosResposta: null, avaliacao: "em avaliação" },
+    licenca: "Apache-2.0", segundosResposta: 29,
+    avaliacao: "avaliado em 28/10/2026: melhor equilíbrio (pertinência 16/19, 12% de frases descartadas); aguarda revisão profissional" },
   "Qwen3.5-4B-q4f16_1-MLC": { rotulo: "Qwen3.5 4B", memoriaMB: 3868, downloadMB: 2260, maiorFragmentoMiB: 303,
     licenca: "Apache-2.0", segundosResposta: null, avaliacao: "em avaliação" },
   "Qwen3.5-9B-q4f16_1-MLC": { rotulo: "Qwen3.5 9B", memoriaMB: 6433, downloadMB: 4807, maiorFragmentoMiB: 485,
-    licenca: "Apache-2.0", segundosResposta: null, avaliacao: "em avaliação" },
+    licenca: "Apache-2.0", segundosResposta: 38,
+    avaliacao: "avaliado em 28/10/2026: pertinência 16/19, mais lento e prolixo (22% descartadas), erro de fato observado" },
   "Qwen2.5-7B-Instruct-q4f16_1-MLC": { rotulo: "Qwen2.5 7B Instruct", memoriaMB: 5107, downloadMB: 4082, maiorFragmentoMiB: 260,
-    licenca: "Apache-2.0", segundosResposta: null, avaliacao: "em avaliação" },
+    licenca: "Apache-2.0", segundosResposta: 21,
+    avaliacao: "avaliado em 28/10/2026: mais rápido, pertinência menor (13/19)" },
 };
 
 export function webgpuDisponivel() {

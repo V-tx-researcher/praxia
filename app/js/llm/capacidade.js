@@ -76,7 +76,7 @@ export function avaliarModelo(idModelo, dispositivo, { jaBaixado = false } = {})
     add(false, `A placa de vídeo aceita blocos de até ${dispositivo.maxBufferMB} MB; o modelo precisa de ${m.maiorFragmentoMiB} MB.`);
   }
   if (m.maiorFragmentoMiB > 250) {
-    add(null, `Este modelo tem arquivos de até ${m.maiorFragmentoMiB} MB; alguns navegadores recusam guardar arquivos acima de cerca de 256 MB.`);
+    add(null, `Este modelo tem arquivos de até ${m.maiorFragmentoMiB} MB; alguns navegadores recusam guardar arquivos acima de cerca de 256 MB; nesse caso o app usa outro armazenamento do navegador (IndexedDB), testado no Chrome.`);
   }
 
   add(null, `Memória de vídeo estimada: ${gb(m.memoriaMB)}. O navegador não informa a memória da placa; ` +

@@ -243,6 +243,16 @@ scripts. Teste visual automatizado em Chrome e Edge (`scripts/capturas.mjs`):
 celular, tablet e computador, temas escuro e claro, sem erros de console e sem
 rolagem lateral.
 
+**D38 — 28/10/2026 — Modelo de IA local escolhido e ajustes de verificação.**
+Diretriz do responsável: seguir gratuito (IA no aparelho). Testados Qwen3 8B, Qwen3.5
+9B e Qwen2.5 7B em Chrome real com WebGPU (EVALUATION.md, 3b); escolhido Qwen3 8B
+(melhor equilíbrio entre pertinência, descarte e tempo). Instruções v2: resposta direta
+primeiro, corrigir premissa errada, sinalizar norma revogada/suspensa e não dizer mais
+do que as evidências. Verificação: citação que junta caput e alínea/inciso passa a ser
+aceita quando cada parte é literal (antes, a frase central de perguntas sobre vedações
+era descartada). A IA continua **bloqueada na versão pública** (`permitirAtivacao:
+false`) até a Atividade nº 10 (avaliação humana das respostas).
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e
