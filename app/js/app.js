@@ -935,6 +935,12 @@ const abrirPainelIA = () => {
   }
 };
 $("#painel-ia").addEventListener("toggle", abrirPainelIA);
+// ?ia=1 (botão "Baixar a IA" do site do GPECSS): abre o painel já na chave de ativação.
+// O download só começa quando a própria pessoa liga a chave (D17).
+if (new URLSearchParams(location.search).get("ia") === "1") {
+  $("#painel-ia").open = true;
+  $("#painel-ia").scrollIntoView({ block: "start" });
+}
 abrirPainelIA();
 
 // Busca por sentido: painel montado ao abrir; se a pessoa já a tinha ativado, prepara
