@@ -7,6 +7,12 @@ passar para o arquivo (regra combinada).
 
 ## Etapa 0 — Montar o caderno (fontes)
 
+**Atalho:** todas as fontes já estão numa pasta só, prontas para arrastar ao NotebookLM
+(44 PDFs, 65 MB): `C:\Users\Usuario\Desktop\GPECSS-Consulta-CFESS-CRESS\docs\revisao\Fontes_NotebookLM_Atividade_10`
+— a atividade em PDF, `1 Normas` (15) e `2 Orientacoes institucionais` (28). Para
+recriar a pasta: `python scripts/revisao/montar_fontes_notebooklm.py`. A lista abaixo
+fica como referência dos endereços oficiais.
+
 Crie um caderno novo e adicione as fontes abaixo (no plano gratuito cabem 50; aqui são 45).
 
 1. **A própria atividade.** No Word, abra
