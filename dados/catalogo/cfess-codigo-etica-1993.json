@@ -43,17 +43,17 @@
       {
         "referencia": "Resolução CFESS nº 290/1994",
         "verificado": false,
-        "descricao": "Citada no próprio Código (p. 43 do PDF) e na Res. 594/2011, Art. 5º; texto não localizado no portal."
+        "descricao": "Citada no próprio Código (p. 43 do PDF) e na Res. 594/2011, Art. 5º. Indício (LegisWeb, não oficial): DOU de 11/02/1994; Art. 1º dá ao Art. 25 a redação \"pelo prazo de 30 (trinta) dias a 2 (dois) anos\" e Art. 2º corrige a alínea a do Art. 20 (\"mesmo quando autorizado\") — redações que já constam do texto publicado. Texto oficial não localizado."
       },
       {
         "referencia": "Resolução CFESS nº 293/1994",
         "verificado": false,
-        "descricao": "Citada na Res. 594/2011, Art. 5º; texto não localizado no portal."
+        "descricao": "Citada na Res. 594/2011, Art. 5º; texto não localizado no portal. Atividade nº 9: o revisor indicou apenas menções históricas, sem o texto da resolução."
       },
       {
         "referencia": "Resolução CFESS nº 333/1996",
         "verificado": false,
-        "descricao": "Citada na Res. 594/2011, Art. 5º; texto não localizado no portal."
+        "descricao": "Citada na Res. 594/2011, Art. 5º; texto não localizado no portal. Atividade nº 9: o revisor indicou apenas menções históricas, sem o texto da resolução."
       }
     ],
     "revogado_por": [],
@@ -508,9 +508,8 @@
     }
   ],
   "pendencias_conferencia": [
-    "Art. 25, caput — o revisor indicou possível alteração pelas Res. 290/1994 e 333/1996; textos não localizados no portal.",
-    "Art. 20, alínea a — o revisor indicou possível alteração pela Res. 290/1994; texto não localizado no portal.",
-    "Res. 293/1994 — dispositivos alterados a identificar."
+    "Res. 290/1994 (Art. 25, caput; Art. 20, alínea a): texto oficial (DOU de 11/02/1994) não localizado; a LegisWeb reproduz a resolução e as redações coincidem com o Código publicado.",
+    "Res. 333/1996 (Art. 25, caput, segundo o revisor) e Res. 293/1994: texto não localizado."
   ],
   "conferencia_original": {
     "data": "2026-10-27",

@@ -22,8 +22,9 @@ script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
 
 ## Etapa seguinte (após as decisões do responsável)
 
-00. **Conferências em lote:** concluídas (lotes 1 a 6; 59 documentos publicados). Pendente
-   só a ciência do revisor sobre a ON 2/2018 (D31). Próximo grande passo: busca semântica
+00. **Conferências em lote:** concluídas (lotes 1 a 6; 59 documentos publicados). Pendências
+   da Atividade nº 9 encerradas; resta só, como indício interno, o texto oficial das
+   Res. 290/1994, 293/1994 e 333/1996 (Código de Ética). Próximo grande passo: busca semântica
    (D-P3) — a taxa da avaliação caiu para 0,842 com o acervo completo — e normas dos
    CRESS com seletor de UF (D25). Histórico do item: Atividades nº 5 a 8 (lotes 3 a 6)
    enviadas ao revisor (`scripts/revisao/preparar_lotes_restantes.py` e

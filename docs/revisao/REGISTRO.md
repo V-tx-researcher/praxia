@@ -4,6 +4,17 @@ Conferências feitas pelo revisor do projeto (assistente social), registradas se
 identificação pessoal (D19). As respostas originais ficam nos arquivos `.docx` desta
 pasta; o registro no catálogo é feito por scripts em `scripts/revisao/`.
 
+## Atividade nº 9 — Pendências (28/10/2026)
+
+**Resultado:** pendências encerradas. Registro em `scripts/revisao/registrar_atividade9.py`.
+- ON 2/2018: o revisor concordou com a revogação pela Res. 1.031/2023, Art. 14 (D31 encerrada).
+- Res. 1.147/2026: PDF oficial confirmado completo.
+- Res. 383/1999: PDF oficial e os três artigos confirmados iguais à imagem.
+- Código de Ética (opcional): o revisor indicou LegisWeb e materiais do CFESS. A LegisWeb
+  (não oficial) reproduz a Res. 290/1994 (DOU de 11/02/1994), cujas redações do Art. 25 e
+  do Art. 20, alínea a, já constam do Código publicado. Sem texto oficial, as relações com
+  as Res. 290/1994, 293/1994 e 333/1996 continuam como indício interno, não exibido (D20).
+
 ## Atividades nº 5 a 8 — Lotes 3 a 6, 39 normas (27–28/10/2026)
 
 **Resultado:** 39 normas aprovadas e publicadas; acervo público completo (59
