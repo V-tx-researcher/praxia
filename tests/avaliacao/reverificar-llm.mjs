@@ -15,6 +15,7 @@ import { detectarDadosPessoais, mascarar } from "../../app/js/nucleo/privacidade
 import { verificarAnalise } from "../../app/js/nucleo/verificacao.js";
 import { interpretarSaida } from "../../app/js/llm/prompt.js";
 import { ajustarNatureza } from "../../app/js/nucleo/interpretacao.js";
+import { paraIA } from "../../app/js/nucleo/resposta.js";
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const entrada = process.argv[2];
@@ -49,11 +50,15 @@ for (const r of rodada.resultados) {
     }
   }
   // Orientações institucionais (camada 2, D41) enviadas junto, com identificadores O1, O2…
-  const orientacoes = r.orientacoesEnviadas || [];
+  // A tela mostra até 3; a IA recebe as que cabem no orçamento (resposta.paraIA), na ordem O1, O2…
+  const orientacoes = paraIA(evidencias, [...(r.orientacoesEnviadas || [])]
+    .sort((x, y) => Number(x.id.slice(1)) - Number(y.id.slice(1))));
   const todas = [...evidencias, ...orientacoes];
   let analise = null;
   let erro = null;
   try {
+    // Sem trechos a IA não é chamada (rodadas antigas gravavam a saída da pergunta anterior).
+    if (!evidencias.length) throw new Error("sem trechos: a IA não foi chamada (modo documental)");
     analise = verificarAnalise(interpretarSaida(r.saidaBruta), todas);
     ajustarNatureza(analise.afirmacoes, new Map(todas.map((e) => [e.id, e])));
   } catch (e) {

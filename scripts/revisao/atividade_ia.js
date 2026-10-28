@@ -92,7 +92,9 @@ itens.forEach((it, i) => {
   // Só os trechos que fundamentam as frases a avaliar (ou os 3 primeiros, se não houver frase).
   const citados = new Set(it.aceitas.flatMap((x) => x.evidencias || []));
   const num = (id) => Number(String(id).slice(1)) + (String(id).startsWith("O") ? 100 : 0);
-  const mostrar = it.evidencias.filter((e) => !citados.size ? num(e.id) <= 3 : citados.has(e.id)).sort((x, y) => num(x.id) - num(y.id));
+  // Orientações (O) recebidas aparecem sempre, usadas ou não: o revisor avalia se ajudariam.
+  const mostrar = it.evidencias.filter((e) => e.camada === 2 || (!citados.size ? num(e.id) <= 3 : citados.has(e.id)))
+    .sort((x, y) => num(x.id) - num(y.id));
   corpo.push(subtitulo(citados.size ? "Trechos usados pela IA" : "Primeiros trechos encontrados"));
   corpo.push(tabela([800, 2800, 6038], ["Ref.", "Dispositivo ou documento", "Texto"],
     mostrar.map((e) => [e.id, e.rotulo, e.texto.length > 600 ? e.texto.slice(0, 600) + "…" : e.texto])));

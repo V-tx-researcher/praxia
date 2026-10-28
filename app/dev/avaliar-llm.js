@@ -28,6 +28,7 @@ window.resultadoAvaliacao = { modelo, acervo: arquivoAcervo, camada2, carregamen
   concluido: false, resultados };
 for (const q of perguntas) {
   const t = performance.now();
+  motor.ultimaSaidaBruta = null; // pergunta sem trechos não chama a IA: não herdar a saída anterior
   const r = await consultar(indice, q.pergunta, { motorLLM: motor, interpretacao });
   const analise = r.secoes.find((s) => s.id === "analise");
   const fund = r.secoes.find((s) => s.id === "fundamentacao");

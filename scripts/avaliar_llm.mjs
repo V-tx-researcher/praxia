@@ -28,7 +28,8 @@ const URL_AVAL = `http://localhost:8765/dev/avaliar-llm.html?modelo=${encodeURIC
 const LIMITE_MS = 3 * 60 * 60 * 1000;
 const espera = (ms) => new Promise((ok) => setTimeout(ok, ms));
 
-const proc = spawn(EXE, ["--headless=new", "--remote-debugging-port=9422", `--user-data-dir=${perfil}`,
+// --disk-cache-size=1: sem cache HTTP, para a página nunca rodar uma versão antiga dos módulos.
+const proc = spawn(EXE, ["--headless=new", "--disk-cache-size=1", "--remote-debugging-port=9422", `--user-data-dir=${perfil}`,
   "--no-first-run", "--no-default-browser-check", "--disable-extensions", URL_AVAL], { stdio: "ignore" });
 
 let ws;

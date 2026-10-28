@@ -21,6 +21,22 @@ export const LIMITES =
   "substitui pareceres, orientação, fiscalização ou deliberação dos órgãos competentes. " +
   "Leia integralmente as fontes indicadas.";
 
+// A janela do modelo local (~4.000 tokens) precisa caber instruções, evidências e a
+// resposta: as orientações vão para a IA só até este total de caracteres de trechos
+// (na rodada de 28/10/2026, no máximo ~6.800 caracteres e 3.500 tokens de entrada).
+export const ORCAMENTO_CARACTERES_IA = 9000;
+const MAX_ORIENTACOES_IA = 3;
+export function paraIA(evidencias, orientacoes) {
+  let total = evidencias.reduce((s, e) => s + e.texto.length + e.contexto.reduce((c, x) => c + x.texto.length, 0), 0);
+  const escolhidas = [];
+  for (const o of orientacoes) {
+    if (escolhidas.length >= MAX_ORIENTACOES_IA || total + o.texto.length > ORCAMENTO_CARACTERES_IA) break;
+    escolhidas.push(o);
+    total += o.texto.length;
+  }
+  return escolhidas;
+}
+
 // `semantica` (opcional): { indice: IndiceSemantico, motor: { vetor(pergunta) } }.
 // `interpretacao` (opcional): IndiceLexical da camada 2 (orientações institucionais, D41).
 export async function consultar(indice, perguntaOriginal, { motorLLM = null, semantica = null, interpretacao = null,
@@ -67,7 +83,7 @@ export async function consultar(indice, perguntaOriginal, { motorLLM = null, sem
   if (motorLLM && evidencias.length) {
     marcar("análise", "gerando análise com o modelo local");
     try {
-      const todas = [...evidencias, ...orientacoes];
+      const todas = [...evidencias, ...paraIA(evidencias, orientacoes)];
       const bruta = await motorLLM.analisar({ pergunta, classificacao, evidencias: todas });
       analise = verificarAnalise(bruta, todas);
       ajustarNatureza(analise.afirmacoes, new Map(todas.map((e) => [e.id, e])));
