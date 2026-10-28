@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PraxIA — GPECSS</title>
+<style>
+  :root {
+    --fundo: #0d1117; --superficie: #151b24; --borda: #283243; --texto: #e8ecf2;
+    --suave: #a7b1c0; --primaria: #9dc0ff; --acento: #d9b871; --acento-suave: rgba(217, 184, 113, 0.14);
+    --ok: #73d1a0; --raio: 16px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--fundo); color: var(--texto);
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; }
+  .pagina { max-width: 1040px; margin: 0 auto; padding: 48px 20px 56px; }
+  .selo { display: inline-block; font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--acento); border: 1px solid var(--acento); border-radius: 999px; padding: 4px 12px; }
+  h1 { font-size: clamp(44px, 8vw, 76px); line-height: 1; margin: 18px 0 10px; letter-spacing: -.02em; }
+  h1 span { color: var(--acento); }
+  .lema { font-size: clamp(18px, 2.6vw, 23px); color: var(--suave); max-width: 720px; margin: 0 0 28px; }
+  .lema strong { color: var(--texto); font-weight: 600; }
+  /* Espaço reservado para o botão do Wix (posicione o botão sobre este retângulo). */
+  .espaco-botao { width: 300px; max-width: 100%; height: 60px; border: 2px dashed var(--acento);
+    border-radius: 12px; display: flex; align-items: center; justify-content: center;
+    color: var(--acento); font-size: 13px; background: var(--acento-suave); margin: 0 0 12px; }
+  .nota { color: var(--suave); font-size: 14px; margin: 0; }
+  h2 { font-size: 26px; margin: 56px 0 18px; }
+  .grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .cartao { background: var(--superficie); border: 1px solid var(--borda); border-radius: var(--raio); padding: 22px; }
+  .cartao h3 { margin: 0 0 8px; font-size: 18px; }
+  .cartao p { margin: 0; color: var(--suave); font-size: 15px; }
+  .numero { display: inline-flex; width: 34px; height: 34px; border-radius: 50%; align-items: center; justify-content: center;
+    background: var(--acento-suave); color: var(--acento); font-weight: 700; margin-bottom: 12px; }
+  .camada { border-left: 4px solid var(--primaria); }
+  .camada.c2 { border-left-color: var(--acento); }
+  .camada.c3 { border-left-color: var(--ok); }
+  .rotulo { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--suave); }
+  .destaque { background: linear-gradient(135deg, #151b24, #1a2638); border: 1px solid var(--borda);
+    border-radius: var(--raio); padding: 28px; margin-top: 56px; }
+  .destaque h2 { margin-top: 0; }
+  ul.lista { margin: 0; padding-left: 20px; color: var(--suave); }
+  ul.lista li { margin: 6px 0; }
+  ul.lista strong { color: var(--texto); }
+  .numeros { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 28px; }
+  .numeros div { min-width: 130px; }
+  .numeros b { display: block; font-size: 34px; color: var(--acento); line-height: 1.1; }
+  .numeros span { color: var(--suave); font-size: 14px; }
+  .aviso { margin-top: 48px; padding: 18px 20px; border-radius: 12px; border: 1px solid var(--borda);
+    color: var(--suave); font-size: 14px; }
+  footer { margin-top: 32px; color: var(--suave); font-size: 14px; border-top: 1px solid var(--borda); padding-top: 20px; }
+  footer strong { color: var(--texto); }
+  @media (max-width: 560px) { .pagina { padding-top: 32px; } h2 { margin-top: 44px; } }
+</style>
+</head>
+<body>
+<main class="pagina">
+
+  <span class="selo">GPECSS · Serviço Social</span>
+  <h1>Prax<span>IA</span></h1>
+  <p class="lema">Consulta ético-normativa do Serviço Social, com <strong>citação literal</strong> das normas do
+    Conjunto CFESS-CRESS e <strong>link para o documento oficial</strong>. Gratuita, aberta e feita para o
+    cotidiano de profissionais, docentes e estudantes.</p>
+
+  <div class="espaco-botao">ESPAÇO DO BOTÃO DO WIX (300 × 60)</div>
+  <p class="nota">Funciona no navegador do computador e do celular. No computador, pode ser instalada como aplicativo.</p>
+
+  <div class="numeros" aria-label="A PraxIA em números">
+    <div><b>59</b><span>normas do CFESS conferidas</span></div>
+    <div><b>38</b><span>orientações oficiais (CFESS, CRESS, ABEPSS)</span></div>
+    <div><b>100%</b><span>dos trechos conferidos com o PDF oficial</span></div>
+    <div><b>0</b><span>perguntas enviadas a servidores</span></div>
+  </div>
+
+  <h2>Como funciona</h2>
+  <div class="grade">
+    <div class="cartao"><div class="numero">1</div><h3>Pergunte com suas palavras</h3>
+      <p>"Posso entregar o estudo social ao juiz?", "Quem pode supervisionar estágio?". A PraxIA entende a dúvida do dia a dia.</p></div>
+    <div class="cartao"><div class="numero">2</div><h3>Leia a norma, não um resumo</h3>
+      <p>Os dispositivos aparecem com o texto literal, a situação de vigência e o link para a página exata do PDF oficial.</p></div>
+    <div class="cartao"><div class="numero">3</div><h3>Cite com segurança</h3>
+      <p>Cada trecho traz a referência em ABNT pronta para copiar, para relatórios, pareceres, aulas e trabalhos.</p></div>
+  </div>
+
+  <h2>Três camadas, cada uma no seu lugar</h2>
+  <div class="grade">
+    <div class="cartao camada"><span class="rotulo">Camada 1</span><h3>Normas</h3>
+      <p>Código de Ética, Lei 8.662/1993 e resoluções do CFESS. É o que fundamenta "o que a norma estabelece".</p></div>
+    <div class="cartao camada c2"><span class="rotulo">Camada 2</span><h3>Orientações institucionais</h3>
+      <p>Cartilhas, notas técnicas, pareceres e parâmetros do CFESS, dos CRESS e da ABEPSS: como as entidades aplicam as normas. Sempre identificadas como orientação, nunca como norma.</p></div>
+    <div class="cartao camada c3"><span class="rotulo">Camada 3 · opcional</span><h3>Análise por IA no seu computador</h3>
+      <p>Uma IA local redige a análise a partir só dos trechos encontrados. Toda frase é conferida: citação que não existe na norma é descartada.</p></div>
+  </div>
+
+  <div class="destaque">
+    <h2>Compromissos da PraxIA</h2>
+    <ul class="lista">
+      <li><strong>Fonte sempre à vista:</strong> nada é afirmado sem o trecho oficial correspondente.</li>
+      <li><strong>Vigência cuidada:</strong> normas revogadas ou suspensas aparecem sinalizadas.</li>
+      <li><strong>Privacidade:</strong> a IA roda no próprio computador; dados pessoais digitados na pergunta são mascarados.</li>
+      <li><strong>Conferência humana:</strong> cada documento do acervo foi conferido por assistente social antes de entrar.</li>
+      <li><strong>Sem julgamento de casos:</strong> a PraxIA não aponta infração nem culpa; a apuração cabe aos Conselhos.</li>
+    </ul>
+  </div>
+
+  <h2>Para estudar com o NotebookLM</h2>
+  <div class="cartao">
+    <p>A base completa da PraxIA (texto integral das normas e das orientações, com vigência e links oficiais) também
+      está disponível para download, em formato leve, para usar como fonte no NotebookLM ou em outros leitores de documentos.</p>
+  </div>
+
+  <p class="aviso">A PraxIA é uma ferramenta independente de pesquisa e apoio informativo do GPECSS. Não é canal oficial do
+    CFESS ou dos CRESS, não fala em nome desses órgãos e não substitui orientação, fiscalização, pareceres ou deliberações
+    dos órgãos competentes. Leia sempre a fonte oficial indicada.</p>
+
+  <footer>
+    <strong>GPECSS</strong> · Idealização: Vinícius Araújo Pereira, assistente social · Código aberto e gratuito.
+  </footer>
+</main>
+</body>
+</html>
