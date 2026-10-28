@@ -18,7 +18,9 @@ import { interpretarSaida } from "../../app/js/llm/prompt.js";
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const entrada = process.argv[2];
 const rodada = JSON.parse(fs.readFileSync(entrada, "utf8"));
-const acervo = JSON.parse(fs.readFileSync(path.join(RAIZ, "app/dados/acervo-previa.json"), "utf8"));
+// Rodadas a partir de 28/10/2026 usam o acervo público (campo `acervo` da rodada).
+const arquivoAcervo = /publico/.test(rodada.acervo || "") ? "app/dados/acervo-publico.json" : "app/dados/acervo-previa.json";
+const acervo = JSON.parse(fs.readFileSync(path.join(RAIZ, arquivoAcervo), "utf8"));
 // As evidências precisam ser exatamente as que o modelo recebeu na rodada. Rodadas
 // novas gravam as evidências (campo `evidenciasEnviadas`); para a rodada de 26/10/2026,
 // anterior ao rebaixamento de documentos com indicação de revogação, a seleção é

@@ -61,13 +61,26 @@ function textoDaEvidencia(e) {
   return [e.texto, ...e.contexto.map((c) => c.texto)].join(" ");
 }
 
+// Também vale citar o caput seguido da alínea/inciso, como se lê na norma
+// ("É vedado ao/à assistente social depor como testemunha…"): o caput sem os dois
+// pontos e o dispositivo sem a marca ("a-", "IV -"). Cada parte continua literal.
+const RE_MARCA = /^\s*(?:[a-z]\s*[-–)]|[IVXLC]+\s*[-–.)]|§\s*\d+\s*[º°o]?\s*[-–.]?|Par[áa]grafo\s+\S+\s*[-–.:]?)\s*/;
+function textosDaEvidencia(e) {
+  const textos = [textoDaEvidencia(e)];
+  if (e.contexto?.length) {
+    const caput = e.contexto.map((c) => c.texto.replace(/[:\s]+$/, "")).join(" ");
+    textos.push(`${caput} ${e.texto.replace(RE_MARCA, "")}`);
+  }
+  return textos;
+}
+
 export function verificarAfirmacao(afirmacao, porId) {
   const motivos = [];
   const ids = [...new Set((afirmacao.evidencias || []).map((x) => String(x).trim().toUpperCase()))];
   const evidencias = ids.map((id) => porId.get(id)).filter(Boolean);
   if (!ids.length) motivos.push("sem evidência indicada");
   if (ids.length && evidencias.length !== ids.length) motivos.push("cita evidência inexistente");
-  const textos = evidencias.map(textoDaEvidencia);
+  const textos = evidencias.flatMap(textosDaEvidencia);
   for (const c of extrairCitacoes(afirmacao.texto)) {
     if (!textos.some((t) => citacaoPresente(c, t))) motivos.push(`trecho citado não encontrado literalmente: \u00ab${c.slice(0, 80)}\u00bb`);
   }

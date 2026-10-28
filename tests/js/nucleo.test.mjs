@@ -232,3 +232,14 @@ test("consulta com LLM simulada: só afirmações verificadas chegam à resposta
   assert.equal(analise.afirmacoes.length, 1);
   assert.match(analise.notaVerificacao, /1 afirmação/);
 });
+
+test("verificação aceita caput + alínea citados juntos, cada parte literal", () => {
+  const ev = { id: "E1", texto: "c- acatar determinação institucional que fira os princípios e diretrizes deste Código;",
+    contexto: [{ id: "x", rotulo: "Art. 4º", texto: "Art. 4º É vedado ao/à assistente social:" }] };
+  const ok = verificarAnalise({ sintese_questao: "s", afirmacoes: [{ natureza: "norma_expressa", evidencias: ["E1"],
+    texto: "«É vedado ao/à assistente social acatar determinação institucional que fira os princípios e diretrizes deste Código»" }] }, [ev]);
+  assert.equal(ok.afirmacoes.length, 1);
+  const alterada = verificarAnalise({ sintese_questao: "s", afirmacoes: [{ natureza: "norma_expressa", evidencias: ["E1"],
+    texto: "«É vedado ao/à assistente social acatar ordem institucional que fira os princípios»" }] }, [ev]);
+  assert.equal(alterada.afirmacoes.length, 0);
+});

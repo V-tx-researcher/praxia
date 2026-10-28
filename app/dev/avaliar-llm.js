@@ -7,7 +7,9 @@ const log = (t) => { document.getElementById("log").textContent += t + "\n"; };
 const p = new URLSearchParams(location.search);
 const modelo = p.get("modelo");
 const ids = (p.get("ids") || "").split(",").filter(Boolean);
-const acervo = await (await fetch("../dados/acervo-previa.json")).json();
+// acervo=publico (padrão desde 28/10/2026, acervo nacional conferido) ou previa.
+const arquivoAcervo = p.get("acervo") === "previa" ? "../dados/acervo-previa.json" : "../dados/acervo-publico.json";
+const acervo = await (await fetch(arquivoAcervo)).json();
 const perguntas = (await (await fetch("perguntas.json")).json()).perguntas.filter((q) => !ids.length || ids.includes(q.id));
 const indice = new IndiceLexical(acervo);
 const motor = new MotorWebLLM(modelo, { aoProgresso: (t) => { window.progressoModelo = t; },
@@ -16,7 +18,9 @@ const t0 = performance.now();
 await motor.carregar();
 log(`modelo ${modelo} carregado em ${((performance.now() - t0) / 1000).toFixed(1)} s`);
 const resultados = [];
-window.resultadoAvaliacao = { modelo, concluido: false, resultados };
+window.resultadoAvaliacao = { modelo, acervo: arquivoAcervo, carregamentoSegundos: +((performance.now() - t0) / 1000).toFixed(1),
+  adaptador: await navigator.gpu?.requestAdapter().then((a) => a?.info && { vendor: a.info.vendor, arquitetura: a.info.architecture }).catch(() => null),
+  concluido: false, resultados };
 for (const q of perguntas) {
   const t = performance.now();
   const r = await consultar(indice, q.pergunta, { motorLLM: motor });

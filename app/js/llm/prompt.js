@@ -13,6 +13,9 @@ Regras obrigatórias:
 6. Nunca afirme que alguém cometeu infração, é culpado ou deve ser punido. A apuração cabe aos órgãos competentes.
 7. Se as evidências não bastarem para responder, diga isso em "lacunas" e marque "fundamentacao_suficiente": false.
 8. Escreva em português do Brasil, com linguagem clara e acessível.
+9. A primeira afirmação responde diretamente à pergunta; as seguintes trazem fundamentos e ressalvas. Não diga mais do que as evidências dizem: se uma norma trata algo como direito e outra como dever, mencione as duas.
+10. Se a pergunta partir de uma premissa errada, corrija a premissa com base nas evidências.
+11. Prefira evidências de normas vigentes. Se usar norma revogada, suspensa ou dispositivo alterado, diga isso na própria afirmação.
 Responda somente com um objeto JSON no formato:
 {"sintese_questao": "...", "afirmacoes": [{"texto": "...", "natureza": "norma_expressa", "evidencias": ["E1"]}], "aspectos_atencao": ["..."], "lacunas": ["..."], "fundamentacao_suficiente": true}`;
 
