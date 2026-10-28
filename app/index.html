@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; connect-src 'self' https://cdn.jsdelivr.net https://huggingface.co https://*.huggingface.co https://*.hf.co https://raw.githubusercontent.com; img-src 'self' data:; style-src 'self'; worker-src 'self' blob:; base-uri 'self'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' blob: https://cdn.jsdelivr.net 'wasm-unsafe-eval'; connect-src 'self' https://cdn.jsdelivr.net https://huggingface.co https://*.huggingface.co https://*.hf.co https://raw.githubusercontent.com; img-src 'self' data:; style-src 'self'; worker-src 'self' blob:; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="description" content="Consulta ético-normativa do Serviço Social com citações verificáveis de documentos oficiais do Conjunto CFESS-CRESS. Projeto independente do GPECSS.">
   <meta name="theme-color" content="#0a0e14">
@@ -83,12 +83,18 @@
         <div class="linha-acoes">
           <button type="submit" id="consultar" class="botao-primario">Consultar</button>
           <span id="estado-ia" class="estado-ia" aria-live="polite"></span>
+          <span id="estado-sentido" class="estado-ia" aria-live="polite"></span>
         </div>
       </form>
 
       <details id="exemplos" class="cartao exemplos" open>
         <summary class="titulo-pequeno">Não sabe por onde começar? Experimente uma pergunta</summary>
         <div id="lista-exemplos"></div>
+      </details>
+
+      <details id="painel-sentido" class="cartao painel-ia">
+        <summary>Busca por sentido (opcional)</summary>
+        <div id="conteudo-sentido"></div>
       </details>
 
       <details id="painel-ia" class="cartao painel-ia">

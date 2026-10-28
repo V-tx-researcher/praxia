@@ -93,6 +93,20 @@ export class IndiceLexical {
     return { s, casados };
   }
 
+  // Peso de um trecho independente da pergunta: tipo, situação de vigência e norma citada.
+  // Usado pela busca por termos e pela busca por sentido (semantica.js).
+  fator(u, citadas, passado) {
+    const doc = this.documentos.get(u.doc);
+    const citada = citadas.docs.has(u.doc) || citadas.partes.has(u.parte);
+    // Quem cita a norma ou pergunta sobre fatos passados quer ler a norma mesmo revogada.
+    const semPenalidade = citada || passado;
+    return (PESO_TIPO[u.tipo] ?? 0.8) * (u.id.endsWith(":fecho") ? PESO_FECHO : 1) *
+      (semPenalidade ? 1 : (PESO_SITUACAO[doc?.situacao] ?? 0.9)) *
+      (u.situacao_dispositivo === "revogado" && !semPenalidade ? PESO_SITUACAO.revogada : 1) *
+      (doc?.indicacoes_portal?.length && !citada ? PESO_INDICACAO_PORTAL : 1) *
+      (citada ? PESO_CITADA : 1);
+  }
+
   // Retorna unidades ordenadas por relevância, com os termos que casaram.
   // `dataFatos` (AAAA-MM-DD) indica fatos passados: normas hoje revogadas não perdem peso.
   buscar(consulta, { limite = 30, filtroDoc = null, dataFatos = null } = {}) {
@@ -130,21 +144,13 @@ export class IndiceLexical {
         else if (relacionados(t).some((r) => conjunto.has(r))) { cobertos += 0.6; informativosCasados++; }
       }
       const cobertura = cobertos / informativos.size;
-      const doc = this.documentos.get(u.doc);
-      const citada = citadas.docs.has(u.doc) || citadas.partes.has(u.parte);
-      // Quem cita a norma ou pergunta sobre fatos passados quer ler a norma mesmo revogada.
-      const semPenalidade = citada || passado;
-      const fator = (PESO_TIPO[u.tipo] ?? 0.8) * (u.id.endsWith(":fecho") ? PESO_FECHO : 1) *
-        (semPenalidade ? 1 : (PESO_SITUACAO[doc?.situacao] ?? 0.9)) *
-        (u.situacao_dispositivo === "revogado" && !semPenalidade ? PESO_SITUACAO.revogada : 1) *
-        (doc?.indicacoes_portal?.length && !citada ? PESO_INDICACAO_PORTAL : 1) *
-        (citada ? PESO_CITADA : 1);
+      const fator = this.fator(u, citadas, passado);
       const palavras = casados.filter((t) => informativos.has(t) && superficie.has(t)).map((t) => superficie.get(t));
       resultados.push({ unidade: u, pontuacao: s * fator * (0.6 + 0.4 * cobertura), casados: palavras,
         porSinonimo: casados.some((t) => termos.get(t) < 1), cobertura, informativosCasados });
     }
     resultados.sort((a, b) => b.pontuacao - a.pontuacao);
-    return { termos: originais, informativos: [...informativos], citadas,
+    return { termos: originais, informativos: [...informativos], citadas, passado,
       expandidos: [...termos.keys()].filter((t) => termos.get(t) < 1), resultados: resultados.slice(0, limite) };
   }
 

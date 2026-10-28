@@ -215,10 +215,35 @@ mascarada e a data). Correções: conflito da classe `.marca` que espremia o top
 página; lista de arquivos para uso sem internet incompleta (faltava o radicalizador),
 agora protegida por teste.
 
-## Pendentes (dependem do responsável)
+**D36 — 28/10/2026 — Busca por sentido opcional (antiga D-P3), por delegação do responsável.**
+Modelo `Xenova/multilingual-e5-small` (MIT, q8, ~120 MB), executado no navegador com
+Transformers.js 4.3.0 (jsDelivr, publicado em 16/09/2026). Vetores dos 1.809 trechos
+pré-calculados em Node (`scripts/semantica/gerar_vetores.mjs`, int8, ~1 MB) e
+vinculados à versão do acervo (vetores desatualizados são ignorados). Combinação por
+fusão de posições (RRF) com peso 0,4 para o sentido: na avaliação, 0,907 → 0,915
+(peso 1 piorou para 0,890), e ajudou perguntas em linguagem do dia a dia (ex.: "terapia
+de casal" passa a trazer a Res. 569/2010 primeiro). A suficiência continua sendo decidida
+só pela busca por termos: o sentido reordena e acrescenta, mas não cria resposta onde não
+há termos da pergunta. **Desligada por padrão**; a pessoa ativa no painel "Busca por
+sentido", com aviso do download; pode remover o modelo. Falha no carregamento não
+interrompe a consulta (segue só por termos — testado).
 
-**D-P3 — Busca semântica:** modelo de embeddings (ex.: multilingual-e5-small,
-~120 MB no navegador) × manter apenas busca lexical em celulares.
+**D37 — 28/10/2026 — Tema escuro, app instalável e robustez multiplataforma (pedido do responsável).**
+Tema escuro elegante como padrão (grafite azulado e dourado), claro opcional e sem
+"piscar" (`js/tema.js`); impressão sempre clara. PWA completo: ícones PNG (192, 512,
+maskable, apple-touch), manifesto com atalhos, service worker em rede-primeiro com
+limite de 4 s e reserva local (uma estratégia só, para não misturar versões de página e
+código), aviso "Atualizar agora". Robustez: três tentativas ao carregar o acervo, aviso
+sem conexão, cópia com alternativa fora de https, envio compatível com Safari antigo,
+alvos de toque de 44 px, campos com 16 px (sem zoom no iOS), áreas seguras. Removido
+um lookbehind de expressão regular que impedia o app de abrir em iOS < 16.4 (teste
+impede o retorno). CSP: `script-src` passa a aceitar `blob:` — o motor ONNX da busca
+por sentido cria o seu módulo de cálculo assim; só a própria página cria esses
+scripts. Teste visual automatizado em Chrome e Edge (`scripts/capturas.mjs`):
+celular, tablet e computador, temas escuro e claro, sem erros de console e sem
+rolagem lateral.
+
+## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e
 integração com o site Wix (link simples × incorporação por iframe).

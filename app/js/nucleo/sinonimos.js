@@ -33,6 +33,9 @@ export const GRUPOS = [
   ["meta", "metas", "produtividade", "quantidade", "qualidade"],
   ["assinar", "assina", "assinatura", "subscrever", "firmar"],
   ["primeira instância", "instância", "julgar", "julgamento", "competência"],
+  ["desagravo", "ofensa", "ofendido", "ofendida", "ofender", "xingar", "xingou", "humilhar", "humilhação",
+    "constrangimento", "desrespeito", "defender", "defesa"],
+  ["salvaguarda", "lacração", "desligamento", "exoneração", "afastamento", "demissão", "deixar o cargo"],
 ];
 
 import { tokens } from "./texto.js";

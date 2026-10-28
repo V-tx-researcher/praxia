@@ -11,6 +11,7 @@ import { conferirEvidencias, selecionarEvidencias } from "./evidencias.js";
 import { orientacaoPara } from "./orientacao.js";
 import { verificarAnalise } from "./verificacao.js";
 import { ASSUNTOS_ROTULOS } from "./rotulos.js";
+import { fundir } from "./semantica.js";
 
 export const LIMITES =
   "Esta é uma análise informativa, produzida por uma ferramenta independente de pesquisa, " +
@@ -19,7 +20,8 @@ export const LIMITES =
   "substitui pareceres, orientação, fiscalização ou deliberação dos órgãos competentes. " +
   "Leia integralmente as fontes indicadas.";
 
-export async function consultar(indice, perguntaOriginal, { motorLLM = null, aoProgresso = () => {} } = {}) {
+// `semantica` (opcional): { indice: IndiceSemantico, motor: { vetor(pergunta) } }.
+export async function consultar(indice, perguntaOriginal, { motorLLM = null, semantica = null, aoProgresso = () => {} } = {}) {
   const etapas = [];
   const marcar = (nome, detalhe) => { etapas.push({ nome, detalhe }); aoProgresso(nome, detalhe); };
 
@@ -30,9 +32,20 @@ export async function consultar(indice, perguntaOriginal, { motorLLM = null, aoP
   const classificacao = classificar(pergunta);
   marcar("interpretação", `${classificacao.situacaoRotulo}; temas: ${classificacao.temas.map((t) => ASSUNTOS_ROTULOS[t] || t).join(", ") || "não identificados"}`);
 
-  const busca = indice.buscar(pergunta, { limite: 40, dataFatos: classificacao.dataFatos });
+  let busca = indice.buscar(pergunta, { limite: 40, dataFatos: classificacao.dataFatos });
   marcar("busca nos documentos", `${busca.resultados.length} dispositivos candidatos` +
     (busca.citadas?.alguma ? " (com prioridade para a norma citada na pergunta)" : ""));
+  if (semantica) {
+    try {
+      const vetor = await semantica.motor.vetor(pergunta, semantica.indice.prefixo);
+      busca = fundir(indice, busca, semantica.indice, vetor);
+      const novos = busca.resultados.filter((r) => r.porSentido).length;
+      marcar("busca por sentido", "ordem combinada com a busca por termos" +
+        (novos ? `; ${novos} trecho(s) acrescentado(s) por proximidade de sentido` : ""));
+    } catch (erro) {
+      marcar("busca por sentido", `indisponível (${erro.message}); seguiu só a busca por termos`);
+    }
+  }
 
   let evidencias = selecionarEvidencias(indice, busca, { dataFatos: classificacao.dataFatos });
   evidencias = conferirEvidencias(indice, evidencias);

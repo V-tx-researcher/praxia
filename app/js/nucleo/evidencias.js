@@ -77,6 +77,7 @@ export function montarEvidencia(indice, resultado, n, dataFatos) {
     link: linkPdf(doc, u),
     termosCasados: resultado.casados,
     porSinonimo: !!resultado.porSinonimo,
+    porSentido: !!resultado.porSentido,
     pontuacao: resultado.pontuacao,
     vigencia: vig,
   };

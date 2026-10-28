@@ -25,7 +25,7 @@ script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
 00. **Conferências em lote:** concluídas (lotes 1 a 6; 59 documentos publicados). Pendências
    da Atividade nº 9 encerradas; resta só, como indício interno, o texto oficial das
    Res. 290/1994, 293/1994 e 333/1996 (Código de Ética). Próximo grande passo: busca semântica
-   (D-P3) — a taxa da avaliação caiu para 0,842 com o acervo completo — e normas dos
+   (D36, feita) e normas dos
    CRESS com seletor de UF (D25). Histórico do item: Atividades nº 5 a 8 (lotes 3 a 6)
    enviadas ao revisor (`scripts/revisao/preparar_lotes_restantes.py` e
    `atividade_lote.js`, com NODE_PATH apontando para um `node_modules` com `docx`).
@@ -50,10 +50,11 @@ script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
    registradas em `alterado_por`/`revogado_por` (ex.: alínea c do Art. 22 do Código).
 3. **Orientação institucional fundamentada:** substituir o texto genérico sobre
    COFI/SubCOFI por dispositivos da Política Nacional de Fiscalização conferida.
-4. **Busca semântica (D-P3):** embeddings com Transformers.js
-   (`Xenova/multilingual-e5-small` ou equivalente), pré-calculados em Node com a mesma
-   biblioteca; combinação com BM25 por fusão de postos (RRF); reavaliar com
-   `tests/avaliacao/avaliar.mjs`.
+4. **Busca por sentido (feita, D36):** depois de cada `indexar --modo publico`, regenerar
+   os vetores — `TRANSFORMERS_DIR=<pasta do pacote> node scripts/semantica/gerar_vetores.mjs publico`
+   (o app ignora vetores de outra versão; o teste `usabilidade.test.mjs` avisa). Avaliar
+   com `node tests/avaliacao/avaliar.mjs publico --semantica`. Ampliar o conjunto de
+   avaliação com perguntas em linguagem do dia a dia (onde o ganho apareceu).
 5. **Pertinência das afirmações:** avaliar verificação por modelo de inferência
    textual (NLI) leve no navegador, ou exigir que cada afirmação cite o dispositivo
    cujo texto contenha os termos centrais da pergunta.

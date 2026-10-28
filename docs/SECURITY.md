@@ -22,11 +22,18 @@ endereço IP e o pedido dos arquivos, **não** o conteúdo da pergunta.
 
 ## Política de Segurança de Conteúdo (CSP)
 
-`default-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'wasm-unsafe-eval';
+`default-src 'self'; script-src 'self' blob: https://cdn.jsdelivr.net 'wasm-unsafe-eval';
 connect-src 'self' https://cdn.jsdelivr.net https://huggingface.co https://*.huggingface.co https://*.hf.co https://raw.githubusercontent.com;
 style-src 'self'; form-action 'none'; base-uri 'self'` — scripts embutidos são
 bloqueados (confirmado em teste: a página de avaliação com script inline foi
 bloqueada pela própria CSP).
+
+`blob:` em `script-src` (D37): o ONNX Runtime, usado pela busca por sentido opcional,
+cria seu módulo de cálculo como blob. Um blob só pode ser criado por código já em
+execução na página (do próprio site ou das bibliotecas fixadas por versão no
+jsDelivr); scripts embutidos no HTML continuam bloqueados. A busca por sentido baixa
+o modelo do Hugging Face (`connect-src`), que recebe IP e pedido do arquivo, não a
+pergunta.
 
 ## Injeção de instruções (prompt injection)
 

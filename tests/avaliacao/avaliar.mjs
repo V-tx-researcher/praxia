@@ -1,6 +1,8 @@
 // Avaliação do pipeline (modo documental, sem LLM) sobre o conjunto de perguntas.
 //
-// Uso: node tests/avaliacao/avaliar.mjs [previa|publico] [--saida docs/avaliacao/arquivo.json]
+// Uso: node tests/avaliacao/avaliar.mjs [previa|publico] [--saida docs/avaliacao/arquivo.json] [--semantica]
+// Com --semantica, combina a busca por sentido (requer TRANSFORMERS_DIR e
+// app/dados/semantica-<modo>.json; ver scripts/semantica/gerar_vetores.mjs).
 //
 // Mede somente o que é automaticamente verificável: recuperação das referências
 // esperadas, classificação da situação, mascaramento de dados pessoais, ausência
@@ -14,6 +16,7 @@ import { fileURLToPath } from "node:url";
 import { IndiceLexical } from "../../app/js/nucleo/busca.js";
 import { consultar } from "../../app/js/nucleo/resposta.js";
 import { detectarDadosPessoais } from "../../app/js/nucleo/privacidade.js";
+import { IndiceSemantico } from "../../app/js/nucleo/semantica.js";
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const modo = process.argv[2] === "publico" ? "publico" : "previa";
@@ -23,6 +26,17 @@ const saida = iSaida > 0 ? process.argv[iSaida + 1] : null;
 const acervo = JSON.parse(fs.readFileSync(path.join(RAIZ, `app/dados/acervo-${modo}.json`), "utf8"));
 const conjunto = JSON.parse(fs.readFileSync(path.join(RAIZ, "tests/avaliacao/perguntas.json"), "utf8"));
 const indice = new IndiceLexical(acervo);
+
+let semantica = null;
+if (process.argv.includes("--semantica")) {
+  const { carregarExtrator } = await import("../../scripts/semantica/gerar_vetores.mjs");
+  const extrator = await carregarExtrator();
+  const dados = JSON.parse(fs.readFileSync(path.join(RAIZ, `app/dados/semantica-${modo}.json`), "utf8"));
+  semantica = {
+    indice: new IndiceSemantico(dados),
+    motor: { vetor: async (p, prefixo) => Float32Array.from((await extrator(prefixo + p, { pooling: "mean", normalize: true })).data) },
+  };
+}
 
 const PARTES = {
   CEP: "Código de Ética do/a Assistente Social",
@@ -54,7 +68,7 @@ function casa(ref, ev) {
 
 const resultados = [];
 for (const q of conjunto.perguntas) {
-  const r = await consultar(indice, q.pergunta);
+  const r = await consultar(indice, q.pergunta, { semantica });
   const fund = r.secoes.find((s) => s.id === "fundamentacao");
   const evidencias = fund ? fund.evidencias : [];
   const disponiveis = q.referencias.filter(referenciaDisponivel);
@@ -86,6 +100,7 @@ const comRecuperacao = resultados.filter((r) => r.referencias_no_acervo > 0);
 const mrr = comRecuperacao.reduce((s, r) => s + (r.primeira_posicao ? 1 / r.primeira_posicao : 0), 0) / Math.max(1, comRecuperacao.length);
 const resumo = {
   executado_em: new Date().toISOString(),
+  busca: semantica ? "termos + sentido" : "termos",
   acervo: { modo, gerado_em: acervo.gerado_em, documentos: acervo.documentos.length, unidades: acervo.unidades.length },
   perguntas: resultados.length,
   avaliaveis: avaliaveis.length,

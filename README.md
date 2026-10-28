@@ -17,10 +17,11 @@ verificáveis** de documentos oficiais do Conjunto CFESS-CRESS.
 | Coleta automática no portal do CFESS | funcionando (descoberta de ~470 páginas; download e verificação por SHA-256) |
 | Extração por página, segmentação em dispositivos, autoverificação literal | funcionando, testado com o Código de Ética (10ª ed.) |
 | Fila de conferência humana (aprovar / rejeitar / publicar) | funcionando via linha de comando |
-| Busca lexical (BM25 + Snowball-pt + tesauro do domínio) | funcionando; recall@8 de 0,907 no conjunto de avaliação (gabarito não revisado) |
-| Busca semântica | **pendente** |
+| Busca por termos (BM25 + Snowball-pt + tesauro do domínio + prioridade para normas citadas) | funcionando; 91,7% das 122 perguntas de avaliação atendidas, recall@8 0,843 (gabarito não revisado) |
+| Busca por sentido (semântica) | opcional, ativada pela própria pessoa (modelo de ~120 MB no navegador); combinada à busca por termos (D36) |
+| Interface | tema escuro (claro opcional), instalável como aplicativo (celular e computador), funciona sem internet, testada em Chrome e Edge (D37) |
 | Análise por LLM local (WebLLM) | integrada; **opcional, ativada pela própria pessoa** após diagnóstico do aparelho; bloqueada na versão pública até a revisão profissional (D17) |
-| Acervo público | **vazio**: nenhum documento foi conferido por pessoa responsável ainda |
+| Acervo público | 59 normas nacionais do CFESS conferidas por pessoa responsável (inclusive revogadas e suspensas, com aviso) |
 
 Detalhes em [docs/PROGRESS.md](docs/PROGRESS.md) e próximos passos em [docs/NEXT_STEPS.md](docs/NEXT_STEPS.md).
 

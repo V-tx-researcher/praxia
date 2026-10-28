@@ -82,6 +82,42 @@ async function capturar(cdp, arquivo) {
   fs.writeFileSync(arquivo, Buffer.from(data, "base64"));
 }
 
+// --sentido: só testa a ativação da busca por sentido (baixa o modelo) no Chrome.
+if (process.argv.includes("--sentido")) {
+  const [, exe] = NAVEGADORES[0];
+  const nav = await abrirNavegador(exe, 9399);
+  const cdp = await conectar(nav.ws);
+  await cdp.enviar("Runtime.enable");
+  await cdp.enviar("Log.enable");
+  await cdp.enviar("Page.enable");
+  await cdp.enviar("Page.navigate", { url: URL_APP });
+  await espera(3000);
+  const r = await avaliar(cdp, `(async () => {
+    window.confirm = () => true;
+    const p = document.querySelector("#painel-sentido"); p.open = true;
+    for (let i = 0; i < 50 && !document.querySelector("#ativar-sentido"); i++) await new Promise((ok) => setTimeout(ok, 100));
+    document.querySelector("#ativar-sentido").click();
+    const t0 = Date.now();
+    while (Date.now() - t0 < 240000) {
+      const txt = document.querySelector("#conteudo-sentido").innerText;
+      if (/Pronto|Não foi possível/.test(txt)) break;
+      await new Promise((ok) => setTimeout(ok, 1000));
+    }
+    const painel = document.querySelector("#conteudo-sentido").innerText.split(String.fromCharCode(10)).slice(-2).join(" | ");
+    document.querySelector("#pergunta").value = "Posso fazer terapia de casal com os usuários?";
+    document.querySelector("#form-consulta").requestSubmit();
+    await new Promise((ok) => setTimeout(ok, 6000));
+    return { segundos: Math.round((Date.now() - t0) / 1000), painel,
+      etapas: document.querySelector("#progresso").innerText,
+      primeiro: document.querySelector(".evidencia .evidencia-local")?.innerText,
+      estado: document.querySelector("#estado-sentido").innerText };
+  })()`);
+  console.log(JSON.stringify({ ...r, errosConsole: [...new Set(cdp.erros)] }, null, 1));
+  cdp.fechar();
+  nav.proc.kill();
+  process.exit(0);
+}
+
 const relatorio = [];
 let porta = 9333;
 for (const [nomeNav, exe] of NAVEGADORES) {

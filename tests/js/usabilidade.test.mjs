@@ -95,3 +95,30 @@ test("compatibilidade: código do app sem recursos que quebram Safari/iOS antigo
     }
   }
 });
+
+test("busca por sentido: vetores publicados correspondem à versão do acervo", () => {
+  const arq = path.join(RAIZ, "app/dados/semantica-publico.json");
+  if (!fs.existsSync(arq)) return; // recurso opcional ainda não gerado
+  const sem = JSON.parse(fs.readFileSync(arq, "utf8"));
+  const acervo = JSON.parse(fs.readFileSync(path.join(RAIZ, "app/dados/acervo-publico.json"), "utf8"));
+  assert.equal(sem.acervo_gerado_em, acervo.gerado_em,
+    "regenere: node scripts/semantica/gerar_vetores.mjs publico (o app ignora vetores desatualizados)");
+  assert.deepEqual(sem.ids, acervo.unidades.map((u) => u.id));
+});
+
+test("busca por sentido: fusão mantém a regra de suficiência da busca por termos", async () => {
+  const { IndiceSemantico, fundir } = await import("../../app/js/nucleo/semantica.js");
+  const { selecionarEvidencias } = await import("../../app/js/nucleo/evidencias.js");
+  const dim = 4;
+  const ids = ACERVO.unidades.map((u) => u.id);
+  const vet = new Int8Array(ids.length * dim);
+  ids.forEach((_, i) => { vet[i * dim + i] = 127; }); // cada trecho aponta numa direção
+  const sem = new IndiceSemantico({ modelo: "teste", dimensao: dim, ids, vetores: Buffer.from(vet.buffer).toString("base64") });
+  const consulta = Float32Array.from([0, 1, 0, 0]); // igual ao 2º trecho (559/2009)
+  // Pergunta sem nenhum termo do acervo: a busca por sentido sozinha não gera resposta.
+  const vazia = fundir(indice, indice.buscar("xyz abc"), sem, consulta);
+  assert.equal(selecionarEvidencias(indice, vazia).length, 0);
+  // Com termos, o trecho próximo pelo sentido sobe na ordem.
+  const r = fundir(indice, indice.buscar("atuação do perito"), sem, consulta);
+  assert.equal(r.resultados[0].unidade.doc, "cfess-resolucao-559-2009");
+});

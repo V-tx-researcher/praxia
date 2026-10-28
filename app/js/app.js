@@ -9,6 +9,7 @@ import { referenciaABNT } from "./nucleo/referencia.js";
 import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
 import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
 import { dobrarAcentos } from "./nucleo/texto.js";
+import { IndiceSemantico, MotorSemantico, TAMANHO_MODELO_MB } from "./nucleo/semantica.js";
 import { MODELOS, MotorWebLLM, WEBLLM_URL, carregarBiblioteca, webgpuDisponivel } from "./llm/motor.js";
 import { avaliarModelo, coletarDispositivo, gb, modeloBaixado, removerModelo } from "./llm/capacidade.js";
 
@@ -141,14 +142,17 @@ function registrarServiceWorker() {
   // Funciona em https e em localhost (contextos seguros).
   if (!("serviceWorker" in navigator) || !window.isSecureContext) return;
   let recarregando = false;
+  // Só há "versão nova" se a página já era controlada por uma versão anterior. Na
+  // primeira visita o service worker se instala e assume sem aviso nem recarga.
+  const haviaVersaoAnterior = !!navigator.serviceWorker.controller;
   navigator.serviceWorker.addEventListener("controllerchange", () => {
-    if (recarregando) return;
+    if (recarregando || !haviaVersaoAnterior) return;
     recarregando = true;
     location.reload();
   });
   navigator.serviceWorker.register("sw.js").then((reg) => {
     const oferecer = (sw) => {
-      if (!sw || !navigator.serviceWorker.controller) return; // primeira instalação: nada a avisar
+      if (!sw || !haviaVersaoAnterior) return; // primeira instalação: nada a avisar
       $("#faixa-atualizacao").hidden = false;
       $("#atualizar").onclick = () => sw.postMessage("PULAR_ESPERA");
     };
@@ -177,7 +181,7 @@ function blocoCitacao(doc, unidade) {
 }
 
 // ---------------------------------------------------------------- estado
-const estado = { acervo: null, indice: null, modo: null, motor: null };
+const estado = { acervo: null, indice: null, modo: null, motor: null, semantica: null };
 
 function ambienteLocal() {
   return ["localhost", "127.0.0.1", "[::1]"].includes(location.hostname) || location.hostname.endsWith(".localhost");
@@ -223,6 +227,109 @@ async function carregarAcervo() {
     estado.motor = new MotorWebLLM(pref.modelo, { aoProgresso: progressoModelo });
   }
   atualizarEstadoIA();
+}
+
+// ---------------------------------------------------------------- busca por sentido opcional (D36)
+const CHAVE_SENTIDO = "gpecss-busca-sentido";
+const CACHE_TRANSFORMERS = "transformers-cache";
+
+function lerPreferenciaSentido() {
+  try { return localStorage.getItem(CHAVE_SENTIDO) === "ativo"; } catch { return false; }
+}
+function gravarPreferenciaSentido(ativo) {
+  try { localStorage.setItem(CHAVE_SENTIDO, ativo ? "ativo" : "inativo"); } catch { /* vale só nesta visita */ }
+}
+
+function atualizarEstadoSentido(texto) {
+  $("#estado-sentido").textContent = texto ?? (estado.semantica ? "· Busca por sentido ativada" : "");
+}
+
+// Prepara índice de vetores e modelo. Só é chamado se a pessoa ativou o recurso.
+async function prepararSentido(aoProgresso) {
+  const arquivo = estado.modo === "previa" ? "dados/semantica-previa.json" : "dados/semantica-publico.json";
+  const r = await fetch(arquivo, { cache: "no-cache" });
+  if (!r.ok) throw new Error(`vetores indisponíveis (HTTP ${r.status})`);
+  const dados = await r.json();
+  if (dados.acervo_gerado_em !== estado.acervo.gerado_em) {
+    throw new Error("os vetores de sentido são de outra versão do acervo; aguarde a atualização");
+  }
+  const indice = new IndiceSemantico(dados);
+  const motor = new MotorSemantico(dados.modelo, { aoProgresso });
+  await motor.carregar();
+  estado.semantica = { indice, motor };
+}
+
+async function modeloSentidoBaixado() {
+  try {
+    if (!("caches" in window)) return false;
+    const c = await caches.open(CACHE_TRANSFORMERS);
+    return (await c.keys()).some((k) => /multilingual-e5-small/.test(k.url));
+  } catch { return false; }
+}
+
+async function renderizarPainelSentido() {
+  const alvo = $("#conteudo-sentido");
+  const interruptor = el("input", { type: "checkbox", id: "ativar-sentido", role: "switch", checked: !!estado.semantica || null });
+  const progresso = el("p", { classe: "ajuda", "aria-live": "polite" });
+  const barra = el("progress", { max: "1", value: "0", hidden: true });
+  const remover = el("button", { type: "button", classe: "botao", hidden: !(await modeloSentidoBaixado()) },
+    "Remover o modelo deste navegador");
+
+  interruptor.addEventListener("change", async () => {
+    if (!interruptor.checked) {
+      estado.semantica = null;
+      gravarPreferenciaSentido(false);
+      atualizarEstadoSentido();
+      progresso.textContent = "Busca por sentido desativada. As consultas usam só a busca por termos.";
+      return;
+    }
+    if (!(await modeloSentidoBaixado()) && !window.confirm(
+      `A busca por sentido vai baixar cerca de ${TAMANHO_MODELO_MB} MB para este navegador (uma única vez). ` +
+      "Use uma conexão sem limite de dados. Deseja continuar?")) {
+      interruptor.checked = false;
+      return;
+    }
+    interruptor.disabled = true;
+    barra.hidden = false;
+    progresso.textContent = "Preparando a busca por sentido…";
+    try {
+      await prepararSentido((fracao) => { barra.value = fracao; progresso.textContent = `Baixando o modelo: ${Math.round(fracao * 100)}%`; });
+      gravarPreferenciaSentido(true);
+      progresso.textContent = "Pronto. As próximas consultas combinam a busca por termos com a busca por sentido.";
+      remover.hidden = false;
+    } catch (erro) {
+      interruptor.checked = false;
+      estado.semantica = null;
+      gravarPreferenciaSentido(false);
+      progresso.textContent = `Não foi possível ativar (${erro.message}). A busca por termos continua funcionando.`;
+    } finally {
+      interruptor.disabled = false;
+      barra.hidden = true;
+      atualizarEstadoSentido();
+    }
+  });
+  remover.addEventListener("click", async () => {
+    if (!window.confirm("Remover os arquivos do modelo de busca por sentido deste navegador?")) return;
+    estado.semantica = null;
+    interruptor.checked = false;
+    gravarPreferenciaSentido(false);
+    try { await caches.delete(CACHE_TRANSFORMERS); } catch { /* nada guardado */ }
+    remover.hidden = true;
+    progresso.textContent = "Arquivos removidos.";
+    atualizarEstadoSentido();
+  });
+
+  alvo.replaceChildren(
+    el("p", {}, "A busca por termos (sempre ativa) encontra os trechos que usam as palavras da pergunta ou seus sinônimos. ",
+      "A busca por sentido, opcional, também encontra trechos que tratam do mesmo assunto com outras palavras — útil para perguntas em linguagem do dia a dia."),
+    el("p", {}, "Ela usa um modelo de linguagem pequeno (multilingual-e5-small, licença MIT), que roda ",
+      el("strong", {}, "neste dispositivo"), `: a pergunta não sai do navegador. Exige baixar cerca de ${TAMANHO_MODELO_MB} MB uma vez. `,
+      "Os trechos mostrados continuam sendo o texto literal das normas; a busca por sentido só ajuda a encontrá-los."),
+    el("p", { classe: "ajuda" }, "Recurso experimental: na avaliação do projeto, melhorou pouco as perguntas escritas com termos das normas e ajudou mais nas escritas com outras palavras."),
+    el("div", { classe: "linha-acoes" },
+      el("label", { classe: "interruptor", for: "ativar-sentido" }, interruptor, " Usar busca por sentido nas minhas consultas"),
+      remover),
+    barra, progresso);
 }
 
 // ---------------------------------------------------------------- IA opcional (D17)
@@ -427,6 +534,7 @@ async function aoConsultar(ev) {
   try {
     const r = await consultar(estado.indice, pergunta, {
       motorLLM: estado.motor,
+      semantica: estado.semantica,
       aoProgresso: (nome, detalhe) => lista.append(el("li", {}, `${nome}: ${detalhe}`)),
     });
     renderizarResposta(r);
@@ -471,7 +579,9 @@ function cartaoEvidencia(e, afirmacoesQueCitam) {
     relacao = el("p", { classe: "relacao" }, el("strong", {}, "Relação com a pergunta: "),
       e.termosCasados.length
         ? `selecionado por conter termos da pergunta (${[...new Set(e.termosCasados)].slice(0, 8).join(", ")})${e.porSinonimo ? " e termos relacionados" : ""}. `
-        : "selecionado por termos relacionados aos da pergunta. ",
+        : e.porSentido
+          ? "selecionado pela busca por sentido (trata de assunto próximo ao da pergunta, com outras palavras). "
+          : "selecionado por termos relacionados aos da pergunta. ",
       "A pertinência ao caso deve ser avaliada na leitura.");
   }
   return el("article", { classe: "evidencia", id: `ev-${e.id}` },
@@ -764,5 +874,23 @@ const abrirPainelIA = () => {
 };
 $("#painel-ia").addEventListener("toggle", abrirPainelIA);
 abrirPainelIA();
+
+// Busca por sentido: painel montado ao abrir; se a pessoa já a tinha ativado, prepara
+// em segundo plano (o modelo vem do cache do navegador).
+let painelSentidoRenderizado = false;
+$("#painel-sentido").addEventListener("toggle", () => {
+  if ($("#painel-sentido").open && !painelSentidoRenderizado) {
+    painelSentidoRenderizado = true;
+    renderizarPainelSentido().catch((erro) => $("#conteudo-sentido").replaceChildren(
+      el("p", { classe: "alerta" }, `Não foi possível montar o painel (${erro.message}).`)));
+  }
+});
+if (lerPreferenciaSentido() && estado.acervo.unidades.length) {
+  atualizarEstadoSentido("· Preparando a busca por sentido…");
+  prepararSentido(() => {}).then(() => atualizarEstadoSentido(), () => {
+    estado.semantica = null;
+    atualizarEstadoSentido("· Busca por sentido indisponível agora (usando só termos)");
+  });
+}
 
 registrarServiceWorker();
