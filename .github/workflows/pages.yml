@@ -1,0 +1,40 @@
+# Publica a plataforma no GitHub Pages a cada envio ao ramo principal.
+# Monta a pasta publicar/ com scripts/preparar_publicacao.py (só o índice público,
+# sem prévia nem páginas internas) e a envia ao Pages. Ver docs/PUBLICACAO_GITHUB.md.
+name: Publicar no GitHub Pages
+
+on:
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Montar publicar/
+        run: |
+          python scripts/preparar_publicacao.py
+          touch publicar/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: publicar
+      - id: deploy
+        uses: actions/deploy-pages@v4
