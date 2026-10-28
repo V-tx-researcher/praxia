@@ -398,7 +398,7 @@ function gravarPreferenciaIA(pref) {
 function atualizarEstadoIA() {
   const alvo = $("#estado-ia");
   if (!estado.motor) {
-    alvo.textContent = "Modo documental: trechos literais, sem análise por IA";
+    alvo.textContent = "Busca nas normas (sem IA): mostra os trechos oficiais. Para a análise por IA, é preciso baixar a IA";
   } else {
     alvo.textContent = `Análise por IA ativada neste dispositivo (${MODELOS[estado.motor.modelo].rotulo})` +
       (CONFIG.llm.permitirAtivacao ? "" : " — TESTE LOCAL");

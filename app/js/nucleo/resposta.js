@@ -149,7 +149,7 @@ export function compor({ pergunta, dados, classificacao, busca, evidencias, orie
           ? "A análise por inteligência artificial não pôde ser concluída. Abaixo estão os dispositivos localizados, para leitura direta."
           : llmAtivo
             ? "A análise gerada pela inteligência artificial não passou na verificação de fundamentação e foi descartada. Abaixo estão os dispositivos localizados, para leitura direta."
-            : "Modo documental: esta versão apresenta os dispositivos localizados, com seus textos literais, sem análise interpretativa por inteligência artificial.",
+            : "Você está usando a busca nas normas, que não é uma IA: ela encontra e mostra os trechos oficiais, sem escrever resposta própria. Para receber também uma análise escrita por IA, baixe a IA no seu computador em “Análise por IA no meu dispositivo”.",
         "A seleção dos trechos é automática e baseada em correspondência de termos; a pertinência de cada um à sua situação concreta precisa ser avaliada na leitura.",
       ],
     });
