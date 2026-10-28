@@ -3,6 +3,7 @@
 Atualizado em 26/10/2026 (marco 1: primeira base confiável).
 
 ## Concluído e testado com sucesso
+- **IA leve como foco (28/10/2026, D43):** busca por sentido ligada por padrão; resposta "Tem norma para isso?" com principal / pode se aplicar / provavelmente não se aplica; peso por ementa; IA completa guardada. Página do Wix atualizada.
 - **IA liberada e camada 2 publicada (28/10/2026, D42):** Atividade nº 10 aprovada pelo revisor; 38 orientações institucionais no índice público (6.825 trechos); análise por IA disponível ao público (opcional); regras 12–14 nas instruções.
 - **Atividade nº 10 refeita com a camada 2 (28/10/2026):** Qwen3 8B nas mesmas 20 perguntas, com orientações na prévia: 18 com análise aceita, 47 frases aceitas, 5 descartadas (10%; antes 12%), 33 s por resposta. A IA usou pouco as orientações (2 frases, ambas na Q005). Parte A da atividade: conferência dos 28 documentos. Até 3 orientações vão à IA, dentro de um orçamento de 9.000 caracteres (janela do modelo).
 - **Orientações institucionais — camada 2 (28/10/2026, D41):** 28 publicações oficiais do CFESS, CRESS e ABEPSS baixadas e processadas (qualidade "boa" em todas; 6.059 trechos com verificação literal); seção própria nas respostas, identificadores O1… para a IA, natureza "Segundo orientação institucional", lista na biblioteca. Na prévia, 101 de 118 respostas do conjunto de avaliação ganham orientação. Artigos acadêmicos fora do app (D40 revista). Conferido no navegador (computador e celular). 43 testes JS e 39 Python passando.

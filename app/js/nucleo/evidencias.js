@@ -61,10 +61,18 @@ export function selecionarEvidencias(indice, resultadoBusca, { dataFatos = null,
 // Norma que não está em vigor e anexos (formulários) ficam como complementares,
 // salvo se não houver alternativa vigente.
 export const PRIORIDADES = {
-  principal: "Mais diretamente relacionada à pergunta",
-  relacionada: "Também relacionada",
-  complementar: "Complementar (contexto)",
+  principal: "Principal: se aplica diretamente",
+  relacionada: "Pode se aplicar",
+  complementar: "Provavelmente não se aplica",
 };
+
+// Por que um trecho ficou como "provavelmente não se aplica" (texto curto para a tela).
+export function motivoPrioridade(e) {
+  if (e.prioridade !== "complementar") return null;
+  if (e.vigencia?.aplicavel === false || e.situacaoDispositivo === "revogado") return "norma revogada ou suspensa: vale só como referência histórica";
+  if (e.tipo === "anexo") return "é um anexo ou formulário, não uma regra";
+  return "trata de outro aspecto do tema; leia só se o seu caso envolver esse ponto";
+}
 export function classificarPrioridade(evidencias) {
   if (!evidencias.length) return evidencias;
   const emVigor = (e) => e.vigencia.aplicavel !== false && e.situacaoDispositivo !== "revogado";

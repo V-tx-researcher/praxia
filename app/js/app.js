@@ -4,7 +4,7 @@ import { CONFIG } from "./config.js";
 import { IndiceLexical } from "./nucleo/busca.js";
 import { consultar } from "./nucleo/resposta.js";
 import { CANAIS_VERIFICADOS } from "./nucleo/orientacao.js";
-import { linkPdf, PRIORIDADES } from "./nucleo/evidencias.js";
+import { linkPdf, motivoPrioridade, PRIORIDADES } from "./nucleo/evidencias.js";
 import { dataAcesso, referenciaABNT } from "./nucleo/referencia.js";
 import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
 import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
@@ -269,7 +269,11 @@ const CHAVE_SENTIDO = "gpecss-busca-sentido";
 const CACHE_TRANSFORMERS = "transformers-cache";
 
 function lerPreferenciaSentido() {
-  try { return localStorage.getItem(CHAVE_SENTIDO) === "ativo"; } catch { return false; }
+  // IA leve ligada por padrão (D43), salvo se a pessoa desligou ou pediu economia de dados.
+  try {
+    const v = localStorage.getItem(CHAVE_SENTIDO);
+    return v ? v === "ativo" : !navigator.connection?.saveData;
+  } catch { return true; }
 }
 function gravarPreferenciaSentido(ativo) {
   try { localStorage.setItem(CHAVE_SENTIDO, ativo ? "ativo" : "inativo"); } catch { /* vale só nesta visita */ }
@@ -398,7 +402,7 @@ function gravarPreferenciaIA(pref) {
 function atualizarEstadoIA() {
   const alvo = $("#estado-ia");
   if (!estado.motor) {
-    alvo.textContent = "Busca nas normas (sem IA): mostra os trechos oficiais. Para a análise por IA, é preciso baixar a IA";
+    alvo.textContent = "PraxIA: encontra e classifica as normas que se aplicam à sua pergunta";
   } else {
     alvo.textContent = `Análise por IA ativada neste dispositivo (${MODELOS[estado.motor.modelo].rotulo})` +
       (CONFIG.llm.permitirAtivacao ? "" : " — TESTE LOCAL");
@@ -606,7 +610,7 @@ function cartaoEvidencia(e, afirmacoesQueCitam) {
   const cab = el("div", { classe: "evidencia-cabecalho" },
     el("div", {}, el("span", { classe: "evidencia-id" }, e.id), el("span", { classe: "evidencia-doc" }, d.titulo)),
     el("div", { classe: "selos" },
-      e.prioridade ? el("span", { classe: `selo prioridade ${e.prioridade}` }, PRIORIDADES[e.prioridade]) : null,
+      e.prioridade ? el("span", { classe: `selo prioridade ${e.prioridade}`, title: motivoPrioridade(e) || "" }, PRIORIDADES[e.prioridade]) : null,
       seloSituacao(d.situacao, d.situacaoRotulo), seloConferencia(d.conferido)));
   const contexto = e.contexto.map((c) => el("p", { classe: "contexto" },
     c.texto.startsWith(c.rotulo.split(",").pop().trim().split(" ")[0]) ? null : el("strong", {}, `${c.rotulo}: `), c.texto));
@@ -675,13 +679,22 @@ function renderizarResposta(r) {
       // complementares.
       const ordem = ["principal", "relacionada", "complementar"];
       const grupos = ordem.map((p) => [p, s.evidencias.filter((e) => (e.prioridade || "relacionada") === p)]).filter(([, l]) => l.length);
+      // "Tem norma para isso?": resposta direta, só com o que foi encontrado (sem texto gerado).
+      const principal = grupos.find(([p]) => p === "principal")?.[1][0];
+      const local = (e) => `${e.documento.titulo} — ${["trecho", "apresentacao", "anexo"].includes(e.tipo) ? `p. ${e.pagina}` : e.rotulo}`;
+      const quantos = (p) => grupos.find(([g]) => g === p)?.[1].length || 0;
       sec.append(el("div", { classe: "ordem-leitura" },
-        el("p", { classe: "titulo-ordem" }, "Ordem de leitura sugerida"),
+        el("p", { classe: "titulo-ordem" }, "Tem norma para isso?"),
+        principal ? el("p", { classe: "resposta-curta" }, el("strong", {}, "Sim. "), "A que mais se aplica é ",
+          el("a", { href: `#ev-${principal.id}`, onclick: () => destacar(principal.id) }, local(principal)),
+          quantos("principal") > 1 ? `, junto com mais ${quantos("principal") - 1} principal(is)` : "",
+          quantos("relacionada") ? `; ${quantos("relacionada")} pode(m) se aplicar` : "",
+          quantos("complementar") ? `; ${quantos("complementar")} provavelmente não se aplica(m)` : "", ".") : null,
         el("ol", {}, grupos.flatMap(([p, lista]) => lista.map((e) => el("li", { classe: `item-ordem ${p}` },
-          el("a", { href: `#ev-${e.id}`, onclick: () => destacar(e.id) }, e.id), " ",
-          `${e.documento.titulo} — ${["trecho", "apresentacao", "anexo"].includes(e.tipo) ? `p. ${e.pagina}` : e.rotulo}`,
-          el("span", { classe: `selo prioridade ${p}` }, PRIORIDADES[p]))))),
-        el("p", { classe: "ajuda" }, "A prioridade é calculada pela correspondência com os termos da pergunta e pela vigência; não é um juízo sobre o caso. Leia todas as referências antes de concluir.")));
+          el("a", { href: `#ev-${e.id}`, onclick: () => destacar(e.id) }, e.id), " ", local(e),
+          el("span", { classe: `selo prioridade ${p}` }, PRIORIDADES[p]),
+          motivoPrioridade(e) ? el("span", { classe: "ajuda" }, ` (${motivoPrioridade(e)})`) : null)))),
+        el("p", { classe: "ajuda" }, "A classificação é automática: compara a sua pergunta com o texto das normas e confere a vigência. Não é um juízo sobre o caso; leia os trechos antes de concluir.")));
       for (const [p, lista] of grupos) {
         if (grupos.length > 1) sec.append(el("h3", { classe: `grupo-prioridade ${p}` }, PRIORIDADES[p]));
         lista.forEach((e) => sec.append(cartaoEvidencia(e, citacoesPorEvidencia.get(e.id))));
@@ -935,9 +948,10 @@ const abrirPainelIA = () => {
   }
 };
 $("#painel-ia").addEventListener("toggle", abrirPainelIA);
-// ?ia=1 (botão "Baixar a IA" do site do GPECSS): abre o painel já na chave de ativação.
-// O download só começa quando a própria pessoa liga a chave (D17).
-if (new URLSearchParams(location.search).get("ia") === "1") {
+// IA completa guardada (D43): o painel só aparece onde a ativação é permitida (teste local).
+$("#painel-ia").hidden = !iaPermitida();
+// ?ia=1: abre o painel já na chave de ativação (o download só começa quando a pessoa liga a chave, D17).
+if (iaPermitida() && new URLSearchParams(location.search).get("ia") === "1") {
   $("#painel-ia").open = true;
   $("#painel-ia").scrollIntoView({ block: "start" });
 }

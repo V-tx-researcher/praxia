@@ -4,7 +4,8 @@
 // Lista revisável: alterações devem ser registradas em docs/DECISIONS.md.
 
 export const GRUPOS = [
-  ["sigilo", "sigiloso", "segredo", "confidencial", "confidencialidade", "revelar", "revelação", "quebra"],
+  ["sigilo", "sigiloso", "segredo", "confidencial", "confidencialidade", "revelar", "revelação", "quebra",
+    "contar", "divulgar", "expor", "compartilhar"],
   ["prontuário", "registro", "documentação", "arquivo", "arquivos", "material técnico", "lacração", "lacrar"],
   ["laudo", "parecer", "perícia", "perito", "estudo social", "relatório", "documento técnico"],
   ["estágio", "estagiário", "estagiária", "supervisão", "supervisor", "supervisora", "aluno", "aluna", "estudante"],

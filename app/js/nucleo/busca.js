@@ -15,6 +15,10 @@ const IDF_INFORMATIVO = 0.8;
 const PESO_INDICACAO_PORTAL = 0.55;
 // Norma citada pelo nome ou número na pergunta (ver normas-citadas.js).
 const PESO_CITADA = 1.8;
+// Norma cuja ementa trata do assunto da pergunta (ex.: "terapias" na Res. 569/2010) sobe:
+// ajuda a escolher a norma principal sem modelo pesado (D43).
+const PESO_EMENTA = 1.35;
+const COBERTURA_EMENTA = 0.5;
 // Assinatura e nota de publicação: raramente respondem a uma pergunta.
 const PESO_FECHO = 0.3;
 // Radicais presentes em quase toda pergunta do domínio: não bastam para tornar um
@@ -38,6 +42,7 @@ const PESO_SITUACAO = {
 export class IndiceLexical {
   constructor(acervo) {
     this.documentos = new Map(acervo.documentos.map((d) => [d.id, d]));
+    this.termosEmenta = new Map(acervo.documentos.map((d) => [d.id, new Set(tokens(`${d.ementa || ""}`))]));
     this.unidades = acervo.unidades;
     this.porId = new Map(this.unidades.map((u) => [u.id, u]));
     this.filhos = new Map();
@@ -128,6 +133,14 @@ export class IndiceLexical {
     if (!informativos.size) informativos = new Set(originais.filter((t) => this.idf(t) >= IDF_INFORMATIVO));
     const citadas = normasCitadas(consulta, this);
     const passado = dataFatos && +dataFatos.slice(0, 4) < new Date().getFullYear();
+    // Documentos cuja ementa cobre boa parte dos termos informativos da pergunta.
+    const ementaPertinente = new Set();
+    for (const [id, ts] of this.termosEmenta) {
+      if (!informativos.size || !ts.size) continue;
+      let c = 0;
+      for (const t of informativos) if (ts.has(t) || relacionados(t).some((r) => ts.has(r))) c++;
+      if (c / informativos.size >= COBERTURA_EMENTA) ementaPertinente.add(id);
+    }
     const resultados = [];
     for (let i = 0; i < this.n; i++) {
       const u = this.unidades[i];
@@ -146,7 +159,7 @@ export class IndiceLexical {
         else if (relacionados(t).some((r) => conjunto.has(r))) { cobertos += 0.6; informativosCasados++; }
       }
       const cobertura = cobertos / informativos.size;
-      const fator = this.fator(u, citadas, passado);
+      const fator = this.fator(u, citadas, passado) * (ementaPertinente.has(u.doc) ? PESO_EMENTA : 1);
       const palavras = casados.filter((t) => informativos.has(t) && superficie.has(t)).map((t) => superficie.get(t));
       resultados.push({ unidade: u, pontuacao: s * fator * (0.6 + 0.4 * cobertura), casados: palavras,
         porSinonimo: casados.some((t) => termos.get(t) < 1), cobertura, informativosCasados });

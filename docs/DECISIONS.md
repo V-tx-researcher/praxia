@@ -304,6 +304,17 @@ situação; citar direito e dever; não usar dispositivo fora da situação nem 
 atribuição privativa). `permitirAtivacao: true` (a IA continua opcional, ativada pela própria pessoa).
 Ajustes seguintes vêm do uso, apontados pelo responsável.
 
+**D43 — 28/10/2026 — Foco na IA leve que indica as normas; IA completa guardada.** Pedido do
+responsável: a ferramenta tem de funcionar em computador fraco. A busca por sentido
+(multilingual-e5-small, ~120 MB, roda no processador) passa a vir **ligada por padrão** (salvo
+economia de dados ou se a pessoa desligar) e é apresentada como "IA leve". A resposta abre com
+"Tem norma para isso?" e separa as normas em **principal (se aplica diretamente)**, **pode se
+aplicar** e **provavelmente não se aplica** (com o motivo: revogada/suspensa, anexo ou outro
+aspecto). Normas cuja ementa cobre ≥50% dos termos da pergunta ganham peso 1,35 (ajuda a escolher a
+principal; ex.: terapias → Res. 569/2010). Avaliação: 110/122, recall@8 0,843. A IA completa
+(Qwen3 8B, D38–D42) fica guardada: `permitirAtivacao: false`, painel escondido no público e
+disponível só em teste local.
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e
