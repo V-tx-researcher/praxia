@@ -840,6 +840,9 @@ function renderizarTransparencia() {
       el("p", {}, "Plataforma independente, gratuita e de código aberto, desenvolvida no âmbito do GPECSS para facilitar a localização e a leitura de normas e orientações do exercício profissional do Serviço Social. Não é um canal oficial do CFESS ou dos CRESS e não fala em nome desses órgãos."),
       el("p", {}, "As respostas apresentam trechos literais de documentos oficiais, com indicação do documento, do dispositivo e da página, para que você possa conferir a fonte original."),
       el("p", {}, el("strong", {}, "Idealização: "), "Vinícius Araújo Pereira, assistente social."),
+      el("p", {}, el("strong", {}, "Base em texto para o NotebookLM: "),
+        el("a", { href: "baixar/praxia-base-notebooklm.zip", download: "" }, "baixar o compilado (.zip, 1,4 MB)"),
+        " — texto integral das normas e das orientações institucionais, com vigência e links oficiais, em dois arquivos .txt para usar como fontes."),
       el("h3", {}, "Acervo"),
       el("p", {}, `${a.documentos.length} documento(s) neste índice, dos quais ${conferidos} conferido(s) por pessoa responsável; ${a.unidades.length} dispositivos e trechos indexados. ` +
         (a.gerado_em ? `Índice gerado em ${a.gerado_em.slice(0, 10)}.` : "Índice indisponível.")),

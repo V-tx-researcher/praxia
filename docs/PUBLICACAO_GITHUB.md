@@ -49,3 +49,11 @@ outra página (segurança), e a IA e a instalação não funcionam dentro da mol
 Para usar, por exemplo, `consulta.seudominio.com.br`: em Settings > Pages > Custom domain,
 informe o subdomínio; no painel de DNS do domínio (no Wix, se o domínio for de lá), crie um
 registro **CNAME** com nome `consulta` e valor `SEU-USUARIO.github.io`.
+
+## Compilado para o NotebookLM
+
+`python scripts/compilado_notebooklm.py` gera em `app/baixar/` dois arquivos .txt (abaixo do
+limite de ~500 mil palavras por fonte do NotebookLM) e o pacote
+`praxia-base-notebooklm.zip` (~1,4 MB). No site: `https://v-tx-researcher.github.io/praxia/baixar/praxia-base-notebooklm.zip`
+(link também na aba "Sobre e transparência"). No Wix, um segundo botão: **"Baixar a base da
+PraxIA para o NotebookLM"**. Rode o script de novo sempre que o acervo mudar.
