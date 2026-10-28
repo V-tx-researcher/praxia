@@ -21,7 +21,9 @@ const PESO_FECHO = 0.3;
 // dispositivo pertinente (ex.: "piso salarial do assistente social" não é sobre o
 // acervo só por dizer "assistente social").
 const GERAIS = new Set(["assistent", "social", "servic", "profissional", "profissa", "cress", "cfess", "conselh",
-  "nacional", "federal", "regional"]);
+  "nacional", "federal", "regional",
+  // verbos de pergunta que não indicam o assunto ("a direção quer…", "isso fere…")
+  "quer", "querem", "fer", "faz", "fazer"]);
 
 // Peso por natureza da unidade: texto normativo prevalece sobre apresentação.
 const PESO_TIPO = {

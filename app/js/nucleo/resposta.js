@@ -24,8 +24,8 @@ export const LIMITES =
 // A janela do modelo local (~4.000 tokens) precisa caber instruções, evidências e a
 // resposta: as orientações vão para a IA só até este total de caracteres de trechos
 // (na rodada de 28/10/2026, no máximo ~6.800 caracteres e 3.500 tokens de entrada).
-export const ORCAMENTO_CARACTERES_IA = 9000;
-const MAX_ORIENTACOES_IA = 3;
+export const ORCAMENTO_CARACTERES_IA = 6500;
+const MAX_ORIENTACOES_IA = 2;
 export function paraIA(evidencias, orientacoes) {
   let total = evidencias.reduce((s, e) => s + e.texto.length + e.contexto.reduce((c, x) => c + x.texto.length, 0), 0);
   const escolhidas = [];
@@ -83,8 +83,17 @@ export async function consultar(indice, perguntaOriginal, { motorLLM = null, sem
   if (motorLLM && evidencias.length) {
     marcar("análise", "gerando análise com o modelo local");
     try {
-      const todas = [...evidencias, ...paraIA(evidencias, orientacoes)];
-      const bruta = await motorLLM.analisar({ pergunta, classificacao, evidencias: todas });
+      let todas = [...evidencias, ...paraIA(evidencias, orientacoes)];
+      let bruta;
+      try {
+        bruta = await motorLLM.analisar({ pergunta, classificacao, evidencias: todas });
+      } catch (erro) {
+        // Resposta cortada (janela do modelo cheia) chega como JSON incompleto: tenta de novo só com as normas.
+        if (todas.length === evidencias.length || !/JSON/.test(erro.message)) throw erro;
+        marcar("análise", "resposta incompleta; nova tentativa só com as normas");
+        todas = [...evidencias];
+        bruta = await motorLLM.analisar({ pergunta, classificacao, evidencias: todas });
+      }
       analise = verificarAnalise(bruta, todas);
       ajustarNatureza(analise.afirmacoes, new Map(todas.map((e) => [e.id, e])));
       marcar("verificação", `${analise.afirmacoes.length} afirmações aceitas; ${analise.removidas.length} removidas`);

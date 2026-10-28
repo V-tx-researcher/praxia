@@ -19,6 +19,7 @@ export const GRUPOS = [
   ["testemunha", "depor", "depoimento", "justiça", "juiz", "juíza", "audiência", "intimado", "intimada"],
   ["usuário", "usuária", "usuários", "população usuária", "paciente", "família", "atendido", "atendida"],
   ["autonomia", "liberdade", "independência"],
+  ["inviolabilidade", "inviolável", "acesso", "acessar", "devassa"],
   ["fiscalização", "fiscalizar", "cofi", "comissão de orientação e fiscalização"],
   ["registro profissional", "inscrição", "carteira", "cress"],
   ["discriminação", "preconceito", "discriminar", "orientação sexual", "identidade de gênero"],

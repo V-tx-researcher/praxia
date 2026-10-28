@@ -573,6 +573,7 @@ async function aoConsultar(ev) {
       interpretacao: estado.interpretacao,
       aoProgresso: (nome, detalhe) => lista.append(el("li", {}, `${nome}: ${detalhe}`)),
     });
+    if (ambienteLocal()) window.ultimasEtapas = r.etapas; // diagnóstico em teste local (scripts/testar_ia_app.mjs)
     renderizarResposta(r);
     $("#acoes-resultado").hidden = false;
     $("#aviso-copia").textContent = "";
