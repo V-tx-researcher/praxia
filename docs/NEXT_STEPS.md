@@ -20,6 +20,19 @@ Particularidades do ambiente de desenvolvimento (Windows): ao gerar arquivos por
 script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
 `python scripts/escapar_js.py <arquivos.js>` converte caracteres invisíveis em escapes Unicode do JavaScript.
 
+## Verificação antes de publicar
+
+```bash
+python scripts/preparar_publicacao.py          # monta publicar/ e confere service worker e vetores
+python -m http.server 8766 --directory publicar
+node scripts/capturas.mjs <pasta> http://localhost:8766/            # Chrome e Edge, 3 telas, 2 temas
+node scripts/capturas.mjs <pasta> http://localhost:8766/ --sentido  # ativa a busca por sentido de verdade
+```
+
+Não testado por falta do navegador nesta máquina: Firefox e Safari (iPhone/Mac). O
+código evita recursos incompatíveis com Safari a partir do iOS 15 (teste
+`usabilidade.test.mjs`), mas convém abrir num iPhone real após a publicação.
+
 ## Etapa seguinte (após as decisões do responsável)
 
 00. **Conferências em lote:** concluídas (lotes 1 a 6; 59 documentos publicados). Pendências

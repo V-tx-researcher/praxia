@@ -15,7 +15,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[1]
 ORIGEM = RAIZ / "app"
 DESTINO = RAIZ / "publicar"
-EXCLUIR = {"dev", "acervo-previa.json"}
+EXCLUIR = {"dev", "acervo-previa.json", "semantica-previa.json"}
 
 
 def main() -> int:
@@ -27,9 +27,27 @@ def main() -> int:
     if nao_conferidos:
         print("ERRO: documentos não conferidos no índice público:", ", ".join(nao_conferidos))
         return 1
+    # Vetores da busca por sentido precisam ser da mesma versão do índice (D36);
+    # se estiverem desatualizados, o app os ignoraria: melhor não publicar.
+    excluir = set(EXCLUIR)
+    sem = ORIGEM / "dados" / "semantica-publico.json"
+    if sem.exists():
+        dados_sem = json.loads(sem.read_text(encoding="utf-8"))
+        if dados_sem.get("acervo_gerado_em") != indice.get("gerado_em"):
+            print("AVISO: vetores de sentido desatualizados; não serão publicados "
+                  "(regenere com scripts/semantica/gerar_vetores.mjs publico)")
+            excluir.add("semantica-publico.json")
+    # Tudo o que o service worker guarda precisa existir, senão a instalação offline falha.
+    import re
+    sw = (ORIGEM / "sw.js").read_text(encoding="utf-8")
+    faltando = [f for f in re.findall(r'"([\w./-]+\.(?:js|css|png|svg|json|webmanifest|html))"', sw)
+                if not (ORIGEM / f).exists()]
+    if faltando:
+        print("ERRO: arquivos listados no service worker e inexistentes:", ", ".join(faltando))
+        return 1
     if DESTINO.exists():
         shutil.rmtree(DESTINO)
-    shutil.copytree(ORIGEM, DESTINO, ignore=lambda d, nomes: [n for n in nomes if n in EXCLUIR])
+    shutil.copytree(ORIGEM, DESTINO, ignore=lambda d, nomes: [n for n in nomes if n in excluir])
     shutil.copy(RAIZ / "scripts" / "_headers", DESTINO / "_headers")
     total = sum(1 for p in DESTINO.rglob("*") if p.is_file())
     maior = max(p.stat().st_size for p in DESTINO.rglob("*") if p.is_file())
