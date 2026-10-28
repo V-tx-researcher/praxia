@@ -10,6 +10,9 @@ const {
 
 const [, , arqVerificado, destino, numAtividade, rotuloModelo, arqCamada2] = process.argv;
 const camada2 = arqCamada2 ? JSON.parse(fs.readFileSync(arqCamada2, "utf8")).documentos : null;
+// SUGESTOES=<json>: versão pré-preenchida (☒ e notas em itálico) para o revisor conferir.
+const sug = process.env.SUGESTOES ? JSON.parse(fs.readFileSync(process.env.SUGESTOES, "utf8")) : null;
+const notaSug = (texto) => p(t(`Sugestão (IA): ${texto}`, { italics: true, color: "9A6B12" }));
 const { resumo, itens } = JSON.parse(fs.readFileSync(arqVerificado, "utf8"));
 const AZUL = "173456";
 const CAIXA = "F2F6FB";
@@ -43,10 +46,11 @@ function caixa(rotulo, linhas = 2) {
     children: [new Paragraph({ children: [t(rotulo, { italics: true, color: "4F5D70" })] }), ...Array.from({ length: linhas }, () => new Paragraph({ children: [t("")] }))],
   })] })] });
 }
-const marque = (opcoes) => p(t(opcoes.map((o) => `☐  ${o}`).join("     ")));
+const marque = (opcoes, escolha = null) => p(t(opcoes.map((o) => `${o === escolha ? "☒" : "☐"}  ${o}`).join("     ")));
 
 const modelo = rotuloModelo || resumo.modelo;
 const corpo = [
+  ...(sug ? [p(t(sug.aviso, { bold: true, color: "B42318" }))] : []),
   new Paragraph({ spacing: { after: 60 }, children: [t("PLATAFORMA DE CONSULTA ÉTICO-NORMATIVA — GPECSS", { bold: true, size: 20, color: "4F5D70" })] }),
   new Paragraph({ spacing: { after: 80 }, children: [new TextRun({ text: `Atividade de conferência nº ${numAtividade}`, font: "Calibri", size: 40, bold: true, color: AZUL })] }),
   new Paragraph({ spacing: { after: 240 }, border: { bottom: { style: BorderStyle.SINGLE, size: 8, color: AZUL, space: 6 } },
@@ -78,9 +82,11 @@ if (camada2) {
   corpo.push(p(t("São publicações oficiais e gratuitas. Já conferi automaticamente que cada trecho é cópia literal do PDF oficial. Falta a sua decisão: o documento é pertinente e pode orientar as respostas? Marque Incluir ou Não incluir. Se tiver dúvida sobre um documento, marque Não incluir e anote o motivo.")));
   corpo.push(tabela([500, 5600, 1400, 2138], ["Nº", "Documento", "Páginas / trechos", "Decisão"],
     camada2.map((d, k) => [String(k + 1), `${d.orgao}. ${d.titulo}${d.edicao ? ` (${d.edicao})` : ""}. ${d.ano || d.ano_texto || "s. d."}.`,
-      `${d.paginas || "?"} p. / ${d.trechos || "?"}`, "☐ Incluir   ☐ Não incluir"]), [3]));
+      `${d.paginas || "?"} p. / ${d.trechos || "?"}`,
+      !sug ? "☐ Incluir   ☐ Não incluir" : sug.parteA.excecoes[d.id] ? `☐ Incluir   ☒ Não incluir — ${sug.parteA.excecoes[d.id]}` : "☒ Incluir   ☐ Não incluir"]), [3]));
   corpo.push(subtitulo("Os textos completos desses documentos ficam no arquivo público do site (como já acontece com as normas), para a busca funcionar sem servidor. Na tela, só aparecem os trechos encontrados, com a fonte e o link do PDF oficial. Você concorda?"));
-  corpo.push(marque(["Sim", "Só os documentos do CFESS e dos CRESS", "Não: mostrar só o link"]));
+  corpo.push(marque(["Sim", "Só os documentos do CFESS e dos CRESS", "Não: mostrar só o link"], sug?.parteA.reproducao));
+  if (sug) corpo.push(notaSug(sug.parteA.reproducao_motivo), notaSug(`Faltantes: ${sug.parteA.faltantes}`));
   corpo.push(caixa("Algum documento oficial importante que ficou de fora (opcional):", 2));
   corpo.push(titulo("Parte B — Respostas da IA", true));
   corpo.push(p(t("Para cada pergunta: os trechos que a IA usou e as frases dela. As frases marcadas como “Segundo orientação institucional” vêm só das orientações (O1, O2…); confira se a IA disse a fonte e se não apresentou a orientação como regra.")));
@@ -110,25 +116,28 @@ itens.forEach((it, i) => {
   it.aceitas.forEach((a, k) => {
     corpo.push(p([t(`${k + 1}. `, { bold: true }), t(`[${NATUREZA[a.natureza] || a.natureza}] `, { color: "4F5D70" }),
       t(a.texto), t(`  (${(a.evidencias || []).join(", ")})`, { color: "4F5D70" })], { keepNext: true }));
-    corpo.push(marque(["Correta", "Parcial", "Incorreta"]));
+    corpo.push(marque(["Correta", "Parcial", "Incorreta"], sug?.parteB[it.id]?.frases[k]));
   });
   if (it.atencao?.length) corpo.push(p([t("Aspectos de atenção apontados pela IA: ", { bold: true }), t(it.atencao.join(" "))]));
   corpo.push(subtitulo("A resposta, no conjunto, ajudaria um/a profissional, docente ou estudante?"));
-  corpo.push(marque(["Sim", "Em parte", "Não", "Seria melhor mostrar só os trechos"]));
+  corpo.push(marque(["Sim", "Em parte", "Não", "Seria melhor mostrar só os trechos"], sug?.parteB[it.id]?.ajudaria));
+  if (sug?.parteB[it.id]?.nota) corpo.push(notaSug(sug.parteB[it.id].nota));
   corpo.push(caixa("O que está errado, faltou ou poderia confundir (opcional):", 1));
 });
 
 corpo.push(titulo("Avaliação geral", true));
 corpo.push(subtitulo("1. Com base nestas respostas, a análise por IA pode ser liberada ao público (sempre opcional e com o aviso de limites)?"));
-corpo.push(marque(["Sim", "Sim, só depois de corrigir os pontos que anotei", "Ainda não"]));
+corpo.push(marque(["Sim", "Sim, só depois de corrigir os pontos que anotei", "Ainda não"], sug?.geral.liberar));
+if (sug) corpo.push(notaSug(sug.geral.erros));
 corpo.push(subtitulo("2. Que tipo de erro mais preocupa?"));
 corpo.push(caixa("Ex.: afirma como regra o que é interpretação; mistura norma revogada; responde além do que os trechos dizem…", 3));
 if (camada2) {
   corpo.push(subtitulo("3. As orientações institucionais (O1, O2…) melhoraram as respostas?"));
-  corpo.push(marque(["Sim", "Em parte", "Não", "Pioraram"]));
+  corpo.push(marque(["Sim", "Em parte", "Não", "Pioraram"], sug?.geral.orientacoes));
 }
 corpo.push(subtitulo(`${camada2 ? 4 : 3}. Algo que a IA deveria sempre dizer ou nunca dizer?`));
 corpo.push(caixa("Sugestões para as instruções dadas à IA:", 3));
+if (sug) corpo.push(notaSug(sug.geral.regras));
 
 const doc = new Document({
   creator: "Plataforma de Consulta Ético-Normativa — GPECSS",
