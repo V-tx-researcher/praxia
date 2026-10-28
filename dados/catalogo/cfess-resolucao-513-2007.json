@@ -7,17 +7,23 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
+  "assunto_principal": "sigilo_profissional",
   "assuntos_secundarios": [],
   "ementa": "Procedimentos para efeito da Lacração do Material Técnico sigiloso do Serviço Social",
   "data_publicacao": "2007-12-10",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "revogada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
     "alterado_por": [],
-    "revogado_por": [],
+    "revogado_por": [
+      {
+        "id": "cfess-resolucao-556-2009",
+        "verificado": true,
+        "descricao": "Revogação integral (Art. 12)."
+      }
+    ],
     "mencoes_detectadas": [
       {
         "referencia": "cfess-resolucao-513-2007",
@@ -59,9 +65,11 @@
   "versao_atual": "3e307ca67c7de7d6",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 8 (lote 6, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "3e307ca67c7de7d6",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
   },
   "indexacao": {
     "paginas": 2,
@@ -91,7 +99,7 @@
   "alertas": [
     "portal_indica_situacao:Revogada pela Resolução nº 556/2009"
   ],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -218,6 +226,34 @@
       "data": "2026-10-27T15:11:00+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados, parágrafos por extenso, assinatura"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 8 (lote 6, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -231,5 +267,6 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:25:20+00:00"
-  }
+  },
+  "nota_vigencia": "Revogada pela Res. CFESS nº 556/2009 (Art. 12), por sua vez revogada pela Res. 1.098/2025."
 }

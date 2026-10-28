@@ -31,7 +31,7 @@ function linkExterno(href, texto) {
 }
 
 function seloSituacao(situacao, rotulo) {
-  const classe = { vigente_confirmada: "vigente", alterada: "vigente", revogada: "revogada",
+  const classe = { vigente_confirmada: "vigente", alterada: "vigente", revogada: "revogada", sem_efeito_judicial: "revogada",
     historica: "historica", nao_verificada: "nao-verificada" }[situacao] || "";
   return el("span", { classe: `selo ${classe}` }, rotulo);
 }

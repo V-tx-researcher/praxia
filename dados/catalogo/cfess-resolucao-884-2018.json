@@ -7,16 +7,22 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
+  "assunto_principal": "registro_inscricao",
   "assuntos_secundarios": [],
   "ementa": "Regulamenta procedimento para cancelamento de inscrições que foram deferidas antes do conhecimento das irregularidades, nos casos previstos no parágrafo segundo do artigo 29, parágrafos únicos dos artigos 35 e 41, e artigo 54 da Resolução CFESS nº 582/2010 (Redação dada pela Resolução CFESS nº 900, de 1º de abril de 2019)",
   "data_publicacao": "2018-10-23",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "alterada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
-    "alterado_por": [],
+    "alterado_por": [
+      {
+        "referencia": "Resolução CFESS nº 900/2019",
+        "verificado": true,
+        "descricao": "Ementa e caput do Art. 1º (Arts. 1º e 2º)."
+      }
+    ],
     "revogado_por": [],
     "mencoes_detectadas": [
       {
@@ -61,9 +67,11 @@
   "versao_atual": "d7d9e2249189715d",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 5 (lote 3, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "d7d9e2249189715d",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
   },
   "indexacao": {
     "paginas": 3,
@@ -94,7 +102,7 @@
   "alertas": [
     "texto_riscado_removido:492"
   ],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -221,6 +229,34 @@
       "data": "2026-10-27T15:11:02+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-28T03:49:16+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados, parágrafos por extenso, assinatura"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:16+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 5 (lote 3, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -244,5 +280,6 @@
       "pagina": 2,
       "texto": "Art. 1Fica instituído procedimento, com fulcro no parágrafo segundo do artigo 29 e parágrafoúnico do artigo 41 da Resolução CFESS no582/2010, quando constatado(s) indícios deirregularidade(s) na documentação da/o interessada/o, em especial:"
     }
-  ]
+  ],
+  "nota_vigencia": "Vigente com as alterações da Res. CFESS nº 900/2019 (versão compilada). Remete a artigos da Res. 582/2010 que foram revogados pela Res. 1.014/2022 (Art. 47); a inscrição hoje segue a Res. 1.014/2022."
 }

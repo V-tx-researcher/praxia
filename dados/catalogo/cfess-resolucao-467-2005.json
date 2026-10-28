@@ -7,12 +7,12 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
+  "assunto_principal": "exercicio_profissional",
   "assuntos_secundarios": [],
   "ementa": "Altera o parágrafo 1º e inclui o parágrafo 2º no artigo 1º da Resolução CFESS 418/2001.",
   "data_publicacao": "2005-03-17",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "vigente_confirmada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
@@ -61,9 +61,11 @@
   "versao_atual": "234d96f82e611239",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "234d96f82e611239",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
   },
   "indexacao": {
     "paginas": 2,
@@ -91,7 +93,7 @@
     "classificacao": "boa"
   },
   "alertas": [],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -218,6 +220,34 @@
       "data": "2026-10-27T15:11:00+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados, parágrafos por extenso, assinatura"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -231,5 +261,6 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:25:54+00:00"
-  }
+  },
+  "nota_vigencia": "Vigente; incorporada à versão compilada da Res. 418/2001. Os valores do texto são de 2005."
 }

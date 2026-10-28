@@ -20,7 +20,7 @@ const PESO_TIPO = {
 };
 
 const PESO_SITUACAO = {
-  vigente_confirmada: 1.0, alterada: 1.0, nao_verificada: 0.95, historica: 0.6, revogada: 0.5,
+  vigente_confirmada: 1.0, alterada: 1.0, nao_verificada: 0.95, historica: 0.6, revogada: 0.5, sem_efeito_judicial: 0.5,
 };
 
 export class IndiceLexical {

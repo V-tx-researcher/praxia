@@ -48,10 +48,10 @@ RE_ARTIGO = re.compile(r"^Art(?:igo)?\.?\s*(\d+)\s*(?:[º°o]|\.)?(?:-([A-Z])(?=
 # "Parágrafo único" só com inicial maiúscula e sem continuar como remissão ("Parágrafo único do artigo 18").
 RE_ANEXO_NUMERADO = re.compile(r"^ANEXO\s+([IVXLC]+|\d+)\s*$")
 RE_TITULO_ANEXO = re.compile(r"^(C[ÓO]DIGO|REGULAMENTO|REGIMENTO|ANEXO|POL[ÍI]TICA|NORMAS|TABELA|ESTATUTO|INSTRUMENTA)\S*\s+\S{2,}")
-RE_NOVA_REDACAO = re.compile(r"(seguinte|nova)\s+reda[çc][ãa]o\s*:?\s*$|(passa|passam)\s+a\s+(vigorar|ter)\b.*(reda[çc][ãa]o|acrescid[oa]).*:\s*$",
+RE_NOVA_REDACAO = re.compile(r"(seguinte|nova)\s+reda[çc][ãa]o\s*:?\s*$|seguintes\s+termos\s*:\s*$|(acrescid|inclu[ií]d|alterad)[oa]s?\b.*\b(artigo|art\.)\s*\d+[^:]*:\s*$|(passa|passam)\s+a\s+(vigorar|ter)\b.*(reda[çc][ãa]o|acrescid[oa]).*:\s*$",
                               re.I)
 RE_PARAGRAFO = re.compile(r"^(?:§\s*(\d+)\s*[º°o]?\s*\.?\s*[-–—]?|PAR[ÁA]GRAFO\s+[ÚU]NICO|Par[áa]grafo\s+[úu]nico(?!\s+d[oa]s?\s)"
-                          r"|Par[áa]grafo\s+(primeiro|segundo|terceiro|quarto|quinto|sexto|s[ée]timo|oitavo|nono|d[ée]cimo)\b"
+                          r"|Par[áa]grafo\s+(?i:(primeiro|segundo|terceiro|quarto|quinto|sexto|s[ée]timo|oitavo|nono|d[ée]cimo))\b"
                           r"(?!\s+d[oa]s?\s))"
                           r"\s*\.?\s*[-–—:]?\s*")
 ORDINAIS_EXTENSO = {"primeiro": 1, "segundo": 2, "terceiro": 3, "quarto": 4, "quinto": 5, "sexto": 6,
@@ -61,7 +61,7 @@ RE_ALINEA = re.compile(r"^([a-z])\s*[-–)]\s*(?=\S)")
 RE_TITULO = re.compile(r"^T[ÍI]TULO\s+([IVXLC]+|[ÚU]NICO)\b", re.I)
 RE_CAPITULO = re.compile(r"^CAP[ÍI]TULO\s+([IVXLC]+|[ÚU]NICO)\b", re.I)
 RE_SECAO = re.compile(r"^SE[ÇC][ÃA]O\s+([IVXLC]+|[ÚU]NICA)\b", re.I)
-RE_ASSINATURA = re.compile(r"^(Conselheir[oa]\s+)?Presidente\s+(do|da)\s+(CFESS|Cfess|Conselho)\b", re.I)
+RE_ASSINATURA = re.compile(r"^(Conselheir[oa]\s+)?President[ea]\s+(do|da)\s+(CFESS|Cfess|Conselho)\b", re.I)
 RE_SUBTITULO = re.compile(r"^D[aoe]s?\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]")
 
 # Marcos de início de partes (textos normativos distintos dentro de um mesmo arquivo).
@@ -141,7 +141,11 @@ def linhas_repetitivas(por_pagina: list[list[Linha]]) -> set[tuple[int, int]]:
     n = len(por_pagina)
     candidatos = Counter()
     for linhas in por_pagina:
-        bordas = {_chave_repeticao(l.texto) for l in linhas[:JANELA_BORDA] + linhas[-JANELA_BORDA:] if len(l.texto) <= 120}
+        # Fragmentos de texto corrido ("redação:", "Art. 2º") se repetem em normas que
+        # alteram outras; cabeçalho e rodapé não terminam em ":", ";" ou ",".
+        bordas = {_chave_repeticao(l.texto) for l in linhas[:JANELA_BORDA] + linhas[-JANELA_BORDA:]
+                  if len(l.texto) <= 120 and not l.texto.rstrip().endswith((":", ";", ","))
+                  and not RE_ARTIGO.match(l.texto)}
         candidatos.update(bordas)
     # Em documentos curtos basta repetir em 2 páginas; nos longos, em 20% delas (mín. 3).
     limiar = 2 if n <= 4 else max(3, int(0.2 * n))
@@ -285,19 +289,30 @@ class Segmentador:
         # Art. 1º …"): artigos citados com número não superior ao do artigo que os
         # introduz pertencem a esse artigo, e não à norma que está sendo lida.
         redacao_ativa = False
+        ativada_em = -2
         while i < len(linhas):
             l = linhas[i]
             t = l.texto
             m_cit = RE_ARTIGO.match(t)
             if redacao_ativa and atual is not None:
-                if m_cit and (int(m_cit.group(1)) > ultimo_artigo and not m_cit.group(2)):
+                # Só o artigo seguinte da própria norma encerra o texto citado: o
+                # citado pode ter número maior (Res. 828/2017 cita o Art. 17 da 512).
+                # É trecho citado, mesmo com o número seguinte: "Art. 2º (...)", "Art. 2º"
+                # sozinho na linha e o artigo logo após "… a seguinte redação:".
+                resto = t[m_cit.end():].strip() if m_cit else ""
+                if (m_cit and int(m_cit.group(1)) == ultimo_artigo + 1 and not m_cit.group(2)
+                        and resto and not re.match(r"\(\s*\.\.\.\s*\)|…", resto)
+                        and ativada_em != i - 1):
                     redacao_ativa = False  # retomou a numeração própria da norma
                 else:
                     atual.linhas.append(l)
                     i += 1
                     continue
-            if artigo is not None and RE_NOVA_REDACAO.search(t):
+            # A fórmula pode estar partida em duas linhas ("passa a ter a seguinte" / "redação:").
+            if artigo is not None and (RE_NOVA_REDACAO.search(t) or (
+                    i > 0 and RE_NOVA_REDACAO.search(linhas[i - 1].texto + " " + t))):
                 redacao_ativa = True
+                ativada_em = i
 
             # 1. Partes (manuais têm precedência sobre as detectadas)
             pm = self._parte_manual(l.pagina)

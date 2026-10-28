@@ -83,11 +83,11 @@
   "versao_atual": "47ae50774eea8a3f",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": "2026-10-27",
+    "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. Observação: as justificativas escritas no formulário referiam-se à Res. 533/2008 (provável troca de campo); as marcações da 557/2009 foram consideradas. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida.",
+    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. Observação: as justificativas escritas no formulário referiam-se à Res. 533/2008 (provável troca de campo); as marcações da 557/2009 foram consideradas. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "47ae50774eea8a3f",
-    "registrado_em": "2026-10-27T15:10:52+00:00"
+    "registrado_em": "2026-10-28T03:49:18+00:00"
   },
   "indexacao": {
     "paginas": 3,
@@ -299,6 +299,34 @@
       "data": "2026-10-27T15:10:52+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta)"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. Observação: as justificativas escritas no formulário referiam-se à Res. 533/2008 (provável troca de campo); as marcações da 557/2009 foram consideradas. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -316,8 +344,8 @@
   "conferencia_original": {
     "data": "2026-10-27",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. Observação: as justificativas escritas no formulário referiam-se à Res. 533/2008 (provável troca de campo); as marcações da 557/2009 foram consideradas. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida.",
+    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. Observação: as justificativas escritas no formulário referiam-se à Res. 533/2008 (provável troca de campo); as marcações da 557/2009 foram consideradas. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "47ae50774eea8a3f",
-    "registrado_em": "2026-10-27T14:16:34+00:00"
+    "registrado_em": "2026-10-27T15:10:52+00:00"
   }
 }

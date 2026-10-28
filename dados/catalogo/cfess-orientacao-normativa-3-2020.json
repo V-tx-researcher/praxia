@@ -7,12 +7,12 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "orientacao_normativa",
   "abrangencia": "nacional",
-  "assunto_principal": null,
+  "assunto_principal": "condicoes_eticas_tecnicas",
   "assuntos_secundarios": [],
   "ementa": null,
   "data_publicacao": null,
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "alterada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
@@ -79,9 +79,11 @@
   "versao_atual": "3de4468b1dbe9119",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "3de4468b1dbe9119",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
   },
   "indexacao": {
     "paginas": 2,
@@ -109,7 +111,7 @@
     "classificacao": "boa"
   },
   "alertas": [],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -278,6 +280,34 @@
       "data": "2026-10-27T15:11:00+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-28T03:49:14+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados, parágrafos por extenso, assinatura"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:14+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -291,5 +321,6 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T20:55:43+00:00"
-  }
+  },
+  "nota_vigencia": "Vigente. Remete à Res. CFESS nº 493/2006, revogada pela Res. 1.114/2025 (Art. 21); as condições éticas e técnicas hoje seguem a Res. 1.114/2025."
 }

@@ -4,6 +4,42 @@ Conferências feitas pelo revisor do projeto (assistente social), registradas se
 identificação pessoal (D19). As respostas originais ficam nos arquivos `.docx` desta
 pasta; o registro no catálogo é feito por scripts em `scripts/revisao/`.
 
+## Atividades nº 5 a 8 — Lotes 3 a 6, 39 normas (27–28/10/2026)
+
+**Resultado:** 39 normas aprovadas e publicadas; acervo público completo (59
+documentos). O revisor respondeu com apoio do ChatGPT (prompt em
+`PROMPT_ChatGPT_pesquisa.md`) e marcou ele mesmo as opções. Registro em
+`scripts/revisao/registrar_atividades_5a8.py`.
+
+| Lote | Situações registradas |
+|---|---|
+| 3 — inscrição e registro | vigentes: 1.018/2023, 1.147/2026, 1.116/2025, 572/2010, 590/2010, 785/2016; com alterações: 1.014/2022 (1.018, 1.068, 1.095, 1.147), 1.068/2024, 1.015/2022 (1.018 — o PDF do CFESS não traz a nova redação; aviso nos Arts. 2º, § 2º, e 30), 1.031/2023 (1.116), 884/2018 (900/2019) |
+| 4 — processo ético | vigentes: 938/2020, 1.013/2022, 988/2022, 861/2018, 923/2019; com alterações: 548/2009 (726, 943, 1.103), 943/2020, 726/2015; revogadas: 555/2009 e 560/2009 (Res. 582/2010, Art. 2º) |
+| 5 — fiscalização e outros | vigentes: 828/2017, ON 4/2020, 467/2005, 845/2018, 383/1999; com alterações: ON 3/2020, 418/2001 (467/2005); revogadas: 782/2016 (828/2017, Art. 3º), 707/2015 e ON 1/2018 (base revogada pela 1.014/2022, Art. 47), **ON 2/2018** (ver abaixo) |
+| 6 — históricas | revogadas: 443/2003, 493/2006, 513/2007, 556/2009, 615/2011; suspensas/invalidadas por decisão judicial: 554/2009, 559/2009 (D32) |
+
+Relações conferidas pelo desenvolvimento no texto oficial: 1.031/2023, Art. 14
+(revoga 792/2017 e ON 2/2018); 828/2017, Art. 3º (revoga 782/2016); 1.014/2022, Art. 47
+(revoga os Arts. 27 a 78 da 582/2010); 582/2010, Art. 2º (revoga 555 e 560/2009 —
+PDF em cfess.org.br/arquivos/582.pdf); 1.095/2025, Arts. 1º a 4º (altera a 1.014);
+785/2016, Art. 7º; 556/2009, Art. 12; 1.098/2025, Art. 18; 1.114/2025, Art. 21.
+
+Pontos de atenção:
+- **ON 2/2018:** marcada "Vigente" pelo revisor, mas revogada expressamente pela
+  Res. 1.031/2023, Art. 14. Registrada como revogada (D31); a conferência anota a
+  divergência.
+- **Res. 1.147/2026:** pergunta a) sem marcação; amostras marcadas como iguais.
+- **Res. 383/1999:** a) e amostras sem marcação. A transcrição (D28) foi comparada
+  automaticamente com o exemplar em texto do CFESS achado na pesquisa
+  (`arquivos/resolucao_383_99.pdf`): 99,8% igual, única diferença um hífen.
+- Problemas de leitura apontados nas atividades (artigos citados lidos como próprios
+  nas Res. 828/2017, 707/2015, 938/2020, 943/2020, 1.068/2024 e 1.147/2026;
+  "Parágrafo Primeiro" não reconhecido; assinatura com "Presidenta") foram corrigidos
+  (D33) e todo o acervo reprocessado.
+- Fora dos lotes, sem conferência própria: textos originais incorporados às
+  compiladas (657/2013, 418/2001, 1.103/2025), a duplicata 792/2017 e a compilada
+  ilegível da 954/2020.
+
 ## Atividade nº 4 — Lote 2, 11 normas + pendência da 954/2020 (27/10/2026, segunda devolução)
 
 **Resultado:** 12 normas aprovadas e publicadas (índice público: 20 documentos).

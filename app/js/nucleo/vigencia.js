@@ -24,6 +24,10 @@ export function avaliarVigencia(doc, dataFatos = null, unidade = null) {
       aplicavel = false;
       avisos.push("Documento revogado: serve apenas como referência histórica, salvo para fatos ocorridos durante sua vigência.");
       break;
+    case "sem_efeito_judicial":
+      aplicavel = false;
+      avisos.push(doc.nota_vigencia || "Norma suspensa ou invalidada por decisão judicial: não deve ser aplicada.");
+      break;
     case "historica":
       aplicavel = false;
       avisos.push("Edição histórica: não corresponde à redação atual.");

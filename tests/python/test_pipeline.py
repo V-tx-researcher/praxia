@@ -266,6 +266,16 @@ class TestTranscricaoEAssinatura(unittest.TestCase):
         self.assertIsNone(processamento.acrescimos_transcricao("Art. 1º É vedado", "Art. 1º É permitido"))
         self.assertIsNone(processamento.acrescimos_transcricao("Art. 1º É vedado ao", "Art. 1º É vedado"))
 
+    def test_artigo_citado_com_numero_maior_nao_vira_artigo_proprio(self):
+        # Res. 828/2017: a nova redação do Art. 17 da 512/2007 é citada no Art. 1º;
+        # os Arts. 2º e 3º da 828 não podem ser engolidos pelo artigo citado.
+        pags = ["Art. 1º Alterar o artigo 17 da Resolução CFESS nº 512, que passa a\nter a seguinte redação:\n"
+                "Art. 17 – Ficam instituídos os instrumentais:\nI- Relatório de Visita;\n",
+                "Art. 2º O caput do art. 3º passa a ter a seguinte redação:\nArt. 3º O processo será encaminhado.\n"
+                "Art. 3º Revogar a Resolução CFESS nº 782.\n"]
+        ids = [u["id"].split(":", 1)[1] for u in estrutura.segmentar(pags, "teste")["unidades"]]
+        self.assertEqual(ids, ["art-1", "art-2", "art-3"])
+
     def test_assinatura_fica_fora_do_ultimo_artigo(self):
         pag = ("Art. 1º Fica instituído o modelo.\n"
                "Art. 2º Esta Resolução entra em vigor na data de sua publicação.\n"

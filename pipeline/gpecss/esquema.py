@@ -63,6 +63,7 @@ SITUACOES_NORMATIVAS = {
     "vigente_confirmada": "Vigente (confirmada)",
     "alterada": "Vigente com alterações",
     "revogada": "Revogada",
+    "sem_efeito_judicial": "Suspensa ou invalidada por decisão judicial",
     "historica": "Edição histórica",
     "nao_verificada": "Vigência ainda não verificada",
 }

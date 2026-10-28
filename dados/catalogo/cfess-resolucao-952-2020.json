@@ -59,11 +59,11 @@
   "versao_atual": "04db4aa595f7f98f",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": "2026-10-27",
+    "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Pendência resolvida por pesquisa do desenvolvimento, por delegação expressa do revisor (27/10/2026): vigência (o revisor marcou \"Não sei\").",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Pendência resolvida por pesquisa do desenvolvimento, por delegação expressa do revisor (27/10/2026): vigência (o revisor marcou \"Não sei\"). | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "04db4aa595f7f98f",
-    "registrado_em": "2026-10-27T15:10:37+00:00"
+    "registrado_em": "2026-10-28T03:49:18+00:00"
   },
   "indexacao": {
     "paginas": 4,
@@ -233,6 +233,34 @@
       "data": "2026-10-27T15:10:37+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta)"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Pendência resolvida por pesquisa do desenvolvimento, por delegação expressa do revisor (27/10/2026): vigência (o revisor marcou \"Não sei\"). | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -247,5 +275,12 @@
     "externos": [],
     "descoberto_em": "2026-10-26T21:19:30+00:00"
   },
-  "nota_vigencia": "Vigente. Nenhuma norma posterior que a altere ou revogue foi localizada nas 682 páginas de legislação do portal do CFESS (ementas) nem nos textos já processados; o material do CFESS \"Outras publicações para processamento ético\" (2026) a lista entre as normas de referência."
+  "nota_vigencia": "Vigente. Nenhuma norma posterior que a altere ou revogue foi localizada nas 682 páginas de legislação do portal do CFESS (ementas) nem nos textos já processados; o material do CFESS \"Outras publicações para processamento ético\" (2026) a lista entre as normas de referência.",
+  "conferencia_original": {
+    "data": "2026-10-27",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Pendência resolvida por pesquisa do desenvolvimento, por delegação expressa do revisor (27/10/2026): vigência (o revisor marcou \"Não sei\").",
+    "versao_conferida": "04db4aa595f7f98f",
+    "registrado_em": "2026-10-27T15:10:37+00:00"
+  }
 }

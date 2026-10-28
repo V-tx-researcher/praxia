@@ -92,7 +92,9 @@ def construir(modo: str = "publico", destino: Path | None = None, log=print) -> 
             "conferido": conferido,
             # Indicações de revogação/invalidade escritas no portal oficial, ainda não
             # conferidas: exibidas como alerta e usadas para reduzir o peso na busca.
-            "indicacoes_portal": [a.split(":", 1)[1] for a in reg["alertas"] if a.startswith("portal_indica_situacao:")],
+            # Depois da conferência, a situação conferida (e sua nota) substitui a indicação.
+            "indicacoes_portal": [] if reg["estado_fluxo"] in {"aprovado", "publicado"} else
+            [a.split(":", 1)[1] for a in reg["alertas"] if a.startswith("portal_indica_situacao:")],
             # Só a data: o índice público não identifica quem conferiu (D19).
             "conferencia": {"data": reg["conferencia"].get("data")}
             if conferido else None,

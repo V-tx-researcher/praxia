@@ -7,17 +7,23 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
+  "assunto_principal": "registro_inscricao",
   "assuntos_secundarios": [],
   "ementa": "Dispõe sobre a inclusão e uso do nome social da assistente social travesti e do(a) assistente social transexual nos documentos de identidade profissional",
   "data_publicacao": "2011-09-08",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "revogada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
     "alterado_por": [],
-    "revogado_por": [],
+    "revogado_por": [
+      {
+        "id": "cfess-resolucao-785-2016",
+        "verificado": true,
+        "descricao": "Revogação (Art. 7º)."
+      }
+    ],
     "mencoes_detectadas": [
       {
         "referencia": "lei-8662-1993",
@@ -49,9 +55,11 @@
   "versao_atual": "a2df1839d389083e",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 8 (lote 6, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "a2df1839d389083e",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
   },
   "indexacao": {
     "paginas": 2,
@@ -81,7 +89,7 @@
   "alertas": [
     "portal_indica_situacao:revogada pela Resolução CFESS nº 785/2016"
   ],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -208,6 +216,34 @@
       "data": "2026-10-27T15:11:01+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados, parágrafos por extenso, assinatura"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 8 (lote 6, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -221,5 +257,6 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:23:52+00:00"
-  }
+  },
+  "nota_vigencia": "Revogada pela Res. CFESS nº 785/2016 (Art. 7º), que trata hoje do nome social."
 }

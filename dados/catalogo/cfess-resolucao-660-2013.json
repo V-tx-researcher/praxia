@@ -86,11 +86,11 @@
   "versao_atual": "b00db0c6fad6599c",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": "2026-10-27",
+    "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Trechos riscados retirados confirmados pelo revisor (págs. 6 e 18).",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Trechos riscados retirados confirmados pelo revisor (págs. 6 e 18). | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "b00db0c6fad6599c",
-    "registrado_em": "2026-10-27T15:10:37+00:00"
+    "registrado_em": "2026-10-28T03:49:18+00:00"
   },
   "indexacao": {
     "paginas": 19,
@@ -115,8 +115,8 @@
       18,
       19
     ],
-    "dispositivos": 100,
-    "unidades": 105,
+    "dispositivos": 170,
+    "unidades": 175,
     "partes": [
       {
         "slug": "texto",
@@ -284,6 +284,34 @@
       "data": "2026-10-27T15:10:37+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta)"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Trechos riscados retirados confirmados pelo revisor (págs. 6 e 18). | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -308,5 +336,12 @@
       "texto": "Parágrafo Único A citação e/ou o conhecimento expresso, de que trata este artigo, ensejará adefesa escrita ou a termo, conforme o caso, a partir do qual recomeçará a fluir novo prazoprescricionalArt. 75 Todo processo disciplinar paralisado há mais de 2 (dois) anos, pendente de ato processualdespacho ou julgamento, será arquivado ex-ofício, ou a requerimento da parte interessada"
     }
   ],
-  "nota_vigencia": "Vigente com alterações das Res. CFESS nº 938/2020 e 1.013/2022 (versão compilada; texto riscado retirado). A Res. CFESS nº 988/2022 disciplina a realização eletrônica dos atos e ritos deste Código."
+  "nota_vigencia": "Vigente com alterações das Res. CFESS nº 938/2020 e 1.013/2022 (versão compilada; texto riscado retirado). A Res. CFESS nº 988/2022 disciplina a realização eletrônica dos atos e ritos deste Código.",
+  "conferencia_original": {
+    "data": "2026-10-27",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Trechos riscados retirados confirmados pelo revisor (págs. 6 e 18).",
+    "versao_conferida": "b00db0c6fad6599c",
+    "registrado_em": "2026-10-27T15:10:37+00:00"
+  }
 }

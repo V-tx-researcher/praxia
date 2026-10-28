@@ -40,11 +40,11 @@
   "versao_atual": "ce603f13a5cdfa27",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": "2026-10-27",
+    "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Trecho riscado do Art. 30 confirmado pelo revisor.",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Trecho riscado do Art. 30 confirmado pelo revisor. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "ce603f13a5cdfa27",
-    "registrado_em": "2026-10-27T15:10:37+00:00"
+    "registrado_em": "2026-10-28T03:49:18+00:00"
   },
   "indexacao": {
     "paginas": 10,
@@ -229,6 +229,34 @@
       "data": "2026-10-27T15:10:37+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta)"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Trecho riscado do Art. 30 confirmado pelo revisor. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:49:18+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -249,5 +277,12 @@
       "texto": "Parágrafo único Para efeitos de fixação da pena serão consideradas especialmente graves asinfrações tipificadas nos incisos I, IV e V do artigo 2desta Resolução"
     }
   ],
-  "nota_vigencia": "Vigente (versão compilada). Parágrafo único do Art. 30 retificado em 26/05/2015; a redação anterior, riscada, foi retirada. A Res. CFESS nº 988/2022 disciplina a realização eletrônica dos atos e ritos deste Código."
+  "nota_vigencia": "Vigente (versão compilada). Parágrafo único do Art. 30 retificado em 26/05/2015; a redação anterior, riscada, foi retirada. A Res. CFESS nº 988/2022 disciplina a realização eletrônica dos atos e ritos deste Código.",
+  "conferencia_original": {
+    "data": "2026-10-27",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Trecho riscado do Art. 30 confirmado pelo revisor.",
+    "versao_conferida": "ce603f13a5cdfa27",
+    "registrado_em": "2026-10-27T15:10:37+00:00"
+  }
 }

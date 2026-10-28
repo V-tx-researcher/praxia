@@ -22,7 +22,10 @@ script, prefira editar com ferramentas que preservem `\b`, `\n` e `\u` literais;
 
 ## Etapa seguinte (após as decisões do responsável)
 
-00. **Conferências em lote:** lotes 1 e 2 registrados; Atividades nº 5 a 8 (lotes 3 a 6)
+00. **Conferências em lote:** concluídas (lotes 1 a 6; 59 documentos publicados). Pendente
+   só a ciência do revisor sobre a ON 2/2018 (D31). Próximo grande passo: busca semântica
+   (D-P3) — a taxa da avaliação caiu para 0,842 com o acervo completo — e normas dos
+   CRESS com seletor de UF (D25). Histórico do item: Atividades nº 5 a 8 (lotes 3 a 6)
    enviadas ao revisor (`scripts/revisao/preparar_lotes_restantes.py` e
    `atividade_lote.js`, com NODE_PATH apontando para um `node_modules` com `docx`).
    Ao voltarem: registrar como em `registrar_atividade4.py`; só valem as marcações ☒

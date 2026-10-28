@@ -7,12 +7,14 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
-  "assuntos_secundarios": [],
+  "assunto_principal": "documentos_tecnicos",
+  "assuntos_secundarios": [
+    "relacao_usuarios"
+  ],
   "ementa": "Dispõe sobre o não reconhecimento da inquirição das vítimas crianças e adolescentes no processo judicial, sob a Metodologia do Depoimento Sem Dano/DSD",
   "data_publicacao": "2009-09-15",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "sem_efeito_judicial",
   "alteracoes": {
     "altera": [],
     "revoga": [],
@@ -70,9 +72,11 @@
   "versao_atual": "38adfd1e28fabbaf",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 8 (lote 6, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "38adfd1e28fabbaf",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
   },
   "indexacao": {
     "paginas": 2,
@@ -102,7 +106,7 @@
   "alertas": [
     "portal_indica_situacao:Invalidada definitivamente por decisão da 1ª Vara Federal da Seção Judiciária do Ceará"
   ],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -271,6 +275,34 @@
       "data": "2026-10-27T15:11:00+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados, parágrafos por extenso, assinatura"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 8 (lote 6, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -284,5 +316,6 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:24:28+00:00"
-  }
+  },
+  "nota_vigencia": "Invalidada por decisão judicial: sentença da 1ª Vara Federal do Ceará (ação 0004766-50.2012.4.05.8100), com trânsito em julgado registrado em 2019, segundo o Parecer Jurídico CFESS nº 55/2020 e o aviso no próprio PDF do CFESS. Não deve ser aplicada."
 }

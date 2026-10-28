@@ -7,16 +7,35 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
-  "assuntos_secundarios": [],
+  "assunto_principal": "exercicio_profissional",
+  "assuntos_secundarios": [
+    "registro_inscricao"
+  ],
   "ementa": "Dispõe sobre a Anotação da Responsabilidade Técnica no âmbito do Serviço Social, bem como regulamenta os procedimentos para a expedição da respectiva certidão pelos CRESS",
   "data_publicacao": "2023-04-27",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "alterada",
   "alteracoes": {
     "altera": [],
-    "revoga": [],
-    "alterado_por": [],
+    "revoga": [
+      {
+        "id": "cfess-resolucao-792-2017",
+        "verificado": true,
+        "descricao": "Revogação integral (Art. 14)."
+      },
+      {
+        "id": "cfess-orientacao-normativa-2-2018",
+        "verificado": true,
+        "descricao": "Revogação integral (Art. 14)."
+      }
+    ],
+    "alterado_por": [
+      {
+        "id": "cfess-resolucao-1116-2025",
+        "verificado": true,
+        "descricao": "Art. 1º: Art. 3º, II (vínculo de sócia/o)."
+      }
+    ],
     "revogado_por": [],
     "mencoes_detectadas": [
       {
@@ -80,9 +99,11 @@
   "versao_atual": "9ce7893fdba21585",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 5 (lote 3, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "9ce7893fdba21585",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
   },
   "indexacao": {
     "paginas": 5,
@@ -93,8 +114,8 @@
       4,
       5
     ],
-    "dispositivos": 24,
-    "unidades": 26,
+    "dispositivos": 40,
+    "unidades": 42,
     "partes": [
       {
         "slug": "texto",
@@ -115,7 +136,7 @@
   "alertas": [
     "texto_riscado_removido:45"
   ],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -270,6 +291,34 @@
       "data": "2026-10-27T15:11:00+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados, parágrafos por extenso, assinatura"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 5 (lote 3, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -293,5 +342,6 @@
       "pagina": 2,
       "texto": "comprovante de vínculo de trabalho remunerado"
     }
-  ]
+  ],
+  "nota_vigencia": "Vigente com a alteração da Res. CFESS nº 1.116/2025 (Art. 3º, II; versão compilada). Revogou a Res. 792/2017 e a Orientação Normativa 2/2018 (Art. 14)."
 }

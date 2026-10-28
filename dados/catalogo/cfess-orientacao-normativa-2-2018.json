@@ -7,17 +7,23 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "orientacao_normativa",
   "abrangencia": "nacional",
-  "assunto_principal": null,
+  "assunto_principal": "exercicio_profissional",
   "assuntos_secundarios": [],
   "ementa": null,
   "data_publicacao": null,
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "revogada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
     "alterado_por": [],
-    "revogado_por": [],
+    "revogado_por": [
+      {
+        "id": "cfess-resolucao-1031-2023",
+        "verificado": true,
+        "descricao": "Revogação integral (Art. 14)."
+      }
+    ],
     "mencoes_detectadas": [
       {
         "referencia": "cfess-resolucao-792-2017",
@@ -98,9 +104,11 @@
   "versao_atual": "f1aa36abebde69bc",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. DIVERGÊNCIA: o revisor marcou \"Vigente\", mas a Res. CFESS nº 1.031/2023, Art. 14, revoga expressamente esta orientação (texto oficial conferido pelo desenvolvimento); registrada como revogada (D31), aguardando ciência do revisor.",
+    "versao_conferida": "f1aa36abebde69bc",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
   },
   "indexacao": {
     "paginas": 4,
@@ -130,7 +138,7 @@
     "classificacao": "boa"
   },
   "alertas": [],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -299,6 +307,34 @@
       "data": "2026-10-27T15:11:00+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-28T03:49:14+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados, parágrafos por extenso, assinatura"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:14+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. DIVERGÊNCIA: o revisor marcou \"Vigente\", mas a Res. CFESS nº 1.031/2023, Art. 14, revoga expressamente esta orientação (texto oficial conferido pelo desenvolvimento); registrada como revogada (D31), aguardando ciência do revisor."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -312,5 +348,6 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T20:55:45+00:00"
-  }
+  },
+  "nota_vigencia": "Revogada expressamente pela Res. CFESS nº 1.031/2023 (Art. 14)."
 }

@@ -7,16 +7,22 @@
   "orgao_emissor": "CFESS",
   "tipo_documental": "resolucao",
   "abrangencia": "nacional",
-  "assunto_principal": null,
+  "assunto_principal": "registro_inscricao",
   "assuntos_secundarios": [],
   "ementa": "Regulamenta o registro de pessoa jurídica nos CRESS",
   "data_publicacao": "2022-12-13",
   "inicio_vigencia": null,
-  "situacao_normativa": "nao_verificada",
+  "situacao_normativa": "alterada",
   "alteracoes": {
     "altera": [],
     "revoga": [],
-    "alterado_por": [],
+    "alterado_por": [
+      {
+        "id": "cfess-resolucao-1018-2023",
+        "verificado": true,
+        "descricao": "Art. 2º: § 2º do Art. 2º; Art. 4º: Art. 30."
+      }
+    ],
     "revogado_por": [],
     "mencoes_detectadas": [
       {
@@ -59,9 +65,11 @@
   "versao_atual": "40b1505d5fba7496",
   "redistribuicao": "link_e_excertos",
   "conferencia": {
-    "data": null,
-    "responsavel": null,
-    "observacoes": null
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 5 (lote 3, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "40b1505d5fba7496",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
   },
   "indexacao": {
     "paginas": 6,
@@ -73,8 +81,8 @@
       5,
       6
     ],
-    "dispositivos": 43,
-    "unidades": 46,
+    "dispositivos": 59,
+    "unidades": 62,
     "partes": [
       {
         "slug": "texto",
@@ -93,7 +101,7 @@
     "classificacao": "boa"
   },
   "alertas": [],
-  "estado_fluxo": "aguardando_conferencia",
+  "estado_fluxo": "publicado",
   "historico_estados": [
     {
       "de": null,
@@ -220,6 +228,34 @@
       "data": "2026-10-27T15:11:00+00:00",
       "por": "processador",
       "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "processado",
+      "data": "2026-10-28T03:49:14+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: artigos citados, parágrafos por extenso, assinatura"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T03:49:15+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 5 (lote 3, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T03:50:34+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -233,5 +269,24 @@
     ],
     "externos": [],
     "descoberto_em": "2026-10-26T21:18:02+00:00"
-  }
+  },
+  "nota_vigencia": "Vigente com alterações da Res. CFESS nº 1.018/2023. Atenção: o PDF publicado pelo CFESS ainda traz a redação anterior do § 2º do Art. 2º e do Art. 30 (avisos nos próprios dispositivos).",
+  "dispositivos_afetados": [
+    {
+      "unidade": "texto:art-2:par-2",
+      "situacao": "alterado",
+      "nota": "nova redação dada pela Resolução CFESS nº 1.018/2023 (Art. 2º): a assinatura eletrônica obedece ao inciso I do artigo 4º da Lei nº 14.063/2020.",
+      "fontes": [
+        "cfess-resolucao-1018-2023#texto:art-2"
+      ]
+    },
+    {
+      "unidade": "texto:art-30",
+      "situacao": "alterado",
+      "nota": "nova redação dada pela Resolução CFESS nº 1.018/2023 (Art. 4º): vigência a partir de 1º de março de 2023.",
+      "fontes": [
+        "cfess-resolucao-1018-2023#texto:art-4"
+      ]
+    }
+  ]
 }

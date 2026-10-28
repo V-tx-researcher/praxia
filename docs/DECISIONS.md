@@ -168,6 +168,29 @@ expressamente uma pendência, o desenvolvimento pesquisa em fonte oficial e a
 aprovação registra essa origem na observação da conferência e em
 `docs/revisao/REGISTRO.md`. O revisor pode revê-la a qualquer momento.
 
+**D31 — 28/10/2026 — Marcação contrária ao texto oficial.** Quando a marcação do
+revisor contradiz um texto oficial conferido (ex.: Orientação Normativa 2/2018
+marcada "Vigente", mas revogada expressamente pela Res. 1.031/2023, Art. 14), vale o
+texto oficial, sempre no sentido mais cauteloso (não apresentar como vigente). A
+divergência fica registrada na conferência e é comunicada ao revisor, que pode revê-la.
+
+**D32 — 28/10/2026 — Situação "suspensa ou invalidada por decisão judicial"**
+(`sem_efeito_judicial`). Normas com efeitos suspensos ou invalidadas pela Justiça
+(Res. 554/2009 e 559/2009) não são "revogadas" pelo CFESS; recebem situação própria,
+com o mesmo tratamento de inaplicabilidade e peso de busca das revogadas e nota com a
+decisão. Após a conferência, as indicações do portal deixam de aparecer como "não
+conferidas" (a nota conferida as substitui).
+
+**D33 — 28/10/2026 — Correções de segmentação apontadas nas conferências dos lotes 3 a 5.**
+(1) Em normas que dão nova redação a outras, só o artigo seguinte da própria norma
+encerra o texto citado; "Art. 2º (...)", "Art. 2º" sozinho na linha e o artigo logo
+após "a seguinte redação:" são citação (antes, o Art. 17 citado pela Res. 828/2017
+engolia os Arts. 2º a 5º, inclusive a revogação da Res. 782/2016). (2) A fórmula
+partida em duas linhas e "nos seguintes termos:" / "Ficam acrescidos … ao artigo N:"
+também abrem citação. (3) Linhas terminadas em ":", ";" ou "," e linhas de artigo não
+são tratadas como cabeçalho repetido. (4) "Parágrafo Primeiro" com inicial maiúscula
+é parágrafo. (5) "Presidenta" na assinatura. Documentos publicados reprocessados (D26).
+
 ## Pendentes (dependem do responsável)
 
 **D-P3 — Busca semântica:** modelo de embeddings (ex.: multilingual-e5-small,
