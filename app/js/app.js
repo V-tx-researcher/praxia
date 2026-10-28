@@ -46,13 +46,118 @@ function seloConferencia(conferido) {
     : el("span", { classe: "selo nao-conferido" }, "Texto NÃO conferido (prévia)");
 }
 
+// Copia para a área de transferência. A API moderna só existe em conexão segura (https);
+// em outros casos usa o método antigo, que ainda funciona na maioria dos navegadores.
 async function copiarTexto(texto, aviso) {
+  let ok = false;
   try {
-    await navigator.clipboard.writeText(texto);
-    if (aviso) aviso.textContent = "Copiado.";
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(texto);
+      ok = true;
+    }
   } catch {
-    if (aviso) aviso.textContent = "Não foi possível copiar automaticamente; selecione o texto e copie.";
+    ok = false;
   }
+  if (!ok) {
+    const area = el("textarea", { readonly: true, "aria-hidden": "true", style: "position:fixed;left:-9999px;top:0" });
+    area.value = texto;
+    document.body.append(area);
+    area.select();
+    try { ok = document.execCommand("copy"); } catch { ok = false; }
+    area.remove();
+  }
+  if (aviso) aviso.textContent = ok ? "Copiado." : "Não foi possível copiar automaticamente; selecione o texto e copie.";
+}
+
+// Envia o formulário (requestSubmit não existe em Safari antigo).
+function enviarFormulario(form) {
+  if (typeof form.requestSubmit === "function") form.requestSubmit();
+  else form.dispatchEvent(new Event("submit", { cancelable: true, bubbles: true }));
+}
+
+// ---------------------------------------------------------------- tema (escuro padrão; claro opcional)
+function aplicarTema(tema) {
+  const claro = tema === "claro";
+  if (claro) document.documentElement.setAttribute("data-tema", "claro");
+  else document.documentElement.removeAttribute("data-tema");
+  document.querySelector('meta[name="theme-color"]')?.setAttribute("content", claro ? "#173456" : "#0a0e14");
+  const b = $("#botao-tema");
+  b.textContent = claro ? "Tema escuro" : "Tema claro";
+  b.setAttribute("aria-pressed", String(claro));
+  b.setAttribute("aria-label", claro ? "Mudar para o tema escuro" : "Mudar para o tema claro");
+  try { localStorage.setItem("gpecss-tema", claro ? "claro" : "escuro"); } catch { /* vale só nesta visita */ }
+}
+
+function configurarTema() {
+  const atual = document.documentElement.getAttribute("data-tema") === "claro" ? "claro" : "escuro";
+  aplicarTema(atual);
+  $("#botao-tema").addEventListener("click", () =>
+    aplicarTema(document.documentElement.getAttribute("data-tema") === "claro" ? "escuro" : "claro"));
+}
+
+// ---------------------------------------------------------------- conexão, instalação e atualização
+function configurarConexao() {
+  const atualizar = () => { $("#faixa-rede").hidden = navigator.onLine !== false; };
+  window.addEventListener("online", atualizar);
+  window.addEventListener("offline", atualizar);
+  atualizar();
+}
+
+let pedidoInstalacao = null;
+function configurarInstalacao() {
+  window.addEventListener("beforeinstallprompt", (ev) => {
+    ev.preventDefault();
+    pedidoInstalacao = ev;
+    renderizarInstalacao();
+  });
+  window.addEventListener("appinstalled", () => { pedidoInstalacao = null; renderizarInstalacao(); });
+}
+
+function appInstalado() {
+  return window.matchMedia?.("(display-mode: standalone)").matches || navigator.standalone === true;
+}
+
+function renderizarInstalacao() {
+  const alvo = $("#instalar");
+  if (!alvo) return;
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  if (appInstalado()) {
+    alvo.replaceChildren(el("p", {}, "A plataforma já está instalada neste aparelho."));
+  } else if (pedidoInstalacao) {
+    alvo.replaceChildren(el("button", { type: "button", classe: "botao-primario", onclick: async () => {
+      pedidoInstalacao.prompt();
+      await pedidoInstalacao.userChoice.catch(() => null);
+      pedidoInstalacao = null;
+      renderizarInstalacao();
+    } }, "Instalar como aplicativo"));
+  } else if (ios) {
+    alvo.replaceChildren(el("p", {}, "No iPhone ou iPad (Safari): toque em Compartilhar e depois em “Adicionar à Tela de Início”."));
+  } else {
+    alvo.replaceChildren(el("p", {}, "No Chrome ou Edge (computador ou Android): use o ícone de instalar na barra de endereço ou o menu ⋮ › “Instalar app”. No Firefox de computador, adicione aos favoritos."));
+  }
+}
+
+function registrarServiceWorker() {
+  // Funciona em https e em localhost (contextos seguros).
+  if (!("serviceWorker" in navigator) || !window.isSecureContext) return;
+  let recarregando = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (recarregando) return;
+    recarregando = true;
+    location.reload();
+  });
+  navigator.serviceWorker.register("sw.js").then((reg) => {
+    const oferecer = (sw) => {
+      if (!sw || !navigator.serviceWorker.controller) return; // primeira instalação: nada a avisar
+      $("#faixa-atualizacao").hidden = false;
+      $("#atualizar").onclick = () => sw.postMessage("PULAR_ESPERA");
+    };
+    if (reg.waiting) oferecer(reg.waiting);
+    reg.addEventListener("updatefound", () => {
+      const novo = reg.installing;
+      novo?.addEventListener("statechange", () => { if (novo.state === "installed") oferecer(novo); });
+    });
+  }).catch(() => { /* sem service worker: o app funciona normalmente, só não fica offline */ });
 }
 
 // Referência ABNT e citação no texto, com botão de copiar (estudantes, docentes, relatórios).
@@ -83,12 +188,30 @@ async function carregarAcervo() {
   let modo = CONFIG.acervoPadrao;
   if (params.get("acervo") === "previa" && ambienteLocal()) modo = "previa";
   const arquivo = modo === "previa" ? "dados/acervo-previa.json" : "dados/acervo-publico.json";
-  try {
-    const r = await fetch(arquivo, { cache: "no-cache" });
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    estado.acervo = await r.json();
-  } catch (erro) {
-    estado.acervo = { modo, documentos: [], unidades: [], gerado_em: null, erro: String(erro) };
+  const aviso = $("#carregando");
+  aviso.hidden = false;
+  aviso.textContent = "Carregando o acervo de normas…";
+  // Até 3 tentativas: em redes móveis a primeira pode falhar.
+  let ultimoErro = null;
+  for (let tentativa = 1; tentativa <= 3 && !estado.acervo; tentativa++) {
+    try {
+      const r = await fetch(arquivo, { cache: "no-cache" });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const dados = await r.json();
+      if (!Array.isArray(dados.documentos) || !Array.isArray(dados.unidades)) throw new Error("arquivo do acervo em formato inesperado");
+      estado.acervo = dados;
+    } catch (erro) {
+      ultimoErro = erro;
+      if (tentativa < 3) await new Promise((ok) => setTimeout(ok, 800 * tentativa));
+    }
+  }
+  if (!estado.acervo) {
+    estado.acervo = { modo, documentos: [], unidades: [], gerado_em: null, erro: String(ultimoErro) };
+    aviso.replaceChildren(el("span", { classe: "alerta" },
+      "Não foi possível carregar o acervo (verifique a conexão). ",
+      el("button", { type: "button", classe: "botao", onclick: () => location.reload() }, "Tentar de novo")));
+  } else {
+    aviso.hidden = true;
   }
   estado.modo = modo;
   estado.indice = new IndiceLexical(estado.acervo);
@@ -283,6 +406,15 @@ async function aoConsultar(ev) {
     $("#pergunta").focus();
     return;
   }
+  if (!estado.indice) {
+    saida.replaceChildren(el("p", { classe: "alerta" }, "O acervo ainda está carregando. Tente de novo em alguns segundos."));
+    return;
+  }
+  if (!estado.acervo.unidades.length) {
+    saida.replaceChildren(el("p", { classe: "alerta" },
+      "O acervo de normas não foi carregado, por isso não há onde pesquisar. Verifique a conexão e recarregue a página."));
+    return;
+  }
   const botao = $("#consultar");
   botao.disabled = true;
   botao.textContent = "Consultando…";
@@ -425,7 +557,7 @@ function renderizarExemplos() {
     el("ul", { classe: "exemplos-lista" }, g.perguntas.map((q) => el("li", {},
       el("button", { type: "button", classe: "exemplo", onclick: () => {
         $("#pergunta").value = q;
-        $("#form-consulta").requestSubmit();
+        enviarFormulario($("#form-consulta"));
       } }, q)))))));
 }
 
@@ -523,6 +655,9 @@ function renderizarGuia() {
         el("li", {}, "Na Biblioteca normativa, filtre por tema, situação ou ano e use “Ler os dispositivos” para ler a norma inteira, artigo por artigo, com link para cada página do PDF."),
         el("li", {}, "O botão “Imprimir ou salvar em PDF” gera uma versão da resposta para estudo, aula ou registro."),
         el("li", {}, "Em trabalhos acadêmicos, cite a norma oficial (o PDF ou a página do CFESS), não esta plataforma."))),
+    secao("Instalar no celular ou no computador",
+      el("p", {}, "A plataforma pode ser instalada como aplicativo: abre em janela própria, tem ícone na tela inicial e continua funcionando sem internet com o acervo guardado no aparelho."),
+      el("div", { id: "instalar", classe: "instalar" })),
     secao("Glossário",
       el("dl", { classe: "glossario" }, GLOSSARIO.flatMap(([termo, def]) => [el("dt", {}, termo), el("dd", {}, def)]))));
 }
@@ -576,6 +711,7 @@ function configurarAbas() {
       document.getElementById(a.getAttribute("aria-controls")).hidden = !sel;
     }
     aba.focus();
+    aba.scrollIntoView?.({ block: "nearest", inline: "nearest" });
   };
   abas.forEach((a, i) => {
     a.addEventListener("click", () => ativar(a));
@@ -587,8 +723,18 @@ function configurarAbas() {
 }
 
 // ---------------------------------------------------------------- início
+configurarTema();
+configurarConexao();
+configurarInstalacao();
 configurarAbas();
 $("#form-consulta").addEventListener("submit", aoConsultar);
+// Ctrl+Enter (ou Cmd+Enter) envia a pergunta, como em muitos aplicativos de computador.
+$("#pergunta").addEventListener("keydown", (ev) => {
+  if (ev.key === "Enter" && (ev.ctrlKey || ev.metaKey)) {
+    ev.preventDefault();
+    enviarFormulario($("#form-consulta"));
+  }
+});
 $("#imprimir").addEventListener("click", () => window.print());
 $("#copiar-resposta").addEventListener("click", () =>
   copiarTexto(`Pergunta: ${$("#pergunta").value.trim()}\n\n${$("#resultado").innerText}`, $("#aviso-copia")));
@@ -598,6 +744,10 @@ await carregarAcervo();
 preencherFiltros();
 listarDocumentos();
 renderizarTransparencia();
+renderizarInstalacao();
+// Atalhos do app instalado (?aba=biblioteca, ?aba=guia).
+const abaInicial = new URLSearchParams(location.search).get("aba");
+if (abaInicial) document.getElementById(`aba-${abaInicial}`)?.click();
 
 // O painel de IA (e a biblioteca WebLLM) só é carregado quando a pessoa o abre.
 // Se ela o abriu antes do fim do carregamento da página, monta agora.
@@ -615,6 +765,4 @@ const abrirPainelIA = () => {
 $("#painel-ia").addEventListener("toggle", abrirPainelIA);
 abrirPainelIA();
 
-if ("serviceWorker" in navigator && location.protocol === "https:") {
-  navigator.serviceWorker.register("sw.js").catch(() => {});
-}
+registrarServiceWorker();

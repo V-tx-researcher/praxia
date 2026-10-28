@@ -2,14 +2,23 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; connect-src 'self' https://cdn.jsdelivr.net https://huggingface.co https://*.huggingface.co https://*.hf.co https://raw.githubusercontent.com; img-src 'self' data:; style-src 'self'; worker-src 'self' blob:; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="description" content="Consulta ético-normativa do Serviço Social com citações verificáveis de documentos oficiais do Conjunto CFESS-CRESS. Projeto independente do GPECSS.">
-  <meta name="theme-color" content="#173456">
+  <meta name="theme-color" content="#0a0e14">
+  <meta name="color-scheme" content="dark light">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Consulta GPECSS">
+  <meta name="format-detection" content="telephone=no">
   <title>Consulta Ético-Normativa | GPECSS</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icones/icone.svg" type="image/svg+xml">
+  <link rel="icon" href="icones/icone-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+  <script src="js/tema.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,12 +26,15 @@
 
   <header class="topo">
     <div class="topo-interno">
-      <div class="marca">
-        <span class="sigla" aria-hidden="true">GPECSS</span>
-        <div>
-          <h1>Consulta Ético-Normativa</h1>
-          <p>Serviço Social · documentos oficiais do Conjunto CFESS-CRESS</p>
+      <div class="linha-topo">
+        <div class="marca">
+          <span class="sigla" aria-hidden="true">GPECSS</span>
+          <div>
+            <h1>Consulta Ético-Normativa</h1>
+            <p>Serviço Social · documentos oficiais do Conjunto CFESS-CRESS</p>
+          </div>
         </div>
+        <button type="button" id="botao-tema" class="botao-tema" aria-pressed="false">Tema claro</button>
       </div>
       <nav aria-label="Seções">
         <ul class="abas" role="tablist">
@@ -35,6 +47,16 @@
     </div>
   </header>
 
+  <div id="faixa-rede" class="faixa-rede" hidden role="status">
+    Sem conexão com a internet. A consulta continua funcionando com o acervo guardado neste aparelho;
+    os links para os PDFs oficiais só abrem com conexão.
+  </div>
+  <div id="faixa-atualizacao" class="faixa-atualizacao" hidden role="status">
+    Há uma versão nova da plataforma. <button type="button" id="atualizar" class="botao">Atualizar agora</button>
+  </div>
+  <noscript>
+    <p class="faixa-rede">Esta plataforma precisa de JavaScript ativado no navegador para fazer as consultas.</p>
+  </noscript>
   <div id="faixa-previa" class="faixa-previa" hidden role="alert">
     <strong>Prévia interna.</strong> Este acervo inclui documentos que ainda <strong>não foram conferidos</strong>
     pela equipe responsável. Não utilize os resultados como referência.
@@ -47,12 +69,14 @@
         ou de qualquer CRESS e não substitui orientação, fiscalização ou parecer dos órgãos competentes.
       </p>
 
+      <p id="carregando" class="ajuda" role="status" hidden></p>
       <form id="form-consulta" class="cartao consulta" novalidate>
         <label for="pergunta" class="rotulo-campo">Sua dúvida sobre o exercício profissional</label>
         <p id="ajuda-pergunta" class="ajuda">
           Descreva a situação de forma geral. <strong>Não inclua nomes, documentos pessoais,
           números de processos ou outros dados que identifiquem pessoas.</strong>
           A pergunta é processada apenas neste dispositivo e não é armazenada.
+          <span class="dica-teclado">No computador, Ctrl+Enter envia a pergunta.</span>
         </p>
         <textarea id="pergunta" name="pergunta" rows="5" required aria-describedby="ajuda-pergunta"
           placeholder="Ex.: Posso compartilhar informações do atendimento com a equipe multidisciplinar?"></textarea>

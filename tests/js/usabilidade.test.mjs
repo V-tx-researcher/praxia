@@ -70,10 +70,28 @@ test("guia: exemplos e glossário preenchidos, glossário em ordem alfabética",
   assert.deepEqual(termos, [...termos].sort((a, b) => a.localeCompare(b, "pt-BR")));
 });
 
-test("uso sem internet: o service worker guarda todos os módulos da aplicação", () => {
+test("uso sem internet: o service worker guarda todos os arquivos da aplicação, e só arquivos que existem", () => {
   const sw = fs.readFileSync(path.join(RAIZ, "app/sw.js"), "utf8");
-  const listados = new Set([...sw.matchAll(/"(js\/[^"]+)"/g)].map((m) => m[1]));
-  for (const pasta of ["js/nucleo", "js/llm"]) {
-    for (const f of fs.readdirSync(path.join(RAIZ, "app", pasta))) assert.ok(listados.has(`${pasta}/${f}`), `${pasta}/${f}`);
+  const listados = new Set([...sw.matchAll(/"([\w./-]+\.(?:js|css|png|svg|json|webmanifest|html))"/g)].map((m) => m[1]));
+  for (const pasta of ["js", "js/nucleo", "js/llm", "icones"]) {
+    for (const f of fs.readdirSync(path.join(RAIZ, "app", pasta))) {
+      if (fs.statSync(path.join(RAIZ, "app", pasta, f)).isFile()) assert.ok(listados.has(`${pasta}/${f}`), `${pasta}/${f}`);
+    }
+  }
+  for (const f of ["index.html", "css/style.css", "manifest.webmanifest", "dados/acervo-publico.json"]) assert.ok(listados.has(f), f);
+  // Tudo o que está listado precisa existir, senão a instalação do service worker falha inteira.
+  for (const f of listados) assert.ok(fs.existsSync(path.join(RAIZ, "app", f)), `listado mas inexistente: ${f}`);
+});
+
+test("compatibilidade: código do app sem recursos que quebram Safari/iOS antigos", () => {
+  const arquivos = ["js", "js/nucleo", "js/llm"].flatMap((p) =>
+    fs.readdirSync(path.join(RAIZ, "app", p)).filter((f) => f.endsWith(".js")).map((f) => path.join(RAIZ, "app", p, f)));
+  for (const f of arquivos) {
+    const codigo = fs.readFileSync(f, "utf8");
+    // Lookbehind em expressão regular: Safari < 16.4 rejeita o módulo inteiro.
+    assert.ok(!/\(\?<[!=]/.test(codigo), `lookbehind em ${path.basename(f)}`);
+    for (const recurso of ["structuredClone(", ".findLast(", ".toSorted(", "Object.groupBy("]) {
+      assert.ok(!codigo.includes(recurso), `${recurso} em ${path.basename(f)}`);
+    }
   }
 });

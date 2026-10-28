@@ -1,40 +1,67 @@
-// Service worker: guarda a interface e o índice para uso com conexão instável.
-// Não guarda perguntas nem respostas. O modelo de IA (quando habilitado) é
+// Service worker: guarda a interface e o índice para uso com conexão instável ou sem
+// conexão. Não guarda perguntas nem respostas. O modelo de IA (quando habilitado) é
 // armazenado pelo próprio WebLLM no Cache Storage do navegador, à parte.
-const VERSAO = "gpecss-v0.3.0";
+//
+// Estratégia única: rede primeiro, com limite de espera; sem resposta, cópia local.
+// (Guardar o código e buscar a página na rede deixaria versões desencontradas.)
+// Versão nova não assume sozinha: a página mostra "Atualizar agora" (mensagem PULAR_ESPERA).
+const VERSAO = "gpecss-v0.4.1";
+const ESPERA_REDE_MS = 4000;
 const ESSENCIAIS = [
-  "./", "index.html", "css/style.css", "manifest.webmanifest", "icones/icone.svg",
-  "js/app.js", "js/config.js",
+  "./", "index.html", "css/style.css", "manifest.webmanifest",
+  "icones/icone.svg", "icones/icone-192.png", "icones/icone-512.png", "icones/icone-maskable-512.png",
+  "icones/apple-touch-icon.png",
+  "js/app.js", "js/config.js", "js/tema.js",
   "js/nucleo/texto.js", "js/nucleo/sinonimos.js", "js/nucleo/busca.js", "js/nucleo/classificacao.js",
   "js/nucleo/privacidade.js", "js/nucleo/vigencia.js", "js/nucleo/orientacao.js", "js/nucleo/evidencias.js",
   "js/nucleo/verificacao.js", "js/nucleo/resposta.js", "js/nucleo/rotulos.js", "js/nucleo/snowball-pt.js",
   "js/nucleo/normas-citadas.js", "js/nucleo/referencia.js", "js/nucleo/guia.js",
-  "dados/acervo-publico.json",
   "js/llm/prompt.js", "js/llm/motor.js", "js/llm/capacidade.js",
+  "dados/acervo-publico.json",
 ];
 
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(VERSAO).then((c) => c.addAll(ESSENCIAIS)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(VERSAO).then((c) => c.addAll(ESSENCIAIS)));
+});
+
+self.addEventListener("message", (e) => {
+  if (e.data === "PULAR_ESPERA") self.skipWaiting();
 });
 
 self.addEventListener("activate", (e) => {
-  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k.startsWith("gpecss-") && k !== VERSAO).map((k) => caches.delete(k)))));
-  self.clients.claim();
+  e.waitUntil(caches.keys()
+    .then((ks) => Promise.all(ks.filter((k) => k.startsWith("gpecss-") && k !== VERSAO).map((k) => caches.delete(k))))
+    .then(() => self.clients.claim()));
 });
 
-// Rede primeiro (o acervo muda), com cópia local como reserva.
+function comLimite(promessa, ms) {
+  return new Promise((resolve, reject) => {
+    const t = setTimeout(() => reject(new Error("tempo de rede esgotado")), ms);
+    promessa.then((r) => { clearTimeout(t); resolve(r); }, (err) => { clearTimeout(t); reject(err); });
+  });
+}
+
+async function guardar(req, resp) {
+  if (resp && resp.ok && resp.type === "basic") {
+    const c = await caches.open(VERSAO);
+    await c.put(req, resp.clone());
+  }
+  return resp;
+}
+
+async function redePrimeiro(req, chaveReserva) {
+  try {
+    return await guardar(req, await comLimite(fetch(req), ESPERA_REDE_MS));
+  } catch {
+    const local = (await caches.match(req, { ignoreSearch: true })) || (chaveReserva && (await caches.match(chaveReserva)));
+    if (local) return local;
+    return Response.error();
+  }
+}
+
 self.addEventListener("fetch", (e) => {
-  const url = new URL(e.request.url);
-  if (e.request.method !== "GET" || url.origin !== location.origin) return;
-  e.respondWith(
-    fetch(e.request)
-      .then((r) => {
-        if (r.ok) {
-          const copia = r.clone();
-          caches.open(VERSAO).then((c) => c.put(e.request, copia));
-        }
-        return r;
-      })
-      .catch(() => caches.match(e.request))
-  );
+  const req = e.request;
+  const url = new URL(req.url);
+  if (req.method !== "GET" || url.origin !== location.origin) return;
+  e.respondWith(redePrimeiro(req, req.mode === "navigate" ? "index.html" : null));
 });
