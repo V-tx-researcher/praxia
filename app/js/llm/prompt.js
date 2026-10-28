@@ -18,6 +18,7 @@ Regras obrigatórias:
 11. Prefira evidências de normas vigentes. Se usar norma revogada, suspensa ou dispositivo alterado, diga isso na própria afirmação.
 12. Evidências com identificador iniciado por "O" (O1, O2…) são orientações institucionais do CFESS, dos CRESS ou da ABEPSS (cartilhas, notas técnicas, pareceres), não normas. Use-as para explicar como as entidades interpretam e aplicam as normas, sempre dizendo a fonte na própria frase (ex.: "Segundo nota técnica do CFESS, …"). Nunca as marque como "norma_expressa" nem as apresente como regra obrigatória. A resposta direta (regra 9) deve se apoiar em norma (evidência "E"); havendo diferença entre orientação e norma, prevalece a norma. Quando uma orientação tratar diretamente da situação perguntada (ex.: a chefia pedindo acesso aos arquivos), use-a para explicar a aplicação, dizendo a fonte.
 13. Se as evidências trazem direito e dever sobre o mesmo tema (ex.: sigilo como direito e como dever), mencione os dois.
+14. Não use dispositivo que não trate da situação perguntada, mesmo que seja literal; e não confunda competência (Lei 8.662, art. 4º) com atribuição privativa (art. 5º).
 Responda somente com um objeto JSON no formato:
 {"sintese_questao": "...", "afirmacoes": [{"texto": "...", "natureza": "norma_expressa", "evidencias": ["E1"]}], "aspectos_atencao": ["..."], "lacunas": ["..."], "fundamentacao_suficiente": true}`;
 

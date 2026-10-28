@@ -183,3 +183,10 @@ confirmadas no texto oficial.
 - Segmentação de normas que dão nova redação a outras (Res. 970/2021): artigos
   citados passam a integrar o artigo que os introduz.
 - Detecção de texto perdido na extração (Res. 954/2020), impeditiva de aprovação.
+
+## Atividade nº 10 — avaliação da IA com orientações institucionais (28/10/2026)
+
+Pré-preenchida por IA a pedido do revisor (`atividade10_sugestoes_claude.json`; arquivo
+`Atividade_10_PRE-PREENCHIDA_para_conferir.docx`) e aprovada por ele no chat: "Revisei e pode seguir".
+Parte A: 38 documentos aprovados; rejeitado `cress-sp-roteiro-codigo-processual-2014`. Texto integral
+autorizado. Parte B: 32 C, 11 P, 4 I; liberar "Sim, só depois de corrigir" (correções em D42).

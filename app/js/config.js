@@ -7,7 +7,7 @@ export const CONFIG = {
     // diagnóstico do seu dispositivo. Na versão pública a ativação fica bloqueada
     // até cumprir os critérios mínimos (docs/NEXT_STEPS.md); em localhost é liberada
     // para teste.
-    permitirAtivacao: false,
+    permitirAtivacao: true, // liberada após a Atividade nº 10 (D42)
     // Modelos oferecidos no painel, em ordem de preferência.
     // Qwen3 8B escolhido na avaliação de 28/10/2026 (docs/EVALUATION.md); só fica
     // disponível ao público quando permitirAtivacao = true (após a Atividade nº 10).

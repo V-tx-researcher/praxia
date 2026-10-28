@@ -293,6 +293,17 @@ texto: a publicação do texto integral no arquivo do site depende da resposta d
 revisor na parte A. Arquivo de ~5,5 MB: carregado depois do acervo, fora da instalação
 offline (guardado no primeiro uso).
 
+**D42 — 28/10/2026 — Atividade nº 10 registrada; IA liberada e camada 2 publicada.**
+A pedido do revisor, a atividade foi pré-preenchida por IA (`docs/revisao/atividade10_sugestoes_claude.json`)
+e ele a revisou e aprovou no chat ("Revisei e pode seguir"). Parte A: 38 dos 39 documentos aprovados
+(fora o roteiro do CRESS-SP de 2014: direitos reservados e base processual antiga); texto integral no
+índice público autorizado. Parte B (Qwen3 8B, 47 frases): 32 corretas, 11 parciais, 4 incorretas
+(Q023, Q039, Q066); decisão "Sim, só depois de corrigir". Correções aplicadas antes de liberar:
+avisos de norma revogada nas orientações, regras 12–14 das instruções (usar orientação que trata da
+situação; citar direito e dever; não usar dispositivo fora da situação nem confundir competência com
+atribuição privativa). `permitirAtivacao: true` (a IA continua opcional, ativada pela própria pessoa).
+Ajustes seguintes vêm do uso, apontados pelo responsável.
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e

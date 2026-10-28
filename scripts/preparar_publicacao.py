@@ -41,7 +41,7 @@ def main() -> int:
     import re
     sw = (ORIGEM / "sw.js").read_text(encoding="utf-8")
     faltando = [f for f in re.findall(r'"([\w./-]+\.(?:js|css|png|svg|json|webmanifest|html))"', sw)
-                if not (ORIGEM / f).exists()]
+                if not (ORIGEM / f.lstrip("/")).exists()]
     if faltando:
         print("ERRO: arquivos listados no service worker e inexistentes:", ", ".join(faltando))
         return 1
