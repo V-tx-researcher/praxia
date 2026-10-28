@@ -1,0 +1,583 @@
+{
+ "descricao": "Camada 2 (D41): documentos interpretativos oficiais do Conjunto CFESS-CRESS e da ABEPSS. Não são normas: entram como orientação institucional, sempre identificada pela fonte. `conferido` só muda pelo registro da conferência humana (Atividade nº 10, parte A).",
+ "documentos": [
+  {
+   "id": "cfess-atribuicoes-privativas-2012",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2012,
+   "titulo": "Atribuições privativas do/a assistente social em questão",
+   "edicao": "1. ed. ampliada",
+   "url": "https://www.cfess.org.br/arquivos/atribuicoes2012-completo.pdf",
+   "assuntos": [
+    "atribuicoes_privativas",
+    "competencias"
+   ],
+   "sha256": "5a32d07c46b1f0dcf4173a9f8270f23b3a5f87b207a7c7a24b5e3b98970b56f9",
+   "data_coleta": "2026-10-28T14:44:43+00:00",
+   "bytes": 3446832,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 78,
+   "trechos": 259
+  },
+  {
+   "id": "cfess-atribuicoes-privativas-v2-2020",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2020,
+   "titulo": "Atribuições privativas do/a assistente social em questão: volume 2",
+   "url": "https://www.cfess.org.br/arquivos/CFESS202-AtribuicoesPrivativas-Vol2-Site.pdf",
+   "assuntos": [
+    "atribuicoes_privativas",
+    "documentos_tecnicos"
+   ],
+   "sha256": "40aa85776b560781902e23a0bc08ab104cea56aee5b5bef3922709f0383356a2",
+   "data_coleta": "2026-10-28T14:44:45+00:00",
+   "bytes": 1745905,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 120,
+   "trechos": 496
+  },
+  {
+   "id": "cfess-praticas-terapeuticas-2010",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2010,
+   "titulo": "Serviço Social e reflexões críticas sobre práticas terapêuticas",
+   "url": "https://antigo.cfess.org.br/arquivos/doc_CFESS_Terapias_e_SS_2010.pdf.pdf",
+   "assuntos": [
+    "competencias",
+    "vedacoes"
+   ],
+   "sha256": "a82a0c57094ac43024c58529735cbe066e63a852156d51a2adcfbd20ed390609",
+   "data_coleta": "2026-10-28T14:44:45+00:00",
+   "bytes": 164835,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 14,
+   "trechos": 38
+  },
+  {
+   "id": "cfess-parametros-saude-2010",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2010,
+   "titulo": "Parâmetros para atuação de assistentes sociais na política de saúde",
+   "edicao": "Série Trabalho e Projeto Profissional nas Políticas Sociais, n. 2",
+   "url": "https://www.cfess.org.br/arquivos/Parametros_para_a_Atuacao_de_Assistentes_Sociais_na_Saude.pdf",
+   "assuntos": [
+    "competencias",
+    "exercicio_profissional"
+   ],
+   "sha256": "8c8d89ae6a597245b31380c6bf05d1bf4d808a11c32d74298a9f6278fca1fee4",
+   "data_coleta": "2026-10-28T14:44:46+00:00",
+   "bytes": 873169,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 82,
+   "trechos": 226
+  },
+  {
+   "id": "cfess-parametros-assistencia-social-2011",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2011,
+   "titulo": "Parâmetros para atuação de assistentes sociais na política de assistência social",
+   "edicao": "Série Trabalho e Projeto Profissional nas Políticas Sociais, n. 1",
+   "url": "https://www.cfess.org.br/arquivos/Cartilha_CFESS_Final_Grafica.pdf",
+   "assuntos": [
+    "competencias",
+    "exercicio_profissional"
+   ],
+   "sha256": "96b2ec9b6c87a942386e1a5368fb264aa39aedd641275e83d1face49e4449a64",
+   "data_coleta": "2026-10-28T14:44:49+00:00",
+   "bytes": 3775096,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 38,
+   "trechos": 90
+  },
+  {
+   "id": "cfess-subsidios-educacao-2013",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2013,
+   "titulo": "Subsídios para a atuação de assistentes sociais na política de educação",
+   "edicao": "Série Trabalho e Projeto Profissional nas Políticas Sociais, n. 3",
+   "url": "https://www.cfess.org.br/arquivos/BROCHURACFESS_SUBSIDIOS-AS-EDUCACAO.pdf",
+   "assuntos": [
+    "competencias",
+    "exercicio_profissional"
+   ],
+   "sha256": "259ceeee4a7b868adaa5a31149c7797524800403bc91007f00d616ba72fa2907",
+   "data_coleta": "2026-10-28T14:44:51+00:00",
+   "bytes": 2676922,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 66,
+   "trechos": 142
+  },
+  {
+   "id": "cfess-sociojuridico-2014",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2014,
+   "titulo": "Atuação de assistentes sociais no sociojurídico: subsídios para reflexão",
+   "edicao": "Série Trabalho e Projeto Profissional nas Políticas Sociais, n. 4",
+   "url": "https://www.cfess.org.br/arquivos/CFESSsubsidios_sociojuridico2014.pdf",
+   "assuntos": [
+    "documentos_tecnicos",
+    "sigilo_profissional"
+   ],
+   "sha256": "8230044ac048478810edeb344b5d9e3d72efcc03fb102a561d10139d4e19efa5",
+   "data_coleta": "2026-10-28T14:44:53+00:00",
+   "bytes": 2708300,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 110,
+   "trechos": 352
+  },
+  {
+   "id": "cfess-documentos-opiniao-tecnica-2022",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2022,
+   "titulo": "Produção de documentos e emissão de opinião técnica em Serviço Social",
+   "autoria": "FRANCO, Abigail Aparecida de Paiva; FÁVERO, Eunice Teresinha; OLIVEIRA, Rita de Cássia Silva",
+   "url": "https://www.cfess.org.br/arquivos/EbookCfess-DocOpiniaoTecnica2022-Final.pdf",
+   "assuntos": [
+    "documentos_tecnicos",
+    "sigilo_profissional"
+   ],
+   "sha256": "a3742cfb0920dbf92566e81c7af5d7f24193ac86bca6805493de6568b1cdddea",
+   "data_coleta": "2026-10-28T14:44:55+00:00",
+   "bytes": 3600656,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 232,
+   "trechos": 582
+  },
+  {
+   "id": "cfess-registros-opiniao-tecnica-2020",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2020,
+   "titulo": "Sistematização e análise de registros da opinião técnica emitida pela/o assistente social em relatórios, laudos e pareceres, objeto de denúncias éticas presentes em recursos disciplinares julgados pelo CFESS",
+   "autoria": "FÁVERO, Eunice Teresinha; FRANCO, Abigail Aparecida de Paiva; OLIVEIRA, Rita de Cássia Silva",
+   "url": "https://www.cfess.org.br/arquivos/registros-opiniao-tecnica.pdf",
+   "assuntos": [
+    "documentos_tecnicos",
+    "processo_etico"
+   ],
+   "sha256": "2cfc313694374a0c1f0c2166a6f9e7f81e011e3a49bc6a6eeb860155e51a2412",
+   "data_coleta": "2026-10-28T14:44:57+00:00",
+   "bytes": 2026184,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 104,
+   "trechos": 367
+  },
+  {
+   "id": "cfess-nota-depoimento-especial-2018",
+   "orgao": "CFESS",
+   "tipo": "nota_tecnica",
+   "ano": 2018,
+   "titulo": "Nota técnica sobre o exercício profissional de assistentes sociais e as exigências para a execução do depoimento especial",
+   "autoria": "MÖLLER, Daniela; DINIZ, Tânia Maria Ramos de Godoi",
+   "url": "https://www.cfess.org.br/arquivos/depoimento-especial-notatecnica2018.pdf",
+   "assuntos": [
+    "competencias",
+    "autonomia_profissional"
+   ],
+   "sha256": "ff2f60d529ac02d8a133139539501c6cb86f03f4ed3e3cecba11871b91daaeae",
+   "data_coleta": "2026-10-28T14:44:58+00:00",
+   "bytes": 526942,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 35,
+   "trechos": 129
+  },
+  {
+   "id": "cfess-nota-escuta-especializada-2019",
+   "orgao": "CFESS",
+   "tipo": "nota_tecnica",
+   "ano": 2019,
+   "titulo": "Nota técnica sobre a \"escuta especializada\" proposta pela Lei 13.431/2017: questões para o Serviço Social",
+   "autoria": "MATOS, Maurílio Castro de",
+   "url": "https://cfess.org.br/uploads/documento/26/Nota-tecnica-escuta-especial-2019.pdf",
+   "assuntos": [
+    "sigilo_profissional",
+    "competencias"
+   ],
+   "sha256": "2b884d79b990b0cdeee7c0a4e696e5163fec60f3f1d0cfc3b8d4a082fcd892a8",
+   "data_coleta": "2026-10-28T14:44:59+00:00",
+   "bytes": 547969,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 24,
+   "trechos": 101
+  },
+  {
+   "id": "cress-pb-nota-sigilo-documentos-2024",
+   "orgao": "CRESS-PB",
+   "tipo": "documento_orientativo",
+   "ano": 2024,
+   "titulo": "Nota orientativa: documentos técnicos e sigilo profissional",
+   "url": "https://cresspb.org.br/2012/wp-content/uploads/2024/01/Nota-orientativa-documentos-tecnicos-e-Sigilo-Profissional.pdf",
+   "assuntos": [
+    "sigilo_profissional",
+    "documentos_tecnicos"
+   ],
+   "sha256": "c5fbd7825207534bf8592d3b15ca66912fffc5a54eac960cd882f9eeba3c510d",
+   "data_coleta": "2026-10-28T14:45:01+00:00",
+   "bytes": 326716,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 5,
+   "trechos": 20
+  },
+  {
+   "id": "cfess-teletrabalho-telepericia-2020",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2020,
+   "titulo": "Teletrabalho e teleperícia: orientações para assistentes sociais no contexto da pandemia",
+   "url": "https://www.cfess.org.br/arquivos/Nota-teletrabalho-telepericiacfess.pdf",
+   "assuntos": [
+    "condicoes_eticas_tecnicas",
+    "sigilo_profissional"
+   ],
+   "sha256": "40dc4d311ce37fd28417475752f76c02948f37ed88425c5aa6bc28aae2fa527f",
+   "data_coleta": "2026-10-28T14:45:01+00:00",
+   "bytes": 411659,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 18,
+   "trechos": 66
+  },
+  {
+   "id": "cfess-manual-inscricao-2023",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2023,
+   "titulo": "Manual de orientação dos procedimentos de inscrição de pessoa física e jurídica",
+   "url": "https://www.cfess.org.br/uploads/pagina/4984/manual-procedinscri-2024.pdf",
+   "assuntos": [
+    "registro_inscricao"
+   ],
+   "sha256": "f18f76a42871ccacc64a799b219e45a4393fc59334d01941e6c3fe55a0116532",
+   "data_coleta": "2026-10-28T14:45:03+00:00",
+   "bytes": 2815684,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 110,
+   "trechos": 270
+  },
+  {
+   "id": "cfess-pnf-instrumentos-2019",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2019,
+   "titulo": "Instrumentos para a fiscalização do exercício profissional do/a assistente social",
+   "edicao": "ed. rev. e atual.",
+   "url": "https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf",
+   "assuntos": [
+    "fiscalizacao_profissional"
+   ],
+   "sha256": "4e7db528b1291a1c1d41e4daa82308e8d1acb372cece336e7b7d7a114a3d509f",
+   "data_coleta": "2026-10-28T14:45:05+00:00",
+   "bytes": 2485497,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 124,
+   "trechos": 339
+  },
+  {
+   "id": "cfess-requisicoes-institucionais-2025",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2025,
+   "titulo": "Assistentes sociais do Brasil: requisições institucionais e respostas profissionais",
+   "url": "https://cfess.org.br/uploads/revista/5605/LivroDiagramadoASdoBrasil2025Cfess-Site.pdf",
+   "assuntos": [
+    "fiscalizacao_profissional",
+    "autonomia_profissional"
+   ],
+   "sha256": "7d94c740c3ea8a3c53958f5c87b3805f833e9c2484cf84e3376f2fc58aa216c0",
+   "data_coleta": "2026-10-28T14:45:05+00:00",
+   "bytes": 2421157,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 114,
+   "trechos": 375
+  },
+  {
+   "id": "cfess-etica-instrumentos-processuais-2022",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2022,
+   "titulo": "Ética e instrumentos processuais",
+   "edicao": "5. ed. (Ética em Movimento, módulo 4)",
+   "autoria": "TERRA, Sylvia Helena",
+   "url": "https://www.cfess.org.br/arquivos/CFESS-Modulo04-EticaMovimento-Ebook2022.pdf",
+   "assuntos": [
+    "processo_etico"
+   ],
+   "sha256": "0b351bd73b81529bd184fa959b313d89a9612e575457a8b9e9710e1388e9c207",
+   "data_coleta": "2026-10-28T14:45:07+00:00",
+   "bytes": 5056402,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 88,
+   "trechos": 284
+  },
+  {
+   "id": "cfess-pareceres-juridicos-cedh-2022",
+   "orgao": "CFESS",
+   "tipo": "parecer_juridico",
+   "ano": 2022,
+   "titulo": "Pareceres jurídicos sobre a ética e os direitos humanos",
+   "autoria": "TERRA, Sylvia Helena",
+   "url": "https://www.cfess.org.br/arquivos/Cfess2022-EbookPareceresJuridicos-CEDH.pdf",
+   "assuntos": [
+    "processo_etico",
+    "sigilo_profissional"
+   ],
+   "sha256": "d973f6e1213c1c2d888ea3c50dedce0c5432c028d983436db9e45cdb99df77ad",
+   "data_coleta": "2026-10-28T14:45:09+00:00",
+   "bytes": 2708764,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 142,
+   "trechos": 1082
+  },
+  {
+   "id": "cress-sp-roteiro-codigo-processual-2014",
+   "orgao": "CRESS-SP",
+   "tipo": "documento_orientativo",
+   "ano": 2014,
+   "titulo": "Roteiro orientativo do Código Processual de Ética",
+   "url": "https://cress-sp.org.br/uploads/revista/534/l003o-wpeLA-sv_mJ72_jlTerdzGFRS9.pdf",
+   "assuntos": [
+    "processo_etico"
+   ],
+   "sha256": "614e88b9c7defa8c5606fd3472292f6bbfc808844c5a8f3597fb0453083745bc",
+   "data_coleta": "2026-10-28T14:45:09+00:00",
+   "bytes": 1783819,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 68,
+   "trechos": 179
+  },
+  {
+   "id": "cfess-supervisao-direta-estagio",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": null,
+   "ano_texto": "[2013 ou 2014]",
+   "titulo": "Meia formação não garante um direito: o que você precisa saber sobre a supervisão direta de estágio em Serviço Social",
+   "url": "https://www.cfess.org.br/arquivos/BROCHURACFESS_ESTAGIO-SUPERVISIONADO.pdf",
+   "assuntos": [
+    "supervisao_estagio"
+   ],
+   "sha256": "65d1d5fcbec3565483b4f34f52a2668ac36f27c59364f9c89e7c3558f4319ed8",
+   "data_coleta": "2026-10-28T14:45:11+00:00",
+   "bytes": 5504618,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 30,
+   "trechos": 89
+  },
+  {
+   "id": "abepss-politica-nacional-estagio-2010",
+   "orgao": "ABEPSS",
+   "tipo": "politica_institucional",
+   "ano": 2010,
+   "titulo": "Política Nacional de Estágio da Associação Brasileira de Ensino e Pesquisa em Serviço Social",
+   "url": "https://www.abepss.org.br/arquivos/textos/documento_201603311145368198230.pdf",
+   "assuntos": [
+    "supervisao_estagio",
+    "formacao_profissional"
+   ],
+   "sha256": "81ecc5c85b463875138a589e08f55136088d18364e4732cd2af9a7a7fe76db7c",
+   "data_coleta": "2026-10-28T14:45:14+00:00",
+   "bytes": 391307,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 44,
+   "trechos": 164
+  },
+  {
+   "id": "abepss-diretrizes-curriculares-1996",
+   "orgao": "ABEPSS",
+   "tipo": "politica_institucional",
+   "ano": 1996,
+   "titulo": "Diretrizes gerais para o curso de Serviço Social (com base no currículo mínimo aprovado em assembleia geral extraordinária de 8 de novembro de 1996)",
+   "url": "https://www.abepss.org.br/arquivos/textos/documento_201603311138166377210.pdf",
+   "assuntos": [
+    "formacao_profissional"
+   ],
+   "sha256": "5a31b37818c5ac1f0d7a85b98bde8c20642e6559665a8f8846a88fa7476cbbd6",
+   "data_coleta": "2026-10-28T14:45:15+00:00",
+   "bytes": 228207,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 27,
+   "trechos": 82
+  },
+  {
+   "id": "cfess-caderno-1-preconceito-2016",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2016,
+   "titulo": "O que é preconceito?",
+   "edicao": "Série Assistente Social no Combate ao Preconceito, caderno 1",
+   "autoria": "BARROCO, Maria Lúcia Silva",
+   "url": "https://cfess.org.br/arquivos/CFESS-Caderno01-OqueEPreconceito-Site.pdf",
+   "assuntos": [
+    "deveres_profissionais",
+    "relacao_usuarios"
+   ],
+   "sha256": "56de5c6979f86259da43ae4d9a7d6728d51f6ef1abe2bf0b41745514005c3b9e",
+   "data_coleta": "2026-10-28T14:45:15+00:00",
+   "bytes": 1704964,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 24,
+   "trechos": 68
+  },
+  {
+   "id": "cfess-caderno-3-racismo-2016",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2016,
+   "titulo": "Racismo",
+   "edicao": "Série Assistente Social no Combate ao Preconceito, caderno 3",
+   "autoria": "ROCHA, Roseli",
+   "url": "https://www.cfess.org.br/arquivos/CFESS-Caderno03-Racismo-Site.pdf",
+   "assuntos": [
+    "deveres_profissionais",
+    "relacao_usuarios"
+   ],
+   "sha256": "a78574e0c85f7bad9702e1ecbc135f4ef43be1f60a7d1dd4f4fc4ce8458ba5ee",
+   "data_coleta": "2026-10-28T14:45:16+00:00",
+   "bytes": 1719756,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 22,
+   "trechos": 54
+  },
+  {
+   "id": "cfess-caderno-4-transfobia-2016",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2016,
+   "titulo": "Transfobia",
+   "edicao": "Série Assistente Social no Combate ao Preconceito, caderno 4",
+   "autoria": "ALMEIDA, Guilherme",
+   "url": "https://www.cfess.org.br/arquivos/CFESS-Caderno04-Transfobia-Site.pdf",
+   "assuntos": [
+    "deveres_profissionais",
+    "relacao_usuarios"
+   ],
+   "sha256": "5971e8f58bbd9d678a0cb46419ff1fd4fc274703bc8ce1db661611c4d6a3ce84",
+   "data_coleta": "2026-10-28T14:45:18+00:00",
+   "bytes": 1759295,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 18,
+   "trechos": 42
+  },
+  {
+   "id": "cfess-caderno-7-pcd-2019",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2019,
+   "titulo": "Discriminação contra a pessoa com deficiência",
+   "edicao": "Série Assistente Social no Combate ao Preconceito, caderno 7",
+   "autoria": "ARANTES, Mariana Furtado",
+   "url": "https://www.cfess.org.br/arquivos/CFESS-Caderno07-PCD-Site.pdf",
+   "assuntos": [
+    "deveres_profissionais",
+    "relacao_usuarios"
+   ],
+   "sha256": "28a38fcd7aaa6ed1bf89ed3d84cc82da31e2beacb37c65b285d817c1dd40169d",
+   "data_coleta": "2026-10-28T14:45:20+00:00",
+   "bytes": 2762676,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 24,
+   "trechos": 62
+  },
+  {
+   "id": "cfess-caderno-9-capacitismo-2025",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2025,
+   "titulo": "Capacitismo",
+   "edicao": "Série Assistente Social no Combate ao Preconceito, caderno 9",
+   "autoria": "MARTINS, Camila Jasmin",
+   "url": "https://www.cfess.org.br/uploads/revista/5179/Caderno9-Capacitismo-Site.pdf",
+   "assuntos": [
+    "deveres_profissionais",
+    "relacao_usuarios"
+   ],
+   "sha256": "76d06d70e2a4d73d8b23417d3c842984025dc3191cc029b7c1cbc2ddfd351261",
+   "data_coleta": "2026-10-28T14:45:22+00:00",
+   "bytes": 9819699,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 22,
+   "trechos": 68
+  },
+  {
+   "id": "cfess-nome-social-2019",
+   "orgao": "CFESS",
+   "tipo": "documento_orientativo",
+   "ano": 2019,
+   "titulo": "Orientações para o atendimento de pessoas trans no Conjunto CFESS-CRESS",
+   "url": "https://www.cfess.org.br/arquivos/CFESS-NomeSocial-Folder30x25cm-Montado.pdf",
+   "assuntos": [
+    "relacao_usuarios",
+    "registro_inscricao"
+   ],
+   "sha256": "273d6a747a4e016dfd4218097fe60d4b4c753e64dfeff286effe72357c3d1d9b",
+   "data_coleta": "2026-10-28T14:45:23+00:00",
+   "bytes": 837339,
+   "qualidade_extracao": "boa",
+   "licenca_declarada": null,
+   "alertas": [],
+   "paginas": 6,
+   "trechos": 33
+  }
+ ]
+}

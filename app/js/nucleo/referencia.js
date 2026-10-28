@@ -50,6 +50,15 @@ export function referenciaABNT(doc, unidade = null, hoje = new Date()) {
       citacao: `(${L.autorData[0]}, ${L.autorData[1]}${disp ? `, ${disp}` : ""})`,
     };
   }
+  // Camada 2 (D41): referência montada no pipeline a partir dos dados da publicação.
+  if (doc.camada === 2 && doc.referencia) {
+    const autor = doc.autoria ? doc.autoria.split(";")[0].split(",")[0].trim() : doc.orgao;
+    const pag = unidade?.pagina_impressa || unidade?.pagina;
+    return {
+      referencia: `${doc.referencia} ${acesso}`,
+      citacao: `(${autor}${doc.autoria?.includes(";") ? " et al." : ""}, ${doc.ano || "s. d."}${pag ? `, p. ${pag}` : ""})`,
+    };
+  }
   const url = doc.fonte_oficial_url || doc.fonteOficial || doc.arquivo_url;
   if (doc.tipo === "codigo_etica" || /^cfess-codigo-etica/.test(doc.id)) {
     return {

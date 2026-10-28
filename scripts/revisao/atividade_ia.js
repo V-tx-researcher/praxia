@@ -1,13 +1,15 @@
 // Gera a atividade de avaliação das respostas da IA local (.docx), a partir do
 // relatório verificado de uma rodada (tests/avaliacao/reverificar-llm.mjs).
-// Uso: node scripts/revisao/atividade_ia.js <llm-...-verificado.json> <saida.docx> <nº> [rótulo do modelo]
+// Uso: node scripts/revisao/atividade_ia.js <llm-...-verificado.json> <saida.docx> <nº> [rótulo do modelo] [camada2.json]
+// Com camada2.json, a atividade abre com a Parte A: conferência dos documentos da camada 2 (D41).
 const fs = require("fs");
 const {
   Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthType, ShadingType,
   HeadingLevel, BorderStyle, Footer, PageNumber, AlignmentType, LevelFormat,
 } = require("docx");
 
-const [, , arqVerificado, destino, numAtividade, rotuloModelo] = process.argv;
+const [, , arqVerificado, destino, numAtividade, rotuloModelo, arqCamada2] = process.argv;
+const camada2 = arqCamada2 ? JSON.parse(fs.readFileSync(arqCamada2, "utf8")).documentos : null;
 const { resumo, itens } = JSON.parse(fs.readFileSync(arqVerificado, "utf8"));
 const AZUL = "173456";
 const CAIXA = "F2F6FB";
@@ -19,7 +21,8 @@ const p = (filhos, op = {}) => new Paragraph({ spacing: { after: 100 }, ...op, c
 const titulo = (texto, quebra = false) => new Paragraph({ heading: HeadingLevel.HEADING_1, keepNext: true, pageBreakBefore: quebra,
   spacing: { before: 280, after: 120 }, children: [new TextRun({ text: texto, font: "Calibri", size: 28, bold: true, color: AZUL })] });
 const subtitulo = (texto) => new Paragraph({ keepNext: true, spacing: { before: 160, after: 80 }, children: [t(texto, { bold: true })] });
-const NATUREZA = { norma_expressa: "O que a norma estabelece", interpretacao: "Interpretação proposta" };
+const NATUREZA = { norma_expressa: "O que a norma estabelece", interpretacao: "Interpretação proposta",
+  orientacao: "Segundo orientação institucional" };
 
 function celula(conteudo, largura, { cabecalho = false, resposta = false } = {}) {
   return new TableCell({
@@ -50,7 +53,11 @@ const corpo = [
     children: [t(`Avaliação das respostas da IA local (${modelo}) — ${itens.length} perguntas`, { size: 26 })] }),
   titulo("Para que serve"),
   p(t("A plataforma pode, opcionalmente, redigir uma análise com inteligência artificial que roda no próprio computador da pessoa (sem custo e sem enviar a pergunta a servidores). Antes de liberar esse recurso ao público, é preciso que uma assistente social avalie se as respostas estão corretas.")),
-  p(t("Cada frase da IA abaixo já passou por uma verificação automática: as citações entre « » existem literalmente nas normas, e cada frase aponta os trechos que a fundamentam (E1, E2…). A verificação automática NÃO garante que a frase esteja certa — é isso que você vai avaliar.")),
+  p(t("Cada frase da IA abaixo já passou por uma verificação automática: as citações entre « » existem literalmente nas fontes, e cada frase aponta os trechos que a fundamentam. E1, E2… são trechos de normas; O1, O2… são trechos de orientações do CFESS, dos CRESS ou da ABEPSS (cartilhas, notas técnicas, pareceres). A verificação automática NÃO garante que a frase esteja certa — é isso que você vai avaliar.")),
+  ...(camada2 ? [
+    p(t("Novidade desta versão: a IA também recebe as orientações institucionais (O1, O2…). Ela deve usá-las para explicar como as entidades aplicam as normas, sempre dizendo a fonte, e nunca como se fossem normas. Por isso a atividade tem duas partes.")),
+    p([t("Parte A ", { bold: true }), t("(curta): diga se cada documento pode entrar na plataforma. "), t("Parte B: ", { bold: true }), t("avalie as respostas da IA, como antes.")]),
+  ] : []),
   titulo("Como responder"),
   new Paragraph({ numbering: { reference: "etapas", level: 0 }, children: [t("Leia a pergunta e os trechos (E1, E2…) que a IA recebeu.")] }),
   new Paragraph({ numbering: { reference: "etapas", level: 0 }, children: [t("Em cada frase, marque: Correta (certa e bem fundamentada), Parcial (certa em parte, incompleta ou imprecisa) ou Incorreta (errada, enganosa ou sem base).")] }),
@@ -66,15 +73,28 @@ const corpo = [
   ]),
 ];
 
+if (camada2) {
+  corpo.push(titulo("Parte A — Documentos de orientação institucional (camada 2)", true));
+  corpo.push(p(t("São publicações oficiais e gratuitas. Já conferi automaticamente que cada trecho é cópia literal do PDF oficial. Falta a sua decisão: o documento é pertinente e pode orientar as respostas? Marque Incluir ou Não incluir. Se tiver dúvida sobre um documento, marque Não incluir e anote o motivo.")));
+  corpo.push(tabela([500, 5600, 1400, 2138], ["Nº", "Documento", "Páginas / trechos", "Decisão"],
+    camada2.map((d, k) => [String(k + 1), `${d.orgao}. ${d.titulo}${d.edicao ? ` (${d.edicao})` : ""}. ${d.ano || d.ano_texto || "s. d."}.`,
+      `${d.paginas || "?"} p. / ${d.trechos || "?"}`, "☐ Incluir   ☐ Não incluir"]), [3]));
+  corpo.push(subtitulo("Os textos completos desses documentos ficam no arquivo público do site (como já acontece com as normas), para a busca funcionar sem servidor. Na tela, só aparecem os trechos encontrados, com a fonte e o link do PDF oficial. Você concorda?"));
+  corpo.push(marque(["Sim", "Só os documentos do CFESS e dos CRESS", "Não: mostrar só o link"]));
+  corpo.push(caixa("Algum documento oficial importante que ficou de fora (opcional):", 2));
+  corpo.push(titulo("Parte B — Respostas da IA", true));
+  corpo.push(p(t("Para cada pergunta: os trechos que a IA usou e as frases dela. As frases marcadas como “Segundo orientação institucional” vêm só das orientações (O1, O2…); confira se a IA disse a fonte e se não apresentou a orientação como regra.")));
+}
+
 itens.forEach((it, i) => {
-  corpo.push(titulo(`Pergunta ${i + 1} (${it.id})`, true));
+  corpo.push(titulo(`Pergunta ${i + 1} (${it.id})`, !camada2 || i > 0));
   corpo.push(p(t(it.pergunta, { bold: true, size: 24 })));
   // Só os trechos que fundamentam as frases a avaliar (ou os 3 primeiros, se não houver frase).
   const citados = new Set(it.aceitas.flatMap((x) => x.evidencias || []));
-  const num = (id) => Number(String(id).slice(1));
+  const num = (id) => Number(String(id).slice(1)) + (String(id).startsWith("O") ? 100 : 0);
   const mostrar = it.evidencias.filter((e) => !citados.size ? num(e.id) <= 3 : citados.has(e.id)).sort((x, y) => num(x.id) - num(y.id));
   corpo.push(subtitulo(citados.size ? "Trechos usados pela IA" : "Primeiros trechos encontrados"));
-  corpo.push(tabela([800, 2800, 6038], ["Ref.", "Dispositivo", "Texto"],
+  corpo.push(tabela([800, 2800, 6038], ["Ref.", "Dispositivo ou documento", "Texto"],
     mostrar.map((e) => [e.id, e.rotulo, e.texto.length > 600 ? e.texto.slice(0, 600) + "…" : e.texto])));
   corpo.push(subtitulo("O que a IA respondeu"));
   if (it.sintese) corpo.push(p([t("Síntese: ", { bold: true }), t(it.sintese)]));
@@ -99,7 +119,11 @@ corpo.push(subtitulo("1. Com base nestas respostas, a análise por IA pode ser l
 corpo.push(marque(["Sim", "Sim, só depois de corrigir os pontos que anotei", "Ainda não"]));
 corpo.push(subtitulo("2. Que tipo de erro mais preocupa?"));
 corpo.push(caixa("Ex.: afirma como regra o que é interpretação; mistura norma revogada; responde além do que os trechos dizem…", 3));
-corpo.push(subtitulo("3. Algo que a IA deveria sempre dizer ou nunca dizer?"));
+if (camada2) {
+  corpo.push(subtitulo("3. As orientações institucionais (O1, O2…) melhoraram as respostas?"));
+  corpo.push(marque(["Sim", "Em parte", "Não", "Pioraram"]));
+}
+corpo.push(subtitulo(`${camada2 ? 4 : 3}. Algo que a IA deveria sempre dizer ou nunca dizer?`));
 corpo.push(caixa("Sugestões para as instruções dadas à IA:", 3));
 
 const doc = new Document({

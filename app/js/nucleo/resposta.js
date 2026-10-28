@@ -12,6 +12,7 @@ import { orientacaoPara } from "./orientacao.js";
 import { verificarAnalise } from "./verificacao.js";
 import { ASSUNTOS_ROTULOS } from "./rotulos.js";
 import { fundir } from "./semantica.js";
+import { ajustarNatureza, conferirOrientacoes, selecionarOrientacoes } from "./interpretacao.js";
 
 export const LIMITES =
   "Esta é uma análise informativa, produzida por uma ferramenta independente de pesquisa, " +
@@ -21,7 +22,9 @@ export const LIMITES =
   "Leia integralmente as fontes indicadas.";
 
 // `semantica` (opcional): { indice: IndiceSemantico, motor: { vetor(pergunta) } }.
-export async function consultar(indice, perguntaOriginal, { motorLLM = null, semantica = null, aoProgresso = () => {} } = {}) {
+// `interpretacao` (opcional): IndiceLexical da camada 2 (orientações institucionais, D41).
+export async function consultar(indice, perguntaOriginal, { motorLLM = null, semantica = null, interpretacao = null,
+  aoProgresso = () => {} } = {}) {
   const etapas = [];
   const marcar = (nome, detalhe) => { etapas.push({ nome, detalhe }); aoProgresso(nome, detalhe); };
 
@@ -51,12 +54,23 @@ export async function consultar(indice, perguntaOriginal, { motorLLM = null, sem
   evidencias = conferirEvidencias(indice, evidencias);
   marcar("trechos", `${evidencias.length} trechos selecionados e conferidos com o acervo`);
 
+  // Orientações institucionais só acompanham uma resposta que já tem base normativa.
+  let orientacoes = [];
+  if (interpretacao && evidencias.length) {
+    orientacoes = conferirOrientacoes(interpretacao, selecionarOrientacoes(interpretacao, pergunta));
+    marcar("orientações institucionais", orientacoes.length
+      ? `${orientacoes.length} trecho(s) de documentos do CFESS, dos CRESS ou da ABEPSS`
+      : "nenhuma orientação diretamente relacionada");
+  }
+
   let analise = null;
   if (motorLLM && evidencias.length) {
     marcar("análise", "gerando análise com o modelo local");
     try {
-      const bruta = await motorLLM.analisar({ pergunta, classificacao, evidencias });
-      analise = verificarAnalise(bruta, evidencias);
+      const todas = [...evidencias, ...orientacoes];
+      const bruta = await motorLLM.analisar({ pergunta, classificacao, evidencias: todas });
+      analise = verificarAnalise(bruta, todas);
+      ajustarNatureza(analise.afirmacoes, new Map(todas.map((e) => [e.id, e])));
       marcar("verificação", `${analise.afirmacoes.length} afirmações aceitas; ${analise.removidas.length} removidas`);
     } catch (erro) {
       marcar("análise", `falhou: ${erro.message}`);
@@ -64,13 +78,14 @@ export async function consultar(indice, perguntaOriginal, { motorLLM = null, sem
     }
   }
 
-  return compor({ perguntaOriginal, pergunta, dados, classificacao, busca, evidencias, analise, etapas, llmAtivo: !!motorLLM, indice });
+  return compor({ perguntaOriginal, pergunta, dados, classificacao, busca, evidencias, orientacoes, analise, etapas,
+    llmAtivo: !!motorLLM, indice });
 }
 
-export function compor({ pergunta, dados, classificacao, busca, evidencias, analise, etapas, llmAtivo, indice = null }) {
+export function compor({ pergunta, dados, classificacao, busca, evidencias, orientacoes = [], analise, etapas, llmAtivo, indice = null }) {
   const r = { pergunta, etapas, classificacao, secoes: [] };
   const docsUsados = new Map();
-  const temNaoConferido = evidencias.some((e) => !e.documento.conferido);
+  const temNaoConferido = [...evidencias, ...orientacoes].some((e) => !e.documento.conferido);
 
   if (dados.length) {
     r.alertaPrivacidade = `Removemos da consulta ${dados.length} trecho(s) que parece(m) conter dado(s) pessoal(is) ` +
@@ -122,6 +137,18 @@ export function compor({ pergunta, dados, classificacao, busca, evidencias, anal
     for (const e of lista) docsUsados.set(e.documento.id, e);
     r.secoes.push({ id: "fundamentacao", titulo: "Fundamentação documental", evidencias: lista,
       outras: usadas ? evidencias.filter((e) => !usadas.has(e.id)) : [] });
+  }
+
+  // 3b. Orientações institucionais (camada 2): como o CFESS, os CRESS e a ABEPSS
+  // interpretam e aplicam as normas. Separadas da fundamentação normativa.
+  if (orientacoes.length) {
+    const usadas = analise?.evidenciasUsadas?.length ? new Set(analise.evidenciasUsadas) : null;
+    const citadas = usadas ? orientacoes.filter((o) => usadas.has(o.id)) : [];
+    r.secoes.push({ id: "orientacoes", titulo: "Como as entidades da profissão orientam",
+      paragrafos: ["Trechos de publicações do CFESS, dos CRESS e da ABEPSS (cartilhas, notas técnicas, pareceres e " +
+        "parâmetros de atuação). Explicam como as entidades interpretam e aplicam as normas; não são normas e não " +
+        "substituem a leitura dos dispositivos acima."],
+      orientacoes: citadas.length ? [...citadas, ...orientacoes.filter((o) => !citadas.includes(o))] : orientacoes });
   }
 
   // 4. Aspectos que exigem atenção

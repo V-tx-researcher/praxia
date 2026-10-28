@@ -21,7 +21,7 @@ verificáveis** de documentos oficiais do Conjunto CFESS-CRESS.
 | Busca por sentido (semântica) | opcional, ativada pela própria pessoa (modelo de ~120 MB no navegador); combinada à busca por termos (D36) |
 | Interface | tema escuro (claro opcional), instalável como aplicativo (celular e computador), funciona sem internet, testada em Chrome e Edge (D37) |
 | Análise por LLM local (WebLLM) | integrada; **opcional, ativada pela própria pessoa** após diagnóstico do aparelho; bloqueada na versão pública até a revisão profissional (D17) |
-| Leituras críticas | 108 textos de acesso aberto sobre as normas (artigos, teses, publicações do CFESS/CRESS), com referência ABNT e link conferido; só indicação de leitura, fora das evidências e da IA (D40) |
+| Orientações institucionais (camada 2) | 28 publicações oficiais do CFESS, CRESS e ABEPSS (cartilhas, notas técnicas, pareceres, parâmetros); trechos literais em seção própria e para a IA, sempre como "orientação, não norma"; aguardam conferência (D41) |
 | Acervo público | 59 normas nacionais do CFESS conferidas por pessoa responsável (inclusive revogadas e suspensas, com aviso) |
 
 Detalhes em [docs/PROGRESS.md](docs/PROGRESS.md) e próximos passos em [docs/NEXT_STEPS.md](docs/NEXT_STEPS.md).

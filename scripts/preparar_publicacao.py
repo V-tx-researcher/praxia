@@ -15,7 +15,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[1]
 ORIGEM = RAIZ / "app"
 DESTINO = RAIZ / "publicar"
-EXCLUIR = {"dev", "acervo-previa.json", "semantica-previa.json"}
+EXCLUIR = {"dev", "acervo-previa.json", "semantica-previa.json", "interpretacao-previa.json"}
 
 
 def main() -> int:

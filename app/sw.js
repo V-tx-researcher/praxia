@@ -16,9 +16,9 @@ const ESSENCIAIS = [
   "js/nucleo/privacidade.js", "js/nucleo/vigencia.js", "js/nucleo/orientacao.js", "js/nucleo/evidencias.js",
   "js/nucleo/verificacao.js", "js/nucleo/resposta.js", "js/nucleo/rotulos.js", "js/nucleo/snowball-pt.js",
   "js/nucleo/normas-citadas.js", "js/nucleo/referencia.js", "js/nucleo/guia.js", "js/nucleo/semantica.js",
-  "js/nucleo/literatura.js",
+  "js/nucleo/interpretacao.js",
   "js/llm/prompt.js", "js/llm/motor.js", "js/llm/capacidade.js",
-  "dados/acervo-publico.json", "dados/literatura.json",
+  "dados/acervo-publico.json",
 ];
 
 self.addEventListener("install", (e) => {
@@ -50,9 +50,9 @@ async function guardar(req, resp) {
   return resp;
 }
 
-async function redePrimeiro(req, chaveReserva) {
+async function redePrimeiro(req, chaveReserva, espera = ESPERA_REDE_MS) {
   try {
-    return await guardar(req, await comLimite(fetch(req), ESPERA_REDE_MS));
+    return await guardar(req, await comLimite(fetch(req), espera));
   } catch {
     const local = (await caches.match(req, { ignoreSearch: true })) || (chaveReserva && (await caches.match(chaveReserva)));
     if (local) return local;
@@ -64,5 +64,8 @@ self.addEventListener("fetch", (e) => {
   const req = e.request;
   const url = new URL(req.url);
   if (req.method !== "GET" || url.origin !== location.origin) return;
-  e.respondWith(redePrimeiro(req, req.mode === "navigate" ? "index.html" : null));
+  // Orientações institucionais (camada 2, alguns MB): não entram na instalação; ficam guardadas
+  // no primeiro uso, com mais tempo de espera para redes lentas.
+  const grande = url.pathname.endsWith("/dados/interpretacao-publico.json");
+  e.respondWith(redePrimeiro(req, req.mode === "navigate" ? "index.html" : null, grande ? 60000 : ESPERA_REDE_MS));
 });

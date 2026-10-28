@@ -60,6 +60,13 @@ vigência registradas.
   índice público** (`indice.PARTES_NAO_PUBLICAS`), apenas na prévia interna.
 - PDFs originais **não são republicados**: a aplicação aponta para o endereço
   oficial (`redistribuicao = link_e_excertos`). Mudar isso exige decisão registrada.
+- Orientações institucionais (camada 2, D41): cartilhas, notas técnicas e
+  pareceres são publicações do CFESS, dos CRESS e da ABEPSS, distribuídas
+  gratuitamente, mas não são atos oficiais no sentido do art. 8º, IV: podem ter
+  proteção autoral. Os trechos entram no índice público só com a autorização
+  registrada na conferência (Atividade nº 10, parte A); na tela aparecem só os
+  trechos encontrados, com referência e link do PDF oficial. Artigos e livros de
+  autores não entram no app (D40).
 - O repositório não versiona os PDFs (`dados/brutos/`) nem o texto integral
   extraído (`dados/textos/`); ambos são reobtidos pelo pipeline a partir das
   fontes oficiais, com verificação de SHA-256.

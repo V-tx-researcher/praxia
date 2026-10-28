@@ -14,6 +14,7 @@ import { selecionarEvidencias, conferirEvidencias } from "../../app/js/nucleo/ev
 import { detectarDadosPessoais, mascarar } from "../../app/js/nucleo/privacidade.js";
 import { verificarAnalise } from "../../app/js/nucleo/verificacao.js";
 import { interpretarSaida } from "../../app/js/llm/prompt.js";
+import { ajustarNatureza } from "../../app/js/nucleo/interpretacao.js";
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const entrada = process.argv[2];
@@ -47,15 +48,20 @@ for (const r of rodada.resultados) {
       throw new Error(`${r.id}: evidências reproduzidas diferem das da rodada`);
     }
   }
+  // Orientações institucionais (camada 2, D41) enviadas junto, com identificadores O1, O2…
+  const orientacoes = r.orientacoesEnviadas || [];
+  const todas = [...evidencias, ...orientacoes];
   let analise = null;
   let erro = null;
   try {
-    analise = verificarAnalise(interpretarSaida(r.saidaBruta), evidencias);
+    analise = verificarAnalise(interpretarSaida(r.saidaBruta), todas);
+    ajustarNatureza(analise.afirmacoes, new Map(todas.map((e) => [e.id, e])));
   } catch (e) {
     erro = String(e.message || e);
   }
   itens.push({ id: r.id, comportamento: r.comportamento, pergunta: r.pergunta, segundos: r.segundos,
-    evidencias: evidencias.map((e) => ({ id: e.id, rotulo: `${e.parte} | ${e.rotulo}`, texto: e.texto })),
+    evidencias: evidencias.map((e) => ({ id: e.id, rotulo: `${e.parte} | ${e.rotulo}`, texto: e.texto }))
+      .concat(orientacoes.map((o) => ({ id: o.id, camada: 2, rotulo: `${o.documento.orgao}: ${o.documento.titulo} | ${o.localizacao}`, texto: o.texto }))),
     aceitas: analise?.afirmacoes ?? [], removidas: analise?.removidas ?? [], sintese: analise?.sintese ?? "",
     atencao: analise?.aspectosAtencao ?? [], erro });
 }
@@ -68,7 +74,9 @@ for (const i of itens) for (const r of i.removidas) for (const m of r.motivos) {
   motivos[chave] = (motivos[chave] || 0) + 1;
 }
 const resumo = {
-  modelo: rodada.modelo, perguntas: itens.length,
+  modelo: rodada.modelo, camada2: rodada.camada2 || null, perguntas: itens.length,
+  com_orientacao: itens.filter((i) => i.evidencias.some((e) => e.camada === 2)).length,
+  afirmacoes_com_orientacao: itens.reduce((s, i) => s + i.aceitas.filter((a) => a.evidencias.some((id) => id.startsWith("O"))).length, 0),
   com_analise_aceita: itens.filter((i) => i.aceitas.length).length,
   sem_analise_aceita: itens.filter((i) => !i.aceitas.length).map((i) => i.id),
   afirmacoes_aceitas: totalAceitas, afirmacoes_removidas: totalRemovidas,

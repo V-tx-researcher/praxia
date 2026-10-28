@@ -29,15 +29,17 @@ apontados e, se mudar algo, rodar de novo `scripts/avaliar_llm.mjs` e
 `comparar-llm.mjs`. Se aprovar "só depois de corrigir", fazer as correções e gerar
 nova atividade curta com as perguntas afetadas.
 
-## Leituras críticas (camada 3, D40)
+## Orientações institucionais (camada 2, D41)
 
-Para acrescentar textos: salvar novos `docs/revisao/literatura_bloco_N.csv` (mesmas
-colunas) e rodar `python scripts/literatura/conferir_links.py` e depois
-`python scripts/literatura/consolidar.py`. Pendências de metadados (DOI, paginação,
-licença divergentes) ficam em `docs/revisao/literatura_conferencia.md`. Rodar a
-conferência de links de novo antes de cada publicação (links saem do ar). Pendente: o
-parecer de desagravo nº 001/2017 do CRESS-SP saiu do ar (fora do app até achar outro
-endereço).
+Depois da Atividade nº 10, parte A: registrar no `dados/configuracao/camada2.json` os
+documentos aprovados (`interpretacao.registrar_conferencia`) e rodar
+`python -m gpecss camada2 indexar --modo publico` (a partir de `pipeline/`). Se o revisor
+não autorizar o texto integral no arquivo público, a alternativa é publicar só a lista
+com links (sem trechos). Para acrescentar documentos: incluir em `camada2.json` e rodar
+`camada2 baixar`, `camada2 processar` e `camada2 indexar --modo previa`; conferir a
+pertinência com `node tests/avaliacao/orientacoes.mjs previa`. Avaliação da IA com a
+camada 2: `node scripts/avaliar_llm.mjs <modelo> <ids> --camada2=previa --sufixo=camada2`
+(se for interrompida, rodar as que faltam com `--juntar`).
 
 ## Verificação antes de publicar
 

@@ -72,6 +72,11 @@ def main(argv=None) -> int:
 
     sub.add_parser("validar", help="valida todos os registros do catálogo")
 
+    c2 = sub.add_parser("camada2", help="documentos interpretativos oficiais (CFESS, CRESS, ABEPSS) — D41")
+    c2.add_argument("acao", choices=["baixar", "processar", "indexar"])
+    c2.add_argument("ids", nargs="*")
+    c2.add_argument("--modo", choices=["publico", "previa"], default="publico")
+
     args = ap.parse_args(argv)
 
     if args.cmd == "descobrir":
@@ -101,6 +106,14 @@ def main(argv=None) -> int:
         print(f"{args.id}: publicado")
     elif args.cmd == "indexar":
         indice.construir(args.modo)
+    elif args.cmd == "camada2":
+        from . import interpretacao
+        if args.acao == "baixar":
+            interpretacao.baixar(args.ids or None)
+        elif args.acao == "processar":
+            interpretacao.processar(args.ids or None)
+        else:
+            interpretacao.indexar(args.modo)
     elif args.cmd == "validar":
         total = falhas = 0
         for reg in catalogo.todos():

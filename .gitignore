@@ -4,6 +4,7 @@ dados/brutos/
 dados/textos/
 # Índice de prévia: contém documentos NÃO conferidos — nunca publicar
 app/dados/acervo-previa.json
+app/dados/interpretacao-previa.json
 __pycache__/
 *.pyc
 node_modules/

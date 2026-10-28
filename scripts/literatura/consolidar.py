@@ -28,7 +28,7 @@ RAIZ = Path(__file__).resolve().parents[2]
 ENTRADA = RAIZ / "docs" / "revisao"
 LINKS = RAIZ / "dados" / "literatura" / "links.json"
 ACERVO = RAIZ / "app" / "dados" / "acervo-publico.json"
-SAIDA = RAIZ / "app" / "dados" / "literatura.json"
+SAIDA = RAIZ / "dados" / "literatura" / "literatura.json"  # uso interno: não vai para o app (D40 revista)
 RELATORIO = RAIZ / "docs" / "revisao" / "literatura_conferencia.md"
 
 BLOCOS = {

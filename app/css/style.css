@@ -431,6 +431,7 @@ blockquote.trecho {
 .selo.posicao-critica { border-color: var(--primaria); color: var(--primaria); background: transparent; }
 .selo.posicao-divergente { border-color: var(--acento); color: var(--acento); background: var(--acento-suave); }
 .selo.posicao-historica, .selo.posicao-descritiva { border-color: var(--borda-forte); color: var(--texto-suave); background: transparent; }
+.selo.orientacao { border-color: var(--acento); color: var(--acento); background: var(--acento-suave); }
 .selo.nao-verificada, .selo.nao-conferido { border-color: var(--alerta-borda); color: var(--alerta-texto); background: var(--alerta-fundo); }
 
 .lista-simples { margin: 0; padding-left: 20px; }
