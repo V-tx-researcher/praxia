@@ -3,6 +3,7 @@
 
 import { tokens } from "./texto.js";
 import { expandir, relacionados } from "./sinonimos.js";
+import { normasCitadas } from "./normas-citadas.js";
 
 const K1 = 1.2;
 const B = 0.75;
@@ -12,11 +13,20 @@ const PESO_CONTEXTO = 0.5;
 const IDF_INFORMATIVO = 0.8;
 // Documento que o portal oficial indica como revogado/invalidado/suspenso (não conferido).
 const PESO_INDICACAO_PORTAL = 0.55;
+// Norma citada pelo nome ou número na pergunta (ver normas-citadas.js).
+const PESO_CITADA = 1.8;
+// Assinatura e nota de publicação: raramente respondem a uma pergunta.
+const PESO_FECHO = 0.3;
+// Radicais presentes em quase toda pergunta do domínio: não bastam para tornar um
+// dispositivo pertinente (ex.: "piso salarial do assistente social" não é sobre o
+// acervo só por dizer "assistente social").
+const GERAIS = new Set(["assistent", "social", "servic", "profissional", "profissa", "cress", "cfess", "conselh",
+  "nacional", "federal", "regional"]);
 
 // Peso por natureza da unidade: texto normativo prevalece sobre apresentação.
 const PESO_TIPO = {
   artigo: 1.0, paragrafo: 1.0, inciso: 1.0, alinea: 1.0, principio: 1.0,
-  trecho: 0.85, apresentacao: 0.55,
+  trecho: 0.85, apresentacao: 0.55, anexo: 0.5,
 };
 
 const PESO_SITUACAO = {
@@ -84,7 +94,8 @@ export class IndiceLexical {
   }
 
   // Retorna unidades ordenadas por relevância, com os termos que casaram.
-  buscar(consulta, { limite = 30, filtroDoc = null } = {}) {
+  // `dataFatos` (AAAA-MM-DD) indica fatos passados: normas hoje revogadas não perdem peso.
+  buscar(consulta, { limite = 30, filtroDoc = null, dataFatos = null } = {}) {
     const originais = [...new Set(tokens(consulta))];
     // Palavra digitada correspondente a cada radical, para exibição ao usuário.
     const superficie = new Map();
@@ -97,7 +108,10 @@ export class IndiceLexical {
     for (const e of expandir(originais)) if (!termos.has(e)) termos.set(e, PESO_EXPANSAO);
     // Termos informativos: os que não aparecem em quase todo o acervo (ex.: "assistente",
     // "social"). Só eles contam para decidir se um dispositivo é pertinente.
-    const informativos = new Set(originais.filter((t) => this.idf(t) >= IDF_INFORMATIVO));
+    let informativos = new Set(originais.filter((t) => this.idf(t) >= IDF_INFORMATIVO && !GERAIS.has(t)));
+    if (!informativos.size) informativos = new Set(originais.filter((t) => this.idf(t) >= IDF_INFORMATIVO));
+    const citadas = normasCitadas(consulta, this);
+    const passado = dataFatos && +dataFatos.slice(0, 4) < new Date().getFullYear();
     const resultados = [];
     for (let i = 0; i < this.n; i++) {
       const u = this.unidades[i];
@@ -117,15 +131,20 @@ export class IndiceLexical {
       }
       const cobertura = cobertos / informativos.size;
       const doc = this.documentos.get(u.doc);
-      const fator = (PESO_TIPO[u.tipo] ?? 0.8) * (PESO_SITUACAO[doc?.situacao] ?? 0.9) *
-        (u.situacao_dispositivo === "revogado" ? PESO_SITUACAO.revogada : 1) *
-        (doc?.indicacoes_portal?.length ? PESO_INDICACAO_PORTAL : 1);
+      const citada = citadas.docs.has(u.doc) || citadas.partes.has(u.parte);
+      // Quem cita a norma ou pergunta sobre fatos passados quer ler a norma mesmo revogada.
+      const semPenalidade = citada || passado;
+      const fator = (PESO_TIPO[u.tipo] ?? 0.8) * (u.id.endsWith(":fecho") ? PESO_FECHO : 1) *
+        (semPenalidade ? 1 : (PESO_SITUACAO[doc?.situacao] ?? 0.9)) *
+        (u.situacao_dispositivo === "revogado" && !semPenalidade ? PESO_SITUACAO.revogada : 1) *
+        (doc?.indicacoes_portal?.length && !citada ? PESO_INDICACAO_PORTAL : 1) *
+        (citada ? PESO_CITADA : 1);
       const palavras = casados.filter((t) => informativos.has(t) && superficie.has(t)).map((t) => superficie.get(t));
       resultados.push({ unidade: u, pontuacao: s * fator * (0.6 + 0.4 * cobertura), casados: palavras,
         porSinonimo: casados.some((t) => termos.get(t) < 1), cobertura, informativosCasados });
     }
     resultados.sort((a, b) => b.pontuacao - a.pontuacao);
-    return { termos: originais, informativos: [...informativos],
+    return { termos: originais, informativos: [...informativos], citadas,
       expandidos: [...termos.keys()].filter((t) => termos.get(t) < 1), resultados: resultados.slice(0, limite) };
   }
 

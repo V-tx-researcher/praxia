@@ -28,6 +28,7 @@
         <ul class="abas" role="tablist">
           <li><button role="tab" id="aba-consulta" aria-controls="painel-consulta" aria-selected="true">Consulta</button></li>
           <li><button role="tab" id="aba-biblioteca" aria-controls="painel-biblioteca" aria-selected="false" tabindex="-1">Biblioteca normativa</button></li>
+          <li><button role="tab" id="aba-guia" aria-controls="painel-guia" aria-selected="false" tabindex="-1">Como usar</button></li>
           <li><button role="tab" id="aba-sobre" aria-controls="painel-sobre" aria-selected="false" tabindex="-1">Sobre e transparência</button></li>
         </ul>
       </nav>
@@ -61,12 +62,22 @@
         </div>
       </form>
 
+      <details id="exemplos" class="cartao exemplos" open>
+        <summary class="titulo-pequeno">Não sabe por onde começar? Experimente uma pergunta</summary>
+        <div id="lista-exemplos"></div>
+      </details>
+
       <details id="painel-ia" class="cartao painel-ia">
         <summary>Análise por IA no meu dispositivo (opcional)</summary>
         <div id="conteudo-ia"></div>
       </details>
 
       <div id="progresso" class="progresso" aria-live="polite"></div>
+      <div id="acoes-resultado" class="linha-acoes acoes-resultado" hidden>
+        <button type="button" id="imprimir" class="botao">Imprimir ou salvar em PDF</button>
+        <button type="button" id="copiar-resposta" class="botao">Copiar a resposta</button>
+        <span id="aviso-copia" class="ajuda" aria-live="polite"></span>
+      </div>
       <div id="resultado" class="resultado" aria-live="polite"></div>
     </section>
 
@@ -75,8 +86,12 @@
       <p class="ajuda">Documentos do acervo, com situação normativa e estado de conferência.</p>
       <form id="filtros" class="cartao filtros" role="search" aria-label="Filtrar documentos">
         <div class="campo">
-          <label for="f-texto">Buscar no título</label>
+          <label for="f-texto">Buscar no título ou na ementa</label>
           <input id="f-texto" type="search" autocomplete="off">
+        </div>
+        <div class="campo">
+          <label for="f-tema">Tema</label>
+          <select id="f-tema"><option value="">Todos</option></select>
         </div>
         <div class="campo">
           <label for="f-tipo">Tipo documental</label>
@@ -97,6 +112,11 @@
       </form>
       <div id="lista-documentos" aria-live="polite"></div>
       <div id="leitura-documento"></div>
+    </section>
+
+    <section id="painel-guia" role="tabpanel" aria-labelledby="aba-guia" hidden>
+      <h2>Como usar</h2>
+      <div id="guia"></div>
     </section>
 
     <section id="painel-sobre" role="tabpanel" aria-labelledby="aba-sobre" hidden>

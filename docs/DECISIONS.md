@@ -191,6 +191,30 @@ também abrem citação. (3) Linhas terminadas em ":", ";" ou "," e linhas de ar
 são tratadas como cabeçalho repetido. (4) "Parágrafo Primeiro" com inicial maiúscula
 é parágrafo. (5) "Presidenta" na assinatura. Documentos publicados reprocessados (D26).
 
+**D34 — 28/10/2026 — Busca: normas citadas, fatos passados, termos gerais e anexos.**
+(1) Norma citada pelo nome ou número na pergunta ("Res. 559/2009", "Lei 8.662/93",
+"Código Processual de Ética") recebe prioridade (×1,8) e não perde peso por estar
+revogada ou suspensa — quem cita quer ler a norma; o aviso de vigência continua.
+(2) Pergunta sobre fatos passados ("em 2010…") não rebaixa normas hoje revogadas.
+(3) Radicais presentes em quase toda pergunta do domínio ("assistente", "social",
+"profissional", "CRESS"…) não contam como termos informativos (só se forem os únicos).
+(4) Texto depois da assinatura (formulários, modelos) é "anexo" (peso 0,5); a
+assinatura, 0,3. (5) Tesauro ampliado (gravação, substituição, pena, prazo, diploma,
+metas, assinatura, instância). Avaliação (122 perguntas, gabarito não revisado):
+aprovação 0,842 → 0,917; recall@8 0,779 → 0,843. Ajustes parados aqui para não
+"decorar" o conjunto de avaliação.
+
+**D35 — 28/10/2026 — Recursos para assistentes sociais, docentes e estudantes.**
+Perguntas de exemplo por público (recolhidas após a primeira consulta, para não
+empurrar o resultado no celular); "Como citar (ABNT)" em cada trecho e documento
+(referência NBR 6023 e citação NBR 10520, com botão de copiar; a referência aponta
+para a norma oficial, não para a plataforma); filtro por tema e busca na ementa na
+Biblioteca; aba "Como usar" com orientação de uso e glossário em linguagem simples;
+"Imprimir ou salvar em PDF" e "Copiar a resposta" (a impressão traz a pergunta já
+mascarada e a data). Correções: conflito da classe `.marca` que espremia o topo da
+página; lista de arquivos para uso sem internet incompleta (faltava o radicalizador),
+agora protegida por teste.
+
 ## Pendentes (dependem do responsável)
 
 **D-P3 — Busca semântica:** modelo de embeddings (ex.: multilingual-e5-small,

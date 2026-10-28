@@ -382,10 +382,47 @@ details summary { cursor: pointer; font-weight: 600; }
 .painel-ia select { max-width: 420px; }
 .lista-diagnostico { list-style: none; padding: 0; margin: 0 0 12px; }
 .lista-diagnostico li { margin: 6px 0; padding-left: 26px; text-indent: -26px; }
-.marca { display: inline-block; width: 20px; text-align: center; font-weight: 800; text-indent: 0; }
-.marca.ok { color: var(--ok); }
-.marca.falha { color: var(--perigo-borda); }
-.marca.duvida { color: var(--alerta-borda); }
+.marcador { display: inline-block; width: 20px; text-align: center; font-weight: 800; text-indent: 0; }
+.marcador.ok { color: var(--ok); }
+.marcador.falha { color: var(--perigo-borda); }
+.marcador.duvida { color: var(--alerta-borda); }
 .interruptor { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; cursor: pointer; }
 .interruptor input { width: 20px; height: 20px; }
 progress { width: 100%; height: 10px; }
+
+/* Perguntas de exemplo por público */
+.exemplos { margin-top: 16px; }
+.titulo-pequeno { font-size: 1.02rem; font-weight: 700; margin: 0; cursor: pointer; }
+.exemplos[open] .titulo-pequeno { margin-bottom: 8px; }
+.grupo-exemplos { margin-top: 10px; }
+.grupo-exemplos .publico { margin: 0 0 6px; font-weight: 700; color: var(--texto-suave); font-size: 0.92rem; }
+.exemplos-lista { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.exemplo {
+  font: inherit; font-size: 0.92rem; text-align: left; cursor: pointer;
+  background: var(--destaque); color: var(--texto); border: 1px solid var(--borda);
+  border-radius: 999px; padding: 6px 14px; max-width: 100%;
+}
+.exemplo:hover { border-color: var(--primaria); }
+.exemplo:focus-visible { outline: 3px solid var(--foco); outline-offset: 2px; }
+
+/* Como citar (ABNT) */
+.citacao { margin-top: 10px; border-top: 1px dashed var(--borda); padding-top: 8px; }
+.citacao summary { cursor: pointer; color: var(--primaria); font-weight: 600; }
+.citacao p { font-size: 0.94rem; overflow-wrap: anywhere; }
+
+/* Ações sobre o resultado */
+.acoes-resultado { margin: 12px 0; }
+
+/* Glossário */
+.glossario dt { font-weight: 700; margin-top: 12px; }
+.glossario dd { margin: 2px 0 0; color: var(--texto); }
+
+.so-impressao { display: none; }
+
+@media print {
+  .abas, .exemplos, .painel-ia, .progresso, .acoes-resultado, .aviso, .faixa-previa, .citacao { display: none !important; }
+  .so-impressao { display: block; font-weight: 600; }
+  body { background: #fff; color: #000; }
+  .evidencia { break-inside: avoid; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; word-break: break-all; }
+}

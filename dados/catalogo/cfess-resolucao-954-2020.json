@@ -110,9 +110,9 @@
   "conferencia": {
     "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Arquivo e amostras conferidos nas Atividades nº 1 e 3. Pendência resolvida por pesquisa do desenvolvimento, por delegação expressa do revisor (27/10/2026): texto das págs. 1 e 2 completado por transcrição da imagem do PDF oficial; a verificação automática confirma que a transcrição só acrescenta o que a extração perdeu, e os incisos I, III e IV do Art. 3º coincidem com as transcrições do próprio revisor. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Arquivo e amostras conferidos nas Atividades nº 1 e 3. Pendência resolvida por pesquisa do desenvolvimento, por delegação expressa do revisor (27/10/2026): texto das págs. 1 e 2 completado por transcrição da imagem do PDF oficial; a verificação automática confirma que a transcrição só acrescenta o que a extração perdeu, e os incisos I, III e IV do Art. 3º coincidem com as transcrições do próprio revisor. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "1f2affa6c661e828",
-    "registrado_em": "2026-10-28T03:49:18+00:00"
+    "registrado_em": "2026-10-28T04:12:17+00:00"
   },
   "indexacao": {
     "paginas": 2,
@@ -379,6 +379,34 @@
       "data": "2026-10-28T03:49:18+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T04:12:17+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: texto após a assinatura marcado como anexo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T04:12:17+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T04:12:17+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Arquivo e amostras conferidos nas Atividades nº 1 e 3. Pendência resolvida por pesquisa do desenvolvimento, por delegação expressa do revisor (27/10/2026): texto das págs. 1 e 2 completado por transcrição da imagem do PDF oficial; a verificação automática confirma que a transcrição só acrescenta o que a extração perdeu, e os incisos I, III e IV do Art. 3º coincidem com as transcrições do próprio revisor. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T04:12:17+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -473,10 +501,10 @@
     }
   ],
   "conferencia_original": {
-    "data": "2026-10-27",
+    "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Arquivo e amostras conferidos nas Atividades nº 1 e 3. Pendência resolvida por pesquisa do desenvolvimento, por delegação expressa do revisor (27/10/2026): texto das págs. 1 e 2 completado por transcrição da imagem do PDF oficial; a verificação automática confirma que a transcrição só acrescenta o que a extração perdeu, e os incisos I, III e IV do Art. 3º coincidem com as transcrições do próprio revisor.",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Arquivo e amostras conferidos nas Atividades nº 1 e 3. Pendência resolvida por pesquisa do desenvolvimento, por delegação expressa do revisor (27/10/2026): texto das págs. 1 e 2 completado por transcrição da imagem do PDF oficial; a verificação automática confirma que a transcrição só acrescenta o que a extração perdeu, e os incisos I, III e IV do Art. 3º coincidem com as transcrições do próprio revisor. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "1f2affa6c661e828",
-    "registrado_em": "2026-10-27T15:10:37+00:00"
+    "registrado_em": "2026-10-28T03:49:18+00:00"
   }
 }

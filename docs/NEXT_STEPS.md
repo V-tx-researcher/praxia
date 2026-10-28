@@ -11,7 +11,7 @@ python -m gpecss validar                      # catálogo íntegro?
 python -m gpecss fila --estado aguardando_conferencia
 # PDFs e textos não são versionados: para reconstruir dados/brutos e dados/textos
 # dos documentos já processados, rode `baixar` e `processar` para cada ID da fila.
-cd .. && python -m unittest discover -s tests/python && node --test tests/js/*.test.mjs
+cd .. && python -m unittest discover -s tests/python && node --test tests/js/*.test.mjs   (nucleo, capacidade, usabilidade)
 node tests/avaliacao/avaliar.mjs previa
 python -m http.server 8765 --bind 127.0.0.1 --directory app   # ?acervo=previa
 ```

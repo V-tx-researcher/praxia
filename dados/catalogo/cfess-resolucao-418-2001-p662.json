@@ -69,9 +69,9 @@
   "conferencia": {
     "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "e42f30fdfb12f9f5",
-    "registrado_em": "2026-10-28T03:50:34+00:00"
+    "registrado_em": "2026-10-28T04:12:15+00:00"
   },
   "indexacao": {
     "paginas": 4,
@@ -258,6 +258,34 @@
       "data": "2026-10-28T03:50:34+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T04:12:15+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: texto após a assinatura marcado como anexo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T04:12:15+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T04:12:15+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T04:12:15+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -282,5 +310,12 @@
       "texto": "Art. 4- A(O) Assistente Social deve contratar, por escrito, a prestação dos seus serviçosprofissionais, observando as disposições constantes da Lei 8662, de 11 de setembro de 1993, queregulamenta a profissão da (do) Assistente Social; o Código de Ética Profissional da (do) AssistenteSocial, instituído pela Resolução o CFESS n273/93; O Código de Defesa do Consumidor, instituídopela Lei 8078 de 11 de setembro de 1990; fixando, para tanto, o valor dos honorários, reajuste econdições de pagamento, recomendando-se que seja observado, a título de parâmetro, o valormínimo constante da presente Tabela"
     }
   ],
-  "nota_vigencia": "Vigente com a alteração da Res. CFESS nº 467/2005 e retificação do Art. 4º (26/10/2021) (versão compilada). Os valores atualizados da tabela são divulgados pelo CFESS; os do texto são históricos."
+  "nota_vigencia": "Vigente com a alteração da Res. CFESS nº 467/2005 e retificação do Art. 4º (26/10/2021) (versão compilada). Os valores atualizados da tabela são divulgados pelo CFESS; os do texto são históricos.",
+  "conferencia_original": {
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "e42f30fdfb12f9f5",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
+  }
 }

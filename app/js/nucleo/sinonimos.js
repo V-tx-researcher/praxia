@@ -24,6 +24,15 @@ export const GRUPOS = [
   ["discriminação", "preconceito", "discriminar", "orientação sexual", "identidade de gênero"],
   ["exercício ilegal", "leigo", "não habilitado", "sem registro"],
   ["multidisciplinar", "interdisciplinar", "equipe", "outros profissionais"],
+  // 28/10/2026 — a partir das falhas da avaliação com o acervo completo.
+  ["gravação", "gravar", "gravado", "áudio", "vídeo", "filmagem", "filmar", "audiovisual", "imagem"],
+  ["substituir", "substituição", "substituto", "substituta", "continuidade"],
+  ["penalidade", "penalidades", "pena", "penas", "sanção", "sanções", "punição"],
+  ["prazo", "tempo", "duração", "dura", "período"],
+  ["diploma", "diplomado", "diplomada", "formado", "formada", "graduação", "graduado", "graduada"],
+  ["meta", "metas", "produtividade", "quantidade", "qualidade"],
+  ["assinar", "assina", "assinatura", "subscrever", "firmar"],
+  ["primeira instância", "instância", "julgar", "julgamento", "competência"],
 ];
 
 import { tokens } from "./texto.js";

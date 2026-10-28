@@ -187,7 +187,7 @@ def processar(doc_id: str, log=print) -> dict:
         for u in seg["unidades"]:
             if u["parte"] == "Texto":
                 u["parte"] = reg["titulo_oficial"]
-                if u["tipo"] in {"trecho", "apresentacao"}:
+                if u["tipo"] in {"trecho", "apresentacao", "anexo"}:
                     u["rotulo"] = u["rotulo"].replace("Texto — ", f"{reg['titulo_oficial']} — ", 1)
     texto_doc = {
         "documento_id": doc_id,
@@ -232,7 +232,7 @@ def processar(doc_id: str, log=print) -> dict:
     reg["indexacao"] = {
         "paginas": len(paginas),
         "paginas_indexadas": sorted({p for u in seg["unidades"] for p in range(u["pagina_inicio"], u["pagina_fim"] + 1)}),
-        "dispositivos": sum(1 for u in seg["unidades"] if u["tipo"] not in {"trecho", "apresentacao"}),
+        "dispositivos": sum(1 for u in seg["unidades"] if u["tipo"] not in {"trecho", "apresentacao", "anexo"}),
         "unidades": len(seg["unidades"]),
         "partes": [{"slug": p["slug"], "rotulo": p["rotulo"], "tipo": p["tipo"]} for p in seg["partes"]],
     }

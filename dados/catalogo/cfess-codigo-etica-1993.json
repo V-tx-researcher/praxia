@@ -171,9 +171,9 @@
   "conferencia": {
     "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
+    "observacoes": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "86ff45dd39adda15",
-    "registrado_em": "2026-10-28T03:49:17+00:00"
+    "registrado_em": "2026-10-28T04:12:14+00:00"
   },
   "indexacao": {
     "paginas": 62,
@@ -446,6 +446,34 @@
       "data": "2026-10-28T03:49:17+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T04:12:13+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: texto após a assinatura marcado como anexo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T04:12:14+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T04:12:14+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T04:12:14+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -512,10 +540,10 @@
     "Res. 333/1996 (Art. 25, caput, segundo o revisor) e Res. 293/1994: texto não localizado."
   ],
   "conferencia_original": {
-    "data": "2026-10-27",
+    "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida.",
+    "observacoes": "Atividade de conferência nº 1 (27/10/2026): arquivo oficial confirmado; título, tipo e órgão conferem; ano 1993 refere-se à norma (Res. 273/1993) e a edição é de 2012; divisão em partes confere; 6/6 amostras iguais ao PDF; situação: vigente com alterações (Art. 22 c com ressalva; Art. 25 p.ú. revogado); divulgação: apenas link oficial e trechos. Sugestão do revisor: incluir todas as resoluções e documentos legais do Conjunto CFESS-CRESS. | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "86ff45dd39adda15",
-    "registrado_em": "2026-10-27T15:10:51+00:00"
+    "registrado_em": "2026-10-28T03:49:17+00:00"
   }
 }

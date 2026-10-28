@@ -28,14 +28,15 @@ export async function consultar(indice, perguntaOriginal, { motorLLM = null, aoP
   marcar("privacidade", dados.length ? `${dados.length} possível(is) dado(s) pessoal(is) mascarado(s)` : "nenhum dado pessoal detectado");
 
   const classificacao = classificar(pergunta);
-  marcar("interpretação", `${classificacao.situacaoRotulo}; temas: ${classificacao.temas.join(", ") || "não identificados"}`);
+  marcar("interpretação", `${classificacao.situacaoRotulo}; temas: ${classificacao.temas.map((t) => ASSUNTOS_ROTULOS[t] || t).join(", ") || "não identificados"}`);
 
-  const busca = indice.buscar(pergunta, { limite: 40 });
-  marcar("recuperação lexical", `${busca.resultados.length} dispositivos candidatos`);
+  const busca = indice.buscar(pergunta, { limite: 40, dataFatos: classificacao.dataFatos });
+  marcar("busca nos documentos", `${busca.resultados.length} dispositivos candidatos` +
+    (busca.citadas?.alguma ? " (com prioridade para a norma citada na pergunta)" : ""));
 
   let evidencias = selecionarEvidencias(indice, busca, { dataFatos: classificacao.dataFatos });
   evidencias = conferirEvidencias(indice, evidencias);
-  marcar("evidências", `${evidencias.length} trechos selecionados e conferidos com o acervo`);
+  marcar("trechos", `${evidencias.length} trechos selecionados e conferidos com o acervo`);
 
   let analise = null;
   if (motorLLM && evidencias.length) {

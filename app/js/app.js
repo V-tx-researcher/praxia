@@ -5,6 +5,10 @@ import { IndiceLexical } from "./nucleo/busca.js";
 import { consultar } from "./nucleo/resposta.js";
 import { CANAIS_VERIFICADOS } from "./nucleo/orientacao.js";
 import { linkPdf } from "./nucleo/evidencias.js";
+import { referenciaABNT } from "./nucleo/referencia.js";
+import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
+import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
+import { dobrarAcentos } from "./nucleo/texto.js";
 import { MODELOS, MotorWebLLM, WEBLLM_URL, carregarBiblioteca, webgpuDisponivel } from "./llm/motor.js";
 import { avaliarModelo, coletarDispositivo, gb, modeloBaixado, removerModelo } from "./llm/capacidade.js";
 
@@ -40,6 +44,31 @@ function seloConferencia(conferido) {
   return conferido
     ? el("span", { classe: "selo vigente" }, "Texto conferido")
     : el("span", { classe: "selo nao-conferido" }, "Texto NÃO conferido (prévia)");
+}
+
+async function copiarTexto(texto, aviso) {
+  try {
+    await navigator.clipboard.writeText(texto);
+    if (aviso) aviso.textContent = "Copiado.";
+  } catch {
+    if (aviso) aviso.textContent = "Não foi possível copiar automaticamente; selecione o texto e copie.";
+  }
+}
+
+// Referência ABNT e citação no texto, com botão de copiar (estudantes, docentes, relatórios).
+function blocoCitacao(doc, unidade) {
+  if (!doc) return null;
+  const { referencia, citacao } = referenciaABNT(doc, unidade);
+  const aviso = el("span", { classe: "ajuda", "aria-live": "polite" });
+  return el("details", { classe: "citacao" },
+    el("summary", {}, "Como citar (ABNT)"),
+    el("p", {}, el("strong", {}, "Referência: "), referencia),
+    el("p", {}, el("strong", {}, "Citação no texto: "), citacao),
+    el("div", { classe: "linha-acoes" },
+      el("button", { type: "button", classe: "botao", onclick: () => copiarTexto(referencia, aviso) }, "Copiar referência"),
+      el("button", { type: "button", classe: "botao", onclick: () => copiarTexto(citacao, aviso) }, "Copiar citação"),
+      aviso),
+    el("p", { classe: "ajuda" }, "Confira a referência com as normas da sua instituição. Ao citar trecho literal, use aspas e indique o dispositivo."));
 }
 
 // ---------------------------------------------------------------- estado
@@ -119,9 +148,9 @@ function progressoModelo(texto, fracao) {
 }
 
 function marcador(ok) {
-  if (ok === true) return el("span", { classe: "marca ok", "aria-label": "atende" }, "✓");
-  if (ok === false) return el("span", { classe: "marca falha", "aria-label": "não atende" }, "✗");
-  return el("span", { classe: "marca duvida", "aria-label": "não foi possível confirmar" }, "?");
+  if (ok === true) return el("span", { classe: "marcador ok", "aria-label": "atende" }, "✓");
+  if (ok === false) return el("span", { classe: "marcador falha", "aria-label": "não atende" }, "✗");
+  return el("span", { classe: "marcador duvida", "aria-label": "não foi possível confirmar" }, "?");
 }
 
 async function renderizarPainelIA() {
@@ -258,6 +287,9 @@ async function aoConsultar(ev) {
   botao.disabled = true;
   botao.textContent = "Consultando…";
   saida.replaceChildren();
+  $("#acoes-resultado").hidden = true;
+  // Depois da primeira consulta os exemplos saem do caminho (no celular empurrariam o resultado).
+  $("#exemplos").open = false;
   const lista = el("ol");
   $("#progresso").replaceChildren(el("p", {}, "Etapas da análise:"), lista);
   try {
@@ -266,6 +298,8 @@ async function aoConsultar(ev) {
       aoProgresso: (nome, detalhe) => lista.append(el("li", {}, `${nome}: ${detalhe}`)),
     });
     renderizarResposta(r);
+    $("#acoes-resultado").hidden = false;
+    $("#aviso-copia").textContent = "";
   } catch (erro) {
     saida.replaceChildren(el("p", { classe: "alerta" }, `Não foi possível concluir a consulta: ${erro.message}`));
   } finally {
@@ -325,12 +359,15 @@ function cartaoEvidencia(e, afirmacoesQueCitam) {
     })(),
     el("div", { classe: "links-fonte" },
       linkExterno(e.link, `Abrir o PDF original na p. ${e.pagina}`),
-      linkExterno(d.fonteOficial, "Página oficial do documento")));
+      linkExterno(d.fonteOficial, "Página oficial do documento")),
+    blocoCitacao(estado.indice.documentos.get(d.id), estado.indice.porId.get(e.unidadeId)));
 }
 
 function renderizarResposta(r) {
   const saida = $("#resultado");
-  const blocos = [];
+  // Na impressão, a pergunta (já sem dados pessoais) acompanha a resposta.
+  const blocos = [el("p", { classe: "so-impressao" }, `Pergunta: ${r.pergunta}`,
+    el("br"), `Consulta em ${new Date().toLocaleDateString("pt-BR")} — Consulta Ético-Normativa (GPECSS)`)];
   if (r.alertaPrivacidade) blocos.push(el("section", {}, el("p", { classe: "alerta" }, r.alertaPrivacidade)));
   const analise = r.secoes.find((s) => s.id === "analise");
   const citacoesPorEvidencia = new Map();
@@ -382,6 +419,16 @@ function renderizarResposta(r) {
   saida.querySelector("h2")?.focus();
 }
 
+function renderizarExemplos() {
+  $("#lista-exemplos").replaceChildren(...EXEMPLOS.map((g) => el("div", { classe: "grupo-exemplos" },
+    el("p", { classe: "publico" }, g.publico),
+    el("ul", { classe: "exemplos-lista" }, g.perguntas.map((q) => el("li", {},
+      el("button", { type: "button", classe: "exemplo", onclick: () => {
+        $("#pergunta").value = q;
+        $("#form-consulta").requestSubmit();
+      } }, q)))))));
+}
+
 // ---------------------------------------------------------------- biblioteca
 function preencherFiltros() {
   const docs = estado.acervo.documentos;
@@ -389,18 +436,22 @@ function preencherFiltros() {
     for (const [v, rot] of valores) $(sel).append(el("option", { value: v }, rot));
   };
   const unicos = (f) => [...new Map(docs.map((d) => [f(d)[0], f(d)])).values()].sort((a, b) => String(a[1]).localeCompare(String(b[1])));
+  opcoes("#f-tema", unicos((d) => [d.assunto_principal, ASSUNTOS_ROTULOS[d.assunto_principal] || d.assunto_principal])
+    .filter(([v]) => v));
   opcoes("#f-tipo", unicos((d) => [d.tipo, d.tipo_rotulo]));
   opcoes("#f-orgao", unicos((d) => [d.orgao, d.orgao]));
   opcoes("#f-situacao", unicos((d) => [d.situacao, d.situacao_rotulo]));
   opcoes("#f-ano", unicos((d) => [String(d.ano ?? ""), d.ano ?? "sem ano"]).filter(([v]) => v));
-  for (const id of ["#f-texto", "#f-tipo", "#f-orgao", "#f-situacao", "#f-ano"]) $(id).addEventListener("input", listarDocumentos);
+  for (const id of ["#f-texto", "#f-tema", "#f-tipo", "#f-orgao", "#f-situacao", "#f-ano"]) $(id).addEventListener("input", listarDocumentos);
 }
 
 function listarDocumentos() {
-  const txt = $("#f-texto").value.trim().toLowerCase();
-  const f = { tipo: $("#f-tipo").value, orgao: $("#f-orgao").value, situacao: $("#f-situacao").value, ano: $("#f-ano").value };
+  const txt = dobrarAcentos($("#f-texto").value.trim().toLowerCase());
+  const f = { tema: $("#f-tema").value, tipo: $("#f-tipo").value, orgao: $("#f-orgao").value, situacao: $("#f-situacao").value, ano: $("#f-ano").value };
   const docs = estado.acervo.documentos.filter((d) =>
-    (!txt || d.titulo.toLowerCase().includes(txt)) && (!f.tipo || d.tipo === f.tipo) &&
+    (!txt || dobrarAcentos(`${d.titulo} ${d.ementa || ""}`.toLowerCase()).includes(txt)) &&
+    (!f.tema || d.assunto_principal === f.tema || (d.assuntos || []).includes(ASSUNTOS_ROTULOS[f.tema])) &&
+    (!f.tipo || d.tipo === f.tipo) &&
     (!f.orgao || d.orgao === f.orgao) && (!f.situacao || d.situacao === f.situacao) &&
     (!f.ano || String(d.ano) === f.ano));
   const alvo = $("#lista-documentos");
@@ -420,7 +471,9 @@ function listarDocumentos() {
     el("div", { classe: "links-fonte" },
       el("button", { classe: "botao", type: "button", onclick: () => lerDocumento(d.id) }, "Ler os dispositivos"),
       d.arquivo_url ? linkExterno(d.arquivo_url, "PDF original") : null,
-      linkExterno(d.fonte_oficial_url, "Página oficial")))));
+      linkExterno(d.fonte_oficial_url, "Página oficial")),
+    d.nota_vigencia ? el("p", { classe: "ajuda" }, el("strong", {}, "Vigência: "), d.nota_vigencia) : null,
+    blocoCitacao(d, null))));
 }
 
 function lerDocumento(id) {
@@ -438,11 +491,40 @@ function lerDocumento(id) {
       sec.append(el("h4", {}, u.parte));
     }
     sec.append(el("p", { classe: "unidade" },
-      ["trecho", "apresentacao"].includes(u.tipo) ? null : el("span", { classe: "rot" }, `${u.rotulo} — `),
+      ["trecho", "apresentacao", "anexo"].includes(u.tipo) ? null : el("span", { classe: "rot" }, `${u.rotulo} — `),
       u.texto, " ", linkExterno(linkPdf(d, u), `(p. ${u.pagina})`)));
   }
   $("#leitura-documento").replaceChildren(sec);
   sec.querySelector("h3").focus();
+}
+
+function renderizarGuia() {
+  const secao = (titulo, ...filhos) => el("section", { classe: "cartao" }, el("h3", {}, titulo), ...filhos);
+  $("#guia").replaceChildren(
+    secao("O que a plataforma faz",
+      el("p", {}, "Você escreve uma dúvida sobre o exercício profissional e a plataforma localiza, nos documentos oficiais do Conjunto CFESS-CRESS, os artigos e trechos relacionados. Cada trecho aparece com o texto literal, o documento, o dispositivo, a página e o link para o PDF oficial."),
+      el("p", {}, "Ela não dá parecer, não julga casos e não substitui a orientação do CRESS. Serve para encontrar e ler as normas com mais rapidez e segurança.")),
+    secao("Como fazer uma boa pergunta",
+      el("ul", { classe: "lista-simples" },
+        el("li", {}, "Descreva a situação de forma geral, sem nomes ou dados que identifiquem pessoas."),
+        el("li", {}, "Use as palavras do dia a dia do trabalho: “sigilo”, “laudo”, “estágio”, “sala de atendimento”."),
+        el("li", {}, "Se já sabe qual norma quer ler, cite o número: “Res. 533/2008”, “Lei 8.662”, “Código Processual de Ética”. A norma citada aparece primeiro."),
+        el("li", {}, "Se a dúvida é sobre fatos antigos, diga o ano (“em 2015…”): normas hoje revogadas também aparecem, com aviso."),
+        el("li", {}, "Se o resultado não ajudar, reformule com outros termos ou procure o documento na Biblioteca normativa."))),
+    secao("Como ler o resultado",
+      el("ul", { classe: "lista-simples" },
+        el("li", {}, el("strong", {}, "Selo de situação: "), "Vigente, Vigente com alterações, Revogada ou Suspensa/invalidada por decisão judicial. Normas que não estão em vigor aparecem com aviso e menos destaque."),
+        el("li", {}, el("strong", {}, "Texto conferido: "), "o texto foi comparado com o PDF oficial por pessoa responsável."),
+        el("li", {}, el("strong", {}, "Avisos no trecho: "), "indicam quando um dispositivo específico foi alterado ou revogado, com a norma que o alterou."),
+        el("li", {}, el("strong", {}, "Relação com a pergunta: "), "mostra por quais palavras o trecho foi encontrado. A pertinência ao seu caso depende da sua leitura."))),
+    secao("Para estudantes, docentes e supervisão de estágio",
+      el("ul", { classe: "lista-simples" },
+        el("li", {}, "Em cada trecho e em cada documento da Biblioteca há o botão “Como citar (ABNT)”, com a referência e a citação no texto prontas para copiar."),
+        el("li", {}, "Na Biblioteca normativa, filtre por tema, situação ou ano e use “Ler os dispositivos” para ler a norma inteira, artigo por artigo, com link para cada página do PDF."),
+        el("li", {}, "O botão “Imprimir ou salvar em PDF” gera uma versão da resposta para estudo, aula ou registro."),
+        el("li", {}, "Em trabalhos acadêmicos, cite a norma oficial (o PDF ou a página do CFESS), não esta plataforma."))),
+    secao("Glossário",
+      el("dl", { classe: "glossario" }, GLOSSARIO.flatMap(([termo, def]) => [el("dt", {}, termo), el("dd", {}, def)]))));
 }
 
 // ---------------------------------------------------------------- transparência
@@ -475,8 +557,8 @@ function renderizarTransparencia() {
         el("li", {}, "Dados que pareçam identificar pessoas (CPF, telefone, e-mail, nomes após termos como \"usuária\" ou \"paciente\") são mascarados antes da análise.")),
       el("h3", {}, "Limitações conhecidas"),
       el("ul", { classe: "lista-simples" },
-        el("li", {}, "A busca atual é lexical (por termos, com sinônimos do domínio); a busca semântica ainda está em desenvolvimento."),
-        el("li", {}, "O acervo está em formação e começa pelos documentos nacionais do CFESS; normas regionais dos CRESS serão incluídas depois."),
+        el("li", {}, "A busca atual é por termos (com sinônimos do vocabulário da profissão e prioridade para normas citadas pelo número); a busca por sentido ainda está em avaliação."),
+        el("li", {}, "O acervo reúne as normas nacionais do CFESS conferidas (inclusive as revogadas, para consulta histórica); normas regionais dos CRESS serão incluídas depois."),
         el("li", {}, "A situação de vigência é registrada pela equipe; quando não verificada, isso é indicado em cada trecho.")),
       el("h3", {}, "Canais oficiais"),
       el("p", {}, linkExterno(CANAIS_VERIFICADOS.enderecosCress.url, CANAIS_VERIFICADOS.enderecosCress.rotulo),
@@ -507,6 +589,11 @@ function configurarAbas() {
 // ---------------------------------------------------------------- início
 configurarAbas();
 $("#form-consulta").addEventListener("submit", aoConsultar);
+$("#imprimir").addEventListener("click", () => window.print());
+$("#copiar-resposta").addEventListener("click", () =>
+  copiarTexto(`Pergunta: ${$("#pergunta").value.trim()}\n\n${$("#resultado").innerText}`, $("#aviso-copia")));
+renderizarExemplos();
+renderizarGuia();
 await carregarAcervo();
 preencherFiltros();
 listarDocumentos();

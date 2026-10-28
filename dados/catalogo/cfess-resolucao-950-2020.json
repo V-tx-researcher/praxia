@@ -66,9 +66,9 @@
   "conferencia": {
     "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Assinatura separada do Art. 4º, a pedido do revisor. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Assinatura separada do Art. 4º, a pedido do revisor. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "592dde191e9e664f",
-    "registrado_em": "2026-10-28T03:49:18+00:00"
+    "registrado_em": "2026-10-28T04:12:17+00:00"
   },
   "indexacao": {
     "paginas": 7,
@@ -292,6 +292,34 @@
       "data": "2026-10-28T03:49:18+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T04:12:17+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: texto após a assinatura marcado como anexo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T04:12:17+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T04:12:17+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Assinatura separada do Art. 4º, a pedido do revisor. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T04:12:17+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -308,10 +336,10 @@
   },
   "nota_vigencia": "Vigente. O texto oficial data a Res. 934/2020 de 23 de janeiro num considerando e de 28 de janeiro nos Arts. 1º e 2º (mantido como no original).",
   "conferencia_original": {
-    "data": "2026-10-27",
+    "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Assinatura separada do Art. 4º, a pedido do revisor.",
+    "observacoes": "Atividade de conferência nº 4 (lote 2, 27/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Assinatura separada do Art. 4º, a pedido do revisor. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "592dde191e9e664f",
-    "registrado_em": "2026-10-27T15:10:37+00:00"
+    "registrado_em": "2026-10-28T03:49:18+00:00"
   }
 }

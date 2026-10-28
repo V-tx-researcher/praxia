@@ -59,9 +59,9 @@
   "conferencia": {
     "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. O Art. 5º inclui a assinatura da presidente (texto literal do PDF). | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
+    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. O Art. 5º inclui a assinatura da presidente (texto literal do PDF). | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "9a319219c59c4eac",
-    "registrado_em": "2026-10-28T03:49:18+00:00"
+    "registrado_em": "2026-10-28T04:12:16+00:00"
   },
   "indexacao": {
     "paginas": 2,
@@ -300,6 +300,34 @@
       "data": "2026-10-28T03:49:18+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T04:12:16+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: texto após a assinatura marcado como anexo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T04:12:16+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T04:12:16+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. O Art. 5º inclui a assinatura da presidente (texto literal do PDF). | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T04:12:16+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -315,10 +343,10 @@
     "descoberto_em": "2026-10-26T21:23:58+00:00"
   },
   "conferencia_original": {
-    "data": "2026-10-27",
+    "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. O Art. 5º inclui a assinatura da presidente (texto literal do PDF). | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida.",
+    "observacoes": "Atividade de conferência nº 3 (lote 1, 27/10/2026): arquivo oficial confirmado; amostras conferem com o PDF. O Art. 5º inclui a assinatura da presidente (texto literal do PDF). | Reprocessamento técnico: retirada do cabeçalho/rodapé institucional (timbre) do texto; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: assinatura e nota de publicação separadas do último artigo; mesmo arquivo (SHA-256), conferência original mantida. | Reprocessamento técnico: artigos citados em nova redação, parágrafos por extenso com inicial maiúscula e assinatura (Presidenta); mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "9a319219c59c4eac",
-    "registrado_em": "2026-10-27T15:10:52+00:00"
+    "registrado_em": "2026-10-28T03:49:18+00:00"
   }
 }

@@ -81,9 +81,9 @@
   "conferencia": {
     "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "3de4468b1dbe9119",
-    "registrado_em": "2026-10-28T03:50:34+00:00"
+    "registrado_em": "2026-10-28T04:12:14+00:00"
   },
   "indexacao": {
     "paginas": 2,
@@ -308,6 +308,34 @@
       "data": "2026-10-28T03:50:34+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T04:12:14+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: texto após a assinatura marcado como anexo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T04:12:14+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T04:12:14+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T04:12:14+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -322,5 +350,12 @@
     "externos": [],
     "descoberto_em": "2026-10-26T20:55:43+00:00"
   },
-  "nota_vigencia": "Vigente. Remete à Res. CFESS nº 493/2006, revogada pela Res. 1.114/2025 (Art. 21); as condições éticas e técnicas hoje seguem a Res. 1.114/2025."
+  "nota_vigencia": "Vigente. Remete à Res. CFESS nº 493/2006, revogada pela Res. 1.114/2025 (Art. 21); as condições éticas e técnicas hoje seguem a Res. 1.114/2025.",
+  "conferencia_original": {
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF.",
+    "versao_conferida": "3de4468b1dbe9119",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
+  }
 }

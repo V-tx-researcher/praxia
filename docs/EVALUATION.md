@@ -25,19 +25,22 @@ formato da saída do modelo.
 
 ## 2. Recuperação documental (sem LLM)
 
-`node tests/avaliacao/avaliar.mjs previa` — 122 perguntas em
-`tests/avaliacao/perguntas.json`; acervo de prévia com 17 documentos, 581 unidades.
+`node tests/avaliacao/avaliar.mjs publico` — 122 perguntas em
+`tests/avaliacao/perguntas.json`.
 
-| Métrica | Valor |
-|---|---|
-| Perguntas avaliáveis (referência presente no acervo) | 120 de 122 |
-| Aprovadas (comportamento esperado) | 110/120 (91,7%) |
-| Recall@8 das referências esperadas | 0,858 |
-| MRR da primeira referência | 0,785 |
-| Acurácia da classificação A/B/C | 0,844 |
-| Insuficiência reconhecida (fora do domínio) | 3/5 |
-| Privacidade (dados mascarados) | 2/2 |
-| Injeção na pergunta | 1/1 avaliável |
+| Métrica | Linha de base (17 docs, 581 unid.) | Acervo completo antes de D34 (59 docs) | Acervo completo, 28/10/2026 (59 docs, 1.809 unid.) |
+|---|---|---|---|
+| Perguntas avaliáveis | 120 de 122 | 120 de 122 | 120 de 122 |
+| Aprovadas | 110/120 (91,7%) | 101/120 (84,2%) | 110/120 (91,7%) |
+| Recall@8 das referências esperadas | 0,858 | 0,779 | 0,843 |
+| MRR da primeira referência | 0,785 | 0,698 | 0,772 |
+| Acurácia da classificação A/B/C | 0,844 | 0,852 | 0,852 |
+| Insuficiência reconhecida (fora do domínio) | 3/5 | 3/5 | 4/5 |
+| Privacidade (dados mascarados) | 2/2 | 2/2 | 2/2 |
+| Injeção na pergunta | 1/1 avaliável | 1/1 | 1/1 |
+
+Com 3,4 vezes mais documentos, a busca voltou ao nível da linha de base graças às
+mudanças da D34. O gabarito ainda não foi revisado por profissional.
 
 Resultados por pergunta: `docs/avaliacao/linha-de-base.json`.
 

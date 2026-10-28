@@ -40,9 +40,9 @@
   "conferencia": {
     "data": "2026-10-28",
     "responsavel": "revisao-profissional",
-    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Arquivo e amostras não marcados pelo revisor; o texto transcrito foi conferido automaticamente com o exemplar em texto do CFESS (99,8% igual). Situação marcada pelo revisor. | Atividade nº 9 (28/10/2026): o revisor confirmou o PDF oficial e os três artigos (Arts. 1º a 3º) iguais à imagem.",
+    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Arquivo e amostras não marcados pelo revisor; o texto transcrito foi conferido automaticamente com o exemplar em texto do CFESS (99,8% igual). Situação marcada pelo revisor. | Atividade nº 9 (28/10/2026): o revisor confirmou o PDF oficial e os três artigos (Arts. 1º a 3º) iguais à imagem. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida.",
     "versao_conferida": "8cc3037bbda02d2b",
-    "registrado_em": "2026-10-28T03:50:34+00:00"
+    "registrado_em": "2026-10-28T04:12:15+00:00"
   },
   "indexacao": {
     "paginas": 2,
@@ -148,6 +148,34 @@
       "data": "2026-10-28T03:50:34+00:00",
       "por": "revisao-profissional",
       "motivo": "incluído no acervo público"
+    },
+    {
+      "de": "publicado",
+      "para": "processado",
+      "data": "2026-10-28T04:12:15+00:00",
+      "por": "processador",
+      "motivo": "reprocessamento técnico: texto após a assinatura marcado como anexo"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-10-28T04:12:15+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    },
+    {
+      "de": "aguardando_conferencia",
+      "para": "aprovado",
+      "data": "2026-10-28T04:12:15+00:00",
+      "por": "revisao-profissional",
+      "motivo": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Arquivo e amostras não marcados pelo revisor; o texto transcrito foi conferido automaticamente com o exemplar em texto do CFESS (99,8% igual). Situação marcada pelo revisor. | Atividade nº 9 (28/10/2026): o revisor confirmou o PDF oficial e os três artigos (Arts. 1º a 3º) iguais à imagem. | Reprocessamento técnico: texto após a assinatura marcado como anexo; mesmo arquivo (SHA-256), conferência original mantida."
+    },
+    {
+      "de": "aprovado",
+      "para": "publicado",
+      "data": "2026-10-28T04:12:15+00:00",
+      "por": "revisao-profissional",
+      "motivo": "incluído no acervo público"
     }
   ],
   "portal": {
@@ -166,7 +194,9 @@
     "autor": "desenvolvimento (pesquisa delegada pelo revisor em 27/10/2026)",
     "metodo": "Transcrição da imagem das páginas do PDF oficial, renderizadas em alta resolução (pypdfium2, escala 3), um parágrafo por linha. Logotipo e rodapé de endereço omitidos. Sem texto extraído para comparação: a transcrição deve ser conferida pelo revisor (Atividade de conferência).",
     "registrado_em": "2026-10-27",
-    "corroboracao": [],
+    "corroboracao": [
+      "Comparada automaticamente (28/10/2026) com o exemplar em texto publicado pelo CFESS em https://www.cfess.org.br/arquivos/resolucao_383_99.pdf: 99,8% das palavras iguais; única diferença, \"técnico-política\" (com hífen, como na imagem) × \"técnicopolítica\" no exemplar em texto."
+    ],
     "paginas": [
       {
         "pagina": 1,
@@ -182,5 +212,12 @@
       }
     ]
   },
-  "nota_vigencia": "Vigente. PDF oficial digitalizado: texto transcrito da imagem e conferido com o exemplar em texto publicado pelo CFESS (arquivos/resolucao_383_99.pdf)."
+  "nota_vigencia": "Vigente. PDF oficial digitalizado: texto transcrito da imagem e conferido com o exemplar em texto publicado pelo CFESS (arquivos/resolucao_383_99.pdf).",
+  "conferencia_original": {
+    "data": "2026-10-28",
+    "responsavel": "revisao-profissional",
+    "observacoes": "Atividade de conferência nº 7 (lote 5, 28/10/2026), respondida pelo revisor com apoio de ferramenta de IA: arquivo oficial confirmado; amostras conferem com o PDF. Arquivo e amostras não marcados pelo revisor; o texto transcrito foi conferido automaticamente com o exemplar em texto do CFESS (99,8% igual). Situação marcada pelo revisor. | Atividade nº 9 (28/10/2026): o revisor confirmou o PDF oficial e os três artigos (Arts. 1º a 3º) iguais à imagem.",
+    "versao_conferida": "8cc3037bbda02d2b",
+    "registrado_em": "2026-10-28T03:50:34+00:00"
+  }
 }

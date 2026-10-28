@@ -19,7 +19,7 @@ export function rotuloLocalizacao(doc, unidade) {
   // Em compilações (ex.: Código de Ética + Lei 8.662/93 no mesmo arquivo) o nome da parte
   // identifica o texto normativo; em documentos simples, o título do documento basta.
   if (parte && doc.partes.length > 1) partes.push(unidade.parte);
-  if (!["trecho", "apresentacao"].includes(unidade.tipo)) partes.push(unidade.rotulo);
+  if (!["trecho", "apresentacao", "anexo"].includes(unidade.tipo)) partes.push(unidade.rotulo);
   const pag = unidade.pagina_impressa
     ? `p. ${unidade.pagina_impressa} do impresso (p. ${unidade.pagina} do PDF)`
     : `p. ${unidade.pagina} do PDF`;

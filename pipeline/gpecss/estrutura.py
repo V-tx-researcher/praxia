@@ -269,7 +269,7 @@ class Segmentador:
             return u
 
         def nova_parte(rotulo, tipo, pagina, slug_fixo=None, extras=None):
-            nonlocal parte, artigo, paragrafo, inciso, atual, ultimo_artigo, trecho_n
+            nonlocal parte, artigo, paragrafo, inciso, atual, ultimo_artigo, trecho_n, apos_fecho
             parte["pagina_fim"] = pagina if atual is None else max(
                 ln.pagina for ln in (atual.linhas or [Linha(pagina, 0, 0, "")]))
             base = slug_fixo or slug(rotulo, 24) or "parte"
@@ -283,6 +283,7 @@ class Segmentador:
             artigo = paragrafo = inciso = atual = None
             ultimo_artigo = 0
             trecho_n = 0
+            apos_fecho = False
             seq.update(par=0, inc=0, ali="", pri=0)
 
         # Texto citado em nova redação ("passa a vigorar com a seguinte redação:
@@ -290,6 +291,8 @@ class Segmentador:
         # introduz pertencem a esse artigo, e não à norma que está sendo lida.
         redacao_ativa = False
         ativada_em = -2
+        # Texto após a assinatura (formulários, modelos, tabelas) é anexo: peso menor na busca.
+        apos_fecho = False
         while i < len(linhas):
             l = linhas[i]
             t = l.texto
@@ -445,6 +448,7 @@ class Segmentador:
                     and len(t) <= 80 and not t.endswith((".", ";", ",", ":"))):
                 artigo = paragrafo = inciso = None
                 abrir("trecho", f"{parte['rotulo']} — assinatura e publicação", "fecho", None)
+                apos_fecho = True
                 atual.linhas.append(l)
                 i += 1
                 continue
@@ -454,14 +458,15 @@ class Segmentador:
                 atual.linhas.append(l)
             else:
                 trecho_n += 1
-                tipo = "trecho" if parte["tipo"] != "apresentacao" else "apresentacao"
+                tipo = "apresentacao" if parte["tipo"] == "apresentacao" else "anexo" if apos_fecho else "trecho"
                 if parte["tipo"] == "pre_textual":
                     i += 1
                     continue
-                abrir(tipo, f"{parte['rotulo']} — trecho (p. {l.pagina})", f"p{l.pagina}-t{trecho_n}", None)
+                abrir(tipo, f"{parte['rotulo']} — {'anexo' if tipo == 'anexo' else 'trecho'} (p. {l.pagina})",
+                      f"p{l.pagina}-t{trecho_n}", None)
                 atual.linhas.append(l)
             # Trechos livres são quebrados em parágrafos de tamanho moderado
-            if atual is not None and atual.tipo in {"trecho", "apresentacao"}:
+            if atual is not None and atual.tipo in {"trecho", "apresentacao", "anexo"}:
                 tam = sum(len(x.texto) for x in atual.linhas)
                 if tam > 700 and t.endswith((".", ":", ";")):
                     atual = None
