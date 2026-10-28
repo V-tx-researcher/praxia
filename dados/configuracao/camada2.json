@@ -20,7 +20,10 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 78,
-   "trechos": 259
+   "trechos": 259,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 493/2006 (revogada)"
+   ]
   },
   {
    "id": "cfess-atribuicoes-privativas-v2-2020",
@@ -40,7 +43,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 120,
-   "trechos": 496
+   "trechos": 496,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-praticas-terapeuticas-2010",
@@ -60,7 +64,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 14,
-   "trechos": 38
+   "trechos": 38,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-parametros-saude-2010",
@@ -81,7 +86,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 82,
-   "trechos": 226
+   "trechos": 226,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-parametros-assistencia-social-2011",
@@ -102,7 +108,10 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 38,
-   "trechos": 90
+   "trechos": 90,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 493/2006 (revogada)"
+   ]
   },
   {
    "id": "cfess-subsidios-educacao-2013",
@@ -123,7 +132,10 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 66,
-   "trechos": 142
+   "trechos": 142,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 493/2006 (revogada)"
+   ]
   },
   {
    "id": "cfess-sociojuridico-2014",
@@ -144,7 +156,10 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 110,
-   "trechos": 352
+   "trechos": 352,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 493/2006 (revogada)"
+   ]
   },
   {
    "id": "cfess-documentos-opiniao-tecnica-2022",
@@ -165,7 +180,10 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 232,
-   "trechos": 582
+   "trechos": 582,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 493/2006 (revogada)"
+   ]
   },
   {
    "id": "cfess-registros-opiniao-tecnica-2020",
@@ -186,7 +204,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 104,
-   "trechos": 367
+   "trechos": 367,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-nota-depoimento-especial-2018",
@@ -207,7 +226,10 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 35,
-   "trechos": 129
+   "trechos": 129,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 554/2009 (suspensa ou invalidada por decisão judicial)"
+   ]
   },
   {
    "id": "cfess-nota-escuta-especializada-2019",
@@ -228,7 +250,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 24,
-   "trechos": 101
+   "trechos": 101,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cress-pb-nota-sigilo-documentos-2024",
@@ -248,7 +271,11 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 5,
-   "trechos": 20
+   "trechos": 20,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 556/2009 (revogada)",
+    "Res. CFESS 493/2006 (revogada)"
+   ]
   },
   {
    "id": "cfess-teletrabalho-telepericia-2020",
@@ -268,7 +295,11 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 18,
-   "trechos": 66
+   "trechos": 66,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 556/2009 (revogada)",
+    "Res. CFESS 493/2006 (revogada)"
+   ]
   },
   {
    "id": "cfess-manual-inscricao-2023",
@@ -287,7 +318,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 110,
-   "trechos": 270
+   "trechos": 270,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-pnf-instrumentos-2019",
@@ -307,7 +339,12 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 124,
-   "trechos": 339
+   "trechos": 339,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 493/2006 (revogada)",
+    "Res. CFESS 556/2009 (revogada)",
+    "Res. CFESS 513/2007 (revogada)"
+   ]
   },
   {
    "id": "cfess-requisicoes-institucionais-2025",
@@ -327,7 +364,11 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 114,
-   "trechos": 375
+   "trechos": 375,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 493/2006 (revogada)",
+    "Res. CFESS 556/2009 (revogada)"
+   ]
   },
   {
    "id": "cfess-etica-instrumentos-processuais-2022",
@@ -348,7 +389,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 88,
-   "trechos": 284
+   "trechos": 284,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-pareceres-juridicos-cedh-2022",
@@ -369,7 +411,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 142,
-   "trechos": 1082
+   "trechos": 1082,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cress-sp-roteiro-codigo-processual-2014",
@@ -388,7 +431,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 68,
-   "trechos": 179
+   "trechos": 179,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-supervisao-direta-estagio",
@@ -408,7 +452,10 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 30,
-   "trechos": 89
+   "trechos": 89,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 493/2006 (revogada)"
+   ]
   },
   {
    "id": "abepss-politica-nacional-estagio-2010",
@@ -428,7 +475,10 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 44,
-   "trechos": 164
+   "trechos": 164,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 493/2006 (revogada)"
+   ]
   },
   {
    "id": "abepss-diretrizes-curriculares-1996",
@@ -447,7 +497,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 27,
-   "trechos": 82
+   "trechos": 82,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-caderno-1-preconceito-2016",
@@ -469,7 +520,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 24,
-   "trechos": 68
+   "trechos": 68,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-caderno-3-racismo-2016",
@@ -491,7 +543,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 22,
-   "trechos": 54
+   "trechos": 54,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-caderno-4-transfobia-2016",
@@ -513,7 +566,10 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 18,
-   "trechos": 42
+   "trechos": 42,
+   "normas_revogadas_citadas": [
+    "Res. CFESS 615/2011 (revogada)"
+   ]
   },
   {
    "id": "cfess-caderno-7-pcd-2019",
@@ -535,7 +591,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 24,
-   "trechos": 62
+   "trechos": 62,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-caderno-9-capacitismo-2025",
@@ -557,7 +614,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 22,
-   "trechos": 68
+   "trechos": 68,
+   "normas_revogadas_citadas": []
   },
   {
    "id": "cfess-nome-social-2019",
@@ -577,7 +635,8 @@
    "licenca_declarada": null,
    "alertas": [],
    "paginas": 6,
-   "trechos": 33
+   "trechos": 33,
+   "normas_revogadas_citadas": []
   }
  ]
 }

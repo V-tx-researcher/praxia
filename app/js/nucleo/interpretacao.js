@@ -71,7 +71,8 @@ export function montarOrientacao(indice, resultado, n) {
     porSentido: false,
     pontuacao: resultado.pontuacao,
     cobertura: resultado.cobertura ?? null,
-    vigencia: { aplicavel: true, avisos: [] },
+    notaVigencia: doc.nota_vigencia || null,
+    vigencia: { aplicavel: true, avisos: doc.nota_vigencia ? [doc.nota_vigencia] : [] },
   };
 }
 

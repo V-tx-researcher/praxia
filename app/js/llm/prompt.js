@@ -16,7 +16,8 @@ Regras obrigatórias:
 9. A primeira afirmação responde diretamente à pergunta; as seguintes trazem fundamentos e ressalvas. Não diga mais do que as evidências dizem: se uma norma trata algo como direito e outra como dever, mencione as duas.
 10. Se a pergunta partir de uma premissa errada, corrija a premissa com base nas evidências.
 11. Prefira evidências de normas vigentes. Se usar norma revogada, suspensa ou dispositivo alterado, diga isso na própria afirmação.
-12. Evidências com identificador iniciado por "O" (O1, O2…) são orientações institucionais do CFESS, dos CRESS ou da ABEPSS (cartilhas, notas técnicas, pareceres), não normas. Use-as para explicar como as entidades interpretam e aplicam as normas, sempre dizendo a fonte na própria frase (ex.: "Segundo nota técnica do CFESS, …"). Nunca as marque como "norma_expressa" nem as apresente como regra obrigatória. A resposta direta (regra 9) deve se apoiar em norma (evidência "E"); havendo diferença entre orientação e norma, prevalece a norma.
+12. Evidências com identificador iniciado por "O" (O1, O2…) são orientações institucionais do CFESS, dos CRESS ou da ABEPSS (cartilhas, notas técnicas, pareceres), não normas. Use-as para explicar como as entidades interpretam e aplicam as normas, sempre dizendo a fonte na própria frase (ex.: "Segundo nota técnica do CFESS, …"). Nunca as marque como "norma_expressa" nem as apresente como regra obrigatória. A resposta direta (regra 9) deve se apoiar em norma (evidência "E"); havendo diferença entre orientação e norma, prevalece a norma. Quando uma orientação tratar diretamente da situação perguntada (ex.: a chefia pedindo acesso aos arquivos), use-a para explicar a aplicação, dizendo a fonte.
+13. Se as evidências trazem direito e dever sobre o mesmo tema (ex.: sigilo como direito e como dever), mencione os dois.
 Responda somente com um objeto JSON no formato:
 {"sintese_questao": "...", "afirmacoes": [{"texto": "...", "natureza": "norma_expressa", "evidencias": ["E1"]}], "aspectos_atencao": ["..."], "lacunas": ["..."], "fundamentacao_suficiente": true}`;
 
@@ -52,7 +53,9 @@ export function montarMensagens({ pergunta, classificacao, evidencias }) {
     if (e.camada === 2) {
       return `<evidencia id="${e.id}">\nOrientação institucional (não é norma) — ${escaparTag(e.documento.orgao)}: ` +
         `${escaparTag(e.documento.titulo)}${e.documento.ano ? ` (${e.documento.ano})` : ""}\n` +
-        `Localização: ${escaparTag(e.localizacao)}\nTexto: ${escaparTag(e.texto)}\n</evidencia>`;
+        `Localização: ${escaparTag(e.localizacao)}\n` +
+        (e.notaVigencia ? `Atenção (obrigatório mencionar ao usá-la): ${escaparTag(e.notaVigencia)}\n` : "") +
+        `Texto: ${escaparTag(e.texto)}\n</evidencia>`;
     }
     const contexto = e.contexto.map((c) => `${c.rotulo}: ${c.texto}`).join("\n");
     return `<evidencia id="${e.id}">\nDocumento: ${escaparTag(e.documento.titulo)}\nSituação normativa: ${e.documento.situacaoRotulo}\n` +

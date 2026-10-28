@@ -68,6 +68,23 @@ def cabecalhos_de_capitulo(por_pagina) -> set[tuple[int, int]]:
     return excluir
 
 
+RE_RESOLUCAO = re.compile(r"Resolu[çc][ãa]o\s+(?:CFESS\s+)?(?:n[º°o.]*\s*)?(\d{1,2}\.?\d{3}|\d{3})\s*/\s*(\d{4})", re.I)
+
+
+def normas_revogadas_citadas(paginas: list[str]) -> list[str]:
+    """Resoluções do acervo hoje revogadas ou sem efeito que o documento menciona."""
+    acervo = json.loads((catalogo.DIR_APP_DADOS / "acervo-publico.json").read_text(encoding="utf-8"))
+    fora = {(str(d["numero"]).replace(".", ""), str(d["ano"])): d["situacao_rotulo"].lower()
+            for d in acervo["documentos"] if d["situacao"] in {"revogada", "sem_efeito_judicial"} and d.get("numero")}
+    achadas = []
+    for num, ano in RE_RESOLUCAO.findall(re.sub(r"\s+", " ", " ".join(paginas))):
+        chave = (num.replace(".", ""), ano)
+        rotulo = f"Res. CFESS {num}/{ano} ({fora[chave]})" if chave in fora else None
+        if rotulo and rotulo not in achadas:
+            achadas.append(rotulo)
+    return achadas
+
+
 def carregar_config() -> dict:
     return json.loads(CONFIG.read_text(encoding="utf-8"))
 
@@ -220,6 +237,8 @@ def processar(ids: list[str] | None = None, log=print) -> None:
         lic = RE_LICENCA.search("\n".join(paginas[:6] + paginas[-3:]))
         d["licenca_declarada"] = re.sub(r"\s+", " ", lic.group(0)).strip() if lic else None
         d["alertas"] = alertas
+        # Normas hoje revogadas citadas no documento: viram aviso na tela e para a IA.
+        d["normas_revogadas_citadas"] = normas_revogadas_citadas(paginas)
         d["paginas"] = len(paginas)
         d["trechos"] = len(unidades)
         (DIR_TEXTOS / f"{d['id']}.json").write_text(json.dumps(texto_doc, ensure_ascii=False), encoding="utf-8")
@@ -268,6 +287,10 @@ def indexar(modo: str = "publico", log=print) -> dict:
             "arquivo_url": d["url"], "sha256": d["sha256"], "data_coleta": d.get("data_coleta"),
             "conferido": bool(d.get("conferido")),
             "conferencia": {"data": d["conferencia_data"]} if d.get("conferido") else None,
+            "nota_vigencia": ("Este documento cita normas hoje revogadas ou sem efeito: " +
+                              ", ".join(d["normas_revogadas_citadas"]) +
+                              ". Confira a norma vigente antes de seguir a orientação.")
+            if d.get("normas_revogadas_citadas") else None,
             "referencia": referencia_abnt(d), "partes": [], "alteracoes": {}, "indicacoes_portal": [],
         })
         for u in texto["unidades"]:

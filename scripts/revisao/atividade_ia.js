@@ -90,7 +90,9 @@ itens.forEach((it, i) => {
   corpo.push(titulo(`Pergunta ${i + 1} (${it.id})`, !camada2 || i > 0));
   corpo.push(p(t(it.pergunta, { bold: true, size: 24 })));
   // Só os trechos que fundamentam as frases a avaliar (ou os 3 primeiros, se não houver frase).
-  const citados = new Set(it.aceitas.flatMap((x) => x.evidencias || []));
+  // Também os trechos mencionados nos aspectos de atenção (ex.: "(E3)"), para o revisor ver tudo o que a IA citou.
+  const citados = new Set([...it.aceitas.flatMap((x) => x.evidencias || []),
+    ...(it.atencao || []).flatMap((x) => x.match(/[EO]\d+/g) || [])]);
   const num = (id) => Number(String(id).slice(1)) + (String(id).startsWith("O") ? 100 : 0);
   // Orientações (O) recebidas aparecem sempre, usadas ou não: o revisor avalia se ajudariam.
   const mostrar = it.evidencias.filter((e) => e.camada === 2 || (!citados.size ? num(e.id) <= 3 : citados.has(e.id)))
