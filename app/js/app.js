@@ -4,7 +4,7 @@ import { CONFIG } from "./config.js";
 import { IndiceLexical } from "./nucleo/busca.js";
 import { consultar } from "./nucleo/resposta.js";
 import { CANAIS_VERIFICADOS } from "./nucleo/orientacao.js";
-import { linkPdf } from "./nucleo/evidencias.js";
+import { linkPdf, PRIORIDADES } from "./nucleo/evidencias.js";
 import { referenciaABNT } from "./nucleo/referencia.js";
 import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
 import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
@@ -568,7 +568,9 @@ function cartaoEvidencia(e, afirmacoesQueCitam) {
   const d = e.documento;
   const cab = el("div", { classe: "evidencia-cabecalho" },
     el("div", {}, el("span", { classe: "evidencia-id" }, e.id), el("span", { classe: "evidencia-doc" }, d.titulo)),
-    el("div", { classe: "selos" }, seloSituacao(d.situacao, d.situacaoRotulo), seloConferencia(d.conferido)));
+    el("div", { classe: "selos" },
+      e.prioridade ? el("span", { classe: `selo prioridade ${e.prioridade}` }, PRIORIDADES[e.prioridade]) : null,
+      seloSituacao(d.situacao, d.situacaoRotulo), seloConferencia(d.conferido)));
   const contexto = e.contexto.map((c) => el("p", { classe: "contexto" },
     c.texto.startsWith(c.rotulo.split(",").pop().trim().split(" ")[0]) ? null : el("strong", {}, `${c.rotulo}: `), c.texto));
   let relacao;
@@ -629,7 +631,22 @@ function renderizarResposta(r) {
       sec.append(el("p", { classe: "ajuda" }, "Texto gerado por IA local a partir exclusivamente das evidências abaixo e verificado automaticamente. Pode conter erros."));
     }
     if (s.evidencias) {
-      s.evidencias.forEach((e) => sec.append(cartaoEvidencia(e, citacoesPorEvidencia.get(e.id))));
+      // Ordem de leitura sugerida: as referências mais diretamente ligadas à pergunta
+      // primeiro (prioridade calculada em evidencias.js), depois as relacionadas e as
+      // complementares.
+      const ordem = ["principal", "relacionada", "complementar"];
+      const grupos = ordem.map((p) => [p, s.evidencias.filter((e) => (e.prioridade || "relacionada") === p)]).filter(([, l]) => l.length);
+      sec.append(el("div", { classe: "ordem-leitura" },
+        el("p", { classe: "titulo-ordem" }, "Ordem de leitura sugerida"),
+        el("ol", {}, grupos.flatMap(([p, lista]) => lista.map((e) => el("li", { classe: `item-ordem ${p}` },
+          el("a", { href: `#ev-${e.id}`, onclick: () => destacar(e.id) }, e.id), " ",
+          `${e.documento.titulo} — ${["trecho", "apresentacao", "anexo"].includes(e.tipo) ? `p. ${e.pagina}` : e.rotulo}`,
+          el("span", { classe: `selo prioridade ${p}` }, PRIORIDADES[p]))))),
+        el("p", { classe: "ajuda" }, "A prioridade é calculada pela correspondência com os termos da pergunta e pela vigência; não é um juízo sobre o caso. Leia todas as referências antes de concluir.")));
+      for (const [p, lista] of grupos) {
+        if (grupos.length > 1) sec.append(el("h3", { classe: `grupo-prioridade ${p}` }, PRIORIDADES[p]));
+        lista.forEach((e) => sec.append(cartaoEvidencia(e, citacoesPorEvidencia.get(e.id))));
+      }
       if (s.outras?.length) {
         const det = el("details", {}, el("summary", {}, `Outros ${s.outras.length} trechos localizados, não utilizados na análise`));
         s.outras.forEach((e) => det.append(cartaoEvidencia(e)));

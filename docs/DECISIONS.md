@@ -253,6 +253,14 @@ aceita quando cada parte é literal (antes, a frase central de perguntas sobre v
 era descartada). A IA continua **bloqueada na versão pública** (`permitirAtivacao:
 false`) até a Atividade nº 10 (avaliação humana das respostas).
 
+**D39 — 28/10/2026 — Prioridade das referências (sugestão do responsável).** Cada
+trecho recebe um nível — "mais diretamente relacionada à pergunta" (a mais bem
+posicionada e as que cobrem quase tantos termos quanto ela, até 3), "também
+relacionada" e "complementar (contexto)" — e a fundamentação abre com a "ordem de
+leitura sugerida". Normas fora de vigor e anexos (formulários) ficam como
+complementares quando há alternativa vigente. A prioridade é aviso de leitura, não
+juízo sobre o caso (texto na tela). Não altera as respostas da IA.
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e

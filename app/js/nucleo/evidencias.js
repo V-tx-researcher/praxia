@@ -47,7 +47,43 @@ export function selecionarEvidencias(indice, resultadoBusca, { dataFatos = null,
     cobertos.add(u.id);
     if (escolhidos.length >= max) break;
   }
-  return escolhidos.map((r, i) => montarEvidencia(indice, r, i + 1, dataFatos));
+  const evidencias = escolhidos.map((r, i) => montarEvidencia(indice, r, i + 1, dataFatos));
+  classificarPrioridade(evidencias);
+  return evidencias;
+}
+
+// Prioridade de cada referência em relação à pergunta, para orientar a leitura:
+// - principal: a mais bem posicionada e as que cobrem quase tantos termos da pergunta
+//   quanto ela (até 3);
+// - relacionada: as demais até a 5ª posição que cobrem boa parte da pergunta ou
+//   foram trazidas pela busca por sentido;
+// - complementar: contexto (cobrem poucos termos ou estão mais abaixo).
+// Norma que não está em vigor e anexos (formulários) ficam como complementares,
+// salvo se não houver alternativa vigente.
+export const PRIORIDADES = {
+  principal: "Mais diretamente relacionada à pergunta",
+  relacionada: "Também relacionada",
+  complementar: "Complementar (contexto)",
+};
+export function classificarPrioridade(evidencias) {
+  if (!evidencias.length) return evidencias;
+  const emVigor = (e) => e.vigencia.aplicavel !== false && e.situacaoDispositivo !== "revogado";
+  const primeira = evidencias.find(emVigor) || evidencias[0];
+  const referencia = primeira.cobertura ?? 1;
+  let principais = 0;
+  evidencias.forEach((e, i) => {
+    const cob = e.cobertura ?? 0;
+    if (e === primeira || (principais < 3 && emVigor(e) && e.tipo !== "anexo" && i < 5 && cob >= Math.max(0.6, referencia - 0.15))) {
+      e.prioridade = "principal";
+      principais++;
+    } else if (i < 5 && (cob >= 0.4 || e.porSentido) && emVigor(e) && e.tipo !== "anexo") {
+      e.prioridade = "relacionada";
+    } else {
+      e.prioridade = "complementar";
+    }
+  });
+  if (!principais) evidencias[0].prioridade = "principal";
+  return evidencias;
 }
 
 export function montarEvidencia(indice, resultado, n, dataFatos) {
@@ -79,6 +115,7 @@ export function montarEvidencia(indice, resultado, n, dataFatos) {
     porSinonimo: !!resultado.porSinonimo,
     porSentido: !!resultado.porSentido,
     pontuacao: resultado.pontuacao,
+    cobertura: resultado.cobertura ?? null,
     vigencia: vig,
   };
 }

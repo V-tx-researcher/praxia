@@ -122,3 +122,10 @@ test("busca por sentido: fusão mantém a regra de suficiência da busca por ter
   const r = fundir(indice, indice.buscar("atuação do perito"), sem, consulta);
   assert.equal(r.resultados[0].unidade.doc, "cfess-resolucao-559-2009");
 });
+
+test("prioridade das referências: principal primeiro, norma fora de vigor como complementar", async () => {
+  const { classificarPrioridade } = await import("../../app/js/nucleo/evidencias.js");
+  const ev = (id, cobertura, aplicavel = true, tipo = "artigo") => ({ id, cobertura, tipo, vigencia: { aplicavel }, situacaoDispositivo: null });
+  const lista = classificarPrioridade([ev("E1", 0.6, false), ev("E2", 0.8), ev("E3", 0.7), ev("E4", 0.5), ev("E5", 0.9, true, "anexo"), ev("E6", 0.9)]);
+  assert.deepEqual(lista.map((e) => e.prioridade), ["complementar", "principal", "principal", "relacionada", "complementar", "complementar"]);
+});
