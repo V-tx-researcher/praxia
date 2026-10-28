@@ -427,6 +427,10 @@ blockquote.trecho {
 }
 .selo.vigente { border-color: var(--ok); color: var(--ok); background: transparent; }
 .selo.revogada, .selo.historica { border-color: var(--perigo-borda); color: var(--perigo-borda); background: transparent; }
+.selo.posicao-favoravel { border-color: var(--ok); color: var(--ok); background: transparent; }
+.selo.posicao-critica { border-color: var(--primaria); color: var(--primaria); background: transparent; }
+.selo.posicao-divergente { border-color: var(--acento); color: var(--acento); background: var(--acento-suave); }
+.selo.posicao-historica, .selo.posicao-descritiva { border-color: var(--borda-forte); color: var(--texto-suave); background: transparent; }
 .selo.nao-verificada, .selo.nao-conferido { border-color: var(--alerta-borda); color: var(--alerta-texto); background: var(--alerta-fundo); }
 
 .lista-simples { margin: 0; padding-left: 20px; }
@@ -579,3 +583,9 @@ progress { width: 100%; height: 10px; accent-color: var(--acento); }
   .evidencia { break-inside: avoid; }
   a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; word-break: break-all; }
 }
+
+/* Literatura crítica (camada 3) */
+.leituras { margin-top: 28px; }
+.leitura-item { border-top: 1px solid var(--borda); padding: 12px 0; }
+.leitura-item h4 { margin: 0 0 4px; font-size: 1rem; overflow-wrap: anywhere; }
+.leitura-item .doc-meta { overflow-wrap: anywhere; }

@@ -29,6 +29,16 @@ apontados e, se mudar algo, rodar de novo `scripts/avaliar_llm.mjs` e
 `comparar-llm.mjs`. Se aprovar "só depois de corrigir", fazer as correções e gerar
 nova atividade curta com as perguntas afetadas.
 
+## Leituras críticas (camada 3, D40)
+
+Para acrescentar textos: salvar novos `docs/revisao/literatura_bloco_N.csv` (mesmas
+colunas) e rodar `python scripts/literatura/conferir_links.py` e depois
+`python scripts/literatura/consolidar.py`. Pendências de metadados (DOI, paginação,
+licença divergentes) ficam em `docs/revisao/literatura_conferencia.md`. Rodar a
+conferência de links de novo antes de cada publicação (links saem do ar). Pendente: o
+parecer de desagravo nº 001/2017 do CRESS-SP saiu do ar (fora do app até achar outro
+endereço).
+
 ## Verificação antes de publicar
 
 ```bash

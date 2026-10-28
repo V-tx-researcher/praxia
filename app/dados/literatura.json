@@ -1,0 +1,3960 @@
+{
+ "formato": "gpecss-literatura-1",
+ "gerado_em": "2026-10-28",
+ "aviso": "Leituras para aprofundar o estudo das normas. Não são normas, não fundamentam as respostas e não são usadas pela IA. Resumos de triagem elaborados com apoio de IA: leia o texto original.",
+ "blocos": {
+  "1": "Código de Ética",
+  "2": "Lei 8.662/1993 e atribuições privativas",
+  "3": "Sigilo e documentos técnicos",
+  "4": "Condições de trabalho e jornada de 30 horas",
+  "5": "Fiscalização do exercício profissional",
+  "6": "Processo ético e desagravo",
+  "7": "Estágio supervisionado",
+  "8": "Direitos humanos e combate às discriminações"
+ },
+ "itens": [
+  {
+   "id": "lit-001",
+   "tipo": "artigo",
+   "autoria": "BARROCO, Maria Lúcia da Silva",
+   "titulo": "30 anos do Código de Ética do/a assistente social brasileiro/a!",
+   "ano": "2023",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/43320/29225/148917",
+   "doi": "10.22422/temporalis.2023v23n46p13-23",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "liberdade",
+    "emancipação",
+    "valores",
+    "neoconservadorismo"
+   ],
+   "resumo": "Examina a ruptura dos códigos de 1986 e 1993 com o conservadorismo profissional. Defende a atualidade dos valores emancipatórios do Código de 1993 para enfrentar o neoconservadorismo e o neofascismo.",
+   "posicao": "favoravel",
+   "referencia": "BARROCO, Maria Lúcia da Silva. 30 anos do Código de Ética do/a assistente social brasileiro/a! Temporalis, v. 23, n. 46, p. 13-23, 2023. DOI: https://doi.org/10.22422/temporalis.2023v23n46p13-23. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/43320/29225/148917.",
+   "citacao": "(BARROCO, 2023)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-002",
+   "tipo": "artigo",
+   "autoria": "SOUSA, Adrianyce Angelica Silva de; SANTOS, Débora Rodrigues",
+   "titulo": "Viva 1993! A ontologia do ser social ainda é “uma arma quente”",
+   "ano": "2023",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/42378/29306/149207",
+   "doi": "",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "ontologia do ser social",
+    "marxismo",
+    "fundamentos",
+    "intenção de ruptura"
+   ],
+   "resumo": "Sustenta que a perspectiva ontológica é decisiva para compreender a atualidade do Código de 1993. Situa essa fundamentação no processo de ruptura profissional e nas aproximações ao marxismo, discutindo polêmicas desse percurso.",
+   "posicao": "favoravel",
+   "referencia": "SOUSA, Adrianyce Angelica Silva de; SANTOS, Débora Rodrigues. Viva 1993! A ontologia do ser social ainda é “uma arma quente”. Temporalis, v. 23, n. 46, p. 24-37, 2023. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/42378/29306/149207.",
+   "citacao": "(SOUSA; SANTOS, 2023)",
+   "pendencias": [
+    "conferir DOI: página editorial informa 10"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-003",
+   "tipo": "artigo",
+   "autoria": "CASTILHO, Daniela Ribeiro; SILVA, Marlise Vinagre; RAMOS, Sâmya Rodrigues; SANTOS, Silvana Mara de Morais dos",
+   "titulo": "Reflexões sobre o legado dos 30 anos do Código de Ética da/o assistente social",
+   "ano": "2023",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/42395/29305/149206",
+   "doi": "10.22422/temporalis.2023v23n46p38-54",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "história da ética profissional",
+    "CFESS",
+    "neoliberalismo",
+    "projeto ético-político"
+   ],
+   "resumo": "Reconstrói a elaboração e a implementação do Código de 1993 no contexto das mudanças políticas dos anos 1980 e 1990. Destaca o protagonismo do CFESS e defende a continuidade do compromisso das entidades profissionais com o projeto ético-político.",
+   "posicao": "historica",
+   "referencia": "CASTILHO, Daniela Ribeiro; SILVA, Marlise Vinagre; RAMOS, Sâmya Rodrigues; SANTOS, Silvana Mara de Morais dos. Reflexões sobre o legado dos 30 anos do Código de Ética da/o assistente social. Temporalis, v. 23, n. 46, p. 38-54, 2023. DOI: https://doi.org/10.22422/temporalis.2023v23n46p38-54. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/42395/29305/149206.",
+   "citacao": "(CASTILHO et al., 2023)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-004",
+   "tipo": "artigo",
+   "autoria": "SGARBIEIRO, Márcia",
+   "titulo": "O Código de Ética dos assistentes sociais e a crítica à bioética principialista",
+   "ano": "2023",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/42388/29229/148922",
+   "doi": "10.22422/temporalis.2023v23n46p71-88",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "ética em pesquisa",
+    "bioética",
+    "principialismo",
+    "emancipação"
+   ],
+   "resumo": "Propõe considerar o Código de Ética como referência para pesquisas com seres humanos em Serviço Social. Critica a imposição de princípios de uma área do conhecimento às demais e defende o reconhecimento dos fundamentos emancipatórios e das particularidades éticas da profissão.",
+   "posicao": "critica",
+   "referencia": "SGARBIEIRO, Márcia. O Código de Ética dos assistentes sociais e a crítica à bioética principialista. Temporalis, v. 23, n. 46, p. 71-88, 2023. DOI: https://doi.org/10.22422/temporalis.2023v23n46p71-88. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/42388/29229/148922.",
+   "citacao": "(SGARBIEIRO, 2023)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-005",
+   "tipo": "artigo",
+   "autoria": "NASCIMENTO NETO, Valderí Teles do",
+   "titulo": "As produções do CFESS como forma de fortalecimento do projeto ético-político profissional (PEP)",
+   "ano": "2023",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/42390/29231/148924",
+   "doi": "10.22422/temporalis.2023v23n46p104-119",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Diretrizes Curriculares 1996"
+   ],
+   "temas": [
+    "CFESS",
+    "produção técnica e política",
+    "organização profissional",
+    "projeto ético-político"
+   ],
+   "resumo": "Analisa uma seleção de materiais produzidos pelo CFESS como instrumentos de fortalecimento do projeto profissional. Argumenta que essa produção articula a construção coletiva da profissão, a intervenção cotidiana e as lutas sociais.",
+   "posicao": "favoravel",
+   "referencia": "NASCIMENTO NETO, Valderí Teles do. As produções do CFESS como forma de fortalecimento do projeto ético-político profissional (PEP). Temporalis, v. 23, n. 46, p. 104-119, 2023. DOI: https://doi.org/10.22422/temporalis.2023v23n46p104-119. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/42390/29231/148924.",
+   "citacao": "(NASCIMENTO NETO, 2023)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-006",
+   "tipo": "artigo",
+   "autoria": "SOUZA, Tathiane Conceição Silva de; SILVA, Jardson; XAVIER, Quitéria Gabriela Cabral; SILVA, Andréa Lima da",
+   "titulo": "Serviço Social e conservadorismo reacionário: reafirmação do Código de Ética de 1993",
+   "ano": "2023",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/42392/29309/149210",
+   "doi": "10.22422/temporalis.2023v23n46p173-187",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "conservadorismo reacionário",
+    "tendências profissionais",
+    "pragmatismo",
+    "projeto ético-político"
+   ],
+   "resumo": "Analisa as disputas que atravessam o Serviço Social no contexto político brasileiro posterior a junho de 2013. Defende o Código de 1993 diante do avanço conservador e problematiza tendências profissionais que rejeitam a cultura crítica da profissão.",
+   "posicao": "favoravel",
+   "referencia": "SOUZA, Tathiane Conceição Silva de; SILVA, Jardson; XAVIER, Quitéria Gabriela Cabral; SILVA, Andréa Lima da. Serviço Social e conservadorismo reacionário: reafirmação do Código de Ética de 1993. Temporalis, v. 23, n. 46, p. 173-187, 2023. DOI: https://doi.org/10.22422/temporalis.2023v23n46p173-187. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/42392/29309/149210.",
+   "citacao": "(SOUZA et al., 2023)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-007",
+   "tipo": "artigo",
+   "autoria": "CABRAL, Paula Bonfim Guimarães",
+   "titulo": "O “ensino da ética em Serviço Social” após 30 anos de aprovação do Código de Ética de 1993",
+   "ano": "2023",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/42403/29310/149211",
+   "doi": "10.22422/temporalis.2023v23n46p188-201",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "ensino da ética",
+    "formação crítica",
+    "educação superior",
+    "trabalho docente"
+   ],
+   "resumo": "Discute os obstáculos à formação orientada pelos princípios do Código diante das condições de vida estudantil e de trabalho docente. Defende o ensino da ética e a universidade como espaços de elaboração crítica e de resistência aos processos de desumanização.",
+   "posicao": "critica",
+   "referencia": "CABRAL, Paula Bonfim Guimarães. O “ensino da ética em Serviço Social” após 30 anos de aprovação do Código de Ética de 1993. Temporalis, v. 23, n. 46, p. 188-201, 2023. DOI: https://doi.org/10.22422/temporalis.2023v23n46p188-201. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/42403/29310/149211.",
+   "citacao": "(CABRAL, 2023)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-008",
+   "tipo": "artigo",
+   "autoria": "NASCIMENTO, Adriana Antônia Alves do; GONÇALVES, Maria da Conceição Vasconcelos",
+   "titulo": "O ensino da ética no contexto do curso Ética em Movimento na Bahia",
+   "ano": "2023",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/42253/29258/149040",
+   "doi": "",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "educação permanente",
+    "Ética em Movimento",
+    "aprendizagem",
+    "CRESS Bahia"
+   ],
+   "resumo": "Analisa a proposta pedagógica do curso Ética em Movimento na Bahia, com base em documentos relativos ao período de 2000 a 2017. Apresenta o ensino da ética como estratégia para apropriação crítica dos fundamentos profissionais e qualificação da atuação.",
+   "posicao": "favoravel",
+   "referencia": "NASCIMENTO, Adriana Antônia Alves do; GONÇALVES, Maria da Conceição Vasconcelos. O ensino da ética no contexto do curso Ética em Movimento na Bahia. Temporalis, v. 23, n. 46, p. 202-217, 2023. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/42253/29258/149040.",
+   "citacao": "(NASCIMENTO; GONÇALVES, 2023)",
+   "pendencias": [
+    "conferir DOI: página informa 10"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-009",
+   "tipo": "artigo",
+   "autoria": "FORTI, Valeria Lucilia",
+   "titulo": "Pluralismo, Serviço Social e projeto ético-político: um tema, muitos desafios",
+   "ano": "2017",
+   "publicado_em": "Revista Katálysis",
+   "link": "https://periodicos.ufsc.br/index.php/katalysis/article/download/1982-02592017v20n3p373/35090/177833",
+   "doi": "10.1590/1982-02592017v20n3p373",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "pluralismo",
+    "ecletismo",
+    "conservadorismo",
+    "fundamentos"
+   ],
+   "resumo": "Discute os sentidos políticos e teóricos do pluralismo e sua relação com o projeto profissional. Diferencia a abertura ao debate de posições dogmáticas ou de uma conciliação indiscriminada de perspectivas, situando o problema no enfrentamento ao conservadorismo.",
+   "posicao": "critica",
+   "referencia": "FORTI, Valeria Lucilia. Pluralismo, Serviço Social e projeto ético-político: um tema, muitos desafios. Revista Katálysis, v. 20, n. 3, p. 373-381, 2017. DOI: https://doi.org/10.1590/1982-02592017v20n3p373. Disponível em: https://periodicos.ufsc.br/index.php/katalysis/article/download/1982-02592017v20n3p373/35090/177833.",
+   "citacao": "(FORTI, 2017)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-010",
+   "tipo": "artigo",
+   "autoria": "BRITO, Larisse Miranda de",
+   "titulo": "Projeto profissional, ética emancipatória e Serviço Social",
+   "ano": "2026",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/mV8JnwNQT9FNTczG5Zb4h5D/?lang=pt",
+   "doi": "10.1590/0101-6628.534",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Diretrizes Curriculares 1996"
+   ],
+   "temas": [
+    "ética emancipatória",
+    "renovação profissional",
+    "formação",
+    "história"
+   ],
+   "resumo": "Analisa os códigos de ética e as propostas curriculares para compreender a construção da direção profissional emancipatória. Sustenta que a renovação teórico-metodológica abriu possibilidades de intervenção contrárias à exploração capitalista.",
+   "posicao": "historica",
+   "referencia": "BRITO, Larisse Miranda de. Projeto profissional, ética emancipatória e Serviço Social. Serviço Social & Sociedade, v. 149, n. 1, e-66284534, p. 1-20, 2026. DOI: https://doi.org/10.1590/0101-6628.534. Disponível em: https://www.scielo.br/j/sssoc/a/mV8JnwNQT9FNTczG5Zb4h5D/?lang=pt.",
+   "citacao": "(BRITO, 2026)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-011",
+   "tipo": "artigo",
+   "autoria": "LIMA SOBRINHO, Jodeylson Islony de",
+   "titulo": "O Projeto Ético-Político do Serviço Social brasileiro: unidade dialética entre a ética e a política",
+   "ano": "2025",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/vvVywZhkhBKqjqF8MX5pVPk/?format=html&lang=pt&ilang=en",
+   "doi": "10.1590/0101-6628.455",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Diretrizes Curriculares 1996"
+   ],
+   "temas": [
+    "ética e política",
+    "ontologia",
+    "debate marxista",
+    "projeto ético-político"
+   ],
+   "resumo": "Contesta a interpretação de Lessa segundo a qual ética e política seriam incompatíveis na sociedade capitalista. Defende sua unidade dialética e argumenta que as contradições sociais permitem mediações orientadas à emancipação no projeto profissional.",
+   "posicao": "critica",
+   "referencia": "LIMA SOBRINHO, Jodeylson Islony de. O Projeto Ético-Político do Serviço Social brasileiro: unidade dialética entre a ética e a política. Serviço Social & Sociedade, v. 148, n. 1, e-6628455, p. 1-21, 2025. DOI: https://doi.org/10.1590/0101-6628.455. Disponível em: https://www.scielo.br/j/sssoc/a/vvVywZhkhBKqjqF8MX5pVPk/?format=html&lang=pt&ilang=en.",
+   "citacao": "(LIMA SOBRINHO, 2025)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-012",
+   "tipo": "dissertacao",
+   "autoria": "DALLAGO, Cleonilda Sabaini Thomazini",
+   "titulo": "O Código de Ética do Serviço Social de 1993: sua operacionalidade no município de Toledo-PR",
+   "ano": "2006",
+   "publicado_em": "Universidade Estadual de Londrina",
+   "link": "https://repositorio.uel.br/bitstreams/05ccf42c-f55a-4a3f-8879-8bb22462c8d5/download",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "operacionalidade",
+    "cotidiano profissional",
+    "relação com usuários",
+    "ética profissional"
+   ],
+   "resumo": "Investiga a utilização do Código no cotidiano de assistentes sociais supervisores em Toledo, com questionários respondidos por dezoito profissionais. Identifica possibilidades de aplicação e conquistas nos espaços de trabalho, relacionando a reflexão ética às condições sociais da intervenção.",
+   "posicao": "descritiva",
+   "referencia": "DALLAGO, Cleonilda Sabaini Thomazini. O Código de Ética do Serviço Social de 1993: sua operacionalidade no município de Toledo-PR. 2006. 140 f. Dissertação (Mestrado) – Universidade Estadual de Londrina, 2006. Disponível em: https://repositorio.uel.br/bitstreams/05ccf42c-f55a-4a3f-8879-8bb22462c8d5/download.",
+   "citacao": "(DALLAGO, 2006)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-013",
+   "tipo": "dissertacao",
+   "autoria": "ARALDI, Elmides Maria",
+   "titulo": "Apreensão teórico-crítica da categoria liberdade no cotidiano: uma contribuição para as reflexões do projeto ético-político do Serviço Social",
+   "ano": "2007",
+   "publicado_em": "Universidade Estadual de Londrina",
+   "link": "https://repositorio.uel.br/bitstreams/cc137565-0a9b-479a-af82-35e6c63b26aa/download",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "liberdade",
+    "cotidiano",
+    "ontologia",
+    "história dos códigos"
+   ],
+   "resumo": "Compara as concepções de liberdade presentes na trajetória dos códigos profissionais. Interpreta o Código de 1993 como recuperação da liberdade em bases ontológicas e discute as possibilidades de sua construção no cotidiano.",
+   "posicao": "historica",
+   "referencia": "ARALDI, Elmides Maria. Apreensão teórico-crítica da categoria liberdade no cotidiano: uma contribuição para as reflexões do projeto ético-político do Serviço Social. 2007. 124 p. Dissertação (Mestrado) – Universidade Estadual de Londrina, 2007. Disponível em: https://repositorio.uel.br/bitstreams/cc137565-0a9b-479a-af82-35e6c63b26aa/download.",
+   "citacao": "(ARALDI, 2007)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-014",
+   "tipo": "artigo",
+   "autoria": "CARDOSO, Priscila Fernanda Gonçalves",
+   "titulo": "Ética e formação profissional em Serviço Social: do conservadorismo à emancipação",
+   "ano": "2017",
+   "publicado_em": "Revista Katálysis",
+   "link": "https://www.scielo.br/j/rk/a/JNKRX7Qb55zfDPcB7CJv4bm/?format=html&lang=pt",
+   "doi": "10.1590/1982-02592017v20n3p325",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Diretrizes Curriculares 1996"
+   ],
+   "temas": [
+    "transversalidade da ética",
+    "currículos",
+    "conservadorismo",
+    "formação profissional"
+   ],
+   "resumo": "Reconstrói as perspectivas éticas presentes na formação em Serviço Social desde os primeiros currículos até as diretrizes de 1996. Sustenta que a orientação emancipatória exige a presença transversal da ética na formação, para além de uma disciplina isolada.",
+   "posicao": "historica",
+   "referencia": "CARDOSO, Priscila Fernanda Gonçalves. Ética e formação profissional em Serviço Social: do conservadorismo à emancipação. Revista Katálysis, v. 20, n. 3, p. 325-334, 2017. DOI: https://doi.org/10.1590/1982-02592017v20n3p325. Disponível em: https://www.scielo.br/j/rk/a/JNKRX7Qb55zfDPcB7CJv4bm/?format=html&lang=pt.",
+   "citacao": "(CARDOSO, 2017)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-015",
+   "tipo": "artigo",
+   "autoria": "SANTOS, Débora Rodrigues",
+   "titulo": "Princípios do código de ética do/a assistente social: 25 anos de história",
+   "ano": "2019",
+   "publicado_em": "Revista Praia Vermelha",
+   "link": "https://revistas.ufrj.br/index.php/praiavermelha/article/download/14342/14720/67166",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "liberdade",
+    "nova ordem societária",
+    "fundamentos ontológicos",
+    "princípios éticos"
+   ],
+   "resumo": "Examina a articulação entre a liberdade como valor central e o compromisso com uma nova ordem societária. Defende a importância desses princípios, mas problematiza sua concretização e a necessidade de aprofundar os limites impostos pela sociedade capitalista.",
+   "posicao": "critica",
+   "referencia": "SANTOS, Débora Rodrigues. Princípios do código de ética do/a assistente social: 25 anos de história. Revista Praia Vermelha, v. 29, n. 1 (especial), p. 451-471, 2019. Disponível em: https://revistas.ufrj.br/index.php/praiavermelha/article/download/14342/14720/67166.",
+   "citacao": "(SANTOS, 2019)",
+   "pendencias": [
+    "conferir licença: página editorial declara CC BY 4"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-016",
+   "tipo": "artigo",
+   "autoria": "LESSA, Sérgio",
+   "titulo": "Ética, política e Serviço Social",
+   "ano": "2005",
+   "publicado_em": "Revista Katálysis",
+   "link": "https://periodicos.ufsc.br/index.php/katalysis/article/download/6122/5681/18971",
+   "doi": "",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "ética e política",
+    "antagonismo ontológico",
+    "emancipação",
+    "crítica ao projeto profissional"
+   ],
+   "resumo": "Reconhece como avanço o horizonte emancipatório da profissão, mas questiona sua formulação como projeto ético-político. Sustenta que ética e política possuem funções ontologicamente antagônicas e que sua associação pode obscurecer a crítica ao capitalismo.",
+   "posicao": "divergente",
+   "referencia": "LESSA, Sérgio. Ética, política e Serviço Social. Revista Katálysis, v. 8, n. 2, 2005. Disponível em: https://periodicos.ufsc.br/index.php/katalysis/article/download/6122/5681/18971.",
+   "citacao": "(LESSA, 2005)",
+   "pendencias": [
+    "conferir vínculo normativo antes da indexação automática",
+    "conferir paginação, prejudicada pela extração do PDF"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-017",
+   "tipo": "artigo",
+   "autoria": "MOTA, Alessivânia Márcia Assunção",
+   "titulo": "Projeto ético político do serviço social: limites e possibilidades",
+   "ano": "2011",
+   "publicado_em": "Textos & Contextos (Porto Alegre)",
+   "link": "https://revistaseletronicas.pucrs.br/fass/article/download/8031/6439/33119",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "1"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "efetivação do projeto",
+    "prática profissional",
+    "condições de trabalho",
+    "revisão de pesquisas"
+   ],
+   "resumo": "Compara a produção teórica e pesquisas empíricas sobre a efetivação do projeto ético-político, incluindo dezessete dissertações e cinco teses. Identifica contraste entre o otimismo das formulações teóricas e os obstáculos relatados nas pesquisas, defendendo a discussão de um projeto viável e situado.",
+   "posicao": "critica",
+   "referencia": "MOTA, Alessivânia Márcia Assunção. Projeto ético político do serviço social: limites e possibilidades. Textos & Contextos (Porto Alegre), v. 10, n. 1, p. 56-68, 2011. Disponível em: https://revistaseletronicas.pucrs.br/fass/article/download/8031/6439/33119.",
+   "citacao": "(MOTA, 2011)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-018",
+   "tipo": "artigo",
+   "autoria": "MATOS, Maurílio Castro de",
+   "titulo": "Considerações sobre atribuições e competências profissionais de assistentes sociais na atualidade",
+   "ano": "2015",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/zKqHPXTYyTSPvMBrGZnzgjm/?format=html&lang=pt",
+   "doi": "10.1590/0101-6628.046",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "lei-8662",
+    "cfess-resolucao-557-2009",
+    "cfess-resolucao-569-2010"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "competências",
+    "atribuições privativas",
+    "autonomia profissional"
+   ],
+   "resumo": "Discute a distinção entre competências e atribuições privativas em relação às condições concretas do trabalho profissional. Defende que a interpretação da regulamentação e das resoluções precisa considerar o projeto profissional e enfrentar requisições institucionais incompatíveis com ele.",
+   "posicao": "favoravel",
+   "referencia": "MATOS, Maurílio Castro de. Considerações sobre atribuições e competências profissionais de assistentes sociais na atualidade. Serviço Social & Sociedade, n. 124, p. 678-698, 2015. DOI: https://doi.org/10.1590/0101-6628.046. Disponível em: https://www.scielo.br/j/sssoc/a/zKqHPXTYyTSPvMBrGZnzgjm/?format=html&lang=pt.",
+   "citacao": "(MATOS, 2015)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-019",
+   "tipo": "artigo",
+   "autoria": "DELGADO, Leila Baumgratz",
+   "titulo": "Espaço sócio-ocupacional do assistente social: seu arcabouço jurídico-político",
+   "ano": "2013",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/dnMqfvWR7KVZpnh3t7x7JFM/?lang=pt",
+   "doi": "10.1590/S0101-66282013000100006",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "2",
+    "4",
+    "5"
+   ],
+   "normas": [
+    "lei-8662",
+    "cfess-resolucao-383-1999",
+    "cfess-resolucao-493-2006",
+    "lei-12317",
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-512-2007"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "regulamentação",
+    "espaços ocupacionais",
+    "saúde",
+    "precarização",
+    "condições éticas e técnicas",
+    "30 horas",
+    "autonomia",
+    "PNF"
+   ],
+   "resumo": "Examina o aparato jurídico-político que sustenta os espaços de trabalho do Serviço Social e questiona sua suficiência diante do desemprego e da precarização. A ampliação do reconhecimento legal é tratada como conquista que não elimina as contradições do trabalho assalariado.",
+   "posicao": "critica",
+   "referencia": "DELGADO, Leila Baumgratz. Espaço sócio-ocupacional do assistente social: seu arcabouço jurídico-político. Serviço Social & Sociedade, n. 113, p. 131-151, 2013. DOI: https://doi.org/10.1590/S0101-66282013000100006. Disponível em: https://www.scielo.br/j/sssoc/a/dnMqfvWR7KVZpnh3t7x7JFM/?lang=pt.",
+   "citacao": "(DELGADO, 2013)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-020",
+   "tipo": "artigo",
+   "autoria": "SANTOS, Silvana Mara de Morais dos",
+   "titulo": "O CFESS na defesa das condições de trabalho e do projeto ético-político profissional",
+   "ano": "2010",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/nPRx8MCdCyH4sHY8zbm9gQp/?format=html&lang=pt&ilang=en",
+   "doi": "10.1590/S0101-66282010000400007",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "2",
+    "4",
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-569-2010",
+    "cfess-resolucao-493-2006",
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-512-2007"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "regulamentação",
+    "práticas terapêuticas",
+    "projeto ético-político",
+    "condições de trabalho",
+    "sigilo",
+    "fiscalização",
+    "PNF"
+   ],
+   "resumo": "Analisa a atuação do CFESS na defesa das condições de trabalho e da direção ética da profissão. Sustenta que a vedação das terapias associadas ao título profissional expressa a delimitação das competências construídas na formação e no projeto do Serviço Social.",
+   "posicao": "favoravel",
+   "referencia": "SANTOS, Silvana Mara de Morais dos. O CFESS na defesa das condições de trabalho e do projeto ético-político profissional. Serviço Social & Sociedade, n. 104, p. 695-714, 2010. DOI: https://doi.org/10.1590/S0101-66282010000400007. Disponível em: https://www.scielo.br/j/sssoc/a/nPRx8MCdCyH4sHY8zbm9gQp/?format=html&lang=pt&ilang=en.",
+   "citacao": "(SANTOS, 2010)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-021",
+   "tipo": "artigo",
+   "autoria": "PEDROSO, Andreia Pereira",
+   "titulo": "Estudo socioeconômico: atribuição privativa do serviço social?",
+   "ano": "2018",
+   "publicado_em": "Libertas",
+   "link": "https://periodicos.ufjf.br/index.php/libertas/article/download/18598/9724/77544",
+   "doi": "10.34019/1980-8518.2018.v18.18598",
+   "licenca": "",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Parecer Jurídico CFESS 27/1998"
+   ],
+   "temas": [
+    "estudo socioeconômico",
+    "assistência estudantil",
+    "atribuições privativas"
+   ],
+   "resumo": "Examina a controvérsia sobre o caráter privativo do estudo socioeconômico a partir de demandas da assistência estudantil. Defende a especificidade da análise social e a necessidade de parâmetros que evitem reduzir essa atividade à coleta de informações econômicas.",
+   "posicao": "favoravel",
+   "referencia": "PEDROSO, Andreia Pereira. Estudo socioeconômico: atribuição privativa do serviço social? Libertas, v. 18, n. 2, p. 136-150, 2018. DOI: https://doi.org/10.34019/1980-8518.2018.v18.18598. Disponível em: https://periodicos.ufjf.br/index.php/libertas/article/download/18598/9724/77544.",
+   "citacao": "(PEDROSO, 2018)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-022",
+   "tipo": "artigo",
+   "autoria": "GOIN, Marileia; MIRANDA, Adriana de Melo",
+   "titulo": "Atribuições privativas, estudo socioeconômico e serviço social: o trabalho profissional na assistência estudantil",
+   "ano": "2022",
+   "publicado_em": "Revista Katálysis",
+   "link": "https://www.scielo.br/j/rk/a/wGY3qxCbhNp4Gp9L47BhVnf/?format=html&lang=pt",
+   "doi": "10.1590/1982-0259.2022.e84460",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Parecer Jurídico CFESS 27/1998"
+   ],
+   "temas": [
+    "assistência estudantil",
+    "estudo socioeconômico",
+    "burocratização"
+   ],
+   "resumo": "Analisa o estudo socioeconômico em institutos federais do Centro-Oeste e sua relação com as atribuições profissionais. Critica a simplificação burocrática dessa atividade e suas consequências para a compreensão das necessidades dos estudantes e o acesso a direitos.",
+   "posicao": "critica",
+   "referencia": "GOIN, Marileia; MIRANDA, Adriana de Melo. Atribuições privativas, estudo socioeconômico e serviço social: o trabalho profissional na assistência estudantil. Revista Katálysis, v. 25, n. 2, p. 415-424, 2022. DOI: https://doi.org/10.1590/1982-0259.2022.e84460. Disponível em: https://www.scielo.br/j/rk/a/wGY3qxCbhNp4Gp9L47BhVnf/?format=html&lang=pt.",
+   "citacao": "(GOIN; MIRANDA, 2022)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-023",
+   "tipo": "artigo",
+   "autoria": "GARCIA, Vanessa Roballo; GUILHERME, Rosilaine Coradini",
+   "titulo": "Serviço Social e saúde mental – reflexões sobre competências e atribuições privativas de assistentes sociais",
+   "ano": "2019",
+   "publicado_em": "Revista Sociais e Humanas",
+   "link": "https://periodicos.ufsm.br/sociaisehumanas/article/download/36876/pdf/0",
+   "doi": "10.5902/2317175836876",
+   "licenca": "",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "lei-8662"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "saúde mental",
+    "competências",
+    "atribuições privativas",
+    "trabalho interdisciplinar"
+   ],
+   "resumo": "Examina a produção sobre o trabalho do Serviço Social na saúde mental e sua relação com as competências e atribuições profissionais. Defende a explicitação da contribuição específica da profissão em diálogo com os princípios da política de saúde e do projeto profissional.",
+   "posicao": "critica",
+   "referencia": "GARCIA, Vanessa Roballo; GUILHERME, Rosilaine Coradini. Serviço Social e saúde mental – reflexões sobre competências e atribuições privativas de assistentes sociais. Revista Sociais e Humanas, v. 32, n. 2, p. 46-68, 2019. DOI: https://doi.org/10.5902/2317175836876. Disponível em: https://periodicos.ufsm.br/sociaisehumanas/article/download/36876/pdf/0.",
+   "citacao": "(GARCIA; GUILHERME, 2019)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-024",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS)",
+   "titulo": "Atribuições privativas do/a assistente social em questão",
+   "ano": "2012",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/atribuicoes2012-completo.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "lei-8662"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "atribuições privativas",
+    "competências",
+    "trabalho assalariado",
+    "projeto profissional"
+   ],
+   "resumo": "Reúne reflexões sobre a interpretação das atribuições privativas e sua relação com os espaços ocupacionais e o projeto profissional. Argumenta que a delimitação legal precisa ser compreendida no contexto das transformações do trabalho e das competências teóricas e políticas da profissão.",
+   "posicao": "historica",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS). Atribuições privativas do/a assistente social em questão. Brasília, DF: CFESS, 2012. 1. ed. ampliada. Disponível em: https://www.cfess.org.br/arquivos/atribuicoes2012-completo.pdf.",
+   "citacao": "(CFESS, 2012)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-025",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS) (org.)",
+   "titulo": "Atribuições privativas do/a assistente social em questão: volume 2",
+   "ano": "2020",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/CFESS202-AtribuicoesPrivativas-Vol2-Site.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "lei-8662",
+    "cfess-resolucao-557-2009"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "transformações do trabalho",
+    "opinião técnica",
+    "atribuições privativas",
+    "docência"
+   ],
+   "resumo": "Relaciona o debate sobre atribuições privativas às mudanças do trabalho e aos desafios de diferentes espaços profissionais. Discute a produção de documentos e de opinião técnica, bem como atribuições no ensino, destacando a necessidade de fundamentação e autonomia profissional.",
+   "posicao": "critica",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS) (org.). Atribuições privativas do/a assistente social em questão: volume 2. Brasília, DF: CFESS, 2020. v. 2. Disponível em: https://www.cfess.org.br/arquivos/CFESS202-AtribuicoesPrivativas-Vol2-Site.pdf.",
+   "citacao": "(CFESS, 2020)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-026",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS)",
+   "titulo": "Serviço Social e reflexões críticas sobre práticas terapêuticas",
+   "ano": "2010",
+   "publicado_em": "CFESS",
+   "link": "https://antigo.cfess.org.br/arquivos/doc_CFESS_Terapias_e_SS_2010.pdf.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "lei-8662",
+    "cfess-resolucao-569-2010"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "terapias",
+    "delimitação profissional",
+    "formação",
+    "subjetividade"
+   ],
+   "resumo": "Apresenta o percurso do debate e os fundamentos usados pelo CFESS para vedar terapias associadas ao título de assistente social. Sustenta que o reconhecimento da subjetividade no trabalho profissional não equivale à adoção de finalidades e práticas terapêuticas.",
+   "posicao": "favoravel",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS). Serviço Social e reflexões críticas sobre práticas terapêuticas. Brasília, DF: CFESS, 2010. 14 p. Disponível em: https://antigo.cfess.org.br/arquivos/doc_CFESS_Terapias_e_SS_2010.pdf.pdf.",
+   "citacao": "(CFESS, 2010)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-027",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS)",
+   "titulo": "Parâmetros para atuação de assistentes sociais na política de saúde",
+   "ano": "2010",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/Parametros_para_a_Atuacao_de_Assistentes_Sociais_na_Saude.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "lei-8662",
+    "cfess-resolucao-383-1999",
+    "cfess-resolucao-557-2009"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "saúde",
+    "SUS",
+    "interdisciplinaridade",
+    "competências",
+    "reforma sanitária"
+   ],
+   "resumo": "Interpreta as competências profissionais na saúde em articulação com o SUS e a reforma sanitária. Problematiza requisições burocráticas e a diluição das especificidades profissionais, propondo parâmetros para ações orientadas pela garantia de direitos.",
+   "posicao": "favoravel",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS). Parâmetros para atuação de assistentes sociais na política de saúde. Brasília, DF: CFESS, 2010. Série Trabalho e Projeto Profissional nas Políticas Sociais, n. 2. Disponível em: https://www.cfess.org.br/arquivos/Parametros_para_a_Atuacao_de_Assistentes_Sociais_na_Saude.pdf.",
+   "citacao": "(CFESS, 2010)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-028",
+   "tipo": "artigo",
+   "autoria": "SILVA, Débora Cristina da; KRÜGER, Tânia Regina",
+   "titulo": "Parâmetros para a atuação de assistentes sociais na política de saúde: o significado no exercício profissional",
+   "ano": "2018",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/19578/pdf_1/59300",
+   "doi": "10.22422/temporalis.2018v18n35p265-288",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "lei-8662"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "saúde",
+    "parâmetros profissionais",
+    "trabalho hospitalar",
+    "competências"
+   ],
+   "resumo": "Investiga o significado dos parâmetros do CFESS no trabalho de assistentes sociais de dois hospitais da Grande Florianópolis. Identifica apropriação limitada do documento e predomínio de respostas imediatas, problematizando a distância entre seus fundamentos políticos e o cotidiano profissional.",
+   "posicao": "critica",
+   "referencia": "SILVA, Débora Cristina da; KRÜGER, Tânia Regina. Parâmetros para a atuação de assistentes sociais na política de saúde: o significado no exercício profissional. Temporalis, v. 18, n. 35, p. 265-288, 2018. DOI: https://doi.org/10.22422/temporalis.2018v18n35p265-288. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/19578/pdf_1/59300.",
+   "citacao": "(SILVA; KRÜGER, 2018)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-029",
+   "tipo": "artigo",
+   "autoria": "MULLER, Adriene Marta Zefiro de Lima; MIRALES, Rosana",
+   "titulo": "Atribuições e competências do/a Assistente Social: revisando alguns dos elementos do debate",
+   "ano": "2025",
+   "publicado_em": "Serviço Social em Debate",
+   "link": "https://revista.uemg.br/serv-soc-debate/article/download/7313/6258/45641",
+   "doi": "10.36704/ssd.v8i1.7313",
+   "licenca": "",
+   "blocos": [
+    "2",
+    "5"
+   ],
+   "normas": [
+    "lei-8662",
+    "cfess-resolucao-512-2007",
+    "cfess-resolucao-828-2017",
+    "cfess-resolucao-572-2010"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "matéria de Serviço Social",
+    "competências",
+    "atribuições privativas",
+    "questão social",
+    "atribuições",
+    "fiscalização",
+    "instrumentos da PNF"
+   ],
+   "resumo": "Reconstrói o debate sobre competências e atribuições a partir de revisão bibliográfica e de documentos do Conjunto CFESS-CRESS. Interpreta termos da lei, como área e unidade de Serviço Social, vinculando a matéria profissional à análise das expressões da questão social.",
+   "posicao": "historica",
+   "referencia": "MULLER, Adriene Marta Zefiro de Lima; MIRALES, Rosana. Atribuições e competências do/a Assistente Social: revisando alguns dos elementos do debate. Serviço Social em Debate, v. 8, n. 1, 2025. DOI: https://doi.org/10.36704/ssd.v8i1.7313. Disponível em: https://revista.uemg.br/serv-soc-debate/article/download/7313/6258/45641.",
+   "citacao": "(MULLER; MIRALES, 2025)",
+   "pendencias": [
+    "conferir paginação editorial, não preenchida"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-030",
+   "tipo": "artigo",
+   "autoria": "ZUMA, Carlos Eduardo",
+   "titulo": "Os assistentes sociais e a terapia de família",
+   "ano": "2011",
+   "publicado_em": "Nova Perspectiva Sistêmica",
+   "link": "https://revistanps.emnuvens.com.br/nps/article/download/196/178/489",
+   "doi": "",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "cfess-resolucao-569-2010"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "terapia de família",
+    "transdisciplinaridade",
+    "regulamentação",
+    "divergências"
+   ],
+   "resumo": "Questiona a restrição à participação de assistentes sociais nas terapias familiares e problematiza a delimitação dessas práticas pela regulamentação. Defende a formação continuada e o intercâmbio entre profissões como elementos relevantes para avaliar a atuação nesse campo.",
+   "posicao": "divergente",
+   "referencia": "ZUMA, Carlos Eduardo. Os assistentes sociais e a terapia de família. Nova Perspectiva Sistêmica, v. 20, n. 39, p. 111-114, 2011. Disponível em: https://revistanps.emnuvens.com.br/nps/article/download/196/178/489.",
+   "citacao": "(ZUMA, 2011)",
+   "pendencias": [
+    "conferir divergência com citação automática do portal, que indica 2016"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-031",
+   "tipo": "artigo",
+   "autoria": "RAMOS, Adriana; CARDOSO, Juan Carlos Siqueira; CAFÉ, Vitória Régia Mesquita",
+   "titulo": "O Serviço Social Clínico como expressão reeditada do conservadorismo na profissão: tensionamentos para o projeto ético político",
+   "ano": "2026",
+   "publicado_em": "Serviço Social em Revista",
+   "link": "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/53064/54101/311527",
+   "doi": "10.5433/1679-4842.2026.v29.53064",
+   "licenca": "CC BY-NC-ND 4.0",
+   "blocos": [
+    "2"
+   ],
+   "normas": [
+    "cfess-resolucao-569-2010"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "Serviço Social clínico",
+    "conservadorismo",
+    "projeto ético-político",
+    "terapias"
+   ],
+   "resumo": "Analisa o Serviço Social clínico como reatualização de tendências conservadoras que tensionam o projeto ético-político. Relaciona sua defesa contemporânea a referências pós-modernas e retoma a restrição normativa às terapias no debate sobre a direção profissional.",
+   "posicao": "critica",
+   "referencia": "RAMOS, Adriana; CARDOSO, Juan Carlos Siqueira; CAFÉ, Vitória Régia Mesquita. O Serviço Social Clínico como expressão reeditada do conservadorismo na profissão: tensionamentos para o projeto ético político. Serviço Social em Revista, v. 29, n. 1, e53064, p. 1-22, 2026. DOI: https://doi.org/10.5433/1679-4842.2026.v29.53064. Disponível em: https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/53064/54101/311527.",
+   "citacao": "(RAMOS; CARDOSO; CAFÉ, 2026)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-032",
+   "tipo": "publicacao_institucional",
+   "autoria": "FRANCO, Abigail Aparecida de Paiva; FÁVERO, Eunice Teresinha; OLIVEIRA, Rita de Cássia Silva",
+   "titulo": "Produção de documentos e emissão de opinião técnica em Serviço Social",
+   "ano": "2022",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/EbookCfess-DocOpiniaoTecnica2022-Final.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "2",
+    "3"
+   ],
+   "normas": [
+    "lei-8662",
+    "cfess-resolucao-557-2009",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "documentação profissional",
+    "opinião técnica",
+    "interdisciplinaridade",
+    "atribuições privativas",
+    "estudo social",
+    "laudo",
+    "parecer",
+    "documentação",
+    "sigilo"
+   ],
+   "resumo": "Analisa fundamentos e procedimentos da produção de documentos e da emissão de opinião técnica em diferentes espaços profissionais. Defende a delimitação da matéria do Serviço Social e a fundamentação das manifestações profissionais, inclusive em documentos produzidos com outras categorias.",
+   "posicao": "favoravel",
+   "referencia": "FRANCO, Abigail Aparecida de Paiva; FÁVERO, Eunice Teresinha; OLIVEIRA, Rita de Cássia Silva. Produção de documentos e emissão de opinião técnica em Serviço Social. Brasília, DF: CFESS, 2022. Disponível em: https://www.cfess.org.br/arquivos/EbookCfess-DocOpiniaoTecnica2022-Final.pdf.",
+   "citacao": "(FRANCO; FÁVERO; OLIVEIRA, 2022)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-033",
+   "tipo": "artigo",
+   "autoria": "SAMPAIO, Simone Sobral; RODRIGUES, Filipe Wingeter",
+   "titulo": "Ética e sigilo profissional",
+   "ano": "2014",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/3cBSk3BSWnWgzXYPzPL8j3r/?format=html&lang=pt&ilang=en",
+   "doi": "10.1590/S0101-66282014000100006",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "sigilo",
+    "privacidade",
+    "ética",
+    "direito e dever"
+   ],
+   "resumo": "Problematiza o sigilo como relação ética que exige avaliar a finalidade, a necessidade e as condições de circulação das informações. Critica a exposição da vida privada da população pobre e a redução do problema a uma obrigação jurídica abstrata.",
+   "posicao": "critica",
+   "referencia": "SAMPAIO, Simone Sobral; RODRIGUES, Filipe Wingeter. Ética e sigilo profissional. Serviço Social & Sociedade, n. 117, p. 84-93, 2014. DOI: https://doi.org/10.1590/S0101-66282014000100006. Disponível em: https://www.scielo.br/j/sssoc/a/3cBSk3BSWnWgzXYPzPL8j3r/?format=html&lang=pt&ilang=en.",
+   "citacao": "(SAMPAIO; RODRIGUES, 2014)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-034",
+   "tipo": "artigo",
+   "autoria": "TONIOLO, Charles",
+   "titulo": "Presenças imperiosas nas elaborações sobre sigilo profissional nos Códigos de Ética do assistente social de 1947 e 1965",
+   "ano": "2021",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/JcGxLwBq8jcRCmhCR7ptcgN/?lang=pt",
+   "doi": "10.1590/0101-6628.265",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "história do sigilo",
+    "neotomismo",
+    "regulamentação ética",
+    "subalternidade profissional"
+   ],
+   "resumo": "Investiga as influências que marcaram as primeiras formulações brasileiras sobre sigilo profissional. Relaciona a incorporação de modelos da Medicina, do Direito e do Serviço Social francês à busca de reconhecimento da profissão e à reprodução de relações de subalternidade.",
+   "posicao": "historica",
+   "referencia": "TONIOLO, Charles. Presenças imperiosas nas elaborações sobre sigilo profissional nos Códigos de Ética do assistente social de 1947 e 1965. Serviço Social & Sociedade, n. 142, 2021. DOI: https://doi.org/10.1590/0101-6628.265. Disponível em: https://www.scielo.br/j/sssoc/a/JcGxLwBq8jcRCmhCR7ptcgN/?lang=pt.",
+   "citacao": "(TONIOLO, 2021)",
+   "pendencias": [
+    "conferir paginação, não preenchida"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-035",
+   "tipo": "artigo",
+   "autoria": "TONIOLO, Charles",
+   "titulo": "O sigilo na legislação do Serviço Social brasileiro e os conselhos profissionais: relato de uma experiência nos anos 2010",
+   "ano": "2021",
+   "publicado_em": "Libertas",
+   "link": "https://periodicos.ufjf.br/index.php/libertas/article/download/34611/23404/147178",
+   "doi": "10.34019/1980-8518.2021.v21.34611",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-556-2009",
+    "cfess-resolucao-493-2006",
+    "cfess-resolucao-512-2007",
+    "cfess-resolucao-660-2013"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "guarda documental",
+    "sigilo",
+    "fiscalização",
+    "condições de trabalho",
+    "COFI",
+    "orientação",
+    "condições institucionais",
+    "instrução processual",
+    "prova",
+    "direitos dos usuários"
+   ],
+   "resumo": "Analisa situações relacionadas ao sigilo vividas na direção de um CRESS, articulando responsabilidades profissionais e condições de trabalho. Discute a diferença entre material técnico e material sigiloso e argumenta que sua guarda deve assegurar a continuidade do atendimento, sem se confundir com propriedade individual do profissional.",
+   "posicao": "critica",
+   "referencia": "TONIOLO, Charles. O sigilo na legislação do Serviço Social brasileiro e os conselhos profissionais: relato de uma experiência nos anos 2010. Libertas, v. 21, p. 746-771, 2021. DOI: https://doi.org/10.34019/1980-8518.2021.v21.34611. Disponível em: https://periodicos.ufjf.br/index.php/libertas/article/download/34611/23404/147178.",
+   "citacao": "(TONIOLO, 2021)",
+   "pendencias": [
+    "Conferir número do fascículo: portal indica n",
+    "Conferir fascículo: portal n"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-036",
+   "tipo": "artigo",
+   "autoria": "GALVÃO, Ana Carolina; MORAIS, Janaína Barbosa de; SANTOS, Nilmar",
+   "titulo": "Serviço Social e escuta especializada: proteção integral ou produção antecipada de provas?",
+   "ano": "2020",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/cCNMZhBDvzWPPdTYWgWmgXr/?lang=pt",
+   "doi": "10.1590/0101-6628.212",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Lei 13.431/2017"
+   ],
+   "temas": [
+    "escuta especializada",
+    "proteção integral",
+    "prova judicial",
+    "instrumentalidade"
+   ],
+   "resumo": "Examina as requisições dirigidas ao Serviço Social na rede de proteção após a regulamentação da escuta especializada. Questiona o deslocamento da proteção integral para a produção de provas e defende uma escuta orientada pelos direitos e pela autonomia de crianças e adolescentes.",
+   "posicao": "critica",
+   "referencia": "GALVÃO, Ana Carolina; MORAIS, Janaína Barbosa de; SANTOS, Nilmar. Serviço Social e escuta especializada: proteção integral ou produção antecipada de provas? Serviço Social & Sociedade, n. 138, p. 263-282, 2020. DOI: https://doi.org/10.1590/0101-6628.212. Disponível em: https://www.scielo.br/j/sssoc/a/cCNMZhBDvzWPPdTYWgWmgXr/?lang=pt.",
+   "citacao": "(GALVÃO; MORAIS; SANTOS, 2020)",
+   "pendencias": [
+    "Conferir erro de numeração no resumo original, que menciona 13"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-037",
+   "tipo": "artigo",
+   "autoria": "PANZA, Juliana Christofoli",
+   "titulo": "Depoimento Especial e a subordinação de direitos ao sistema penal: uma tríplice violação",
+   "ano": "2022",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/G3c7JpQXtWg3hWbLrw8s9Gz/?lang=pt",
+   "doi": "10.1590/0101-6628.276",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-resolucao-554-2009"
+   ],
+   "outras_normas": [
+    "Lei 13.431/2017"
+   ],
+   "temas": [
+    "depoimento especial",
+    "sistema penal",
+    "autonomia profissional",
+    "direitos"
+   ],
+   "resumo": "Sustenta que a organização do depoimento especial subordina direitos às necessidades de produção de prova penal. Examina potenciais violações que atingem crianças e adolescentes, acusados e profissionais convocados a desempenhar funções de inquirição.",
+   "posicao": "critica",
+   "referencia": "PANZA, Juliana Christofoli. Depoimento Especial e a subordinação de direitos ao sistema penal: uma tríplice violação. Serviço Social & Sociedade, n. 143, p. 162-176, 2022. DOI: https://doi.org/10.1590/0101-6628.276. Disponível em: https://www.scielo.br/j/sssoc/a/G3c7JpQXtWg3hWbLrw8s9Gz/?lang=pt.",
+   "citacao": "(PANZA, 2022)",
+   "pendencias": [
+    "Conferir cronologia judicial: artigo menciona invalidação definitiva em 2020, enquanto nota CFESS de 2018 informa anulação em 2014; não utilizar o artigo como certificação de vigência"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-038",
+   "tipo": "artigo",
+   "autoria": "FREITAS, Emanuel Jones Xavier",
+   "titulo": "Assistência técnica em Serviço Social: caracterização jurídica e particularidades profissionais",
+   "ano": "2024",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/FMJh7HkK768cCvfQhf8TVLb/?lang=pt",
+   "doi": "10.1590/0101-6628.381",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-559-2009",
+    "cfess-resolucao-557-2009",
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Lei 13.105/2015"
+   ],
+   "temas": [
+    "assistência técnica",
+    "perícia",
+    "parecer",
+    "sigilo",
+    "parcialidade"
+   ],
+   "resumo": "Discute os dilemas da assistência técnica em Serviço Social, incluindo parcialidade, relação com peritos e elaboração de pareceres conjuntos. Defende maior definição de diretrizes profissionais e critica a mercantilização de atividades periciais desvinculadas da competência técnica e da garantia de direitos.",
+   "posicao": "critica",
+   "referencia": "FREITAS, Emanuel Jones Xavier. Assistência técnica em Serviço Social: caracterização jurídica e particularidades profissionais. Serviço Social & Sociedade, v. 147, n. 1, 2024. DOI: https://doi.org/10.1590/0101-6628.381. Disponível em: https://www.scielo.br/j/sssoc/a/FMJh7HkK768cCvfQhf8TVLb/?lang=pt.",
+   "citacao": "(FREITAS, 2024)",
+   "pendencias": [
+    "Conferir paginação ou identificador eletrônico, não preenchidos; texto integral HTML verificado"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-039",
+   "tipo": "artigo",
+   "autoria": "BRITO, Leila Maria Torraca de; PARENTE, Daniella Coelho",
+   "titulo": "Inquirição judicial de crianças: pontos e contrapontos",
+   "ano": "2012",
+   "publicado_em": "Psicologia & Sociedade",
+   "link": "https://www.scielo.br/j/psoc/a/KN47vGtgPxwFzs8k3p46MLy/?format=html&lang=pt",
+   "doi": "10.1590/S0102-71822012000100020",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-resolucao-554-2009"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "depoimento sem dano",
+    "inquirição",
+    "proteção",
+    "controvérsias"
+   ],
+   "resumo": "Sistematiza argumentos favoráveis ao depoimento sem dano e os contrapontos relativos à proteção das crianças e à autonomia profissional. Defende aprofundar a discussão sobre os efeitos da técnica, evitando que a polarização encerre o exame de suas contradições.",
+   "posicao": "critica",
+   "referencia": "BRITO, Leila Maria Torraca de; PARENTE, Daniella Coelho. Inquirição judicial de crianças: pontos e contrapontos. Psicologia & Sociedade, v. 24, n. 1, p. 178-186, 2012. DOI: https://doi.org/10.1590/S0102-71822012000100020. Disponível em: https://www.scielo.br/j/psoc/a/KN47vGtgPxwFzs8k3p46MLy/?format=html&lang=pt.",
+   "citacao": "(BRITO; PARENTE, 2012)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-040",
+   "tipo": "dissertacao",
+   "autoria": "HOFFMEISTER, Marleci Venério",
+   "titulo": "Tomada de depoimento especial de crianças e adolescentes em situação de abuso sexual: desafios à intervenção profissional do assistente social na perspectiva da garantia de direitos",
+   "ano": "2012",
+   "publicado_em": "Pontifícia Universidade Católica do Rio Grande do Sul",
+   "link": "https://tede2.pucrs.br/tede2/bitstream/tede/510/1/437324.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-resolucao-554-2009",
+    "cfess-codigo-etica-1993",
+    "lei-8662"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "depoimento especial",
+    "intervenção profissional",
+    "garantia de direitos",
+    "controvérsias"
+   ],
+   "resumo": "Investiga o trabalho de assistentes sociais na tomada de depoimento especial e as percepções dos sujeitos envolvidos. Conclui que essa atuação pode se vincular ao projeto ético-político e à garantia de direitos, apresentando uma posição divergente da restrição defendida pelo CFESS.",
+   "posicao": "divergente",
+   "referencia": "HOFFMEISTER, Marleci Venério. Tomada de depoimento especial de crianças e adolescentes em situação de abuso sexual: desafios à intervenção profissional do assistente social na perspectiva da garantia de direitos. 2012. Dissertação (Mestrado) – Pontifícia Universidade Católica do Rio Grande do Sul, 2012. Disponível em: https://tede2.pucrs.br/tede2/bitstream/tede/510/1/437324.pdf.",
+   "citacao": "(HOFFMEISTER, 2012)",
+   "pendencias": [
+    "Conferir extensão bibliográfica: sumário e paginação do arquivo apresentam diferenças; campo omitido"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-041",
+   "tipo": "publicacao_institucional",
+   "autoria": "MÖLLER, Daniela; DINIZ, Tânia Maria Ramos de Godoi",
+   "titulo": "Nota Técnica sobre o exercício profissional de assistentes sociais e as exigências para a execução do Depoimento Especial",
+   "ano": "2018",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/depoimento-especial-notatecnica2018.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-resolucao-554-2009",
+    "cfess-codigo-etica-1993",
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Lei 13.431/2017"
+   ],
+   "temas": [
+    "depoimento especial",
+    "competências",
+    "autonomia",
+    "proteção social"
+   ],
+   "resumo": "Fundamenta a posição contrária à participação de assistentes sociais no depoimento especial, distinguindo proteção social e responsabilização penal. Questiona a correspondência dos protocolos de inquirição com a formação profissional e discute as consequências para a autonomia e os direitos da população atendida.",
+   "posicao": "favoravel",
+   "referencia": "MÖLLER, Daniela; DINIZ, Tânia Maria Ramos de Godoi. Nota Técnica sobre o exercício profissional de assistentes sociais e as exigências para a execução do Depoimento Especial. Brasília, DF: CFESS, 2018. 35 páginas no arquivo PDF. Disponível em: https://www.cfess.org.br/arquivos/depoimento-especial-notatecnica2018.pdf.",
+   "citacao": "(MÖLLER; DINIZ, 2018)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-042",
+   "tipo": "publicacao_institucional",
+   "autoria": "MATOS, Maurílio Castro de",
+   "titulo": "Nota Técnica sobre a \"escuta especializada\" proposta pela Lei 13.431/2017: questões para o Serviço Social",
+   "ano": "2019",
+   "publicado_em": "CFESS",
+   "link": "https://cfess.org.br/uploads/documento/26/Nota-tecnica-escuta-especial-2019.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Lei 13.431/2017",
+    "Decreto 9.603/2018"
+   ],
+   "temas": [
+    "escuta especializada",
+    "compartilhamento de prontuários",
+    "sigilo",
+    "rede de proteção"
+   ],
+   "resumo": "Problematiza as finalidades da escuta especializada e a circulação de registros entre instituições com objetivos distintos. Defende que o compartilhamento integral de prontuários pode contrariar a proteção do usuário, propondo informações profissionais fundamentadas e limitadas ao necessário.",
+   "posicao": "critica",
+   "referencia": "MATOS, Maurílio Castro de. Nota Técnica sobre a \"escuta especializada\" proposta pela Lei 13.431/2017: questões para o Serviço Social. Brasília, DF: CFESS, 2019. 24 páginas no arquivo PDF. Disponível em: https://cfess.org.br/uploads/documento/26/Nota-tecnica-escuta-especial-2019.pdf.",
+   "citacao": "(MATOS, 2019)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-043",
+   "tipo": "publicacao_institucional",
+   "autoria": "FÁVERO, Eunice Teresinha; FRANCO, Abigail Aparecida de Paiva; OLIVEIRA, Rita de Cássia Silva",
+   "titulo": "Sistematização e análise de registros da opinião técnica emitida pela/o assistente social em relatórios, laudos e pareceres, objeto de denúncias éticas presentes em recursos disciplinares julgados pelo Conselho Federal de Serviço Social (CFESS)",
+   "ano": "2020",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/registros-opiniao-tecnica.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "3",
+    "6"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-557-2009",
+    "cfess-resolucao-660-2013"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "opinião técnica",
+    "denúncias éticas",
+    "relatórios",
+    "laudos",
+    "pareceres",
+    "recursos disciplinares",
+    "punição",
+    "prevenção"
+   ],
+   "resumo": "Analisa registros profissionais envolvidos em recursos disciplinares e identifica problemas de fundamentação, linguagem e delimitação de competências. Mostra como a adesão acrítica às finalidades institucionais pode produzir documentos que contrariem os compromissos éticos do Serviço Social.",
+   "posicao": "critica",
+   "referencia": "FÁVERO, Eunice Teresinha; FRANCO, Abigail Aparecida de Paiva; OLIVEIRA, Rita de Cássia Silva. Sistematização e análise de registros da opinião técnica emitida pela/o assistente social em relatórios, laudos e pareceres, objeto de denúncias éticas presentes em recursos disciplinares julgados pelo Conselho Federal de Serviço Social (CFESS). Brasília, DF: CFESS, 2020. Disponível em: https://www.cfess.org.br/arquivos/registros-opiniao-tecnica.pdf.",
+   "citacao": "(FÁVERO; FRANCO; OLIVEIRA, 2020)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-044",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS)",
+   "titulo": "Atuação de assistentes sociais no Sociojurídico: subsídios para reflexão",
+   "ano": "2014",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/CFESSsubsidios_sociojuridico2014.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-559-2009"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "sociojurídico",
+    "perícia",
+    "testemunho",
+    "sigilo",
+    "requisições institucionais"
+   ],
+   "resumo": "Problematiza as requisições dirigidas ao Serviço Social no sistema de Justiça e suas tensões com a garantia de direitos. Distingue informação técnica e testemunho sobre fatos, defendendo que a resposta a quesitos periciais preserve o sigilo e os limites da competência profissional.",
+   "posicao": "critica",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS). Atuação de assistentes sociais no Sociojurídico: subsídios para reflexão. Brasília, DF: CFESS, 2014. Série Trabalho e Projeto Profissional nas Políticas Sociais, n. 4. Disponível em: https://www.cfess.org.br/arquivos/CFESSsubsidios_sociojuridico2014.pdf.",
+   "citacao": "(CFESS, 2014)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-045",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO REGIONAL DE SERVIÇO SOCIAL DA PARAÍBA (CRESS-PB)",
+   "titulo": "Nota orientativa documentos técnicos e sigilo profissional",
+   "ano": "2024",
+   "publicado_em": "CRESS-PB, 13ª Região",
+   "link": "https://cresspb.org.br/2012/wp-content/uploads/2024/01/Nota-orientativa-documentos-tecnicos-e-Sigilo-Profissional.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-556-2009",
+    "cfess-resolucao-493-2006"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "acesso do usuário",
+    "documentos técnicos",
+    "material sigiloso",
+    "privacidade"
+   ],
+   "resumo": "Interpreta o sigilo diante de pedidos de acesso do próprio usuário a documentos produzidos pelo Serviço Social. Sustenta que a proteção da confidencialidade não deve ser usada para ocultar informações do usuário e discute os cuidados necessários na elaboração dos registros.",
+   "posicao": "favoravel",
+   "referencia": "CONSELHO REGIONAL DE SERVIÇO SOCIAL DA PARAÍBA (CRESS-PB). Nota orientativa documentos técnicos e sigilo profissional. João Pessoa: CRESS-PB, 2024. 5 páginas no arquivo PDF. Disponível em: https://cresspb.org.br/2012/wp-content/uploads/2024/01/Nota-orientativa-documentos-tecnicos-e-Sigilo-Profissional.pdf.",
+   "citacao": "(CONSELHO REGIONAL DE SERVIÇO SOCIAL DA PARAÍBA, 2024)",
+   "pendencias": [
+    "Conferir inconsistência no preâmbulo, que atribui à Res"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-046",
+   "tipo": "publicacao_institucional",
+   "autoria": "ADJUTO, Diogo",
+   "titulo": "CFESS alerta para riscos éticos e legais na divulgação de documentos profissionais na internet",
+   "ano": "2026",
+   "publicado_em": "CFESS",
+   "link": "https://cfess.org.br/noticia/view/2335/cfess-alerta-para-riscos-eticos-e-legais-na-divulgacao-de-documentos-profissionais-na-internet",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "3"
+   ],
+   "normas": [
+    "cfess-resolucao-1098-2025",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Lei 13.709/2018"
+   ],
+   "temas": [
+    "salvaguarda digital",
+    "exposição de documentos",
+    "dados pessoais",
+    "sigilo"
+   ],
+   "resumo": "Discute riscos da circulação pública de laudos, estudos e relatórios sociais que contenham informações pessoais e sensíveis. Distingue a divulgação pelo profissional da exposição por terceiros e relaciona a salvaguarda documental à proteção dos usuários e à responsabilidade institucional.",
+   "posicao": "favoravel",
+   "referencia": "ADJUTO, Diogo. CFESS alerta para riscos éticos e legais na divulgação de documentos profissionais na internet. Brasília, DF: CFESS, 2026. Disponível em: https://cfess.org.br/noticia/view/2335/cfess-alerta-para-riscos-eticos-e-legais-na-divulgacao-de-documentos-profissionais-na-internet.",
+   "citacao": "(ADJUTO, 2026)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-047",
+   "tipo": "artigo",
+   "autoria": "BOSCHETTI, Ivanete",
+   "titulo": "Condições de trabalho e a luta dos(as) assistentes sociais pela jornada semanal de 30 horas",
+   "ano": "2011",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/YMsTsLQ3X8bbzJq6rGRVBpF/?lang=pt",
+   "doi": "10.1590/S0101-66282011000300010",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "lei-12317"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "30 horas",
+    "organização política",
+    "condições de trabalho"
+   ],
+   "resumo": "Reconstrói a mobilização que conquistou as 30 horas sem redução salarial, situando-a na crise do capital e na expansão da profissão. Defende a redução da jornada como parte da luta coletiva por melhores condições de trabalho, cuja efetivação enfrenta resistência dos empregadores.",
+   "posicao": "historica",
+   "referencia": "BOSCHETTI, Ivanete. Condições de trabalho e a luta dos(as) assistentes sociais pela jornada semanal de 30 horas. Serviço Social & Sociedade, n. 107, p. 557-584, 2011. DOI: https://doi.org/10.1590/S0101-66282011000300010. Disponível em: https://www.scielo.br/j/sssoc/a/YMsTsLQ3X8bbzJq6rGRVBpF/?lang=pt.",
+   "citacao": "(BOSCHETTI, 2011)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-048",
+   "tipo": "artigo",
+   "autoria": "ROCHA, Juliana Tisseu; MARONEZE, Luciane Francieli Zorzetti",
+   "titulo": "Os assistentes sociais e a luta por melhores condições de trabalho: apontamentos sobre a jornada semanal de 30 horas",
+   "ano": "2016",
+   "publicado_em": "Serviço Social em Revista",
+   "link": "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/23788/19105/118147",
+   "doi": "10.5433/1679-4842.2016v18n2p93",
+   "licenca": "CC BY-NC-ND 4.0",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "lei-12317"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "30 horas",
+    "precarização",
+    "mobilização profissional"
+   ],
+   "resumo": "Relaciona a conquista das 30 horas às transformações do trabalho e à reorganização capitalista. Argumenta que a articulação política entre profissionais e entidades foi decisiva para a aprovação da lei, mas não encerrou as lutas por condições dignas de vida e trabalho.",
+   "posicao": "historica",
+   "referencia": "ROCHA, Juliana Tisseu; MARONEZE, Luciane Francieli Zorzetti. Os assistentes sociais e a luta por melhores condições de trabalho: apontamentos sobre a jornada semanal de 30 horas. Serviço Social em Revista, v. 18, n. 2, p. 93-110, 2016. DOI: https://doi.org/10.5433/1679-4842.2016v18n2p93. Disponível em: https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/23788/19105/118147.",
+   "citacao": "(ROCHA; MARONEZE, 2016)",
+   "pendencias": [
+    "conferir variante Francielli nos metadados editoriais"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-049",
+   "tipo": "artigo",
+   "autoria": "MONTEIRO, Claudia Lima",
+   "titulo": "A redução da jornada de trabalho para 30 horas semanais: a experiência em Diadema (SP)",
+   "ano": "2025",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/5jnMNJWWx6w4vYn6RsqY5rx/?lang=pt",
+   "doi": "10.1590/0101-6628.448",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "lei-12317"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "30 horas",
+    "Diadema",
+    "intensificação",
+    "tempo livre"
+   ],
+   "resumo": "Analisa a implementação das 30 horas em Diadema e suas repercussões na vida e no trabalho de assistentes sociais. Identifica ganhos de tempo disponível e de qualidade de vida, ao mesmo tempo que evidencia intensificação do trabalho e tensões na organização dos horários de atendimento.",
+   "posicao": "critica",
+   "referencia": "MONTEIRO, Claudia Lima. A redução da jornada de trabalho para 30 horas semanais: a experiência em Diadema (SP). Serviço Social & Sociedade, v. 148, n. 1, e-6628448, 2025. DOI: https://doi.org/10.1590/0101-6628.448. Disponível em: https://www.scielo.br/j/sssoc/a/5jnMNJWWx6w4vYn6RsqY5rx/?lang=pt.",
+   "citacao": "(MONTEIRO, 2025)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-050",
+   "tipo": "artigo",
+   "autoria": "CARVALHO, Felipe Henrique Guimarães; GONÇALVES, Antônio Augusto Oliveira",
+   "titulo": "O assistente social na luta por direitos: a Lei 12.317/2010 e as condições de trabalho impostas pelo neoliberalismo",
+   "ano": "2024",
+   "publicado_em": "Serviço Social em Debate",
+   "link": "https://revista.uemg.br/serv-soc-debate/article/download/8576/5782/39885",
+   "doi": "10.36704/ssd.v7i2.8576",
+   "licenca": "",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "lei-12317"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "30 horas",
+    "neoliberalismo",
+    "direitos trabalhistas"
+   ],
+   "resumo": "Revisa a trajetória de aprovação e implementação da Lei 12.317/2010 e os obstáculos posteriores à conquista. Sustenta que a precarização e os ataques aos direitos trabalhistas limitam seus efeitos e exigem continuidade da organização coletiva.",
+   "posicao": "critica",
+   "referencia": "CARVALHO, Felipe Henrique Guimarães; GONÇALVES, Antônio Augusto Oliveira. O assistente social na luta por direitos: a Lei 12.317/2010 e as condições de trabalho impostas pelo neoliberalismo. Serviço Social em Debate, v. 7, n. 2, p. 90-106, 2024. DOI: https://doi.org/10.36704/ssd.v7i2.8576. Disponível em: https://revista.uemg.br/serv-soc-debate/article/download/8576/5782/39885.",
+   "citacao": "(CARVALHO; GONÇALVES, 2024)",
+   "pendencias": [
+    "Conferir ano: PDF e fascículo indicam 2024; portal registra publicação em 31/03/2025 e citação com 2025"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-051",
+   "tipo": "artigo",
+   "autoria": "TEJADAS, Silvia da Silva; JUNQUEIRA, Maíz Ramos",
+   "titulo": "Serviço Social e pandemia: desafios e perspectivas para a atuação no sociojurídico",
+   "ano": "2021",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/Jq7JHTH5Ts7LDQZVLRfBTHp/?lang=pt",
+   "doi": "10.1590/0101-6628.240",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "4"
+   ],
+   "normas": [],
+   "outras_normas": [
+    "Nota da Comissão de Orientação e Fiscalização do CFESS sobre perícia eletrônica (2020)"
+   ],
+   "temas": [
+    "trabalho remoto",
+    "sociojurídico",
+    "autonomia",
+    "sigilo"
+   ],
+   "resumo": "Questiona as requisições de avaliações e perícias remotas diante das dificuldades de acesso dos usuários e das exigências de qualidade e sigilo. Defende a autonomia profissional para distinguir atividades viáveis a distância daquelas que dependem da aproximação presencial com as condições de vida.",
+   "posicao": "critica",
+   "referencia": "TEJADAS, Silvia da Silva; JUNQUEIRA, Maíz Ramos. Serviço Social e pandemia: desafios e perspectivas para a atuação no sociojurídico. Serviço Social & Sociedade, n. 140, p. 101-117, 2021. DOI: https://doi.org/10.1590/0101-6628.240. Disponível em: https://www.scielo.br/j/sssoc/a/Jq7JHTH5Ts7LDQZVLRfBTHp/?lang=pt.",
+   "citacao": "(TEJADAS; JUNQUEIRA, 2021)",
+   "pendencias": [
+    "conferir sua identificação bibliográfica completa"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-052",
+   "tipo": "artigo",
+   "autoria": "TORRES, Mabel Mascarenhas; SGORLON, Claudiana Tavares da Silva",
+   "titulo": "A incorporação das TICs no trabalho de assistentes sociais: alterações, dilemas e desafios",
+   "ano": "2024",
+   "publicado_em": "CUHSO",
+   "link": "https://cuhso.uct.cl/index.php/CUHSO/en/article/download/659/662/2988",
+   "doi": "10.7770/CUHSO-V34N1-ART664",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "lei-8662",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "CFESS, Teletrabalho e Teleperícia (2020",
+    "orientação técnica)"
+   ],
+   "temas": [
+    "TICs",
+    "jornada",
+    "sigilo",
+    "intensificação",
+    "trabalho remoto"
+   ],
+   "resumo": "Com base em revisão e enquete com 49 assistentes sociais, examina como as tecnologias alteram o atendimento, os registros e a jornada. Identifica ampliação do volume e do tempo de trabalho e dilemas de sigilo, reconhecendo também possibilidades de ampliar o alcance dos serviços e a circulação de informações.",
+   "posicao": "critica",
+   "referencia": "TORRES, Mabel Mascarenhas; SGORLON, Claudiana Tavares da Silva. A incorporação das TICs no trabalho de assistentes sociais: alterações, dilemas e desafios. CUHSO, v. 34, n. 1, p. 255-286, 2024. DOI: https://doi.org/10.7770/CUHSO-V34N1-ART664. Disponível em: https://cuhso.uct.cl/index.php/CUHSO/en/article/download/659/662/2988.",
+   "citacao": "(TORRES; SGORLON, 2024)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-053",
+   "tipo": "artigo",
+   "autoria": "COELHO JÚNIOR, Antônio Fernando; OLIVEIRA, Hilderline Câmara de",
+   "titulo": "Condições de trabalho de assistentes sociais no Hospital da Polícia Militar em tempos de pandemia",
+   "ano": "2025",
+   "publicado_em": "Serviço Social em Revista",
+   "link": "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/49754/52573/305053",
+   "doi": "",
+   "licenca": "CC BY-NC-ND 4.0",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "cfess-resolucao-493-2006"
+   ],
+   "outras_normas": [
+    "orientações do CFESS para atuação na pandemia (2020)"
+   ],
+   "temas": [
+    "saúde",
+    "condições de trabalho",
+    "pandemia",
+    "valorização profissional"
+   ],
+   "resumo": "Examina as condições de trabalho no Hospital da Polícia Militar do Rio Grande do Norte e as relaciona às exigências éticas e técnicas do CFESS. Evidencia medo de contágio, dificuldades nas relações de trabalho e falta de reconhecimento, mostrando que satisfação com a atividade não elimina a precariedade institucional.",
+   "posicao": "critica",
+   "referencia": "COELHO JÚNIOR, Antônio Fernando; OLIVEIRA, Hilderline Câmara de. Condições de trabalho de assistentes sociais no Hospital da Polícia Militar em tempos de pandemia. Serviço Social em Revista, v. 28, n. 1, p. 1-26, 2025. Disponível em: https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/49754/52573/305053.",
+   "citacao": "(COELHO JÚNIOR; OLIVEIRA, 2025)",
+   "pendencias": [
+    "Conferir DOI: portal 10",
+    "Conferir identificador: portal e49754; PDF e2503"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-054",
+   "tipo": "artigo",
+   "autoria": "RAICHELIS, Raquel",
+   "titulo": "O assistente social como trabalhador assalariado: desafios frente às violações de seus direitos",
+   "ano": "2011",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/xJZpht8LVT96vSvn7cPNQMR/?lang=pt",
+   "doi": "10.1590/S0101-66282011000300003",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "lei-12317"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "assalariamento",
+    "precarização",
+    "adoecimento",
+    "direitos trabalhistas"
+   ],
+   "resumo": "Analisa a precarização do trabalho do assistente social e suas consequências para autonomia, saúde e direitos. Trata a conquista das 30 horas como mobilização coletiva relevante, mas ressalta a resistência patronal e a necessidade de articulá-la a outras pautas de proteção do trabalhador.",
+   "posicao": "critica",
+   "referencia": "RAICHELIS, Raquel. O assistente social como trabalhador assalariado: desafios frente às violações de seus direitos. Serviço Social & Sociedade, n. 107, 2011. DOI: https://doi.org/10.1590/S0101-66282011000300003. Disponível em: https://www.scielo.br/j/sssoc/a/xJZpht8LVT96vSvn7cPNQMR/?lang=pt.",
+   "citacao": "(RAICHELIS, 2011)",
+   "pendencias": [
+    "Conferir paginação, omitida"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-055",
+   "tipo": "dissertacao",
+   "autoria": "SILVA, Charlene Souza da",
+   "titulo": "Significado sócio-histórico da luta pela jornada de trabalho de 30 horas semanais para o assistente social brasileiro",
+   "ano": "2014",
+   "publicado_em": "Universidade Federal de Sergipe",
+   "link": "https://ri.ufs.br/bitstream/riufs/6198/1/CHARLENE_SOUZA_SILVA.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "lei-12317",
+    "lei-8662"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "30 horas",
+    "luta de classes",
+    "CFESS-CRESS",
+    "direitos trabalhistas"
+   ],
+   "resumo": "Investiga o significado histórico da mobilização pelas 30 horas mediante bibliografia, documentos das entidades e decisões sobre a implementação. Interpreta a conquista como resistência à exploração do trabalho, ressaltando que a redução formal pode coexistir com intensificação e novos obstáculos à efetivação do direito.",
+   "posicao": "historica",
+   "referencia": "SILVA, Charlene Souza da. Significado sócio-histórico da luta pela jornada de trabalho de 30 horas semanais para o assistente social brasileiro. 2014. 157 f. Dissertação (Mestrado) – Universidade Federal de Sergipe, 2014. Disponível em: https://ri.ufs.br/bitstream/riufs/6198/1/CHARLENE_SOUZA_SILVA.pdf.",
+   "citacao": "(SILVA, 2014)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-056",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS)",
+   "titulo": "Teletrabalho e Teleperícia: orientações para assistentes sociais no contexto da pandemia",
+   "ano": "2020",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/Nota-teletrabalho-telepericiacfess.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "cfess-resolucao-493-2006",
+    "cfess-resolucao-556-2009",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "teletrabalho",
+    "teleperícia",
+    "sigilo",
+    "autonomia",
+    "jornada"
+   ],
+   "resumo": "Problematiza a adoção de meios remotos e os limites para realizar avaliações sociais com qualidade, privacidade e acesso dos usuários. Defende participação profissional na escolha das ferramentas e na definição das atividades, considerando os riscos de controle e extensão da jornada.",
+   "posicao": "critica",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS). Teletrabalho e Teleperícia: orientações para assistentes sociais no contexto da pandemia. Brasília, DF: CFESS, 2020. 18 p. Disponível em: https://www.cfess.org.br/arquivos/Nota-teletrabalho-telepericiacfess.pdf.",
+   "citacao": "(CFESS, 2020)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-057",
+   "tipo": "publicacao_institucional",
+   "autoria": "ANDRADE, Isabel; ADJUTO, Diogo",
+   "titulo": "Nova Resolução do CFESS atualiza regulamentação sobre condições éticas e técnicas para o exercício profissional",
+   "ano": "2025",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/noticia/view/2271/nova-resolucao-do-cfess-atualiza-regulamentacao-sobre-condicoes-eticas-e-tecnicas-para-o-exercicio-profissional",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "cfess-resolucao-1114-2025",
+    "cfess-resolucao-493-2006"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "condições éticas e técnicas",
+    "ambiente digital",
+    "acessibilidade",
+    "autonomia"
+   ],
+   "resumo": "Apresenta a construção coletiva da nova resolução e interpreta suas mudanças frente à regulamentação de 2006. Destaca a inclusão dos ambientes digitais, da acessibilidade e de garantias de autonomia e privacidade como respostas às transformações do exercício profissional.",
+   "posicao": "favoravel",
+   "referencia": "ANDRADE, Isabel; ADJUTO, Diogo. Nova Resolução do CFESS atualiza regulamentação sobre condições éticas e técnicas para o exercício profissional. Brasília, DF: CFESS, 2025. Disponível em: https://www.cfess.org.br/noticia/view/2271/nova-resolucao-do-cfess-atualiza-regulamentacao-sobre-condicoes-eticas-e-tecnicas-para-o-exercicio-profissional.",
+   "citacao": "(ANDRADE; ADJUTO, 2025)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-058",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS)",
+   "titulo": "Nota Pública à categoria de assistentes sociais",
+   "ano": "2025",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/noticia/view/2280/nota-publica-a-categoria-de-assistentes-sociais",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "4"
+   ],
+   "normas": [
+    "lei-12317"
+   ],
+   "outras_normas": [
+    "Lei 8.112/1990",
+    "Nota Técnica SEI 36686/2025/MGI",
+    "Nota Técnica 09/2012/CGNOR/DENOP/SEGEP/MP"
+   ],
+   "temas": [
+    "30 horas",
+    "serviço público federal",
+    "disputa interpretativa"
+   ],
+   "resumo": "Contesta a manutenção, pelo MGI, do entendimento que afasta a jornada de 30 horas de servidores federais estatutários. Defende a aplicação da conquista profissional e critica a ausência de revisão efetiva dos argumentos jurídicos apresentados pelo CFESS.",
+   "posicao": "favoravel",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS). Nota Pública à categoria de assistentes sociais. Brasília, DF: CFESS, 2025. Disponível em: https://www.cfess.org.br/noticia/view/2280/nota-publica-a-categoria-de-assistentes-sociais.",
+   "citacao": "(CFESS, 2025)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-059",
+   "tipo": "artigo",
+   "autoria": "SANTOS, Josiane Soares; GONÇALVES, Maria da Conceição Vasconcelos; SANTOS, Débora Rodrigues; JESUS, Elma Santos de; SANTOS, Fábio dos; DÓREA, Gleide Celma Souza; MENDES, Raquel de Oliveira",
+   "titulo": "Fiscalização do exercício profissional e projeto ético-político",
+   "ano": "2010",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/nTsTg3NRm38xCWXW64jzd8P/?lang=pt",
+   "doi": "10.1590/S0101-66282010000100008",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-512-2007"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "PNF",
+    "orientação",
+    "projeto ético-político",
+    "CRESS Sergipe"
+   ],
+   "resumo": "Analisa a fiscalização a partir de registros do CRESS de Sergipe, articulando o conhecimento do exercício profissional à defesa de direitos. Sustenta que a dimensão político-pedagógica exige interpretar coletivamente as informações das visitas e superar a redução da fiscalização à punição ou ao arquivamento de relatórios.",
+   "posicao": "favoravel",
+   "referencia": "SANTOS, Josiane Soares; GONÇALVES, Maria da Conceição Vasconcelos; SANTOS, Débora Rodrigues; JESUS, Elma Santos de; SANTOS, Fábio dos; DÓREA, Gleide Celma Souza; MENDES, Raquel de Oliveira. Fiscalização do exercício profissional e projeto ético-político. Serviço Social & Sociedade, n. 101, p. 146-176, 2010. DOI: https://doi.org/10.1590/S0101-66282010000100008. Disponível em: https://www.scielo.br/j/sssoc/a/nTsTg3NRm38xCWXW64jzd8P/?lang=pt.",
+   "citacao": "(SANTOS et al., 2010)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-060",
+   "tipo": "artigo",
+   "autoria": "LIMA, Micarla de Moura",
+   "titulo": "Fiscalização do exercício profissional dos/as assistentes sociais e suas peculiaridades",
+   "ano": "2018",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/19678/pdf/66959",
+   "doi": "10.22422/temporalis.2018v18n36p320-335",
+   "licenca": "",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-512-2007",
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Política Nacional de Enfrentamento à Inadimplência (2017)"
+   ],
+   "temas": [
+    "agentes fiscais",
+    "trabalho assalariado",
+    "inadimplência",
+    "PNF"
+   ],
+   "resumo": "Discute as particularidades da fiscalização exercida por profissionais que também são trabalhadores assalariados. Relaciona dificuldades financeiras e insuficiência de pessoal às condições de implementação da PNF, valorizando a orientação diante de problemas que não se resolvem apenas pela cobrança ou punição.",
+   "posicao": "critica",
+   "referencia": "LIMA, Micarla de Moura. Fiscalização do exercício profissional dos/as assistentes sociais e suas peculiaridades. Temporalis, v. 18, n. 36, p. 320-335, 2018. DOI: https://doi.org/10.22422/temporalis.2018v18n36p320-335. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/19678/pdf/66959.",
+   "citacao": "(LIMA, 2018)",
+   "pendencias": [
+    "Conferir ano: fascículo/PDF indicam 2018, portal registra publicação e citação em 2019",
+    "Conferir licença: versões do portal apresentam CC BY-NC 4"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-061",
+   "tipo": "artigo",
+   "autoria": "FELIPPE, Jonis Manhães Sales",
+   "titulo": "O processo legislativo e a regulamentação do Serviço Social no Brasil: uma análise documental",
+   "ano": "2018",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/cwDMppmhv6PgjKJC7pm8vqM/?lang=pt",
+   "doi": "10.1590/0101-6628.129",
+   "licenca": "",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Projeto de Lei 3.903/1989"
+   ],
+   "temas": [
+    "regulamentação",
+    "processo legislativo",
+    "fiscalização",
+    "competências"
+   ],
+   "resumo": "Reconstrói alterações e vetos no processo de regulamentação da profissão. Mostra como disputas legislativas restringiram dispositivos relativos às instituições empregadoras e à fiscalização, permitindo compreender ambiguidades da lei para além de supostas falhas individuais dos profissionais.",
+   "posicao": "critica",
+   "referencia": "FELIPPE, Jonis Manhães Sales. O processo legislativo e a regulamentação do Serviço Social no Brasil: uma análise documental. Serviço Social & Sociedade, n. 131, p. 29-50, 2018. DOI: https://doi.org/10.1590/0101-6628.129. Disponível em: https://www.scielo.br/j/sssoc/a/cwDMppmhv6PgjKJC7pm8vqM/?lang=pt.",
+   "citacao": "(FELIPPE, 2018)",
+   "pendencias": [
+    "Conferir licença: indicação textual CC BY-NC, mas hiperlink de licença aponta para CC BY 4"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-062",
+   "tipo": "dissertacao",
+   "autoria": "TAKAHARA, Inara Harumi Koga",
+   "titulo": "A Política Nacional de Fiscalização do Conjunto CFESS-CRESS: a implementação realizada pela Comissão de Orientação e Fiscalização do Exercício Profissional em Mato Grosso",
+   "ano": "2016",
+   "publicado_em": "Universidade Federal de Mato Grosso",
+   "link": "https://ppgpsufmt.com.br/wp-content/uploads/2023/09/T.-2014-INARA.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-512-2007",
+    "lei-8662",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Res. CFESS 382/1999"
+   ],
+   "temas": [
+    "PNF",
+    "Mato Grosso",
+    "implementação",
+    "COFI"
+   ],
+   "resumo": "Investiga a implementação da PNF em Mato Grosso a partir de documentação e da trajetória da fiscalização regional. Identifica limites relacionados a recursos humanos e financeiros, deslocamentos e encaminhamentos judiciais, mostrando que a formulação nacional não se traduz automaticamente em condições locais de execução.",
+   "posicao": "critica",
+   "referencia": "TAKAHARA, Inara Harumi Koga. A Política Nacional de Fiscalização do Conjunto CFESS-CRESS: a implementação realizada pela Comissão de Orientação e Fiscalização do Exercício Profissional em Mato Grosso. 2016. Dissertação (Mestrado) – Universidade Federal de Mato Grosso, 2016. Disponível em: https://ppgpsufmt.com.br/wp-content/uploads/2023/09/T.-2014-INARA.pdf.",
+   "citacao": "(TAKAHARA, 2016)",
+   "pendencias": [
+    "Conferir extensão: divergência entre catálogo e arquivo; campo vazio"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-063",
+   "tipo": "dissertacao",
+   "autoria": "MISCHIATTI, Roberta",
+   "titulo": "Desafios e possibilidades no fortalecimento da categoria profissional dos assistentes sociais em seus espaços sócio-ocupacionais: a experiência da Comissão de Orientação e Fiscalização (COFI) do CRESS/PR",
+   "ano": "2023",
+   "publicado_em": "Universidade Estadual do Oeste do Paraná",
+   "link": "https://tede.unioeste.br/bitstream/tede/7136/2/Roberta_Mischiatti_2023.pdf",
+   "doi": "",
+   "licenca": "CC BY-NC-ND 4.0",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-512-2007"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "COFI",
+    "Paraná",
+    "requisições institucionais",
+    "atribuições"
+   ],
+   "resumo": "Analisa a experiência da COFI do CRESS do Paraná e as demandas relacionadas às condições e atribuições profissionais. Evidencia tensões entre exigências institucionais e normas da profissão, discutindo as possibilidades de a fiscalização fortalecer os profissionais em seus espaços de trabalho.",
+   "posicao": "critica",
+   "referencia": "MISCHIATTI, Roberta. Desafios e possibilidades no fortalecimento da categoria profissional dos assistentes sociais em seus espaços sócio-ocupacionais: a experiência da Comissão de Orientação e Fiscalização (COFI) do CRESS/PR. 2023. Dissertação (Mestrado) – Universidade Estadual do Oeste do Paraná, 2023. Disponível em: https://tede.unioeste.br/bitstream/tede/7136/2/Roberta_Mischiatti_2023.pdf.",
+   "citacao": "(MISCHIATTI, 2023)",
+   "pendencias": [
+    "Conferir extensão: catálogo indica 123 f"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-064",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS)",
+   "titulo": "Manual de orientação dos procedimentos de inscrição de pessoa física e jurídica",
+   "ano": "2023",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/uploads/pagina/4984/manual-procedinscri-2024.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-1014-2022",
+    "cfess-resolucao-934-2020"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "inscrição",
+    "registro profissional",
+    "procedimentos",
+    "limites administrativos"
+   ],
+   "resumo": "Interpreta procedimentos de inscrição e delimita atribuições administrativas dos conselhos. Esclarece diferenças entre as comissões de inscrição e de fiscalização e discute exigências que não podem ser acrescentadas aos requisitos normativos.",
+   "posicao": "descritiva",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS). Manual de orientação dos procedimentos de inscrição de pessoa física e jurídica. Brasília, DF: CFESS, 2023. 110 p. Disponível em: https://www.cfess.org.br/uploads/pagina/4984/manual-procedinscri-2024.pdf.",
+   "citacao": "(CFESS, 2023)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-065",
+   "tipo": "capitulo",
+   "autoria": "SANTOS, Josiane Soares; TRINDADE, Rosa Lúcia Predes",
+   "titulo": "A revisão dos instrumentais da Política Nacional de Fiscalização do Conjunto CFESS-CRESS como mediação estratégica para reafirmação de sua atualidade",
+   "ano": "2019",
+   "publicado_em": "CFESS. In: Instrumentos para a fiscalização do exercício profissional do/a assistente social",
+   "link": "https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=12",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-512-2007",
+    "cfess-resolucao-828-2017"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "PNF",
+    "instrumentais",
+    "orientação"
+   ],
+   "resumo": "Defende a revisão dos instrumentos para conhecer nacionalmente o exercício profissional. Adverte que uniformizar registros não significa padronizar orientações nem reduzir fiscalização ao preenchimento de formulários.",
+   "posicao": "favoravel",
+   "referencia": "SANTOS, Josiane Soares; TRINDADE, Rosa Lúcia Predes. A revisão dos instrumentais da Política Nacional de Fiscalização do Conjunto CFESS-CRESS como mediação estratégica para reafirmação de sua atualidade. In: CONSELHO FEDERAL DE SERVIÇO SOCIAL (Brasil). Instrumentos para a fiscalização do exercício profissional do/a assistente social. Brasília, DF: CFESS, 2019. p. 12-34. Disponível em: https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=12.",
+   "citacao": "(SANTOS; TRINDADE, 2019)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-066",
+   "tipo": "capitulo",
+   "autoria": "MEDEIROS, Érika Lula de",
+   "titulo": "A publicidade das informações colhidas por meio dos instrumentais da PNF do exercício profissional do/a assistente social",
+   "ano": "2019",
+   "publicado_em": "CFESS. In: Instrumentos para a fiscalização do exercício profissional do/a assistente social",
+   "link": "https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=35",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-512-2007"
+   ],
+   "outras_normas": [
+    "Lei 12.527/2011",
+    "Parecer Jurídico CFESS 09/2017-E"
+   ],
+   "temas": [
+    "publicidade",
+    "fiscalização",
+    "sigilo"
+   ],
+   "resumo": "Sustenta a publicidade dos dados da fiscalização como regra de uma atividade pública. Diferencia essas informações dos dados pessoais protegidos, discutindo os limites do argumento do sigilo profissional.",
+   "posicao": "critica",
+   "referencia": "MEDEIROS, Érika Lula de. A publicidade das informações colhidas por meio dos instrumentais da PNF do exercício profissional do/a assistente social. In: CONSELHO FEDERAL DE SERVIÇO SOCIAL (Brasil). Instrumentos para a fiscalização do exercício profissional do/a assistente social. Brasília, DF: CFESS, 2019. p. 35-53. Disponível em: https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=35.",
+   "citacao": "(MEDEIROS, 2019)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-067",
+   "tipo": "capitulo",
+   "autoria": "SILVEIRA, Jucimeri Isolda",
+   "titulo": "Política Nacional de Fiscalização: a centralidade da dimensão político-pedagógica",
+   "ano": "2019",
+   "publicado_em": "CFESS. In: Instrumentos para a fiscalização do exercício profissional do/a assistente social",
+   "link": "https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=97",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-512-2007",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "PNF",
+    "dimensão político-pedagógica"
+   ],
+   "resumo": "Defende a dimensão político-pedagógica como fundamento da fiscalização. Relaciona a democratização dos conselhos à defesa pública de direitos e à superação de práticas burocráticas e corporativistas.",
+   "posicao": "favoravel",
+   "referencia": "SILVEIRA, Jucimeri Isolda. Política Nacional de Fiscalização: a centralidade da dimensão político-pedagógica. In: CONSELHO FEDERAL DE SERVIÇO SOCIAL (Brasil). Instrumentos para a fiscalização do exercício profissional do/a assistente social. Brasília, DF: CFESS, 2019. p. 97-105. Disponível em: https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=97.",
+   "citacao": "(SILVEIRA, 2019)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-068",
+   "tipo": "capitulo",
+   "autoria": "SILVA, Japson Gonçalves Santos",
+   "titulo": "Desafios para a atuação profissional na orientação e fiscalização do exercício profissional do(a) assistente social",
+   "ano": "2025",
+   "publicado_em": "CFESS. In: Assistentes sociais do Brasil: requisições institucionais e respostas profissionais",
+   "link": "https://cfess.org.br/uploads/revista/5605/LivroDiagramadoASdoBrasil2025Cfess-Site.pdf#page=9",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-512-2007"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "agentes fiscais",
+    "precarização",
+    "orientação"
+   ],
+   "resumo": "Relaciona os desafios da fiscalização à precarização e às mudanças no trabalho profissional. Defende a interpretação das requisições e dos dispositivos legais à luz das contradições institucionais, evitando respostas reduzidas à burocracia.",
+   "posicao": "critica",
+   "referencia": "SILVA, Japson Gonçalves Santos. Desafios para a atuação profissional na orientação e fiscalização do exercício profissional do(a) assistente social. In: CONSELHO FEDERAL DE SERVIÇO SOCIAL (Brasil). Assistentes sociais do Brasil: requisições institucionais e respostas profissionais. Brasília, DF: CFESS, 2025. p. 9-18. Disponível em: https://cfess.org.br/uploads/revista/5605/LivroDiagramadoASdoBrasil2025Cfess-Site.pdf#page=9.",
+   "citacao": "(SILVA, 2025)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-069",
+   "tipo": "capitulo",
+   "autoria": "HORST, Claudio",
+   "titulo": "A elaboração do projeto de trabalho de assistentes sociais na Orientação e Fiscalização Profissional",
+   "ano": "2025",
+   "publicado_em": "CFESS. In: Assistentes sociais do Brasil: requisições institucionais e respostas profissionais",
+   "link": "https://cfess.org.br/uploads/revista/5605/LivroDiagramadoASdoBrasil2025Cfess-Site.pdf#page=55",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "5"
+   ],
+   "normas": [
+    "cfess-resolucao-512-2007",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "planejamento",
+    "projeto de trabalho",
+    "visitas"
+   ],
+   "resumo": "Propõe o projeto de trabalho como meio de qualificar a atuação dos agentes fiscais. Valoriza as visitas e distingue o planejamento institucional do projeto profissional, recusando a redução da fiscalização a formulários.",
+   "posicao": "favoravel",
+   "referencia": "HORST, Claudio. A elaboração do projeto de trabalho de assistentes sociais na Orientação e Fiscalização Profissional. In: CONSELHO FEDERAL DE SERVIÇO SOCIAL (Brasil). Assistentes sociais do Brasil: requisições institucionais e respostas profissionais. Brasília, DF: CFESS, 2025. p. 55-74. Disponível em: https://cfess.org.br/uploads/revista/5605/LivroDiagramadoASdoBrasil2025Cfess-Site.pdf#page=55.",
+   "citacao": "(HORST, 2025)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-070",
+   "tipo": "artigo",
+   "autoria": "MIRALES, Rosana",
+   "titulo": "Denúncias de infrações éticas no Conselho Regional de Serviço Social do Paraná",
+   "ano": "2021",
+   "publicado_em": "Argumentum",
+   "link": "https://periodicos.ufes.br/argumentum/article/view/34572",
+   "doi": "10.47456/argumentum.v13i2.34572",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "6"
+   ],
+   "normas": [
+    "cfess-resolucao-660-2013",
+    "cfess-resolucao-548-2009",
+    "cfess-resolucao-726-2015",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "denúncias éticas",
+    "penalidades",
+    "recursos",
+    "comissões"
+   ],
+   "resumo": "Analisa a tramitação e os resultados de processos do CRESS-PR relativos a denúncias acolhidas entre 1993 e 2007. Relaciona as garantias processuais à defesa dos valores profissionais e mostra como recursos ao CFESS podem modificar decisões e penalidades da primeira instância.",
+   "posicao": "critica",
+   "referencia": "MIRALES, Rosana. Denúncias de infrações éticas no Conselho Regional de Serviço Social do Paraná. Argumentum, v. 13, n. 2, p. 226-238, 2021. DOI: https://doi.org/10.47456/argumentum.v13i2.34572. Disponível em: https://periodicos.ufes.br/argumentum/article/view/34572.",
+   "citacao": "(MIRALES, 2021)",
+   "pendencias": [
+    "Conferir divergência quantitativa: resumo em português do portal informa 41 processos; texto integral informa 40"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-071",
+   "tipo": "artigo",
+   "autoria": "MIRALES, Rosana",
+   "titulo": "Os processos de violações ético-disciplinares no Conselho Regional de Serviço Social do Paraná",
+   "ano": "2023",
+   "publicado_em": "Emancipação",
+   "link": "https://revistas.uepg.br/index.php/emancipacao/article/download/20517/209209217649",
+   "doi": "10.5212/Emancipacao.v.23.2320517.008",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "6"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-660-2013",
+    "cfess-resolucao-493-2006"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "violações éticas",
+    "julgamentos",
+    "reprodução social",
+    "penalidades"
+   ],
+   "resumo": "Examina processos concluídos referentes ao período de 2008 a 2012 e os resultados dos julgamentos nas duas instâncias. Interpreta os conflitos éticos como expressões das relações sociais e das disputas institucionais, evitando reduzi-los a desvios individuais isolados.",
+   "posicao": "critica",
+   "referencia": "MIRALES, Rosana. Os processos de violações ético-disciplinares no Conselho Regional de Serviço Social do Paraná. Emancipação, v. 23, e2320517, p. 1-18, 2023. DOI: https://doi.org/10.5212/Emancipacao.v.23.2320517.008. Disponível em: https://revistas.uepg.br/index.php/emancipacao/article/download/20517/209209217649.",
+   "citacao": "(MIRALES, 2023)",
+   "pendencias": [
+    "Conferir autoria: portal informa Rosana Mirales; PDF registra Rosane Mirales"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-072",
+   "tipo": "dissertacao",
+   "autoria": "OLIVEIRA, Ilma Cristina Silva",
+   "titulo": "A ética no trabalho do assistente social: análise das particularidades das denúncias em Sergipe",
+   "ano": "2016",
+   "publicado_em": "Universidade Federal de Sergipe",
+   "link": "https://ri.ufs.br/bitstream/riufs/6223/1/ILMA_CRISTINA_SILVA_OLIVEIRA.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "6"
+   ],
+   "normas": [
+    "cfess-resolucao-660-2013",
+    "cfess-resolucao-657-2013-p663",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Res. CFESS 428/2002"
+   ],
+   "temas": [
+    "denúncia ética",
+    "imagem profissional",
+    "Sergipe",
+    "processo disciplinar"
+   ],
+   "resumo": "Investiga a origem e os motivos de denúncias apresentadas ao CRESS de Sergipe, relacionando-as à história da ética e às expectativas sociais sobre a profissão. Trata a denúncia como instrumento de defesa de direitos, mas identifica tensões entre a perspectiva profissional emancipatória e cobranças de comportamento moral.",
+   "posicao": "critica",
+   "referencia": "OLIVEIRA, Ilma Cristina Silva. A ética no trabalho do assistente social: análise das particularidades das denúncias em Sergipe. 2016. 115 f. Dissertação (Mestrado) – Universidade Federal de Sergipe, 2016. Disponível em: https://ri.ufs.br/bitstream/riufs/6223/1/ILMA_CRISTINA_SILVA_OLIVEIRA.pdf.",
+   "citacao": "(OLIVEIRA, 2016)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-073",
+   "tipo": "publicacao_institucional",
+   "autoria": "ARAÚJO, Nicole Barbosa de; RODRIGUES, Terezinha de Fátima",
+   "titulo": "Relatório de processos éticos: estudo quantitativo e qualitativo dos processos éticos do período de 2009 a 2018",
+   "ano": "2026",
+   "publicado_em": "Conselho Regional de Serviço Social de São Paulo — 9ª Região",
+   "link": "https://cress-sp.org.br/uploads/revista/1376/UeVw7oXDfmCp-R5CirRmM2SxOCdcpqQY.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "6"
+   ],
+   "normas": [
+    "cfess-resolucao-660-2013",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Res. CFESS 940/2020",
+    "Res. CFESS 968/2021"
+   ],
+   "temas": [
+    "tramitação",
+    "prescrição",
+    "penalidades",
+    "estrutura institucional"
+   ],
+   "resumo": "Analisa denúncias e processos do CRESS-SP, incluindo duração, penalidades e recursos. Relaciona dificuldades de tramitação ao crescimento das responsabilidades sem ampliação equivalente da estrutura e propõe mais pessoal e acompanhamento sistemático, sem individualizar a responsabilidade pelos problemas.",
+   "posicao": "critica",
+   "referencia": "ARAÚJO, Nicole Barbosa de; RODRIGUES, Terezinha de Fátima. Relatório de processos éticos: estudo quantitativo e qualitativo dos processos éticos do período de 2009 a 2018. São Paulo: CRESS-SP, 2026. 70 p. Disponível em: https://cress-sp.org.br/uploads/revista/1376/UeVw7oXDfmCp-R5CirRmM2SxOCdcpqQY.pdf.",
+   "citacao": "(ARAÚJO; RODRIGUES, 2026)",
+   "pendencias": [
+    "Conferir divergências entre alguns gráficos e tabelas; resumo não reproduz contagens"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-074",
+   "tipo": "publicacao_institucional",
+   "autoria": "MEDEIROS, Aparecido Inácio Ferrari de; TIEZZI, Sílvia Arenales V.",
+   "titulo": "Roteiro orientativo do Código Processual de Ética",
+   "ano": "2014",
+   "publicado_em": "Conselho Regional de Serviço Social de São Paulo — 9ª Região",
+   "link": "https://cress-sp.org.br/uploads/revista/534/l003o-wpeLA-sv_mJ72_jlTerdzGFRS9.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "6"
+   ],
+   "normas": [
+    "cfess-resolucao-660-2013"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "ampla defesa",
+    "contraditório",
+    "instrução processual",
+    "imparcialidade"
+   ],
+   "resumo": "Interpreta as etapas do processo ético e detalha procedimentos para as comissões e a secretaria do conselho. Justifica o rigor formal como proteção da imparcialidade, da ampla defesa e do contraditório, oferecendo modelos para registrar os atos.",
+   "posicao": "descritiva",
+   "referencia": "MEDEIROS, Aparecido Inácio Ferrari de; TIEZZI, Sílvia Arenales V. Roteiro orientativo do Código Processual de Ética. São Paulo: CRESS-SP, 2014. 1. ed., 68 p. Disponível em: https://cress-sp.org.br/uploads/revista/534/l003o-wpeLA-sv_mJ72_jlTerdzGFRS9.pdf.",
+   "citacao": "(MEDEIROS; TIEZZI, 2014)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-075",
+   "tipo": "livro",
+   "autoria": "TERRA, Sylvia Helena",
+   "titulo": "Ética e instrumentos processuais",
+   "ano": "2022",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/CFESS-Modulo04-EticaMovimento-Ebook2022.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "6"
+   ],
+   "normas": [
+    "cfess-resolucao-660-2013",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Res. CFESS 428/2002"
+   ],
+   "temas": [
+    "recomposição de direitos",
+    "processo ético",
+    "democracia",
+    "sanção"
+   ],
+   "resumo": "Defende a recomposição de direitos violados como finalidade do processo, apoiando-se em uma leitura crítica do direito. Interpreta as fases processuais e as alterações de 2013 à luz da participação das partes, da igualdade e da transparência, contrapondo-se ao formalismo desvinculado dos sujeitos.",
+   "posicao": "critica",
+   "referencia": "TERRA, Sylvia Helena. Ética e instrumentos processuais. Brasília, DF: CFESS, 2022. 5. ed., módulo 4, 88 p. Disponível em: https://www.cfess.org.br/arquivos/CFESS-Modulo04-EticaMovimento-Ebook2022.pdf.",
+   "citacao": "(TERRA, 2022)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-076",
+   "tipo": "livro",
+   "autoria": "TERRA, Sylvia Helena; CONSELHO FEDERAL DE SERVIÇO SOCIAL, Comissão de Ética e Direitos Humanos (org.)",
+   "titulo": "Pareceres jurídicos sobre a ética e os direitos humanos",
+   "ano": "2022",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/Cfess2022-EbookPareceresJuridicos-CEDH.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "6"
+   ],
+   "normas": [
+    "cfess-resolucao-660-2013",
+    "cfess-resolucao-657-2013-p663",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "tribunal de ética",
+    "imparcialidade",
+    "penalidades",
+    "sigilo processual"
+   ],
+   "resumo": "Reúne interpretações jurídicas de conflitos enfrentados pelos conselhos, incluindo aplicação de penas, validade dos atos e sigilo. Sustenta garantias de defesa e a isenção do órgão julgador, distinguindo-as de uma suposta neutralidade política e questionando soluções meramente burocráticas.",
+   "posicao": "critica",
+   "referencia": "TERRA, Sylvia Helena; CONSELHO FEDERAL DE SERVIÇO SOCIAL, Comissão de Ética e Direitos Humanos (org.). Pareceres jurídicos sobre a ética e os direitos humanos. Brasília, DF: CFESS, 2022. 142 p. Disponível em: https://www.cfess.org.br/arquivos/Cfess2022-EbookPareceresJuridicos-CEDH.pdf.",
+   "citacao": "(TERRA; CFESS, 2022)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-078",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO REGIONAL DE SERVIÇO SOCIAL DO MARANHÃO — 2ª Região",
+   "titulo": "Nota de Desagravo Público nº 01/2026 à assistente social Aline Suely da Costa Lobato",
+   "ano": "2026",
+   "publicado_em": "CRESS-MA",
+   "link": "https://www.cressma.org.br/?p=22224",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "6"
+   ],
+   "normas": [
+    "cfess-resolucao-1073-2024",
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-556-2009",
+    "lei-8662"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "desagravo público",
+    "exposição de documentos",
+    "sigilo",
+    "autonomia"
+   ],
+   "resumo": "Aplica o desagravo à exposição pública de uma profissional e de trechos de documentação técnica. Argumenta que a proteção da honra e do sigilo ultrapassa o interesse corporativo porque resguarda usuários, autonomia técnica e confiança no atendimento.",
+   "posicao": "favoravel",
+   "referencia": "CONSELHO REGIONAL DE SERVIÇO SOCIAL DO MARANHÃO — 2ª Região. Nota de Desagravo Público nº 01/2026 à assistente social Aline Suely da Costa Lobato. São Luís: CRESS-MA, 2026. Disponível em: https://www.cressma.org.br/?p=22224.",
+   "citacao": "(CONSELHO REGIONAL DE SERVIÇO SOCIAL DO MARANHÃO, 2026)",
+   "pendencias": [
+    "Conferir atualização normativa: a nota cita Res"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-079",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO REGIONAL DE SERVIÇO SOCIAL DE SÃO PAULO — 9ª Região",
+   "titulo": "Ato de Desagravo Público – Processo nº 002/2024",
+   "ano": "2026",
+   "publicado_em": "CRESS-SP",
+   "link": "https://cress-sp.org.br/noticia/view/621/ato-de-desagravo-publico-processo-n-0022024",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "6"
+   ],
+   "normas": [
+    "cfess-resolucao-1073-2024",
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-489-2006",
+    "cfess-resolucao-845-2018"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "desagravo público",
+    "discriminação",
+    "violência laboral",
+    "direitos humanos"
+   ],
+   "resumo": "Fundamenta o desagravo diante de violência e discriminação contra assistente social no ambiente de trabalho. Interpreta a reparação pública como ação também política e pedagógica, vinculando dignidade profissional, condições éticas de trabalho e defesa dos direitos humanos.",
+   "posicao": "favoravel",
+   "referencia": "CONSELHO REGIONAL DE SERVIÇO SOCIAL DE SÃO PAULO — 9ª Região. Ato de Desagravo Público – Processo nº 002/2024. São Paulo: CRESS-SP, 2026. Disponível em: https://cress-sp.org.br/noticia/view/621/ato-de-desagravo-publico-processo-n-0022024.",
+   "citacao": "(CONSELHO REGIONAL DE SERVIÇO SOCIAL DE SÃO PAULO, 2026)",
+   "pendencias": [
+    "Conferir data de aprovação do parecer: a página contém ano incompleto (01/02/202)"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-080",
+   "tipo": "artigo",
+   "autoria": "CAPUTI, Lesliane",
+   "titulo": "Supervisão de estágio em Serviço Social: significâncias e significados",
+   "ano": "2016",
+   "publicado_em": "Revista Katálysis",
+   "link": "https://www.scielo.br/j/rk/a/4sCD3tTKhZ4zBZt4BJ9gMXp/?format=html&lang=pt&ilang=en",
+   "doi": "10.1590/1414-49802016.003.00009",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "supervisão direta",
+    "formação profissional",
+    "projeto ético-político"
+   ],
+   "resumo": "Defende a supervisão como processo pedagógico e atribuição profissional que articula formação e trabalho. Critica sua redução a treinamento instrumental e relaciona a efetivação das normas às condições concretas dos espaços de estágio.",
+   "posicao": "favoravel",
+   "referencia": "CAPUTI, Lesliane. Supervisão de estágio em Serviço Social: significâncias e significados. Revista Katálysis, v. 19, n. 3, p. 389–394, 2016. DOI: https://doi.org/10.1590/1414-49802016.003.00009. Disponível em: https://www.scielo.br/j/rk/a/4sCD3tTKhZ4zBZt4BJ9gMXp/?format=html&lang=pt&ilang=en.",
+   "citacao": "(CAPUTI, 2016)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-081",
+   "tipo": "artigo",
+   "autoria": "ASSIS, Rivânia Lúcia Moura de; ROSADO, Iana Vasconcelos Moreira",
+   "titulo": "A unidade teoria-prática e o papel da supervisão de estágio nessa construção",
+   "ano": "2012",
+   "publicado_em": "Revista Katálysis",
+   "link": "https://www.scielo.br/j/rk/a/4WyvBTxZmBZyZ9Prgx5H95r/?format=html&lang=pt&ilang=en",
+   "doi": "10.1590/S1414-49802012000200006",
+   "licenca": "CC BY-NC 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "teoria e prática",
+    "supervisão",
+    "formação profissional"
+   ],
+   "resumo": "Questiona a ideia de que o estágio seja apenas o lugar de aplicar conhecimentos adquiridos em sala de aula. Sustenta que a unidade teoria-prática exige supervisão reflexiva e articulação entre seus sujeitos, em consonância com as diretrizes da formação.",
+   "posicao": "critica",
+   "referencia": "ASSIS, Rivânia Lúcia Moura de; ROSADO, Iana Vasconcelos Moreira. A unidade teoria-prática e o papel da supervisão de estágio nessa construção. Revista Katálysis, v. 15, n. 2, p. 203–211, 2012. DOI: https://doi.org/10.1590/S1414-49802012000200006. Disponível em: https://www.scielo.br/j/rk/a/4WyvBTxZmBZyZ9Prgx5H95r/?format=html&lang=pt&ilang=en.",
+   "citacao": "(ASSIS; ROSADO, 2012)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-082",
+   "tipo": "artigo",
+   "autoria": "PEREIRA, Maria Erica Ribeiro",
+   "titulo": "O estágio supervisionado frente à conjuntura atual de formação em Serviço Social",
+   "ano": "2016",
+   "publicado_em": "Revista Katálysis",
+   "link": "https://www.scielo.br/j/rk/a/rGvVYrXM7wyV5tz5GSJmB7B/?format=html&lang=pt&ilang=en",
+   "doi": "10.1590/1414-49802016.003.00006",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)",
+    "Res. CFESS 568/2010",
+    "Lei 11.788/2008"
+   ],
+   "temas": [
+    "mercantilização do ensino",
+    "supervisão direta",
+    "precarização"
+   ],
+   "resumo": "Analisa como a expansão mercantil do ensino superior tensiona o caráter formativo do estágio em Serviço Social. Defende a supervisão direta e o planejamento compartilhado como exigências que dependem de condições institucionais para se concretizarem.",
+   "posicao": "critica",
+   "referencia": "PEREIRA, Maria Erica Ribeiro. O estágio supervisionado frente à conjuntura atual de formação em Serviço Social. Revista Katálysis, v. 19, n. 3, 2016. DOI: https://doi.org/10.1590/1414-49802016.003.00006. Disponível em: https://www.scielo.br/j/rk/a/rGvVYrXM7wyV5tz5GSJmB7B/?format=html&lang=pt&ilang=en.",
+   "citacao": "(PEREIRA, 2016)",
+   "pendencias": [
+    "conferir paginação, não confirmada nesta rodada"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-083",
+   "tipo": "artigo",
+   "autoria": "MONTEIRO, Dafne Dias Lages; PEREIRA, Sofia Laurentino Barbosa",
+   "titulo": "Estágio supervisionado e formação em Serviço Social: trajetória e tendências (1979-2024)",
+   "ano": "2026",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://new.scielo.br/j/sssoc/a/tP6Bj784hQhQRQGNSvdHqVw/?lang=pt",
+   "doi": "10.1590/0101-6628.522",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "história da formação",
+    "produção de conhecimento",
+    "estágio"
+   ],
+   "resumo": "Reconstrói o debate sobre estágio a partir da produção publicada entre 1979 e 2024. Aponta uma tensão entre sua centralidade declarada na formação e a atenção limitada que recebe como objeto de pesquisa, situando os avanços normativos diante da precarização.",
+   "posicao": "historica",
+   "referencia": "MONTEIRO, Dafne Dias Lages; PEREIRA, Sofia Laurentino Barbosa. Estágio supervisionado e formação em Serviço Social: trajetória e tendências (1979-2024). Serviço Social & Sociedade, v. 149, n. 2, 2026. DOI: https://doi.org/10.1590/0101-6628.522. Disponível em: https://new.scielo.br/j/sssoc/a/tP6Bj784hQhQRQGNSvdHqVw/?lang=pt.",
+   "citacao": "(MONTEIRO; PEREIRA, 2026)",
+   "pendencias": [
+    "conferir identificador eletrônico/paginação, não registrado"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-084",
+   "tipo": "artigo",
+   "autoria": "ORTIZ, Fátima da Silva Grave",
+   "titulo": "A Política Nacional de Estágio e a supervisão direta: avanços e desafios",
+   "ano": "2014",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/7196/5845/19963",
+   "doi": "10.22422/2238-1856.2014v14n27p203-219",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "PNE",
+    "supervisão direta",
+    "implementação"
+   ],
+   "resumo": "Examina a construção coletiva da PNE e sua contribuição para qualificar a supervisão direta. Argumenta que sua implementação enfrenta obstáculos sociais, institucionais e pedagógicos que exigem articulação entre unidades de formação e campos de estágio.",
+   "posicao": "critica",
+   "referencia": "ORTIZ, Fátima da Silva Grave. A Política Nacional de Estágio e a supervisão direta: avanços e desafios. Temporalis, v. 14, n. 27, p. 203–219, 2014. DOI: https://doi.org/10.22422/2238-1856.2014v14n27p203-219. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/7196/5845/19963.",
+   "citacao": "(ORTIZ, 2014)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-085",
+   "tipo": "artigo",
+   "autoria": "LEWGOY, Alzira Maria Baptista",
+   "titulo": "O estágio supervisionado em Serviço Social: desafios e estratégias para a articulação entre formação e exercício profissional",
+   "ano": "2013",
+   "publicado_em": "Temporalis",
+   "link": "https://www.unirio.br/cchs/ess/Members/giselle.silva/estagio-i/estagio-i-prog-e-textos/lewgoy-o-estagio-supervisionado/at_download/file",
+   "doi": "10.22422/2238-1856.2013v13n25p63-90",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "formação e trabalho",
+    "ABEPSS Itinerante",
+    "supervisão"
+   ],
+   "resumo": "Discute os instrumentos normativos do estágio como resultado de construção coletiva orientada pelo projeto profissional. Propõe estratégias para articular formação e exercício profissional, considerando as tensões entre o projeto pedagógico e as exigências do mercado de trabalho.",
+   "posicao": "favoravel",
+   "referencia": "LEWGOY, Alzira Maria Baptista. O estágio supervisionado em Serviço Social: desafios e estratégias para a articulação entre formação e exercício profissional. Temporalis, v. 13, n. 25, p. 63–90, 2013. DOI: https://doi.org/10.22422/2238-1856.2013v13n25p63-90. Disponível em: https://www.unirio.br/cchs/ess/Members/giselle.silva/estagio-i/estagio-i-prog-e-textos/lewgoy-o-estagio-supervisionado/at_download/file.",
+   "citacao": "(LEWGOY, 2013)",
+   "pendencias": [
+    "conferir essa divergência"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-086",
+   "tipo": "artigo",
+   "autoria": "PORTES, Melissa Ferreira",
+   "titulo": "O estágio e a supervisão no processo formativo dos assistentes sociais: continuidades e rupturas",
+   "ano": "2018",
+   "publicado_em": "Emancipação",
+   "link": "https://revistas.uepg.br/index.php/emancipacao/article/download/10017/209209210033/209209211927",
+   "doi": "10.5212/Emancipacao.v.18i1.0014",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "concepções de estágio",
+    "treinamento",
+    "formação profissional"
+   ],
+   "resumo": "Relaciona diferentes concepções de estágio e supervisão aos projetos de formação profissional. A pesquisa identifica a persistência da ideia de treinamento, apesar dos avanços curriculares e normativos, e problematiza seus efeitos na aprendizagem da profissão.",
+   "posicao": "critica",
+   "referencia": "PORTES, Melissa Ferreira. O estágio e a supervisão no processo formativo dos assistentes sociais: continuidades e rupturas. Emancipação, v. 18, n. 1, p. 214–230, 2018. DOI: https://doi.org/10.5212/Emancipacao.v.18i1.0014. Disponível em: https://revistas.uepg.br/index.php/emancipacao/article/download/10017/209209210033/209209211927.",
+   "citacao": "(PORTES, 2018)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-087",
+   "tipo": "tese",
+   "autoria": "PORTES, Melissa Ferreira",
+   "titulo": "O estágio e a supervisão no processo formativo dos assistentes sociais: a centralidade em questão",
+   "ano": "2016",
+   "publicado_em": "Universidade Estadual de Londrina",
+   "link": "https://repositorio.uel.br/bitstreams/3c492572-1805-4cc9-81a1-a4f94ba4cd8c/download",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "centralidade do estágio",
+    "currículo",
+    "supervisão acadêmica e de campo"
+   ],
+   "resumo": "Questiona a centralidade atribuída ao estágio e propõe que o ensino do trabalho profissional atravesse todo o currículo. Mostra uma distância entre a adesão formal às diretrizes e às normas e as concepções e práticas de supervisão efetivamente realizadas.",
+   "posicao": "divergente",
+   "referencia": "PORTES, Melissa Ferreira. O estágio e a supervisão no processo formativo dos assistentes sociais: a centralidade em questão. 2016. 292 f. Tese (Doutorado) – Universidade Estadual de Londrina, 2016. Disponível em: https://repositorio.uel.br/bitstreams/3c492572-1805-4cc9-81a1-a4f94ba4cd8c/download.",
+   "citacao": "(PORTES, 2016)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-088",
+   "tipo": "artigo",
+   "autoria": "GUIRALDELLI, Reginaldo; ALMEIDA, Janaina Loeffler de",
+   "titulo": "A construção dos Fóruns de supervisão de estágio em serviço social",
+   "ano": "2016",
+   "publicado_em": "Revista Katálysis",
+   "link": "https://www.scielo.br/j/rk/a/WHyMbJShkdJcgwctfN6h4Dq/?lang=pt",
+   "doi": "10.1590/1414-49802016.003.00010",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "fóruns de supervisão",
+    "educação permanente",
+    "articulação institucional"
+   ],
+   "resumo": "Analisa a construção de fóruns de supervisão como espaços coletivos de formação e organização profissional. Defende sua contribuição para aproximar supervisores, estudantes e unidades de ensino, enfrentando dificuldades de participação e de efetivação da PNE.",
+   "posicao": "favoravel",
+   "referencia": "GUIRALDELLI, Reginaldo; ALMEIDA, Janaina Loeffler de. A construção dos Fóruns de supervisão de estágio em serviço social. Revista Katálysis, v. 19, n. 3, p. 395–402, 2016. DOI: https://doi.org/10.1590/1414-49802016.003.00010. Disponível em: https://www.scielo.br/j/rk/a/WHyMbJShkdJcgwctfN6h4Dq/?lang=pt.",
+   "citacao": "(GUIRALDELLI; ALMEIDA, 2016)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-089",
+   "tipo": "livro",
+   "autoria": "PEREIRA, Sofia Laurentino Barbosa; COSTA, Teresa Cristina Moura; VILARINHO, Lúcia da Silva (org.)",
+   "titulo": "O estágio supervisionado em Serviço Social no Piauí: saberes e experiências",
+   "ano": "2023",
+   "publicado_em": "EDUFPI",
+   "link": "https://ufpi.br/arquivos_download/arquivos/EDUFPI/Livro_O_EST%C3%81GIO_SUPERVISIONADO_EM_SERVI%C3%87O_SOCIAL_NO_PIAU%C3%8D_e-book_1.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "estágio no Piauí",
+    "pandemia",
+    "precarização da formação"
+   ],
+   "resumo": "Reúne análises e experiências de estágio que confrontam a formação crítica com a precarização do ensino e do trabalho. Os capítulos discutem as exigências éticas e pedagógicas da supervisão, incluindo os conflitos e alternativas surgidos durante a pandemia.",
+   "posicao": "critica",
+   "referencia": "PEREIRA, Sofia Laurentino Barbosa; COSTA, Teresa Cristina Moura; VILARINHO, Lúcia da Silva (org.). O estágio supervisionado em Serviço Social no Piauí: saberes e experiências. Teresina: EDUFPI, 2023. Disponível em: https://ufpi.br/arquivos_download/arquivos/EDUFPI/Livro_O_EST%C3%81GIO_SUPERVISIONADO_EM_SERVI%C3%87O_SOCIAL_NO_PIAU%C3%8D_e-book_1.pdf.",
+   "citacao": "(PEREIRA; COSTA; VILARINHO, 2023)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-090",
+   "tipo": "capitulo",
+   "autoria": "REIDEL, Tatiana; MACHADO, Loiva Mara de Oliveira; COGOY, Eliana Mourgues",
+   "titulo": "A configuração do processo de supervisão de estágio em Serviço Social no Rio Grande do Sul",
+   "ano": "2022",
+   "publicado_em": "In: Perfil, formação e trabalho profissional de assistentes sociais no Rio Grande do Sul. Alexa Cultural; EDUA",
+   "link": "https://cressrs.org.br/arquivos/n_noticias/PESQUISA-UFRGS-PUCRS-CRESSRS.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "condições de supervisão",
+    "pesquisa empírica",
+    "fóruns"
+   ],
+   "resumo": "Confronta dados sobre supervisão no Rio Grande do Sul com as exigências da Resolução 533/2008 e da PNE. Mostra como tempo disponível, condições de trabalho e participação nos fóruns interferem na qualidade da supervisão e na articulação entre formação e exercício profissional.",
+   "posicao": "critica",
+   "referencia": "REIDEL, Tatiana; MACHADO, Loiva Mara de Oliveira; COGOY, Eliana Mourgues. A configuração do processo de supervisão de estágio em Serviço Social no Rio Grande do Sul. In: Perfil, formação e trabalho profissional de assistentes sociais no Rio Grande do Sul. [S. l.]: Alexa Cultural; EDUA, 2022. p. 95–114. Disponível em: https://cressrs.org.br/arquivos/n_noticias/PESQUISA-UFRGS-PUCRS-CRESSRS.pdf.",
+   "citacao": "(REIDEL; MACHADO; COGOY, 2022)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-091",
+   "tipo": "artigo",
+   "autoria": "PORTES, Melissa Ferreira",
+   "titulo": "As concepções de estágio supervisionado e supervisão de estágio: o que revela a produção do conhecimento em Serviço Social?",
+   "ano": "2024",
+   "publicado_em": "Serviço Social em Revista",
+   "link": "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/51540/51501/285910",
+   "doi": "10.5433/1679-4842.2024v27n3p600",
+   "licenca": "CC BY-NC-ND 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "produção de conhecimento",
+    "concepções de supervisão",
+    "atribuições privativas"
+   ],
+   "resumo": "Examina artigos publicados entre 2020 e abril de 2024 e identifica sentidos distintos atribuídos ao estágio e à supervisão. Problematiza esses dissensos e articula a natureza pedagógica da supervisão à atribuição privativa e às condições necessárias para realizá-la.",
+   "posicao": "critica",
+   "referencia": "PORTES, Melissa Ferreira. As concepções de estágio supervisionado e supervisão de estágio: o que revela a produção do conhecimento em Serviço Social? Serviço Social em Revista, v. 27, n. 3, p. 600–624, 2024. DOI: https://doi.org/10.5433/1679-4842.2024v27n3p600. Disponível em: https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/51540/51501/285910.",
+   "citacao": "(PORTES, 2024)",
+   "pendencias": [
+    "conferir divergência"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-092",
+   "tipo": "artigo",
+   "autoria": "WALHERS, Maicow Lucas Santos; OLIVEIRA, Cirlene Aparecida Hilário da Silva; LIMA, Maria José de Oliveira",
+   "titulo": "Diante de uma década da Política Nacional de Estágio em Serviço Social: contextos, acúmulos e perspectivas",
+   "ano": "2025",
+   "publicado_em": "Textos & Contextos (Porto Alegre)",
+   "link": "https://revistaseletronicas.pucrs.br/fass/article/download/49008/29356/233263",
+   "doi": "10.15448/1677-9509.2025.1.49008",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "PNE",
+    "estado da arte",
+    "qualificação da formação"
+   ],
+   "resumo": "Avalia a primeira década da PNE por meio de teses, dissertações, artigos e projetos pedagógicos. Identifica ampliação do debate e da pesquisa sobre estágio, interpretando a política como instrumento de qualificação da formação diante das pressões por ensino tecnicista e precarizado.",
+   "posicao": "favoravel",
+   "referencia": "WALHERS, Maicow Lucas Santos; OLIVEIRA, Cirlene Aparecida Hilário da Silva; LIMA, Maria José de Oliveira. Diante de uma década da Política Nacional de Estágio em Serviço Social: contextos, acúmulos e perspectivas. Textos & Contextos (Porto Alegre), v. 24, n. 1, e49008, p. 1–17, 2025. DOI: https://doi.org/10.15448/1677-9509.2025.1.49008. Disponível em: https://revistaseletronicas.pucrs.br/fass/article/download/49008/29356/233263.",
+   "citacao": "(WALHERS; OLIVEIRA; LIMA, 2025)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-093",
+   "tipo": "artigo",
+   "autoria": "MEDEIROS, Moíza Siberia Silva de",
+   "titulo": "Os fundamentos da relação teoria e prática no estágio em Serviço Social",
+   "ano": "2016",
+   "publicado_em": "Revista Katálysis",
+   "link": "https://www.scielo.br/j/rk/a/4sCZdNQQRwY8kV4m8SrLFbs/?format=html&lang=pt",
+   "doi": "10.1590/1414-49802016.003.00005",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "pragmatismo",
+    "unidade teoria-prática",
+    "fundamentos da formação"
+   ],
+   "resumo": "Contrapõe concepções pragmáticas e marxianas da relação teoria-prática no estágio. Argumenta que a supervisão orientada pelas diretrizes e pela PNE deve superar a execução rotineira de tarefas e favorecer a compreensão crítica da realidade profissional.",
+   "posicao": "critica",
+   "referencia": "MEDEIROS, Moíza Siberia Silva de. Os fundamentos da relação teoria e prática no estágio em Serviço Social. Revista Katálysis, v. 19, n. 3, p. 351–360, 2016. DOI: https://doi.org/10.1590/1414-49802016.003.00005. Disponível em: https://www.scielo.br/j/rk/a/4sCZdNQQRwY8kV4m8SrLFbs/?format=html&lang=pt.",
+   "citacao": "(MEDEIROS, 2016)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-094",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS)",
+   "titulo": "Meia formação não garante um direito: o que você precisa saber sobre a supervisão direta de estágio em Serviço Social",
+   "ano": "[2013 ou 2014]",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/BROCHURACFESS_ESTAGIO-SUPERVISIONADO.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "7"
+   ],
+   "normas": [
+    "cfess-resolucao-533-2008",
+    "lei-8662",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Política Nacional de Estágio da ABEPSS (2010)",
+    "Diretrizes Curriculares da ABEPSS (1996)",
+    "Lei 11.788/2008",
+    "Res. CFESS 568/2010"
+   ],
+   "temas": [
+    "orientação profissional",
+    "supervisão direta",
+    "qualidade da formação"
+   ],
+   "resumo": "Interpreta as normas de estágio como instrumentos de defesa da qualidade da formação e do atendimento à população. Relaciona irregularidades observadas pela fiscalização às contradições da expansão precarizada do ensino e apresenta orientações para supervisores e estudantes.",
+   "posicao": "favoravel",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS). Meia formação não garante um direito: o que você precisa saber sobre a supervisão direta de estágio em Serviço Social. Brasília, DF: CFESS, [2013 ou 2014]. Disponível em: https://www.cfess.org.br/arquivos/BROCHURACFESS_ESTAGIO-SUPERVISIONADO.pdf.",
+   "citacao": "(CFESS, [2013 ou 2014])",
+   "pendencias": [
+    "conferir ano: página institucional registra 17/06/2014, mas referências consultadas atribuem 2013 e não foi localizada data editorial inequívoca no PDF"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-095",
+   "tipo": "artigo",
+   "autoria": "PANEGHINI, Luciana Ribeiro",
+   "titulo": "Lutas feministas nos documentos do Conselho Federal de Serviço Social (CFESS): uma breve análise",
+   "ano": "2018",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/jGFx6WNPPGQh6vRR7pWHBpK/?lang=pt",
+   "doi": "10.1590/0101-6628.140",
+   "licenca": "",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-489-2006",
+    "cfess-resolucao-594-2011",
+    "cfess-resolucao-615-2011"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "feminismos",
+    "diversidade sexual",
+    "nome social"
+   ],
+   "resumo": "Analisa resoluções e manifestos do CFESS para identificar a incorporação das lutas feministas e LGBT à orientação profissional. Interpreta essas iniciativas como desdobramentos do compromisso com a liberdade e da oposição às práticas de tutela e discriminação.",
+   "posicao": "favoravel",
+   "referencia": "PANEGHINI, Luciana Ribeiro. Lutas feministas nos documentos do Conselho Federal de Serviço Social (CFESS): uma breve análise. Serviço Social & Sociedade, n. 132, p. 252–267, 2018. DOI: https://doi.org/10.1590/0101-6628.140. Disponível em: https://www.scielo.br/j/sssoc/a/jGFx6WNPPGQh6vRR7pWHBpK/?lang=pt.",
+   "citacao": "(PANEGHINI, 2018)",
+   "pendencias": [
+    "conferir licença: texto da página diz Attribution Non-Commercial, mas o hiperlink leva a CC BY 4"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-096",
+   "tipo": "artigo",
+   "autoria": "PEREIRA, Bárbara Cristina Silva; LEMOS, Silse Teixeira de Freitas",
+   "titulo": "O trabalho do/a assistente social no atendimento à população transgênero e travesti",
+   "ano": "2021",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://www.scielo.br/j/sssoc/a/zKFSBsXcX9XrFDKMR53ccHv/?format=html&lang=pt",
+   "doi": "10.1590/0101-6628.263",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-845-2018"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "população trans",
+    "integralidade",
+    "trabalho profissional"
+   ],
+   "resumo": "Revisa a literatura sobre os desafios do atendimento a pessoas trans e travestis e os relaciona ao projeto ético-político. Defende uma intervenção que considere as necessidades sociais e a integralidade do cuidado, superando a concentração nos procedimentos hormonais ou cirúrgicos.",
+   "posicao": "critica",
+   "referencia": "PEREIRA, Bárbara Cristina Silva; LEMOS, Silse Teixeira de Freitas. O trabalho do/a assistente social no atendimento à população transgênero e travesti. Serviço Social & Sociedade, n. 142, p. 529–548, 2021. DOI: https://doi.org/10.1590/0101-6628.263. Disponível em: https://www.scielo.br/j/sssoc/a/zKFSBsXcX9XrFDKMR53ccHv/?format=html&lang=pt.",
+   "citacao": "(PEREIRA; LEMOS, 2021)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-097",
+   "tipo": "artigo",
+   "autoria": "CARDOSO, Priscila Fernanda Gonçalves; ALVES, Luciano",
+   "titulo": "Conservadorismo e laicidade de Estado: subsídios para o debate no Serviço Social",
+   "ano": "2018",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/21520/pdf/66943",
+   "doi": "10.22422/temporalis.2018v18n36p45-64",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Res. CFESS 627/2012",
+    "Instrução Normativa CRESS-SP 001/2015"
+   ],
+   "temas": [
+    "laicidade",
+    "conservadorismo",
+    "liberdade religiosa"
+   ],
+   "resumo": "Examina a relação entre conservadorismo, Estado laico e exercício profissional. Sustenta que os deveres de respeito à autonomia dos usuários e de defesa dos direitos humanos impedem a imposição de crenças pessoais no atendimento.",
+   "posicao": "critica",
+   "referencia": "CARDOSO, Priscila Fernanda Gonçalves; ALVES, Luciano. Conservadorismo e laicidade de Estado: subsídios para o debate no Serviço Social. Temporalis, v. 18, n. 36, p. 45–64, 2018. DOI: https://doi.org/10.22422/temporalis.2018v18n36p45-64. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/21520/pdf/66943.",
+   "citacao": "(CARDOSO; ALVES, 2018)",
+   "pendencias": [
+    "conferir divergência"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-098",
+   "tipo": "publicacao_institucional",
+   "autoria": "ROCHA, Roseli",
+   "titulo": "Racismo",
+   "ano": "2016",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/CFESS-Caderno03-Racismo-Site.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "racismo",
+    "ações afirmativas",
+    "intolerância religiosa"
+   ],
+   "resumo": "Distingue racismo, preconceito e discriminação racial e relaciona seu enfrentamento à responsabilidade ética profissional. Defende ações afirmativas, apontando tanto sua relevância quanto seus limites para superar desigualdades estruturais.",
+   "posicao": "critica",
+   "referencia": "ROCHA, Roseli. Racismo. Brasília, DF: CFESS, 2016. Série Assistente Social no Combate ao Preconceito, caderno 3. Disponível em: https://www.cfess.org.br/arquivos/CFESS-Caderno03-Racismo-Site.pdf.",
+   "citacao": "(ROCHA, 2016)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-099",
+   "tipo": "publicacao_institucional",
+   "autoria": "ALMEIDA, Guilherme",
+   "titulo": "Transfobia",
+   "ano": "2016",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/CFESS-Caderno04-Transfobia-Site.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "transfobia",
+    "identidade de gênero",
+    "nome social"
+   ],
+   "resumo": "Discute como normas sociais de gênero e desigualdades afetam a vida de pessoas trans e travestis. Relaciona o respeito ao nome e à identidade de gênero às responsabilidades do Serviço Social no enfrentamento de práticas discriminatórias.",
+   "posicao": "critica",
+   "referencia": "ALMEIDA, Guilherme. Transfobia. Brasília, DF: CFESS, 2016. Série Assistente Social no Combate ao Preconceito, caderno 4. Disponível em: https://www.cfess.org.br/arquivos/CFESS-Caderno04-Transfobia-Site.pdf.",
+   "citacao": "(ALMEIDA, 2016)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-100",
+   "tipo": "livro",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS)",
+   "titulo": "Anticapacitismo e exercício profissional: perfil de assistentes sociais com deficiência",
+   "ano": "2023",
+   "publicado_em": "CFESS",
+   "link": "https://cfess.org.br/arquivos/LivroAnticapacitismoExercicioProfissional2023Cfess-Acessivel.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "cfess-resolucao-992-2022"
+   ],
+   "outras_normas": [
+    "Ofício Circular CFESS 153/2022"
+   ],
+   "temas": [
+    "anticapacitismo",
+    "acessibilidade",
+    "condições de trabalho"
+   ],
+   "resumo": "Apresenta pesquisa nacional sobre assistentes sociais com deficiência e analisa barreiras de acesso e condições de trabalho. Propõe medidas institucionais para efetivar os compromissos antidiscriminatórios, ressaltando que a existência de normas exige ações permanentes de acessibilidade.",
+   "posicao": "critica",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS). Anticapacitismo e exercício profissional: perfil de assistentes sociais com deficiência. Brasília, DF: CFESS, 2023. 168 páginas no arquivo digital. Disponível em: https://cfess.org.br/arquivos/LivroAnticapacitismoExercicioProfissional2023Cfess-Acessivel.pdf.",
+   "citacao": "(CFESS, 2023)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-101",
+   "tipo": "tese",
+   "autoria": "SANTOS, Maria Ciurinha Pereira dos",
+   "titulo": "A influência da religião no trabalho de assistentes sociais na assistência social pública no município de Goiânia/GO",
+   "ano": "2025",
+   "publicado_em": "Pontifícia Universidade Católica de Goiás",
+   "link": "https://tede2.pucgoias.edu.br/bitstream/tede/5198/2/Maria%20Ciurinha%20Pereira%20dos%20Santos.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "lei-8662"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "laicidade",
+    "religião",
+    "assistência social"
+   ],
+   "resumo": "Investiga a presença de valores e práticas religiosas no trabalho de assistentes sociais em Goiânia. Aponta tensões entre essas práticas, as condições de trabalho e a universalidade dos serviços, defendendo que o atendimento se fundamente nos direitos e na ética profissional.",
+   "posicao": "critica",
+   "referencia": "SANTOS, Maria Ciurinha Pereira dos. A influência da religião no trabalho de assistentes sociais na assistência social pública no município de Goiânia/GO. 2025. 207 f. Tese (Doutorado) – Pontifícia Universidade Católica de Goiás, 2025. Disponível em: https://tede2.pucgoias.edu.br/bitstream/tede/5198/2/Maria%20Ciurinha%20Pereira%20dos%20Santos.pdf.",
+   "citacao": "(SANTOS, 2025)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-102",
+   "tipo": "dissertacao",
+   "autoria": "FREITAS, Karoline Élen de",
+   "titulo": "O trabalho profissional do assistente social com transexuais no processo transexualizador na política pública de saúde",
+   "ano": "2021",
+   "publicado_em": "Pontifícia Universidade Católica de São Paulo",
+   "link": "https://sapientia.pucsp.br/bitstream/handle/24534/1/Karoline%20%C3%89len%20de%20Freitas.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-resolucao-845-2018",
+    "cfess-resolucao-615-2011",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "processo transexualizador",
+    "percepção de usuários",
+    "atendimento"
+   ],
+   "resumo": "Investiga como pessoas transexuais percebem o atendimento do Serviço Social durante o processo transexualizador no SUS. Mostra que a qualificação e o respeito no atendimento podem favorecer o acesso ao cuidado, enquanto intervenções inadequadas podem produzir afastamento dos serviços.",
+   "posicao": "critica",
+   "referencia": "FREITAS, Karoline Élen de. O trabalho profissional do assistente social com transexuais no processo transexualizador na política pública de saúde. 2021. 121 p. Dissertação (Mestrado) – Pontifícia Universidade Católica de São Paulo, 2021. Disponível em: https://sapientia.pucsp.br/bitstream/handle/24534/1/Karoline%20%C3%89len%20de%20Freitas.pdf.",
+   "citacao": "(FREITAS, 2021)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": false,
+    "em": "2026-10-28",
+    "bloqueio_robo": true
+   }
+  },
+  {
+   "id": "lit-103",
+   "tipo": "publicacao_institucional",
+   "autoria": "MARTINS, Camila Jasmin",
+   "titulo": "Capacitismo",
+   "ano": "2025",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/uploads/revista/5179/Caderno9-Capacitismo-Site.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-resolucao-992-2022",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "capacitismo",
+    "protagonismo",
+    "modelo social da deficiência"
+   ],
+   "resumo": "Analisa o capacitismo como opressão social e questiona a associação entre deficiência e incapacidade. Defende que o protagonismo das pessoas com deficiência oriente o trabalho profissional e a transformação dos compromissos éticos em ações concretas.",
+   "posicao": "critica",
+   "referencia": "MARTINS, Camila Jasmin. Capacitismo. Brasília, DF: CFESS, 2025. Série Assistente Social no Combate ao Preconceito, caderno 9. Disponível em: https://www.cfess.org.br/uploads/revista/5179/Caderno9-Capacitismo-Site.pdf.",
+   "citacao": "(MARTINS, 2025)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-104",
+   "tipo": "artigo",
+   "autoria": "RIBEIRO, Rafael Aguiar; CAMPOS, Naara de Lima",
+   "titulo": "Diversidade sexual e o currículo do Serviço Social: entre o projeto ético e a realidade pedagógica",
+   "ano": "2026",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://new.scielo.br/j/sssoc/a/hDGg8FJdkDYXgyQHb8DDWkL/?ilang=pt_BR&lang=pt",
+   "doi": "10.1590/0101-6628.557",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Diretrizes Curriculares da ABEPSS (1996)"
+   ],
+   "temas": [
+    "diversidade sexual",
+    "currículo",
+    "compromisso ético"
+   ],
+   "resumo": "Analisa projetos pedagógicos e identifica distância entre a defesa normativa da diversidade e sua incorporação aos currículos. Critica referências genéricas aos direitos humanos que não nomeiam as violências e demandas específicas da população LGBTQIAPN+.",
+   "posicao": "critica",
+   "referencia": "RIBEIRO, Rafael Aguiar; CAMPOS, Naara de Lima. Diversidade sexual e o currículo do Serviço Social: entre o projeto ético e a realidade pedagógica. Serviço Social & Sociedade, v. 149, n. 3, 2026. DOI: https://doi.org/10.1590/0101-6628.557. Disponível em: https://new.scielo.br/j/sssoc/a/hDGg8FJdkDYXgyQHb8DDWkL/?ilang=pt_BR&lang=pt.",
+   "citacao": "(RIBEIRO; CAMPOS, 2026)",
+   "pendencias": [
+    "conferir identificador eletrônico/paginação, não registrado"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-105",
+   "tipo": "publicacao_institucional",
+   "autoria": "ARANTES, Mariana Furtado",
+   "titulo": "Discriminação contra a pessoa com deficiência",
+   "ano": "2019",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/CFESS-Caderno07-PCD-Site.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993",
+    "lei-8662"
+   ],
+   "outras_normas": [
+    "Lei 13.146/2015"
+   ],
+   "temas": [
+    "pessoas com deficiência",
+    "autonomia",
+    "discriminação"
+   ],
+   "resumo": "Relaciona a discriminação contra pessoas com deficiência às formas de organização social e do trabalho. Discute como demandas institucionais de seleção e controle podem entrar em tensão com a autonomia e os princípios éticos que orientam a atuação profissional.",
+   "posicao": "critica",
+   "referencia": "ARANTES, Mariana Furtado. Discriminação contra a pessoa com deficiência. Brasília, DF: CFESS, 2019. Série Assistente Social no Combate ao Preconceito, caderno 7. Disponível em: https://www.cfess.org.br/arquivos/CFESS-Caderno07-PCD-Site.pdf.",
+   "citacao": "(ARANTES, 2019)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-106",
+   "tipo": "artigo",
+   "autoria": "CARDOSO, Ana Valéria Matias; SILVEIRA, Carla Gabriela Nobre da; SOUSA, Lucas Catarino Pereira de",
+   "titulo": "Resistência Negra e Serviço Social: o Comitê Antirracista do CRESS-PI em diálogo com Esperança Garcia, Clóvis Moura e Nego Bispo",
+   "ano": "2025",
+   "publicado_em": "Temporalis",
+   "link": "https://periodicos.ufes.br/temporalis/en/article/download/47817/33961/177460",
+   "doi": "10.22422/temporalis.2025v25n49p121-136",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-resolucao-1054-2023",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Portaria CFESS 14/2024"
+   ],
+   "temas": [
+    "antirracismo",
+    "comitês antirracistas",
+    "formação e trabalho"
+   ],
+   "resumo": "Reconstrói a incorporação do debate étnico-racial pelo Serviço Social e examina a organização do Comitê Antirracista do CRESS-PI. Interpreta normas e iniciativas coletivas como avanços que precisam se traduzir na formação e no exercício profissional.",
+   "posicao": "favoravel",
+   "referencia": "CARDOSO, Ana Valéria Matias; SILVEIRA, Carla Gabriela Nobre da; SOUSA, Lucas Catarino Pereira de. Resistência Negra e Serviço Social: o Comitê Antirracista do CRESS-PI em diálogo com Esperança Garcia, Clóvis Moura e Nego Bispo. Temporalis, v. 25, n. 49, p. 121–136, 2025. DOI: https://doi.org/10.22422/temporalis.2025v25n49p121-136. Disponível em: https://periodicos.ufes.br/temporalis/en/article/download/47817/33961/177460.",
+   "citacao": "(CARDOSO; SILVEIRA; SOUSA, 2025)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-107",
+   "tipo": "publicacao_institucional",
+   "autoria": "BARROCO, Maria Lúcia Silva",
+   "titulo": "O que é preconceito?",
+   "ano": "2016",
+   "publicado_em": "CFESS",
+   "link": "https://cfess.org.br/arquivos/CFESS-Caderno01-OqueEPreconceito-Site.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "preconceito",
+    "moralismo",
+    "cotidiano profissional"
+   ],
+   "resumo": "Explica os mecanismos de reprodução do preconceito no cotidiano e sua ligação com o conservadorismo. Argumenta que cumprir os princípios do Código de Ética exige reconhecer julgamentos moralizantes e transformá-los por meio da reflexão e da ação profissional.",
+   "posicao": "critica",
+   "referencia": "BARROCO, Maria Lúcia Silva. O que é preconceito? Brasília, DF: CFESS, 2016. Série Assistente Social no Combate ao Preconceito, caderno 1. Disponível em: https://cfess.org.br/arquivos/CFESS-Caderno01-OqueEPreconceito-Site.pdf.",
+   "citacao": "(BARROCO, 2016)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-108",
+   "tipo": "publicacao_institucional",
+   "autoria": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS) — Comissão de Ética e Direitos Humanos",
+   "titulo": "Orientações para o atendimento de pessoas trans no Conjunto CFESS-CRESS",
+   "ano": "2019",
+   "publicado_em": "CFESS",
+   "link": "https://www.cfess.org.br/arquivos/CFESS-NomeSocial-Folder30x25cm-Montado.pdf",
+   "doi": "",
+   "licenca": "",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-resolucao-785-2016",
+    "cfess-resolucao-845-2018"
+   ],
+   "outras_normas": [],
+   "temas": [
+    "nome social",
+    "identidade profissional",
+    "atendimento"
+   ],
+   "resumo": "Interpreta o uso do nome social como reconhecimento da identidade de gênero e orienta sua efetivação no atendimento dos conselhos. Explica implicações da Resolução 785/2016 para os documentos e registros profissionais e ressalta que o respeito não se limita ao tratamento nominal.",
+   "posicao": "descritiva",
+   "referencia": "CONSELHO FEDERAL DE SERVIÇO SOCIAL (CFESS) — Comissão de Ética e Direitos Humanos. Orientações para o atendimento de pessoas trans no Conjunto CFESS-CRESS. Brasília, DF: CFESS, 2019. 6 páginas no arquivo digital. Disponível em: https://www.cfess.org.br/arquivos/CFESS-NomeSocial-Folder30x25cm-Montado.pdf.",
+   "citacao": "(CFESS, 2019)",
+   "pendencias": [],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  },
+  {
+   "id": "lit-109",
+   "tipo": "artigo",
+   "autoria": "LIMA, Caroline Magalhães; AZEVEDO, Estenio Ericson Botelho de",
+   "titulo": "Acessibilidade como direito humano: reflexões sobre seu debate na formação e na prática profissional",
+   "ano": "2026",
+   "publicado_em": "Serviço Social & Sociedade",
+   "link": "https://scielo.br/j/sssoc/a/QvzjBsSrDBRGHpPBKyLGDvp/?ilang=pt_BR&lang=pt",
+   "doi": "10.1590/0101-6628.571",
+   "licenca": "CC BY 4.0",
+   "blocos": [
+    "8"
+   ],
+   "normas": [
+    "cfess-resolucao-992-2022",
+    "cfess-codigo-etica-1993"
+   ],
+   "outras_normas": [
+    "Ofício Circular CFESS 153/2022",
+    "Portaria CFESS 13/2024"
+   ],
+   "temas": [
+    "acessibilidade",
+    "direitos humanos",
+    "anticapacitismo"
+   ],
+   "resumo": "Defende a acessibilidade como direito humano e valor ético-político inerente à profissão. Reconhece avanços nas iniciativas do CFESS e da ABEPSS, mas aponta lacunas curriculares e institucionais que dificultam sua incorporação ao trabalho cotidiano.",
+   "posicao": "critica",
+   "referencia": "LIMA, Caroline Magalhães; AZEVEDO, Estenio Ericson Botelho de. Acessibilidade como direito humano: reflexões sobre seu debate na formação e na prática profissional. Serviço Social & Sociedade, v. 149, n. 2, 2026. DOI: https://doi.org/10.1590/0101-6628.571. Disponível em: https://scielo.br/j/sssoc/a/QvzjBsSrDBRGHpPBKyLGDvp/?ilang=pt_BR&lang=pt.",
+   "citacao": "(LIMA; AZEVEDO, 2026)",
+   "pendencias": [
+    "conferir identificador eletrônico/paginação, não registrado"
+   ],
+   "acesso_verificado_em": "2026-10-28",
+   "link_conferido": {
+    "ok": true,
+    "em": "2026-10-28"
+   }
+  }
+ ]
+}

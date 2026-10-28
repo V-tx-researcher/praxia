@@ -1,0 +1,886 @@
+{
+ "https://periodicos.ufes.br/temporalis/en/article/download/43320/29225/148917": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/43320/29225/148917",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/42378/29306/149207": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/42378/29306/149207",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/42395/29305/149206": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/42395/29305/149206",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/42388/29229/148922": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/42388/29229/148922",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/42390/29231/148924": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/42390/29231/148924",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/42392/29309/149210": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/42392/29309/149210",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/42403/29310/149211": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/42403/29310/149211",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/42253/29258/149040": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/42253/29258/149040",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufsc.br/index.php/katalysis/article/download/1982-02592017v20n3p373/35090/177833": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufsc.br/index.php/katalysis/article/download/1982-02592017v20n3p373/35090/177833",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/mV8JnwNQT9FNTczG5Zb4h5D/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/mV8JnwNQT9FNTczG5Zb4h5D/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/vvVywZhkhBKqjqF8MX5pVPk/?format=html&lang=pt&ilang=en": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/vvVywZhkhBKqjqF8MX5pVPk/?format=html&lang=pt&ilang=en",
+  "em": "2026-10-28"
+ },
+ "https://repositorio.uel.br/bitstreams/05ccf42c-f55a-4a3f-8879-8bb22462c8d5/download": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://repositorio.uel.br/srv-c0003-s01/api/core/bitstreams/05ccf42c-f55a-4a3f-8879-8bb22462c8d5/content",
+  "em": "2026-10-28"
+ },
+ "https://repositorio.uel.br/bitstreams/cc137565-0a9b-479a-af82-35e6c63b26aa/download": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://repositorio.uel.br/srv-c0003-s01/api/core/bitstreams/cc137565-0a9b-479a-af82-35e6c63b26aa/content",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/rk/a/JNKRX7Qb55zfDPcB7CJv4bm/?format=html&lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/rk/a/JNKRX7Qb55zfDPcB7CJv4bm/?format=html&lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://revistas.ufrj.br/index.php/praiavermelha/article/download/14342/14720/67166": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://revistas.ufrj.br/index.php/praiavermelha/article/download/14342/14720/67166",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufsc.br/index.php/katalysis/article/download/6122/5681/18971": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufsc.br/index.php/katalysis/article/download/6122/5681/18971",
+  "em": "2026-10-28"
+ },
+ "https://revistaseletronicas.pucrs.br/fass/article/download/8031/6439/33119": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://revistaseletronicas.pucrs.br/fass/article/download/8031/6439/33119",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/zKqHPXTYyTSPvMBrGZnzgjm/?format=html&lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/zKqHPXTYyTSPvMBrGZnzgjm/?format=html&lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/dnMqfvWR7KVZpnh3t7x7JFM/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/dnMqfvWR7KVZpnh3t7x7JFM/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/nPRx8MCdCyH4sHY8zbm9gQp/?format=html&lang=pt&ilang=en": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/nPRx8MCdCyH4sHY8zbm9gQp/?format=html&lang=pt&ilang=en",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufjf.br/index.php/libertas/article/download/18598/9724/77544": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufjf.br/index.php/libertas/article/download/18598/9724/77544",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/rk/a/wGY3qxCbhNp4Gp9L47BhVnf/?format=html&lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/rk/a/wGY3qxCbhNp4Gp9L47BhVnf/?format=html&lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufsm.br/sociaisehumanas/article/download/36876/pdf/0": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufsm.br/sociaisehumanas/article/download/36876/pdf/0",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/atribuicoes2012-completo.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/atribuicoes2012-completo.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/CFESS202-AtribuicoesPrivativas-Vol2-Site.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/CFESS202-AtribuicoesPrivativas-Vol2-Site.pdf",
+  "em": "2026-10-28"
+ },
+ "https://antigo.cfess.org.br/arquivos/doc_CFESS_Terapias_e_SS_2010.pdf.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://antigo.cfess.org.br/arquivos/doc_CFESS_Terapias_e_SS_2010.pdf.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/Parametros_para_a_Atuacao_de_Assistentes_Sociais_na_Saude.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/Parametros_para_a_Atuacao_de_Assistentes_Sociais_na_Saude.pdf",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/19578/pdf_1/59300": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/19578/pdf_1/59300",
+  "em": "2026-10-28"
+ },
+ "https://revista.uemg.br/serv-soc-debate/article/download/7313/6258/45641": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://revista.uemg.br/serv-soc-debate/article/download/7313/6258/45641",
+  "em": "2026-10-28"
+ },
+ "https://revistanps.emnuvens.com.br/nps/article/download/196/178/489": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://revistanps.emnuvens.com.br/nps/article/download/196/178/489",
+  "em": "2026-10-28"
+ },
+ "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/53064/54101/311527": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/53064/54101/311527",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/EbookCfess-DocOpiniaoTecnica2022-Final.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/EbookCfess-DocOpiniaoTecnica2022-Final.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/3cBSk3BSWnWgzXYPzPL8j3r/?format=html&lang=pt&ilang=en": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/3cBSk3BSWnWgzXYPzPL8j3r/?format=html&lang=pt&ilang=en",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/JcGxLwBq8jcRCmhCR7ptcgN/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/JcGxLwBq8jcRCmhCR7ptcgN/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufjf.br/index.php/libertas/article/download/34611/23404/147178": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufjf.br/index.php/libertas/article/download/34611/23404/147178",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/cCNMZhBDvzWPPdTYWgWmgXr/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/cCNMZhBDvzWPPdTYWgWmgXr/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/G3c7JpQXtWg3hWbLrw8s9Gz/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/G3c7JpQXtWg3hWbLrw8s9Gz/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/FMJh7HkK768cCvfQhf8TVLb/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/FMJh7HkK768cCvfQhf8TVLb/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/psoc/a/KN47vGtgPxwFzs8k3p46MLy/?format=html&lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/psoc/a/KN47vGtgPxwFzs8k3p46MLy/?format=html&lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://tede2.pucrs.br/tede2/bitstream/tede/510/1/437324.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://tede2.pucrs.br/tede2/bitstream/tede/510/1/437324.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/depoimento-especial-notatecnica2018.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/depoimento-especial-notatecnica2018.pdf",
+  "em": "2026-10-28"
+ },
+ "https://cfess.org.br/uploads/documento/26/Nota-tecnica-escuta-especial-2019.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cfess.org.br/uploads/documento/26/Nota-tecnica-escuta-especial-2019.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/registros-opiniao-tecnica.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/registros-opiniao-tecnica.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/CFESSsubsidios_sociojuridico2014.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/CFESSsubsidios_sociojuridico2014.pdf",
+  "em": "2026-10-28"
+ },
+ "https://cresspb.org.br/2012/wp-content/uploads/2024/01/Nota-orientativa-documentos-tecnicos-e-Sigilo-Profissional.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cresspb.org.br/2012/wp-content/uploads/2024/01/Nota-orientativa-documentos-tecnicos-e-Sigilo-Profissional.pdf",
+  "em": "2026-10-28"
+ },
+ "https://cfess.org.br/noticia/view/2335/cfess-alerta-para-riscos-eticos-e-legais-na-divulgacao-de-documentos-profissionais-na-internet": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://cfess.org.br/noticia/view/2335/cfess-alerta-para-riscos-eticos-e-legais-na-divulgacao-de-documentos-profissionais-na-internet",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/YMsTsLQ3X8bbzJq6rGRVBpF/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/YMsTsLQ3X8bbzJq6rGRVBpF/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/23788/19105/118147": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/23788/19105/118147",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/5jnMNJWWx6w4vYn6RsqY5rx/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/5jnMNJWWx6w4vYn6RsqY5rx/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://revista.uemg.br/serv-soc-debate/article/download/8576/5782/39885": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://revista.uemg.br/serv-soc-debate/article/download/8576/5782/39885",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/Jq7JHTH5Ts7LDQZVLRfBTHp/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/Jq7JHTH5Ts7LDQZVLRfBTHp/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://cuhso.uct.cl/index.php/CUHSO/en/article/download/659/662/2988": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cuhso.uct.cl/index.php/CUHSO/en/article/download/659/662/2988",
+  "em": "2026-10-28"
+ },
+ "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/49754/52573/305053": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/49754/52573/305053",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/xJZpht8LVT96vSvn7cPNQMR/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/xJZpht8LVT96vSvn7cPNQMR/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://ri.ufs.br/bitstream/riufs/6198/1/CHARLENE_SOUZA_SILVA.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://ri.ufs.br/bitstream/riufs/6198/1/CHARLENE_SOUZA_SILVA.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/Nota-teletrabalho-telepericiacfess.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/Nota-teletrabalho-telepericiacfess.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/noticia/view/2271/nova-resolucao-do-cfess-atualiza-regulamentacao-sobre-condicoes-eticas-e-tecnicas-para-o-exercicio-profissional": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/noticia/view/2271/nova-resolucao-do-cfess-atualiza-regulamentacao-sobre-condicoes-eticas-e-tecnicas-para-o-exercicio-profissional",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/noticia/view/2280/nota-publica-a-categoria-de-assistentes-sociais": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/noticia/view/2280/nota-publica-a-categoria-de-assistentes-sociais",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/nPRx8MCdCyH4sHY8zbm9gQp/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/nPRx8MCdCyH4sHY8zbm9gQp/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/nTsTg3NRm38xCWXW64jzd8P/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/nTsTg3NRm38xCWXW64jzd8P/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/19678/pdf/66959": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/19678/pdf/66959",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/cwDMppmhv6PgjKJC7pm8vqM/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/cwDMppmhv6PgjKJC7pm8vqM/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://ppgpsufmt.com.br/wp-content/uploads/2023/09/T.-2014-INARA.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://ppgpsufmt.com.br/wp-content/uploads/2023/09/T.-2014-INARA.pdf",
+  "em": "2026-10-28"
+ },
+ "https://tede.unioeste.br/bitstream/tede/7136/2/Roberta_Mischiatti_2023.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://tede.unioeste.br/bitstream/tede/7136/2/Roberta_Mischiatti_2023.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/uploads/pagina/4984/manual-procedinscri-2024.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/uploads/pagina/4984/manual-procedinscri-2024.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=12": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=12",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=35": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=35",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=97": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/CFESS-PNF2019-Revisada.pdf#page=97",
+  "em": "2026-10-28"
+ },
+ "https://cfess.org.br/uploads/revista/5605/LivroDiagramadoASdoBrasil2025Cfess-Site.pdf#page=9": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cfess.org.br/uploads/revista/5605/LivroDiagramadoASdoBrasil2025Cfess-Site.pdf#page=9",
+  "em": "2026-10-28"
+ },
+ "https://cfess.org.br/uploads/revista/5605/LivroDiagramadoASdoBrasil2025Cfess-Site.pdf#page=55": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cfess.org.br/uploads/revista/5605/LivroDiagramadoASdoBrasil2025Cfess-Site.pdf#page=55",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/argumentum/article/view/34572": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/argumentum/pt_BR/article/view/34572",
+  "em": "2026-10-28"
+ },
+ "https://revistas.uepg.br/index.php/emancipacao/article/download/20517/209209217649": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://revistas.uepg.br/index.php/emancipacao/pt_BR/article/download/20517/209209217649",
+  "em": "2026-10-28"
+ },
+ "https://ri.ufs.br/bitstream/riufs/6223/1/ILMA_CRISTINA_SILVA_OLIVEIRA.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://ri.ufs.br/bitstream/riufs/6223/1/ILMA_CRISTINA_SILVA_OLIVEIRA.pdf",
+  "em": "2026-10-28"
+ },
+ "https://cress-sp.org.br/uploads/revista/1376/UeVw7oXDfmCp-R5CirRmM2SxOCdcpqQY.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cress-sp.org.br/uploads/revista/1376/UeVw7oXDfmCp-R5CirRmM2SxOCdcpqQY.pdf",
+  "em": "2026-10-28"
+ },
+ "https://cress-sp.org.br/uploads/revista/534/l003o-wpeLA-sv_mJ72_jlTerdzGFRS9.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cress-sp.org.br/uploads/revista/534/l003o-wpeLA-sv_mJ72_jlTerdzGFRS9.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/CFESS-Modulo04-EticaMovimento-Ebook2022.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/CFESS-Modulo04-EticaMovimento-Ebook2022.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/Cfess2022-EbookPareceresJuridicos-CEDH.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/Cfess2022-EbookPareceresJuridicos-CEDH.pdf",
+  "em": "2026-10-28"
+ },
+ "https://cfess.org.br/uploads/revista/3983/registros-opiniao-tecnica.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cfess.org.br/uploads/revista/3983/registros-opiniao-tecnica.pdf",
+  "em": "2026-10-28"
+ },
+ "https://cress-sp.org.br/wp-content/uploads/2017/01/Parecer-Desagravo-012017.pdf": {
+  "ok": false,
+  "status": 404,
+  "erro": "HTTP Error 404: Not Found",
+  "em": "2026-10-28"
+ },
+ "https://www.cressma.org.br/?p=22224": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.cressma.org.br/?p=22224",
+  "em": "2026-10-28"
+ },
+ "https://cress-sp.org.br/noticia/view/621/ato-de-desagravo-publico-processo-n-0022024": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://cress-sp.org.br/noticia/view/621/ato-de-desagravo-publico-processo-n-0022024",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/rk/a/4sCD3tTKhZ4zBZt4BJ9gMXp/?format=html&lang=pt&ilang=en": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/rk/a/4sCD3tTKhZ4zBZt4BJ9gMXp/?format=html&lang=pt&ilang=en",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/rk/a/4WyvBTxZmBZyZ9Prgx5H95r/?format=html&lang=pt&ilang=en": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/rk/a/4WyvBTxZmBZyZ9Prgx5H95r/?format=html&lang=pt&ilang=en",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/rk/a/rGvVYrXM7wyV5tz5GSJmB7B/?format=html&lang=pt&ilang=en": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/rk/a/rGvVYrXM7wyV5tz5GSJmB7B/?format=html&lang=pt&ilang=en",
+  "em": "2026-10-28"
+ },
+ "https://new.scielo.br/j/sssoc/a/tP6Bj784hQhQRQGNSvdHqVw/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://new.scielo.br/j/sssoc/a/tP6Bj784hQhQRQGNSvdHqVw/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/7196/5845/19963": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/7196/5845/19963",
+  "em": "2026-10-28"
+ },
+ "https://www.unirio.br/cchs/ess/Members/giselle.silva/estagio-i/estagio-i-prog-e-textos/lewgoy-o-estagio-supervisionado/at_download/file": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.unirio.br/cchs/ess/Members/giselle.silva/estagio-i/estagio-i-prog-e-textos/lewgoy-o-estagio-supervisionado/at_download/file",
+  "em": "2026-10-28"
+ },
+ "https://revistas.uepg.br/index.php/emancipacao/article/download/10017/209209210033/209209211927": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://revistas.uepg.br/index.php/emancipacao/pt_BR/article/download/10017/209209210033/209209211927",
+  "em": "2026-10-28"
+ },
+ "https://repositorio.uel.br/bitstreams/3c492572-1805-4cc9-81a1-a4f94ba4cd8c/download": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://repositorio.uel.br/srv-c0003-s01/api/core/bitstreams/3c492572-1805-4cc9-81a1-a4f94ba4cd8c/content",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/rk/a/WHyMbJShkdJcgwctfN6h4Dq/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/rk/a/WHyMbJShkdJcgwctfN6h4Dq/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://ufpi.br/arquivos_download/arquivos/EDUFPI/Livro_O_EST%C3%81GIO_SUPERVISIONADO_EM_SERVI%C3%87O_SOCIAL_NO_PIAU%C3%8D_e-book_1.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": true,
+  "final": "https://ufpi.br/arquivos_download/arquivos/EDUFPI/Livro_O_EST%C3%81GIO_SUPERVISIONADO_EM_SERVI%C3%87O_SOCIAL_NO_PIAU%C3%8D_e-book_1.pdf",
+  "em": "2026-10-28"
+ },
+ "https://cressrs.org.br/arquivos/n_noticias/PESQUISA-UFRGS-PUCRS-CRESSRS.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cressrs.org.br/arquivos/n_noticias/PESQUISA-UFRGS-PUCRS-CRESSRS.pdf",
+  "em": "2026-10-28"
+ },
+ "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/51540/51501/285910": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://ojs.uel.br/revistas/uel/index.php/ssrevista/article/download/51540/51501/285910",
+  "em": "2026-10-28"
+ },
+ "https://revistaseletronicas.pucrs.br/fass/article/download/49008/29356/233263": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://revistaseletronicas.pucrs.br/fass/article/download/49008/29356/233263",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/rk/a/4sCZdNQQRwY8kV4m8SrLFbs/?format=html&lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/rk/a/4sCZdNQQRwY8kV4m8SrLFbs/?format=html&lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/BROCHURACFESS_ESTAGIO-SUPERVISIONADO.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/BROCHURACFESS_ESTAGIO-SUPERVISIONADO.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/jGFx6WNPPGQh6vRR7pWHBpK/?lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/jGFx6WNPPGQh6vRR7pWHBpK/?lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://www.scielo.br/j/sssoc/a/zKFSBsXcX9XrFDKMR53ccHv/?format=html&lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/zKFSBsXcX9XrFDKMR53ccHv/?format=html&lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/21520/pdf/66943": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/21520/pdf/66943",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/CFESS-Caderno03-Racismo-Site.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/CFESS-Caderno03-Racismo-Site.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/CFESS-Caderno04-Transfobia-Site.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/CFESS-Caderno04-Transfobia-Site.pdf",
+  "em": "2026-10-28"
+ },
+ "https://cfess.org.br/arquivos/LivroAnticapacitismoExercicioProfissional2023Cfess-Acessivel.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cfess.org.br/arquivos/LivroAnticapacitismoExercicioProfissional2023Cfess-Acessivel.pdf",
+  "em": "2026-10-28"
+ },
+ "https://tede2.pucgoias.edu.br/bitstream/tede/5198/2/Maria%20Ciurinha%20Pereira%20dos%20Santos.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://tede2.pucgoias.edu.br/bitstream/tede/5198/2/Maria%20Ciurinha%20Pereira%20dos%20Santos.pdf",
+  "em": "2026-10-28"
+ },
+ "https://sapientia.pucsp.br/bitstream/handle/24534/1/Karoline%20%C3%89len%20de%20Freitas.pdf": {
+  "ok": false,
+  "status": 468,
+  "erro": "HTTP Error 468: ",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/uploads/revista/5179/Caderno9-Capacitismo-Site.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/uploads/revista/5179/Caderno9-Capacitismo-Site.pdf",
+  "em": "2026-10-28"
+ },
+ "https://new.scielo.br/j/sssoc/a/hDGg8FJdkDYXgyQHb8DDWkL/?ilang=pt_BR&lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://new.scielo.br/j/sssoc/a/hDGg8FJdkDYXgyQHb8DDWkL/?ilang=pt_BR&lang=pt",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/CFESS-Caderno07-PCD-Site.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/CFESS-Caderno07-PCD-Site.pdf",
+  "em": "2026-10-28"
+ },
+ "https://periodicos.ufes.br/temporalis/en/article/download/47817/33961/177460": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://periodicos.ufes.br/temporalis/en/article/download/47817/33961/177460",
+  "em": "2026-10-28"
+ },
+ "https://cfess.org.br/arquivos/CFESS-Caderno01-OqueEPreconceito-Site.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://cfess.org.br/arquivos/CFESS-Caderno01-OqueEPreconceito-Site.pdf",
+  "em": "2026-10-28"
+ },
+ "https://www.cfess.org.br/arquivos/CFESS-NomeSocial-Folder30x25cm-Montado.pdf": {
+  "ok": true,
+  "status": 200,
+  "tipo": "application/pdf",
+  "tls_incompleto": false,
+  "final": "https://www.cfess.org.br/arquivos/CFESS-NomeSocial-Folder30x25cm-Montado.pdf",
+  "em": "2026-10-28"
+ },
+ "https://scielo.br/j/sssoc/a/QvzjBsSrDBRGHpPBKyLGDvp/?ilang=pt_BR&lang=pt": {
+  "ok": true,
+  "status": 200,
+  "tipo": "text/html",
+  "tls_incompleto": false,
+  "final": "https://www.scielo.br/j/sssoc/a/QvzjBsSrDBRGHpPBKyLGDvp/?ilang=pt_BR&lang=pt",
+  "em": "2026-10-28"
+ }
+}

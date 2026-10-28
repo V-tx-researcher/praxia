@@ -5,10 +5,11 @@ import { IndiceLexical } from "./nucleo/busca.js";
 import { consultar } from "./nucleo/resposta.js";
 import { CANAIS_VERIFICADOS } from "./nucleo/orientacao.js";
 import { linkPdf, PRIORIDADES } from "./nucleo/evidencias.js";
-import { referenciaABNT } from "./nucleo/referencia.js";
+import { dataAcesso, referenciaABNT } from "./nucleo/referencia.js";
 import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
 import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
 import { dobrarAcentos } from "./nucleo/texto.js";
+import { POSICOES, TIPOS_LEITURA, filtrarLeituras, leiturasDoDocumento, leiturasParaEvidencias } from "./nucleo/literatura.js";
 import { IndiceSemantico, MotorSemantico, TAMANHO_MODELO_MB } from "./nucleo/semantica.js";
 import { MODELOS, MotorWebLLM, WEBLLM_URL, carregarBiblioteca, webgpuDisponivel } from "./llm/motor.js";
 import { avaliarModelo, coletarDispositivo, gb, modeloBaixado, removerModelo } from "./llm/capacidade.js";
@@ -181,7 +182,7 @@ function blocoCitacao(doc, unidade) {
 }
 
 // ---------------------------------------------------------------- estado
-const estado = { acervo: null, indice: null, modo: null, motor: null, semantica: null };
+const estado = { acervo: null, indice: null, modo: null, motor: null, semantica: null, literatura: null };
 
 function ambienteLocal() {
   return ["localhost", "127.0.0.1", "[::1]"].includes(location.hostname) || location.hostname.endsWith(".localhost");
@@ -227,6 +228,97 @@ async function carregarAcervo() {
     estado.motor = new MotorWebLLM(pref.modelo, { aoProgresso: progressoModelo });
   }
   atualizarEstadoIA();
+}
+
+// ---------------------------------------------------------------- literatura crítica (camada 3, D40)
+// Arquivo à parte e opcional: se não carregar, o app funciona igual, só sem as sugestões.
+async function carregarLiteratura() {
+  try {
+    const r = await fetch("dados/literatura.json", { cache: "no-cache" });
+    if (!r.ok) return;
+    const dados = await r.json();
+    if (Array.isArray(dados.itens)) estado.literatura = dados;
+  } catch { /* sem literatura: segue sem as sugestões */ }
+}
+
+function rotuloNorma(chave) {
+  if (chave === "lei-8662") return "Lei nº 8.662/1993";
+  if (chave === "lei-12317") return "Lei nº 12.317/2010";
+  const d = estado.indice?.documentos.get(chave);
+  if (!d) return chave;
+  return d.numero ? `${d.tipo_rotulo} nº ${Number(d.numero).toLocaleString("pt-BR")}/${d.ano}` : `${d.tipo_rotulo} (${d.ano})`;
+}
+
+function cartaoLeitura(i) {
+  const aviso = el("span", { classe: "ajuda", "aria-live": "polite" });
+  const referencia = `${i.referencia} Acesso em: ${dataAcesso()}.`;
+  const revogadas = i.normas.map((n) => estado.indice?.documentos.get(n))
+    .filter((d) => d && ["revogada", "sem_efeito_judicial"].includes(d.situacao));
+  return el("article", { classe: "leitura-item" },
+    el("h4", {}, linkExterno(i.link, i.titulo)),
+    el("p", { classe: "doc-meta" }, [i.autoria, i.publicado_em, i.ano].filter(Boolean).join(" · ")),
+    el("div", { classe: "selos" },
+      el("span", { classe: `selo posicao-${i.posicao}` }, POSICOES[i.posicao] || i.posicao),
+      el("span", { classe: "selo" }, TIPOS_LEITURA[i.tipo] || i.tipo),
+      i.link_conferido?.bloqueio_robo ? el("span", { classe: "selo nao-conferido" }, "link não conferido automaticamente") : null),
+    el("p", {}, i.resumo),
+    i.normas.length ? el("p", { classe: "ajuda" }, el("strong", {}, "Normas discutidas: "), i.normas.map(rotuloNorma).join("; "),
+      i.outras_normas.length ? `; também: ${i.outras_normas.join("; ")}` : "", ".") : null,
+    revogadas.length ? el("p", { classe: "ajuda" }, el("strong", {}, "Atenção: "),
+      `discute norma hoje sem vigência — ${revogadas.map((d) => `${rotuloNorma(d.id)} (${String(d.situacao_rotulo).toLowerCase()})`).join(", ")}; vale como leitura histórica ou de fundamentos.`) : null,
+    el("details", { classe: "citacao" },
+      el("summary", {}, "Como citar (ABNT)"),
+      el("p", {}, el("strong", {}, "Referência: "), referencia),
+      i.citacao ? el("p", {}, el("strong", {}, "Citação no texto: "), i.citacao) : null,
+      el("div", { classe: "linha-acoes" },
+        el("button", { type: "button", classe: "botao", onclick: () => copiarTexto(referencia, aviso) }, "Copiar referência"),
+        aviso),
+      el("p", { classe: "ajuda" }, "Referência montada a partir dos dados do levantamento. Confira com o texto original.")));
+}
+
+const AVISO_LEITURAS = "Leituras para aprofundar o estudo. Não são normas, não fundamentam a resposta e não são usadas pela IA. " +
+  "Os resumos são de triagem, feitos com apoio de IA: leia o texto original antes de citar.";
+
+function secaoLeiturasDaResposta(r) {
+  const evidencias = r.secoes.flatMap((s) => s.evidencias || []);
+  const lista = leiturasParaEvidencias(estado.literatura, evidencias, r.pergunta);
+  if (!lista.length) return null;
+  return el("section", { "aria-labelledby": "t-leituras", classe: "leituras-resposta" },
+    el("h2", { id: "t-leituras" }, "Para aprofundar: leituras sobre estas normas"),
+    el("p", { classe: "ajuda" }, AVISO_LEITURAS),
+    ...lista.map(cartaoLeitura),
+    el("p", { classe: "ajuda" }, "Mais leituras na aba Biblioteca normativa, em “Leituras críticas”."));
+}
+
+function preencherFiltrosLeituras() {
+  const lit = estado.literatura;
+  if (!lit?.itens.length) return;
+  $("#leituras").hidden = false;
+  for (const [v, rot] of Object.entries(lit.blocos)) $("#l-bloco").append(el("option", { value: v }, rot));
+  for (const [v, rot] of Object.entries(POSICOES)) $("#l-posicao").append(el("option", { value: v }, rot));
+  const tipos = new Set(lit.itens.map((i) => i.tipo));
+  for (const [v, rot] of Object.entries(TIPOS_LEITURA)) if (tipos.has(v)) $("#l-tipo").append(el("option", { value: v }, rot));
+  for (const id of ["#l-texto", "#l-bloco", "#l-posicao", "#l-tipo"]) $(id).addEventListener("input", listarLeituras);
+  $("#aviso-leituras").textContent = `${AVISO_LEITURAS} Links conferidos automaticamente em ` +
+    `${new Date(`${lit.gerado_em}T12:00`).toLocaleDateString("pt-BR")}.`;
+  listarLeituras();
+}
+
+function listarLeituras() {
+  const lista = filtrarLeituras(estado.literatura, {
+    texto: $("#l-texto").value, bloco: $("#l-bloco").value, posicao: $("#l-posicao").value, tipo: $("#l-tipo").value });
+  lista.sort((a, b) => String(b.ano).localeCompare(String(a.ano)));
+  // Muitos cartões de uma vez pesam no celular: mostra 20 e oferece o restante.
+  const alvo = $("#lista-leituras");
+  const mostrar = (n) => {
+    const filhos = [el("p", { classe: "ajuda" }, `${lista.length} leitura(s)`), ...lista.slice(0, n).map(cartaoLeitura)];
+    if (lista.length > n) {
+      filhos.push(el("button", { type: "button", classe: "botao", onclick: () => mostrar(n + 20) },
+        `Mostrar mais ${Math.min(20, lista.length - n)}`));
+    }
+    alvo.replaceChildren(...filhos);
+  };
+  mostrar(20);
 }
 
 // ---------------------------------------------------------------- busca por sentido opcional (D36)
@@ -673,6 +765,8 @@ function renderizarResposta(r) {
     }
     blocos.push(sec);
   }
+  const leituras = secaoLeiturasDaResposta(r);
+  if (leituras) blocos.push(leituras);
   saida.replaceChildren(...blocos);
   saida.querySelector("h2")?.setAttribute("tabindex", "-1");
   saida.querySelector("h2")?.focus();
@@ -732,7 +826,18 @@ function listarDocumentos() {
       d.arquivo_url ? linkExterno(d.arquivo_url, "PDF original") : null,
       linkExterno(d.fonte_oficial_url, "Página oficial")),
     d.nota_vigencia ? el("p", { classe: "ajuda" }, el("strong", {}, "Vigência: "), d.nota_vigencia) : null,
-    blocoCitacao(d, null))));
+    blocoCitacao(d, null),
+    (() => {
+      const lista = leiturasDoDocumento(estado.literatura, d.id);
+      if (!lista.length) return null;
+      const det = el("details", { classe: "citacao" }, el("summary", {}, `Leituras sobre esta norma (${lista.length})`),
+        el("p", { classe: "ajuda" }, AVISO_LEITURAS));
+      // Cartões montados só ao abrir (o Código de Ética tem dezenas).
+      det.addEventListener("toggle", () => {
+        if (det.open && det.children.length === 2) det.append(...lista.map(cartaoLeitura));
+      });
+      return det;
+    })())));
 }
 
 function lerDocumento(id) {
@@ -867,8 +972,9 @@ $("#copiar-resposta").addEventListener("click", () =>
   copiarTexto(`Pergunta: ${$("#pergunta").value.trim()}\n\n${$("#resultado").innerText}`, $("#aviso-copia")));
 renderizarExemplos();
 renderizarGuia();
-await carregarAcervo();
+await Promise.all([carregarAcervo(), carregarLiteratura()]);
 preencherFiltros();
+preencherFiltrosLeituras();
 listarDocumentos();
 renderizarTransparencia();
 renderizarInstalacao();

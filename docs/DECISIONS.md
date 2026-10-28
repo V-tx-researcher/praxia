@@ -261,6 +261,24 @@ leitura sugerida". Normas fora de vigor e anexos (formulários) ficam como
 complementares quando há alternativa vigente. A prioridade é aviso de leitura, não
 juízo sobre o caso (texto na tela). Não altera as respostas da IA.
 
+**D40 — 28/10/2026 — Leituras críticas (camada 3).** Literatura de acesso aberto que
+discute as normas (artigos, dissertações, teses, publicações do CFESS e dos CRESS),
+levantada com o prompt `docs/revisao/PROMPT_ChatGPT_literatura_critica.md` em 8 blocos
+(119 linhas, 109 textos únicos). `scripts/literatura/conferir_links.py` confere cada link
+(HTTP, com cookie de sessão para periódicos OJS) e `consolidar.py` tira repetidos (DOI ou
+título), liga cada texto às normas do acervo (Lei 8.662 e Lei 12.317 à parte, porque
+estão no livreto do Código), monta a referência ABNT e gera `app/dados/literatura.json`.
+Link quebrado sem endereço alternativo fica fora do app (1 caso); link que só recusa
+robôs fica, com aviso (1 caso). Na tela: "Para aprofundar" ao fim da resposta (até 6,
+pela prioridade das evidências e pelas palavras da pergunta), "Leituras sobre esta
+norma" em cada documento da biblioteca e a seção "Leituras críticas" com filtros por
+assunto, posição e tipo. Regras: só referência, resumo de triagem (feito com apoio de
+IA, avisado na tela) e link — nenhum trecho dos textos (direitos autorais); a
+literatura **não** entra nas evidências nem no contexto da IA (teste em
+`literatura.test.mjs`). Posições: em defesa da norma, análise crítica, divergente,
+histórica, descritiva — "crítica" no sentido da tradição teórica da área, não de
+oposição à norma.
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e
