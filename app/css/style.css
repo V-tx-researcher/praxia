@@ -594,3 +594,7 @@ progress { width: 100%; height: 10px; accent-color: var(--acento); }
 /* PraxIA leve: resposta direta "Tem norma para isso?" (D43) */
 .resposta-curta { font-size: 1.05rem; margin: 4px 0 12px; }
 .resposta-curta a { font-weight: 600; }
+
+/* Seletor de intenções (experimental) */
+.sugestoes-intencao h2 { margin-top: 0; }
+.sugestao-intencao { display: block; width: 100%; text-align: left; margin: 6px 0; white-space: normal; }

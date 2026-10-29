@@ -2,6 +2,9 @@
 export const CONFIG = {
   // Índice carregado por padrão. "previa" só é aceito em ambiente local (ver app.js).
   acervoPadrao: "publico",
+  // Experimental (ramo experimento-seletor-intencoes): sugere até 3 perguntas de intenções diferentes.
+  seletorIntencoes: true,          // false desliga o seletor imediatamente
+  seletorModo: "C",                // "C" = ajuste contextual validado; "A" = seletor original (limiar 0,25)
   llm: {
     // D17: a análise por IA é ligada ou desligada pela própria pessoa, após ver o
     // diagnóstico do seu dispositivo. Na versão pública a ativação fica bloqueada

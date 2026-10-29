@@ -543,6 +543,48 @@ async function renderizarPainelIA() {
 }
 
 // ---------------------------------------------------------------- consulta
+// ---------------------------------------------------------------- seletor de intenções (experimental)
+// Usa só as 250 perguntas canônicas (window.PRAXIA_INTENTS); as 177 variantes pendentes ficam desativadas.
+// Confirmar uma sugestão apenas refaz a MESMA busca documental com a pergunta canônica: nenhum vínculo
+// ou fundamento é transferido e nenhuma resposta pronta é exibida.
+const seletor = { origem: null };
+function sugestoesIntencao(pergunta) {
+  if (!CONFIG.seletorIntencoes || !window.PraxiaSelector || !window.PRAXIA_INTENTS) return [];
+  const r = CONFIG.seletorModo === "C" && window.PraxiaSelectorContexto
+    ? window.PraxiaSelectorContexto.sugerir(window.PraxiaSelector, window.PRAXIA_INTENTS, window.PRAXIA_VARIANTS, pergunta)
+    : window.PraxiaSelector.suggest(pergunta, window.PRAXIA_INTENTS, window.PRAXIA_VARIANTS,
+      { threshold: 0.25, limit: 3, useUnreviewedVariants: false });
+  const vistos = new Set();
+  return r.filter((s) => !vistos.has(s.id) && vistos.add(s.id)).slice(0, 3);
+}
+
+function renderizarSugestoes(pergunta) {
+  const caixa = $("#sugestoes-intencao");
+  if (seletor.origem) {
+    const original = seletor.origem;
+    seletor.origem = null;
+    caixa.hidden = false;
+    caixa.replaceChildren(el("p", { classe: "ajuda" }, "Busca feita com a pergunta que você confirmou. Sua pergunta original: “",
+      original, "”. ", el("button", { type: "button", classe: "botao", id: "voltar-pergunta", onclick: () => {
+        $("#pergunta").value = original; enviarFormulario($("#form-consulta"));
+      } }, "Voltar à minha pergunta")));
+    return;
+  }
+  const lista = sugestoesIntencao(pergunta).filter((s) => s.q.trim() !== pergunta.trim());
+  if (!lista.length) { caixa.hidden = true; caixa.replaceChildren(); return; }
+  caixa.hidden = false;
+  caixa.replaceChildren(
+    el("h2", {}, "Você quis perguntar sobre…"),
+    el("p", { classe: "ajuda" }, "O resultado abaixo usa a sua pergunta. Se uma destas descreve melhor a sua dúvida, confirme para buscar de novo com ela."),
+    ...lista.map((s) => el("button", { type: "button", classe: "botao sugestao-intencao", "data-intencao": s.id, onclick: () => {
+      seletor.origem = pergunta;
+      $("#pergunta").value = s.q;
+      enviarFormulario($("#form-consulta"));
+    } }, s.q)),
+    el("button", { type: "button", classe: "botao", id: "manter-pergunta", onclick: () => { caixa.hidden = true; caixa.replaceChildren(); } },
+      "Continuar com minha pergunta"));
+}
+
 async function aoConsultar(ev) {
   ev.preventDefault();
   const pergunta = $("#pergunta").value.trim();
@@ -579,6 +621,7 @@ async function aoConsultar(ev) {
     });
     if (ambienteLocal()) window.ultimasEtapas = r.etapas; // diagnóstico em teste local (scripts/testar_ia_app.mjs)
     renderizarResposta(r);
+    renderizarSugestoes(pergunta);
     $("#acoes-resultado").hidden = false;
     $("#aviso-copia").textContent = "";
   } catch (erro) {

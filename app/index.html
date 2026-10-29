@@ -108,6 +108,7 @@
         <button type="button" id="copiar-resposta" class="botao">Copiar a resposta</button>
         <span id="aviso-copia" class="ajuda" aria-live="polite"></span>
       </div>
+      <section id="sugestoes-intencao" class="cartao sugestoes-intencao" aria-live="polite" hidden></section>
       <div id="resultado" class="resultado" aria-live="polite"></div>
     </section>
 
@@ -168,6 +169,10 @@
     <p><a href="https://gpecss2026.wixsite.com/gpecss" rel="noopener">Site do GPECSS</a></p>
   </footer>
 
+  <!-- Seletor de intenções (experimental): só perguntas canônicas; variantes pendentes desativadas; sem respostas. -->
+  <script src="js/seletor/data.js"></script>
+  <script src="js/seletor/engine.js"></script>
+  <script src="js/seletor/contexto.js"></script>
   <script type="module" src="js/app.js"></script>
 </body>
 </html>
