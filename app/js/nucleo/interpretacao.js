@@ -50,7 +50,7 @@ export function montarOrientacao(indice, resultado, n) {
     camada: 2,
     unidadeId: u.id,
     documento: {
-      id: doc.id, titulo: doc.titulo, tipo: doc.tipo_rotulo, orgao: doc.orgao, numero: null, ano: doc.ano,
+      id: doc.id, titulo: doc.titulo, tipo: doc.tipo_rotulo, tipoId: doc.tipo, orgao: doc.orgao, numero: null, ano: doc.ano,
       situacao: SITUACAO_ORIENTACAO, situacaoRotulo: doc.situacao_rotulo, conferido: doc.conferido,
       fonteOficial: doc.fonte_oficial_url, sha256: doc.sha256, referencia: doc.referencia, autoria: doc.autoria,
     },

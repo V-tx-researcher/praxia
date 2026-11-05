@@ -7,6 +7,7 @@ import { CANAIS_VERIFICADOS } from "./nucleo/orientacao.js";
 import { linkPdf, motivoPrioridade, PRIORIDADES } from "./nucleo/evidencias.js";
 import { dataAcesso, referenciaABNT } from "./nucleo/referencia.js";
 import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
+import { maisProximoPorCategoria } from "./nucleo/categorias.js";
 import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
 import { dobrarAcentos } from "./nucleo/texto.js";
 import { IndiceSemantico, MotorSemantico, TAMANHO_MODELO_MB } from "./nucleo/semantica.js";
@@ -555,7 +556,27 @@ function sugestoesIntencao(pergunta) {
     : window.PraxiaSelector.suggest(pergunta, window.PRAXIA_INTENTS, window.PRAXIA_VARIANTS,
       { threshold: 0.25, limit: 3, useUnreviewedVariants: false });
   const vistos = new Set();
-  return r.filter((s) => !vistos.has(s.id) && vistos.add(s.id)).slice(0, 3);
+  const canon = r.filter((s) => !vistos.has(s.id) && vistos.add(s.id)).slice(0, 3);
+  // D45: perguntas do banco consolidado V1–V10 (NÃO revisadas) completam as vagas, com limiar mais
+  // alto (0,40: nenhuma sugestão em perguntas fora do escopo nos casos de validação) e marcadas.
+  if (!candidatasAtivas() || !window.PRAXIA_CANDIDATAS || canon.length >= 3) return canon;
+  if (!seletor.baseCandidatas) {
+    seletor.baseCandidatas = window.PRAXIA_CANDIDATAS.map((x) => ({ ...x, q_orig: x.q, q: window.PraxiaSelectorContexto.norm(window.PraxiaSelector.clean, x.q) }));
+  }
+  const textos = new Set(canon.map((s) => s.q.trim().toLowerCase()));
+  const extra = window.PraxiaSelector.suggest(window.PraxiaSelectorContexto.norm(window.PraxiaSelector.clean, pergunta),
+    seletor.baseCandidatas, [], { threshold: 0.4, limit: 3 })
+    .map((s) => ({ ...s, q: s.q_orig, naoRevisada: true })).filter((s) => !textos.has(s.q.trim().toLowerCase()));
+  return [...canon, ...extra].slice(0, 3);
+}
+
+// Candidatas só em teste local enquanto não houver autorização para publicar (CONFIG.seletorCandidatas).
+function candidatasAtivas() {
+  return CONFIG.seletorCandidatas === true || (CONFIG.seletorCandidatas === "local" && ambienteLocal());
+}
+function carregarCandidatas() {
+  if (!candidatasAtivas() || window.PRAXIA_CANDIDATAS || document.querySelector("script[data-candidatas]")) return;
+  document.head.append(el("script", { src: "js/seletor/candidatas.js", "data-candidatas": "1" }));
 }
 
 function renderizarSugestoes(pergunta) {
@@ -576,11 +597,11 @@ function renderizarSugestoes(pergunta) {
   caixa.replaceChildren(
     el("h2", {}, "Você quis perguntar sobre…"),
     el("p", { classe: "ajuda" }, "O resultado abaixo usa a sua pergunta. Se uma destas descreve melhor a sua dúvida, confirme para buscar de novo com ela."),
-    ...lista.map((s) => el("button", { type: "button", classe: "botao sugestao-intencao", "data-intencao": s.id, onclick: () => {
+    ...lista.map((s) => el("button", { type: "button", classe: `botao sugestao-intencao${s.naoRevisada ? " nao-revisada" : ""}`, "data-intencao": s.id, onclick: () => {
       seletor.origem = pergunta;
       $("#pergunta").value = s.q;
       enviarFormulario($("#form-consulta"));
-    } }, s.q)),
+    } }, s.q, s.naoRevisada ? el("span", { classe: "selo nao-conferido" }, "pergunta ainda não revisada") : null)),
     el("button", { type: "button", classe: "botao", id: "manter-pergunta", onclick: () => { caixa.hidden = true; caixa.replaceChildren(); } },
       "Continuar com minha pergunta"));
 }
@@ -706,7 +727,22 @@ function renderizarResposta(r) {
     citacoesPorEvidencia.get(id).push(i + 1);
   }));
 
+  // D45: o mais próximo em cada tipo de documento, com o link oficial (o documento fica na fonte).
+  const fund = r.secoes.find((s) => s.id === "fundamentacao");
+  const ori = r.secoes.find((s) => s.id === "orientacoes");
+  const porCategoria = maisProximoPorCategoria([...(fund?.evidencias || []), ...(fund?.outras || []), ...(ori?.orientacoes || [])]);
+  const blocoCategorias = porCategoria.length ? el("section", { classe: "por-categoria", "aria-labelledby": "t-por-categoria" },
+    el("h2", { id: "t-por-categoria" }, "O mais próximo em cada tipo de documento"),
+    el("ul", { classe: "lista-categorias" }, porCategoria.map(({ categoria, item, fraco }) => el("li", { "data-categoria": categoria.id },
+      el("p", { classe: "categoria-rotulo", title: categoria.descricao }, categoria.rotulo),
+      el("p", {}, el("a", { href: `#ev-${item.id}`, onclick: () => destacar(item.id) }, item.documento.titulo),
+        ` — ${["trecho", "apresentacao", "anexo"].includes(item.tipo) ? `p. ${item.pagina}` : item.rotulo}`,
+        fraco ? el("span", { classe: "ajuda" }, " (provavelmente não se aplica)") : null),
+      el("p", { classe: "links-fonte" }, linkExterno(item.documento.fonteOficial || item.link, "Acesso oficial ao documento"))))),
+    el("p", { classe: "ajuda" }, "Escolha automática do trecho mais parecido com a pergunta em cada tipo de documento. Não substitui a orientação do CFESS, dos CRESS e das demais entidades da categoria.")) : null;
+
   for (const s of r.secoes) {
+    if (s.id === "fundamentacao" && blocoCategorias) blocos.push(blocoCategorias);
     const sec = el("section", { "aria-labelledby": `t-${s.id}` }, el("h2", { id: `t-${s.id}` }, s.titulo));
     for (const p of s.paragrafos || []) sec.append(el("p", {}, p));
     if (s.afirmacoes) {
@@ -970,6 +1006,7 @@ await carregarAcervo();
 preencherFiltros();
 // Camada 2 em segundo plano: a consulta funciona antes dela; ao chegar, passa a acompanhar as respostas.
 carregarInterpretacao().then(listarOrientacoes);
+carregarCandidatas();
 listarDocumentos();
 renderizarTransparencia();
 renderizarInstalacao();

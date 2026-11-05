@@ -611,3 +611,10 @@ progress { width: 100%; height: 10px; accent-color: var(--acento); }
 .sugestoes-intencao h2 { font-size: 1rem; }
 .sugestao-intencao { font-weight: 500; }
 #resultado section > h2 { font-size: 1.15rem; }
+
+/* D45: o mais próximo em cada tipo de documento */
+.lista-categorias{list-style:none;padding:0;margin:0;display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.lista-categorias li{border:1px solid var(--borda,#283243);border-radius:10px;padding:10px 12px}
+.lista-categorias p{margin:2px 0}
+.categoria-rotulo{font-size:.8em;letter-spacing:.05em;text-transform:uppercase;opacity:.8}
+.sugestao-intencao.nao-revisada .selo{margin-left:8px;font-size:.75em}

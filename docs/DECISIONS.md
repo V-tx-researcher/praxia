@@ -315,6 +315,35 @@ principal; ex.: terapias → Res. 569/2010). Avaliação: 110/122, recall@8 0,84
 (Qwen3 8B, D38–D42) fica guardada: `permitirAtivacao: false`, painel escondido no público e
 disponível só em teste local.
 
+**D44 — 04/11/2026 — Requisitos do chat (agente gratuito), antes de qualquer protótipo.**
+Definido pelo responsável. Nada foi implementado; o protótipo depende de autorização específica.
+1. **Aviso no próprio chat**, visível antes e durante o uso: não inserir, por hipótese alguma,
+   dados sensíveis (nomes, documentos, números de processo, dados de saúde ou qualquer informação
+   que identifique pessoas ou situações atendidas).
+2. **Foco:** tirar dúvidas indicando o material oficial que corresponde à pergunta (norma,
+   dispositivo e link do documento), sem emitir parecer.
+3. **Toda resposta reitera** que não substitui, de nenhuma maneira, as respostas diretas do CFESS,
+   dos CRESS e das demais instituições representativas da categoria.
+4. **Custo zero para o projeto e para quem usa:** sem cobrança ativada, sem assinatura, sem
+   pagamento por pergunta. Se o limite gratuito acabar, o chat avisa e a busca local continua.
+Somam-se às salvaguardas já definidas: chave fora do navegador, envio só dos trechos selecionados
+(nunca o acervo inteiro), aviso sobre o uso de dados pelo serviço externo e volta à busca local se
+ele falhar.
+
+**D45 — 05/11/2026 — Categorias de documento e banco V1–V10 no seletor (ramo local `dev-categorias`).**
+Pedido do responsável: fazer o modelo funcionar primeiro e revisar depois, sempre a custo zero; o acervo
+vai crescer com outros documentos oficiais do Conjunto CFESS-CRESS e da categoria, de naturezas
+diferentes. (1) `app/js/nucleo/categorias.js` define categorias (leis e decretos, Código de Ética,
+resoluções, orientações normativas, notas técnicas e pareceres, cartilhas e documentos de orientação,
+formação e base teórica, outros), feitas para receber tipos novos sem mexer na busca. A resposta ganha
+o bloco "O mais próximo em cada tipo de documento", com o link de acesso oficial. A busca não muda.
+(2) Os bancos V1–V10 foram juntados fora do app (Desktop\PRAXIA_CONSOLIDACAO_V1_V10): 4.086
+perguntas únicas, das quais 3.678 seguem modelo fixo. As 236 restantes (trecho literal encontrado,
+documento não revogado) completam as sugestões do seletor, com o selo "pergunta ainda não revisada",
+limiar 0,40 (0 de 20 casos fora do escopo com sugestão) e nenhuma resposta transferida.
+`seletorCandidatas: "local"`: só aparecem em teste local. Publicar exige autorização específica;
+a revisão humana vem depois.
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e
