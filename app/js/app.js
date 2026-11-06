@@ -628,10 +628,15 @@ async function aoConsultar(ev) {
   const botao = $("#consultar");
   botao.disabled = true;
   botao.textContent = "Consultando…";
-  saida.replaceChildren();
+  estado.ultimaPergunta = pergunta;
+  saida.replaceChildren(el("p", { classe: "pensando" }, "Procurando nos documentos oficiais…"));
   $("#acoes-resultado").hidden = true;
-  // Depois da primeira consulta os exemplos saem do caminho (no celular empurrariam o resultado).
-  $("#exemplos").open = false;
+  $("#boas-vindas").hidden = true;
+  const balao = $("#mensagem-usuario");
+  balao.textContent = pergunta;
+  balao.hidden = false;
+  $("#pergunta").value = "";
+  ajustarAltura();
   const lista = el("ol");
   $("#progresso").replaceChildren(el("p", {}, "Etapas da análise:"), lista);
   try {
@@ -654,6 +659,21 @@ async function aoConsultar(ev) {
   }
 }
 
+function ajustarAltura() {
+  const t = $("#pergunta");
+  t.style.height = "auto";
+  t.style.height = `${Math.min(t.scrollHeight, 220)}px`;
+}
+
+function novaPergunta() {
+  $("#resultado").replaceChildren();
+  $("#sugestoes-intencao").hidden = true;
+  $("#mensagem-usuario").hidden = true;
+  $("#acoes-resultado").hidden = true;
+  $("#boas-vindas").hidden = false;
+  $("#pergunta").focus();
+}
+
 function botaoRef(id) {
   return el("a", { classe: "ref", href: `#ev-${id}`, "aria-label": `ver evidência ${id}`,
     onclick: () => destacar(id) }, id);
@@ -661,7 +681,11 @@ function botaoRef(id) {
 
 function destacar(id) {
   document.querySelectorAll(".evidencia.destacada").forEach((x) => x.classList.remove("destacada"));
-  document.getElementById(`ev-${id}`)?.classList.add("destacada");
+  const alvo = document.getElementById(`ev-${id}`);
+  if (!alvo) return;
+  for (let d = alvo.closest("details"); d; d = d.parentElement?.closest("details")) d.open = true;
+  alvo.classList.add("destacada");
+  setTimeout(() => alvo.scrollIntoView({ block: "center", behavior: "smooth" }), 0);
 }
 
 // "Resolução nº 1.114/2025 · CFESS" (ou "Código de Ética · CFESS · 1993" quando não há número).
@@ -743,9 +767,8 @@ function renderizarResposta(r) {
     el("p", { classe: "ajuda" }, "Escolha automática do trecho mais parecido com a pergunta em cada tipo de documento. Não substitui a orientação do CFESS, dos CRESS e das demais entidades da categoria.")) : null;
 
   const chat = blocoChat(r, fund, ori);
+  const secs = [];
   for (const s of r.secoes) {
-    if (s.id === "fundamentacao" && blocoCategorias) blocos.push(blocoCategorias);
-    if (s.id === "fundamentacao" && chat) blocos.push(chat);
     const sec = el("section", { "aria-labelledby": `t-${s.id}` }, el("h2", { id: `t-${s.id}` }, s.titulo));
     for (const p of s.paragrafos || []) sec.append(el("p", {}, p));
     if (s.afirmacoes) {
@@ -806,11 +829,15 @@ function renderizarResposta(r) {
         linkExterno(d.link, d.titulo), " — ", d.situacaoRotulo,
         " · ", linkExterno(d.fonteOficial, "página oficial")))));
     }
-    blocos.push(sec);
+    secs.push(sec);
   }
-  saida.replaceChildren(...blocos);
-  saida.querySelector("h2")?.setAttribute("tabindex", "-1");
-  saida.querySelector("h2")?.focus();
+  // Modo conversa: a explicação da IA vem primeiro, depois o mais próximo por tipo de documento e o
+  // resumo "Tem norma para isso?"; os trechos literais, a vigência e os detalhes ficam recolhidos.
+  const resumo = secs.flatMap((s) => [...s.querySelectorAll(".ordem-leitura")]);
+  const detalhes = el("details", { classe: "detalhes-resposta", id: "detalhes-resposta" },
+    el("summary", {}, "Ver os trechos oficiais, a vigência e os detalhes da busca"), ...secs);
+  saida.replaceChildren(el("div", { classe: "balao-praxia" }, ...blocos, chat, blocoCategorias, ...resumo), detalhes);
+  $("#mensagem-usuario").scrollIntoView?.({ block: "start", behavior: "smooth" });
 }
 
 // ---------------------------------------------------------------- chat gratuito (D44/D46)
@@ -824,66 +851,75 @@ const AVISO_CHAT = "Não escreva, por hipótese alguma, dados sensíveis: nomes,
 const RESSALVA_CHAT = "As respostas do chat não substituem, de nenhuma maneira, as respostas diretas do CFESS, " +
   "dos CRESS e das demais instituições representativas da categoria.";
 
+// Consentimento dado uma vez neste navegador (pode ser retirado no rodapé da caixa de pergunta).
+const CHAVE_CONSENTIMENTO = "praxia-chat-consentimento-v1";
+function consentiu() { try { return localStorage.getItem(CHAVE_CONSENTIMENTO) === "sim"; } catch { return false; } }
+function definirConsentimento(sim) {
+  try { sim ? localStorage.setItem(CHAVE_CONSENTIMENTO, "sim") : localStorage.removeItem(CHAVE_CONSENTIMENTO); } catch { /* sem armazenamento */ }
+  atualizarEstadoChat();
+}
+function atualizarEstadoChat() {
+  const alvo = $("#estado-chat");
+  if (!alvo) return;
+  if (!chatAtivo()) { alvo.replaceChildren(); return; }
+  alvo.replaceChildren(consentiu()
+    ? el("span", {}, " Explicação pela IA ativada. ", el("button", { type: "button", classe: "link-botao", onclick: () => definirConsentimento(false) }, "Desativar"))
+    : el("span", {}, " Explicação pela IA desativada; a busca nos documentos funciona normalmente."));
+}
+
 function blocoChat(r, fund, ori) {
   if (!chatAtivo()) return null;
   const trechos = montarTrechos(fund?.evidencias || [], ori?.orientacoes || []);
   if (!trechos.length) return null;
   const cfg = CONFIG.chat;
-  const saida = el("div", { classe: "chat-saida", "aria-live": "polite" });
-  const bloqueio = bloqueioPrivacidade($("#pergunta").value || r.pergunta);
-  const confirma = el("input", { type: "checkbox", id: "chat-confirma" });
-  const botao = el("button", { type: "button", classe: "botao", id: "chat-pedir", disabled: true }, "Pedir explicação à IA");
-  const situacao = el("p", { classe: "ajuda", id: "chat-situacao" });
-  const atualizar = () => {
+  const caixa = el("section", { classe: "chat-praxia", "aria-label": "Explicação pela IA", "aria-live": "polite" });
+  const bloqueio = bloqueioPrivacidade(estado.ultimaPergunta || r.pergunta);
+  const ids = new Set(trechos.map((t) => t.id));
+
+  const pedir = async () => {
     const s = situacaoLimite(cfg);
-    botao.disabled = !!bloqueio || !confirma.checked || !s.pode;
-    situacao.textContent = bloqueio ? "" : s.pode ? `Restam ${s.restantes} explicação(ões) hoje neste navegador.` : s.motivo;
-  };
-  confirma.addEventListener("change", atualizar);
-  botao.addEventListener("click", async () => {
-    const s = situacaoLimite(cfg);
-    if (bloqueio || !confirma.checked || !s.pode) return atualizar();
-    botao.disabled = true;
-    botao.textContent = "Pedindo explicação…";
-    saida.replaceChildren(el("p", { classe: "ajuda" }, "Enviando a pergunta e os trechos selecionados ao serviço gratuito…"));
-    const resp = await pedirExplicacao(cfg, r.pergunta, trechos);
-    botao.textContent = "Pedir explicação à IA";
-    if (resp.erro) {
-      saida.replaceChildren(el("p", { classe: "alerta" }, resp.erro));
-    } else {
-      const ids = new Set(trechos.map((t) => t.id));
-      saida.replaceChildren(
-        el("p", {}, el("span", { classe: "selo nao-conferido" }, "resposta automática, não conferida")),
-        ...partesDoTexto(resp.texto, ids).map((par) => el("p", {}, ...par.map((p) => (p.tipo === "ref" ? botaoRef(p.valor) : p.valor)))),
-        el("p", { classe: "ajuda" }, `Gerada por IA (${resp.modelo}, Google) só com os trechos oficiais acima. Pode conter erros: confira sempre o texto oficial. ${RESSALVA_CHAT}`));
+    if (!s.pode) {
+      caixa.replaceChildren(el("p", { classe: "ajuda" }, s.motivo, " Os documentos encontrados estão logo abaixo."));
+      if (s.esperarSegundos) setTimeout(() => caixa.replaceChildren(el("button", { type: "button", classe: "botao", onclick: pedir }, "Pedir a explicação agora")), s.esperarSegundos * 1000 + 200);
+      return;
     }
-    atualizar();
-    if (situacaoLimite(cfg).esperarSegundos) setTimeout(atualizar, cfg.intervaloSegundos * 1000 + 200);
-  });
-  atualizar();
-  return el("section", { classe: "cartao chat-praxia", "aria-labelledby": "t-chat" },
-    el("h2", { id: "t-chat" }, "Explicação pela IA (opcional e gratuita)"),
-    el("p", { classe: "alerta" }, el("strong", {}, "Atenção: "), AVISO_CHAT),
-    bloqueio ? el("p", { classe: "alerta" }, bloqueio) : null,
-    el("p", { classe: "ajuda" }, "A IA indica qual material oficial encontrado corresponde à sua dúvida. Ela não dá parecer. ",
-      `Ao pedir, sua pergunta e ${trechos.length} trecho(s) oficial(is) já selecionados são enviados ao Gemini, do Google, ` +
-      "no nível gratuito, em que o Google pode usar o conteúdo para melhorar os próprios produtos. Nada é guardado pela PraxIA. ",
-      RESSALVA_CHAT),
-    el("label", { classe: "chat-consentimento" }, confirma,
-      " Entendi o aviso, minha pergunta não tem dados sensíveis e quero enviá-la."),
-    el("div", { classe: "linha-acoes" }, botao),
-    situacao,
-    saida);
+    caixa.replaceChildren(el("p", { classe: "pensando" }, "A IA está lendo os trechos oficiais encontrados…"));
+    const resp = await pedirExplicacao(cfg, r.pergunta, trechos);
+    if (resp.erro) { caixa.replaceChildren(el("p", { classe: "ajuda" }, resp.erro, " Os documentos encontrados estão logo abaixo.")); return; }
+    caixa.replaceChildren(
+      ...partesDoTexto(resp.texto, ids).map((par) => el("p", {}, ...par.map((p) => (p.tipo === "ref" ? botaoRef(p.valor) : p.valor)))),
+      el("p", { classe: "nota-ia" }, el("span", { classe: "selo nao-conferido" }, "resposta automática, não conferida"),
+        ` Gerada por IA (${resp.modelo}, Google) só com os trechos oficiais abaixo; pode conter erros. Confira sempre o documento. ${RESSALVA_CHAT}`));
+  };
+
+  if (bloqueio) {
+    caixa.append(el("p", { classe: "alerta" }, bloqueio));
+  } else if (consentiu()) {
+    pedir();
+  } else {
+    caixa.append(
+      el("p", {}, el("strong", {}, "Quer que a IA explique, com cautela, qual material oficial corresponde à sua dúvida?")),
+      el("p", { classe: "alerta" }, el("strong", {}, "Atenção: "), AVISO_CHAT),
+      el("p", { classe: "ajuda" }, `Ao ativar, a sua pergunta e até ${trechos.length} trecho(s) oficial(is) já encontrados vão ao Gemini, do Google, no nível gratuito, ` +
+        "em que o Google pode usar o conteúdo para melhorar os próprios produtos. A PraxIA não guarda perguntas nem respostas. " +
+        `Há limite de ${cfg.limiteDiario} explicações por dia neste navegador, para o serviço seguir gratuito para todos. A IA não dá parecer. `, RESSALVA_CHAT),
+      el("div", { classe: "linha-acoes" },
+        el("button", { type: "button", classe: "botao-primario", onclick: () => { definirConsentimento(true); pedir(); } },
+          "Entendi o aviso e quero ativar"),
+        el("button", { type: "button", classe: "botao", onclick: () => caixa.replaceChildren(el("p", { classe: "ajuda" },
+          "Tudo bem: os documentos encontrados estão logo abaixo. Você pode ativar a explicação em outra pergunta.")) }, "Agora não")));
+  }
+  return caixa;
 }
 
 function renderizarExemplos() {
-  $("#lista-exemplos").replaceChildren(...EXEMPLOS.map((g) => el("div", { classe: "grupo-exemplos" },
-    el("p", { classe: "publico" }, g.publico),
-    el("ul", { classe: "exemplos-lista" }, g.perguntas.map((q) => el("li", {},
-      el("button", { type: "button", classe: "exemplo", onclick: () => {
-        $("#pergunta").value = q;
-        enviarFormulario($("#form-consulta"));
-      } }, q)))))));
+  // Modo conversa: até 4 sugestões curtas (a primeira de cada público), como num assistente de IA.
+  const qs = EXEMPLOS.map((g) => g.perguntas[0]).filter(Boolean).slice(0, 4);
+  $("#lista-exemplos").replaceChildren(el("ul", { classe: "exemplos-lista" }, qs.map((q) => el("li", {},
+    el("button", { type: "button", classe: "exemplo", onclick: () => {
+      $("#pergunta").value = q;
+      enviarFormulario($("#form-consulta"));
+    } }, q)))));
 }
 
 // ---------------------------------------------------------------- biblioteca
@@ -1060,16 +1096,19 @@ configurarConexao();
 configurarInstalacao();
 configurarAbas();
 $("#form-consulta").addEventListener("submit", aoConsultar);
-// Ctrl+Enter (ou Cmd+Enter) envia a pergunta, como em muitos aplicativos de computador.
+// Enter envia (como nos assistentes de IA); Shift+Enter quebra a linha.
+$("#pergunta").addEventListener("input", ajustarAltura);
+$("#nova-pergunta").addEventListener("click", novaPergunta);
+window.addEventListener("beforeprint", () => document.querySelectorAll("#resultado details").forEach((d) => { d.open = true; }));
 $("#pergunta").addEventListener("keydown", (ev) => {
-  if (ev.key === "Enter" && (ev.ctrlKey || ev.metaKey)) {
+  if (ev.key === "Enter" && !ev.shiftKey && !ev.isComposing) {
     ev.preventDefault();
     enviarFormulario($("#form-consulta"));
   }
 });
 $("#imprimir").addEventListener("click", () => window.print());
 $("#copiar-resposta").addEventListener("click", () =>
-  copiarTexto(`Pergunta: ${$("#pergunta").value.trim()}\n\n${$("#resultado").innerText}`, $("#aviso-copia")));
+  copiarTexto(`Pergunta: ${estado.ultimaPergunta || ""}\n\n${$("#resultado").innerText}`, $("#aviso-copia")));
 renderizarExemplos();
 renderizarGuia();
 await carregarAcervo();
@@ -1080,6 +1119,7 @@ carregarCandidatas();
 listarDocumentos();
 renderizarTransparencia();
 renderizarInstalacao();
+atualizarEstadoChat();
 // Atalhos do app instalado (?aba=biblioteca, ?aba=guia).
 const abaInicial = new URLSearchParams(location.search).get("aba");
 if (abaInicial) document.getElementById(`aba-${abaInicial}`)?.click();

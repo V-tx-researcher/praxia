@@ -372,6 +372,16 @@ privacidade passam a dizer que a pergunta só sai do aparelho se a pessoa pedir 
 confirmar o aviso. As 236 perguntas não revisadas (D45) **não** são publicadas: `candidatas.js` fica
 excluído em `preparar_publicacao.py` e só aparece em teste local até a revisão.
 
+**D49 — 06/11/2026 — Interface de conversa minimalista.** A pedido do responsável, a consulta vira uma
+tela de assistente de IA: saudação "Tem norma para isso?", três quadros curtos (o que faz, limites, cuidado
+com dados sensíveis), até 3 exemplos, caixa de pergunta fixa embaixo (Enter envia) com aviso permanente.
+A resposta mostra a pergunta em balão; primeiro a explicação da IA, depois o mais próximo por tipo de
+documento e o resumo "Tem norma para isso?"; trechos literais, vigência e detalhes ficam recolhidos (abrem
+ao clicar numa referência e na impressão). Consentimento do chat uma vez por navegador, com opção de
+desativar no rodapé; com ele, a explicação é pedida em cada pergunta, respeitando os mesmos limites.
+Leis publicadas dentro de outro documento vão à IA com o nome da lei. Painéis de IA leve e completa e as
+etapas técnicas ficam em "Configurações e detalhes técnicos".
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e

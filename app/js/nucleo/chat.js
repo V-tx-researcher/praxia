@@ -45,9 +45,13 @@ export function montarTrechos(evidencias = [], orientacoes = []) {
     .sort((a, b) => (ordem[a.prioridade] ?? 1) - (ordem[b.prioridade] ?? 1));
   const lista = [...normas.slice(0, 5), ...orientacoes.slice(0, 3)];
   for (const e of normas.slice(5)) if (lista.length < MAX_TRECHOS) lista.push(e);
-  return lista.slice(0, MAX_TRECHOS).map((e) => ({
-    id: e.id, categoria: categoriaDe(e.documento, e.parte).rotulo, documento: e.documento.titulo, local: local(e), texto: e.texto,
-  }));
+  return lista.slice(0, MAX_TRECHOS).map((e) => {
+    const cat = categoriaDe(e.documento, e.parte);
+    // Lei publicada dentro de outro documento (ex.: Lei 8.662/1993 no livreto do Código de Ética):
+    // a IA deve citar a lei, não o livreto.
+    const documento = cat.id === "lei" && e.parte ? `${e.parte} (texto publicado em: ${e.documento.titulo})` : e.documento.titulo;
+    return { id: e.id, categoria: cat.rotulo, documento, local: local(e), texto: e.texto };
+  });
 }
 
 export async function pedirExplicacao(cfg, pergunta, trechos) {
@@ -71,8 +75,12 @@ export async function pedirExplicacao(cfg, pergunta, trechos) {
 // Texto do modelo → partes seguras: { tipo: "texto"|"ref", valor }. Nada é inserido como HTML.
 export function partesDoTexto(texto, idsValidos) {
   const limpo = String(texto).replace(/\*\*(.+?)\*\*/g, "$1").replace(/^\s*[-*]\s+/gm, "• ");
-  return limpo.split(/\n{2,}/).map((par) => par.split(/(\[[EO]\d{1,2}\])/g).filter(Boolean).map((p) => {
-    const m = p.match(/^\[([EO]\d{1,2})\]$/);
-    return m && idsValidos.has(m[1]) ? { tipo: "ref", valor: m[1] } : { tipo: "texto", valor: p };
+  // Aceita [E1] e também grupos como [E2, E4] ou [E1; O2].
+  return limpo.split(/\n{2,}/).map((par) => par.split(/(\[[EO]\d{1,2}(?:\s*[,;]\s*[EO]\d{1,2})*\])/g).filter(Boolean).flatMap((p) => {
+    const m = p.match(/^\[([EO]\d{1,2}(?:\s*[,;]\s*[EO]\d{1,2})*)\]$/);
+    if (!m) return [{ tipo: "texto", valor: p }];
+    const ids = m[1].split(/\s*[,;]\s*/);
+    if (!ids.every((id) => idsValidos.has(id))) return [{ tipo: "texto", valor: p }];
+    return ids.flatMap((id, i) => (i ? [{ tipo: "texto", valor: " " }, { tipo: "ref", valor: id }] : [{ tipo: "ref", valor: id }]));
   }));
 }

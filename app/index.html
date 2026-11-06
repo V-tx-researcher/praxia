@@ -63,55 +63,63 @@
   </div>
 
   <main id="conteudo" tabindex="-1">
-    <section id="painel-consulta" role="tabpanel" aria-labelledby="aba-consulta">
-      <p class="aviso">
-        Ferramenta <strong>independente</strong> de pesquisa documental. Não é manifestação do CFESS
-        ou de qualquer CRESS e não substitui orientação, fiscalização ou parecer dos órgãos competentes.
-      </p>
+    <section id="painel-consulta" class="modo-conversa" role="tabpanel" aria-labelledby="aba-consulta">
+      <div id="boas-vindas" class="boas-vindas">
+        <h2 class="saudacao">Tem norma para isso?</h2>
+        <p class="subtitulo">Pergunte sobre o exercício profissional do Serviço Social. A PraxIA procura nos documentos oficiais
+          do CFESS, dos CRESS e da ABEPSS, indica o que pode se aplicar e leva você ao texto oficial.</p>
+        <ul class="cartoes-info" aria-label="Antes de usar">
+          <li><strong>O que faz</strong><span>Encontra leis, Código de Ética, resoluções, notas técnicas, pareceres e materiais de formação ligados à sua dúvida, com link oficial.</span></li>
+          <li><strong>Limites</strong><span>Respostas automáticas, não conferidas e sempre prudentes. Não é parecer e não substitui o CFESS, os CRESS e as demais instituições da categoria.</span></li>
+          <li class="cuidado"><strong>Cuidado</strong><span>Nunca escreva dados sensíveis: nomes, documentos, números de processo, dados de saúde ou qualquer informação que identifique pessoas.</span></li>
+        </ul>
+        <div id="exemplos" class="exemplos"><div id="lista-exemplos"></div></div>
+      </div>
 
       <p id="carregando" class="ajuda" role="status" hidden></p>
-      <form id="form-consulta" class="cartao consulta" novalidate>
-        <label for="pergunta" class="rotulo-campo">Sua dúvida sobre o exercício profissional</label>
-        <p id="ajuda-pergunta" class="ajuda">
-          Descreva a situação de forma geral. <strong>Não inclua nomes, documentos pessoais,
-          números de processos ou outros dados que identifiquem pessoas.</strong>
-          A busca é feita neste dispositivo e a pergunta não é armazenada. Ela só sai do aparelho se você pedir a explicação pela IA (chat), depois de confirmar o aviso.
-          <span class="dica-teclado">No computador, Ctrl+Enter envia a pergunta.</span>
-        </p>
-        <textarea id="pergunta" name="pergunta" rows="5" required aria-describedby="ajuda-pergunta"
-          placeholder="Ex.: Posso compartilhar informações do atendimento com a equipe multidisciplinar?"></textarea>
-        <div class="linha-acoes">
-          <button type="submit" id="consultar" class="botao-primario">Consultar</button>
-          <span id="estado-ia" class="estado-ia" aria-live="polite"></span>
-          <span id="estado-sentido" class="estado-ia" aria-live="polite"></span>
-        </div>
-      </form>
-
-      <details id="exemplos" class="cartao exemplos">
-        <summary class="titulo-pequeno">Não sabe por onde começar? Experimente uma pergunta</summary>
-        <div id="lista-exemplos"></div>
-      </details>
-
-      <details id="painel-sentido" class="cartao painel-ia">
-        <summary>IA leve da PraxIA: entende a pergunta escrita com outras palavras (120 MB, baixa uma vez, roda em qualquer computador)</summary>
-        <div id="conteudo-sentido"></div>
-      </details>
-
-      <details id="painel-ia" class="cartao painel-ia">
-        <summary>Análise por IA no meu dispositivo (opcional; IA completa, só em computador com placa de vídeo)</summary>
-        <div id="conteudo-ia"></div>
-      </details>
-
-      <details class="etapas-tecnicas"><summary>Detalhes técnicos da consulta</summary>
-        <div id="progresso" class="progresso" aria-live="polite"></div>
-      </details>
+      <div id="mensagem-usuario" class="balao-usuario" hidden></div>
+      <section id="sugestoes-intencao" class="sugestoes-intencao" aria-live="polite" hidden></section>
+      <div id="resultado" class="resultado" aria-live="polite"></div>
       <div id="acoes-resultado" class="linha-acoes acoes-resultado" hidden>
+        <button type="button" id="nova-pergunta" class="botao">Nova pergunta</button>
         <button type="button" id="imprimir" class="botao">Imprimir ou salvar em PDF</button>
         <button type="button" id="copiar-resposta" class="botao">Copiar a resposta</button>
         <span id="aviso-copia" class="ajuda" aria-live="polite"></span>
       </div>
-      <section id="sugestoes-intencao" class="cartao sugestoes-intencao" aria-live="polite" hidden></section>
-      <div id="resultado" class="resultado" aria-live="polite"></div>
+
+      <form id="form-consulta" class="compositor" novalidate>
+        <label for="pergunta" class="rotulo-oculto">Sua dúvida sobre o exercício profissional</label>
+        <div class="caixa-compositor">
+          <textarea id="pergunta" name="pergunta" rows="1" required aria-describedby="ajuda-pergunta"
+            placeholder="Escreva sua dúvida, sem dados que identifiquem pessoas…"></textarea>
+          <button type="submit" id="consultar" class="botao-enviar" aria-label="Consultar">Consultar</button>
+        </div>
+        <p id="ajuda-pergunta" class="rodape-compositor">
+          <strong>Não escreva dados sensíveis.</strong> A busca roda no seu aparelho; a pergunta só vai à IA (Gemini, do Google, nível gratuito) se você ativar a explicação.
+          Respostas automáticas e não conferidas, que não substituem o CFESS, os CRESS e as demais instituições da categoria.
+          <span id="estado-chat" class="estado-ia" aria-live="polite"></span>
+          <span class="dica-teclado">Enter envia · Shift+Enter quebra a linha.</span>
+        </p>
+        <span id="estado-ia" class="estado-ia" aria-live="polite" hidden></span>
+        <span id="estado-sentido" class="estado-ia" aria-live="polite" hidden></span>
+      </form>
+
+      <details class="configuracoes">
+        <summary>Configurações e detalhes técnicos</summary>
+        <p class="aviso">Ferramenta <strong>independente</strong> de pesquisa documental do GPECSS. Não é manifestação do CFESS
+          ou de qualquer CRESS e não substitui orientação, fiscalização ou parecer dos órgãos competentes.</p>
+        <details id="painel-sentido" class="cartao painel-ia">
+          <summary>IA leve da PraxIA: entende a pergunta escrita com outras palavras (120 MB, baixa uma vez, roda em qualquer computador)</summary>
+          <div id="conteudo-sentido"></div>
+        </details>
+        <details id="painel-ia" class="cartao painel-ia">
+          <summary>Análise por IA no meu dispositivo (opcional; IA completa, só em computador com placa de vídeo)</summary>
+          <div id="conteudo-ia"></div>
+        </details>
+        <details class="etapas-tecnicas"><summary>Etapas da última consulta</summary>
+          <div id="progresso" class="progresso" aria-live="polite"></div>
+        </details>
+      </details>
     </section>
 
     <section id="painel-biblioteca" role="tabpanel" aria-labelledby="aba-biblioteca" hidden>

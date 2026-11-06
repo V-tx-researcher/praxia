@@ -43,3 +43,8 @@ test("texto da IA vira partes seguras; só referências existentes viram link", 
   assert.ok(!JSON.stringify(p).includes("**"));
   assert.equal(p[1].at(-1).valor, "O1");
 });
+
+test("grupos de referências como [E2, E4] viram dois links", () => {
+  const p = partesDoTexto("Veja [E2, E4].", new Set(["E2", "E4"]));
+  assert.deepEqual(p[0].filter((x) => x.tipo === "ref").map((x) => x.valor), ["E2", "E4"]);
+});
