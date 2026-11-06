@@ -337,7 +337,7 @@ diferentes. (1) `app/js/nucleo/categorias.js` define categorias (leis e decretos
 resoluções, orientações normativas, notas técnicas e pareceres, cartilhas e documentos de orientação,
 formação e base teórica, outros), feitas para receber tipos novos sem mexer na busca. A resposta ganha
 o bloco "O mais próximo em cada tipo de documento", com o link de acesso oficial. A busca não muda.
-(2) Os bancos V1–V10 foram juntados fora do app (Desktop\PRAXIA_CONSOLIDACAO_V1_V10): 4.086
+(2) Os bancos V1–V10 foram juntados fora do app (OneDrive\SubCOFI\LLM PraxIA\Banco_perguntas_V1_V10): 4.086
 perguntas únicas, das quais 3.678 seguem modelo fixo. As 236 restantes (trecho literal encontrado,
 documento não revogado) completam as sugestões do seletor, com o selo "pergunta ainda não revisada",
 limiar 0,40 (0 de 20 casos fora do escopo com sugestão) e nenhuma resposta transferida.

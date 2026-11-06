@@ -7,7 +7,7 @@ Uso: python scripts/gerar_candidatas_seletor.py [pasta_consolidacao]"""
 import csv, json, sys
 from pathlib import Path
 
-PASTA = Path(sys.argv[1] if len(sys.argv) > 1 else r"C:\Users\Usuario\Desktop\PRAXIA_CONSOLIDACAO_V1_V10")
+PASTA = Path(sys.argv[1] if len(sys.argv) > 1 else r"C:\Users\Usuario\OneDrive\SubCOFI\LLM PraxIA\Banco_perguntas_V1_V10")
 SAIDA = Path(__file__).resolve().parent.parent / "app/js/seletor/candidatas.js"
 
 linhas = list(csv.DictReader(open(PASTA / "01_PERGUNTAS_CONSOLIDADAS.csv", encoding="utf-8-sig"), delimiter=";"))
