@@ -15,7 +15,8 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[1]
 ORIGEM = RAIZ / "app"
 DESTINO = RAIZ / "publicar"
-EXCLUIR = {"dev", "acervo-previa.json", "semantica-previa.json", "interpretacao-previa.json"}
+# candidatas.js: perguntas V1–V10 NÃO revisadas (D45); só saem do teste local depois da revisão.
+EXCLUIR = {"dev", "acervo-previa.json", "semantica-previa.json", "interpretacao-previa.json", "candidatas.js"}
 
 
 def main() -> int:

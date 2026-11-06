@@ -1007,6 +1007,10 @@ function renderizarTransparencia() {
       el("p", {}, "Documentos novos passam por coleta automática nos portais oficiais e só são publicados após conferência humana de texto, metadados e vigência."),
       el("h3", {}, "Inteligência artificial"),
       el("p", {}, "O modo documental (trechos comprobatórios literais) não usa inteligência artificial. A análise interpretativa por IA é opcional e só funciona se você a ativar no painel \"Análise por IA no meu dispositivo\", que mostra antes as exigências do modelo e o que o seu aparelho oferece. O modelo roda no seu navegador; a pergunta não é enviada a servidores. Você pode desativá-la e remover os arquivos baixados a qualquer momento."),
+      chatAtivo() ? el("p", {}, "Chat (opcional e gratuito): só quando você pede e confirma o aviso, a pergunta e até 8 trechos oficiais já encontrados " +
+        "são enviados ao Gemini, do Google, no nível gratuito, por um intermediário que não guarda perguntas nem respostas. No nível gratuito o Google pode usar o " +
+        "conteúdo para melhorar os próprios produtos; por isso, nunca escreva dados sensíveis. Há limites diários para o serviço continuar gratuito para todos. " +
+        "As respostas do chat são automáticas, não conferidas, e não substituem as respostas do CFESS, dos CRESS e das demais instituições da categoria.") : null,
       modelo
         ? el("p", {}, `Ativa neste dispositivo: ${modelo.rotulo} (licença ${modelo.licenca}), executado com WebLLM.`)
         : el("p", {}, CONFIG.llm.permitirAtivacao
@@ -1016,7 +1020,7 @@ function renderizarTransparencia() {
       el("h3", {}, "Privacidade"),
       el("ul", { classe: "lista-simples" },
         el("li", {}, "Sem cadastro, sem cookies de rastreamento e sem ferramentas de análise de audiência."),
-        el("li", {}, "A pergunta é processada no seu navegador e não é armazenada nem enviada a servidores."),
+        el("li", {}, chatAtivo() ? "A busca é feita no seu navegador e a pergunta não é armazenada. Ela só é enviada (ao Gemini, do Google) se você pedir a explicação pelo chat e confirmar o aviso." : "A pergunta é processada no seu navegador e não é armazenada nem enviada a servidores."),
         el("li", {}, "Dados que pareçam identificar pessoas (CPF, telefone, e-mail, nomes após termos como \"usuária\" ou \"paciente\") são mascarados antes da análise.")),
       el("h3", {}, "Limitações conhecidas"),
       el("ul", { classe: "lista-simples" },

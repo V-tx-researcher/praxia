@@ -366,6 +366,12 @@ Instrumentos de 2019 (camada 2): a Fase 1 não precisou de download. Os trechos 
 aparecer em "Leis e decretos" (a categoria considera a parte do documento). O Planalto recusa conexões
 a partir do ambiente de coleta; documentos que não puderem ser baixados são listados para o responsável.
 
+**D48 — 06/11/2026 — Publicação do chat e das categorias.** A pedido do responsável ("a PraxIA está pronta
+como agente"), `CONFIG.chat.ativo: true` e o ramo `dev-categorias` vai ao master (GitHub Pages). Os textos de
+privacidade passam a dizer que a pergunta só sai do aparelho se a pessoa pedir a explicação pelo chat e
+confirmar o aviso. As 236 perguntas não revisadas (D45) **não** são publicadas: `candidatas.js` fica
+excluído em `preparar_publicacao.py` e só aparece em teste local até a revisão.
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e

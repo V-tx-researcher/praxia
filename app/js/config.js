@@ -9,7 +9,7 @@ export const CONFIG = {
   // D46: chat gratuito (Gemini nível gratuito via Cloudflare Worker, sem faturamento).
   // ativo: "local" = só em teste local; true = público (exige autorização); false = desligado.
   chat: {
-    ativo: "local",
+    ativo: true,
     endpoint: "https://praxia-chat.v-araujonew1997.workers.dev/",
     limiteDiario: 10,        // explicações por dia por navegador (o intermediário também limita: 15/pessoa, 400/dia no total)
     intervaloSegundos: 30,   // espera mínima entre pedidos
