@@ -6,6 +6,14 @@ export const CONFIG = {
   seletorIntencoes: true,          // false desliga o seletor imediatamente
   seletorModo: "C",                // "C" = ajuste contextual validado; "A" = seletor original (limiar 0,25)
   seletorCandidatas: "local",      // D45: perguntas do banco V1–V10 não revisadas; "local" = só em teste local; true = público (exige autorização)
+  // D46: chat gratuito (Gemini nível gratuito via Cloudflare Worker, sem faturamento).
+  // ativo: "local" = só em teste local; true = público (exige autorização); false = desligado.
+  chat: {
+    ativo: "local",
+    endpoint: "https://praxia-chat.v-araujonew1997.workers.dev/",
+    limiteDiario: 10,        // explicações por dia por navegador (o intermediário também limita: 15/pessoa, 400/dia no total)
+    intervaloSegundos: 30,   // espera mínima entre pedidos
+  },
   llm: {
     // D17: a análise por IA é ligada ou desligada pela própria pessoa, após ver o
     // diagnóstico do seu dispositivo. Na versão pública a ativação fica bloqueada

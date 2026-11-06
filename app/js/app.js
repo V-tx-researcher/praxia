@@ -8,6 +8,7 @@ import { linkPdf, motivoPrioridade, PRIORIDADES } from "./nucleo/evidencias.js";
 import { dataAcesso, referenciaABNT } from "./nucleo/referencia.js";
 import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
 import { maisProximoPorCategoria } from "./nucleo/categorias.js";
+import { bloqueioPrivacidade, montarTrechos, partesDoTexto, pedirExplicacao, situacaoLimite } from "./nucleo/chat.js";
 import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
 import { dobrarAcentos } from "./nucleo/texto.js";
 import { IndiceSemantico, MotorSemantico, TAMANHO_MODELO_MB } from "./nucleo/semantica.js";
@@ -741,8 +742,10 @@ function renderizarResposta(r) {
       el("p", { classe: "links-fonte" }, linkExterno(item.documento.fonteOficial || item.link, "Acesso oficial ao documento"))))),
     el("p", { classe: "ajuda" }, "Escolha automática do trecho mais parecido com a pergunta em cada tipo de documento. Não substitui a orientação do CFESS, dos CRESS e das demais entidades da categoria.")) : null;
 
+  const chat = blocoChat(r, fund, ori);
   for (const s of r.secoes) {
     if (s.id === "fundamentacao" && blocoCategorias) blocos.push(blocoCategorias);
+    if (s.id === "fundamentacao" && chat) blocos.push(chat);
     const sec = el("section", { "aria-labelledby": `t-${s.id}` }, el("h2", { id: `t-${s.id}` }, s.titulo));
     for (const p of s.paragrafos || []) sec.append(el("p", {}, p));
     if (s.afirmacoes) {
@@ -808,6 +811,69 @@ function renderizarResposta(r) {
   saida.replaceChildren(...blocos);
   saida.querySelector("h2")?.setAttribute("tabindex", "-1");
   saida.querySelector("h2")?.focus();
+}
+
+// ---------------------------------------------------------------- chat gratuito (D44/D46)
+function chatAtivo() {
+  const a = CONFIG.chat?.ativo;
+  return a === true || (a === "local" && ambienteLocal());
+}
+
+const AVISO_CHAT = "Não escreva, por hipótese alguma, dados sensíveis: nomes, documentos, números de processo, " +
+  "dados de saúde ou qualquer informação que identifique pessoas ou situações atendidas.";
+const RESSALVA_CHAT = "As respostas do chat não substituem, de nenhuma maneira, as respostas diretas do CFESS, " +
+  "dos CRESS e das demais instituições representativas da categoria.";
+
+function blocoChat(r, fund, ori) {
+  if (!chatAtivo()) return null;
+  const trechos = montarTrechos(fund?.evidencias || [], ori?.orientacoes || []);
+  if (!trechos.length) return null;
+  const cfg = CONFIG.chat;
+  const saida = el("div", { classe: "chat-saida", "aria-live": "polite" });
+  const bloqueio = bloqueioPrivacidade($("#pergunta").value || r.pergunta);
+  const confirma = el("input", { type: "checkbox", id: "chat-confirma" });
+  const botao = el("button", { type: "button", classe: "botao", id: "chat-pedir", disabled: true }, "Pedir explicação à IA");
+  const situacao = el("p", { classe: "ajuda", id: "chat-situacao" });
+  const atualizar = () => {
+    const s = situacaoLimite(cfg);
+    botao.disabled = !!bloqueio || !confirma.checked || !s.pode;
+    situacao.textContent = bloqueio ? "" : s.pode ? `Restam ${s.restantes} explicação(ões) hoje neste navegador.` : s.motivo;
+  };
+  confirma.addEventListener("change", atualizar);
+  botao.addEventListener("click", async () => {
+    const s = situacaoLimite(cfg);
+    if (bloqueio || !confirma.checked || !s.pode) return atualizar();
+    botao.disabled = true;
+    botao.textContent = "Pedindo explicação…";
+    saida.replaceChildren(el("p", { classe: "ajuda" }, "Enviando a pergunta e os trechos selecionados ao serviço gratuito…"));
+    const resp = await pedirExplicacao(cfg, r.pergunta, trechos);
+    botao.textContent = "Pedir explicação à IA";
+    if (resp.erro) {
+      saida.replaceChildren(el("p", { classe: "alerta" }, resp.erro));
+    } else {
+      const ids = new Set(trechos.map((t) => t.id));
+      saida.replaceChildren(
+        el("p", {}, el("span", { classe: "selo nao-conferido" }, "resposta automática, não conferida")),
+        ...partesDoTexto(resp.texto, ids).map((par) => el("p", {}, ...par.map((p) => (p.tipo === "ref" ? botaoRef(p.valor) : p.valor)))),
+        el("p", { classe: "ajuda" }, `Gerada por IA (${resp.modelo}, Google) só com os trechos oficiais acima. Pode conter erros: confira sempre o texto oficial. ${RESSALVA_CHAT}`));
+    }
+    atualizar();
+    if (situacaoLimite(cfg).esperarSegundos) setTimeout(atualizar, cfg.intervaloSegundos * 1000 + 200);
+  });
+  atualizar();
+  return el("section", { classe: "cartao chat-praxia", "aria-labelledby": "t-chat" },
+    el("h2", { id: "t-chat" }, "Explicação pela IA (opcional e gratuita)"),
+    el("p", { classe: "alerta" }, el("strong", {}, "Atenção: "), AVISO_CHAT),
+    bloqueio ? el("p", { classe: "alerta" }, bloqueio) : null,
+    el("p", { classe: "ajuda" }, "A IA indica qual material oficial encontrado corresponde à sua dúvida. Ela não dá parecer. ",
+      `Ao pedir, sua pergunta e ${trechos.length} trecho(s) oficial(is) já selecionados são enviados ao Gemini, do Google, ` +
+      "no nível gratuito, em que o Google pode usar o conteúdo para melhorar os próprios produtos. Nada é guardado pela PraxIA. ",
+      RESSALVA_CHAT),
+    el("label", { classe: "chat-consentimento" }, confirma,
+      " Entendi o aviso, minha pergunta não tem dados sensíveis e quero enviá-la."),
+    el("div", { classe: "linha-acoes" }, botao),
+    situacao,
+    saida);
 }
 
 function renderizarExemplos() {

@@ -344,6 +344,19 @@ limiar 0,40 (0 de 20 casos fora do escopo com sugestão) e nenhuma resposta tran
 `seletorCandidatas: "local"`: só aparecem em teste local. Publicar exige autorização específica;
 a revisão humana vem depois.
 
+**D46 — 06/11/2026 — Chat gratuito (Gemini via Cloudflare), só em teste local.** Chave do Google AI
+Studio no **nível gratuito, sem faturamento** (nada pode ser cobrado), guardada como Secret num
+Cloudflare Worker do plano Free (`worker/praxia-chat.js`). O chat só indica o material oficial
+encontrado pela busca local (até 8 trechos; nunca o acervo inteiro), sem parecer, e termina sempre com
+a ressalva de que não substitui o CFESS, os CRESS e as demais instituições. Na página: aviso de dados
+sensíveis, explicação de que o conteúdo vai ao Google no nível gratuito, caixa de confirmação, bloqueio
+automático quando a pergunta parece conter dado que identifica pessoas, selo "resposta automática,
+não conferida". **Limites para a gratuidade não ser violada**: 10 explicações/dia e 30 s entre pedidos
+por navegador; no intermediário, 15/dia por pessoa (código embaralhado do endereço de rede, que não é
+gravado) e 400/dia no total, contados no KV gratuito (2 gravações por pedido, abaixo das 1.000/dia);
+se o contador falhar, o chat pausa (falha fechada). Modelo `gemini-flash-lite-latest`, com
+`gemini-flash-latest` de reserva. `CONFIG.chat.ativo: "local"`; publicar exige autorização específica.
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e
