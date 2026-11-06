@@ -5,11 +5,11 @@
 // Estratégia única: rede primeiro, com limite de espera; sem resposta, cópia local.
 // (Guardar o código e buscar a página na rede deixaria versões desencontradas.)
 // Versão nova não assume sozinha: a página mostra "Atualizar agora" (mensagem PULAR_ESPERA).
-const VERSAO = "gpecss-v0.12.0";
+const VERSAO = "gpecss-v0.13.0";
 const ESPERA_REDE_MS = 4000;
 const ESSENCIAIS = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",
-  "icones/icone.svg", "icones/icone-192.png", "icones/icone-512.png", "icones/icone-maskable-512.png",
+  "icones/icone-64.png", "icones/icone-192.png", "icones/icone-512.png", "icones/icone-maskable-512.png",
   "icones/apple-touch-icon.png",
   "js/app.js", "js/config.js", "js/tema.js",
   "js/nucleo/texto.js", "js/nucleo/sinonimos.js", "js/nucleo/busca.js", "js/nucleo/classificacao.js",
