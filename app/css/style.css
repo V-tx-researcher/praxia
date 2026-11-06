@@ -683,3 +683,42 @@ progress { width: 100%; height: 10px; accent-color: var(--acento); }
 .exemplos .exemplos-lista { flex-direction: column; align-items: center; gap: 6px; }
 .exemplos .exemplo { max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding: 6px 14px; }
 .exemplos .exemplos-lista li { max-width: 100%; }
+
+/* ================= Conversa limpa (D50) ================= */
+.boas-vindas { min-height: calc(100vh - 360px); display: flex; flex-direction: column; justify-content: center; padding: 0; }
+.boas-vindas .subtitulo { margin-bottom: 0; }
+.conversa { display: flex; flex-direction: column; }
+.balao-usuario { margin: 22px 0 10px auto; max-width: 80%; }
+.msg-praxia { margin: 4px 0 14px; padding: 0 2px; }
+.msg-texto p { margin: 0 0 10px; line-height: 1.7; font-size: 1.02rem; }
+.msg-texto .nota-ia { font-size: .78rem; color: var(--texto-suave); }
+.ref { display: inline-flex; align-items: center; margin: 0 2px; padding: 0 7px; height: 20px; border-radius: 999px; border: 1px solid var(--borda-forte);
+  background: var(--superficie); color: var(--primaria); font-size: .72rem; font-weight: 600; cursor: pointer; vertical-align: 2px; text-decoration: none; }
+.ref:hover { border-color: var(--primaria); }
+.fontes-titulo, .parecidas-titulo { font-size: .74rem; letter-spacing: .07em; text-transform: uppercase; color: var(--texto-suave); margin: 14px 0 6px; }
+.lista-fontes { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.fonte { border: 1px solid var(--borda); border-radius: 12px; padding: 9px 12px; background: var(--superficie); transition: border-color .2s; }
+.fonte.destacada { border-color: var(--primaria); }
+.fonte-cab { font-size: .9rem; line-height: 1.45; }
+.fonte-id { display: inline-block; min-width: 26px; margin-right: 6px; color: var(--primaria); font-weight: 700; font-size: .76rem; }
+.fonte-titulo { font-weight: 600; }
+.fonte-local { color: var(--texto-suave); font-size: .82rem; }
+.fonte-acoes { display: flex; gap: 16px; margin-top: 4px; font-size: .85rem; }
+.fonte-acoes a { color: var(--primaria); }
+.fonte-trecho { margin-top: 8px; font-size: .92rem; }
+.fonte-trecho blockquote { margin: 6px 0; }
+.parecidas { display: flex; flex-wrap: wrap; gap: 6px; }
+.parecidas .exemplo { border: 1px solid var(--borda); background: transparent; color: var(--texto); border-radius: 999px; padding: 5px 12px; font-size: .85rem; cursor: pointer; text-align: left; }
+.parecidas .exemplo:hover { background: var(--superficie); }
+.parecidas .selo { margin-left: 6px; font-size: .7rem; }
+.linha-nova-conversa { max-width: 780px; margin: 0 auto 6px; text-align: right; font-size: .82rem; min-height: 1px; }
+.rodape-compositor { font-size: .72rem; }
+.modo-conversa { padding-bottom: 170px; }
+#painel-sobre-ia { max-width: 780px; margin: 0 auto; }
+#painel-sobre-ia .cartoes-info { margin: 14px 0 20px; }
+@media (max-width: 720px) {
+  .boas-vindas { min-height: calc(100vh - 380px); }
+  .balao-usuario { max-width: 90%; }
+  .modo-conversa { padding-bottom: 190px; }
+}
+@media print { .linha-nova-conversa, .parecidas, .parecidas-titulo, .fonte-acoes button { display: none !important; } }

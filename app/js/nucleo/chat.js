@@ -38,20 +38,39 @@ export function bloqueioPrivacidade(pergunta) {
 }
 
 // Trechos na ordem de relevância: primeiro os que se aplicam, depois orientações; fora os "provavelmente não se aplica".
-export function montarTrechos(evidencias = [], orientacoes = []) {
-  const local = (e) => (["trecho", "apresentacao", "anexo"].includes(e.tipo) ? `p. ${e.pagina}` : e.rotulo);
+export const localDe = (e) => (["trecho", "apresentacao", "anexo"].includes(e.tipo) ? `p. ${e.pagina}` : e.rotulo);
+
+// As fontes de uma resposta (objetos de evidência completos, para exibir trecho e link).
+export function escolherFontes(evidencias = [], orientacoes = []) {
   const ordem = { principal: 0, relacionada: 1 };
   const normas = evidencias.filter((e) => e.prioridade !== "complementar")
     .sort((a, b) => (ordem[a.prioridade] ?? 1) - (ordem[b.prioridade] ?? 1));
   const lista = [...normas.slice(0, 5), ...orientacoes.slice(0, 3)];
   for (const e of normas.slice(5)) if (lista.length < MAX_TRECHOS) lista.push(e);
-  return lista.slice(0, MAX_TRECHOS).map((e) => {
-    const cat = categoriaDe(e.documento, e.parte);
-    // Lei publicada dentro de outro documento (ex.: Lei 8.662/1993 no livreto do Código de Ética):
-    // a IA deve citar a lei, não o livreto.
-    const documento = cat.id === "lei" && e.parte ? `${e.parte} (texto publicado em: ${e.documento.titulo})` : e.documento.titulo;
-    return { id: e.id, categoria: cat.rotulo, documento, local: local(e), texto: e.texto };
-  });
+  return lista.slice(0, MAX_TRECHOS);
+}
+
+// Nome da fonte: lei publicada dentro de outro documento (ex.: Lei 8.662/1993 no livreto do Código
+// de Ética) aparece com o nome da lei, não do livreto.
+export function tituloFonte(e) {
+  return categoriaDe(e.documento, e.parte).id === "lei" && e.parte ? e.parte : e.documento.titulo;
+}
+
+export function paraTrecho(e) {
+  const cat = categoriaDe(e.documento, e.parte);
+  const documento = cat.id === "lei" && e.parte ? `${e.parte} (texto publicado em: ${e.documento.titulo})` : e.documento.titulo;
+  return { id: e.id, categoria: cat.rotulo, documento, local: localDe(e), texto: e.texto };
+}
+
+export function montarTrechos(evidencias = [], orientacoes = []) {
+  return escolherFontes(evidencias, orientacoes).map(paraTrecho);
+}
+
+// Identificadores citados pela IA, na ordem em que aparecem.
+export function idsCitados(texto, idsValidos) {
+  const vistos = [];
+  for (const m of String(texto).matchAll(/[EO]\d{1,2}/g)) if (idsValidos.has(m[0]) && !vistos.includes(m[0])) vistos.push(m[0]);
+  return vistos;
 }
 
 export async function pedirExplicacao(cfg, pergunta, trechos) {

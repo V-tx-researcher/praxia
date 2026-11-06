@@ -382,6 +382,16 @@ desativar no rodapé; com ele, a explicação é pedida em cada pergunta, respei
 Leis publicadas dentro de outro documento vão à IA com o nome da lei. Painéis de IA leve e completa e as
 etapas técnicas ficam em "Configurações e detalhes técnicos".
 
+**D50 — 06/11/2026 — Consulta como chat de IA, sem poluição.** A pedido do responsável, a aba Consulta
+mostra só a conversa: saudação curta, histórico de perguntas (balões) e respostas com rolagem, e a caixa de
+pergunta fixa embaixo com um aviso de uma linha ("Saiba mais"). Cada resposta traz a explicação da IA com
+referências clicáveis e, embaixo, só as fontes que ela citou (ou as encontradas, sem IA), cada uma com "Ver
+trecho" (texto literal, contexto e alerta de vigência) e "Abrir documento oficial"; perguntas parecidas
+ficam discretas no fim. Quadros de "o que faz / limites / cuidado", privacidade, limites gratuitos,
+estado do consentimento e configurações técnicas vão para a nova aba "Sobre a IA". Sem a IA (recusa,
+limite, falha ou dados que identificam pessoas), a resposta mostra os documentos mais próximos.
+O histórico existe só na aba aberta; nada é gravado.
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e

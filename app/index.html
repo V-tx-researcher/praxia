@@ -39,6 +39,7 @@
       <nav aria-label="Seções">
         <ul class="abas" role="tablist">
           <li><button role="tab" id="aba-consulta" aria-controls="painel-consulta" aria-selected="true">Consulta</button></li>
+          <li><button role="tab" id="aba-sobre-ia" aria-controls="painel-sobre-ia" aria-selected="false" tabindex="-1">Sobre a IA</button></li>
           <li><button role="tab" id="aba-biblioteca" aria-controls="painel-biblioteca" aria-selected="false" tabindex="-1">Biblioteca normativa</button></li>
           <li><button role="tab" id="aba-guia" aria-controls="painel-guia" aria-selected="false" tabindex="-1">Como usar</button></li>
           <li><button role="tab" id="aba-sobre" aria-controls="painel-sobre" aria-selected="false" tabindex="-1">Sobre e transparência</button></li>
@@ -66,48 +67,43 @@
     <section id="painel-consulta" class="modo-conversa" role="tabpanel" aria-labelledby="aba-consulta">
       <div id="boas-vindas" class="boas-vindas">
         <h2 class="saudacao">Tem norma para isso?</h2>
-        <p class="subtitulo">Pergunte sobre o exercício profissional do Serviço Social. A PraxIA procura nos documentos oficiais
-          do CFESS, dos CRESS e da ABEPSS, indica o que pode se aplicar e leva você ao texto oficial.</p>
-        <ul class="cartoes-info" aria-label="Antes de usar">
-          <li><strong>O que faz</strong><span>Encontra leis, Código de Ética, resoluções, notas técnicas, pareceres e materiais de formação ligados à sua dúvida, com link oficial.</span></li>
-          <li><strong>Limites</strong><span>Respostas automáticas, não conferidas e sempre prudentes. Não é parecer e não substitui o CFESS, os CRESS e as demais instituições da categoria.</span></li>
-          <li class="cuidado"><strong>Cuidado</strong><span>Nunca escreva dados sensíveis: nomes, documentos, números de processo, dados de saúde ou qualquer informação que identifique pessoas.</span></li>
-        </ul>
-        <div id="exemplos" class="exemplos"><div id="lista-exemplos"></div></div>
+        <p class="subtitulo">Pergunte sobre o exercício profissional do Serviço Social.</p>
       </div>
-
       <p id="carregando" class="ajuda" role="status" hidden></p>
-      <div id="mensagem-usuario" class="balao-usuario" hidden></div>
-      <section id="sugestoes-intencao" class="sugestoes-intencao" aria-live="polite" hidden></section>
-      <div id="resultado" class="resultado" aria-live="polite"></div>
-      <div id="acoes-resultado" class="linha-acoes acoes-resultado" hidden>
-        <button type="button" id="nova-pergunta" class="botao">Nova pergunta</button>
-        <button type="button" id="imprimir" class="botao">Imprimir ou salvar em PDF</button>
-        <button type="button" id="copiar-resposta" class="botao">Copiar a resposta</button>
-        <span id="aviso-copia" class="ajuda" aria-live="polite"></span>
-      </div>
+      <div id="conversa" class="conversa" aria-live="polite"></div>
 
       <form id="form-consulta" class="compositor" novalidate>
+        <div class="linha-nova-conversa"><button type="button" id="nova-conversa" class="link-botao" hidden>Nova conversa</button></div>
         <label for="pergunta" class="rotulo-oculto">Sua dúvida sobre o exercício profissional</label>
         <div class="caixa-compositor">
           <textarea id="pergunta" name="pergunta" rows="1" required aria-describedby="ajuda-pergunta"
-            placeholder="Escreva sua dúvida, sem dados que identifiquem pessoas…"></textarea>
-          <button type="submit" id="consultar" class="botao-enviar" aria-label="Consultar">Consultar</button>
+            placeholder="Pergunte à PraxIA…"></textarea>
+          <button type="submit" id="consultar" class="botao-enviar" aria-label="Enviar">Enviar</button>
         </div>
-        <p id="ajuda-pergunta" class="rodape-compositor">
-          <strong>Não escreva dados sensíveis.</strong> A busca roda no seu aparelho; a pergunta só vai à IA (Gemini, do Google, nível gratuito) se você ativar a explicação.
-          Respostas automáticas e não conferidas, que não substituem o CFESS, os CRESS e as demais instituições da categoria.
-          <span id="estado-chat" class="estado-ia" aria-live="polite"></span>
-          <span class="dica-teclado">Enter envia · Shift+Enter quebra a linha.</span>
-        </p>
-        <span id="estado-ia" class="estado-ia" aria-live="polite" hidden></span>
-        <span id="estado-sentido" class="estado-ia" aria-live="polite" hidden></span>
+        <p id="ajuda-pergunta" class="rodape-compositor">Não escreva dados sensíveis. A PraxIA pode errar e não substitui o CFESS, os CRESS e as demais instituições da categoria.
+          <button type="button" class="link-botao" id="saiba-mais">Saiba mais</button></p>
       </form>
+    </section>
 
+    <section id="painel-sobre-ia" role="tabpanel" aria-labelledby="aba-sobre-ia" hidden>
+      <h2>Sobre a IA da PraxIA</h2>
+      <ul class="cartoes-info" aria-label="Antes de usar">
+        <li><strong>O que faz</strong><span>Procura nos documentos oficiais do CFESS, dos CRESS e da ABEPSS (leis, Código de Ética, resoluções, notas técnicas, pareceres e materiais de formação), responde com cautela e mostra as fontes, com o trecho e o link do documento original.</span></li>
+        <li><strong>Limites</strong><span>Respostas automáticas e não conferidas, sempre em tom de possibilidade. Não é parecer e não substitui, de nenhuma maneira, as respostas diretas do CFESS, dos CRESS e das demais instituições representativas da categoria.</span></li>
+        <li class="cuidado"><strong>Cuidado</strong><span>Nunca escreva dados sensíveis: nomes, documentos, números de processo, dados de saúde ou qualquer informação que identifique pessoas ou situações atendidas.</span></li>
+      </ul>
+      <h3>Privacidade e uso gratuito</h3>
+      <p>A busca nos documentos roda no seu aparelho e a pergunta não é armazenada. A explicação pela IA só acontece se você a ativar:
+        nesse caso, a pergunta e até 8 trechos oficiais já encontrados vão ao Gemini, do Google, no nível gratuito, em que o Google pode usar o conteúdo
+        para melhorar os próprios produtos. A PraxIA não guarda perguntas nem respostas. Perguntas que parecem conter dados que identificam pessoas não são enviadas.</p>
+      <p>Para continuar gratuita para todos, há limites: até 10 explicações por dia em cada navegador, com 30 segundos entre uma e outra, e um limite diário geral. Quando o limite acaba, a PraxIA continua mostrando os documentos.</p>
+      <p id="estado-chat" class="estado-ia" aria-live="polite"></p>
+      <p class="aviso">Ferramenta <strong>independente</strong> de pesquisa documental do GPECSS. Não é manifestação do CFESS
+        ou de qualquer CRESS e não substitui orientação, fiscalização ou parecer dos órgãos competentes.</p>
       <details class="configuracoes">
         <summary>Configurações e detalhes técnicos</summary>
-        <p class="aviso">Ferramenta <strong>independente</strong> de pesquisa documental do GPECSS. Não é manifestação do CFESS
-          ou de qualquer CRESS e não substitui orientação, fiscalização ou parecer dos órgãos competentes.</p>
+        <span id="estado-ia" class="estado-ia" aria-live="polite"></span>
+        <span id="estado-sentido" class="estado-ia" aria-live="polite"></span>
         <details id="painel-sentido" class="cartao painel-ia">
           <summary>IA leve da PraxIA: entende a pergunta escrita com outras palavras (120 MB, baixa uma vez, roda em qualquer computador)</summary>
           <div id="conteudo-sentido"></div>

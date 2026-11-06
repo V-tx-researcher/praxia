@@ -49,10 +49,11 @@ test("consulta curta não gera sugestões (continua com a busca original)", () =
 
 test("app: seletor só refaz a busca; não importa vínculos nem exibe respostas", () => {
   const app = fs.readFileSync(path.join(RAIZ, "app/js/app.js"), "utf8");
-  const bloco = app.slice(app.indexOf("// ---------------------------------------------------------------- seletor de intenções"), app.indexOf("async function aoConsultar"));
+  const bloco = app.slice(app.indexOf("// ---------------------------------------------------------------- seletor de intenções"), app.indexOf("// ---------------------------------------------------------------- conversa"));
   assert.match(bloco, /useUnreviewedVariants: false/);
   assert.ok(!/vincul|unidade|fundament|resposta/i.test(bloco.replace(/nenhum vínculo\s+\/\/ ou fundamento|nenhuma resposta pronta|nenhum vínculo|ou fundamento/g, "")), "o seletor não deve tocar em vínculos ou respostas");
-  assert.match(bloco, /enviarFormulario\(\$\("#form-consulta"\)\)/);
+  // D50: a sugestão escolhida ("Perguntas parecidas", na conversa) só refaz a mesma busca com a pergunta escolhida.
+  assert.match(app, /parecidas\.map\(\(s\) => el\("button", \{ type: "button", classe: "exemplo", onclick: \(\) => \{ \$\("#pergunta"\)\.value = s\.q; enviarFormulario\(\$\("#form-consulta"\)\); \}/);
 });
 
 test("modo C (contexto.js): sondas de teste nunca são sugeridas; sem repetição; desligável por configuração", () => {

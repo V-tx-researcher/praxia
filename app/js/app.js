@@ -8,7 +8,8 @@ import { linkPdf, motivoPrioridade, PRIORIDADES } from "./nucleo/evidencias.js";
 import { dataAcesso, referenciaABNT } from "./nucleo/referencia.js";
 import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
 import { maisProximoPorCategoria } from "./nucleo/categorias.js";
-import { bloqueioPrivacidade, montarTrechos, partesDoTexto, pedirExplicacao, situacaoLimite } from "./nucleo/chat.js";
+import { bloqueioPrivacidade, escolherFontes, idsCitados, localDe, paraTrecho, partesDoTexto, pedirExplicacao, situacaoLimite, tituloFonte } from "./nucleo/chat.js";
+import { categoriaDe } from "./nucleo/categorias.js";
 import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
 import { dobrarAcentos } from "./nucleo/texto.js";
 import { IndiceSemantico, MotorSemantico, TAMANHO_MODELO_MB } from "./nucleo/semantica.js";
@@ -580,98 +581,169 @@ function carregarCandidatas() {
   document.head.append(el("script", { src: "js/seletor/candidatas.js", "data-candidatas": "1" }));
 }
 
-function renderizarSugestoes(pergunta) {
-  const caixa = $("#sugestoes-intencao");
-  if (seletor.origem) {
-    const original = seletor.origem;
-    seletor.origem = null;
-    caixa.hidden = false;
-    caixa.replaceChildren(el("p", { classe: "ajuda" }, "Busca feita com a pergunta que você confirmou. Sua pergunta original: “",
-      original, "”. ", el("button", { type: "button", classe: "botao", id: "voltar-pergunta", onclick: () => {
-        $("#pergunta").value = original; enviarFormulario($("#form-consulta"));
-      } }, "Voltar à minha pergunta")));
-    return;
-  }
-  const lista = sugestoesIntencao(pergunta).filter((s) => s.q.trim() !== pergunta.trim());
-  if (!lista.length) { caixa.hidden = true; caixa.replaceChildren(); return; }
-  caixa.hidden = false;
-  caixa.replaceChildren(
-    el("h2", {}, "Você quis perguntar sobre…"),
-    el("p", { classe: "ajuda" }, "O resultado abaixo usa a sua pergunta. Se uma destas descreve melhor a sua dúvida, confirme para buscar de novo com ela."),
-    ...lista.map((s) => el("button", { type: "button", classe: `botao sugestao-intencao${s.naoRevisada ? " nao-revisada" : ""}`, "data-intencao": s.id, onclick: () => {
-      seletor.origem = pergunta;
-      $("#pergunta").value = s.q;
-      enviarFormulario($("#form-consulta"));
-    } }, s.q, s.naoRevisada ? el("span", { classe: "selo nao-conferido" }, "pergunta ainda não revisada") : null)),
-    el("button", { type: "button", classe: "botao", id: "manter-pergunta", onclick: () => { caixa.hidden = true; caixa.replaceChildren(); } },
-      "Continuar com minha pergunta"));
-}
+// ---------------------------------------------------------------- conversa (D50)
+// Tela de assistente: histórico de perguntas e respostas nesta aba (nada é gravado). Cada resposta
+// traz a explicação da IA (se ativada) e, embaixo, só as fontes usadas, com o trecho literal e o
+// link do documento original.
+const conversa = { n: 0 };
 
 async function aoConsultar(ev) {
   ev.preventDefault();
   const pergunta = $("#pergunta").value.trim();
-  const saida = $("#resultado");
-  if (pergunta.length < 8) {
-    saida.replaceChildren(el("p", { classe: "alerta" }, "Digite uma pergunta com pelo menos algumas palavras."));
-    $("#pergunta").focus();
-    return;
-  }
-  if (!estado.indice) {
-    saida.replaceChildren(el("p", { classe: "alerta" }, "O acervo ainda está carregando. Tente de novo em alguns segundos."));
-    return;
-  }
-  if (!estado.acervo.unidades.length) {
-    saida.replaceChildren(el("p", { classe: "alerta" },
-      "O acervo de normas não foi carregado, por isso não há onde pesquisar. Verifique a conexão e recarregue a página."));
-    return;
-  }
+  const area = $("#conversa");
+  const avisar = (texto) => {
+    area.append(el("div", { classe: "msg-praxia" }, el("p", { classe: "ajuda" }, texto)));
+    area.lastElementChild.scrollIntoView({ block: "end", behavior: "smooth" });
+  };
+  if (pergunta.length < 8) { $("#pergunta").focus(); return avisar("Escreva a dúvida com um pouco mais de palavras."); }
+  if (!estado.indice) return avisar("O acervo ainda está carregando. Tente de novo em alguns segundos.");
+  if (!estado.acervo.unidades.length) return avisar("O acervo não foi carregado. Verifique a conexão e recarregue a página.");
   const botao = $("#consultar");
   botao.disabled = true;
-  botao.textContent = "Consultando…";
   estado.ultimaPergunta = pergunta;
-  saida.replaceChildren(el("p", { classe: "pensando" }, "Procurando nos documentos oficiais…"));
-  $("#acoes-resultado").hidden = true;
   $("#boas-vindas").hidden = true;
-  const balao = $("#mensagem-usuario");
-  balao.textContent = pergunta;
-  balao.hidden = false;
+  $("#nova-conversa").hidden = false;
+  area.append(el("div", { classe: "balao-usuario" }, pergunta));
+  const msg = el("div", { classe: "msg-praxia" }, el("p", { classe: "pensando" }, "Procurando nos documentos oficiais…"));
+  area.append(msg);
+  msg.scrollIntoView({ block: "start", behavior: "smooth" });
   $("#pergunta").value = "";
   ajustarAltura();
   const lista = el("ol");
   $("#progresso").replaceChildren(el("p", {}, "Etapas da análise:"), lista);
   try {
     const r = await consultar(estado.indice, pergunta, {
-      motorLLM: estado.motor,
       semantica: estado.semantica,
       interpretacao: estado.interpretacao,
       aoProgresso: (nome, detalhe) => lista.append(el("li", {}, `${nome}: ${detalhe}`)),
     });
-    if (ambienteLocal()) window.ultimasEtapas = r.etapas; // diagnóstico em teste local (scripts/testar_ia_app.mjs)
-    renderizarResposta(r);
-    renderizarSugestoes(pergunta);
-    $("#acoes-resultado").hidden = false;
-    $("#aviso-copia").textContent = "";
+    if (ambienteLocal()) window.ultimasEtapas = r.etapas; // diagnóstico em teste local
+    renderizarMensagem(msg, r, pergunta);
   } catch (erro) {
-    saida.replaceChildren(el("p", { classe: "alerta" }, `Não foi possível concluir a consulta: ${erro.message}`));
+    msg.replaceChildren(el("p", { classe: "alerta" }, `Não foi possível concluir a consulta: ${erro.message}`));
   } finally {
     botao.disabled = false;
-    botao.textContent = "Consultar";
+    $("#pergunta").focus();
   }
 }
 
 function ajustarAltura() {
   const t = $("#pergunta");
   t.style.height = "auto";
-  t.style.height = `${Math.min(t.scrollHeight, 220)}px`;
+  t.style.height = `${Math.min(t.scrollHeight, 200)}px`;
 }
 
-function novaPergunta() {
-  $("#resultado").replaceChildren();
-  $("#sugestoes-intencao").hidden = true;
-  $("#mensagem-usuario").hidden = true;
-  $("#acoes-resultado").hidden = true;
+function novaConversa() {
+  $("#conversa").replaceChildren();
   $("#boas-vindas").hidden = false;
+  $("#nova-conversa").hidden = true;
   $("#pergunta").focus();
+}
+
+function abrirFonte(pref, id) {
+  const alvo = document.getElementById(`${pref}-${id}`);
+  if (!alvo) return;
+  const trecho = alvo.querySelector(".fonte-trecho");
+  if (trecho) { trecho.hidden = false; alvo.querySelector(".ver-trecho")?.setAttribute("aria-expanded", "true"); }
+  document.querySelectorAll(".fonte.destacada").forEach((x) => x.classList.remove("destacada"));
+  alvo.classList.add("destacada");
+  alvo.scrollIntoView({ block: "center", behavior: "smooth" });
+}
+
+function itemFonte(pref, e) {
+  const revogada = e.situacaoDispositivo || ["revogada", "suspensa"].includes(e.documento.situacao);
+  const trecho = el("div", { classe: "fonte-trecho", hidden: true },
+    e.contexto?.length ? e.contexto.map((c) => el("p", { classe: "contexto" }, c.texto)) : null,
+    el("blockquote", { classe: "trecho", cite: e.link }, e.texto),
+    revogada ? el("p", { classe: "alerta" }, "Atenção à vigência: ", e.notaDispositivo || e.documento.situacaoRotulo || "") : null,
+    e.documento.fonteOficial ? el("p", {}, linkExterno(e.documento.fonteOficial, "Página oficial do documento")) : null);
+  const ver = el("button", { type: "button", classe: "link-botao ver-trecho", "aria-expanded": "false", onclick: () => {
+    trecho.hidden = !trecho.hidden; ver.setAttribute("aria-expanded", String(!trecho.hidden));
+  } }, "Ver trecho");
+  return el("li", { classe: "fonte", id: `${pref}-${e.id}` },
+    el("div", { classe: "fonte-cab" },
+      el("span", { classe: "fonte-id" }, e.id),
+      el("span", { classe: "fonte-titulo" }, tituloFonte(e)),
+      el("span", { classe: "fonte-local" }, ` · ${localDe(e)} · ${categoriaDe(e.documento, e.parte).rotulo}`)),
+    el("div", { classe: "fonte-acoes" }, ver, linkExterno(e.link || e.documento.fonteOficial, "Abrir documento oficial")),
+    trecho);
+}
+
+function renderizarMensagem(msg, r, pergunta) {
+  const pref = `m${++conversa.n}`;
+  const fund = r.secoes.find((s) => s.id === "fundamentacao");
+  const ori = r.secoes.find((s) => s.id === "orientacoes");
+  const fontes = escolherFontes(fund?.evidencias || [], ori?.orientacoes || []);
+  const corpo = el("div", { classe: "msg-texto" });
+  const blocoFontes = el("div", { classe: "fontes" });
+  const extras = el("div", { classe: "msg-extras" });
+  msg.replaceChildren(corpo, blocoFontes, extras);
+
+  if (!fontes.length) {
+    corpo.append(el("p", {}, "Não encontrei, nos documentos oficiais da PraxIA, um trecho que trate diretamente disso. " +
+      "Tente escrever de outro jeito ou procure o CRESS da sua região."));
+    return;
+  }
+  const mostrarFontes = (citadas) => {
+    const lista = citadas?.length ? citadas.map((id) => fontes.find((f) => f.id === id)).filter(Boolean) : fontes;
+    blocoFontes.replaceChildren(el("p", { classe: "fontes-titulo" }, "Fontes"),
+      el("ol", { classe: "lista-fontes" }, lista.map((e) => itemFonte(pref, e))));
+  };
+  const semIA = (texto) => { corpo.replaceChildren(el("p", {}, texto)); mostrarFontes(null); };
+  const ids = new Set(fontes.map((f) => f.id));
+  const cfg = CONFIG.chat;
+
+  // Perguntas parecidas (seletor): discretas, no fim da resposta.
+  const parecidas = sugestoesIntencao(pergunta).filter((s) => s.q.trim().toLowerCase() !== pergunta.trim().toLowerCase());
+  if (parecidas.length) {
+    extras.append(el("p", { classe: "parecidas-titulo" }, "Perguntas parecidas"), el("div", { classe: "parecidas" },
+      parecidas.map((s) => el("button", { type: "button", classe: "exemplo", onclick: () => { $("#pergunta").value = s.q; enviarFormulario($("#form-consulta")); } },
+        s.q, s.naoRevisada ? el("span", { classe: "selo nao-conferido" }, "não revisada") : null))));
+  }
+
+  const pedir = async () => {
+    const s = situacaoLimite(cfg);
+    if (!s.pode) return semIA(`${s.motivo} Enquanto isso, estes são os documentos oficiais mais próximos da sua pergunta:`);
+    corpo.replaceChildren(el("p", { classe: "pensando" }, "Lendo os trechos oficiais encontrados…"));
+    blocoFontes.replaceChildren();
+    const resp = await pedirExplicacao(cfg, r.pergunta, fontes.map(paraTrecho));
+    if (resp.erro) return semIA(`${resp.erro} Estes são os documentos oficiais mais próximos da sua pergunta:`);
+    corpo.replaceChildren(
+      ...partesDoTexto(resp.texto, ids).map((par) => el("p", {}, ...par.map((p) => (p.tipo === "ref"
+        ? el("button", { type: "button", classe: "ref", "aria-label": `ver fonte ${p.valor}`, onclick: () => abrirFonte(pref, p.valor) }, p.valor)
+        : p.valor)))),
+      el("p", { classe: "nota-ia" }, "Resposta automática, não conferida. Confira as fontes abaixo."));
+    mostrarFontes(idsCitados(resp.texto, ids));
+  };
+
+  const bloqueio = bloqueioPrivacidade(pergunta);
+  if (!chatAtivo()) return semIA("Estes são os documentos oficiais mais próximos da sua pergunta. Abra o trecho ou o documento original para conferir.");
+  if (bloqueio) return semIA(`${bloqueio} Mesmo assim, estes são os documentos oficiais mais próximos:`);
+  if (consentiu()) return pedir();
+  corpo.append(
+    el("p", {}, "Encontrei documentos oficiais sobre isso. Quer que a IA explique, com cautela, o que eles indicam?"),
+    el("p", { classe: "ajuda" }, "Para explicar, a pergunta e os trechos encontrados vão ao Gemini, do Google (nível gratuito, em que o Google pode usar o conteúdo). ",
+      "Nunca escreva dados sensíveis. ", el("button", { type: "button", classe: "link-botao", onclick: () => $("#aba-sobre-ia").click() }, "Saiba mais")),
+    el("div", { classe: "linha-acoes" },
+      el("button", { type: "button", classe: "botao-primario", onclick: () => { definirConsentimento(true); pedir(); } }, "Sim, explicar"),
+      el("button", { type: "button", classe: "botao", onclick: () => semIA("Tudo bem. Estes são os documentos oficiais mais próximos da sua pergunta:") }, "Só os documentos")));
+  mostrarFontes(null);
+}
+
+// Consentimento dado uma vez neste navegador (pode ser retirado na aba "Sobre a IA").
+const CHAVE_CONSENTIMENTO = "praxia-chat-consentimento-v1";
+function consentiu() { try { return localStorage.getItem(CHAVE_CONSENTIMENTO) === "sim"; } catch { return false; } }
+function definirConsentimento(sim) {
+  try { sim ? localStorage.setItem(CHAVE_CONSENTIMENTO, "sim") : localStorage.removeItem(CHAVE_CONSENTIMENTO); } catch { /* sem armazenamento */ }
+  atualizarEstadoChat();
+}
+function atualizarEstadoChat() {
+  const alvo = $("#estado-chat");
+  if (!alvo) return;
+  if (!chatAtivo()) { alvo.replaceChildren(); return; }
+  alvo.replaceChildren(consentiu()
+    ? el("span", {}, "Explicação pela IA: ativada neste navegador. ", el("button", { type: "button", classe: "link-botao", onclick: () => definirConsentimento(false) }, "Desativar"))
+    : el("span", {}, "Explicação pela IA: desativada neste navegador. Ela é oferecida na próxima pergunta."));
 }
 
 function botaoRef(id) {
@@ -739,107 +811,6 @@ function cartaoEvidencia(e, afirmacoesQueCitam) {
       : blocoCitacao(estado.indice.documentos.get(d.id), estado.indice.porId.get(e.unidadeId)));
 }
 
-function renderizarResposta(r) {
-  const saida = $("#resultado");
-  // Na impressão, a pergunta (já sem dados pessoais) acompanha a resposta.
-  const blocos = [el("p", { classe: "so-impressao" }, `Pergunta: ${r.pergunta}`,
-    el("br"), `Consulta em ${new Date().toLocaleDateString("pt-BR")} — PraxIA, consulta ético-normativa (GPECSS)`)];
-  if (r.alertaPrivacidade) blocos.push(el("section", {}, el("p", { classe: "alerta" }, r.alertaPrivacidade)));
-  const analise = r.secoes.find((s) => s.id === "analise");
-  const citacoesPorEvidencia = new Map();
-  (analise?.afirmacoes || []).forEach((a, i) => a.evidencias.forEach((id) => {
-    if (!citacoesPorEvidencia.has(id)) citacoesPorEvidencia.set(id, []);
-    citacoesPorEvidencia.get(id).push(i + 1);
-  }));
-
-  // D45: o mais próximo em cada tipo de documento, com o link oficial (o documento fica na fonte).
-  const fund = r.secoes.find((s) => s.id === "fundamentacao");
-  const ori = r.secoes.find((s) => s.id === "orientacoes");
-  const porCategoria = maisProximoPorCategoria([...(fund?.evidencias || []), ...(fund?.outras || []), ...(ori?.orientacoes || [])]);
-  const blocoCategorias = porCategoria.length ? el("section", { classe: "por-categoria", "aria-labelledby": "t-por-categoria" },
-    el("h2", { id: "t-por-categoria" }, "O mais próximo em cada tipo de documento"),
-    el("ul", { classe: "lista-categorias" }, porCategoria.map(({ categoria, item, fraco }) => el("li", { "data-categoria": categoria.id },
-      el("p", { classe: "categoria-rotulo", title: categoria.descricao }, categoria.rotulo),
-      el("p", {}, el("a", { href: `#ev-${item.id}`, onclick: () => destacar(item.id) }, item.documento.titulo),
-        ` — ${["trecho", "apresentacao", "anexo"].includes(item.tipo) ? `p. ${item.pagina}` : item.rotulo}`,
-        fraco ? el("span", { classe: "ajuda" }, " (provavelmente não se aplica)") : null),
-      el("p", { classe: "links-fonte" }, linkExterno(item.documento.fonteOficial || item.link, "Acesso oficial ao documento"))))),
-    el("p", { classe: "ajuda" }, "Escolha automática do trecho mais parecido com a pergunta em cada tipo de documento. Não substitui a orientação do CFESS, dos CRESS e das demais entidades da categoria.")) : null;
-
-  const chat = blocoChat(r, fund, ori);
-  const secs = [];
-  for (const s of r.secoes) {
-    const sec = el("section", { "aria-labelledby": `t-${s.id}` }, el("h2", { id: `t-${s.id}` }, s.titulo));
-    for (const p of s.paragrafos || []) sec.append(el("p", {}, p));
-    if (s.afirmacoes) {
-      s.afirmacoes.forEach((a, i) => sec.append(el("p", { classe: "afirmacao" },
-        el("span", { classe: "natureza" }, `${i + 1}. ${NATUREZAS[a.natureza] || NATUREZAS.norma_expressa}`),
-        a.texto, ...a.evidencias.map(botaoRef))));
-      if (s.notaVerificacao) sec.append(el("p", { classe: "ajuda" }, s.notaVerificacao));
-      sec.append(el("p", { classe: "ajuda" }, "Texto gerado por IA local a partir exclusivamente das evidências abaixo e verificado automaticamente. Pode conter erros."));
-    }
-    if (s.evidencias) {
-      // Ordem de leitura sugerida: as referências mais diretamente ligadas à pergunta
-      // primeiro (prioridade calculada em evidencias.js), depois as relacionadas e as
-      // complementares.
-      const ordem = ["principal", "relacionada", "complementar"];
-      const grupos = ordem.map((p) => [p, s.evidencias.filter((e) => (e.prioridade || "relacionada") === p)]).filter(([, l]) => l.length);
-      // "Tem norma para isso?": resposta direta, só com o que foi encontrado (sem texto gerado).
-      const principal = grupos.find(([p]) => p === "principal")?.[1][0];
-      const local = (e) => `${e.documento.titulo} — ${["trecho", "apresentacao", "anexo"].includes(e.tipo) ? `p. ${e.pagina}` : e.rotulo}`;
-      const quantos = (p) => grupos.find(([g]) => g === p)?.[1].length || 0;
-      sec.append(el("div", { classe: "ordem-leitura" },
-        el("p", { classe: "titulo-ordem" }, "Tem norma para isso?"),
-        principal ? el("p", { classe: "resposta-curta" }, el("strong", {}, "Sim. "), "A que mais se aplica é ",
-          el("a", { href: `#ev-${principal.id}`, onclick: () => destacar(principal.id) }, local(principal)),
-          quantos("principal") > 1 ? `, junto com mais ${quantos("principal") - 1} principal(is)` : "",
-          quantos("relacionada") ? `; ${quantos("relacionada")} pode(m) se aplicar` : "",
-          quantos("complementar") ? `; ${quantos("complementar")} provavelmente não se aplica(m)` : "", ".") : null,
-        el("ol", {}, grupos.flatMap(([p, lista]) => lista.map((e) => el("li", { classe: `item-ordem ${p}` },
-          el("a", { href: `#ev-${e.id}`, onclick: () => destacar(e.id) }, e.id), " ", local(e),
-          el("span", { classe: `selo prioridade ${p}` }, PRIORIDADES[p]),
-          motivoPrioridade(e) ? el("span", { classe: "ajuda" }, ` (${motivoPrioridade(e)})`) : null)))),
-        el("p", { classe: "ajuda" }, "A classificação é automática: compara a sua pergunta com o texto das normas e confere a vigência. Não é um juízo sobre o caso; leia os trechos antes de concluir.")));
-      for (const [p, lista] of grupos) {
-        if (grupos.length > 1) sec.append(el("h3", { classe: `grupo-prioridade ${p}` }, PRIORIDADES[p]));
-        lista.forEach((e) => sec.append(cartaoEvidencia(e, citacoesPorEvidencia.get(e.id))));
-      }
-      if (s.outras?.length) {
-        const det = el("details", {}, el("summary", {}, `Outros ${s.outras.length} trechos localizados, não utilizados na análise`));
-        s.outras.forEach((e) => det.append(cartaoEvidencia(e)));
-        sec.append(det);
-      }
-    }
-    if (s.orientacoes) s.orientacoes.forEach((o) => sec.append(cartaoEvidencia(o)));
-    if (s.itens) sec.append(el("ul", { classe: "lista-simples" }, s.itens.map((t) => el("li", {}, t))));
-    if (s.fundamentos?.length) {
-      sec.append(el("p", { classe: "ajuda" }, "Fundamento oficial (texto literal):"));
-      for (const f of s.fundamentos) {
-        sec.append(el("div", { classe: "evidencia" },
-          el("p", { classe: "evidencia-local" }, f.rotulo, " ", f.conferido ? null : el("span", { classe: "selo nao-conferido" }, "não conferido")),
-          f.contexto ? el("p", { classe: "contexto" }, f.contexto) : null,
-          el("blockquote", { classe: "trecho" }, f.texto),
-          el("div", { classe: "links-fonte" }, linkExterno(f.link, "Abrir o PDF original"))));
-      }
-    }
-    if (s.diferencas) sec.append(el("p", { classe: "ajuda" }, s.diferencas));
-    if (s.canais) sec.append(el("p", {}, s.canais.map((c) => linkExterno(c.url, c.rotulo))));
-    if (s.documentos) {
-      sec.append(el("ul", { classe: "lista-simples" }, s.documentos.map((d) => el("li", {},
-        linkExterno(d.link, d.titulo), " — ", d.situacaoRotulo,
-        " · ", linkExterno(d.fonteOficial, "página oficial")))));
-    }
-    secs.push(sec);
-  }
-  // Modo conversa: a explicação da IA vem primeiro, depois o mais próximo por tipo de documento e o
-  // resumo "Tem norma para isso?"; os trechos literais, a vigência e os detalhes ficam recolhidos.
-  const resumo = secs.flatMap((s) => [...s.querySelectorAll(".ordem-leitura")]);
-  const detalhes = el("details", { classe: "detalhes-resposta", id: "detalhes-resposta" },
-    el("summary", {}, "Ver os trechos oficiais, a vigência e os detalhes da busca"), ...secs);
-  saida.replaceChildren(el("div", { classe: "balao-praxia" }, ...blocos, chat, blocoCategorias, ...resumo), detalhes);
-  $("#mensagem-usuario").scrollIntoView?.({ block: "start", behavior: "smooth" });
-}
-
 // ---------------------------------------------------------------- chat gratuito (D44/D46)
 function chatAtivo() {
   const a = CONFIG.chat?.ativo;
@@ -850,77 +821,6 @@ const AVISO_CHAT = "Não escreva, por hipótese alguma, dados sensíveis: nomes,
   "dados de saúde ou qualquer informação que identifique pessoas ou situações atendidas.";
 const RESSALVA_CHAT = "As respostas do chat não substituem, de nenhuma maneira, as respostas diretas do CFESS, " +
   "dos CRESS e das demais instituições representativas da categoria.";
-
-// Consentimento dado uma vez neste navegador (pode ser retirado no rodapé da caixa de pergunta).
-const CHAVE_CONSENTIMENTO = "praxia-chat-consentimento-v1";
-function consentiu() { try { return localStorage.getItem(CHAVE_CONSENTIMENTO) === "sim"; } catch { return false; } }
-function definirConsentimento(sim) {
-  try { sim ? localStorage.setItem(CHAVE_CONSENTIMENTO, "sim") : localStorage.removeItem(CHAVE_CONSENTIMENTO); } catch { /* sem armazenamento */ }
-  atualizarEstadoChat();
-}
-function atualizarEstadoChat() {
-  const alvo = $("#estado-chat");
-  if (!alvo) return;
-  if (!chatAtivo()) { alvo.replaceChildren(); return; }
-  alvo.replaceChildren(consentiu()
-    ? el("span", {}, " Explicação pela IA ativada. ", el("button", { type: "button", classe: "link-botao", onclick: () => definirConsentimento(false) }, "Desativar"))
-    : el("span", {}, " Explicação pela IA desativada; a busca nos documentos funciona normalmente."));
-}
-
-function blocoChat(r, fund, ori) {
-  if (!chatAtivo()) return null;
-  const trechos = montarTrechos(fund?.evidencias || [], ori?.orientacoes || []);
-  if (!trechos.length) return null;
-  const cfg = CONFIG.chat;
-  const caixa = el("section", { classe: "chat-praxia", "aria-label": "Explicação pela IA", "aria-live": "polite" });
-  const bloqueio = bloqueioPrivacidade(estado.ultimaPergunta || r.pergunta);
-  const ids = new Set(trechos.map((t) => t.id));
-
-  const pedir = async () => {
-    const s = situacaoLimite(cfg);
-    if (!s.pode) {
-      caixa.replaceChildren(el("p", { classe: "ajuda" }, s.motivo, " Os documentos encontrados estão logo abaixo."));
-      if (s.esperarSegundos) setTimeout(() => caixa.replaceChildren(el("button", { type: "button", classe: "botao", onclick: pedir }, "Pedir a explicação agora")), s.esperarSegundos * 1000 + 200);
-      return;
-    }
-    caixa.replaceChildren(el("p", { classe: "pensando" }, "A IA está lendo os trechos oficiais encontrados…"));
-    const resp = await pedirExplicacao(cfg, r.pergunta, trechos);
-    if (resp.erro) { caixa.replaceChildren(el("p", { classe: "ajuda" }, resp.erro, " Os documentos encontrados estão logo abaixo.")); return; }
-    caixa.replaceChildren(
-      ...partesDoTexto(resp.texto, ids).map((par) => el("p", {}, ...par.map((p) => (p.tipo === "ref" ? botaoRef(p.valor) : p.valor)))),
-      el("p", { classe: "nota-ia" }, el("span", { classe: "selo nao-conferido" }, "resposta automática, não conferida"),
-        ` Gerada por IA (${resp.modelo}, Google) só com os trechos oficiais abaixo; pode conter erros. Confira sempre o documento. ${RESSALVA_CHAT}`));
-  };
-
-  if (bloqueio) {
-    caixa.append(el("p", { classe: "alerta" }, bloqueio));
-  } else if (consentiu()) {
-    pedir();
-  } else {
-    caixa.append(
-      el("p", {}, el("strong", {}, "Quer que a IA explique, com cautela, qual material oficial corresponde à sua dúvida?")),
-      el("p", { classe: "alerta" }, el("strong", {}, "Atenção: "), AVISO_CHAT),
-      el("p", { classe: "ajuda" }, `Ao ativar, a sua pergunta e até ${trechos.length} trecho(s) oficial(is) já encontrados vão ao Gemini, do Google, no nível gratuito, ` +
-        "em que o Google pode usar o conteúdo para melhorar os próprios produtos. A PraxIA não guarda perguntas nem respostas. " +
-        `Há limite de ${cfg.limiteDiario} explicações por dia neste navegador, para o serviço seguir gratuito para todos. A IA não dá parecer. `, RESSALVA_CHAT),
-      el("div", { classe: "linha-acoes" },
-        el("button", { type: "button", classe: "botao-primario", onclick: () => { definirConsentimento(true); pedir(); } },
-          "Entendi o aviso e quero ativar"),
-        el("button", { type: "button", classe: "botao", onclick: () => caixa.replaceChildren(el("p", { classe: "ajuda" },
-          "Tudo bem: os documentos encontrados estão logo abaixo. Você pode ativar a explicação em outra pergunta.")) }, "Agora não")));
-  }
-  return caixa;
-}
-
-function renderizarExemplos() {
-  // Modo conversa: até 4 sugestões curtas (a primeira de cada público), como num assistente de IA.
-  const qs = EXEMPLOS.map((g) => g.perguntas[0]).filter(Boolean).slice(0, 4);
-  $("#lista-exemplos").replaceChildren(el("ul", { classe: "exemplos-lista" }, qs.map((q) => el("li", {},
-    el("button", { type: "button", classe: "exemplo", onclick: () => {
-      $("#pergunta").value = q;
-      enviarFormulario($("#form-consulta"));
-    } }, q)))));
-}
 
 // ---------------------------------------------------------------- biblioteca
 function preencherFiltros() {
@@ -1098,18 +998,15 @@ configurarAbas();
 $("#form-consulta").addEventListener("submit", aoConsultar);
 // Enter envia (como nos assistentes de IA); Shift+Enter quebra a linha.
 $("#pergunta").addEventListener("input", ajustarAltura);
-$("#nova-pergunta").addEventListener("click", novaPergunta);
-window.addEventListener("beforeprint", () => document.querySelectorAll("#resultado details").forEach((d) => { d.open = true; }));
+$("#nova-conversa").addEventListener("click", novaConversa);
+$("#saiba-mais").addEventListener("click", () => $("#aba-sobre-ia").click());
+window.addEventListener("beforeprint", () => document.querySelectorAll("#conversa .fonte-trecho").forEach((d) => { d.hidden = false; }));
 $("#pergunta").addEventListener("keydown", (ev) => {
   if (ev.key === "Enter" && !ev.shiftKey && !ev.isComposing) {
     ev.preventDefault();
     enviarFormulario($("#form-consulta"));
   }
 });
-$("#imprimir").addEventListener("click", () => window.print());
-$("#copiar-resposta").addEventListener("click", () =>
-  copiarTexto(`Pergunta: ${estado.ultimaPergunta || ""}\n\n${$("#resultado").innerText}`, $("#aviso-copia")));
-renderizarExemplos();
 renderizarGuia();
 await carregarAcervo();
 preencherFiltros();
