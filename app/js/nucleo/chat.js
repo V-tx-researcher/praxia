@@ -46,7 +46,7 @@ export function montarTrechos(evidencias = [], orientacoes = []) {
   const lista = [...normas.slice(0, 5), ...orientacoes.slice(0, 3)];
   for (const e of normas.slice(5)) if (lista.length < MAX_TRECHOS) lista.push(e);
   return lista.slice(0, MAX_TRECHOS).map((e) => ({
-    id: e.id, categoria: categoriaDe(e.documento).rotulo, documento: e.documento.titulo, local: local(e), texto: e.texto,
+    id: e.id, categoria: categoriaDe(e.documento, e.parte).rotulo, documento: e.documento.titulo, local: local(e), texto: e.texto,
   }));
 }
 

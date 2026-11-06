@@ -25,7 +25,11 @@ const POR_TIPO = new Map(CATEGORIAS.flatMap((c) => c.tipos.map((t) => [t, c])));
 const OUTRO = CATEGORIAS[CATEGORIAS.length - 1];
 
 // `documento` como montado em evidencias.js / interpretacao.js (tipoId = campo "tipo" do acervo).
-export function categoriaDe(documento) {
+// `parte`: parte do documento onde está o trecho. Publicações que reúnem várias normas (ex.: o
+// livreto do Código de Ética traz a Lei 8.662/1993 e a Lei 12.317/2010) são classificadas pela parte.
+const PARTE_LEI = /^(lei|decreto)\b/i;
+export function categoriaDe(documento, parte = "") {
+  if (PARTE_LEI.test(String(parte).trim())) return CATEGORIAS[0];
   if (documento.orgao === "ABEPSS" && !POR_TIPO.has(documento.tipoId)) return CATEGORIAS.find((c) => c.id === "formacao");
   return POR_TIPO.get(documento.tipoId) || OUTRO;
 }
@@ -35,7 +39,7 @@ export function categoriaDe(documento) {
 export function maisProximoPorCategoria(itens) {
   const melhor = new Map();
   for (const e of itens) {
-    const c = categoriaDe(e.documento);
+    const c = categoriaDe(e.documento, e.parte);
     const atual = melhor.get(c.id);
     const fraco = e.prioridade === "complementar";
     if (!atual || (atual.fraco && !fraco)) melhor.set(c.id, { categoria: c, item: e, fraco });

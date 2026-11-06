@@ -14,6 +14,9 @@ test("cada tipo do acervo atual cai numa categoria própria", () => {
   assert.equal(categoriaDe(doc("politica_institucional", "ABEPSS")).id, "formacao");
   assert.equal(categoriaDe(doc("lei")).id, "lei");
   assert.equal(categoriaDe(doc("tipo_novo")).id, "outro");
+  // o livreto do Código de Ética traz as leis da profissão: classificadas pela parte
+  assert.equal(categoriaDe(doc("codigo_etica"), "Lei nº 8.662/1993").id, "lei");
+  assert.equal(categoriaDe(doc("codigo_etica"), "Código de Ética do/a Assistente Social").id, "codigo");
 });
 
 test("mostra o primeiro de cada categoria, na ordem das categorias, preferindo o que se aplica", () => {

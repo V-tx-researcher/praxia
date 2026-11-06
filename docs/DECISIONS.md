@@ -357,6 +357,15 @@ gravado) e 400/dia no total, contados no KV gratuito (2 gravações por pedido, 
 se o contador falhar, o chat pausa (falha fechada). Modelo `gemini-flash-lite-latest`, com
 `gemini-flash-latest` de reserva. `CONFIG.chat.ativo: "local"`; publicar exige autorização específica.
 
+**D47 — 06/11/2026 — Tom prudente do chat e leis no lugar certo.** Pedido do responsável: o chat pode
+indicar um cenário possível, mas nunca afirmar com certeza; usa "possivelmente", "é possível que",
+"potencialmente" (ex.: "Possivelmente não, porque…") e em seguida indica os documentos para a pessoa
+conferir. A Lei 8.662/1993 e a Lei 12.317/2010 já estavam no acervo, dentro do livreto oficial do Código
+de Ética (79 e 4 trechos), e a Política Nacional de Fiscalização está na Res. 512/2007 (publicada) e nos
+Instrumentos de 2019 (camada 2): a Fase 1 não precisou de download. Os trechos dessas leis passam a
+aparecer em "Leis e decretos" (a categoria considera a parte do documento). O Planalto recusa conexões
+a partir do ambiente de coleta; documentos que não puderem ser baixados são listados para o responsável.
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e
