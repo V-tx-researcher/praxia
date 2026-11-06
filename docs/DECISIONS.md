@@ -392,6 +392,12 @@ estado do consentimento e configurações técnicas vão para a nova aba "Sobre 
 limite, falha ou dados que identificam pessoas), a resposta mostra os documentos mais próximos.
 O histórico existe só na aba aberta; nada é gravado.
 
+**D51 — 06/11/2026 — Logo oficial e página do Wix.** Logo enviado pelo responsável em
+`docs/marca/` (original e transparente); ícones gerados por `scripts/gerar_icones.py`; no app, o logo
+aparece sem fundo no topo e na tela inicial. Página PraxIA do site do GPECSS (Wix) atualizada para a
+versão v3 (`docs/wix/praxia_wix_v3.html`) e publicada com autorização. Plano dos próximos passos em
+`LLM PraxIA/Proximos_passos/PLANO_PraxIA_bibliotecaria.md`.
+
 ## Pendentes (dependem do responsável)
 
 **D-P4 — Publicação** (Cloudflare Pages × GitHub Pages), criação de contas e
