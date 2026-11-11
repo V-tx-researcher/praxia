@@ -1,0 +1,126 @@
+{
+  "id": "cress-pa-instrucao-normativa-1-desagravo",
+  "versao_esquema": 1,
+  "titulo_oficial": "Instrução Normativa CRESS-PA nº 01 — tramitação de requerimentos de desagravo",
+  "numero": "1",
+  "ano": null,
+  "orgao_emissor": "CRESS-PA",
+  "tipo_documental": "outro",
+  "abrangencia": "regional:PA",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662",
+        "texto": "Lei nº 8662",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8.662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://cress-pa.org.br/wp-content/uploads/2023/05/80ebd1_0effc2d5ed3745c59dfaad055500f830.pdf",
+  "categoria_portal": "Acervo CFESS-CRESS-ABEPSS (D01731)",
+  "arquivos": [
+    {
+      "url": "https://cress-pa.org.br/wp-content/uploads/2023/05/80ebd1_0effc2d5ed3745c59dfaad055500f830.pdf",
+      "papel": "principal",
+      "sha256": "1daac9a2658dc9f59f9384261527741ebc7d895add80c91aa2da1311e5348ad5",
+      "bytes": 133533,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-11-11T20:40:55+00:00",
+      "verificado_em": "2026-11-11T20:40:55+00:00",
+      "caminho_local": "dados/brutos/cress-pa-instrucao-normativa-1-desagravo/1daac9a2658dc9f5.pdf",
+      "versao": "1daac9a2658dc9f5"
+    }
+  ],
+  "versao_atual": "1daac9a2658dc9f5",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 28,
+    "unidades": 30,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Instrução Normativa CRESS-PA nº 01 — tramitação de requerimentos de desagravo",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 6984,
+    "media_caracteres_pagina": 2328.0,
+    "proporcao_letras": 0.752,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "arquivo do acervo baixado em 10/11/2026 (D01731); triagem de 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T20:41:04+00:00",
+      "por": "processador",
+      "motivo": "30 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T20:41:04+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ]
+}

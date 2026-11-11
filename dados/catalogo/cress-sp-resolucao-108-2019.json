@@ -1,0 +1,267 @@
+{
+  "id": "cress-sp-resolucao-108-2019",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução CRESS-SP nº 108/2019 — orientação, fiscalização e defesa da profissão",
+  "numero": "108",
+  "ano": 2019,
+  "orgao_emissor": "CRESS-SP",
+  "tipo_documental": "resolucao",
+  "abrangencia": "regional:SP",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-469-2005",
+        "texto": "Resolução CFESS Nº 469/2005",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8662",
+        "texto": "Lei 8662",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          5,
+          11
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8662/93",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          9,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-512-2007",
+        "texto": "Resolução CFESS n. 512/2007",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          22,
+          23
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-582-2010",
+        "texto": "Resolução CFESS n. 582/2010",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          22
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-533-2008",
+        "texto": "Resolução CFESS n. 533/2008",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          22,
+          25
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-493-2006",
+        "texto": "Resolução CFESS n. 493/2006",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          22,
+          23,
+          25
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-569-2010",
+        "texto": "Resolução CFESS n. 569/2010",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          22
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-557-2009",
+        "texto": "Resolução CFESS n. 557/2009",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          22
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-556-2009",
+        "texto": "Resolução CFESS n. 556/2009",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          23,
+          26
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-590-2010",
+        "texto": "Resolução CFESS n. 590/2010",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          23
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://cress-sp.org.br/wp-content/uploads/2016/08/Resolu%C3%A7%C3%A3o108_2019.pdf",
+  "categoria_portal": "Acervo CFESS-CRESS-ABEPSS (D03183)",
+  "arquivos": [
+    {
+      "url": "https://web.archive.org/web/20210121230239id_/http://cress-sp.org.br/wp-content/uploads/2016/08/Resolu%C3%A7%C3%A3o108_2019.pdf",
+      "papel": "principal",
+      "sha256": "bba44c2aa5cf6860d87b45e82615b116f8a41bb210822a5283c31f6dde9bc71d",
+      "bytes": 354023,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-11-11T20:40:55+00:00",
+      "verificado_em": "2026-11-11T20:40:55+00:00",
+      "caminho_local": "dados/brutos/cress-sp-resolucao-108-2019/bba44c2aa5cf6860.pdf",
+      "versao": "bba44c2aa5cf6860"
+    }
+  ],
+  "versao_atual": "bba44c2aa5cf6860",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 28,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "dispositivos": 160,
+    "unidades": 178,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução CRESS-SP nº 108/2019 — orientação, fiscalização e defesa da profissão",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "anexo-i",
+        "rotulo": "Anexo I",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "anexo-ii",
+        "rotulo": "Anexo II",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "anexo-iii",
+        "rotulo": "Anexo III",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 28,
+    "paginas_sem_texto": 0,
+    "caracteres": 58955,
+    "media_caracteres_pagina": 2105.5,
+    "proporcao_letras": 0.718,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "anexo_ou_compilacao_detectado"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "arquivo do acervo baixado em 10/11/2026 (D03183); triagem de 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T20:41:06+00:00",
+      "por": "processador",
+      "motivo": "178 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T20:41:06+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ]
+}

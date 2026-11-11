@@ -2234,3 +2234,12 @@
 {"data": "2026-10-28T04:12:18+00:00", "tipo": "processado", "id": "cfess-resolucao-992-2022", "unidades": 17, "qualidade": "boa"}
 {"data": "2026-10-28T04:12:18+00:00", "tipo": "aprovado", "id": "cfess-resolucao-992-2022", "por": "revisao-profissional"}
 {"data": "2026-10-28T04:12:18+00:00", "tipo": "publicado", "id": "cfess-resolucao-992-2022", "por": "revisao-profissional"}
+{"data": "2026-11-11T20:41:01+00:00", "tipo": "processado", "id": "cne-ces-resolucao-15-2002", "unidades": 11, "qualidade": "boa"}
+{"data": "2026-11-11T20:41:03+00:00", "tipo": "processado", "id": "cns-resolucao-569-2017", "unidades": 104, "qualidade": "boa"}
+{"data": "2026-11-11T20:41:03+00:00", "tipo": "processado", "id": "lei-12852-2013", "unidades": 209, "qualidade": "boa"}
+{"data": "2026-11-11T20:41:04+00:00", "tipo": "processado", "id": "cress-df-orientacao-normativa-1-2020", "unidades": 7, "qualidade": "boa"}
+{"data": "2026-11-11T20:41:04+00:00", "tipo": "processado", "id": "cress-pa-instrucao-normativa-1-desagravo", "unidades": 30, "qualidade": "boa"}
+{"data": "2026-11-11T20:41:05+00:00", "tipo": "processado", "id": "cress-rs-resolucao-desagravo", "unidades": 16, "qualidade": "boa"}
+{"data": "2026-11-11T20:41:05+00:00", "tipo": "processado", "id": "cress-ba-resolucao-15-2022", "unidades": 102, "qualidade": "boa"}
+{"data": "2026-11-11T20:41:06+00:00", "tipo": "processado", "id": "cress-sp-resolucao-108-2019", "unidades": 178, "qualidade": "boa"}
+{"data": "2026-11-11T20:41:06+00:00", "tipo": "processado", "id": "cress-rn-resolucao-2-2020", "unidades": 10, "qualidade": "boa"}

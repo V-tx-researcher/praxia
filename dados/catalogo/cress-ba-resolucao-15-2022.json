@@ -1,0 +1,163 @@
+{
+  "id": "cress-ba-resolucao-15-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução CRESS-BA nº 015/2022 — tramitação dos processos éticos e disciplinares",
+  "numero": "15",
+  "ano": 2022,
+  "orgao_emissor": "CRESS-BA",
+  "tipo_documental": "resolucao",
+  "abrangencia": "regional:BA",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-469-2005",
+        "texto": "Resolução CFESS nº 469/2005",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-660-2013",
+        "texto": "Resolução CFESS nº 660/2013",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          3,
+          5,
+          7
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-548-2009",
+        "texto": "Resolução CFESS nº 548/2009",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          3
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-657-2013",
+        "texto": "Resolução CFESS nº 657/2013",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          7
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://cress-ba.org.br/wp-content/uploads/2026/01/ResoluC3A7C3A3o_CRESS_nC2BA_015_TramitaC3A7C3A3o_do_Codigo_processual_de_Etica-2.pdf",
+  "categoria_portal": "Acervo CFESS-CRESS-ABEPSS (D03047)",
+  "arquivos": [
+    {
+      "url": "https://cress-ba.org.br/wp-content/uploads/2026/01/ResoluC3A7C3A3o_CRESS_nC2BA_015_TramitaC3A7C3A3o_do_Codigo_processual_de_Etica-2.pdf",
+      "papel": "principal",
+      "sha256": "f67367f6838cc62800486ce654e721cc2c2bd1c3da6396ed0af2db33a1ef59f5",
+      "bytes": 248139,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-11-11T20:40:55+00:00",
+      "verificado_em": "2026-11-11T20:40:55+00:00",
+      "caminho_local": "dados/brutos/cress-ba-resolucao-15-2022/f67367f6838cc628.pdf",
+      "versao": "f67367f6838cc628"
+    }
+  ],
+  "versao_atual": "f67367f6838cc628",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 8,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "dispositivos": 101,
+    "unidades": 102,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução CRESS-BA nº 015/2022 — tramitação dos processos éticos e disciplinares",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "anexo-p2",
+        "rotulo": "Anexo ou texto subsequente (a partir da p. 2)",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "anexo-p2-2",
+        "rotulo": "Anexo ou texto subsequente (a partir da p. 2)",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 8,
+    "paginas_sem_texto": 0,
+    "caracteres": 20796,
+    "media_caracteres_pagina": 2599.5,
+    "proporcao_letras": 0.803,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "anexo_ou_compilacao_detectado"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "arquivo do acervo baixado em 10/11/2026 (D03047); triagem de 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T20:41:05+00:00",
+      "por": "processador",
+      "motivo": "102 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T20:41:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ]
+}

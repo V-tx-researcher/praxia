@@ -8,7 +8,8 @@ import { linkPdf, motivoPrioridade, PRIORIDADES } from "./nucleo/evidencias.js";
 import { dataAcesso, referenciaABNT } from "./nucleo/referencia.js";
 import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
 import { maisProximoPorCategoria } from "./nucleo/categorias.js";
-import { bloqueioPrivacidade, escolherFontes, idsCitados, localDe, paraTrecho, partesDoTexto, pedirExplicacao, situacaoLimite, tituloFonte } from "./nucleo/chat.js";
+import { fontesBussola } from "./nucleo/bussola.js";
+import { bloqueioPrivacidade, conferirFrases, escolherFontes, fontesTrilhas, idsCitados, localDe, paraTrecho, partesDoTexto, pedirExplicacao, situacaoLimite, tituloFonte } from "./nucleo/chat.js";
 import { categoriaDe } from "./nucleo/categorias.js";
 import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
 import { dobrarAcentos } from "./nucleo/texto.js";
@@ -669,11 +670,70 @@ function itemFonte(pref, e) {
     trecho);
 }
 
+// D52: todos os documentos relacionados, por tipo; revogados só como contexto histórico.
+function itemPanorama(it) {
+  const nome = categoriaDe(it.documento, it.parte).id === "lei" && it.parte ? it.parte : it.documento.titulo;
+  const trecho = el("blockquote", { classe: "trecho", hidden: true }, it.texto);
+  const ver = el("button", { type: "button", classe: "link-botao", "aria-expanded": "false", onclick: () => {
+    trecho.hidden = !trecho.hidden; ver.setAttribute("aria-expanded", String(!trecho.hidden));
+  } }, "Ver trecho");
+  return el("li", { classe: "panorama-item" },
+    el("span", { classe: "fonte-titulo" }, nome),
+    el("span", { classe: "fonte-local" }, ` · ${it.documento.orgao || ""}${it.origem !== "trata do tema" ? ` · ${it.origem}` : ""}`),
+    it.documento.situacao === "alterada" ? el("span", { classe: "selo" }, " alterada: confira a redação vigente") : null,
+    el("div", { classe: "fonte-acoes" }, ver, linkExterno(it.link || it.documento.fonteOficial, "Abrir documento oficial")),
+    trecho);
+}
+function blocoPanorama(pan) {
+  const cats = pan.categorias.map((g) => el("div", { classe: "panorama-grupo" },
+    el("p", { classe: "panorama-cat" }, `${g.categoria.rotulo} (${g.documentos.length + g.omitidos})`),
+    el("p", { classe: "ajuda" }, g.categoria.descricao),
+    el("ul", {}, g.documentos.map(itemPanorama)),
+    g.omitidos ? el("p", { classe: "ajuda" }, `Mais ${g.omitidos} documento(s) com menor relação com a pergunta.`) : null));
+  const hist = pan.historico.length ? el("details", { classe: "panorama-historico" },
+    el("summary", {}, `Contexto histórico: ${pan.historico.length} norma(s) revogada(s) ou suspensa(s)`),
+    el("p", { classe: "ajuda" }, "Não estão em vigor. Servem só para entender a história do tema ou fatos da época em que valiam."),
+    el("ul", {}, pan.historico.map(itemPanorama))) : null;
+  return el("details", { classe: "panorama" },
+    el("summary", {}, `Todos os documentos em vigor relacionados (${pan.total}), por tipo`),
+    ...cats,
+    pan.semResultado.length ? el("p", { classe: "ajuda" }, `Sem documento relacionado no acervo: ${pan.semResultado.join(", ")}.`) : null,
+    hist);
+}
+
+// D53: dois modos. Biblioteca entrega os documentos (sem IA); Trilhas pede à IA uma reflexão
+// fundamentada em toda a literatura encontrada, sempre com os limites da ferramenta.
+const CHAVE_MODO = "praxia-modo";
+const AJUDA_MODO = {
+  biblioteca: "Biblioteca: os documentos oficiais ligados à sua pergunta.",
+  trilhas: "Trilhas e Reflexões: uma reflexão da IA a partir de toda a literatura encontrada. Não substitui os Conselhos nem o seu julgamento profissional.",
+  bussola: "Bússola Institucional: quem pode lidar com a sua situação — o que cabe ao CRESS, ao CFESS, às comissões e a outras instituições, e o que o CRESS pode fazer por você.",
+};
+function modoAtual() { try { return ["trilhas", "bussola"].includes(localStorage.getItem(CHAVE_MODO)) ? localStorage.getItem(CHAVE_MODO) : "biblioteca"; } catch { return "biblioteca"; } }
+function configurarModo() {
+  const atual = modoAtual();
+  document.querySelectorAll('input[name="modo"]').forEach((r) => {
+    r.checked = r.value === atual;
+    r.addEventListener("change", () => {
+      try { localStorage.setItem(CHAVE_MODO, r.value); } catch { /* sem armazenamento: vale só nesta página */ }
+      const a = document.getElementById("ajuda-modo"); if (a) a.textContent = AJUDA_MODO[r.value];
+    });
+  });
+  const a = document.getElementById("ajuda-modo"); if (a) a.textContent = AJUDA_MODO[atual];
+}
+function modoEscolhido() { return document.querySelector('input[name="modo"]:checked')?.value || modoAtual(); }
+
 function renderizarMensagem(msg, r, pergunta) {
   const pref = `m${++conversa.n}`;
   const fund = r.secoes.find((s) => s.id === "fundamentacao");
   const ori = r.secoes.find((s) => s.id === "orientacoes");
-  const fontes = escolherFontes(fund?.evidencias || [], ori?.orientacoes || []);
+  const modo = modoEscolhido();
+  const panRes = r.secoes.find((s) => s.id === "panorama")?.panorama;
+  const fontes = modo === "bussola" && estado.indice
+    ? fontesBussola(estado.indice, estado.interpretacao, r.pergunta, fund?.evidencias || [])
+    : modo === "trilhas"
+    ? fontesTrilhas(fund?.evidencias || [], ori?.orientacoes || [], panRes)
+    : escolherFontes(fund?.evidencias || [], ori?.orientacoes || []);
   const corpo = el("div", { classe: "msg-texto" });
   const blocoFontes = el("div", { classe: "fontes" });
   const extras = el("div", { classe: "msg-extras" });
@@ -693,6 +753,9 @@ function renderizarMensagem(msg, r, pergunta) {
   const ids = new Set(fontes.map((f) => f.id));
   const cfg = CONFIG.chat;
 
+  const pan = r.secoes.find((s) => s.id === "panorama")?.panorama;
+  if (pan) { const b = blocoPanorama(pan); if (modo === "biblioteca") b.open = true; extras.append(b); }
+
   // Perguntas parecidas (seletor): discretas, no fim da resposta.
   const parecidas = sugestoesIntencao(pergunta).filter((s) => s.q.trim().toLowerCase() !== pergunta.trim().toLowerCase());
   if (parecidas.length) {
@@ -704,28 +767,37 @@ function renderizarMensagem(msg, r, pergunta) {
   const pedir = async () => {
     const s = situacaoLimite(cfg);
     if (!s.pode) return semIA(`${s.motivo} Enquanto isso, estes são os documentos oficiais mais próximos da sua pergunta:`);
-    corpo.replaceChildren(el("p", { classe: "pensando" }, "Lendo os trechos oficiais encontrados…"));
+    corpo.replaceChildren(el("p", { classe: "pensando" }, modo === "bussola" ? "Procurando quem pode lidar com essa situação…" : modo === "trilhas"
+      ? `Lendo ${fontes.length} trechos da literatura encontrada…` : "Lendo os trechos oficiais encontrados…"));
     blocoFontes.replaceChildren();
-    const resp = await pedirExplicacao(cfg, r.pergunta, fontes.map(paraTrecho));
+    const resp = await pedirExplicacao(cfg, r.pergunta, fontes.map(paraTrecho), modo);
     if (resp.erro) return semIA(`${resp.erro} Estes são os documentos oficiais mais próximos da sua pergunta:`);
     corpo.replaceChildren(
-      ...partesDoTexto(resp.texto, ids).map((par) => el("p", {}, ...par.map((p) => (p.tipo === "ref"
+      ...partesDoTexto(conferirFrases(resp.texto, new Map(fontes.map((f) => [f.id, f.texto]))), ids).map((par) => el("p", {}, ...par.map((p) => (p.tipo === "ref"
         ? el("button", { type: "button", classe: "ref", "aria-label": `ver fonte ${p.valor}`, onclick: () => abrirFonte(pref, p.valor) }, p.valor)
+        : p.tipo === "aviso" ? el("span", { classe: "aviso-frase", title: "A PraxIA não encontrou, nos trechos citados, apoio claro para esta frase." }, `⚠ ${p.valor}`)
         : p.valor)))),
-      el("p", { classe: "nota-ia" }, "Resposta automática, não conferida. Confira as fontes abaixo."));
+      el("p", { classe: "nota-ia" }, modo === "bussola"
+        ? "Orientação automática (modo Bússola Institucional), não conferida. As instituições externas são informação geral: confirme com cada órgão. Não substitui o atendimento do CRESS da sua região."
+        : modo === "trilhas"
+        ? "Reflexão automática (modo Trilhas e Reflexões), não conferida. Não substitui o CFESS, os CRESS, as demais entidades nem o julgamento profissional. Confira as fontes abaixo."
+        : "Resposta automática, não conferida. Confira as fontes abaixo."));
     mostrarFontes(idsCitados(resp.texto, ids));
   };
 
   const bloqueio = bloqueioPrivacidade(pergunta);
+  if (modo === "biblioteca") return semIA("Modo Biblioteca: estes são os documentos oficiais ligados à sua pergunta. Abra o trecho ou o documento original para conferir. Para uma reflexão a partir deles, mude para o modo Trilhas e Reflexões; para saber quem pode lidar com a situação, use o modo Bússola Institucional.");
   if (!chatAtivo()) return semIA("Estes são os documentos oficiais mais próximos da sua pergunta. Abra o trecho ou o documento original para conferir.");
   if (bloqueio) return semIA(`${bloqueio} Mesmo assim, estes são os documentos oficiais mais próximos:`);
   if (consentiu()) return pedir();
   corpo.append(
-    el("p", {}, "Encontrei documentos oficiais sobre isso. Quer que a IA explique, com cautela, o que eles indicam?"),
+    el("p", {}, modo === "bussola"
+      ? `Encontrei ${fontes.length} trechos sobre competências do Conjunto CFESS-CRESS ligados a isso. Quer que a IA explique quem pode lidar com essa situação?`
+      : `Encontrei ${fontes.length} trechos da literatura oficial sobre isso. Quer que a IA escreva uma reflexão cautelosa a partir deles?`),
     el("p", { classe: "ajuda" }, "Para explicar, a pergunta e os trechos encontrados vão ao Gemini, do Google (nível gratuito, em que o Google pode usar o conteúdo). ",
       "Nunca escreva dados sensíveis. ", el("button", { type: "button", classe: "link-botao", onclick: () => $("#aba-sobre-ia").click() }, "Saiba mais")),
     el("div", { classe: "linha-acoes" },
-      el("button", { type: "button", classe: "botao-primario", onclick: () => { definirConsentimento(true); pedir(); } }, "Sim, explicar"),
+      el("button", { type: "button", classe: "botao-primario", onclick: () => { definirConsentimento(true); pedir(); } }, modo === "bussola" ? "Sim, orientar" : "Sim, refletir"),
       el("button", { type: "button", classe: "botao", onclick: () => semIA("Tudo bem. Estes são os documentos oficiais mais próximos da sua pergunta:") }, "Só os documentos")));
   mostrarFontes(null);
 }
@@ -993,6 +1065,7 @@ function configurarAbas() {
 // ---------------------------------------------------------------- início
 configurarTema();
 configurarConexao();
+configurarModo();
 configurarInstalacao();
 configurarAbas();
 $("#form-consulta").addEventListener("submit", aoConsultar);

@@ -726,3 +726,19 @@ progress { width: 100%; height: 10px; accent-color: var(--acento); }
 /* Logo da PraxIA (D51): sem fundo, a pedido do responsável */
 .logo-topo { width: 40px; height: 40px; flex: none; object-fit: contain; }
 .logo-boas-vindas { width: 84px; height: 84px; margin: 0 auto 14px; display: block; object-fit: contain; }
+
+/* D52: panorama por tipo de documento */
+.panorama, .panorama-historico { margin-top: .8rem; }
+.panorama > summary, .panorama-historico > summary { cursor: pointer; font-weight: 600; }
+.panorama-cat { font-weight: 600; margin: .8rem 0 .1rem; }
+.panorama ul { list-style: none; padding-left: 0; margin: .2rem 0; }
+.panorama-item { padding: .35rem 0; border-bottom: 1px solid color-mix(in srgb, currentColor 12%, transparent); }
+
+/* D53: modos Biblioteca e Trilhas */
+.modos { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .9rem; margin: 0 0 .4rem; font-size: .92rem; }
+.modo { display: inline-flex; align-items: center; gap: .3rem; cursor: pointer; font-weight: 600; }
+.ajuda-modo { opacity: .75; font-size: .85rem; flex-basis: 100%; }
+
+/* D56: aviso em frase sem fonte ou com fonte fraca */
+.aviso-frase { display: inline-block; margin-left: .3rem; padding: 0 .35rem; border-radius: .3rem; font-size: .78rem; font-weight: 600;
+  background: color-mix(in srgb, #d97706 18%, transparent); color: inherit; }

@@ -75,6 +75,12 @@
 
       <form id="form-consulta" class="compositor" novalidate>
         <div class="linha-nova-conversa"><button type="button" id="nova-conversa" class="link-botao" hidden>Nova conversa</button></div>
+        <div class="modos" role="radiogroup" aria-label="Modo da PraxIA">
+          <label class="modo"><input type="radio" name="modo" value="biblioteca" checked> Biblioteca</label>
+          <label class="modo"><input type="radio" name="modo" value="trilhas"> Trilhas e Reflexões</label>
+          <label class="modo"><input type="radio" name="modo" value="bussola"> Bússola Institucional</label>
+          <span id="ajuda-modo" class="ajuda-modo">Biblioteca: os documentos oficiais ligados à sua pergunta.</span>
+        </div>
         <label for="pergunta" class="rotulo-oculto">Sua dúvida sobre o exercício profissional</label>
         <div class="caixa-compositor">
           <textarea id="pergunta" name="pergunta" rows="1" required aria-describedby="ajuda-pergunta"

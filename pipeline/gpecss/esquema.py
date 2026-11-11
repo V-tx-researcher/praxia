@@ -23,6 +23,9 @@ TIPOS_DOCUMENTAIS = {
     "nota_tecnica": "Nota técnica",
     "politica_institucional": "Política institucional",
     "documento_orientativo": "Documento orientativo",
+    "formacao": "Material de formação",
+    "livro": "Livro",
+    "cartilha": "Cartilha",
     "outro": "Outro",
 }
 
@@ -34,7 +37,8 @@ UFS = [
 # Órgãos emissores. Os CRESS são identificados pela UF (ex.: "CRESS-SP").
 # A numeração regional (ex.: 9ª Região) é registrada em observações, não aqui,
 # porque não deve ser inferida sem verificação.
-ORGAOS = {"CFESS", "Presidência da República", "Congresso Nacional"} | {f"CRESS-{uf}" for uf in UFS}
+ORGAOS = {"CFESS", "Presidência da República", "Congresso Nacional", "Conselho Nacional de Educação",
+          "Conselho Nacional de Saúde"} | {f"CRESS-{uf}" for uf in UFS}
 
 ABRANGENCIAS = {"nacional"} | {f"regional:{uf}" for uf in UFS}
 

@@ -66,6 +66,11 @@ function casa(ref, ev) {
   return ev.contexto.some((c) => c.rotulo === ref.disp) && false;
 }
 
+function docOuParte(ref, e) {
+  const docId = docDaReferencia(ref);
+  return docId ? e.documento.id === docId : e.parte === PARTES[ref.doc];
+}
+
 const resultados = [];
 for (const q of conjunto.perguntas) {
   const r = await consultar(indice, q.pergunta, { semantica });
@@ -80,6 +85,11 @@ for (const q of conjunto.perguntas) {
     referencias: q.referencias.length, referencias_no_acervo: disponiveis.length,
     recuperadas: acertos.length, primeira_posicao: acertos.length ? Math.min(...acertos) + 1 : null,
     n_evidencias: evidencias.length,
+    // D52: o documento esperado aparece nos trechos principais / no panorama completo?
+    docs_esperados: disponiveis.length,
+    docs_nos_trechos: disponiveis.filter((ref) => evidencias.some((e) => docOuParte(ref, e))).length,
+    docs_no_panorama: disponiveis.filter((ref) => evidencias.some((e) => docOuParte(ref, e)) ||
+      (r.secoes.find((s) => s.id === "panorama")?.panorama.categorias.flatMap((g) => g.documentos) || []).some((e) => docOuParte(ref, e))).length,
     evidencias: evidencias.map((e) => `${e.parte} | ${e.rotulo}`),
   };
   if (q.comportamento === "insuficiencia") item.ok = evidencias.length === 0;
@@ -107,6 +117,8 @@ const resumo = {
   pendentes_por_falta_de_documento: resultados.length - avaliaveis.length,
   aprovadas: avaliaveis.filter((r) => r.ok).length,
   taxa_aprovacao: +(avaliaveis.filter((r) => r.ok).length / Math.max(1, avaliaveis.length)).toFixed(3),
+  recall_documentos_trechos: +(comRecuperacao.reduce((s, r) => s + r.docs_nos_trechos / r.docs_esperados, 0) / Math.max(1, comRecuperacao.length)).toFixed(3),
+  recall_documentos_panorama: +(comRecuperacao.reduce((s, r) => s + r.docs_no_panorama / r.docs_esperados, 0) / Math.max(1, comRecuperacao.length)).toFixed(3),
   recall_em_8_referencias: +(comRecuperacao.reduce((s, r) => s + r.recuperadas / r.referencias_no_acervo, 0) / Math.max(1, comRecuperacao.length)).toFixed(3),
   mrr_primeira_referencia: +mrr.toFixed(3),
   acuracia_situacao: +(resultados.filter((r) => r.situacao_esperada === r.situacao_obtida).length / resultados.length).toFixed(3),

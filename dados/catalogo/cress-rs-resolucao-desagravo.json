@@ -1,0 +1,147 @@
+{
+  "id": "cress-rs-resolucao-desagravo",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução CRESS-RS — procedimentos para o desagravo público",
+  "numero": null,
+  "ano": null,
+  "orgao_emissor": "CRESS-RS",
+  "tipo_documental": "resolucao",
+  "abrangencia": "regional:RS",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "cfess-resolucao-443-2003",
+        "texto": "RESOLUÇÃO CFESS Nº 443/2003",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-273-1993",
+        "texto": "Resolução CFESS nº 273/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "cfess-resolucao-294-1994",
+        "texto": "Resolução CFESS nº 294/94",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1,
+          4
+        ]
+      },
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8.662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          2
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://cressrs.org.br/docs/Resolucao_de_Desagravo_Publico.pdf",
+  "categoria_portal": "Acervo CFESS-CRESS-ABEPSS (D03212)",
+  "arquivos": [
+    {
+      "url": "https://cressrs.org.br/docs/Resolucao_de_Desagravo_Publico.pdf",
+      "papel": "principal",
+      "sha256": "a1680c5c4bc4ab911579731a0be2b21ff4ac77c23aa21ecd27bd9ebfabef8cbf",
+      "bytes": 15186,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-11-11T20:40:55+00:00",
+      "verificado_em": "2026-11-11T20:40:55+00:00",
+      "caminho_local": "dados/brutos/cress-rs-resolucao-desagravo/a1680c5c4bc4ab91.pdf",
+      "versao": "a1680c5c4bc4ab91"
+    }
+  ],
+  "versao_atual": "a1680c5c4bc4ab91",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 4,
+    "paginas_indexadas": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "dispositivos": 13,
+    "unidades": 16,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução CRESS-RS — procedimentos para o desagravo público",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 4,
+    "paginas_sem_texto": 0,
+    "caracteres": 7091,
+    "media_caracteres_pagina": 1772.8,
+    "proporcao_letras": 0.797,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "arquivo do acervo baixado em 10/11/2026 (D03212); triagem de 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T20:41:05+00:00",
+      "por": "processador",
+      "motivo": "16 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T20:41:05+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ]
+}

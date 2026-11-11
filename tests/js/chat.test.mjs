@@ -48,3 +48,21 @@ test("grupos de referências como [E2, E4] viram dois links", () => {
   const p = partesDoTexto("Veja [E2, E4].", new Set(["E2", "E4"]));
   assert.deepEqual(p[0].filter((x) => x.tipo === "ref").map((x) => x.valor), ["E2", "E4"]);
 });
+
+test("D56: frase que fala de documento sem fonte recebe aviso; com fonte pertinente não", async () => {
+  const { conferirFrases, partesDoTexto } = await import("../../app/js/nucleo/chat.js");
+  const fontes = new Map([["P2", "É direito do assistente social dispor de condições de trabalho condignas, seja em entidade pública ou privada."]]);
+  const txt = "As normas indicam o direito a condições de trabalho condignas em entidade pública ou privada [P2]. A literatura da categoria frequentemente aponta o registro formal das condições inadequadas junto à gestão.";
+  const saida = conferirFrases(txt, fontes);
+  assert.ok(!/\[P2\]\.? ⟦/.test(saida));
+  assert.match(saida, /gestão\. ⟦SF⟧|gestão\.? ?⟦SF⟧/);
+  const partes = partesDoTexto(saida, new Set(["P2"])).flat();
+  assert.ok(partes.some((p) => p.tipo === "aviso"));
+  const fraca = conferirFrases("O Código de Ética proíbe cobrança de honorários abusivos em clínicas veterinárias [P2].", fontes);
+  assert.match(fraca, /⟦FR⟧/);
+});
+
+test("D56: frase de ressalva não recebe aviso", async () => {
+  const { conferirFrases } = await import("../../app/js/nucleo/chat.js");
+  assert.doesNotMatch(conferirFrases("Cumpre ressaltar que tais orientações não substituem as normas em vigor, mas servem de subsídio.", new Map()), /⟦/);
+});

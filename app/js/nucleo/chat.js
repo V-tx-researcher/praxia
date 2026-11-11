@@ -40,6 +40,28 @@ export function bloqueioPrivacidade(pergunta) {
 // Trechos na ordem de relevância: primeiro os que se aplicam, depois orientações; fora os "provavelmente não se aplica".
 export const localDe = (e) => (["trecho", "apresentacao", "anexo"].includes(e.tipo) ? `p. ${e.pagina}` : e.rotulo);
 
+// Modo Trilhas (D53): fontes ampliadas — os trechos principais, as orientações e um trecho de cada
+// documento do panorama (P1, P2…), até MAX_TRILHAS. Revogadas nunca entram (o panorama já as separa).
+export const MAX_TRILHAS = 24;
+export function fontesTrilhas(evidencias = [], orientacoes = [], panorama = null, max = MAX_TRILHAS) {
+  const lista = escolherFontes(evidencias, orientacoes);
+  const vistos = new Set(lista.map((e) => e.unidadeId));
+  const docs = new Set(lista.map((e) => `${e.documento.id}|${e.parte || ""}`));
+  let n = 0;
+  // Uma volta por categoria de cada vez, para a trilha cobrir todos os tipos de documento.
+  const filas = (panorama?.categorias || []).map((g) => [...g.documentos]);
+  while (lista.length < max && filas.some((f) => f.length)) {
+    for (const f of filas) {
+      const it = f.shift();
+      if (!it || lista.length >= max) continue;
+      if (vistos.has(it.unidadeId) || docs.has(`${it.documento.id}|${it.parte || ""}`)) continue;
+      vistos.add(it.unidadeId); docs.add(`${it.documento.id}|${it.parte || ""}`);
+      lista.push({ ...it, id: `P${++n}`, tipo: it.camada === 2 ? "trecho" : "dispositivo", contexto: [] });
+    }
+  }
+  return lista;
+}
+
 // As fontes de uma resposta (objetos de evidência completos, para exibir trecho e link).
 export function escolherFontes(evidencias = [], orientacoes = []) {
   const ordem = { principal: 0, relacionada: 1 };
@@ -69,11 +91,11 @@ export function montarTrechos(evidencias = [], orientacoes = []) {
 // Identificadores citados pela IA, na ordem em que aparecem.
 export function idsCitados(texto, idsValidos) {
   const vistos = [];
-  for (const m of String(texto).matchAll(/[EO]\d{1,2}/g)) if (idsValidos.has(m[0]) && !vistos.includes(m[0])) vistos.push(m[0]);
+  for (const m of String(texto).matchAll(/[EOPB]\d{1,2}/g)) if (idsValidos.has(m[0]) && !vistos.includes(m[0])) vistos.push(m[0]);
   return vistos;
 }
 
-export async function pedirExplicacao(cfg, pergunta, trechos) {
+export async function pedirExplicacao(cfg, pergunta, trechos, modo = "biblioteca") {
   const u = lerUso();
   u.n += 1; u.ultimo = Date.now(); gravarUso(u); // conta antes: um pedido que falha também gasta cota
   const ctrl = new AbortController();
@@ -81,7 +103,7 @@ export async function pedirExplicacao(cfg, pergunta, trechos) {
   try {
     const r = await fetch(cfg.endpoint, {
       method: "POST", headers: { "Content-Type": "application/json" }, signal: ctrl.signal,
-      body: JSON.stringify({ pergunta, trechos }), credentials: "omit", referrerPolicy: "no-referrer",
+      body: JSON.stringify({ pergunta, trechos, modo }), credentials: "omit", referrerPolicy: "no-referrer",
     });
     const j = await r.json().catch(() => ({}));
     if (!r.ok || !j.texto) return { erro: j.erro || `O serviço respondeu com o código ${r.status}. A busca local continua funcionando.` };
@@ -95,11 +117,44 @@ export async function pedirExplicacao(cfg, pergunta, trechos) {
 export function partesDoTexto(texto, idsValidos) {
   const limpo = String(texto).replace(/\*\*(.+?)\*\*/g, "$1").replace(/^\s*[-*]\s+/gm, "• ");
   // Aceita [E1] e também grupos como [E2, E4] ou [E1; O2].
-  return limpo.split(/\n{2,}/).map((par) => par.split(/(\[[EO]\d{1,2}(?:\s*[,;]\s*[EO]\d{1,2})*\])/g).filter(Boolean).flatMap((p) => {
-    const m = p.match(/^\[([EO]\d{1,2}(?:\s*[,;]\s*[EO]\d{1,2})*)\]$/);
+  return limpo.split(/\n{2,}/).map((par) => par.split(/(\[[EOPB]\d{1,2}(?:\s*[,;]\s*[EOPB]\d{1,2})*\]|⟦SF⟧|⟦FR⟧)/g).filter(Boolean).flatMap((p) => {
+    if (p === "⟦SF⟧") return [{ tipo: "aviso", valor: "sem fonte indicada: confira" }];
+    if (p === "⟦FR⟧") return [{ tipo: "aviso", valor: "fonte pouco relacionada: confira" }];
+    const m = p.match(/^\[([EOPB]\d{1,2}(?:\s*[,;]\s*[EOPB]\d{1,2})*)\]$/);
     if (!m) return [{ tipo: "texto", valor: p }];
     const ids = m[1].split(/\s*[,;]\s*/);
     if (!ids.every((id) => idsValidos.has(id))) return [{ tipo: "texto", valor: p }];
     return ids.flatMap((id, i) => (i ? [{ tipo: "texto", valor: " " }, { tipo: "ref", valor: id }] : [{ tipo: "ref", valor: id }]));
   }));
+}
+
+// D56: conferência das frases da IA, no navegador (não depende de o modelo obedecer).
+// - frase que fala do que documentos dizem, sem identificador → aviso "sem fonte";
+// - frase com identificador cujas palavras quase não aparecem nos trechos citados → aviso "fonte pouco relacionada".
+// O texto não é apagado: a pessoa vê o aviso e confere. Marcadores internos: ⟦SF⟧ e ⟦FR⟧.
+const FALA_DE_DOCUMENTO = /\b(normas?|resolu[cç](?:[aã]o|[oõ]es)|orienta[cç](?:[aã]o|[oõ]es)|literatura|c[oó]digo|lei|nota[s]? t[eé]cnica|parecer(?:es)?|cartilhas?|documentos? (?:oficiais|das entidades)|(?:o|a)s? (?:cfess|cress|abepss) (?:orienta|indica|afirma|recomenda|prev[eê]|estabelece|determina)|prev[eê]|estabelece|determina|disp[oõ]e|aponta)/i;
+const FECHO = /n[aã]o substitui, de nenhuma maneira/i;
+// Frases de ressalva ("tais orientações não substituem as normas") não afirmam conteúdo: não pedem fonte.
+const RESSALVA = /n[aã]o (substitu|s[aã]o normas?|tem for[cç]a)|servem? (de|como) subs[ií]dio|confira|consulte o cress/i;
+const REF = /\[([EOPB]\d{1,2}(?:\s*[,;]\s*[EOPB]\d{1,2})*)\]/g;
+const radical = (w) => w.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().slice(0, 6);
+const palavras = (t) => (String(t).match(/[\p{L}]{5,}/gu) || []).map(radical);
+const VAZIAS = new Set(["assist", "social", "servic", "profis", "trabal", "possiv", "indica", "tambem", "pessoa", "situac", "questa", "segund", "acordo", "podem", "atuaca", "entida", "orient", "normas", "litera", "docume"]);
+
+export function conferirFrases(texto, fontesPorId) {
+  return String(texto).split(/\n{2,}/).map((par) => {
+    const frases = par.match(/[^.!?]+(?:[.!?]+|$)\s*/g) || [par];
+    return frases.map((f) => {
+      if (FECHO.test(f) || f.trim().length < 25) return f;
+      const ids = [...f.matchAll(REF)].flatMap((m) => m[1].split(/\s*[,;]\s*/)).filter((id) => fontesPorId.has(id));
+      const fim = f.match(/\s*$/)[0];
+      const corpo = f.slice(0, f.length - fim.length);
+      if (!ids.length) return FALA_DE_DOCUMENTO.test(f) && !RESSALVA.test(f) ? `${corpo} ⟦SF⟧${fim}` : f;
+      const ditas = new Set(palavras(f.replace(REF, "")).filter((w) => !VAZIAS.has(w)));
+      if (ditas.size < 3) return f;
+      const fonte = new Set(ids.flatMap((id) => palavras(fontesPorId.get(id))));
+      const comuns = [...ditas].filter((w) => fonte.has(w)).length;
+      return comuns / ditas.size < 0.15 ? `${corpo} ⟦FR⟧${fim}` : f;
+    }).join("");
+  }).join("\n\n");
 }

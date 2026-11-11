@@ -27,7 +27,7 @@ export function rotuloLocalizacao(doc, unidade) {
   return partes.join(", ");
 }
 
-export function selecionarEvidencias(indice, resultadoBusca, { dataFatos = null, max = MAX_EVIDENCIAS } = {}) {
+export function selecionarEvidencias(indice, resultadoBusca, { dataFatos = null, max = MAX_EVIDENCIAS, incluirRevogadas = false } = {}) {
   const res = resultadoBusca.resultados;
   if (!res.length) return [];
   // Suficiência mínima: o melhor dispositivo precisa contemplar boa parte dos termos
@@ -42,6 +42,11 @@ export function selecionarEvidencias(indice, resultadoBusca, { dataFatos = null,
     if (r.pontuacao < melhor * LIMIAR_RELATIVO) break;
     const u = r.unidade;
     if (cobertos.has(u.id)) continue;
+    // D52: norma revogada ou suspensa não fundamenta a resposta; vai para o contexto histórico
+    // do panorama. Exceções: a pessoa citou a norma ou pergunta sobre fatos passados (contexto histórico).
+    const citada = resultadoBusca.citadas?.docs?.has(u.doc) || resultadoBusca.citadas?.partes?.has(u.parte);
+    if (!citada && !incluirRevogadas && !resultadoBusca.passado && (u.situacao_dispositivo === "revogado" ||
+      avaliarVigencia(indice.documentos.get(u.doc), dataFatos, u).aplicavel === false)) continue;
     // Se o dispositivo-pai (caput) já foi escolhido, a alínea entra como complemento dele.
     escolhidos.push(r);
     cobertos.add(u.id);

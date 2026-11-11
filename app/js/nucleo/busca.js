@@ -39,6 +39,22 @@ const PESO_SITUACAO = {
   vigente_confirmada: 1.0, alterada: 1.0, nao_verificada: 0.95, historica: 0.6, revogada: 0.5, sem_efeito_judicial: 0.5,
 };
 
+const PESO_REGIONAL = 0.55;
+const ESTADOS = { AC: "acre", AL: "alagoas", AP: "amapa", AM: "amazonas", BA: "bahia", CE: "ceara", DF: "distrito federal",
+  ES: "espirito santo", GO: "goias", MA: "maranhao", MT: "mato grosso", MS: "mato grosso do sul", MG: "minas gerais",
+  PA: "para", PB: "paraiba", PR: "parana", PE: "pernambuco", PI: "piaui", RJ: "rio de janeiro", RN: "rio grande do norte",
+  RS: "rio grande do sul", RO: "rondonia", RR: "roraima", SC: "santa catarina", SP: "sao paulo", SE: "sergipe", TO: "tocantins" };
+// UFs citadas na pergunta: "CRESS-SP", "cress sp" ou o nome do estado ("em São Paulo").
+export function ufsCitadas(consulta) {
+  const t = String(consulta).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const ufs = new Set();
+  for (const m of t.matchAll(/cress[\s\-/]*([a-z]{2})(?![a-z])/g)) if (ESTADOS[m[1].toUpperCase()]) ufs.add(m[1].toUpperCase());
+  for (const [uf, nome] of Object.entries(ESTADOS)) {
+    if (uf === "PA" ? / no para(?![a-z])| do para(?![a-z])/.test(` ${t}`) : new RegExp(`(^|[^a-z])${nome}([^a-z]|$)`).test(t)) ufs.add(uf);
+  }
+  return ufs;
+}
+
 export class IndiceLexical {
   constructor(acervo) {
     this.documentos = new Map(acervo.documentos.map((d) => [d.id, d]));
@@ -102,8 +118,11 @@ export class IndiceLexical {
 
   // Peso de um trecho independente da pergunta: tipo, situação de vigência e norma citada.
   // Usado pela busca por termos e pela busca por sentido (semantica.js).
-  fator(u, citadas, passado) {
+  fator(u, citadas, passado, ufs = new Set()) {
     const doc = this.documentos.get(u.doc);
+    // D57: norma de um só CRESS pesa menos, salvo se a pergunta citar o estado ou o CRESS.
+    const uf = String(doc?.abrangencia || "").startsWith("regional:") ? doc.abrangencia.slice(9) : null;
+    const pesoRegional = uf && !ufs.has(uf) && !citadas.docs.has(u.doc) ? PESO_REGIONAL : 1;
     const citada = citadas.docs.has(u.doc) || citadas.partes.has(u.parte);
     // Quem cita a norma ou pergunta sobre fatos passados quer ler a norma mesmo revogada.
     const semPenalidade = citada || passado;
@@ -111,7 +130,7 @@ export class IndiceLexical {
       (semPenalidade ? 1 : (PESO_SITUACAO[doc?.situacao] ?? 0.9)) *
       (u.situacao_dispositivo === "revogado" && !semPenalidade ? PESO_SITUACAO.revogada : 1) *
       (doc?.indicacoes_portal?.length && !citada ? PESO_INDICACAO_PORTAL : 1) *
-      (citada ? PESO_CITADA : 1);
+      (citada ? PESO_CITADA : 1) * pesoRegional;
   }
 
   // Retorna unidades ordenadas por relevância, com os termos que casaram.
@@ -132,6 +151,7 @@ export class IndiceLexical {
     let informativos = new Set(originais.filter((t) => this.idf(t) >= IDF_INFORMATIVO && !GERAIS.has(t)));
     if (!informativos.size) informativos = new Set(originais.filter((t) => this.idf(t) >= IDF_INFORMATIVO));
     const citadas = normasCitadas(consulta, this);
+    const ufs = ufsCitadas(consulta);
     const passado = dataFatos && +dataFatos.slice(0, 4) < new Date().getFullYear();
     // Documentos cuja ementa cobre boa parte dos termos informativos da pergunta.
     const ementaPertinente = new Set();
@@ -159,7 +179,7 @@ export class IndiceLexical {
         else if (relacionados(t).some((r) => conjunto.has(r))) { cobertos += 0.6; informativosCasados++; }
       }
       const cobertura = cobertos / informativos.size;
-      const fator = this.fator(u, citadas, passado) * (ementaPertinente.has(u.doc) ? PESO_EMENTA : 1);
+      const fator = this.fator(u, citadas, passado, ufs) * (ementaPertinente.has(u.doc) ? PESO_EMENTA : 1);
       const palavras = casados.filter((t) => informativos.has(t) && superficie.has(t)).map((t) => superficie.get(t));
       resultados.push({ unidade: u, pontuacao: s * fator * (0.6 + 0.4 * cobertura), casados: palavras,
         porSinonimo: casados.some((t) => termos.get(t) < 1), cobertura, informativosCasados });

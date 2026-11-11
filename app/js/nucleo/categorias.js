@@ -16,8 +16,8 @@ export const CATEGORIAS = [
     tipos: ["nota_tecnica", "parecer_juridico", "parecer_tecnico", "parecer"] },
   { id: "orientativo", rotulo: "Cartilhas e documentos de orientação", descricao: "Publicações que explicam como aplicar as normas. Não são normas.",
     tipos: ["documento_orientativo", "cartilha", "parametros_atuacao", "brochura", "manual"] },
-  { id: "formacao", rotulo: "Formação e base teórica", descricao: "Documentos de formação profissional (ABEPSS e outros). Não são normas.",
-    tipos: ["politica_institucional", "diretrizes_curriculares", "material_teorico", "formacao"] },
+  { id: "formacao", rotulo: "Formação, livros e base teórica", descricao: "Livros, cadernos e documentos de formação profissional (CFESS, ABEPSS e outros). Não são normas.",
+    tipos: ["politica_institucional", "diretrizes_curriculares", "material_teorico", "formacao", "livro"] },
   { id: "outro", rotulo: "Outros documentos oficiais", descricao: "Documentos oficiais sem categoria específica.", tipos: [] },
 ];
 

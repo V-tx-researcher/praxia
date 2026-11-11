@@ -13,6 +13,8 @@ import { verificarAnalise } from "./verificacao.js";
 import { ASSUNTOS_ROTULOS } from "./rotulos.js";
 import { fundir } from "./semantica.js";
 import { ajustarNatureza, conferirOrientacoes, selecionarOrientacoes } from "./interpretacao.js";
+import { montarPanorama } from "./panorama.js";
+import { normalizarColoquial } from "./coloquial.js";
 
 export const LIMITES =
   "Esta é uma análise informativa, produzida por uma ferramenta independente de pesquisa, " +
@@ -48,15 +50,17 @@ export async function consultar(indice, perguntaOriginal, { motorLLM = null, sem
   const pergunta = dados.length ? mascarar(perguntaOriginal, dados) : perguntaOriginal;
   marcar("privacidade", dados.length ? `${dados.length} possível(is) dado(s) pessoal(is) mascarado(s)` : "nenhum dado pessoal detectado");
 
-  const classificacao = classificar(pergunta);
+  // D55: a busca usa a pergunta normalizada (abreviações e termos das normas); a exibição, a original.
+  const paraBusca = normalizarColoquial(pergunta);
+  const classificacao = classificar(paraBusca);
   marcar("interpretação", `${classificacao.situacaoRotulo}; temas: ${classificacao.temas.map((t) => ASSUNTOS_ROTULOS[t] || t).join(", ") || "não identificados"}`);
 
-  let busca = indice.buscar(pergunta, { limite: 40, dataFatos: classificacao.dataFatos });
+  let busca = indice.buscar(paraBusca, { limite: 200, dataFatos: classificacao.dataFatos });
   marcar("busca nos documentos", `${busca.resultados.length} dispositivos candidatos` +
     (busca.citadas?.alguma ? " (com prioridade para a norma citada na pergunta)" : ""));
   if (semantica) {
     try {
-      const vetor = await semantica.motor.vetor(pergunta, semantica.indice.prefixo);
+      const vetor = await semantica.motor.vetor(paraBusca, semantica.indice.prefixo);
       busca = fundir(indice, busca, semantica.indice, vetor);
       const novos = busca.resultados.filter((r) => r.porSentido).length;
       marcar("busca por sentido", "ordem combinada com a busca por termos" +
@@ -73,11 +77,17 @@ export async function consultar(indice, perguntaOriginal, { motorLLM = null, sem
   // Orientações institucionais só acompanham uma resposta que já tem base normativa.
   let orientacoes = [];
   if (interpretacao && evidencias.length) {
-    orientacoes = conferirOrientacoes(interpretacao, selecionarOrientacoes(interpretacao, pergunta));
+    orientacoes = conferirOrientacoes(interpretacao, selecionarOrientacoes(interpretacao, paraBusca));
     marcar("orientações institucionais", orientacoes.length
       ? `${orientacoes.length} trecho(s) de documentos do CFESS, dos CRESS ou da ABEPSS`
       : "nenhuma orientação diretamente relacionada");
   }
+
+  const panorama = evidencias.length
+    ? montarPanorama(indice, busca, evidencias, { interpretacao, pergunta: paraBusca, dataFatos: classificacao.dataFatos })
+    : null;
+  if (panorama) marcar("panorama", `${panorama.total} documento(s) em vigor em ${panorama.categorias.length} tipo(s)` +
+    (panorama.historico.length ? `; ${panorama.historico.length} revogado(s) só como contexto histórico` : ""));
 
   let analise = null;
   if (motorLLM && evidencias.length) {
@@ -103,8 +113,11 @@ export async function consultar(indice, perguntaOriginal, { motorLLM = null, sem
     }
   }
 
-  return compor({ perguntaOriginal, pergunta, dados, classificacao, busca, evidencias, orientacoes, analise, etapas,
+  const r = compor({ perguntaOriginal, pergunta, dados, classificacao, busca, evidencias, orientacoes, analise, etapas,
     llmAtivo: !!motorLLM, indice });
+  if (panorama) r.secoes.splice(r.secoes.findIndex((s) => s.id === "atencao" || s.id === "orientacao"), 0,
+    { id: "panorama", titulo: "Todos os documentos relacionados, por tipo", panorama });
+  return r;
 }
 
 export function compor({ pergunta, dados, classificacao, busca, evidencias, orientacoes = [], analise, etapas, llmAtivo, indice = null }) {

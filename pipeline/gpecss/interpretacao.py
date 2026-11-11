@@ -209,7 +209,7 @@ def processar(ids: list[str] | None = None, log=print) -> None:
         paginas = extracao.extrair_pdf(caminho)
         qualidade = extracao.avaliar_qualidade(paginas)
         d["qualidade_extracao"] = qualidade["classificacao"]
-        alertas = [a for a in d.get("alertas", []) if a.startswith("arquivo_alterado_em:")]
+        alertas = [a for a in d.get("alertas", []) if a.startswith("arquivo_alterado_em:") or a == "texto_por_ocr"]
         if qualidade["classificacao"] in {"requer_ocr", "falhou"}:
             d["alertas"] = alertas + ["requer_ocr"]
             log(f"  {d['id']}: {qualidade['classificacao']} — fora do índice")

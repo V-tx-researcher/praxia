@@ -1,0 +1,115 @@
+{
+  "id": "cress-rn-resolucao-2-2020",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução CRESS-RN nº 2/2020 — conduta profissional na regulação de leitos",
+  "numero": "2",
+  "ano": 2020,
+  "orgao_emissor": "CRESS-RN",
+  "tipo_documental": "resolucao",
+  "abrangencia": "regional:RN",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8662-1993",
+        "texto": "Lei 8662/93",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://cressrn.org.br/app/webroot/upload/files/Resolu%C3%A7%C3%A3o%2002-2020%20CRESSRN%20-%20LEITOS%20E%20EXAMES.pdf",
+  "categoria_portal": "Acervo CFESS-CRESS-ABEPSS (D03736)",
+  "arquivos": [
+    {
+      "url": "https://cressrn.org.br/app/webroot/upload/files/Resolu%C3%A7%C3%A3o%2002-2020%20CRESSRN%20-%20LEITOS%20E%20EXAMES.pdf",
+      "papel": "principal",
+      "sha256": "783acbb95ccd498106e496d0acd32cd9fcb7140c2533937b846cee8507f42e88",
+      "bytes": 571177,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-11-11T20:40:55+00:00",
+      "verificado_em": "2026-11-11T20:40:55+00:00",
+      "caminho_local": "dados/brutos/cress-rn-resolucao-2-2020/783acbb95ccd4981.pdf",
+      "versao": "783acbb95ccd4981"
+    }
+  ],
+  "versao_atual": "783acbb95ccd4981",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 3,
+    "paginas_indexadas": [
+      1,
+      2,
+      3
+    ],
+    "dispositivos": 6,
+    "unidades": 10,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução CRESS-RN nº 2/2020 — conduta profissional na regulação de leitos",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 3,
+    "paginas_sem_texto": 0,
+    "caracteres": 4978,
+    "media_caracteres_pagina": 1659.3,
+    "proporcao_letras": 0.768,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "arquivo do acervo baixado em 10/11/2026 (D03736); triagem de 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T20:41:06+00:00",
+      "por": "processador",
+      "motivo": "10 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T20:41:06+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ]
+}

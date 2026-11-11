@@ -1,0 +1,112 @@
+{
+  "id": "cne-ces-resolucao-15-2002",
+  "versao_esquema": 1,
+  "titulo_oficial": "Resolução CNE/CES nº 15/2002 — Diretrizes Curriculares para os cursos de Serviço Social",
+  "numero": "15",
+  "ano": 2002,
+  "orgao_emissor": "Conselho Nacional de Educação",
+  "tipo_documental": "resolucao",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-9131-1995",
+        "texto": "Lei 9.131, de 25 de novembro de 1995",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://portal.mec.gov.br/cne/arquivos/pdf/CES152002.pdf",
+  "categoria_portal": "Acervo CFESS-CRESS-ABEPSS (D01702)",
+  "arquivos": [
+    {
+      "url": "https://www.gov.br/mec/pt-br/cne/pdf/resolucoes-do-cne/ces/2002/ces152002.pdf",
+      "papel": "principal",
+      "sha256": "887e8c6622145e45d4d331aba524957953d03a58821ea3797deebd4f92e5920c",
+      "bytes": 5572,
+      "tipo_mime": "application/pdf",
+      "data_coleta": "2026-11-11T20:40:55+00:00",
+      "verificado_em": "2026-11-11T20:40:55+00:00",
+      "caminho_local": "dados/brutos/cne-ces-resolucao-15-2002/887e8c6622145e45.pdf",
+      "versao": "887e8c6622145e45"
+    }
+  ],
+  "versao_atual": "887e8c6622145e45",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 1,
+    "paginas_indexadas": [
+      1
+    ],
+    "dispositivos": 10,
+    "unidades": 11,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Resolução CNE/CES nº 15/2002 — Diretrizes Curriculares para os cursos de Serviço Social",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 1,
+    "paginas_sem_texto": 0,
+    "caracteres": 1536,
+    "media_caracteres_pagina": 1536.0,
+    "proporcao_letras": 0.749,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T20:40:55+00:00",
+      "por": "coletor",
+      "motivo": "arquivo do acervo baixado em 10/11/2026 (D01702); triagem de 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T20:41:01+00:00",
+      "por": "processador",
+      "motivo": "11 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T20:41:01+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ]
+}

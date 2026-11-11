@@ -154,7 +154,7 @@ test("verificação: bloqueia julgamento de conduta", () => {
 
 test("verificação: afirmação apoiada só em norma revogada precisa sinalizar a revogação", () => {
   const ind = new IndiceLexical(ACERVO);
-  const ev = selecionarEvidencias(ind, ind.buscar("atendimento em sala com privacidade e arquivo trancado"));
+  const ev = selecionarEvidencias(ind, ind.buscar("atendimento em sala com privacidade e arquivo trancado"), { incluirRevogadas: true });
   const id = ev.find((e) => e.documento.id === "doc-r").id;
   const base = { sintese_questao: "", aspectos_atencao: [], lacunas: [], fundamentacao_suficiente: true };
   const sem = verificarAnalise({ ...base, afirmacoes: [{ texto: "O atendimento deve ocorrer em sala com privacidade e arquivo trancado.", natureza: "norma_expressa", evidencias: [id] }] }, ev);
@@ -175,7 +175,7 @@ test("vigência por dispositivo: revogado e com ressalva", () => {
   acervo.unidades[0].situacao_dispositivo = "revogado";
   acervo.unidades[0].nota_vigencia = "revogado (teste).";
   const ind = new IndiceLexical(acervo);
-  const ev = selecionarEvidencias(ind, ind.buscar("revelar sigilo profissional"));
+  const ev = selecionarEvidencias(ind, ind.buscar("revelar sigilo profissional"), { incluirRevogadas: true });
   assert.equal(ev[0].situacaoDispositivo, "revogado");
   const msgs = montarMensagens({ pergunta: "x", classificacao: classificar("x"), evidencias: ev });
   assert.match(msgs[1].content, /Situação deste dispositivo/);
@@ -242,4 +242,21 @@ test("verificação aceita caput + alínea citados juntos, cada parte literal", 
   const alterada = verificarAnalise({ sintese_questao: "s", afirmacoes: [{ natureza: "norma_expressa", evidencias: ["E1"],
     texto: "«É vedado ao/à assistente social acatar ordem institucional que fira os princípios»" }] }, [ev]);
   assert.equal(alterada.afirmacoes.length, 0);
+});
+
+test("D52: revogada não fundamenta a resposta, salvo pedido histórico", () => {
+  const acervo = structuredClone(ACERVO);
+  acervo.unidades[0].situacao_dispositivo = "revogado";
+  const ind = new IndiceLexical(acervo);
+  const ev = selecionarEvidencias(ind, ind.buscar("revelar sigilo profissional"));
+  assert.ok(ev.every((e) => e.situacaoDispositivo !== "revogado"));
+  const hist = selecionarEvidencias(ind, ind.buscar("revelar sigilo profissional"), { incluirRevogadas: true });
+  assert.ok(hist.some((e) => e.situacaoDispositivo === "revogado"));
+});
+
+test("D55: pergunta informal é normalizada sem estragar palavras acentuadas", async () => {
+  const { normalizarColoquial } = await import("../../app/js/nucleo/coloquial.js");
+  assert.match(normalizarColoquial("meu chefe qr q eu assine, oq faço kkkk"), /quer que eu assine, o que faço/);
+  assert.match(normalizarColoquial("Uso meu número de registro?"), /número de registro/);
+  assert.match(normalizarColoquial("posso atender pelo zap?"), /atendimento remoto/);
 });
