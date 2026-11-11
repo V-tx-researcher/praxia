@@ -1,0 +1,102 @@
+{
+  "id": "lei-complementar-75-1993",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei Complementar nº 75/1993 — Estatuto do Ministério Público da União (inclui o MPT)",
+  "numero": "75",
+  "ano": 1993,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp75.htm",
+  "categoria_portal": "Legislação complementar (D58)",
+  "arquivos": [
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp75.htm",
+      "papel": "html_oficial",
+      "sha256": "d2d0a0566ab04070bf0ac989575200011464da7360f46f74563687ab9b98a890",
+      "bytes": 353952,
+      "tipo_mime": "text/html",
+      "data_coleta": "2026-11-11T21:46:13+00:00",
+      "verificado_em": "2026-11-11T21:46:13+00:00",
+      "caminho_local": "dados/brutos/lei-complementar-75-1993/d2d0a0566ab04070.htm",
+      "versao": "d2d0a0566ab04070"
+    }
+  ],
+  "versao_atual": "d2d0a0566ab04070",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 1,
+    "paginas_indexadas": [
+      1
+    ],
+    "dispositivos": 1192,
+    "unidades": 1193,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Lei Complementar nº 75/1993 — Estatuto do Ministério Público da União (inclui o MPT)",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 1,
+    "paginas_sem_texto": 0,
+    "caracteres": 166473,
+    "media_caracteres_pagina": 166473.0,
+    "proporcao_letras": 0.81,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T21:46:13+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T21:46:13+00:00",
+      "por": "coletor",
+      "motivo": "página oficial do Planalto salva pelo navegador em 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T21:46:18+00:00",
+      "por": "processador",
+      "motivo": "1193 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T21:46:18+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "legislacao_complementar": true
+}

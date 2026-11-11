@@ -75,14 +75,21 @@
 
       <form id="form-consulta" class="compositor" novalidate>
         <div class="linha-nova-conversa"><button type="button" id="nova-conversa" class="link-botao" hidden>Nova conversa</button></div>
-        <div class="modos" role="radiogroup" aria-label="Modo da PraxIA">
-          <label class="modo"><input type="radio" name="modo" value="biblioteca" checked> Biblioteca</label>
-          <label class="modo"><input type="radio" name="modo" value="trilhas"> Trilhas e Reflexões</label>
-          <label class="modo"><input type="radio" name="modo" value="bussola"> Bússola Institucional</label>
-          <span id="ajuda-modo" class="ajuda-modo">Biblioteca: os documentos oficiais ligados à sua pergunta.</span>
-        </div>
         <label for="pergunta" class="rotulo-oculto">Sua dúvida sobre o exercício profissional</label>
         <div class="caixa-compositor">
+          <div class="seletor-modo">
+            <button type="button" id="botao-modo" class="botao-modo" aria-haspopup="menu" aria-expanded="false" aria-controls="menu-modo"
+              title="Escolher o modo"><span id="nome-modo">Biblioteca</span> <span aria-hidden="true">▾</span></button>
+            <div id="menu-modo" class="menu-modo" role="menu" hidden>
+              <p class="menu-modo-titulo">Modo</p>
+              <button type="button" role="menuitemradio" data-modo="biblioteca" aria-checked="true"><strong>Biblioteca</strong>
+                <span>Os documentos oficiais ligados à sua pergunta.</span></button>
+              <button type="button" role="menuitemradio" data-modo="trilhas" aria-checked="false"><strong>Trilhas e Reflexões</strong>
+                <span>Uma reflexão da IA a partir da literatura encontrada.</span></button>
+              <button type="button" role="menuitemradio" data-modo="bussola" aria-checked="false"><strong>Bússola Institucional</strong>
+                <span>Quem pode lidar com a sua situação e o que o CRESS pode fazer.</span></button>
+            </div>
+          </div>
           <textarea id="pergunta" name="pergunta" rows="1" required aria-describedby="ajuda-pergunta"
             placeholder="Pergunte à PraxIA…"></textarea>
           <button type="submit" id="consultar" class="botao-enviar" aria-label="Enviar">Enviar</button>

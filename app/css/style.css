@@ -734,11 +734,21 @@ progress { width: 100%; height: 10px; accent-color: var(--acento); }
 .panorama ul { list-style: none; padding-left: 0; margin: .2rem 0; }
 .panorama-item { padding: .35rem 0; border-bottom: 1px solid color-mix(in srgb, currentColor 12%, transparent); }
 
-/* D53: modos Biblioteca e Trilhas */
-.modos { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .9rem; margin: 0 0 .4rem; font-size: .92rem; }
-.modo { display: inline-flex; align-items: center; gap: .3rem; cursor: pointer; font-weight: 600; }
-.ajuda-modo { opacity: .75; font-size: .85rem; flex-basis: 100%; }
-
+/* D53/D58: seletor de modo dentro da caixa de pergunta, no estilo dos chats de IA */
+.caixa-compositor { align-items: center; }
+.seletor-modo { position: relative; flex: none; align-self: flex-end; }
+.botao-modo { border: 1px solid var(--borda-forte); background: transparent; color: var(--texto); border-radius: 14px;
+  padding: 6px 10px; font: inherit; font-size: .85rem; font-weight: 600; cursor: pointer; white-space: nowrap; }
+.botao-modo:hover, .botao-modo[aria-expanded="true"] { background: color-mix(in srgb, var(--primaria) 10%, transparent); }
+.menu-modo { position: absolute; bottom: calc(100% + 10px); left: -8px; z-index: 30; width: min(320px, calc(100vw - 32px));
+  background: var(--superficie); border: 1px solid var(--borda-forte); border-radius: 14px; box-shadow: var(--sombra); padding: 6px; }
+.menu-modo-titulo { margin: 4px 10px 6px; font-size: .78rem; opacity: .7; }
+.menu-modo [data-modo] { display: block; width: 100%; text-align: left; border: 0; background: transparent; color: var(--texto);
+  font: inherit; padding: 8px 10px 8px 30px; border-radius: 10px; cursor: pointer; position: relative; }
+.menu-modo [data-modo] span { display: block; font-size: .8rem; opacity: .75; margin-top: 2px; }
+.menu-modo [data-modo]:hover, .menu-modo [data-modo]:focus-visible { background: color-mix(in srgb, var(--primaria) 10%, transparent); outline: none; }
+.menu-modo [aria-checked="true"]::before { content: "✓"; position: absolute; left: 10px; top: 8px; color: var(--primaria); font-weight: 700; }
+@media (max-width: 480px) { .botao-modo #nome-modo { max-width: 92px; overflow: hidden; text-overflow: ellipsis; display: inline-block; vertical-align: bottom; } }
 /* D56: aviso em frase sem fonte ou com fonte fraca */
 .aviso-frase { display: inline-block; margin-left: .3rem; padding: 0 .35rem; border-radius: .3rem; font-size: .78rem; font-weight: 600;
   background: color-mix(in srgb, #d97706 18%, transparent); color: inherit; }

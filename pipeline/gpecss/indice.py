@@ -71,6 +71,8 @@ def construir(modo: str = "publico", destino: Path | None = None, log=print) -> 
             "tipo_rotulo": TIPOS_DOCUMENTAIS[reg["tipo_documental"]],
             "orgao": reg["orgao_emissor"],
             "abrangencia": reg["abrangencia"],
+            # D58: legislação complementar (trabalho, serviço público, sistema de justiça): pesa menos na busca.
+            "complementar": bool(reg.get("legislacao_complementar")),
             "numero": reg.get("numero"),
             "ano": reg.get("ano"),
             "edicao": reg.get("edicao"),

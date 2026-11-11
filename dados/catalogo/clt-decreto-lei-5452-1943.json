@@ -1,0 +1,2112 @@
+{
+  "id": "clt-decreto-lei-5452-1943",
+  "versao_esquema": 1,
+  "titulo_oficial": "Consolidação das Leis do Trabalho — Decreto-Lei nº 5.452/1943",
+  "numero": "5452",
+  "ano": 1943,
+  "orgao_emissor": "Presidência da República",
+  "tipo_documental": "decreto",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-15371",
+        "texto": "Lei nº 15.371",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6353",
+        "texto": "Lei nº 6.353",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9797",
+        "texto": "Lei nº 9.797",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13467",
+        "texto": "Lei nº 13.467",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12551",
+        "texto": "Lei nº 12.551",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8079",
+        "texto": "lei nº 8.079",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13877",
+        "texto": "Lei nº 13.877",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8249",
+        "texto": "lei nº 8.249",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9658",
+        "texto": "Lei nº 9.658",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13874",
+        "texto": "Lei nº 13.874",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7855",
+        "texto": "Lei nº 7.855",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10270",
+        "texto": "Lei nº 10.270",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14438",
+        "texto": "Lei nº 14.438",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6533",
+        "texto": "Lei nº 6.533",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10243",
+        "texto": "Lei nº 10.243",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8966",
+        "texto": "Lei nº 8.966",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14442",
+        "texto": "Lei nº 14.442",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13103",
+        "texto": "Lei nº 13.103",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9666",
+        "texto": "lei nº 9.666",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7064-1982",
+        "texto": "Lei nº 7.064, de 6 de dezembro de 1982",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-4589",
+        "texto": "Lei nº 4.589",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10097",
+        "texto": "Lei 10.097",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-1535",
+        "texto": "lei nº 1.535",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8921",
+        "texto": "Lei nº 8.921",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8726",
+        "texto": "Lei nº 8.726",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9016",
+        "texto": "Lei nº 9.016",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7414",
+        "texto": "Lei nº 7.414",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7923",
+        "texto": "Lei nº 7.923",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9528",
+        "texto": "Lei nº 9.528",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6514",
+        "texto": "Lei nº 6.514",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14457",
+        "texto": "Lei nº 14.457",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14599",
+        "texto": "Lei nº 14.599",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-15377",
+        "texto": "Lei nº 15.377",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12740",
+        "texto": "Lei nº 12.740",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14684",
+        "texto": "Lei nº 14.684",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12997",
+        "texto": "Lei nº 12.997",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14766",
+        "texto": "Lei nº 14.766",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14846",
+        "texto": "Lei nº 14.846",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6205-1975",
+        "texto": "Lei nº 6.205, de 29 de abril de 1975",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7430",
+        "texto": "Lei nº 7.430",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6637",
+        "texto": "Lei nº 6.637",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-3488",
+        "texto": "Lei nº 3.488",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12619",
+        "texto": "Lei nº 12.619",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13154",
+        "texto": "Lei nº 13.154",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6361",
+        "texto": "Lei nº 6.361",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8630",
+        "texto": "Lei nº 8.630",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-2924",
+        "texto": "Lei nº 2.924",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13415",
+        "texto": "lei nº 13.415",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9013",
+        "texto": "Lei nº 9.013",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-2298-1940",
+        "texto": "Lei nº 2.298, de 10 de junho de 1940",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-2800",
+        "texto": "Lei nº 2.800",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5922",
+        "texto": "Lei nº 5.922",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6651",
+        "texto": "Lei nº 6.651",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8522",
+        "texto": "Lei nº 8.522",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13999",
+        "texto": "Lei nº 13.999",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14179",
+        "texto": "Lei nº 14.179",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14690",
+        "texto": "Lei nº 14.690",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5683",
+        "texto": "Lei nº 5.683",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9799",
+        "texto": "Lei nº 9.799",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10244",
+        "texto": "Lei nº 10.244",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12812",
+        "texto": "Lei nº 12.812",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13509",
+        "texto": "Lei nº 13.509",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10421",
+        "texto": "Lei nº 10.421",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13985",
+        "texto": "Lei nº 13.985",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-15156",
+        "texto": "Lei nº 15.156",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-15222",
+        "texto": "Lei nº 15.222",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12010",
+        "texto": "Lei nº 12.010",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12873",
+        "texto": "Lei nº 12.873",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5686",
+        "texto": "Lei nº 5.686",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11180",
+        "texto": "Lei nº 11.180",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11788",
+        "texto": "Lei nº 11.788",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13420",
+        "texto": "Lei nº 13.420",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13146",
+        "texto": "Lei nº 13.146",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12594",
+        "texto": "Lei nº 12.594",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13840",
+        "texto": "Lei nº 13.840",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14647",
+        "texto": "Lei nº 14.647",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11644",
+        "texto": "Lei nº 11.644",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6449",
+        "texto": "Lei nº 6.449",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9601",
+        "texto": "Lei nº 9.601",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6204",
+        "texto": "Lei nº 6.204",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9279",
+        "texto": "Lei nº 9.279",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-1999",
+        "texto": "Lei nº 1.999",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13419",
+        "texto": "Lei nº 13.419",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12761",
+        "texto": "Lei nº 12.761",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8860",
+        "texto": "Lei nº 8.860",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5798",
+        "texto": "Lei nº 5.798",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14611",
+        "texto": "Lei nº 14.611",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10272",
+        "texto": "Lei nº 10.272",
+        "relacoes": [
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6203",
+        "texto": "Lei nº 6.203",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-15175",
+        "texto": "Lei nº 15.175",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-4375-1964",
+        "texto": "Lei nº 4.375, de 17 de agosto de 1964",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9471",
+        "texto": "Lei nº 9.471",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9853",
+        "texto": "Lei nº 9.853",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11304",
+        "texto": "Lei nº 11.304",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13257",
+        "texto": "Lei nº 13.257",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13767",
+        "texto": "Lei nº 13.767",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-4824",
+        "texto": "Lei nº 4.824",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5584",
+        "texto": "Lei nº 5.584",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-2959",
+        "texto": "Lei nº 2.959",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-4825",
+        "texto": "Lei nº 4.825",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-1530",
+        "texto": "Lei nº 1.530",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6110",
+        "texto": "lei nº 6.110",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12506",
+        "texto": "Lei nº 12.506",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7108",
+        "texto": "Lei nº 7.108",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10218",
+        "texto": "Lei nº 10.218",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7093",
+        "texto": "Lei nº 7.093",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12347",
+        "texto": "Lei nº 12.347",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5562",
+        "texto": "Lei nº 5.562",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8987",
+        "texto": "lei nº 8.987",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12998",
+        "texto": "Lei nº 12.998",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6200",
+        "texto": "Lei nº 6.200",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9502",
+        "texto": "lei nº 9.502",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-2693",
+        "texto": "Lei nº 2.693",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11295",
+        "texto": "Lei nº 11.295",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8080",
+        "texto": "lei nº 8.080",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8865",
+        "texto": "Lei nº 8.865",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-3265",
+        "texto": "Lei nº 3.265",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7543",
+        "texto": "Lei nº 7.543",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7223",
+        "texto": "Lei nº 7.223",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6386",
+        "texto": "Lei nº 6.386",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-2802",
+        "texto": "Lei nº 2.802",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7449",
+        "texto": "Lei nº 7.449",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5819",
+        "texto": "Lei nº 5.819",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11648",
+        "texto": "Lei nº 11.648",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7047",
+        "texto": "Lei nº 7.047",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9615",
+        "texto": "lei nº 9.615",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6205",
+        "texto": "Lei nº 6.205",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6986",
+        "texto": "Lei 6.986",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6181",
+        "texto": "Lei nº 6.181",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9958",
+        "texto": "Lei nº 9.958",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14261",
+        "texto": "Lei nº 14.261",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12440",
+        "texto": "Lei nº 12.440",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7494",
+        "texto": "Lei nº 7.494",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-3807",
+        "texto": "Lei nº 3.807",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8737",
+        "texto": "Lei nº 8.737",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5442",
+        "texto": "Lei nº 5.442",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9851",
+        "texto": "Lei nº 9.851",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6087",
+        "texto": "Lei nº 6.087",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6090",
+        "texto": "Lei nº 6.090",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8432",
+        "texto": "Lei nº 8.432",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9270",
+        "texto": "Lei nº 9.270",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5657",
+        "texto": "Lei nº 5.657",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-2244",
+        "texto": "Lei nº 2.244",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9398",
+        "texto": "lei nº 9.398",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9519",
+        "texto": "Lei nº 9.519",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5839",
+        "texto": "Lei nº 5.839",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6241",
+        "texto": "Lei nº 6.241",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6927",
+        "texto": "Lei nº 6.927",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6915",
+        "texto": "Lei nº 6.915",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6928",
+        "texto": "Lei nº 6.928",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7324",
+        "texto": "Lei nº 7.324",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7523",
+        "texto": "Lei nº 7.523",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7520",
+        "texto": "Lei nº 7.520",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7671",
+        "texto": "Lei nº 7.671",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7872",
+        "texto": "Lei nº 7.872",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7873",
+        "texto": "Lei nº 7.873",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8219",
+        "texto": "Lei nº 8.219",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8233",
+        "texto": "Lei nº 8.233",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8215",
+        "texto": "Lei nº 8.215",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8221",
+        "texto": "Lei nº 8.221",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8430",
+        "texto": "Lei nº 8.430",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8431",
+        "texto": "Lei nº 8.431",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6320",
+        "texto": "Lei nº 6.320",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-3440",
+        "texto": "Lei nº 3.440",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6289",
+        "texto": "Lei nº 6.289",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7701",
+        "texto": "Lei 7.701",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14824",
+        "texto": "Lei nº 14.824",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9842",
+        "texto": "Lei nº 9.842",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-2874-1940",
+        "texto": "lei nº 2.874, de 16 de dezembro de 1940",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13545",
+        "texto": "Lei nº 13.545",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6598",
+        "texto": "Lei nº 6.598",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10537",
+        "texto": "Lei nº 10.537",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12437",
+        "texto": "Lei nº 12.437",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10288",
+        "texto": "Lei nº 10.288",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14657",
+        "texto": "Lei nº 14.657",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13660",
+        "texto": "Lei nº 13.660",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11925",
+        "texto": "Lei nº 11.925",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10035",
+        "texto": "Lei nº 10.035",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13876",
+        "texto": "Lei nº 13.876",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11457",
+        "texto": "Lei nº 11.457",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11495",
+        "texto": "Lei nº 11.495",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-6667",
+        "texto": "Lei nº 6.667",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9022",
+        "texto": "Lei nº 9.022",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9957",
+        "texto": "Lei nº 9.957",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7321",
+        "texto": "lei nº 7.321",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-2275",
+        "texto": "Lei nº 2.275",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12405",
+        "texto": "Lei nº 12.405",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7305",
+        "texto": "Lei nº 7.305",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11496",
+        "texto": "Lei nº 11.496",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13015",
+        "texto": "Lei nº 13.015",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9756",
+        "texto": "Lei nº 9.756",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5869-1973",
+        "texto": "Lei nº 5.869, de 11 de janeiro de 1973",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12275",
+        "texto": "Lei nº 12.275",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7033",
+        "texto": "Lei nº 7.033",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8638",
+        "texto": "Lei nº 8.638",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-3710-1941",
+        "texto": "lei nº 3.710, de 14 de outubro de 1941",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452compilado.htm",
+  "categoria_portal": "Legislação complementar (D58)",
+  "arquivos": [
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452compilado.htm",
+      "papel": "html_oficial",
+      "sha256": "0680913c163caaeb3102b5e2409bd1669e78667d76afd94c82205fc922b7c02d",
+      "bytes": 1532358,
+      "tipo_mime": "text/html",
+      "data_coleta": "2026-11-11T21:46:13+00:00",
+      "verificado_em": "2026-11-11T21:46:13+00:00",
+      "caminho_local": "dados/brutos/clt-decreto-lei-5452-1943/0680913c163caaeb.htm",
+      "versao": "0680913c163caaeb"
+    }
+  ],
+  "versao_atual": "0680913c163caaeb",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 1,
+    "paginas_indexadas": [
+      1
+    ],
+    "dispositivos": 2823,
+    "unidades": 2833,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Consolidação das Leis do Trabalho — Decreto-Lei nº 5.452/1943",
+        "tipo": "normativa"
+      },
+      {
+        "slug": "anexo-p1",
+        "rotulo": "Anexo ou texto subsequente (a partir da p. 1)",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 1,
+    "paginas_sem_texto": 0,
+    "caracteres": 611596,
+    "media_caracteres_pagina": 611596.0,
+    "proporcao_letras": 0.749,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "anexo_ou_compilacao_detectado",
+    "lacunas_na_extracao:2"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T21:46:13+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T21:46:13+00:00",
+      "por": "coletor",
+      "motivo": "página oficial do Planalto salva pelo navegador em 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T21:46:16+00:00",
+      "por": "processador",
+      "motivo": "2833 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T21:46:16+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "legislacao_complementar": true,
+  "lacunas_detectadas": [
+    {
+      "pagina": 1,
+      "linha": "§ 2º - A entrega das relações far-se-á diretamente às repartições competentes do Ministério do Trabalho, Industria e Comercio, ou, onde não as houver, às Coleto"
+    },
+    {
+      "pagina": 1,
+      "linha": "§ 6º Os juízes do trabalho, presidentes de Junta, juizes substitutos e suplentes de juiz tomarão posse perante o presidente do Tribunal da respectiva Região. No"
+    }
+  ]
+}

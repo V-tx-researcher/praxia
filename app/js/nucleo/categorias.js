@@ -18,6 +18,8 @@ export const CATEGORIAS = [
     tipos: ["documento_orientativo", "cartilha", "parametros_atuacao", "brochura", "manual"] },
   { id: "formacao", rotulo: "Formação, livros e base teórica", descricao: "Livros, cadernos e documentos de formação profissional (CFESS, ABEPSS e outros). Não são normas.",
     tipos: ["politica_institucional", "diretrizes_curriculares", "material_teorico", "formacao", "livro"] },
+  { id: "complementar", rotulo: "Legislação complementar", descricao: "Leis gerais que ajudam a entender caminhos jurídicos: trabalho (CLT), serviço público, sindicatos, Ministério Público, Defensoria.",
+    tipos: [] },
   { id: "outro", rotulo: "Outros documentos oficiais", descricao: "Documentos oficiais sem categoria específica.", tipos: [] },
 ];
 
@@ -29,6 +31,7 @@ const OUTRO = CATEGORIAS[CATEGORIAS.length - 1];
 // livreto do Código de Ética traz a Lei 8.662/1993 e a Lei 12.317/2010) são classificadas pela parte.
 const PARTE_LEI = /^(lei|decreto)\b/i;
 export function categoriaDe(documento, parte = "") {
+  if (documento.complementar) return CATEGORIAS.find((c) => c.id === "complementar");
   if (PARTE_LEI.test(String(parte).trim())) return CATEGORIAS[0];
   if (documento.orgao === "ABEPSS" && !POR_TIPO.has(documento.tipoId)) return CATEGORIAS.find((c) => c.id === "formacao");
   return POR_TIPO.get(documento.tipoId) || OUTRO;

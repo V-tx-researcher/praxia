@@ -710,18 +710,38 @@ const AJUDA_MODO = {
   bussola: "Bússola Institucional: quem pode lidar com a sua situação — o que cabe ao CRESS, ao CFESS, às comissões e a outras instituições, e o que o CRESS pode fazer por você.",
 };
 function modoAtual() { try { return ["trilhas", "bussola"].includes(localStorage.getItem(CHAVE_MODO)) ? localStorage.getItem(CHAVE_MODO) : "biblioteca"; } catch { return "biblioteca"; } }
-function configurarModo() {
-  const atual = modoAtual();
-  document.querySelectorAll('input[name="modo"]').forEach((r) => {
-    r.checked = r.value === atual;
-    r.addEventListener("change", () => {
-      try { localStorage.setItem(CHAVE_MODO, r.value); } catch { /* sem armazenamento: vale só nesta página */ }
-      const a = document.getElementById("ajuda-modo"); if (a) a.textContent = AJUDA_MODO[r.value];
-    });
-  });
-  const a = document.getElementById("ajuda-modo"); if (a) a.textContent = AJUDA_MODO[atual];
+const NOMES_MODO = { biblioteca: "Biblioteca", trilhas: "Trilhas e Reflexões", bussola: "Bússola Institucional" };
+let modoSelecionado = "biblioteca";
+function aplicarModo(modo) {
+  modoSelecionado = NOMES_MODO[modo] ? modo : "biblioteca";
+  try { localStorage.setItem(CHAVE_MODO, modoSelecionado); } catch { /* sem armazenamento: vale só nesta página */ }
+  const nome = document.getElementById("nome-modo"); if (nome) nome.textContent = NOMES_MODO[modoSelecionado];
+  document.querySelectorAll("#menu-modo [data-modo]").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.modo === modoSelecionado)));
+  const p = document.getElementById("pergunta");
+  if (p) p.placeholder = { biblioteca: "Pergunte à PraxIA…", trilhas: "Conte a situação para refletir…", bussola: "Conte a situação: quem pode ajudar?" }[modoSelecionado];
 }
-function modoEscolhido() { return document.querySelector('input[name="modo"]:checked')?.value || modoAtual(); }
+function configurarModo() {
+  const botao = document.getElementById("botao-modo");
+  const menu = document.getElementById("menu-modo");
+  if (!botao || !menu) return;
+  const fechar = () => { menu.hidden = true; botao.setAttribute("aria-expanded", "false"); };
+  botao.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    menu.hidden = !menu.hidden; botao.setAttribute("aria-expanded", String(!menu.hidden));
+    if (!menu.hidden) menu.querySelector('[aria-checked="true"]')?.focus();
+  });
+  menu.querySelectorAll("[data-modo]").forEach((b) => b.addEventListener("click", () => { aplicarModo(b.dataset.modo); fechar(); botao.focus(); }));
+  menu.addEventListener("keydown", (ev) => {
+    const itens = [...menu.querySelectorAll("[data-modo]")];
+    const i = itens.indexOf(document.activeElement);
+    if (ev.key === "Escape") { fechar(); botao.focus(); }
+    else if (ev.key === "ArrowDown") { ev.preventDefault(); itens[(i + 1) % itens.length].focus(); }
+    else if (ev.key === "ArrowUp") { ev.preventDefault(); itens[(i - 1 + itens.length) % itens.length].focus(); }
+  });
+  document.addEventListener("click", (ev) => { if (!menu.hidden && !menu.contains(ev.target)) fechar(); });
+  aplicarModo(modoAtual());
+}
+function modoEscolhido() { return modoSelecionado; }
 
 function renderizarMensagem(msg, r, pergunta) {
   const pref = `m${++conversa.n}`;

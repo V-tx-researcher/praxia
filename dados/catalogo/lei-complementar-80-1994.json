@@ -1,0 +1,143 @@
+{
+  "id": "lei-complementar-80-1994",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei Complementar nº 80/1994 — Organização da Defensoria Pública",
+  "numero": "80",
+  "ano": 1994,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-14941",
+        "texto": "Lei nº 14.941",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12763",
+        "texto": "Lei nº 12.763",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8112-1990",
+        "texto": "Lei nº 8.112, de 11 de junho de 1990",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-7384-1985",
+        "texto": "Lei nº 7.384, de 18 de outubro de 1985",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp80.htm",
+  "categoria_portal": "Legislação complementar (D58)",
+  "arquivos": [
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp80.htm",
+      "papel": "html_oficial",
+      "sha256": "902cdf13030292f2364c510be593dc75485e3b40ecb53ce2e4d755b9bcb55ad1",
+      "bytes": 303697,
+      "tipo_mime": "text/html",
+      "data_coleta": "2026-11-11T21:46:13+00:00",
+      "verificado_em": "2026-11-11T21:46:13+00:00",
+      "caminho_local": "dados/brutos/lei-complementar-80-1994/902cdf13030292f2.htm",
+      "versao": "902cdf13030292f2"
+    }
+  ],
+  "versao_atual": "902cdf13030292f2",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 1,
+    "paginas_indexadas": [
+      1
+    ],
+    "dispositivos": 611,
+    "unidades": 612,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Lei Complementar nº 80/1994 — Organização da Defensoria Pública",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 1,
+    "paginas_sem_texto": 0,
+    "caracteres": 113679,
+    "media_caracteres_pagina": 113679.0,
+    "proporcao_letras": 0.793,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T21:46:13+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T21:46:13+00:00",
+      "por": "coletor",
+      "motivo": "página oficial do Planalto salva pelo navegador em 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T21:46:19+00:00",
+      "por": "processador",
+      "motivo": "612 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T21:46:19+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "legislacao_complementar": true
+}

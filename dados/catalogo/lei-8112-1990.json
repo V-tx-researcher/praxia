@@ -1,0 +1,494 @@
+{
+  "id": "lei-8112-1990",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei nº 8.112/1990 — Regime jurídico dos servidores públicos civis da União",
+  "numero": "8112",
+  "ano": 1990,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-8112-1990",
+        "texto": "LEI Nº 8.112, DE 11 DE DEZEMBRO DE 1990",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12702",
+        "texto": "Lei nº 12.702",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12855",
+        "texto": "Lei nº 12.855",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13135",
+        "texto": "Lei nº 13.135",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9527-1997",
+        "texto": "LEI Nº 9.527, DE 10 DE DEZEMBRO DE 1997",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9515",
+        "texto": "Lei nº 9.515",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9527",
+        "texto": "Lei nº 9.527",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8270",
+        "texto": "Lei nº 8.270",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11784",
+        "texto": "Lei nº 11.784",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9624",
+        "texto": "Lei nº 9.624",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14509",
+        "texto": "Lei nº 14.509",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13172",
+        "texto": "Lei nº 13.172",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11355",
+        "texto": "Lei nº 11.355",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12998",
+        "texto": "Lei nº 12.998",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11490",
+        "texto": "Lei nº 11.490",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11314",
+        "texto": "Lei nº 11.314",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11501",
+        "texto": "Lei nº 11.501",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9525",
+        "texto": "Lei nº 9.525",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8216",
+        "texto": "Lei nº 8.216",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11907",
+        "texto": "Lei nº 11.907",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12269",
+        "texto": "Lei nº 12.269",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11094",
+        "texto": "Lei nº 11.094",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10470",
+        "texto": "Lei nº 10.470",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13370",
+        "texto": "Lei nº 13.370",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12527",
+        "texto": "Lei nº 12.527",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11204",
+        "texto": "Lei nº 11.204",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10667",
+        "texto": "Lei nº 10.667",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5315-1967",
+        "texto": "Lei nº 5.315, de 12 de setembro de 1967",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-10887-2004",
+        "texto": "Lei nº 10.887, de 18 de junho de 2004",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13846",
+        "texto": "Lei nº 13.846",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-13146-2015",
+        "texto": "Lei nº 13.146, de 6 de julho de 2015",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11302",
+        "texto": "Lei nº 11.302",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-9783",
+        "texto": "Lei nº 9.783",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8745",
+        "texto": "Lei nº 8.745",
+        "relacoes": [
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-1711-1952",
+        "texto": "Lei nº 1.711, de 28 de outubro de 1952",
+        "relacoes": [
+          "mencao",
+          "possivel_revogacao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-5452",
+        "texto": "Lei nº 5.452",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-1711",
+        "texto": "Lei nº 1.711",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-8162",
+        "texto": "Lei nº 8.162",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm",
+  "categoria_portal": "Legislação complementar (D58)",
+  "arquivos": [
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm",
+      "papel": "html_oficial",
+      "sha256": "697526b866561d0d59b160c0aaadfe1977be0c03374dde647becd088392ce785",
+      "bytes": 563961,
+      "tipo_mime": "text/html",
+      "data_coleta": "2026-11-11T21:46:13+00:00",
+      "verificado_em": "2026-11-11T21:46:13+00:00",
+      "caminho_local": "dados/brutos/lei-8112-1990/697526b866561d0d.htm",
+      "versao": "697526b866561d0d"
+    }
+  ],
+  "versao_atual": "697526b866561d0d",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 1,
+    "paginas_indexadas": [
+      1
+    ],
+    "dispositivos": 809,
+    "unidades": 812,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Lei nº 8.112/1990 — Regime jurídico dos servidores públicos civis da União",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 1,
+    "paginas_sem_texto": 0,
+    "caracteres": 151599,
+    "media_caracteres_pagina": 151599.0,
+    "proporcao_letras": 0.749,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T21:46:13+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T21:46:13+00:00",
+      "por": "coletor",
+      "motivo": "página oficial do Planalto salva pelo navegador em 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T21:46:17+00:00",
+      "por": "processador",
+      "motivo": "812 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T21:46:17+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "legislacao_complementar": true
+}

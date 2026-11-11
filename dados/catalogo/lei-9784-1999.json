@@ -1,0 +1,144 @@
+{
+  "id": "lei-9784-1999",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei nº 9.784/1999 — Processo administrativo no âmbito da Administração Pública Federal",
+  "numero": "9784",
+  "ano": 1999,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": [
+      {
+        "referencia": "lei-9784",
+        "texto": "LEI Nº 9.784",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-14210",
+        "texto": "Lei nº 14.210",
+        "relacoes": [
+          "mencao",
+          "possivel_alteracao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-11417",
+        "texto": "Lei nº 11.417",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      },
+      {
+        "referencia": "lei-12008",
+        "texto": "Lei nº 12.008",
+        "relacoes": [
+          "mencao"
+        ],
+        "paginas": [
+          1
+        ]
+      }
+    ]
+  },
+  "fonte_oficial_url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+  "categoria_portal": "Legislação complementar (D58)",
+  "arquivos": [
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+      "papel": "html_oficial",
+      "sha256": "f308d4ab5dd3a67b341bb51198a3e9d733bda14bbc89ca85827d27bd26678c71",
+      "bytes": 74941,
+      "tipo_mime": "text/html",
+      "data_coleta": "2026-11-11T21:46:14+00:00",
+      "verificado_em": "2026-11-11T21:46:14+00:00",
+      "caminho_local": "dados/brutos/lei-9784-1999/f308d4ab5dd3a67b.htm",
+      "versao": "f308d4ab5dd3a67b"
+    }
+  ],
+  "versao_atual": "f308d4ab5dd3a67b",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 1,
+    "paginas_indexadas": [
+      1
+    ],
+    "dispositivos": 216,
+    "unidades": 217,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Lei nº 9.784/1999 — Processo administrativo no âmbito da Administração Pública Federal",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 1,
+    "paginas_sem_texto": 0,
+    "caracteres": 32796,
+    "media_caracteres_pagina": 32796.0,
+    "proporcao_letras": 0.792,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T21:46:14+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T21:46:14+00:00",
+      "por": "coletor",
+      "motivo": "página oficial do Planalto salva pelo navegador em 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T21:46:20+00:00",
+      "por": "processador",
+      "motivo": "217 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T21:46:20+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "legislacao_complementar": true
+}

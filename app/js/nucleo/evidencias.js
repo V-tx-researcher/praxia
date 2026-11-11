@@ -108,7 +108,7 @@ export function montarEvidencia(indice, resultado, n, dataFatos) {
     id: `E${n}`,
     unidadeId: u.id,
     documento: {
-      id: doc.id, titulo: doc.titulo, tipo: doc.tipo_rotulo, tipoId: doc.tipo, orgao: doc.orgao, numero: doc.numero, ano: doc.ano,
+      id: doc.id, titulo: doc.titulo, tipo: doc.tipo_rotulo, tipoId: doc.tipo, orgao: doc.orgao, numero: doc.numero, ano: doc.ano, complementar: !!doc.complementar,
       situacao: doc.situacao, situacaoRotulo: doc.situacao_rotulo, conferido: doc.conferido,
       fonteOficial: doc.fonte_oficial_url, sha256: doc.sha256,
     },

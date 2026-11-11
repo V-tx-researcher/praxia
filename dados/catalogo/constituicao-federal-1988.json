@@ -1,0 +1,142 @@
+{
+  "id": "constituicao-federal-1988",
+  "versao_esquema": 1,
+  "titulo_oficial": "Constituição da República Federativa do Brasil de 1988",
+  "numero": null,
+  "ano": 1988,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+  "categoria_portal": "Legislação complementar (D58)",
+  "arquivos": [
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "papel": "html_oficial",
+      "sha256": "37b0ed7fb6f75d29b6a7f1285e252de672cf26a3f6e27718f8f0d6b9d486e810",
+      "bytes": 1847715,
+      "tipo_mime": "text/html",
+      "data_coleta": "2026-11-11T21:46:13+00:00",
+      "verificado_em": "2026-11-11T21:46:13+00:00",
+      "caminho_local": "dados/brutos/constituicao-federal-1988/37b0ed7fb6f75d29.htm",
+      "versao": "37b0ed7fb6f75d29"
+    }
+  ],
+  "versao_atual": "37b0ed7fb6f75d29",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 1,
+    "paginas_indexadas": [
+      1
+    ],
+    "dispositivos": 252,
+    "unidades": 253,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Constituição da República Federativa do Brasil de 1988",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 1,
+    "paginas_sem_texto": 0,
+    "caracteres": 52258,
+    "media_caracteres_pagina": 52258.0,
+    "proporcao_letras": 0.794,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "lacunas_na_extracao:9"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T21:46:13+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T21:46:13+00:00",
+      "por": "coletor",
+      "motivo": "página oficial do Planalto salva pelo navegador em 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T21:46:14+00:00",
+      "por": "processador",
+      "motivo": "253 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T21:46:14+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "legislacao_complementar": true,
+  "lacunas_detectadas": [
+    {
+      "pagina": 1,
+      "linha": "Art. 5ş Todos săo iguais perante a lei, sem distinçăo de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidad"
+    },
+    {
+      "pagina": 1,
+      "linha": "LXII - a prisăo de qualquer pessoa e o local onde se encontre serăo comunicados imediatamente ao juiz competente e ŕ família do preso ou ŕ pessoa por ele indica"
+    },
+    {
+      "pagina": 1,
+      "linha": "LXXI - conceder-se-á mandado de injunçăo sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das "
+    },
+    {
+      "pagina": 1,
+      "linha": "Art. 6ş Săo direitos sociais a educaçăo, a saúde, a alimentaçăo, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdęncia social, a proteçăo ŕ m"
+    },
+    {
+      "pagina": 1,
+      "linha": "V - piso salarial proporcional ŕ extensăo e ŕ complexidade do trabalho;"
+    },
+    {
+      "pagina": 1,
+      "linha": "§ 1ş Săo assegurados ŕ categoria dos trabalhadores domésticos os direitos previstos nos incisos IV, VI, VII, VIII, X, XIII, XV, XVI, XVII, XVIII, XIX, XXI, XXII"
+    },
+    {
+      "pagina": 1,
+      "linha": "II - as terras devolutas indispensáveis ŕ defesa das fronteiras, das fortificaçőes e construçőes militares, das vias federais de comunicaçăo e ŕ preservaçăo amb"
+    },
+    {
+      "pagina": 1,
+      "linha": "V - proporcionar os meios de acesso ŕ cultura, ŕ educaçăo, ŕ cięncia, ŕ tecnologia, ŕ pesquisa e ŕ inovaçăo; (Redaçăo dada pela Emenda Constitucional nş 85, de "
+    },
+    {
+      "pagina": 1,
+      "linha": "XV - proteçăo ŕ infância e ŕ juventude;"
+    }
+  ]
+}

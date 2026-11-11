@@ -23,7 +23,7 @@ function aceitavel(r, melhor, citadas) {
 function item(indice, u, origem, dataFatos, camada) {
   const doc = indice.documentos.get(u.doc);
   const vig = camada === 2 ? { aplicavel: true, avisos: [] } : avaliarVigencia(doc, dataFatos, u);
-  const documento = { id: doc.id, titulo: doc.titulo, tipo: doc.tipo_rotulo, tipoId: doc.tipo, orgao: doc.orgao,
+  const documento = { id: doc.id, complementar: !!doc.complementar, titulo: doc.titulo, tipo: doc.tipo_rotulo, tipoId: doc.tipo, orgao: doc.orgao,
     numero: doc.numero ?? null, ano: doc.ano ?? null, situacao: doc.situacao, situacaoRotulo: doc.situacao_rotulo,
     conferido: doc.conferido, fonteOficial: doc.fonte_oficial_url };
   const link = doc.arquivo_url ? (u.pagina ? `${doc.arquivo_url}#page=${u.pagina}` : doc.arquivo_url) : doc.fonte_oficial_url;

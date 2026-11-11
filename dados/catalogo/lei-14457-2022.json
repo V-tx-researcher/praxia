@@ -1,0 +1,126 @@
+{
+  "id": "lei-14457-2022",
+  "versao_esquema": 1,
+  "titulo_oficial": "Lei nº 14.457/2022 — Programa Emprega + Mulheres (prevenção e combate ao assédio no trabalho)",
+  "numero": "14457",
+  "ano": 2022,
+  "orgao_emissor": "Congresso Nacional",
+  "tipo_documental": "lei",
+  "abrangencia": "nacional",
+  "assunto_principal": null,
+  "assuntos_secundarios": [],
+  "ementa": null,
+  "data_publicacao": null,
+  "inicio_vigencia": null,
+  "situacao_normativa": "nao_verificada",
+  "alteracoes": {
+    "altera": [],
+    "revoga": [],
+    "alterado_por": [],
+    "revogado_por": [],
+    "mencoes_detectadas": []
+  },
+  "fonte_oficial_url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14457.htm",
+  "categoria_portal": "Legislação complementar (D58)",
+  "arquivos": [
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14457.htm",
+      "papel": "html_oficial",
+      "sha256": "0d1cbcb54a4825795ba1c5e28f665cc0314b8b619c991e410c5d97d9ab1993a5",
+      "bytes": 99152,
+      "tipo_mime": "text/html",
+      "data_coleta": "2026-11-11T21:46:14+00:00",
+      "verificado_em": "2026-11-11T21:46:14+00:00",
+      "caminho_local": "dados/brutos/lei-14457-2022/0d1cbcb54a482579.htm",
+      "versao": "0d1cbcb54a482579"
+    }
+  ],
+  "versao_atual": "0d1cbcb54a482579",
+  "redistribuicao": "link_e_excertos",
+  "conferencia": {
+    "data": null,
+    "responsavel": null,
+    "observacoes": null
+  },
+  "indexacao": {
+    "paginas": 1,
+    "paginas_indexadas": [
+      1
+    ],
+    "dispositivos": 142,
+    "unidades": 144,
+    "partes": [
+      {
+        "slug": "texto",
+        "rotulo": "Lei nº 14.457/2022 — Programa Emprega + Mulheres (prevenção e combate ao assédio no trabalho)",
+        "tipo": "normativa"
+      }
+    ]
+  },
+  "qualidade_extracao": {
+    "paginas": 1,
+    "paginas_sem_texto": 0,
+    "caracteres": 30996,
+    "media_caracteres_pagina": 30996.0,
+    "proporcao_letras": 0.748,
+    "caracteres_substituicao": 0,
+    "classificacao": "boa"
+  },
+  "alertas": [
+    "lacunas_na_extracao:5"
+  ],
+  "estado_fluxo": "aguardando_conferencia",
+  "historico_estados": [
+    {
+      "de": null,
+      "para": "descoberto",
+      "data": "2026-11-11T21:46:14+00:00",
+      "por": "coletor",
+      "motivo": "descoberta inicial"
+    },
+    {
+      "de": "descoberto",
+      "para": "baixado",
+      "data": "2026-11-11T21:46:14+00:00",
+      "por": "coletor",
+      "motivo": "página oficial do Planalto salva pelo navegador em 11/11/2026"
+    },
+    {
+      "de": "baixado",
+      "para": "processado",
+      "data": "2026-11-11T21:46:19+00:00",
+      "por": "processador",
+      "motivo": "144 unidades extraídas"
+    },
+    {
+      "de": "processado",
+      "para": "aguardando_conferencia",
+      "data": "2026-11-11T21:46:19+00:00",
+      "por": "processador",
+      "motivo": "pronto para conferência humana"
+    }
+  ],
+  "legislacao_complementar": true,
+  "lacunas_detectadas": [
+    {
+      "pagina": 1,
+      "linha": "Art. 1 ş Fica instituído o Programa Emprega + Mulheres, destinado ŕ inserçăo e ŕ manutençăo de mulheres no mercado de trabalho por meio da implementaçăo das seg"
+    },
+    {
+      "pagina": 1,
+      "linha": "II - ser o benefício concedido ŕ empregada ou ao empregado que possua filhos com até 5 (cinco) anos e 11 (onze) meses de idade, sem prejuízo dos demais preceito"
+    },
+    {
+      "pagina": 1,
+      "linha": "§ 6ş Se ocorrer a dispensa da empregada no transcurso do período de suspensăo ou nos 6 (seis) meses subsequentes ao seu retorno ao trabalho, o empregador pagará"
+    },
+    {
+      "pagina": 1,
+      "linha": "IV - realizaçăo, no mínimo a cada 12 (doze) meses, de açőes de capacitaçăo, de orientaçăo e de sensibilizaçăo dos empregados e das empregadas de todos os níveis"
+    },
+    {
+      "pagina": 1,
+      "linha": "a) ao estímulo ŕ contrataçăo, ŕ ocupaçăo de postos de liderança e ŕ ascensăo profissional de mulheres, especialmente em áreas com baixa participaçăo feminina, t"
+    }
+  ]
+}

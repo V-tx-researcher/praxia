@@ -40,6 +40,7 @@ const PESO_SITUACAO = {
 };
 
 const PESO_REGIONAL = 0.55;
+const PESO_COMPLEMENTAR = 0.5; // D58: CLT, Constituição etc. explicam caminhos, sem tomar o lugar das normas da profissão
 const ESTADOS = { AC: "acre", AL: "alagoas", AP: "amapa", AM: "amazonas", BA: "bahia", CE: "ceara", DF: "distrito federal",
   ES: "espirito santo", GO: "goias", MA: "maranhao", MT: "mato grosso", MS: "mato grosso do sul", MG: "minas gerais",
   PA: "para", PB: "paraiba", PR: "parana", PE: "pernambuco", PI: "piaui", RJ: "rio de janeiro", RN: "rio grande do norte",
@@ -130,7 +131,7 @@ export class IndiceLexical {
       (semPenalidade ? 1 : (PESO_SITUACAO[doc?.situacao] ?? 0.9)) *
       (u.situacao_dispositivo === "revogado" && !semPenalidade ? PESO_SITUACAO.revogada : 1) *
       (doc?.indicacoes_portal?.length && !citada ? PESO_INDICACAO_PORTAL : 1) *
-      (citada ? PESO_CITADA : 1) * pesoRegional;
+      (citada ? PESO_CITADA : 1) * pesoRegional * (doc?.complementar && !citada ? PESO_COMPLEMENTAR : 1);
   }
 
   // Retorna unidades ordenadas por relevância, com os termos que casaram.
