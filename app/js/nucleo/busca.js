@@ -41,7 +41,7 @@ const PESO_SITUACAO = {
 
 const PESO_REGIONAL = 0.55;
 const PESO_COMPLEMENTAR = 0.5; // D58: CLT, Constituição etc. explicam caminhos, sem tomar o lugar das normas da profissão
-const ESTADOS = { AC: "acre", AL: "alagoas", AP: "amapa", AM: "amazonas", BA: "bahia", CE: "ceara", DF: "distrito federal",
+export const ESTADOS = { AC: "acre", AL: "alagoas", AP: "amapa", AM: "amazonas", BA: "bahia", CE: "ceara", DF: "distrito federal",
   ES: "espirito santo", GO: "goias", MA: "maranhao", MT: "mato grosso", MS: "mato grosso do sul", MG: "minas gerais",
   PA: "para", PB: "paraiba", PR: "parana", PE: "pernambuco", PI: "piaui", RJ: "rio de janeiro", RN: "rio grande do norte",
   RS: "rio grande do sul", RO: "rondonia", RR: "roraima", SC: "santa catarina", SP: "sao paulo", SE: "sergipe", TO: "tocantins" };

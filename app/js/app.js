@@ -9,6 +9,7 @@ import { dataAcesso, referenciaABNT } from "./nucleo/referencia.js";
 import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
 import { maisProximoPorCategoria } from "./nucleo/categorias.js";
 import { fontesBussola } from "./nucleo/bussola.js";
+import { recomendacaoFiscalizacao } from "./nucleo/violacao.js";
 import { bloqueioPrivacidade, conferirFrases, escolherFontes, fontesTrilhas, idsCitados, localDe, paraTrecho, partesDoTexto, pedirExplicacao, situacaoLimite, tituloFonte } from "./nucleo/chat.js";
 import { categoriaDe } from "./nucleo/categorias.js";
 import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
@@ -708,9 +709,10 @@ const AJUDA_MODO = {
   biblioteca: "Biblioteca: os documentos oficiais ligados à sua pergunta.",
   trilhas: "Trilhas e Reflexões: uma reflexão da IA a partir de toda a literatura encontrada. Não substitui os Conselhos nem o seu julgamento profissional.",
   bussola: "Bússola Institucional: quem pode lidar com a sua situação — o que cabe ao CRESS, ao CFESS, às comissões e a outras instituições, e o que o CRESS pode fazer por você.",
+  violacao: "Possível violação: o que as normas dizem sobre a situação e como acionar a fiscalização do CRESS do seu território.",
 };
-function modoAtual() { try { return ["trilhas", "bussola"].includes(localStorage.getItem(CHAVE_MODO)) ? localStorage.getItem(CHAVE_MODO) : "biblioteca"; } catch { return "biblioteca"; } }
-const NOMES_MODO = { biblioteca: "Biblioteca", trilhas: "Trilhas e Reflexões", bussola: "Bússola Institucional" };
+function modoAtual() { try { return ["trilhas", "bussola", "violacao"].includes(localStorage.getItem(CHAVE_MODO)) ? localStorage.getItem(CHAVE_MODO) : "biblioteca"; } catch { return "biblioteca"; } }
+const NOMES_MODO = { biblioteca: "Biblioteca", trilhas: "Trilhas e Reflexões", bussola: "Bússola Institucional", violacao: "Possível violação" };
 let modoSelecionado = "biblioteca";
 function aplicarModo(modo) {
   modoSelecionado = NOMES_MODO[modo] ? modo : "biblioteca";
@@ -718,7 +720,7 @@ function aplicarModo(modo) {
   const nome = document.getElementById("nome-modo"); if (nome) nome.textContent = NOMES_MODO[modoSelecionado];
   document.querySelectorAll("#menu-modo [data-modo]").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.modo === modoSelecionado)));
   const p = document.getElementById("pergunta");
-  if (p) p.placeholder = { biblioteca: "Pergunte à PraxIA…", trilhas: "Conte a situação para refletir…", bussola: "Conte a situação: quem pode ajudar?" }[modoSelecionado];
+  if (p) p.placeholder = { biblioteca: "Pergunte à PraxIA…", trilhas: "Conte a situação para refletir…", bussola: "Conte a situação: quem pode ajudar?", violacao: "Conte a situação e o estado onde você trabalha…" }[modoSelecionado];
 }
 function configurarModo() {
   const botao = document.getElementById("botao-modo");
@@ -749,7 +751,7 @@ function renderizarMensagem(msg, r, pergunta) {
   const ori = r.secoes.find((s) => s.id === "orientacoes");
   const modo = modoEscolhido();
   const panRes = r.secoes.find((s) => s.id === "panorama")?.panorama;
-  const fontes = modo === "bussola" && estado.indice
+  const fontes = (modo === "bussola" || modo === "violacao") && estado.indice
     ? fontesBussola(estado.indice, estado.interpretacao, r.pergunta, fund?.evidencias || [])
     : modo === "trilhas"
     ? fontesTrilhas(fund?.evidencias || [], ori?.orientacoes || [], panRes)
@@ -762,6 +764,7 @@ function renderizarMensagem(msg, r, pergunta) {
   if (!fontes.length) {
     corpo.append(el("p", {}, "Não encontrei, nos documentos oficiais da PraxIA, um trecho que trate diretamente disso. " +
       "Tente escrever de outro jeito ou procure o CRESS da sua região."));
+    if (modo === "violacao") msg.append(cartaoFiscalizacao(pergunta));
     return;
   }
   const mostrarFontes = (citadas) => {
@@ -775,6 +778,8 @@ function renderizarMensagem(msg, r, pergunta) {
 
   const pan = r.secoes.find((s) => s.id === "panorama")?.panorama;
   if (pan) { const b = blocoPanorama(pan); if (modo === "biblioteca") b.open = true; extras.append(b); }
+  const fiscal = modo === "violacao" ? cartaoFiscalizacao(pergunta) : null;
+  if (fiscal) msg.insertBefore(fiscal, blocoFontes);
 
   // Perguntas parecidas (seletor): discretas, no fim da resposta.
   const parecidas = sugestoesIntencao(pergunta).filter((s) => s.q.trim().toLowerCase() !== pergunta.trim().toLowerCase());
@@ -787,7 +792,7 @@ function renderizarMensagem(msg, r, pergunta) {
   const pedir = async () => {
     const s = situacaoLimite(cfg);
     if (!s.pode) return semIA(`${s.motivo} Enquanto isso, estes são os documentos oficiais mais próximos da sua pergunta:`);
-    corpo.replaceChildren(el("p", { classe: "pensando" }, modo === "bussola" ? "Procurando quem pode lidar com essa situação…" : modo === "trilhas"
+    corpo.replaceChildren(el("p", { classe: "pensando" }, modo === "violacao" ? "Lendo o que as normas dizem sobre essa situação…" : modo === "bussola" ? "Procurando quem pode lidar com essa situação…" : modo === "trilhas"
       ? `Lendo ${fontes.length} trechos da literatura encontrada…` : "Lendo os trechos oficiais encontrados…"));
     blocoFontes.replaceChildren();
     const resp = await pedirExplicacao(cfg, r.pergunta, fontes.map(paraTrecho), modo);
@@ -797,7 +802,9 @@ function renderizarMensagem(msg, r, pergunta) {
         ? el("button", { type: "button", classe: "ref", "aria-label": `ver fonte ${p.valor}`, onclick: () => abrirFonte(pref, p.valor) }, p.valor)
         : p.tipo === "aviso" ? el("span", { classe: "aviso-frase", title: "A PraxIA não encontrou, nos trechos citados, apoio claro para esta frase." }, `⚠ ${p.valor}`)
         : p.valor)))),
-      el("p", { classe: "nota-ia" }, modo === "bussola"
+      el("p", { classe: "nota-ia" }, modo === "violacao"
+        ? "Leitura automática (modo Possível violação), não conferida. Não é decisão sobre o caso: quem avalia é a fiscalização do CRESS."
+        : modo === "bussola"
         ? "Orientação automática (modo Bússola Institucional), não conferida. As instituições externas são informação geral: confirme com cada órgão. Não substitui o atendimento do CRESS da sua região."
         : modo === "trilhas"
         ? "Reflexão automática (modo Trilhas e Reflexões), não conferida. Não substitui o CFESS, os CRESS, as demais entidades nem o julgamento profissional. Confira as fontes abaixo."
@@ -811,15 +818,29 @@ function renderizarMensagem(msg, r, pergunta) {
   if (bloqueio) return semIA(`${bloqueio} Mesmo assim, estes são os documentos oficiais mais próximos:`);
   if (consentiu()) return pedir();
   corpo.append(
-    el("p", {}, modo === "bussola"
+    el("p", {}, modo === "violacao"
+      ? `Encontrei ${fontes.length} trechos de normas ligados a essa situação. Quer que a IA explique o que pode estar em jogo?`
+      : modo === "bussola"
       ? `Encontrei ${fontes.length} trechos sobre competências do Conjunto CFESS-CRESS ligados a isso. Quer que a IA explique quem pode lidar com essa situação?`
       : `Encontrei ${fontes.length} trechos da literatura oficial sobre isso. Quer que a IA escreva uma reflexão cautelosa a partir deles?`),
     el("p", { classe: "ajuda" }, "Para explicar, a pergunta e os trechos encontrados vão ao Gemini, do Google (nível gratuito, em que o Google pode usar o conteúdo). ",
       "Nunca escreva dados sensíveis. ", el("button", { type: "button", classe: "link-botao", onclick: () => $("#aba-sobre-ia").click() }, "Saiba mais")),
     el("div", { classe: "linha-acoes" },
-      el("button", { type: "button", classe: "botao-primario", onclick: () => { definirConsentimento(true); pedir(); } }, modo === "bussola" ? "Sim, orientar" : "Sim, refletir"),
+      el("button", { type: "button", classe: "botao-primario", onclick: () => { definirConsentimento(true); pedir(); } }, modo === "violacao" ? "Sim, explicar" : modo === "bussola" ? "Sim, orientar" : "Sim, refletir"),
       el("button", { type: "button", classe: "botao", onclick: () => semIA("Tudo bem. Estes são os documentos oficiais mais próximos da sua pergunta:") }, "Só os documentos")));
   mostrarFontes(null);
+}
+
+// D59: cartão fixo do modo Possível violação (sem IA; aparece sempre).
+function cartaoFiscalizacao(pergunta) {
+  const f = recomendacaoFiscalizacao(pergunta);
+  return el("aside", { classe: "cartao-fiscal", role: "note" },
+    el("p", { classe: "cartao-fiscal-titulo" }, f.titulo),
+    el("p", {}, f.texto),
+    el("p", {}, f.comoAchar),
+    f.cress.length ? el("p", {}, ...f.cress.flatMap((c, i) => [i ? " · " : "",
+      el("a", { href: c.busca, target: "_blank", rel: "noopener noreferrer" }, `Buscar contato da fiscalização do ${c.sigla}`)])) : null,
+    f.semUF ? el("p", { classe: "ajuda" }, "Dica: diga o estado onde você trabalha (por exemplo, \"trabalho em Minas Gerais\") para a PraxIA indicar o CRESS certo.") : null);
 }
 
 // Consentimento dado uma vez neste navegador (pode ser retirado na aba "Sobre a IA").

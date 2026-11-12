@@ -135,7 +135,7 @@ export function partesDoTexto(texto, idsValidos) {
 const FALA_DE_DOCUMENTO = /\b(normas?|resolu[cç](?:[aã]o|[oõ]es)|orienta[cç](?:[aã]o|[oõ]es)|literatura|c[oó]digo|lei|nota[s]? t[eé]cnica|parecer(?:es)?|cartilhas?|documentos? (?:oficiais|das entidades)|(?:o|a)s? (?:cfess|cress|abepss) (?:orienta|indica|afirma|recomenda|prev[eê]|estabelece|determina)|prev[eê]|estabelece|determina|disp[oõ]e|aponta)/i;
 const FECHO = /n[aã]o substitui, de nenhuma maneira/i;
 // Frases de ressalva ("tais orientações não substituem as normas") não afirmam conteúdo: não pedem fonte.
-const RESSALVA = /n[aã]o (substitu|s[aã]o normas?|tem for[cç]a)|servem? (de|como) subs[ií]dio|confira|consulte o cress/i;
+const RESSALVA = /n[aã]o (substitu|s[aã]o normas?|tem for[cç]a)|servem? (de|como) subs[ií]dio|confira|consulte o cress|entr(e|ar) em contato|procur(e|ar) (a|o) (fiscaliza|agente)|n[aã]o [eé] decis[aã]o/i;
 const REF = /\[([EOPB]\d{1,2}(?:\s*[,;]\s*[EOPB]\d{1,2})*)\]/g;
 const radical = (w) => w.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().slice(0, 6);
 const palavras = (t) => (String(t).match(/[\p{L}]{5,}/gu) || []).map(radical);

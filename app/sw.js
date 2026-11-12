@@ -5,7 +5,7 @@
 // Estratégia única: rede primeiro, com limite de espera; sem resposta, cópia local.
 // (Guardar o código e buscar a página na rede deixaria versões desencontradas.)
 // Versão nova não assume sozinha: a página mostra "Atualizar agora" (mensagem PULAR_ESPERA).
-const VERSAO = "gpecss-v0.13.0";
+const VERSAO = "gpecss-v0.14.0";
 const ESPERA_REDE_MS = 4000;
 const ESSENCIAIS = [
   "./", "index.html", "css/style.css", "manifest.webmanifest",
@@ -15,7 +15,7 @@ const ESSENCIAIS = [
   "js/nucleo/texto.js", "js/nucleo/sinonimos.js", "js/nucleo/busca.js", "js/nucleo/classificacao.js",
   "js/nucleo/privacidade.js", "js/nucleo/vigencia.js", "js/nucleo/orientacao.js", "js/nucleo/evidencias.js",
   "js/nucleo/verificacao.js", "js/nucleo/resposta.js", "js/nucleo/rotulos.js", "js/nucleo/snowball-pt.js",
-  "js/nucleo/normas-citadas.js", "js/nucleo/panorama.js", "js/nucleo/bussola.js", "js/nucleo/coloquial.js", "js/nucleo/referencia.js", "js/nucleo/guia.js", "js/nucleo/semantica.js",
+  "js/nucleo/normas-citadas.js", "js/nucleo/panorama.js", "js/nucleo/bussola.js", "js/nucleo/violacao.js", "js/nucleo/coloquial.js", "js/nucleo/referencia.js", "js/nucleo/guia.js", "js/nucleo/semantica.js",
   "js/nucleo/interpretacao.js", "js/nucleo/categorias.js", "js/nucleo/chat.js", "js/seletor/data.js", "js/seletor/engine.js", "js/seletor/contexto.js",
   "js/llm/prompt.js", "js/llm/motor.js", "js/llm/capacidade.js",
   "dados/acervo-publico.json",

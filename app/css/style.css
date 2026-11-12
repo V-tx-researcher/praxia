@@ -752,3 +752,9 @@ progress { width: 100%; height: 10px; accent-color: var(--acento); }
 /* D56: aviso em frase sem fonte ou com fonte fraca */
 .aviso-frase { display: inline-block; margin-left: .3rem; padding: 0 .35rem; border-radius: .3rem; font-size: .78rem; font-weight: 600;
   background: color-mix(in srgb, #d97706 18%, transparent); color: inherit; }
+
+/* D59: cartão da fiscalização no modo Possível violação */
+.cartao-fiscal { margin: .75rem 0; padding: .75rem 1rem; border-left: 4px solid var(--alerta-borda); background: var(--alerta-fundo); color: var(--alerta-texto); border-radius: var(--raio-pequeno); }
+.cartao-fiscal a { color: inherit; }
+.cartao-fiscal p { margin: .35rem 0; }
+.cartao-fiscal-titulo { font-weight: 700; }
