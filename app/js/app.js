@@ -10,6 +10,7 @@ import { EXEMPLOS, GLOSSARIO } from "./nucleo/guia.js";
 import { maisProximoPorCategoria } from "./nucleo/categorias.js";
 import { fontesBussola } from "./nucleo/bussola.js";
 import { recomendacaoFiscalizacao } from "./nucleo/violacao.js";
+import { comContexto } from "./nucleo/chat.js";
 import { bloqueioPrivacidade, conferirFrases, escolherFontes, fontesTrilhas, idsCitados, localDe, paraTrecho, partesDoTexto, pedirExplicacao, situacaoLimite, tituloFonte } from "./nucleo/chat.js";
 import { categoriaDe } from "./nucleo/categorias.js";
 import { ASSUNTOS_ROTULOS } from "./nucleo/rotulos.js";
@@ -587,7 +588,8 @@ function carregarCandidatas() {
 // Tela de assistente: histórico de perguntas e respostas nesta aba (nada é gravado). Cada resposta
 // traz a explicação da IA (se ativada) e, embaixo, só as fontes usadas, com o trecho literal e o
 // link do documento original.
-const conversa = { n: 0 };
+const conversa = { n: 0, anterior: "" };
+
 
 async function aoConsultar(ev) {
   ev.preventDefault();
@@ -614,13 +616,15 @@ async function aoConsultar(ev) {
   const lista = el("ol");
   $("#progresso").replaceChildren(el("p", {}, "Etapas da análise:"), lista);
   try {
-    const r = await consultar(estado.indice, pergunta, {
+    const consulta = comContexto(pergunta, conversa.anterior);
+    conversa.anterior = consulta;
+    const r = await consultar(estado.indice, consulta, {
       semantica: estado.semantica,
       interpretacao: estado.interpretacao,
       aoProgresso: (nome, detalhe) => lista.append(el("li", {}, `${nome}: ${detalhe}`)),
     });
     if (ambienteLocal()) window.ultimasEtapas = r.etapas; // diagnóstico em teste local
-    renderizarMensagem(msg, r, pergunta);
+    renderizarMensagem(msg, r, pergunta, consulta);
   } catch (erro) {
     msg.replaceChildren(el("p", { classe: "alerta" }, `Não foi possível concluir a consulta: ${erro.message}`));
   } finally {
@@ -637,6 +641,7 @@ function ajustarAltura() {
 
 function novaConversa() {
   $("#conversa").replaceChildren();
+  conversa.anterior = "";
   $("#boas-vindas").hidden = false;
   $("#nova-conversa").hidden = true;
   $("#pergunta").focus();
@@ -745,7 +750,7 @@ function configurarModo() {
 }
 function modoEscolhido() { return modoSelecionado; }
 
-function renderizarMensagem(msg, r, pergunta) {
+function renderizarMensagem(msg, r, pergunta, consulta = pergunta) {
   const pref = `m${++conversa.n}`;
   const fund = r.secoes.find((s) => s.id === "fundamentacao");
   const ori = r.secoes.find((s) => s.id === "orientacoes");
@@ -764,7 +769,7 @@ function renderizarMensagem(msg, r, pergunta) {
   if (!fontes.length) {
     corpo.append(el("p", {}, "Não encontrei, nos documentos oficiais da PraxIA, um trecho que trate diretamente disso. " +
       "Tente escrever de outro jeito ou procure o CRESS da sua região."));
-    if (modo === "violacao") msg.append(cartaoFiscalizacao(pergunta));
+    if (modo === "violacao") msg.append(cartaoFiscalizacao(consulta));
     return;
   }
   const mostrarFontes = (citadas) => {
@@ -778,7 +783,7 @@ function renderizarMensagem(msg, r, pergunta) {
 
   const pan = r.secoes.find((s) => s.id === "panorama")?.panorama;
   if (pan) { const b = blocoPanorama(pan); if (modo === "biblioteca") b.open = true; extras.append(b); }
-  const fiscal = modo === "violacao" ? cartaoFiscalizacao(pergunta) : null;
+  const fiscal = modo === "violacao" ? cartaoFiscalizacao(consulta) : null;
   if (fiscal) msg.insertBefore(fiscal, blocoFontes);
 
   // Perguntas parecidas (seletor): discretas, no fim da resposta.

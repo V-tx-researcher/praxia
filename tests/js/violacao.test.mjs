@@ -27,3 +27,24 @@ test("não traz telefone nem dados da pergunta no link de busca", () => {
   assert.doesNotMatch(r.cress[0].busca, /Maria|sigilo/);
   assert.doesNotMatch(r.texto, /\d{4,}/);
 });
+
+const { conferirFrases, dividirFrases, comContexto } = await import("../../app/js/nucleo/chat.js");
+
+test("não quebra frase em nº 1.114/2025 nem em Art. 16 (aviso falso de sem fonte)", () => {
+  const t = "Lidar com desrespeito no ambiente de trabalho é desgastante. Tudo indica que as relações em equipes devem se pautar pela observância das normativas, conforme a Resolução nº 1.114/2025 [B2]. Além disso, o Código de Ética, em seu Art. 16, parágrafo único, estabelece limites [B5]. É fundamental a leitura integral dessas normativas para confirmar como a profissão se orienta.";
+  assert.equal(dividirFrases(t).length, 4);
+  const fontes = new Map([["B2", "relações em equipes normativas observância resolução"], ["B5", "código ética limites parágrafo único informações"]]);
+  assert.doesNotMatch(conferirFrases(t, fontes), /⟦SF⟧/);
+});
+
+test("ainda avisa frase sobre norma sem fonte", () => {
+  const t = "Entendo sua dúvida. A Resolução do CFESS estabelece que a chefia deve punir quem ofende colegas.";
+  assert.match(conferirFrases(t, new Map()), /⟦SF⟧/);
+});
+
+test("continuação curta herda a pergunta anterior; pergunta nova não", () => {
+  const ant = "Um outro profissional falou que eu não presto para ser assistente social";
+  assert.match(comContexto("Mas foi outro assistente social que me falou isso", ant), /não presto/);
+  assert.equal(comContexto("Existe resolução sobre teletrabalho para assistentes sociais em hospitais públicos do estado?", ant).includes("presto"), false);
+  assert.equal(comContexto("qualquer coisa", ""), "qualquer coisa");
+});

@@ -22,6 +22,8 @@ const ASSUNTOS = [
   [/\bassin\w*/i, "assinar documento técnico atribuição privativa"],
   [/\b(psic[oó]log\w*|enfermeir\w*|m[eé]dic\w*|pedagog\w*)\b/i, "outros profissionais equipe multiprofissional"],
   [/\b(ass[eé]dio|humilha\w*|perseg\w*|grit\w*)\b/i, "assédio moral condições de trabalho denúncia"],
+  [/(n[aã]o presto|n[aã]o serve|incompetente|me (ofendeu|xingou|desrespeitou|difamou|humilhou)|falou mal|fala mal|desrespeit\w*|difam\w*|xing\w*|ofend\w*)/i,
+    "prejudicar deliberadamente o trabalho e a reputação de outro profissional crítica pública a colega relações com assistentes sociais e outros profissionais"],
   [/\b(demiss\w*|demit\w*|sal[aá]rio|carteira assinada|clt|contrato)\b/i, "relação de trabalho empregador"],
   [/\b(abre|abriu|mexe|mexeu|fu[cç]a|olha|v[eê]) (meus|os) (arquivos|pap[eé]is|documentos|prontu[aá]rios)\b/i,
     "acesso ao material técnico sigiloso inviolabilidade"],

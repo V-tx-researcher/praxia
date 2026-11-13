@@ -135,16 +135,48 @@ export function partesDoTexto(texto, idsValidos) {
 const FALA_DE_DOCUMENTO = /\b(normas?|resolu[cç](?:[aã]o|[oõ]es)|orienta[cç](?:[aã]o|[oõ]es)|literatura|c[oó]digo|lei|nota[s]? t[eé]cnica|parecer(?:es)?|cartilhas?|documentos? (?:oficiais|das entidades)|(?:o|a)s? (?:cfess|cress|abepss) (?:orienta|indica|afirma|recomenda|prev[eê]|estabelece|determina)|prev[eê]|estabelece|determina|disp[oõ]e|aponta)/i;
 const FECHO = /n[aã]o substitui, de nenhuma maneira/i;
 // Frases de ressalva ("tais orientações não substituem as normas") não afirmam conteúdo: não pedem fonte.
-const RESSALVA = /n[aã]o (substitu|s[aã]o normas?|tem for[cç]a)|servem? (de|como) subs[ií]dio|confira|consulte o cress|entr(e|ar) em contato|procur(e|ar) (a|o) (fiscaliza|agente)|n[aã]o [eé] decis[aã]o/i;
+const RESSALVA = /n[aã]o (substitu|s[aã]o normas?|tem for[cç]a)|servem? (de|como) subs[ií]dio|confira|consulte o cress|entr(e|ar) em contato|procur(e|ar) (a|o) (fiscaliza|agente)|n[aã]o [eé] decis[aã]o|leitura integral|consulta direta|os trechos (fornecidos |encontrados )?n[aã]o (tratam|abordam|falam)|n[aã]o (encontrei|h[aá]) (trecho|norma)/i;
 const REF = /\[([EOPB]\d{1,2}(?:\s*[,;]\s*[EOPB]\d{1,2})*)\]/g;
 const radical = (w) => w.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().slice(0, 6);
 const palavras = (t) => (String(t).match(/[\p{L}]{5,}/gu) || []).map(radical);
 const VAZIAS = new Set(["assist", "social", "servic", "profis", "trabal", "possiv", "indica", "tambem", "pessoa", "situac", "questa", "segund", "acordo", "podem", "atuaca", "entida", "orient", "normas", "litera", "docume"]);
 
+// D60: divide em frases sem quebrar em "nº 1.114/2025", "Art. 16", "arts.", "inc.", "p. 3".
+// Só é fim de frase o ponto (ou ! ?) seguido de espaço e letra maiúscula, ou do fim do parágrafo,
+// e que não venha depois de uma abreviação.
+const ABREV = /(?:^|[\s(])(?:arts?|inc|incs|al|n|nº|n°|p|pp|par|res|cf|ex|sr|sra|dr|dra|prof|vol|ed|cap)\.$/i;
+export function dividirFrases(par) {
+  const frases = [];
+  let ini = 0;
+  const re = /[.!?]+(?=\s+["“(]?[A-ZÁÉÍÓÚÂÊÔÃÕÇ]|\s*$)/g;
+  for (const m of par.matchAll(re)) {
+    const fim = m.index + m[0].length;
+    if (m[0] === "." && ABREV.test(par.slice(Math.max(0, m.index - 8), fim))) continue;
+    const esp = par.slice(fim).match(/^\s*/)[0].length;
+    frases.push(par.slice(ini, fim + esp));
+    ini = fim + esp;
+  }
+  if (ini < par.length) frases.push(par.slice(ini));
+  return frases.length ? frases : [par];
+}
+
+// D60: continuação curta ("mas foi outro assistente social") herda a pergunta anterior, para a busca
+// e a IA entenderem do que se trata. O balão mostra só o que a pessoa escreveu.
+export function comContexto(pergunta, anterior) {
+  const t = String(pergunta).trim();
+  if (!anterior) return t;
+  const curta = t.split(/\s+/).length <= 10 && /(^|[^\p{L}])(isso|disso|nisso|ele|ela|eles|elas|dele|dela|esse caso|essa situa)(?![\p{L}])/iu.test(t);
+  const continua = /^(mas|e|e se|ent[aã]o|ainda|nesse|nessa|neste|nesta|isso|essa|esse|no caso)(?=[\s,?!.]|$)/i.test(t);
+  return curta || continua ? `${String(anterior).slice(-400)} — ${t}` : t;
+}
+
+const TEM_REF = /\[[EOPB]\d/;
 export function conferirFrases(texto, fontesPorId) {
-  return String(texto).split(/\n{2,}/).map((par) => {
-    const frases = par.match(/[^.!?]+(?:[.!?]+|$)\s*/g) || [par];
-    return frases.map((f) => {
+  return String(texto).split(/\n{2,}/).map((par, ip) => {
+    const frases = dividirFrases(par);
+    return frases.map((f, i) => {
+      // A 1ª frase da resposta é o acolhimento ("Lidar com desrespeito é desgastante"): não pede fonte.
+      if (ip === 0 && i === 0 && !TEM_REF.test(f)) return f;
       if (FECHO.test(f) || f.trim().length < 25) return f;
       const ids = [...f.matchAll(REF)].flatMap((m) => m[1].split(/\s*[,;]\s*/)).filter((id) => fontesPorId.has(id));
       const fim = f.match(/\s*$/)[0];
