@@ -6749,6 +6749,36 @@
    "normas_revogadas_citadas": [],
    "paginas": 36,
    "trechos": 92
+  },
+  {
+   "id": "cfess-conselho-x-sindicato-2025",
+   "orgao": "CFESS",
+   "tipo": "cartilha",
+   "ano": 2025,
+   "titulo": "Conselho profissional x sindicato: você sabe a diferença?",
+   "url": "https://www.cfess.org.br",
+   "fonte_oficial_url": "https://www.cfess.org.br",
+   "assuntos": [
+    "competência do conselho",
+    "sindicato",
+    "relações de trabalho",
+    "salário",
+    "jornada de 30 horas"
+   ],
+   "sha256": "6021c67d816ffc9daf10dde862080ec5b49025d2bafec12beed64d10458a9669",
+   "data_coleta": "2026-11-16T12:31:19+00:00",
+   "bytes": 3016554,
+   "alertas": [],
+   "conferido": false,
+   "origem_acervo": {
+    "id_inventario": null,
+    "tipo_inventario": "Notícia do site do CFESS (29/07/2025), salva em PDF"
+   },
+   "qualidade_extracao": "boa",
+   "licenca_declarada": "© Copyright 2026 - Direitos reservados ao CFESS",
+   "normas_revogadas_citadas": [],
+   "paginas": 3,
+   "trechos": 10
   }
  ]
 }

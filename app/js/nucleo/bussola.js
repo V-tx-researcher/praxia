@@ -16,6 +16,8 @@ const PARTES_COMPETENCIA = [/^Lei nº 8\.662/, /Política Nacional de Fiscaliza�
 const ehCompetencia = (u) => PARTES_COMPETENCIA.some((re) => re.test(u.parte || "")) || /512-2007/.test(u.doc);
 
 export const MAX_BUSSOLA = 20;
+const TRABALHISTA = /sal[aá]ri|piso|jornada|30 ?h|horas|demi(ss|t)|contrat|clt|f[eé]rias|rescis|empregador|sindicat|ass[eé]dio|concurso|v[ií]nculo/i;
+const TERMOS_SINDICATO = "sindicato conselho profissional diferença o que faz cada um representação trabalhista condições de trabalho";
 
 export function fontesBussola(indice, interpretacao, perguntaOriginal, evidencias = [], { max = MAX_BUSSOLA } = {}) {
   const pergunta = normalizarColoquial(perguntaOriginal);
@@ -39,6 +41,12 @@ export function fontesBussola(indice, interpretacao, perguntaOriginal, evidencia
   }
   // 3. Orientações das entidades sobre fiscalização e competências (camada 2).
   if (interpretacao?.n) {
+    // D61: questão de trabalho (salário, jornada, demissão…): primeiro o que explica a diferença entre
+    // Conselho e sindicato (ex.: página do CFESS "Conselho profissional x sindicato").
+    if (TRABALHISTA.test(pergunta)) {
+      const bt = interpretacao.buscar(TERMOS_SINDICATO, { limite: 20 }).resultados;
+      for (const r of bt.slice(0, 2)) por(montarOrientacao(interpretacao, r, 0));
+    }
     const b2 = interpretacao.buscar(`${pergunta} ${TERMOS_COMPETENCIA}`, { limite: 60 }).resultados;
     for (const r of b2.slice(0, 4)) por(montarOrientacao(interpretacao, r, 0));
   }

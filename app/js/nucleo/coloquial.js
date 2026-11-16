@@ -24,6 +24,8 @@ const ASSUNTOS = [
   [/\b(ass[eé]dio|humilha\w*|perseg\w*|grit\w*)\b/i, "assédio moral condições de trabalho denúncia"],
   [/(n[aã]o presto|n[aã]o serve|incompetente|me (ofendeu|xingou|desrespeitou|difamou|humilhou)|falou mal|fala mal|desrespeit\w*|difam\w*|xing\w*|ofend\w*)/i,
     "prejudicar deliberadamente o trabalho e a reputação de outro profissional crítica pública a colega relações com assistentes sociais e outros profissionais"],
+  [/(reduz\w* (o |meu |do )?sal[aá]rio|redu[cç][aã]o (do |de )?sal[aá]rio|cortar (o |meu )?sal[aá]rio|baixar (o |meu )?sal[aá]rio)/i,
+    "vedada a redução do salário adequação da jornada de trabalho 30 horas sindicato"],
   [/\b(demiss\w*|demit\w*|sal[aá]rio|carteira assinada|clt|contrato)\b/i, "relação de trabalho empregador"],
   [/\b(abre|abriu|mexe|mexeu|fu[cç]a|olha|v[eê]) (meus|os) (arquivos|pap[eé]is|documentos|prontu[aá]rios)\b/i,
     "acesso ao material técnico sigiloso inviolabilidade"],

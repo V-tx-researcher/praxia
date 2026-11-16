@@ -48,3 +48,13 @@ test("continuação curta herda a pergunta anterior; pergunta nova não", () => 
   assert.equal(comContexto("Existe resolução sobre teletrabalho para assistentes sociais em hospitais públicos do estado?", ant).includes("presto"), false);
   assert.equal(comContexto("qualquer coisa", ""), "qualquer coisa");
 });
+
+const { partesDoTexto } = await import("../../app/js/nucleo/chat.js");
+test("### vira título e itens viram parágrafos próprios", () => {
+  const t = "Entendo.\n### O que o CRESS pode fazer nesta situação\n- Orientar pela COFI [B1].\n- Fiscalizar a instituição [B2].\n### Outros órgãos que podem colaborar\n- Sindicato: negociar salário (informação geral: confirme no órgão).";
+  const partes = partesDoTexto(t, new Set(["B1", "B2"]));
+  const titulos = partes.filter((p) => p[0].tipo === "titulo").map((p) => p[0].valor);
+  assert.deepEqual(titulos, ["O que o CRESS pode fazer nesta situação", "Outros órgãos que podem colaborar"]);
+  assert.ok(partes.some((p) => p[0].valor?.startsWith("• Orientar")));
+  assert.ok(!JSON.stringify(partes).includes("###"));
+});

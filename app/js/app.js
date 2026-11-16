@@ -711,13 +711,13 @@ function blocoPanorama(pan) {
 // fundamentada em toda a literatura encontrada, sempre com os limites da ferramenta.
 const CHAVE_MODO = "praxia-modo";
 const AJUDA_MODO = {
-  biblioteca: "Biblioteca: os documentos oficiais ligados à sua pergunta.",
-  trilhas: "Trilhas e Reflexões: uma reflexão da IA a partir de toda a literatura encontrada. Não substitui os Conselhos nem o seu julgamento profissional.",
-  bussola: "Bússola Institucional: quem pode lidar com a sua situação — o que cabe ao CRESS, ao CFESS, às comissões e a outras instituições, e o que o CRESS pode fazer por você.",
-  violacao: "Possível violação: o que as normas dizem sobre a situação e como acionar a fiscalização do CRESS do seu território.",
+  biblioteca: "Existe norma para isso? Os documentos oficiais ligados à sua pergunta, sem IA.",
+  trilhas: "Como pensar essa situação? Uma reflexão da IA a partir de toda a literatura encontrada. Não substitui os Conselhos nem o seu julgamento profissional.",
+  bussola: "Quem pode me ajudar? O que o CRESS pode fazer na sua situação e quais outros órgãos podem colaborar.",
+  violacao: "Isso pode ser violação? O que as normas dizem sobre a situação e como acionar a fiscalização do CRESS do seu território.",
 };
 function modoAtual() { try { return ["trilhas", "bussola", "violacao"].includes(localStorage.getItem(CHAVE_MODO)) ? localStorage.getItem(CHAVE_MODO) : "biblioteca"; } catch { return "biblioteca"; } }
-const NOMES_MODO = { biblioteca: "Biblioteca", trilhas: "Trilhas e Reflexões", bussola: "Bússola Institucional", violacao: "Possível violação" };
+const NOMES_MODO = { biblioteca: "Existe norma para isso?", trilhas: "Como pensar essa situação?", bussola: "Quem pode me ajudar?", violacao: "Isso pode ser violação?" };
 let modoSelecionado = "biblioteca";
 function aplicarModo(modo) {
   modoSelecionado = NOMES_MODO[modo] ? modo : "biblioteca";
@@ -803,22 +803,24 @@ function renderizarMensagem(msg, r, pergunta, consulta = pergunta) {
     const resp = await pedirExplicacao(cfg, r.pergunta, fontes.map(paraTrecho), modo);
     if (resp.erro) return semIA(`${resp.erro} Estes são os documentos oficiais mais próximos da sua pergunta:`);
     corpo.replaceChildren(
-      ...partesDoTexto(conferirFrases(resp.texto, new Map(fontes.map((f) => [f.id, f.texto]))), ids).map((par) => el("p", {}, ...par.map((p) => (p.tipo === "ref"
+      ...partesDoTexto(conferirFrases(resp.texto, new Map(fontes.map((f) => [f.id, f.texto]))), ids).map((par) => par[0]?.tipo === "titulo"
+        ? el("h4", { classe: "titulo-resposta" }, par[0].valor)
+        : el("p", {}, ...par.map((p) => (p.tipo === "ref"
         ? el("button", { type: "button", classe: "ref", "aria-label": `ver fonte ${p.valor}`, onclick: () => abrirFonte(pref, p.valor) }, p.valor)
         : p.tipo === "aviso" ? el("span", { classe: "aviso-frase", title: "A PraxIA não encontrou, nos trechos citados, apoio claro para esta frase." }, `⚠ ${p.valor}`)
         : p.valor)))),
       el("p", { classe: "nota-ia" }, modo === "violacao"
-        ? "Leitura automática (modo Possível violação), não conferida. Não é decisão sobre o caso: quem avalia é a fiscalização do CRESS."
+        ? "Leitura automática (modo Isso pode ser violação?), não conferida. Não é decisão sobre o caso: quem avalia é a fiscalização do CRESS."
         : modo === "bussola"
-        ? "Orientação automática (modo Bússola Institucional), não conferida. As instituições externas são informação geral: confirme com cada órgão. Não substitui o atendimento do CRESS da sua região."
+        ? "Orientação automática (modo Quem pode me ajudar?), não conferida. As instituições externas são informação geral: confirme com cada órgão. Não substitui o atendimento do CRESS da sua região."
         : modo === "trilhas"
-        ? "Reflexão automática (modo Trilhas e Reflexões), não conferida. Não substitui o CFESS, os CRESS, as demais entidades nem o julgamento profissional. Confira as fontes abaixo."
+        ? "Reflexão automática (modo Como pensar essa situação?), não conferida. Não substitui o CFESS, os CRESS, as demais entidades nem o julgamento profissional. Confira as fontes abaixo."
         : "Resposta automática, não conferida. Confira as fontes abaixo."));
     mostrarFontes(idsCitados(resp.texto, ids));
   };
 
   const bloqueio = bloqueioPrivacidade(pergunta);
-  if (modo === "biblioteca") return semIA("Modo Biblioteca: estes são os documentos oficiais ligados à sua pergunta. Abra o trecho ou o documento original para conferir. Para uma reflexão a partir deles, mude para o modo Trilhas e Reflexões; para saber quem pode lidar com a situação, use o modo Bússola Institucional.");
+  if (modo === "biblioteca") return semIA("Estes são os documentos oficiais ligados à sua pergunta. Abra o trecho ou o documento original para conferir. Para uma reflexão a partir deles, escolha o modo \"Como pensar essa situação?\"; para saber o que o CRESS e outros órgãos podem fazer, escolha \"Quem pode me ajudar?\".");
   if (!chatAtivo()) return semIA("Estes são os documentos oficiais mais próximos da sua pergunta. Abra o trecho ou o documento original para conferir.");
   if (bloqueio) return semIA(`${bloqueio} Mesmo assim, estes são os documentos oficiais mais próximos:`);
   if (consentiu()) return pedir();
